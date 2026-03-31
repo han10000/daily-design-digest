@@ -14,13 +14,13 @@
       "language": "Python",
       "license": "MIT",
       "topics": [],
-      "stars": 31607,
+      "stars": 31760,
       "repo_desc": "Open-Source Frontier Voice AI",
       "homepage": "https://microsoft.github.io/VibeVoice/",
       "how_to_install": "",
       "how_to_use": "",
       "features": "",
-      "category": "AI Framework"
+      "category": "Creative & Media"
     },
     {
       "rank": 2,
@@ -39,7 +39,7 @@
         "guide",
         "tutorial"
       ],
-      "stars": 10755,
+      "stars": 10894,
       "repo_desc": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "homepage": "",
       "how_to_install": "",
@@ -66,7 +66,7 @@
         "claude",
         "claude-code"
       ],
-      "stars": 17850,
+      "stars": 17884,
       "repo_desc": "Teams-first Multi-agent orchestration for Claude Code",
       "homepage": "https://yeachan-heo.github.io/oh-my-claudecode-website",
       "how_to_install": "**Step 1: Install**\n\nMarketplace/plugin install (recommended for most Claude Code users):\n\n```bash\n/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode\n/plugin install oh-my-claudecode\n```\n\nIf you prefer the npm CLI/runtime path instead of the marketplace flow:\n\n```bash\nnpm i -g oh-my-claude-sisyphus@latest\n```\n\n**Step 2: Setup**\n\n```bash\n/setup\n/omc-setup\n```\n\n**Step 3: Build something**\n\n```\nautopilot: build a REST API for managing tasks\n```\n\nThat's it. Everything else is...",
@@ -93,7 +93,7 @@
         "anthropic",
         "chatgpt"
       ],
-      "stars": 19157,
+      "stars": 19243,
       "repo_desc": "The agent that grows with you",
       "homepage": "https://hermes-agent.nousresearch.com",
       "how_to_install": "```bash\nhermes              # Interactive CLI — start a conversation\nhermes model        # Choose your LLM provider and model\nhermes tools        # Configure which tools are enabled\nhermes config set   # Set individual config values\nhermes gateway      # Start the messaging gateway (Telegram, Discord, etc.)\nhermes setup        # Run the full setup wizard (configures everything at once)\nhermes claw migrate # Migrate from OpenClaw (if coming from OpenClaw)\nhermes update       # Update to the la...",
@@ -120,7 +120,7 @@
         "claude-code",
         "vibe-coding"
       ],
-      "stars": 26902,
+      "stars": 27020,
       "repo_desc": "practice made claude perfect",
       "homepage": "",
       "how_to_install": "",
@@ -145,7 +145,7 @@
         "text-to-speech",
         "video-transition"
       ],
-      "stars": 16738,
+      "stars": 16740,
       "repo_desc": "Translate the video from one language to another and embed dubbing & subtitles.",
       "homepage": "https://pyvideotrans.com",
       "how_to_install": "",
@@ -172,13 +172,13 @@
         "mlops",
         "reinforcement-learning"
       ],
-      "stars": 16051,
+      "stars": 16054,
       "repo_desc": "The absolute trainer to light up AI agents.",
       "homepage": "https://microsoft.github.io/agent-lightning/",
       "how_to_install": "",
       "how_to_use": "",
       "features": "",
-      "category": "AI Framework"
+      "category": "Learning Resource"
     },
     {
       "rank": 8,
@@ -199,7 +199,7 @@
         "ai-webcam",
         "artificial-intelligence"
       ],
-      "stars": 86652,
+      "stars": 86701,
       "repo_desc": "real time face swap and one-click video deepfake with only a single image",
       "homepage": "https://deeplivecam.net/",
       "how_to_install": "This is more likely to work on your computer but will be slower as it utilizes the CPU.\n\n**1. Set up Your Platform**\n\n-   Python (3.11 recommended)\n-   pip\n-   git\n-   [ffmpeg](https://www.youtube.com/watch?v=OlNWCpFdVMA) - ```iex (irm ffmpeg.tc.ht)```\n-   [Visual Studio 2022 Runtimes (Windows)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)\n\n**2. Clone the Repository**\n\n```bash\ngit clone https://github.com/hacksider/Deep-Live-Cam.git\ncd Deep-Live-Cam\n```\n\n**3. Download the Model...",
@@ -220,13 +220,13 @@
       "language": "Python",
       "license": "NOASSERTION",
       "topics": [],
-      "stars": 4098,
+      "stars": 4102,
       "repo_desc": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
       "homepage": null,
       "how_to_install": "```bash",
       "how_to_use": "",
       "features": "",
-      "category": "AI Framework"
+      "category": "Agent & Tools"
     },
     {
       "rank": 10,
@@ -247,13 +247,13 @@
         "fetch",
         "flashfetch"
       ],
-      "stars": 21484,
+      "stars": 21491,
       "repo_desc": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
       "homepage": "",
       "how_to_install": "### Linux\n\nSome distributions package outdated versions of fastfetch. Older versions receive no support, so please always try to use the latest version.\n\n<a href=\"https://repology.org/project/fastfetch/versions\">\n    <img src=\"https://repology.org/badge/vertical-allrepos/fastfetch.svg?columns=2\" alt=\"Packaging status\" align=\"right\">\n</a>\n\n* Ubuntu: [`ppa:zhangsongcui3371/fastfetch`](https://launchpad.net/~zhangsongcui3371/+archive/ubuntu/fastfetch) (Ubuntu 22.04 or newer; latest version)\n* De...",
       "how_to_use": "* Run with default configuration: `fastfetch`\n* Run with [all supported modules](https://github.com/fastfetch-cli/fastfetch/wiki/Support+Status#available-modules) to find what interests you: `fastfetch -c all.jsonc`\n* View all data that fastfetch detects: `fastfetch -s <module1>[:<module2>][:<module3>] --format json`\n* Display help messages: `fastfetch --help`\n* Generate a minimal config file: `fastfetch [-s <module1>[:<module2>]] --gen-config [</path/to/config.jsonc>]`\n    * Use: `--gen-conf...",
       "features": "",
-      "category": "Dev Utility"
+      "category": "Agent & Tools"
     }
   ]
 }

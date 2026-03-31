@@ -163,8 +163,7 @@
         "summary": "HuggingFace 发布年度开源 AI 生态报告（Spring 2026）。几个关键趋势值得产品设计师关注：一、开源模型与闭源模型的能力差距正在快速收窄，Llama、Gemma 系列在多数基准测试上已接近 GPT-4 级别；二、Multimodal 开源模型数量在 6 个月内增长超 300%，视觉理解能力不再是闭源专属；三、模型部署正在向端侧迁移，1-7B 参数量的高效模型成为增长最快的分类；四、中文/多语言模型质量显著提升，非英语市场的 AI 产品能力门槛下降。总体方向：AI 能力的商品化速度比大多数行业预期快得多，竞争差异将越来越多体现在数据和产品设计层面而非底层模型。",
         "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
         "why": "设计 AI 产品的人需要有 AI 能力格局的基本认知：什么现在可以做、什么还不行、趋势往哪走。这份报告是比较可靠的年度参考，比道听途说靠谱很多。",
-        "publishedAt": "2026-03-17",
-        "image": "https://cdn-uploads.huggingface.co/production/uploads/62543749b777cd32720675c2/6SncRLSzbOb4IubAj2qyN.png"
+        "publishedAt": "2026-03-17"
       }
     ]
   },
