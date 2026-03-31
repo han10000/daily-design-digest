@@ -204,11 +204,12 @@
   .skill-tag[data-tag="AI"] { background: #EEF2FF; color: #4338CA; }
   .skill-tag[data-tag="design"] { background: #FDF2F8; color: #BE185D; }
   .skill-tag[data-tag="workflow"] { background: #ECFDF5; color: #047857; }
-  .skill-tag[data-tag="Agent & Tools"] { background: #EEF2FF; color: #4338CA; }
-  .skill-tag[data-tag="AI Framework"] { background: #F0FDFA; color: #0D9488; }
-  .skill-tag[data-tag="Creative & Media"] { background: #FDF2F8; color: #BE185D; }
-  .skill-tag[data-tag="Learning Resource"] { background: #FFFBEB; color: #B45309; }
-  .skill-tag[data-tag="Dev Utility"] { background: #ECFDF5; color: #047857; }
+  .skill-tag[data-tag="Figma & Plugins"] { background: #EEF2FF; color: #4338CA; }
+  .skill-tag[data-tag="Design-to-Code"] { background: #FDF2F8; color: #BE185D; }
+  .skill-tag[data-tag="Agent Skills for Design"] { background: #F0FDFA; color: #0D9488; }
+  .skill-tag[data-tag="Design & UX"] { background: #FFFBEB; color: #B45309; }
+  .skill-tag[data-tag="Color & Style"] { background: #FFF7ED; color: #C2410C; }
+  .skill-tag[data-tag="Accessibility"] { background: #ECFDF5; color: #047857; }
 
   .category-header {
     font-size: 15px; font-weight: 700; color: var(--text);
@@ -653,7 +654,7 @@
       if (data.trending && data.trending.length > 0) {
         // Group by category
         const groups = {};
-        const categoryOrder = ['Agent & Tools', 'AI Framework', 'Creative & Media', 'Learning Resource', 'Dev Utility'];
+        const categoryOrder = ['Figma & Plugins', 'Design-to-Code', 'Agent Skills for Design', 'Design & UX', 'Color & Style', 'Accessibility'];
         data.trending.forEach((skill, i) => {
           const key = 's' + i;
           _skills[key] = skill;
