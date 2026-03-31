@@ -424,33 +424,6 @@
       const container = document.getElementById('skills');
       container.innerHTML = '';
 
-      // Installed skills
-      if (data.installed && data.installed.length > 0) {
-        const section = document.createElement('div');
-        section.className = 'skill-section';
-        section.innerHTML = '<div class="skill-section-title">Installed Skills</div>';
-        const grid = document.createElement('div');
-        grid.className = 'skills-grid';
-
-        data.installed.forEach(skill => {
-          const card = document.createElement('div');
-          card.className = 'skill-card';
-          const tag = skill.tag || '';
-          const primaryTag = tag.split('|')[0] || tag;
-          card.innerHTML = `
-            <div class="skill-header">
-              <span class="skill-name">${escHtml(skill.name)}</span>
-              ${primaryTag ? `<span class="skill-tag" data-tag="${escHtml(primaryTag)}">${escHtml(primaryTag)}</span>` : ''}
-            </div>
-            <div class="skill-desc">${escHtml(skill.desc && !skill.desc.startsWith('name:') ? skill.desc : '—')}</div>
-          `;
-          grid.appendChild(card);
-        });
-
-        section.appendChild(grid);
-        container.appendChild(section);
-      }
-
       // Trending skills
       if (data.trending && data.trending.length > 0) {
         const section = document.createElement('div');
