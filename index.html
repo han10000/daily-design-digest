@@ -204,6 +204,20 @@
   .skill-tag[data-tag="AI"] { background: #EEF2FF; color: #4338CA; }
   .skill-tag[data-tag="design"] { background: #FDF2F8; color: #BE185D; }
   .skill-tag[data-tag="workflow"] { background: #ECFDF5; color: #047857; }
+  .skill-tag[data-tag="Agent & Tools"] { background: #EEF2FF; color: #4338CA; }
+  .skill-tag[data-tag="AI Framework"] { background: #F0FDFA; color: #0D9488; }
+  .skill-tag[data-tag="Creative & Media"] { background: #FDF2F8; color: #BE185D; }
+  .skill-tag[data-tag="Learning Resource"] { background: #FFFBEB; color: #B45309; }
+  .skill-tag[data-tag="Dev Utility"] { background: #ECFDF5; color: #047857; }
+
+  .category-header {
+    font-size: 15px; font-weight: 700; color: var(--text);
+    margin-bottom: 12px; margin-top: 32px; display: flex; align-items: center; gap: 8px;
+  }
+  .category-header:first-child { margin-top: 0; }
+  .category-count {
+    font-size: 12px; font-weight: 600; color: var(--muted); opacity: 0.5;
+  }
   .skill-desc {
     font-size: 14px; color: var(--muted); line-height: 1.6;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -435,8 +449,9 @@
     const url = skill.source === 'github' && skill.owner
       ? `https://github.com/${encodeURIComponent(skill.owner)}/${encodeURIComponent(skill.name)}`
       : '';
-    const tag = skill.tag || '';
+    const tag = skill.category || skill.tag || '';
 
+    // Metadata pills
     const pills = [
       skill.language ? skill.language : '',
       skill.license && skill.license !== 'NOASSERTION' ? skill.license : '',
@@ -643,7 +658,7 @@
   // ── Skills data store ──
   const _skills = {};
 
-  // ── Render skills ──
+  // ── Render skills (grouped by category) ──
   fetch('skills-data.json')
     .then(r => r.json())
     .then(data => {
@@ -651,38 +666,54 @@
       container.innerHTML = '';
 
       if (data.trending && data.trending.length > 0) {
-        const section = document.createElement('div');
-        section.className = 'skill-section';
-        section.innerHTML = '<div class="skill-section-title">Trending Skills</div>';
-        const grid = document.createElement('div');
-        grid.className = 'skills-grid';
-
+        // Group by category
+        const groups = {};
+        const categoryOrder = ['Agent & Tools', 'AI Framework', 'Creative & Media', 'Learning Resource', 'Dev Utility'];
         data.trending.forEach((skill, i) => {
           const key = 's' + i;
           _skills[key] = skill;
-          const tag = skill.tag || '';
-          const card = document.createElement('div');
-          card.className = 'skill-card';
-          card.innerHTML = `
-            <div class="skill-header">
-              <span style="display:flex;align-items:center;gap:4px;">
-                <span class="trending-rank">#${skill.rank}</span>
-                <span class="skill-name">${esc(skill.name)}</span>
-              </span>
-              <span style="display:flex;align-items:center;gap:8px;">
-                ${skill.installs ? `<span class="trending-installs">${esc(skill.installs)}</span>` : ''}
-                ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}">${esc(tag)}</span>` : ''}
-              </span>
-            </div>
-            <div class="skill-desc">${esc(skill.desc || '—')}</div>
-            ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:var(--muted);opacity:0.5;">via ${esc(skill.source)}</div>` : ''}
-          `;
-          card.addEventListener('click', () => openSkillPanel(_skills[key]));
-          grid.appendChild(card);
+          const cat = skill.category || skill.tag || 'Other';
+          if (!groups[cat]) groups[cat] = [];
+          groups[cat].push({ skill, key });
         });
 
-        section.appendChild(grid);
-        container.appendChild(section);
+        // Render in defined order, then any remaining
+        const orderedCats = categoryOrder.filter(c => groups[c]);
+        Object.keys(groups).forEach(c => { if (!orderedCats.includes(c)) orderedCats.push(c); });
+
+        orderedCats.forEach(cat => {
+          const items = groups[cat];
+          const section = document.createElement('div');
+          section.className = 'skill-section';
+          section.innerHTML = `<div class="category-header">${esc(cat)} <span class="category-count">${items.length}</span></div>`;
+          const grid = document.createElement('div');
+          grid.className = 'skills-grid';
+
+          items.forEach(({ skill, key }) => {
+            const tag = skill.category || skill.tag || '';
+            const card = document.createElement('div');
+            card.className = 'skill-card';
+            card.innerHTML = `
+              <div class="skill-header">
+                <span style="display:flex;align-items:center;gap:4px;">
+                  <span class="trending-rank">#${skill.rank}</span>
+                  <span class="skill-name">${esc(skill.name)}</span>
+                </span>
+                <span style="display:flex;align-items:center;gap:8px;">
+                  ${skill.installs ? `<span class="trending-installs">${esc(skill.installs)}</span>` : ''}
+                  ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}">${esc(tag)}</span>` : ''}
+                </span>
+              </div>
+              <div class="skill-desc">${esc(skill.desc || '—')}</div>
+              ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:var(--muted);opacity:0.5;">via ${esc(skill.source)}</div>` : ''}
+            `;
+            card.addEventListener('click', () => openSkillPanel(_skills[key]));
+            grid.appendChild(card);
+          });
+
+          section.appendChild(grid);
+          container.appendChild(section);
+        });
       }
     })
     .catch(() => {

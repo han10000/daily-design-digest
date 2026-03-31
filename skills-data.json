@@ -19,7 +19,8 @@
       "homepage": "https://microsoft.github.io/VibeVoice/",
       "how_to_install": "",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "AI Framework"
     },
     {
       "rank": 2,
@@ -43,7 +44,8 @@
       "homepage": "",
       "how_to_install": "",
       "how_to_use": "### 1. Find your level\n\nTake the [self-assessment quiz](LEARNING-ROADMAP.md#-find-your-level) or run `/self-assessment` in Claude Code. Get a personalized roadmap based on what you already know.",
-      "features": ""
+      "features": "",
+      "category": "Learning Resource"
     },
     {
       "rank": 3,
@@ -69,7 +71,8 @@
       "homepage": "https://yeachan-heo.github.io/oh-my-claudecode-website",
       "how_to_install": "**Step 1: Install**\n\nMarketplace/plugin install (recommended for most Claude Code users):\n\n```bash\n/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode\n/plugin install oh-my-claudecode\n```\n\nIf you prefer the npm CLI/runtime path instead of the marketplace flow:\n\n```bash\nnpm i -g oh-my-claude-sisyphus@latest\n```\n\n**Step 2: Setup**\n\n```bash\n/setup\n/omc-setup\n```\n\n**Step 3: Build something**\n\n```\nautopilot: build a REST API for managing tasks\n```\n\nThat's it. Everything else is...",
       "how_to_use": "",
-      "features": "### Orchestration Modes\n\nMultiple strategies for different use cases — from Team-backed orchestration to token-efficient refactoring. [Learn more →](https://yeachan-heo.github.io/oh-my-claudecode-website/docs.html#execution-modes)\n\n| Mode                    | What it is                                                                              | Use For                                                |\n| ----------------------- | --------------------------------------------------------------..."
+      "features": "### Orchestration Modes\n\nMultiple strategies for different use cases — from Team-backed orchestration to token-efficient refactoring. [Learn more →](https://yeachan-heo.github.io/oh-my-claudecode-website/docs.html#execution-modes)\n\n| Mode                    | What it is                                                                              | Use For                                                |\n| ----------------------- | --------------------------------------------------------------...",
+      "category": "Agent & Tools"
     },
     {
       "rank": 4,
@@ -95,7 +98,8 @@
       "homepage": "https://hermes-agent.nousresearch.com",
       "how_to_install": "```bash\nhermes              # Interactive CLI — start a conversation\nhermes model        # Choose your LLM provider and model\nhermes tools        # Configure which tools are enabled\nhermes config set   # Set individual config values\nhermes gateway      # Start the messaging gateway (Telegram, Discord, etc.)\nhermes setup        # Run the full setup wizard (configures everything at once)\nhermes claw migrate # Migrate from OpenClaw (if coming from OpenClaw)\nhermes update       # Update to the la...",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "Agent & Tools"
     },
     {
       "rank": 5,
@@ -121,7 +125,8 @@
       "homepage": "",
       "how_to_install": "",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "Learning Resource"
     },
     {
       "rank": 6,
@@ -145,7 +150,8 @@
       "homepage": "https://pyvideotrans.com",
       "how_to_install": "",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "Creative & Media"
     },
     {
       "rank": 7,
@@ -171,7 +177,8 @@
       "homepage": "https://microsoft.github.io/agent-lightning/",
       "how_to_install": "",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "AI Framework"
     },
     {
       "rank": 8,
@@ -197,7 +204,8 @@
       "homepage": "https://deeplivecam.net/",
       "how_to_install": "This is more likely to work on your computer but will be slower as it utilizes the CPU.\n\n**1. Set up Your Platform**\n\n-   Python (3.11 recommended)\n-   pip\n-   git\n-   [ffmpeg](https://www.youtube.com/watch?v=OlNWCpFdVMA) - ```iex (irm ffmpeg.tc.ht)```\n-   [Visual Studio 2022 Runtimes (Windows)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)\n\n**2. Clone the Repository**\n\n```bash\ngit clone https://github.com/hacksider/Deep-Live-Cam.git\ncd Deep-Live-Cam\n```\n\n**3. Download the Model...",
       "how_to_use": "**1. Image/Video Mode**\n\n-   Execute `python run.py`.\n-   Choose a source face image and a target image/video.\n-   Click \"Start\".\n-   The output will be saved in a directory named after the target video.\n\n**2. Webcam Mode**\n\n-   Execute `python run.py`.\n-   Select a source face image.\n-   Click \"Live\".\n-   Wait for the preview to appear (10-30 seconds).\n-   Use a screen capture tool like OBS to stream.\n-   To change the face, select a new source image.",
-      "features": ""
+      "features": "",
+      "category": "Creative & Media"
     },
     {
       "rank": 9,
@@ -217,7 +225,8 @@
       "homepage": null,
       "how_to_install": "```bash",
       "how_to_use": "",
-      "features": ""
+      "features": "",
+      "category": "AI Framework"
     },
     {
       "rank": 10,
@@ -243,7 +252,8 @@
       "homepage": "",
       "how_to_install": "### Linux\n\nSome distributions package outdated versions of fastfetch. Older versions receive no support, so please always try to use the latest version.\n\n<a href=\"https://repology.org/project/fastfetch/versions\">\n    <img src=\"https://repology.org/badge/vertical-allrepos/fastfetch.svg?columns=2\" alt=\"Packaging status\" align=\"right\">\n</a>\n\n* Ubuntu: [`ppa:zhangsongcui3371/fastfetch`](https://launchpad.net/~zhangsongcui3371/+archive/ubuntu/fastfetch) (Ubuntu 22.04 or newer; latest version)\n* De...",
       "how_to_use": "* Run with default configuration: `fastfetch`\n* Run with [all supported modules](https://github.com/fastfetch-cli/fastfetch/wiki/Support+Status#available-modules) to find what interests you: `fastfetch -c all.jsonc`\n* View all data that fastfetch detects: `fastfetch -s <module1>[:<module2>][:<module3>] --format json`\n* Display help messages: `fastfetch --help`\n* Generate a minimal config file: `fastfetch [-s <module1>[:<module2>]] --gen-config [</path/to/config.jsonc>]`\n    * Use: `--gen-conf...",
-      "features": ""
+      "features": "",
+      "category": "Dev Utility"
     }
   ]
 }
