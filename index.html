@@ -4,211 +4,91 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Daily Design Digest</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    /* Warm-tinted neutrals (hue 50 = warm amber) */
-    --bg: oklch(97.5% 0.006 70);
-    --surface: oklch(99.5% 0.003 70);
-    --surface-hover: oklch(98% 0.005 70);
-    --text: oklch(18% 0.01 70);
-    --text-secondary: oklch(42% 0.01 70);
-    --text-tertiary: oklch(58% 0.008 70);
-    --accent: oklch(55% 0.18 30);
-    --accent-hover: oklch(48% 0.18 30);
-    --accent-surface: oklch(95% 0.04 30);
-    --border: oklch(90% 0.008 70);
-    --border-hover: oklch(84% 0.012 70);
-    --tag-bg: oklch(94.5% 0.008 70);
-
-    /* Semantic tags */
-    --tag-ai-bg: oklch(94% 0.04 270);
-    --tag-ai-text: oklch(40% 0.12 270);
-    --tag-design-bg: oklch(94% 0.04 340);
-    --tag-design-text: oklch(42% 0.12 340);
-    --tag-workflow-bg: oklch(94% 0.04 155);
-    --tag-workflow-text: oklch(38% 0.1 155);
-
-    /* Spacing (4pt grid) */
-    --space-xs: 4px;
-    --space-sm: 8px;
-    --space-md: 12px;
-    --space-base: 16px;
-    --space-lg: 24px;
-    --space-xl: 32px;
-    --space-2xl: 48px;
-    --space-3xl: 64px;
-
+    --bg: #FAFAF8;
+    --surface: #FFFFFF;
+    --text: #1A1A1A;
+    --text-secondary: #6B6B6B;
+    --text-tertiary: #999;
+    --accent: #E8590C;
+    --accent-light: #FFF4E6;
+    --border: #EBEBEB;
+    --tag-bg: #F5F5F3;
     --radius: 12px;
     --radius-sm: 8px;
-    --radius-xs: 6px;
-
-    /* Easing */
-    --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
-    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-
-    --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+    --transition: 0.2s ease;
   }
 
   body {
-    font-family: var(--font);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 
   /* Layout */
   .container {
-    max-width: 740px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 0 var(--space-lg);
+    padding: 0 20px;
   }
 
   /* Header */
   header {
-    padding: var(--space-3xl) 0 var(--space-xl);
-  }
-
-  .header-eyebrow {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: var(--space-md);
+    padding: 48px 0 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
   }
 
   header h1 {
-    font-size: clamp(26px, 4vw, 34px);
+    font-size: 28px;
     font-weight: 700;
-    letter-spacing: -0.8px;
-    line-height: 1.15;
-    margin-bottom: var(--space-md);
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
   }
 
   header p {
     font-size: 15px;
     color: var(--text-secondary);
-    max-width: 440px;
-    line-height: 1.6;
+    max-width: 480px;
   }
 
-  /* Navigation */
-  nav {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    background: var(--bg);
-    padding: var(--space-base) 0;
-    margin-bottom: var(--space-lg);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .nav-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-base);
-  }
-
+  /* Tab Navigation */
   .tabs {
     display: flex;
-    gap: 2px;
+    gap: 4px;
+    margin-bottom: 32px;
     background: var(--tag-bg);
-    padding: 3px;
-    border-radius: var(--radius-sm);
+    padding: 4px;
+    border-radius: var(--radius);
+    width: fit-content;
   }
 
   .tab {
-    padding: var(--space-sm) var(--space-lg);
-    font-size: 13px;
-    font-weight: 600;
-    font-family: var(--font);
-    color: var(--text-tertiary);
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-secondary);
     background: transparent;
     border: none;
-    border-radius: var(--radius-xs);
+    border-radius: var(--radius-sm);
     cursor: pointer;
-    transition: color 150ms var(--ease-out), background 150ms var(--ease-out), box-shadow 150ms var(--ease-out);
+    transition: all var(--transition);
     white-space: nowrap;
-    position: relative;
   }
 
-  .tab:hover { color: var(--text-secondary); }
-
-  .tab:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
+  .tab:hover { color: var(--text); }
 
   .tab.active {
     background: var(--surface);
     color: var(--text);
-    box-shadow: 0 1px 3px oklch(0% 0 0 / 0.06);
-  }
-
-  .tab-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 18px;
-    height: 18px;
-    padding: 0 5px;
-    font-size: 11px;
-    font-weight: 700;
-    border-radius: 99px;
-    margin-left: 6px;
-    background: var(--accent-surface);
-    color: var(--accent);
-  }
-
-  .tab.active .tab-badge {
-    background: var(--accent);
-    color: white;
-  }
-
-  /* Search */
-  .search-wrap {
-    position: relative;
-    flex: 0 1 240px;
-    min-width: 0;
-  }
-
-  .search-icon {
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 16px;
-    height: 16px;
-    color: var(--text-tertiary);
-    pointer-events: none;
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 8px 12px 8px 36px;
-    font-size: 13px;
-    font-family: var(--font);
-    color: var(--text);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    outline: none;
-    transition: border-color 150ms var(--ease-out), box-shadow 150ms var(--ease-out);
-  }
-
-  .search-input::placeholder { color: var(--text-tertiary); }
-
-  .search-input:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px oklch(55% 0.18 30 / 0.1);
+    box-shadow: var(--shadow-sm);
   }
 
   /* Sections */
@@ -216,363 +96,225 @@
   .section.active { display: block; }
 
   /* Date group */
-  .date-group {
-    margin-bottom: var(--space-2xl);
-    animation: fadeUp 400ms var(--ease-out) both;
-  }
+  .date-group { margin-bottom: 40px; }
 
   .date-label {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 600;
     color: var(--text-tertiary);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: var(--space-base);
-    display: flex;
-    align-items: center;
-    gap: var(--space-sm);
-  }
-
-  .date-label::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-
-  .date-label .today-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--accent);
-    flex-shrink: 0;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
   }
 
   /* Article Card */
   .card {
     background: var(--surface);
     border-radius: var(--radius);
-    margin-bottom: var(--space-md);
+    margin-bottom: 12px;
     border: 1px solid var(--border);
-    transition: border-color 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
-    cursor: default;
+    transition: all var(--transition);
+    text-decoration: none;
+    display: block;
+    color: inherit;
     overflow: hidden;
   }
 
   .card:hover {
-    border-color: var(--border-hover);
-    box-shadow: 0 2px 8px oklch(0% 0 0 / 0.05);
+    border-color: #ddd;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
   }
 
   .card-image {
     width: 100%;
-    aspect-ratio: 2 / 1;
+    aspect-ratio: 2.4 / 1;
     object-fit: cover;
     display: block;
-    background: var(--tag-bg);
-  }
-
-  .card-image-placeholder {
-    width: 100%;
-    aspect-ratio: 3 / 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: oklch(99% 0 0 / 0.7);
   }
 
   .card-body {
-    padding: var(--space-lg);
+    padding: 24px;
   }
 
   .card-meta {
     display: flex;
     align-items: center;
-    gap: var(--space-sm);
-    margin-bottom: var(--space-md);
+    gap: 8px;
+    margin-bottom: 10px;
   }
 
   .card-source {
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 600;
     color: var(--accent);
-    background: var(--accent-surface);
+    background: var(--accent-light);
     padding: 3px 10px;
     border-radius: 99px;
-    letter-spacing: 0.2px;
   }
 
   .card-date {
-    font-size: 11px;
+    font-size: 12px;
     color: var(--text-tertiary);
-    font-weight: 500;
   }
 
   .card h3 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.45;
-    margin-bottom: var(--space-sm);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 8px;
     letter-spacing: -0.2px;
   }
 
   .card-summary {
     font-size: 14px;
     color: var(--text-secondary);
-    line-height: 1.75;
-    max-height: 4.2em; /* ~2.4 lines */
-    overflow: hidden;
-    position: relative;
-    transition: max-height 350ms var(--ease-out);
-  }
-
-  .card-summary.expanded {
-    max-height: 800px;
-  }
-
-  .card-summary:not(.expanded)::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 2em;
-    background: linear-gradient(transparent, var(--surface));
-    pointer-events: none;
-  }
-
-  .card-actions {
-    display: flex;
-    align-items: center;
-    gap: var(--space-md);
-    margin-top: var(--space-md);
-    padding-top: var(--space-md);
-    border-top: 1px solid var(--border);
-  }
-
-  .btn-text {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 13px;
-    font-weight: 600;
-    font-family: var(--font);
-    color: var(--accent);
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 4px 0;
-    transition: color 150ms var(--ease-out);
-  }
-
-  .btn-text:hover { color: var(--accent-hover); }
-
-  .btn-text:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-    border-radius: 2px;
-  }
-
-  .btn-text svg {
-    width: 14px;
-    height: 14px;
-    transition: transform 200ms var(--ease-out);
-  }
-
-  .btn-text.expanded svg { transform: rotate(180deg); }
-
-  .card-link {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-tertiary);
-    text-decoration: none;
-    transition: color 150ms var(--ease-out);
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 4px 0;
-    margin-left: auto;
-  }
-
-  .card-link:hover { color: var(--accent); }
-
-  .card-link:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-    border-radius: 2px;
-  }
-
-  .card-link svg {
-    width: 12px;
-    height: 12px;
-  }
-
-  .card-why {
-    margin-top: var(--space-md);
-    padding: var(--space-md) var(--space-base);
-    background: var(--accent-surface);
-    border-radius: var(--radius-xs);
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.65;
-    display: none;
-  }
-
-  .card-why.visible { display: block; }
-
-  .card-why strong {
-    color: var(--accent);
-    font-weight: 700;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    display: block;
-    margin-bottom: 4px;
-  }
-
-  /* Empty state */
-  .empty-state {
-    text-align: center;
-    padding: var(--space-3xl) var(--space-lg);
-    color: var(--text-tertiary);
-  }
-
-  .empty-state p {
-    font-size: 14px;
-    margin-top: var(--space-sm);
-  }
-
-  /* Skills Section */
-  .skill-section { margin-bottom: var(--space-2xl); }
-
-  .skill-section-header {
-    display: flex;
-    align-items: baseline;
-    gap: var(--space-sm);
-    margin-bottom: var(--space-lg);
-  }
-
-  .skill-section-title {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-  }
-
-  .skill-section-count {
-    font-size: 13px;
-    color: var(--text-tertiary);
-    font-weight: 500;
-  }
-
-  .skills-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    background: var(--border);
-    border-radius: var(--radius);
-    overflow: hidden;
-    border: 1px solid var(--border);
-  }
-
-  .skill-row {
-    background: var(--surface);
-    padding: var(--space-base) var(--space-lg);
-    display: grid;
-    grid-template-columns: 32px 1fr auto;
-    gap: var(--space-base);
-    align-items: start;
-    transition: background 150ms var(--ease-out);
-  }
-
-  .skill-row:hover { background: var(--surface-hover); }
-
-  .skill-rank {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-tertiary);
-    padding-top: 1px;
-    text-align: right;
-  }
-
-  .skill-rank.top3 { color: var(--accent); }
-
-  .skill-info { min-width: 0; }
-
-  .skill-name {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 2px;
-  }
-
-  .skill-desc {
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.55;
+    line-height: 1.7;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
-  .skill-meta {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: var(--space-xs);
-    flex-shrink: 0;
-    padding-top: 1px;
+  .card-summary.expanded {
+    -webkit-line-clamp: unset;
   }
 
-  .skill-installs {
-    font-size: 12px;
+  .card-why {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .card-why::before {
+    content: "Why: ";
     font-weight: 600;
-    color: var(--text-tertiary);
-    white-space: nowrap;
+    font-style: normal;
+    color: var(--accent);
+  }
+
+  .expand-btn {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--accent);
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    font-weight: 500;
+  }
+
+  .expand-btn:hover { text-decoration: underline; }
+
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    gap: 12px;
+  }
+
+  .skill-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    transition: all var(--transition);
+  }
+
+  .skill-card:hover {
+    border-color: #ddd;
+    box-shadow: var(--shadow-md);
+  }
+
+  .skill-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .skill-name {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+    color: var(--text);
   }
 
   .skill-tag {
-    font-size: 10px;
-    font-weight: 700;
-    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
     border-radius: 99px;
+    background: var(--tag-bg);
+    color: var(--text-secondary);
     text-transform: uppercase;
-    letter-spacing: 0.5px;
-    white-space: nowrap;
+    letter-spacing: 0.3px;
   }
 
-  .skill-tag[data-tag="AI"] { background: var(--tag-ai-bg); color: var(--tag-ai-text); }
-  .skill-tag[data-tag="design"] { background: var(--tag-design-bg); color: var(--tag-design-text); }
-  .skill-tag[data-tag="workflow"] { background: var(--tag-workflow-bg); color: var(--tag-workflow-text); }
-  .skill-tag[data-tag="voice"] { background: oklch(94% 0.04 60); color: oklch(40% 0.1 60); }
+  .skill-tag[data-tag="AI"] { background: #EEF2FF; color: #4338CA; }
+  .skill-tag[data-tag="design"] { background: #FDF2F8; color: #BE185D; }
+  .skill-tag[data-tag="workflow"] { background: #ECFDF5; color: #047857; }
 
-  .skill-source {
+  .skill-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .skill-badge {
+    display: inline-block;
+    margin-top: 8px;
     font-size: 11px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #ECFDF5;
+    color: #047857;
+  }
+
+  .skill-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    letter-spacing: -0.3px;
+  }
+
+  .skill-section { margin-bottom: 40px; }
+
+  .trending-rank {
+    font-size: 13px;
+    font-weight: 700;
     color: var(--text-tertiary);
-    font-weight: 500;
+    margin-right: 8px;
+    min-width: 20px;
+  }
+
+  .trending-installs {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin-left: auto;
   }
 
   /* Footer */
   footer {
-    margin-top: var(--space-3xl);
-    padding: var(--space-lg) 0;
+    margin-top: 64px;
+    padding: 24px 0;
     border-top: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 12px;
+    text-align: center;
+    font-size: 13px;
     color: var(--text-tertiary);
-    margin-bottom: var(--space-2xl);
+    margin-bottom: 48px;
   }
 
   footer a {
     color: var(--accent);
     text-decoration: none;
-    font-weight: 600;
   }
 
   footer a:hover { text-decoration: underline; }
@@ -580,46 +322,17 @@
   /* Loading */
   .loading {
     text-align: center;
-    padding: var(--space-3xl);
+    padding: 48px;
     color: var(--text-tertiary);
     font-size: 14px;
   }
 
-  /* Animations */
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
   /* Responsive */
   @media (max-width: 640px) {
-    .container { padding: 0 var(--space-base); }
-    header { padding: var(--space-xl) 0 var(--space-lg); }
+    header { padding: 32px 0 24px; }
     header h1 { font-size: 24px; }
-    .nav-inner { flex-wrap: wrap; }
-    .search-wrap { flex: 1 1 100%; order: 1; }
-    .card { padding: var(--space-base); }
-    .card-body { padding: var(--space-base); }
-    .card h3 { font-size: 15px; }
-    .skill-row {
-      grid-template-columns: 24px 1fr;
-      gap: var(--space-sm);
-    }
-    .skill-meta {
-      grid-column: 2;
-      flex-direction: row;
-      align-items: center;
-      gap: var(--space-sm);
-    }
-  }
-
-  /* Reduced motion */
-  @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
-      animation-duration: 0.01ms !important;
-      transition-duration: 0.01ms !important;
-    }
-    .card-summary { transition: none; }
+    .card-body { padding: 18px; }
+    .card h3 { font-size: 16px; }
   }
 </style>
 </head>
@@ -627,90 +340,38 @@
 
 <div class="container">
   <header>
-    <div class="header-eyebrow">Daily Digest</div>
-    <h1>AI x Design</h1>
-    <p>每日精选文章与热门 Skill 推荐，自动策展</p>
+    <h1>Daily Design Digest</h1>
+    <p>AI x Design 领域每日精选文章与热门 Skill 推荐，由 Claw 自动策展</p>
   </header>
 
-  <nav>
-    <div class="nav-inner container" style="padding:0;">
-      <div class="tabs" role="tablist">
-        <button class="tab active" data-tab="articles" role="tab" aria-selected="true">
-          Articles<span class="tab-badge" id="articles-count">—</span>
-        </button>
-        <button class="tab" data-tab="skills" role="tab" aria-selected="false">
-          Skills<span class="tab-badge" id="skills-count">—</span>
-        </button>
-      </div>
-      <div class="search-wrap">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-          <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
-        </svg>
-        <input type="search" class="search-input" placeholder="Search articles..." id="search" autocomplete="off">
-      </div>
-    </div>
-  </nav>
+  <div class="tabs">
+    <button class="tab active" data-tab="articles">Articles</button>
+    <button class="tab" data-tab="skills">Skills</button>
+  </div>
 
-  <div id="articles" class="section active" role="tabpanel"></div>
-  <div id="skills" class="section" role="tabpanel"></div>
+  <div id="articles" class="section active">
+    <div class="loading">Loading articles...</div>
+  </div>
+
+  <div id="skills" class="section">
+    <div class="loading">Loading skills...</div>
+  </div>
 
   <footer>
-    <span>Updated <span id="last-updated">—</span></span>
-    <a href="https://github.com/han10000/daily-design-digest">Source</a>
+    Curated daily by <a href="https://github.com/han10000/daily-design-digest">Claw</a> &middot; Updated <span id="last-updated">—</span>
   </footer>
 </div>
 
 <script>
-  // State
-  let feedData = [];
-  let currentTab = 'articles';
-
-  // Icons
-  const CHEVRON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>';
-  const EXTERNAL_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>';
-
   // Tab switching
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
-      document.querySelectorAll('.tab').forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       tab.classList.add('active');
-      tab.setAttribute('aria-selected','true');
-      currentTab = tab.dataset.tab;
-      document.getElementById(currentTab).classList.add('active');
-      document.getElementById('search').placeholder = currentTab === 'articles' ? 'Search articles...' : 'Search skills...';
-      applySearch();
+      document.getElementById(tab.dataset.tab).classList.add('active');
     });
   });
-
-  // Search
-  const searchInput = document.getElementById('search');
-  let searchTimeout;
-  searchInput.addEventListener('input', () => {
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(applySearch, 200);
-  });
-
-  function applySearch() {
-    const q = searchInput.value.trim().toLowerCase();
-    if (currentTab === 'articles') {
-      document.querySelectorAll('#articles .date-group').forEach(group => {
-        let visibleCards = 0;
-        group.querySelectorAll('.card').forEach(card => {
-          const text = card.textContent.toLowerCase();
-          const show = !q || text.includes(q);
-          card.style.display = show ? '' : 'none';
-          if (show) visibleCards++;
-        });
-        group.style.display = visibleCards > 0 ? '' : 'none';
-      });
-    } else {
-      document.querySelectorAll('#skills .skill-row').forEach(row => {
-        const text = row.textContent.toLowerCase();
-        row.style.display = (!q || text.includes(q)) ? '' : 'none';
-      });
-    }
-  }
 
   // Format date
   function formatDate(dateStr) {
@@ -724,106 +385,49 @@
     return `${months[d.getMonth()]} ${d.getDate()}`;
   }
 
-  function isToday(dateStr) {
-    return dateStr === new Date().toISOString().slice(0, 10);
-  }
-
-  // Escape HTML
-  function esc(str) {
+  function escHtml(str) {
     if (!str) return '';
     return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-  }
-
-  // Source color map for placeholders
-  const SOURCE_COLORS = {
-    'UX Collective': 'oklch(45% 0.12 160)',
-    'Nielsen Norman Group': 'oklch(45% 0.12 250)',
-    'NNGroup': 'oklch(45% 0.12 250)',
-    'NN/g': 'oklch(45% 0.12 250)',
-    'The Verge': 'oklch(45% 0.12 300)',
-    'Hugging Face Blog': 'oklch(50% 0.15 70)',
-    'Hugging Face': 'oklch(50% 0.15 70)',
-    'HuggingFace': 'oklch(50% 0.15 70)',
-    'Smashing Magazine': 'oklch(48% 0.15 20)',
-    'Awwwards': 'oklch(35% 0.08 70)',
-    'Awwwards Blog': 'oklch(35% 0.08 70)',
-    'Anthropic': 'oklch(42% 0.1 30)',
-    'MIT Technology Review': 'oklch(45% 0.12 0)',
-    'GitHub': 'oklch(30% 0.02 70)',
-  };
-
-  function getSourceColor(source) {
-    return SOURCE_COLORS[source] || 'oklch(50% 0.08 200)';
-  }
-
-  // Toggle expand
-  function toggleExpand(cardEl) {
-    const summary = cardEl.querySelector('.card-summary');
-    const why = cardEl.querySelector('.card-why');
-    const btn = cardEl.querySelector('.btn-text');
-    const isExpanded = summary.classList.contains('expanded');
-
-    summary.classList.toggle('expanded');
-    if (why) why.classList.toggle('visible');
-    if (btn) {
-      btn.classList.toggle('expanded');
-      btn.querySelector('span').textContent = isExpanded ? 'Read more' : 'Collapse';
-    }
   }
 
   // Render articles
   fetch('feed.json')
     .then(r => r.json())
     .then(data => {
-      feedData = data;
       const container = document.getElementById('articles');
       container.innerHTML = '';
-
-      // Count total articles
-      const totalArticles = data.reduce((sum, g) => sum + g.items.length, 0);
-      document.getElementById('articles-count').textContent = totalArticles;
 
       if (data.length > 0) {
         document.getElementById('last-updated').textContent = formatDate(data[0].date);
       }
 
-      data.forEach((group, gi) => {
+      data.forEach(group => {
         const div = document.createElement('div');
         div.className = 'date-group';
-        div.style.animationDelay = `${gi * 60}ms`;
-
-        const todayDot = isToday(group.date) ? '<span class="today-dot"></span>' : '';
-        div.innerHTML = `<div class="date-label">${todayDot}${formatDate(group.date)}</div>`;
+        div.innerHTML = `<div class="date-label">${formatDate(group.date)}</div>`;
 
         group.items.forEach(item => {
-          const card = document.createElement('div');
+          const card = document.createElement('a');
           card.className = 'card';
+          card.href = item.url;
+          card.target = '_blank';
+          card.rel = 'noopener';
 
           const pubDate = item.publishedAt ? formatDate(item.publishedAt) : '';
-
-          let imageHtml = '';
-          if (item.image) {
-            imageHtml = `<img class="card-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.remove()">`;
-          }
+          const imageHtml = item.image
+            ? `<img class="card-image" src="${escHtml(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
+            : '';
 
           card.innerHTML = `
             ${imageHtml}
             <div class="card-body">
               <div class="card-meta">
-                <span class="card-source">${esc(item.source)}</span>
+                <span class="card-source">${escHtml(item.source)}</span>
                 ${pubDate ? `<span class="card-date">${pubDate}</span>` : ''}
               </div>
-              <h3>${esc(item.title)}</h3>
-              <div class="card-summary">${esc(item.summary)}</div>
-              ${item.why ? `<div class="card-why"><strong>Why this matters</strong>${esc(item.why)}</div>` : ''}
-              <div class="card-actions">
-                <button class="btn-text" onclick="toggleExpand(this.closest('.card'))">
-                  <span>Read more</span>${CHEVRON_SVG}
-                </button>
-                <a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">
-                  Read original${EXTERNAL_SVG}
-                </a>
-              </div>
+              <h3>${escHtml(item.title)}</h3>
+              <div class="card-summary">${escHtml(item.summary)}</div>
+              ${item.why ? `<div class="card-why">${escHtml(item.why)}</div>` : ''}
             </div>
           `;
           div.appendChild(card);
@@ -833,7 +437,7 @@
       });
     })
     .catch(() => {
-      document.getElementById('articles').innerHTML = '<div class="empty-state"><p>Failed to load articles</p></div>';
+      document.getElementById('articles').innerHTML = '<div class="loading">Failed to load articles</div>';
     });
 
   // Render skills
@@ -843,47 +447,41 @@
       const container = document.getElementById('skills');
       container.innerHTML = '';
 
-      const trending = data.trending || [];
-      document.getElementById('skills-count').textContent = trending.length;
-
-      if (trending.length > 0) {
+      // Trending skills
+      if (data.trending && data.trending.length > 0) {
         const section = document.createElement('div');
         section.className = 'skill-section';
-        section.innerHTML = `
-          <div class="skill-section-header">
-            <div class="skill-section-title">Trending</div>
-            <div class="skill-section-count">${trending.length} skills</div>
-          </div>
-        `;
+        section.innerHTML = '<div class="skill-section-title">Trending Skills</div>';
+        const grid = document.createElement('div');
+        grid.className = 'skills-grid';
 
-        const list = document.createElement('div');
-        list.className = 'skills-list';
-
-        trending.forEach(skill => {
-          const row = document.createElement('div');
-          row.className = 'skill-row';
+        data.trending.forEach(skill => {
+          const card = document.createElement('div');
+          card.className = 'skill-card';
           const tag = skill.tag || '';
-          const isTop3 = skill.rank <= 3;
-          row.innerHTML = `
-            <div class="skill-rank ${isTop3 ? 'top3' : ''}">${skill.rank}</div>
-            <div class="skill-info">
-              <div class="skill-name">${esc(skill.name)}</div>
-              <div class="skill-desc">${esc(skill.desc || '—')}</div>
+          card.innerHTML = `
+            <div class="skill-header">
+              <span style="display:flex;align-items:center;gap:4px;">
+                <span class="trending-rank">#${skill.rank}</span>
+                <span class="skill-name">${escHtml(skill.name)}</span>
+              </span>
+              <span style="display:flex;align-items:center;gap:8px;">
+                ${skill.installs ? `<span class="trending-installs">${escHtml(skill.installs)} installs</span>` : ''}
+                ${tag ? `<span class="skill-tag" data-tag="${escHtml(tag)}">${escHtml(tag)}</span>` : ''}
+              </span>
             </div>
-            <div class="skill-meta">
-              ${skill.installs ? `<div class="skill-installs">${esc(skill.installs)}</div>` : ''}
-              ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}">${esc(tag)}</span>` : ''}
-            </div>
+            <div class="skill-desc">${escHtml(skill.desc || '—')}</div>
+            ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:#999;">via ${escHtml(skill.source)}</div>` : ''}
           `;
-          list.appendChild(row);
+          grid.appendChild(card);
         });
 
-        section.appendChild(list);
+        section.appendChild(grid);
         container.appendChild(section);
       }
     })
     .catch(() => {
-      document.getElementById('skills').innerHTML = '<div class="empty-state"><p>Failed to load skills</p></div>';
+      document.getElementById('skills').innerHTML = '<div class="loading">Failed to load skills</div>';
     });
 </script>
 
