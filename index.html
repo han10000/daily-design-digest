@@ -252,16 +252,41 @@
   .card {
     background: var(--surface);
     border-radius: var(--radius);
-    padding: var(--space-lg);
     margin-bottom: var(--space-md);
     border: 1px solid var(--border);
     transition: border-color 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
     cursor: default;
+    overflow: hidden;
   }
 
   .card:hover {
     border-color: var(--border-hover);
     box-shadow: 0 2px 8px oklch(0% 0 0 / 0.05);
+  }
+
+  .card-image {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    display: block;
+    background: var(--tag-bg);
+  }
+
+  .card-image-placeholder {
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: oklch(99% 0 0 / 0.7);
+  }
+
+  .card-body {
+    padding: var(--space-lg);
   }
 
   .card-meta {
@@ -574,6 +599,7 @@
     .nav-inner { flex-wrap: wrap; }
     .search-wrap { flex: 1 1 100%; order: 1; }
     .card { padding: var(--space-base); }
+    .card-body { padding: var(--space-base); }
     .card h3 { font-size: 15px; }
     .skill-row {
       grid-template-columns: 24px 1fr;
@@ -708,6 +734,28 @@
     return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  // Source color map for placeholders
+  const SOURCE_COLORS = {
+    'UX Collective': 'oklch(45% 0.12 160)',
+    'Nielsen Norman Group': 'oklch(45% 0.12 250)',
+    'NNGroup': 'oklch(45% 0.12 250)',
+    'NN/g': 'oklch(45% 0.12 250)',
+    'The Verge': 'oklch(45% 0.12 300)',
+    'Hugging Face Blog': 'oklch(50% 0.15 70)',
+    'Hugging Face': 'oklch(50% 0.15 70)',
+    'HuggingFace': 'oklch(50% 0.15 70)',
+    'Smashing Magazine': 'oklch(48% 0.15 20)',
+    'Awwwards': 'oklch(35% 0.08 70)',
+    'Awwwards Blog': 'oklch(35% 0.08 70)',
+    'Anthropic': 'oklch(42% 0.1 30)',
+    'MIT Technology Review': 'oklch(45% 0.12 0)',
+    'GitHub': 'oklch(30% 0.02 70)',
+  };
+
+  function getSourceColor(source) {
+    return SOURCE_COLORS[source] || 'oklch(50% 0.08 200)';
+  }
+
   // Toggle expand
   function toggleExpand(cardEl) {
     const summary = cardEl.querySelector('.card-summary');
@@ -752,21 +800,32 @@
           card.className = 'card';
 
           const pubDate = item.publishedAt ? formatDate(item.publishedAt) : '';
+
+          let imageHtml = '';
+          if (item.image) {
+            imageHtml = `<img class="card-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'card-image-placeholder\\' style=\\'background:${getSourceColor(item.source)}\\'>${esc(item.source)}</div>'">`;
+          } else {
+            imageHtml = `<div class="card-image-placeholder" style="background:${getSourceColor(item.source)}">${esc(item.source)}</div>`;
+          }
+
           card.innerHTML = `
-            <div class="card-meta">
-              <span class="card-source">${esc(item.source)}</span>
-              ${pubDate ? `<span class="card-date">${pubDate}</span>` : ''}
-            </div>
-            <h3>${esc(item.title)}</h3>
-            <div class="card-summary">${esc(item.summary)}</div>
-            ${item.why ? `<div class="card-why"><strong>Why this matters</strong>${esc(item.why)}</div>` : ''}
-            <div class="card-actions">
-              <button class="btn-text" onclick="toggleExpand(this.closest('.card'))">
-                <span>Read more</span>${CHEVRON_SVG}
-              </button>
-              <a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">
-                Read original${EXTERNAL_SVG}
-              </a>
+            ${imageHtml}
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="card-source">${esc(item.source)}</span>
+                ${pubDate ? `<span class="card-date">${pubDate}</span>` : ''}
+              </div>
+              <h3>${esc(item.title)}</h3>
+              <div class="card-summary">${esc(item.summary)}</div>
+              ${item.why ? `<div class="card-why"><strong>Why this matters</strong>${esc(item.why)}</div>` : ''}
+              <div class="card-actions">
+                <button class="btn-text" onclick="toggleExpand(this.closest('.card'))">
+                  <span>Read more</span>${CHEVRON_SVG}
+                </button>
+                <a class="card-link" href="${esc(item.url)}" target="_blank" rel="noopener">
+                  Read original${EXTERNAL_SVG}
+                </a>
+              </div>
             </div>
           `;
           div.appendChild(card);
