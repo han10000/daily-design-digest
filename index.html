@@ -13,9 +13,11 @@
     --text: #1a1917;
     --muted: #6b6960;
     --accent: #5b5bd6;
+    --accent-subtle: rgba(91,91,214,0.08);
     --border: #e6e3dc;
     --tag-bg: #F5F5F3;
     --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Helvetica Neue', sans-serif;
+    --panel-w: 480px;
   }
 
   body {
@@ -104,7 +106,7 @@
     opacity: 0.6;
   }
 
-  /* Feed Card — same as maoxian-factory */
+  /* Feed Card */
   .feed-card {
     background: var(--surface);
     border-radius: 16px;
@@ -114,6 +116,7 @@
     text-decoration: none;
     display: block;
     color: inherit;
+    cursor: pointer;
     transition: transform 0.2s, box-shadow 0.25s;
   }
 
@@ -189,6 +192,178 @@
     color: var(--muted);
     opacity: 0.6;
   }
+
+  /* ── Side Panel (overlay from right) ── */
+  .panel-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 100;
+  }
+
+  .panel-overlay.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .side-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: var(--panel-w);
+    max-width: 100vw;
+    background: var(--surface);
+    box-shadow: -8px 0 32px rgba(0,0,0,0.1);
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 101;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .panel-overlay.open .side-panel {
+    transform: translateX(0);
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .panel-header-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--muted);
+    opacity: 0.6;
+  }
+
+  .panel-close {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: var(--tag-bg);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    font-size: 18px;
+    transition: background 0.15s;
+  }
+
+  .panel-close:hover {
+    background: var(--border);
+  }
+
+  .panel-body {
+    flex: 1;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* Article detail inside panel */
+  .detail-hero {
+    overflow: hidden;
+  }
+
+  .detail-hero img {
+    width: 100%;
+    display: block;
+    max-height: 240px;
+    object-fit: cover;
+  }
+
+  .detail-body {
+    padding: 24px;
+  }
+
+  .detail-title {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.35;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+  }
+
+  .detail-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+
+  .detail-source {
+    font-weight: 600;
+    color: var(--text);
+    opacity: 0.7;
+  }
+
+  .detail-date { opacity: 0.5; }
+
+  .detail-divider {
+    height: 1px;
+    background: var(--border);
+    margin-bottom: 24px;
+  }
+
+  .detail-text {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text);
+    margin-bottom: 28px;
+    white-space: pre-line;
+  }
+
+  .detail-insight {
+    background: var(--accent-subtle);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 28px;
+  }
+
+  .detail-insight-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+
+  .detail-insight-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text);
+  }
+
+  .detail-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: opacity 0.15s;
+  }
+
+  .detail-link:hover { opacity: 0.85; }
 
   /* Skills Section */
   .skills-grid {
@@ -304,6 +479,9 @@
     .feed-card { padding: 16px; }
     .feed-card-title { font-size: 16px; }
     .feed-card-thumb { width: 64px; height: 64px; }
+    .side-panel { width: 100vw; }
+    .detail-title { font-size: 20px; }
+    .detail-body { padding: 20px; }
   }
 </style>
 </head>
@@ -333,8 +511,64 @@
   </footer>
 </div>
 
+<!-- Side Panel -->
+<div class="panel-overlay" id="panelOverlay">
+  <div class="side-panel" id="sidePanel">
+    <div class="panel-header">
+      <span class="panel-header-title">Article Detail</span>
+      <button class="panel-close" id="panelClose">&times;</button>
+    </div>
+    <div class="panel-body" id="panelBody"></div>
+  </div>
+</div>
+
 <script>
-  // Tab switching
+  // ── Panel logic ──
+  const overlay = document.getElementById('panelOverlay');
+  const panel = document.getElementById('sidePanel');
+  const panelBody = document.getElementById('panelBody');
+  const panelClose = document.getElementById('panelClose');
+
+  function openPanel(item) {
+    panelBody.scrollTop = 0;
+    const pubDate = item.publishedAt || '';
+    panelBody.innerHTML = `
+      ${item.image ? `<div class="detail-hero"><img src="${esc(item.image)}" alt="" onerror="this.parentNode.style.display='none'"></div>` : ''}
+      <div class="detail-body">
+        <h1 class="detail-title">${esc(item.title)}</h1>
+        <div class="detail-meta">
+          ${item.source ? `<span class="detail-source">${esc(item.source)}</span>` : ''}
+          ${pubDate ? `<span class="detail-date">${esc(pubDate)}</span>` : ''}
+        </div>
+        <div class="detail-divider"></div>
+        <div class="detail-text">${esc(item.summary || '')}</div>
+        ${item.why ? `<div class="detail-insight">
+          <div class="detail-insight-label">Why This Matters</div>
+          <div class="detail-insight-text">${esc(item.why)}</div>
+        </div>` : ''}
+        ${item.url ? `<a class="detail-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read Original &rarr;</a>` : ''}
+      </div>
+    `;
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closePanel() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  panelClose.addEventListener('click', closePanel);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closePanel();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closePanel();
+  });
+  // Prevent clicks inside panel from closing
+  panel.addEventListener('click', (e) => e.stopPropagation());
+
+  // ── Utils ──
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -360,31 +594,10 @@
     return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  // Feed card builder — identical to maoxian-factory
-  function feedCard(item) {
-    const hasImg = !!item.image;
-    let content = '';
-    if (hasImg && item.summary) {
-      content = `<div class="feed-card-content">
-        <div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div>
-        <div class="feed-card-summary">${esc(item.summary)}</div>
-      </div>`;
-    } else if (item.summary) {
-      content = `<div class="feed-card-summary-full">${esc(item.summary)}</div>`;
-    } else if (hasImg) {
-      content = `<div style="margin-bottom:14px"><div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div></div>`;
-    }
-    return `<a class="feed-card" href="${esc(item.url)}" target="_blank" rel="noopener">
-      <div class="feed-card-title">${esc(item.title)}</div>
-      ${content}
-      <div class="feed-card-footer">
-        <span>${esc(item.source || '')}</span>
-        <span>${esc(item.publishedAt || '')}</span>
-      </div>
-    </a>`;
-  }
+  // ── Article data store ──
+  const _articles = {};
 
-  // Render articles
+  // ── Render articles ──
   fetch('feed.json')
     .then(r => r.json())
     .then(data => {
@@ -395,16 +608,43 @@
         document.getElementById('last-updated').textContent = formatDate(data[0].date);
       }
 
+      let idx = 0;
       data.forEach(group => {
         const div = document.createElement('div');
         div.className = 'date-group';
         div.innerHTML = `<div class="date-label">${formatDate(group.date)}</div>`;
 
-        let cardsHtml = '';
         group.items.forEach(item => {
-          cardsHtml += feedCard(item);
+          const key = 'a' + idx++;
+          _articles[key] = item;
+
+          const hasImg = !!item.image;
+          let content = '';
+          if (hasImg && item.summary) {
+            content = `<div class="feed-card-content">
+              <div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div>
+              <div class="feed-card-summary">${esc(item.summary)}</div>
+            </div>`;
+          } else if (item.summary) {
+            content = `<div class="feed-card-summary-full">${esc(item.summary)}</div>`;
+          } else if (hasImg) {
+            content = `<div style="margin-bottom:14px"><div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div></div>`;
+          }
+
+          const card = document.createElement('div');
+          card.className = 'feed-card';
+          card.setAttribute('data-key', key);
+          card.innerHTML = `
+            <div class="feed-card-title">${esc(item.title)}</div>
+            ${content}
+            <div class="feed-card-footer">
+              <span>${esc(item.source || '')}</span>
+              <span>${esc(item.publishedAt || '')}</span>
+            </div>
+          `;
+          card.addEventListener('click', () => openPanel(_articles[key]));
+          div.appendChild(card);
         });
-        div.innerHTML += cardsHtml;
 
         container.appendChild(div);
       });
@@ -413,7 +653,7 @@
       document.getElementById('articles').innerHTML = '<div class="loading">Failed to load articles</div>';
     });
 
-  // Render skills
+  // ── Render skills ──
   fetch('skills-data.json')
     .then(r => r.json())
     .then(data => {
