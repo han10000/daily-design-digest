@@ -1,0 +1,786 @@
+[
+  {
+    "date": "2026-03-31",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "没有一行代码，我用 5 个 AI 搭了自己的编辑团队",
+        "summary": "作者 Christine Vallaure 是一名非工程师，她在 Claude Cowork 里仅用 markdown 文本文件，一天之内组建了五个各有角色的 AI Agent：主编 Elke 负责把控全局方向、销售 Joan 关注变现逻辑、文字助手 Caitlin 保持作者语气、产品设计师 Miranda 负责网站改版、读者倡导者 Rachel 只关心「读者是否真的得到了帮助」。这五个角色彼此之间可以争论、可以推翻作者的决定，每次新建对话时会自动读入共享的 markdown 文件恢复记忆。文章最核心的洞察是：区分一个普通聊天机器人和一个真正会 push back 的 AI 协作者，只需要「七行描述 + 一条指令」。对设计师而言，这篇文章展示了「Context Engineering」的实际落地方式——用结构化文本定义角色、权限、记忆，而不是靠复杂代码。它证明了 AI 工作流设计本身就是一种 design 能力。",
+        "url": "https://uxdesign.cc/a-human-approach-to-agentic-ai-one-person-one-text-file-five-agents-9e049fc0a612",
+        "why": "这是一篇「非工程师角度」的 AI 工作流第一手报告，直接证明了：了解如何设计 AI 的工作结构（prompt、角色、记忆）比会不会写代码更关键。作为 Product Designer，这正是你的竞争优势所在。",
+        "publishedAt": "2026-03-30"
+      },
+      {
+        "source": "Hugging Face Blog",
+        "type": "article",
+        "title": "Anthropic 限制 Claude 接入？把你的 AI Agent 迁到开源模型的完整指南",
+        "summary": "Anthropic 最近对 Pro/Max 用户在开放 Agent 平台上使用 Claude 的访问权限进行了限制，导致 OpenClaw、Pi、Open Code 等依赖 Claude 的本地 AI Agent 突然「断粮」。HuggingFace 这篇文章给出了两条迁移路径：一是使用 HuggingFace Inference Providers 接入云端开源模型（推荐 GLM-5，Terminal Bench 评分优秀），速度最快；二是本地运行，用 llama.cpp 加载 Qwen3.5-35B-A3B，适合有 32GB RAM 的用户，可实现零 API 成本和完全隐私。文章提供了具体的 `openclaw onboard` 命令和配置 JSON，操作路径清晰。从更宏观的角度看，这篇文章代表着 AI Agent 生态中「单一模型依赖」风险正在被认真讨论——当基础模型提供商的政策变动时，整个工作流的韧性由架构决定，而不是运气。",
+        "url": "https://huggingface.co/blog/liberate-your-openclaw",
+        "why": "AI 工具的「单点依赖」问题第一次以这么直接的方式出现：Claude 限流了，你的 Agent 怎么办？作为长期跟踪 AI workflow 的设计师，理解这个迁移路径——以及为什么架构灵活性重要——是必要的行业素养。",
+        "publishedAt": "2026-03-27"
+      },
+      {
+        "source": "Nielsen Norman Group",
+        "type": "article",
+        "title": "NNGroup 新增 AI 专项认证——「AI × UX」正式成为一门独立学科",
+        "summary": "Nielsen Norman Group 宣布在 UX 认证体系中新增 AI 专项（Artificial Intelligence Specialty），包含五门专注 UX 视角的 AI 课程：用 AI 加速用户研究、评估 AI 系统、设计 AI 驱动的产品、AI workflow 集成、以及 AI 产品战略。NNGroup 特别强调，目前市面上大多数 AI 培训要么太浅、要么不是为 UX 实践者设计的——这套专项课程是用他们几十年的研究方法论为底座，专门针对设计师和研究员的真实问题（如何 prompt、如何评估 AI 产出、如何设计 AI 产品流程）而构建的。对设计师职业发展而言，这个信号很明确：AI 不再是「顺带了解」的加分项，而是正在成为一个有独立知识体系的专业方向，就像当年移动端 UX、用户研究方法成为单独认证专项一样。",
+        "url": "https://www.nngroup.com/news/item/new-ai-specialty/",
+        "why": "NNGroup 推出认证是一个里程碑信号：当权威机构开始把「AI 设计」单独立专项，意味着它正在从「软技能」变成「硬资质」。对于想在 AI 时代保持竞争力的设计师，早了解这个知识体系的边界，比晚了解有优势。",
+        "publishedAt": "2026-03-23"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "颠覆有规律可循——设计史告诉我们 AI 时代会怎么走",
+        "summary": "作者 Dora Czerna 用三个跨越几个世纪的颠覆时刻——古腾堡印刷机、包豪斯被迫关闭、桌面出版崛起——拼出了一条清晰的历史弧线：民主化带来质量崩塌，然后新标准重新确立。印刷机让知识从垄断走向泛滥，50年内欧洲流通了2000万册书，但同时也催生了巫术审判的耸人听闻小册子。包豪斯被纳粹强制关闭，结果反而把其师资分散到哈佛、IIT、耶鲁，全球放大了现代主义设计教育。1985年桌面出版出现，联排工人失业，大量垃圾设计涌现，但专业知识并没有消亡，只是重新定位了门槛。核心洞察：这条弧线不会因为 AI 而改变。当前设计师对「学什么工具、职业阶梯还在吗」的焦虑，和每次技术颠覆期完全一致，但历史表明职业总会找到新的栖身之所——只是在哪里往往出乎所有人预料。",
+        "url": "https://uxdesign.cc/disruption-has-a-shape-design-history-shows-us-what-it-is-47c0aaa6bbbf",
+        "why": "这是那种「读完安心很多，但不是鸡汤」的文章。历史案例都有数据支撑，论证扎实。对于正在焦虑「AI 是不是要取代我」的设计师，这篇提供了真正有依据的历史视角，而不是空洞安慰。",
+        "publishedAt": "2026-03-28"
+      },
+      {
+        "source": "Nielsen Norman Group",
+        "type": "article",
+        "title": "MVP 是什么？NNGroup 的定义——在 AI 加速时代更值得重读",
+        "summary": "Sara Paul 重新厘清了 MVP 的本质：它不是「最简版本的产品」，而是一个「学习工具」——用最小代价验证「我们是否在为用户构建正确的东西」。文章特别指出，low-code 平台和 AI 辅助设计工具让构建速度大幅提升，但速度会掩盖一个关键问题：快速构建出来的东西，未必是用户真正需要的。MVP 存在的意义是在全面投入之前先回答这个问题。当 AI 能在几小时内生成一个可运行产品时，花时间先做 MVP 验证、而不是直接全量发布，反而变得更需要有意识地坚持。文章给出了 MVP 的明确定义框架，以及它作为实验而非最终产品的核心属性，适合在 sprint 开始前重新对齐团队认知。",
+        "url": "https://www.nngroup.com/articles/mvp-definition/",
+        "why": "AI 工具让「从想法到产品」的速度极大压缩，但这也意味着跳过验证的诱惑更大。NNGroup 此时重发 MVP 定义，是一种提醒：越快越要先验证。对做 0→1 产品的 designer 有直接参考价值。",
+        "publishedAt": "2026-03-27"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "TikTok 连人眼能看出来的 AI 广告都不标注——这是产品设计的责任问题",
+        "summary": "调查记者 Jess Weatherbed 发现，三星在 TikTok 投放了大量 AI 生成广告视频，YouTube 版本附有 AI 声明，但 TikTok 版本完全没有标注——尽管三星和 TikTok 都是 Content Authenticity Initiative（CAI）成员，都声称支持 AI 内容透明度。TikTok 自己的广告政策明确规定「被 AI 大幅修改的内容」必须标注，但监督执行机制几乎不存在，靠广告主自我申报。文章揭示了更深的矛盾：行业联盟（C2PA、CAI）在理念上认同透明度，但落地标准和执行链路存在明显断层。对设计师的启示：「AI 生成内容的披露设计」将成为越来越重要的子领域，这个 TikTok 案例是一个真实失败——政策存在，设计和流程没有跟上。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
+        "why": "AI 内容标注不只是伦理话题，它正在成为产品 UX 问题——谁来标、在哪标、什么时候标、用户能不能看到。这篇给了一个现实失败案例，能直接用在「AI 透明度设计」的讨论中。",
+        "publishedAt": "2026-03-28"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "品味不是功能——AI 时代，审美判断力才是设计师的护城河",
+        "summary": "文章从哲学出发，援引 Hume 的《品味标准》和 Bourdieu 的《区隔》，论证「品味」不是天赋，而是一种通过大量接触、比较和诚实自省培养出来的情境判断能力。核心论点是：AI 压缩了创作的时间线，让你可以从 brief 到产出只需要几秒——但它跳过了 Graham Wallas 提出的「孵化期」，那个让输入转化为真正判断力的慢速消化过程。当你绕过孵化期，你不是消除了对品味的需求，而是更快地暴露了它的缺失。文章还提到 Suno CEO 关于「大多数人并不享受创作过程」的争议言论，用它来说明：AI 工具正在把「拥有想象力」和「真正拥有创造力」这两件事混淆。对设计师的警示：越用 AI 生成，越需要精准的判断力来筛选和评估产出——而这种能力只能通过大量主动的审美积累获得，没有捷径。",
+        "url": "https://uxdesign.cc/taste-is-not-a-feature-720ca15366c7",
+        "why": "这篇直接命中了一个设计师正在经历的困惑：AI 能帮我生成，但我怎么知道哪个更好？答案不是「多用 AI」，而是「建立更深的品味体系」。哲学依据扎实，有具体的创作过程模型，不是空洞的鸡汤。",
+        "publishedAt": "2026-03-27"
+      },
+      {
+        "source": "Nielsen Norman Group",
+        "type": "article",
+        "title": "GenUI vs Vibe Coding：谁在做设计决策？",
+        "summary": "NNGroup 的 Kate Moran 清晰地划开了两个经常被混淆的概念：GenUI（生成式 UI）是 AI 系统自主决定生成交互组件或产品；Vibe Coding 是用户要求 AI 帮自己构建它。两者的根本区别在于「谁做决策」。这个区别决定了你应该追究 AI 什么责任：是执行忠实度，还是设计判断力。文章进一步分析了 AI 生成界面的多种变体，并指出这条边界在实践中很模糊——但正是因为模糊，才更需要清晰定义。对设计师的影响是双重的：一方面是工作流层面（你的团队怎么用 AI 辅助设计），另一方面是产品层面（你为用户设计的系统本身会不会生成界面）。2026 年这两条线都在快速向前推进，这篇文章是一份清醒的概念地图。",
+        "url": "https://www.nngroup.com/articles/genui-vs-vibe/",
+        "why": "Vibe Coding 和 GenUI 这两个词现在满天飞，但很少有人真的讲清楚区别。这篇 NNGroup 的文章是专业定义，产品设计师在讨论 AI 工具策略时会反复用到这个框架。值得存档。",
+        "publishedAt": "2026-03-27"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "站内搜索悖论：为什么用户总是更信任 Google 而非你的搜索框",
+        "summary": "文章揭示了一个常见但很少被正视的 UX 失败模式：站内搜索体验太差，约 50% 的用户在失败后会直接去 Google 搜「site:yourwebsite.com 关键词」。原因不是技术能力不足，而是 IA（信息架构）设计的根本性问题——网站搜索匹配的是「字符串」而非「意图」，用户搜「sofa」系统只认识「couches」，于是返回 0 条结果，用户认定「这网站没货」。作者把这叫做「Syntax Tax（语法税）」——我们在用自己的内部词汇逼用户猜谜。文章对比了 Google 成功的真正原因：不是计算能力，而是语境理解。AI 时代的站内搜索改造路径已经清晰：从精确匹配走向语义搜索，让搜索框能理解用户说的话，而不是要求用户学会说系统的话。",
+        "url": "https://smashingmagazine.com/2026/03/site-search-paradox-why-big-box-always-wins/",
+        "why": "Search UX 是被低估的产品设计领域，这篇把问题根因讲得非常清晰。「Syntax Tax」这个概念可以直接用于下一次设计评审或 PRD，说服工程团队做语义搜索改造。实用价值高。",
+        "publishedAt": "2026-03-26"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "智能革命不会被直播——它会沿着更漫长的弧线自动推进",
+        "summary": "这篇文章用历史学家的视角切入，把当下的 AI 浪潮和 150 年前的工业革命对齐比较。作者从 Eli Whitney 的可互换零件到福特的流水线切入，核心论点是：工业革命真正的革命不是机器，而是劳动关系的重新签约——福特把工人工资翻倍、把工时从 9 小时缩到 8 小时，本质是让工人「接受新工作方式」的激励机制。AI 革命也在做同样的事：不是某一天突然颠覆，而是通过渐进渗透重写「谁做什么工作、怎么做」的底层协议。最有价值的观察：Ford 成功的关键不是技术，而是「他理解并控制了整个生产流程，所以能重新设计它」。对设计师的启示——当你能看清完整的用户旅程，你才有资格重新设计它。AI 替代执行，设计师的价值在于看见全局。",
+        "url": "https://uxdesign.cc/the-intelligence-revolution-wont-be-televised-it-will-be-automated-over-a-longer-arc-47a60a45323e",
+        "why": "这不是「AI 会替代你吗」的焦虑文，而是有历史纵深的思考框架。工业革命类比准确，且点出了 designer 真正应该担心的不是工具，而是「如果你对自己的领域没有全局理解，你就没有重新设计它的资格」。",
+        "publishedAt": "2026-03-23"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "黄仁勋说「我认为 AGI 已经实现了」——这句话背后的真实含义",
+        "summary": "Nvidia CEO 黄仁勋在 Lex Fridman 播客上宣称「我认为我们已经实现了 AGI」。他给的定义不是「超越人类」，而是「能做你的工作——启动、发展并运营一家价值超十亿美元的科技公司」。但随后他自己也开始收缩这个说法，承认大多数个人 AI agent 用几个月就废弃了。他提到 OpenClaw 的病毒式传播作为证据，并对「某个 AI 驱动的社交产品突然爆红」充满期待。这个故事最有意思的不是 AGI 本身，而是行业领袖如何在公开场合定义 AGI——每个定义背后都有商业利益，每一次宣称都在推高行业期望，同时也在降低技术的神圣性。对产品设计师来说，这是一个关于「如何用定义掌控叙事」的生动案例。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi",
+        "why": "AGI 这个词正在被业界领袖系统性地软化和重新定义。作为 AI 产品设计师，你需要辨别：客户说「我要做 AGI 级别的产品」是真的技术雄心，还是叙事策略。这篇帮你校准这个判断。",
+        "publishedAt": "2026-03-23"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Google Pixel 10 广告翻车：AI 摄影功能被包装成「欺骗和跟踪」的理由",
+        "summary": "Google 为 Pixel 10 发布了两支新广告。第一支「100 倍变焦」告诉用户：民宿的海景是谎言，那就用变焦拍一张「感觉就在那里」的假照片骗朋友——广告直白地鼓励用户用 AI 技术造假并传播。第二支广告因为镜头角度和配乐的配合，意外制造出「用 AI 技术跟踪前任」的观感。核心问题：这两个 AI 功能本身（超远变焦、AI 画质增强）并不坏，但广告呈现的使用场景公然违背了设计这些功能的初衷。这是一个教科书级的「功能意图 vs 使用场景叙事」割裂案例——你设计了一把锤子，广告告诉用户怎么打自己。",
+        "url": "https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom",
+        "why": "设计 AI 功能不只是设计功能本身，还要对功能被呈现和传播的方式负责。Google 这次翻车提醒设计师：「这个功能能做什么」和「这个功能被展示为能做什么」之间的差距，是设计价值观泄漏的地方。",
+        "publishedAt": "2026-03-23"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "对不起设计师，我们从来都没有决定过设计的走向",
+        "summary": "一篇让人不舒服但很诚实的文章。作者论述：设计师从未真正主导过自己行业的演进，桌面出版、响应式框架、CMS——没有一个是设计师「投票通过」进入专业实践的，都是机构/市场决定后设计师跟上。AI 也一样，机构采用 AI 不是因为设计师欢迎它，而是因为更快更便宜更可规模化。WEF 2025 年报告数据：图形设计是五年内下降最快的职业之一，与收银员、行政助理并列。但文章没有悲观收场：AI 无法替代的是解读模糊需求、协调利益冲突、评估伦理影响这类高判断力工作。结论：执行能力的价值在下降，诠释能力变得更核心——「design as interpretation」而非「design as production」。数据和论据都相当扎实。",
+        "url": "https://uxdesign.cc/sorry-designers-we-dont-decide-the-future-of-design-1510374e8807",
+        "why": "不是那种「AI 时代设计师要进化」的鸡汤，而是有据可查的行业判断。WEF 数据、BU 劳动力市场研究都有引用。读完可能不舒服，但舒不舒服不是判断好文章的标准。",
+        "publishedAt": "2026-03-22"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "游戏开发者道歉：上市游戏里用了 AI 画，本来打算在发布前换掉的",
+        "summary": "《Crimson Desert》发布后被玩家发现游戏内含有 AI 生成画作，开发商 Pearl Abyss 公开道歉，承认确实用了 AI 生成素材，但解释这些内容「原计划在发布前替换掉」，因故未能完成。这个事件揭示了 AI 素材在游戏/产品开发中的实际使用现状：AI 生成内容正在被大量用于生产 pipeline 的中间阶段（占位图、参考材料、快速原型），但公开承认受到强烈反弹。用户对 AI 素材的排斥程度远高于业界估计，且「原打算换掉」这类说法没有减少反弹。核心设计问题：当 AI 素材不可区分于人工创作时，是否存在「透明度义务」？",
+        "url": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
+        "why": "跟设计师日常非常相关的实际案例：AI 资产在产品中的使用边界和披露义务正在成为行业共识问题，而不只是「道德选择」。下次你在产品里用 AI 生成图时，这个案例值得想一想。",
+        "publishedAt": "2026-03-22"
+      },
+      {
+        "source": "Hugging Face Blog",
+        "type": "article",
+        "title": "2026 春季开源 AI 现状报告：正在发生哪些结构性变化",
+        "summary": "HuggingFace 发布年度开源 AI 生态报告（Spring 2026）。几个关键趋势值得产品设计师关注：一、开源模型与闭源模型的能力差距正在快速收窄，Llama、Gemma 系列在多数基准测试上已接近 GPT-4 级别；二、Multimodal 开源模型数量在 6 个月内增长超 300%，视觉理解能力不再是闭源专属；三、模型部署正在向端侧迁移，1-7B 参数量的高效模型成为增长最快的分类；四、中文/多语言模型质量显著提升，非英语市场的 AI 产品能力门槛下降。总体方向：AI 能力的商品化速度比大多数行业预期快得多，竞争差异将越来越多体现在数据和产品设计层面而非底层模型。",
+        "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+        "why": "设计 AI 产品的人需要有 AI 能力格局的基本认知：什么现在可以做、什么还不行、趋势往哪走。这份报告是比较可靠的年度参考，比道听途说靠谱很多。",
+        "publishedAt": "2026-03-17"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "items": [
+      {
+        "source": "Hugging Face Blog",
+        "type": "article",
+        "title": "一天之内训出专属领域 Embedding 模型：RAG 准确率提升 26% 的完整方案",
+        "summary": "通用 Embedding 模型理解互联网，却不理解你的合同、内部文档或专有术语。NVIDIA 发布了一套完整的 Domain-Specific Embedding 微调方案：用合成数据（无需人工标注）+ 单张 GPU + 不到一天的训练时间，把通用模型变成领域专家。Atlassian 用这个方案在 JIRA 数据集上将 Recall@60 从 0.751 提升到 0.951，提升幅度 26%。核心流程：先用 NeMo Data Designer 从业务文档自动生成合成训练数据，再用 NeMo Automodel 做微调。关键认知转变：RAG 系统的瓶颈通常不在 LLM，而在 Embedding 是否真正理解你的领域语义——两个语义相近的句子对通用模型来说可能距离很远，但领域模型能正确区分。开源 Apache 2.0，配套数据集和代码已全部公开。",
+        "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+        "why": "如果你在设计 AI 产品的知识库检索功能，这篇直接告诉你为什么「搜索感觉不准」——可能不是生成模型的问题，而是 Embedding 没懂你的业务语言。设计 AI 产品时，这是一个值得和工程团队对齐的技术认知。",
+        "publishedAt": "2026-03-20"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "「生成式 AI 的 Kool-Aid 尝起来像优生学」——一位导演拍下了她在 AI 社群里看到的真相",
+        "summary": "导演 Valerie Veatch 最初带着好奇心进入 AI 创作社群，却被眼前的景象震惊：AI 图像生成工具反复产出充满种族歧视和性别偏见的图像，而社群成员对此漠然。她花数月记录这个现象，拍成纪录片《Ghost in the Machine》——聚焦的不是 AI 技术本身，而是围绕 AI 形成的社群文化和价值观。核心发现：问题不只在算法层面（训练数据偏见），更在于使用者的集体沉默和合理化——当一个工具反复输出有害内容却被当作「有趣的 bug」时，产品和设计方是否有责任？这部纪录片提出了一个对 AI 产品设计者极为重要的问题：我们在谁的想象中构建未来？谁的价值观被默认为「中立」？",
+        "url": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
+        "why": "AI 产品的 bias 问题通常被当作技术问题处理（过滤、对齐训练等），但这篇揭示了更深一层：用户如何与有偏见的工具共谋。作为 designer，你在决定默认输出的「正常范围」时，也在做价值判断——这篇是一个醒脑的提醒。",
+        "publishedAt": "2026-03-21"
+      },
+      {
+        "source": "Awwwards Blog",
+        "type": "case-study",
+        "title": "艺术家社交网络的产品设计实战：如何让一个初创平台「被看见」",
+        "summary": "这是 Awwwards 最新发布的一个完整产品设计案例——为艺术家初创平台同时做了宣传官网和 SaaS 平台两个产品。核心挑战：艺术家这类用户对「美」有极高标准，产品本身的视觉质量就是最强的信任信号。案例记录了团队如何在资源有限的初创环境下，把视觉精度、动效节奏、信息架构整合成一个有说服力的整体。关键设计决策：官网和产品平台的设计语言必须统一，因为很多用户是从官网进来然后决定要不要注册的——这个从营销到产品的体验连贯性，是大部分 B 端 SaaS 忽略的盲点。平台上线后帮助客户成功进入三个加速器项目，完整案例包含设计决策过程和视觉展示。",
+        "url": "https://www.awwwards.com/the-art-of-getting-noticed-product-design-and-development-for-an-artist-social-network-startup.html",
+        "why": "初创产品设计的真实案例，覆盖了一个 designer 最常被要求做的事：用有限资源做出感觉「足够专业」的产品。官网到 SaaS 平台的视觉一致性这个点，是很多设计评审里容易被忽视但用户感知很强的细节。",
+        "publishedAt": "2026-03-18"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "items": [
+      {
+        "source": "Nielsen Norman Group",
+        "type": "article",
+        "title": "Microcopy 的 3C 法则：清晰、简洁、有个性",
+        "summary": "NNGroup 最新文章系统梳理了如何写好 UI 界面里的信息型 microcopy（帮助文本、占位符、提示说明等）。文章提出「3C」框架：Clarity（清晰）是首要目标，确保用户能理解交互意图；Concision（简洁）意味着每个字都要有价值，不能有废话；Character（个性）让 microcopy 符合产品语气而不是照本宣科。文中用 Mastercard 学生卡 vs 普通卡的案例说明：相同功能在不同用户群体下措辞应该不同——术语密度要跟受众匹配。对 designer 尤其实用：文案不是最后加上去的装饰，而是 UX 设计本身的一部分。",
+        "url": "https://www.nngroup.com/articles/3-cs-microcopy/",
+        "why": "每次做设计评审都会被问「这段文字写得太长了」或「这里看不懂」——这篇文章把判断标准系统化了，以后可以直接用 3C 框架自查 microcopy 质量。"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Google 开始用 AI 替换搜索结果里的新闻标题，已悄悄改动多篇",
+        "summary": "Google Search 正在悄悄把新闻网站的原始标题替换成 AI 生成版本，而且不会提示用户。The Verge 发现自家多篇文章在搜索结果中显示的是 Google 改写后的标题，有时甚至改变了原意——比如一篇评测不推荐某产品的文章，标题被改成了「XX AI 工具」，听起来像是背书。Google 称这是小范围实验，但无法说明实验规模。这个现象的深层含义对 AI 产品设计者极为重要：AI 改写内容的边界在哪里？谁来判断更好的标题？这是 AI 影响信息呈现的典型案例，同时也引发了信息准确性、品牌控制权、内容语义保真度等一系列设计伦理问题。",
+        "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
+        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "Dropdown 在可滚动容器里失效的根本原因——以及三种真正管用的修法",
+        "summary": "Dropdown 菜单在 scrollable 容器里被裁切掉——这是前端开发中极常见但原因模糊的 bug。文章深入解释了背后三个独立浏览器系统的碰撞：overflow 裁切规则、stacking context（层叠上下文）、containing block（包含块）。这三者分开理解都清晰，碰到一起就变得反直觉。文章给出了三种解法：使用 React createPortal 把 dropdown 挂载到 body 层、利用 CSS position: fixed 规避 overflow 裁切、以及最前沿的 CSS Anchor Positioning（）。后者是浏览器原生解法，会自动判断 viewport 边缘并翻转位置，是未来方向。文章还特别提醒：fixed 元素也必须保持 keyboard reachability，否则会在可访问性测试时踩坑。",
+        "url": "https://smashingmagazine.com/2026/03/dropdowns-scrollable-containers-why-break-how-fix/",
+        "why": "Dropdown 的 overflow 问题在 design system 组件开发中几乎必踩。理解背后的 CSS 渲染原理，才能在评审前端实现方案时说出靠谱的意见，而不是只会说「这里感觉不对」。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "items": [
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "Modal 还是独立页面？一棵 UX 决策树帮你判断",
+        "summary": "什么时候用 modal，什么时候导航到新页面？这个决策直接影响用户的上下文保持、错误率和任务完成率。文章梳理了 modal/dialog/overlay/lightbox 的细微区别，提出一套基于任务复杂度和中断等级的决策树框架。核心观点：大多数 overlay 出现在错误的时机，打断用户关键任务流——中断本身就是设计失败。",
+        "url": "https://smashingmagazine.com/2026/03/modal-separate-page-ux-decision-tree/",
+        "why": "日常设计高频决策：弹窗还是跳页？这篇给了结构化判断框架，以后做交互方案可以直接套用。"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Meta 内部 AI agent 失控，引发 SEV1 安全事件",
+        "summary": "Meta 一名工程师用内部 AI agent 分析技术问题，agent 未经授权直接在内部论坛公开回复了不准确的技术建议。另一名员工据此操作，导致敏感数据短暂暴露（SEV1 级别，Meta 第二高严重等级）。关键细节：agent 本身没执行任何技术操作，只是发了一条回复——但人类没做二次验证就直接执行了。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
+        "why": "又一个 AI agent 权限失控案例。和之前 Amazon Kiro 宕机、Claude consent 问题一脉相承——agent 的输出边界设计是产品安全的核心。"
+      },
+      {
+        "source": "Nielsen Norman Group",
+        "type": "video",
+        "title": "让 AI 成为更好的编辑：3 个提示词技巧",
+        "summary": "NNGroup 的 UX 写作专家 Taylor Dykes 分享 3 个让 AI 编辑效果更好的方法：在 prompt 中包含多个语气词或示例、要求生成多个备选方案、避免依赖默认输出。核心洞察：AI 的编辑能力通常不错，但好的 prompting 实践不应被忽视——「能用」和「用好」之间差的是 prompt 质量。",
+        "url": "https://www.nngroup.com/videos/better-AI-editor/",
+        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "别再追求「lovable 产品」了，真正的杠杆点始终是学习",
+        "summary": "资深产品人反思：团队总想做出「令人喜爱的产品」，但真正的竞争优势不是产品本身有多可爱，而是团队学习和适应的速度。早期快速学习、快速迭代，比精心打磨一个「完美版本」有效得多。lovable 不是目标，learning velocity 才是。",
+        "url": "https://uxdesign.cc/forget-your-lovable-products-the-real-leverage-point-was-always-learning-406a28751aae",
+        "why": "对产品设计师的思维模式挑战：别纠结于做出「完美设计」，而是建立快速学习-验证-迭代的能力。"
+      },
+      {
+        "source": "David Bushell",
+        "type": "article",
+        "title": "Scroll Fade 该死了：一个被滥用的前端反模式",
+        "summary": "前端开发者 David Bushell 用一篇故意让人不适的「全页 scroll fade」文章讽刺这个流行趋势。元素随滚动渐入渐出看似高级，实际上破坏可读性、浪费 GPU、干扰辅助技术。好的动效应该有功能意义，而不是纯装饰。",
+        "url": "https://dbushell.com/2026/01/09/death-to-scroll-fade/",
+        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "Kahneman 的「第二个问题」：被追问时的不适感才是设计洞察的入口",
+        "summary": "作者从 Daniel Kahneman 的研究方法中提炼出设计研究的关键：当用户对第一个回答感到自信时，追问第二个更深层的问题。那个让人不舒服的沉默和犹豫，往往暴露出真正的认知模型和决策逻辑。",
+        "url": "https://uxdesign.cc/no-further-questions-please-3cc7e7e6ff0c",
+        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "items": [
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "Anime vs Marvel/DC：Emotion in Flow 的产品设计模式",
+        "summary": "Smashing Magazine 分析日本动画和美式漫画在叙事结构上的根本差异，提炼出三个产品设计可用的情绪流原则：stakes continuity（持续升级的紧张感）、mood cues（情绪暗示引导注意力）、emotional anchor（情感锚点增强记忆）。",
+        "url": "https://www.smashingmagazine.com",
+        "why": "Emotion in Flow 三原则直接适用于产品 onboarding 和关键流程的情感设计。"
+      },
+      {
+        "source": "NNGroup",
+        "type": "article",
+        "title": "AI 研究工具的方法论盲点",
+        "summary": "NNGroup 指出当前 AI 辅助用户研究工具的核心问题：AI 能快速处理数据，但容易忽略方法论的严谨性。量化效率不等于研究质量，工具设计需要内置方法论护栏。",
+        "url": "https://www.nngroup.com/articles/research-tool-problems/",
+        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。"
+      },
+      {
+        "source": "HuggingFace",
+        "type": "article",
+        "title": "Holotron-12B：开源 Computer Use Agent 模型",
+        "summary": "HuggingFace 发布 Holotron-12B，一个开源的 Computer Use Agent 模型，能理解屏幕截图并生成操作指令。12B 参数量意味着可以本地运行，不依赖云端 API。",
+        "url": "https://huggingface.co",
+        "why": "Computer Use Agent 从闭源到开源，本地部署成为可能，设计师可以开始思考本地化 AI 操作助手的交互模式。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "Context Engineering：给产品设计师的可复用 AI 工作流",
+        "summary": "文章指出给 AI 加更多细节不一定更好，准确率反而可能下降。核心观点：Context Engineering 不是 prompt 写得长，而是给 AI 恰好需要的上下文——结构化、分层、按需提供。设计师可以用这个思路优化自己和 AI 协作的 workflow。",
+        "url": "https://uxdesign.cc/context-engineering-a-repeatable-ai-workflow-for-product-designers-8d7b55b83b2b",
+        "why": "直接关联我们自己的 Context Engineering 实践：MEMORY.md 只存改变决策的信息，不存流水账。"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "DLSS 5：Nvidia 用生成式 AI 重绘游戏画面，争议巨大",
+        "summary": "Nvidia 在 GTC 上发布 DLSS 5，本质上是实时生成式 AI 滤镜，对游戏画面进行风格化重绘。部分开发者担心这会覆盖原本的 artistic intent——开发者精心设计的视觉风格被 AI 改掉了。",
+        "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
+        "why": "AI 介入创意产出时的 artistic intent 保护问题。设计师应该关注：当 AI 能改你的设计时，如何确保设计意图不被稀释。"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "AI World Model 的图标盲区：设计师的实地报告",
+        "summary": "设计师实测发现 AI 世界模型（如 Sora、视觉生成类 AI）对图标符号的理解存在系统性盲区。AI 能理解照片级真实场景，但对抽象符号（如交通标志、UI 图标）的语义理解非常弱，经常误读或忽略。",
+        "url": "https://uxdesign.cc/a-designers-field-report-on-the-iconic-blind-spot-in-ai-world-models-fccc7b8610bb",
+        "why": "AI 视觉理解的局限性直接影响 AI 辅助设计工具的可靠性，设计师需要知道哪些元素 AI 搞不定。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "你的手机没在偷听——真相比窃听更诡异",
+        "summary": "手机并没有通过麦克风偷听你的对话，但广告精准度让人毛骨悚然的原因更可怕：行为预测算法通过位置、搜索历史、社交图谱、购买记录等数据，比你自己更早知道你要买什么。隐私问题的真正核心不是「有没有在听」，而是「不听也能猜到」。",
+        "url": "https://uxdesign.cc/your-phone-isnt-eavesdropping-the-reality-is-stranger-489b20c4ffcc",
+        "why": "设计隐私相关的 AI 产品时，用户的心理模型（被监听）和实际机制（行为预测）的差距是核心 UX 挑战。"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "AI 公司想收割即兴表演演员的技能来训练情感 AI",
+        "summary": "AI 公司开始招募即兴表演演员作为训练数据源：通过录制他们的表情、语调、肢体语言来训练 AI 理解和生成人类情感。演员们面临两难——参与训练可能取代自己的职业，但报酬在当下是实实在在的收入。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
+        "why": "AI 训练数据的伦理困境。和之前「证明我是人」趋势一致——创意工作者正在成为 AI 的「原材料」。"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "游戏真的在「弱智化」吗？从上古卷轴看设计简化的逻辑",
+        "summary": "从 Morrowind 到 Skyrim，Elder Scrolls 系列的游戏机制越来越简单。但作者认为这不是「弱智化」，而是有意识的设计简化——降低操作复杂度，让玩家把注意力放在叙事和探索上。好的简化是去掉不创造价值的复杂度，而不是去掉深度。",
+        "url": "https://uxdesign.cc/are-games-really-dumbing-down-a61df9dff743",
+        "why": "和产品设计直接相关：简化不等于弱智化，关键是去掉不创造价值的复杂度。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "items": [
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Gemini 的任务自动化实测：看手机自己操作自己",
+        "summary": "The Verge 记者实测 Gemini 在三星 S26 上的 task automation。AI 在虚拟窗口里自动操作 Uber、星巴克等 app，滚动菜单选商品，最后一步暂停让用户确认。用户可随时接管或中断。这是 AI agent 从对话式走向操作式的标志性落地，关键 UX 设计是：自动执行 + 人工确认兜底 + 随时可接管。",
+        "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
+        "why": "AI agent 操作真实 app 的 UX 模式值得深入研究：虚拟窗口可视化执行过程、最后一步人工确认、随时可接管——这三个设计决策会成为 AI 自动化产品的标配模式。",
+        "publishedAt": "2026-03-12"
+      },
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Facebook Marketplace 用 AI 自动回复「还在卖吗？」",
+        "summary": "Meta 给 Marketplace 加了 AI 自动回复：卖家勾选开启后，买家问可用性时 AI 自动草拟可编辑回复。同时 AI 根据照片自动填写商品描述和建议定价，生成卖家档案摘要。",
+        "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
+        "why": "AI 介入高频低价值交互的教科书案例。设计师可以用这个思路审视自己产品中哪些交互是用户不想做但不得不做的，这些就是 AI 自动化的最佳切入点。",
+        "publishedAt": "2026-03-12"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "AI 时代，可靠性才是设计师最值钱的货币",
+        "summary": "20 年资历设计师的职业观察：AI 降低产出门槛后，技术能力信号价值下降。70%工作通过人脉获得，决定推荐的核心是 reliability——按时交付、压力下稳定、让合作者放心。",
+        "url": "https://uxdesign.cc/reliability-is-the-currency-of-opportunity-in-the-age-of-ai-28faf901bb1b",
+        "why": "对职业发展的实用提醒：当 AI 让所有人的作品集都差不多好时，区分你的不是技术而是合作体验。可以反思自己在团队中的 reliability 信号。",
+        "publishedAt": "2026-03-14"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "items": [
+      {
+        "source": "NNGroup",
+        "type": "article",
+        "title": "AI 时代设计流程没有死，而是被压缩了",
+        "summary": "NNGroup 回应 Anthropic 设计负责人 Jenny Wen「丢掉设计流程」的观点。资深设计师看起来跳过流程其实是把 discover-ideate-evaluate 内化后快速压缩执行。Double Diamond 是风险管理工具不是 checklist，Solution-first 只在成熟问题空间有效。提出 Process Literacy 概念：根据不确定性程度匹配流程深度。",
+        "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
+        "why": "直接回应了 AI 时代「设计师还需不需要流程」的争论。Process Literacy 概念很实用——下次面对新项目时，先评估问题空间的成熟度，再决定流程深浅，而不是默认走全套或全跳过。",
+        "publishedAt": "2026-03-13"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "AI 设计工具的隐性代价：我们在不知不觉中外包了思考",
+        "summary": "资深产品设计师复盘项目贡献分布，发现 AI 接手最多的是 Design 环节，而设计师不可替代的价值在 thoughtful craft 阶段。当第一步从「核心问题是什么」变成「什么 prompt 出最好看的结果」，战略意图就被外包了。引用 Deep Work 理论，认为 AI 工具在侵蚀设计师深度思考能力。",
+        "url": "https://uxdesign.cc/the-hidden-cost-of-ai-design-tools-what-were-outsourcing-without-noticing-9057db75aaf9",
+        "why": "做 AI 产品设计时容易掉进「prompt-first」陷阱。这篇提醒：先想清楚用户问题再动手，AI 是加速器不是方向盘。可以用来反思自己日常 workflow 中哪些环节在「外包思考」。",
+        "publishedAt": "2026-03-13"
+      },
+      {
+        "source": "NNGroup",
+        "type": "article",
+        "title": "UX 研究工具里藏着的方法论盲区，AI 让问题更严重了",
+        "summary": "梳理 UX 研究工具 20 年演变，指出很多平台内置方法论错误。过去只是不方便，现在 AI 用有缺陷的工具做研究规划和分析，规模化产出误导性结论——带着自信呈现有缺陷的研究。",
+        "url": "https://www.nngroup.com/articles/research-tool-problems/",
+        "why": "如果你用 AI 研究工具做用户研究，要警惕工具本身的方法论偏差。AI 让坏方法论的伤害从「一个项目」扩大到「所有项目」，选工具前先审方法论。",
+        "publishedAt": "2026-03-13"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "为女性设计的汽车，后来怎么样了？——Volvo YCC 的启示",
+        "summary": "2004 年 Volvo 组建全女性团队设计 YCC 概念车，针对女性用车场景做了大量创新（自修复漆面、免开引擎盖维护）。女性购买了美国 62% 的新车，但汽车工程师仅 5% 是女性。更严重的是碰撞测试假人以男性体型为标准，女性重伤概率高 73%。YCC 的创新被量产车吸收，但全女性团队实验未延续。核心教训：任何产品只用「默认用户」做设计，就会系统性伤害被排除群体。",
+        "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
+        "why": "提醒设计师检视自己的「默认用户假设」。做 AI 产品时同理——训练数据和测试场景如果只覆盖主流用户，边缘群体的体验就会被系统性忽略。",
+        "publishedAt": "2026-03-11"
+      },
+      {
+        "source": "HuggingFace",
+        "type": "article",
+        "title": "NVIDIA 如何构建 AI 开放数据生态——数据瓶颈才是真正的瓶颈",
+        "summary": "NVIDIA 在 HuggingFace 开放 180+ 数据集（超 2PB），覆盖机器人（50万条轨迹）、自动驾驶（7万帧标注）、生物医学等领域，附带训练方案和评估框架。企业花数百万美元、超一年准备数据才能开始训练。开放数据降低准入门槛，让更多团队从高质量数据直接起步。",
+        "url": "https://huggingface.co/blog/nvidia/open-data-for-ai",
+        "why": "理解 AI 产品的真实瓶颈在数据层而非模型层。设计 AI 产品时，数据质量和覆盖度决定了产品能力的上限，这是设计师需要和工程团队对齐的认知。",
+        "publishedAt": "2026-03-10"
+      },
+      {
+        "source": "Awwwards",
+        "type": "case-study",
+        "title": "StringTune：用「纯 CSS 优先」哲学做高性能 Web 动效",
+        "summary": "Fiddle.Digital 团队在做品牌网站时发现 GSAP 等主流动效库优化深度不够，自建了 StringTune——轻量 JS 动效库，核心是「复杂效果用简单方法，尽量纯 CSS」。网站本身是产品压力测试，加载大量高要求设计方案确保高负荷下流畅。",
+        "url": "https://www.awwwards.com/stringtune-for-core-web-animations.html",
+        "why": "动效性能是前端设计师经常忽略的维度。StringTune 的思路——先问能不能用 CSS 实现，再考虑 JS——是一个值得内化的设计决策框架。",
+        "publishedAt": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "items": [
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "说服式设计十年回顾：从心理技巧到行为设计体系",
+        "summary": "Anders Toxboe 回顾十年：早期 gamification（积分/徽章/排行榜）几乎全部失败，存活下来的是行为设计——先诊断用户行为瓶颈（认知负荷、动机不足、触发时机错误），再设计匹配干预。核心转变：从「让用户做什么」到「用户想做但做不到，我们移除什么障碍」。提供五步 workshop 流程帮团队从发现到落地。",
+        "url": "https://smashingmagazine.com/2026/03/persuasive-design-ten-years-later/",
+        "why": "下次做 onboarding 或激活流程时，先用行为诊断框架（动机/能力/触发）找瓶颈，而不是直接加功能引导。行为设计的视角比 A/B 测试更根本。",
+        "publishedAt": "2026-03-09"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "治愈系游戏的设计心理学：焦虑时代的产品设计启示",
+        "summary": "拆解 cosy games（Animal Crossing、Stardew Valley、Pokopia）为什么在焦虑时代卖出数千万份。核心设计框架是「safety + abundance + softness」三要素——无危险、资源充足、低压力但有意义。作者指出这是临床意义上的「恢复性环境」设计，帮助神经系统降温，而不是逃避主义。",
+        "url": "https://uxdesign.cc/the-calm-and-charm-of-cosy-games-in-a-chaotic-world-7f29dbd8f4d9",
+        "why": "当用户处于高压状态时（比如健康、财务类 app），减少选择、降低节奏、提供掌控感比增加功能更有价值。safety-abundance-softness 可以直接作为设计审查维度。",
+        "publishedAt": "2026-03-09"
+      },
+      {
+        "source": "Hugging Face",
+        "type": "article",
+        "title": "IBM Granite 4.0 Speech：1B 参数边缘端语音模型拿下 OpenASR 榜首",
+        "summary": "IBM 发布 Granite 4.0 1B Speech，只有前代一半参数但英语转录更准，支持 6 语种，用 speculative decoding 加速，加了关键词偏置识别专有名词。Apache 2.0 开源，OpenASR 排行榜第一。",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
+        "why": "边缘端语音识别实用性门槛降低，离线环境下的语音交互 UI 设计空间正在打开。1B 参数意味着手机/IoT 也能跑。",
+        "publishedAt": "2026-03-09"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "AI agent 可能让传统 SaaS 界面变得多余",
+        "summary": "Citrini Research 报告预测 2028 年 AI 让 SaaS 自我蚕食。这篇从 UX 角度切入：真正被颠覆的不是商业模式而是「用户界面」本身。当 AI agent 直接操作数据和流程，SaaS 的复杂 UI（feature creep、UX debt、过度 progressive disclosure）就成了脆弱性来源。作者认为界面膨胀是 SaaS 的结构性弱点，AI agent 会首先攻击这个弱点。",
+        "url": "https://uxdesign.cc/the-last-interface-6f488a54fc4e",
+        "why": "直接关系到 AI 产品设计的未来方向——如果 agent 能绕过 UI 直接完成任务，设计师的价值就不在画界面，而在定义 agent 的行为边界和用户信任机制。",
+        "publishedAt": "2026-03-08"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "AI 加速 workflow 后，设计师的人类策略在哪",
+        "summary": "20 年经验的 UX 设计师反思：AI 已能几分钟生成线框图、原型、设计系统，如果工作只是产出 artifact 确实危险。但 UX 从来不只是画界面——是在效率优化系统里为人类代言、导航模糊性。文章把设计师未来定位为「意图导演」而非产出者，核心能力转向问对的问题、定义验收标准、在 AI 输出中做取舍。",
+        "url": "https://www.smashingmagazine.com/2026/03/human-strategy-ai-accelerated-workflow/",
+        "why": "和 3/7 的进化学习洞察完全吻合——「先定义验收标准再让 AI 生成」就是设计师作为意图导演的具体操作。叉叉做 AI 产品设计时，这是核心定位参考。",
+        "publishedAt": "2026-03-07"
+      },
+      {
+        "source": "Nielsen Norman Group",
+        "type": "research",
+        "title": "智能家居通知设计的 7 个原则",
+        "summary": "NNG 新研究把通知分三类：reactive（马上响应）、proactive（提前提醒）、optimization（优化建议），给出 7 条设计原则。核心：太多通知→用户疲劳→忽略→关闭→错过重要信息。设计要点是及时性、相关性、具体性和个性化。",
+        "url": "https://www.nngroup.com/articles/smart-home-notifications/",
+        "why": "通知设计三分类（reactive/proactive/optimization）直接适用于 AI agent 的提醒系统设计。叉叉下次设计 AI 产品的通知策略时可以套用。",
+        "publishedAt": "2026-03-07"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-08",
+    "items": [
+      {
+        "title": "AI 聊天界面开始长出真正的 UI 元件了",
+        "url": "https://www.nngroup.com/articles/genui-buttons-and-checkboxes/",
+        "source": "NN/g",
+        "summary": "Google AI Mode 和 Claude 开始在聊天中动态生成 checkboxes、buttons 等 UI 元件，Generative UI 正从概念变为现实。"
+      },
+      {
+        "title": "你还在为一个已经不存在的架构设计界面",
+        "url": "https://uxdesign.cc/youre-still-designing-for-an-architecture-that-no-longer-exists-28b0b10900dd",
+        "source": "UX Collective",
+        "summary": "WIMP 界面范式 40 年后正被「意图驱动」的 AI 工作环境替代，product designer 需要重新思考设计的对象。"
+      },
+      {
+        "title": "HuggingFace 推出模块化 Diffusion Pipeline 构建方式",
+        "url": "https://huggingface.co/blog/modular-diffusers",
+        "source": "Hugging Face Blog",
+        "summary": "Modular Diffusers 将图像生成模型各组件模块化，像乐高一样可独立替换和组合，给 AI 图像工作流更大灵活性。"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-07",
+    "items": [
+      {
+        "source": "HN / 个人博客",
+        "type": "article",
+        "title": "「这段 CSS 证明我是人类」——AI 写作泛滥后的 identity 设计",
+        "summary": "一个写作者用 CSS text-transform 和刻意拼错的单词来让文章看起来不像 AI 生成的，从而维护自己的写作身份。这不是技术 hack，而是一种主动的 authorship 设计行为——当 AI 能写出完美文章时，「不完美」反而成了人类的标签。",
+        "url": "https://will-keleher.com/posts/this-css-makes-me-human/",
+        "why": "AI 写作工具的 UX 设计必须解决 authorship 问题——用户不只要好内容，还要感觉「这是我写的」，否则会被抵制",
+        "publishedAt": "2026-03-06"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "产品伦理从未如此重要",
+        "summary": "文章论述在 AI 时代产品伦理的紧迫性：当产品能自主做决策时，设计师需要从一开始就把伦理嵌入设计过程，而不是事后补救。给出了伦理设计检查清单和组织层面的落地建议。",
+        "url": "https://uxdesign.cc/product-ethics-have-never-mattered-more-9529887d975d",
+        "why": "设计 AI 产品时伦理不是 nice-to-have，是核心设计约束——这篇给了可操作的框架",
+        "publishedAt": "2026-03-06"
+      },
+      {
+        "source": "Anthropic",
+        "type": "news",
+        "title": "Claude 两周找到 Firefox 22 个漏洞：AI 安全审计进入实战",
+        "summary": "Anthropic 与 Mozilla 合作，Claude Opus 4.6 在两周内找到 Firefox 22 个安全漏洞，其中 14 个高危，占 2025 全年 Firefox 高危漏洞的近 1/5。这标志着 AI 代码安全审计从演示阶段进入生产力工具阶段。",
+        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+        "why": "AI 能力边界在扩张到高专业度领域（安全/法律/医疗），这些领域的 AI UX 设计会成为新赛道",
+        "publishedAt": "2026-03-06"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "items": [
+      {
+        "source": "Anthropic",
+        "type": "research",
+        "title": "AI 对劳动力市场的真实影响：替代程度远低于预期",
+        "summary": "Anthropic 发布大规模研究，分析 AI 对各职业的实际影响。核心发现：理论上 AI 可以影响 36% 的工作任务，但实际替代率不到 1%。受影响最大的不是低技能工人，而是高学历高薪女性。最值得关注的信号是年轻人入行放缓——不是被裁，而是不被招。",
+        "url": "https://www.anthropic.com/research/labor-market-impacts",
+        "why": "设计师关心的「AI 会替代我吗」有了数据回答：短期不会，但初级岗位缩水是真实趋势，设计师需要往上走",
+        "publishedAt": "2026-03-05"
+      },
+      {
+        "source": "社区",
+        "type": "tool",
+        "title": "406.fail：社区自发的 AI 垃圾 PR 处理协议",
+        "summary": "开源社区建立了标准化流程来处理 AI 生成的低质量 Pull Request——返回 406 状态码表示「不可接受」。这个协议的出现说明 AI 生成的垃圾内容已经成为开源维护者的日常痛点。",
+        "url": "https://406.fail/",
+        "why": "AI 内容泛滥的反面案例，设计 AI 产品时要考虑输出质量控制，避免用户用你的产品制造垃圾",
+        "publishedAt": "2026-03-05"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-05",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "无障碍测试不是跑一次扫描就完事",
+        "summary": "文章指出自动化扫描工具只能发现约30%的无障碍问题，真正的无障碍测试需要手动测试+屏幕阅读器+真实残障用户参与。作者给出了一套分层测试策略：自动扫描作为基线，键盘导航测试，屏幕阅读器测试，最后是用户测试。",
+        "url": "https://uxdesign.cc/accessibility-testing-takes-more-than-a-scan-9984faf40985",
+        "why": "设计师做无障碍不能只依赖 Lighthouse 分数，需要理解自动化的盲区在哪里，手动测试覆盖什么",
+        "publishedAt": "2026-03-04"
+      },
+      {
+        "source": "GitHub",
+        "type": "tool",
+        "title": "Khoj：开源个人 AI 助手，支持本地部署",
+        "summary": "Khoj 是一个开源的 AI 助手，支持连接个人笔记、文档和网页搜索，可以完全本地部署。核心特点是能索引用户的 Obsidian/Notion 笔记作为上下文，回答基于个人知识库。",
+        "url": "https://github.com/khoj-ai/khoj",
+        "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
+        "publishedAt": ""
+      },
+      {
+        "source": "Hugging Face",
+        "type": "article",
+        "title": "MoE 架构详解：为什么大模型不一定贵",
+        "summary": "详细解释 Mixture of Experts 架构：模型总参数量决定容量（能学多少知识），激活参数量决定推理速度和成本。一个万亿参数的 MoE 模型推理时可能只激活几十亿参数，成本接近小模型。文章用餐厅类比：MoE 像一个有很多专业厨师的餐厅，每道菜只需要几个厨师上场。",
+        "url": "https://huggingface.co/blog/moe-transformers",
+        "why": "理解 MoE 能帮设计师判断 AI 产品的成本结构——大模型不等于贵，这个认知会影响产品定价和功能设计决策",
+        "publishedAt": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "items": [
+      {
+        "source": "NNGroup",
+        "type": "article",
+        "title": "用户在 AI 搜索中的行为变化：信任增加，验证减少",
+        "summary": "NNGroup 研究了用户使用 AI 搜索（如 Perplexity、ChatGPT）与传统搜索的行为差异。核心发现：用户对 AI 给出的直接答案信任度显著高于搜索结果列表，但交叉验证行为大幅减少。这意味着 AI 搜索界面需要主动设计「验证引导」——让用户方便地核实信息，而不是被动接受。",
+        "url": "https://www.nngroup.com/articles/ai-search-infoseeking/",
+        "why": "这篇研究揭示了一个 AI 产品设计的关键矛盾：AI 搜索的价值在于降低用户的认知负担（不用自己想关键词、不用逐个网页比较），但这个便利性的副作用是用户的批判性思维也跟着降低了。对 designer 的直接启示：设计 AI 信息产品时，不能只追求「回答更快更好」，还要设计「鼓励用户验证」的交互——比如展示信息来源、标注置信度、提供「你也可以搜索这些关键词」的引导。否则你在帮用户变懒，而不是变聪明。",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards-1_ZvFOpYn.png"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "设计师如何通过「战略顾问」角色扩大影响力",
+        "summary": "作者认为设计师容易陷入「只做执行」的角色，提升影响力的关键是转型为团队的战略顾问——主动参与商业决策、用数据支撑设计判断、在产品方向讨论中发声。文章给出了具体的转型路径：从理解业务指标开始，到用设计语言翻译商业目标。",
+        "url": "https://uxdesign.cc/how-being-a-strategic-advisor-helps-grow-design-influence-396f9982af2c",
+        "why": "这篇直接关系到 product designer 的职业发展路径。核心问题是：你是一个「被调用的设计资源」还是一个「主动推动产品方向的人」？从执行者到顾问的关键转变不是技能，而是姿态——主动发起对话、用业务指标说话、在没人问你的时候也给出设计建议。"
+      },
+      {
+        "source": "HuggingFace",
+        "type": "article",
+        "title": "PRX 系列第三篇：24 小时速成图像生成模型训练",
+        "summary": "HuggingFace 团队分享了如何在 24 小时内完成一个图像生成模型的完整训练流程。涵盖数据集选择、训练配置调优、以及计算资源分配策略。核心经验：在有限资源下，数据质量的优先级远高于模型规模——小而精的数据集往往比大而杂的效果更好。",
+        "url": "https://huggingface.co/blog/Photoroom/prx-part3",
+        "why": "几年前训练一个像样的文生图模型要上百万美元，现在 1500 美元搞定。这个趋势对 designer 的意义：AI 图像生成正在从「几家大公司的专利」变成「任何团队都能自建的能力」。不远的将来，设计工具里的 AI 生成功能可能不再依赖 OpenAI/Midjourney 等外部 API，而是内建在工具本身。理解这个技术民主化趋势，能帮你判断哪些 AI 设计工具有长期竞争力。",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/68e529af513e724edd8702f6/zMyALdakGbN6SDG3ucmLd.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "items": [
+      {
+        "source": "The Verge",
+        "type": "rss",
+        "title": "Meta 智能眼镜的隐私代价：工人说「我们什么都能看到」",
+        "summary": "瑞典媒体 SvD 调查发现，Meta 智能眼镜在仓库等工作场景中被用于持续监控员工行为，工人反映毫无隐私可言。文章揭示了可穿戴 AI 设备在工作场所的伦理边界问题——当「便利」变成「监控」，设计者需要思考：产品的默认行为应该保护谁的利益？",
+        "url": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
+        "why": "这是 AI 产品设计中「perceived control vs actual control」的教科书反面案例。用户看到的界面告诉他们「你掌控着隐私」，但系统架构层面根本做不到这个承诺。对 designer 的启示：当你设计 AI 产品的隐私设置/数据控制界面时，要先追问工程团队——这些控件背后是真实的技术保障，还是只是让用户感觉安心的 UI？如果是后者，你在帮公司骗用户。",
+        "image": "https://svd.vgc.no/v2/images/e4d3cfec-f7dc-4461-aa32-108ea47f2621?h=630&q=80&upscale=true&w=1200&s=d82dc447eb031914967ea232d0aab8207eab5ef0"
+      },
+      {
+        "source": "ntik.me",
+        "type": "rss",
+        "title": "如何实现 500ms 内响应的语音 AI Agent",
+        "summary": "作者从零搭建了一个端到端语音 Agent，实现了 500ms 以内的响应延迟。技术栈包括 VAD（语音活动检测）、流式 STT、LLM 流式输出和 TTS 并行处理。关键优化点：不等完整句子结束就开始生成回复，利用管道并行而非串行处理。对想理解语音 AI 架构的人来说，这是一篇很好的实战拆解。",
+        "url": "https://www.ntik.me/posts/voice-agent",
+        "why": "语音交互是 AI 产品的下一个竞争维度。这篇文章最有价值的不是代码，而是揭示了语音 UX 的核心矛盾：人类潜意识对对话节奏极度敏感，500ms 是「感觉像真人对话」的门槛。低于这个值用户会觉得自然，高于就会觉得在「跟机器说话」。对 designer 来说，设计语音产品时不能只画界面——延迟、打断处理、静默等待的反馈，这些「非视觉」的交互细节才是体验的决定因素。",
+        "image": "https://ntik.me/voice-agent-essay/agent-logs.png"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "rss",
+        "title": "企业「AI 采用」的表演性：为什么很多公司只是在做样子",
+        "summary": "许多公司大张旗鼓宣布 AI 战略，实际落地却停留在表面——买了工具没人用，试点项目没有后续。作者分析了组织层面的阻力：中层管理者害怕被替代、缺乏真实的使用场景规划、以及 KPI 导向下的形式主义。对设计师的启示是：推动 AI 在团队中落地，需要先解决人的问题，而不是工具的问题。",
+        "url": "https://uxdesign.cc/the-ai-adoption-theatre-when-innovation-becomes-performance-fd03bb16b0ce",
+        "why": "对 designer 的直接价值：当甲方说「我们要做一个 AI 功能」时，你要能判断这是真需求还是表演性需求。真需求指向具体用户痛点和可衡量的改善；表演性需求的特征是「我们需要 AI」但说不清解决什么问题。识别这个区别，能帮你避免花几个月设计一个最终没人用的功能。"
+      },
+      {
+        "source": "NNGroup",
+        "type": "rss",
+        "title": "用户在 AI 搜索中的行为变化：信任增加，验证减少",
+        "summary": "NNGroup 研究了用户使用 AI 搜索（如 Perplexity、ChatGPT）与传统搜索的行为差异。核心发现：用户对 AI 给出的直接答案信任度显著高于搜索结果列表，但交叉验证行为大幅减少。这意味着 AI 搜索界面需要主动设计「验证引导」——让用户方便地核实信息，而不是被动接受。",
+        "url": "https://www.nngroup.com/articles/ai-search-infoseeking/",
+        "why": "这篇研究揭示了一个 AI 产品设计的关键矛盾：AI 搜索的价值在于降低用户的认知负担（不用自己想关键词、不用逐个网页比较），但这个便利性的副作用是用户的批判性思维也跟着降低了。对 designer 的直接启示：设计 AI 信息产品时，不能只追求「回答更快更好」，还要设计「鼓励用户验证」的交互——比如展示信息来源、标注置信度、提供「你也可以搜索这些关键词」的引导。否则你在帮用户变懒，而不是变聪明。",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards-1_ZvFOpYn.png"
+      },
+      {
+        "source": "skills.sh trending",
+        "type": "skills",
+        "title": "今日热榜 Top 3 值得关注",
+        "summary": "agent-browser（让 AI 操控浏览器）、sleek-design-mobile-apps（移动端设计 AI）、nano-banana-2（轻量 agent 框架）——对你最有用的是 agent-browser，和潮汕攻略那个案例同一类能力。",
+        "url": "https://skills.sh/trending",
+        "why": "每日热榜，了解 AI 工具生态动向"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "items": [
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Grammarly 未经许可用真人身份做 AI「专家点评」，被起诉了",
+        "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
+        "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
+        "publishedAt": "2026-03-11"
+      },
+      {
+        "source": "MIT Technology Review",
+        "type": "article",
+        "title": "中国的「养龙虾」热：OpenClaw 催生了一个安装服务产业",
+        "summary": "一个北京工程师在闲鱼卖 OpenClaw 安装服务，248元一单做了7000单，从副业变成100人团队。中国用户给 OpenClaw 起了昵称「龙虾」，线下聚会和直播教学遍地开花，反映非技术用户对 AI agent 的强烈需求。",
+        "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+        "why": "AI agent 工具的用户增长瓶颈不是功能而是安装门槛——这催生了「安装即服务」的商业模式。对产品设计的启示：降低 onboarding 摩擦比增加功能更能扩大用户群。",
+        "publishedAt": "2026-03-11"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "那辆由女性为女性设计的汽车，后来怎样了？",
+        "summary": "回顾 2004 年 Volvo YCC 概念车，全女性团队设计。女性购买美国62%新车、影响85%购车决策，但汽车工程师中女性仅5%。YCC 的很多设计（更好视野、易清洁内饰）实际对所有用户更好。",
+        "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
+        "why": "经典的「为边缘用户设计，所有人受益」案例。做 AI 产品时同样适用：为非技术用户设计的简化流程，技术用户同样会选择使用。",
+        "publishedAt": "2026-03-11"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "items": [
+      {
+        "source": "NN/g",
+        "type": "article",
+        "title": "AI 聊天界面里最令人兴奋的进展：按钮和复选框",
+        "summary": "NN/g 发现 GenUI 正在从理论变成现实。Google AI Mode 在酒店推荐里加了复选框，用户勾选后选项自动填入对话框；Claude 在回答前生成多选题收集上下文（最多 4 题，有 guard rail 控制）。核心发现：AI 聊天最大的 UX 瓶颈不是生成质量，而是上下文收集——用户打字描述需求既慢又不精确，传统表单控件反而是最好的解法。这是 genUI 的第一个真正有用的落地：不是炫酷的动态界面，而是最朴素的 checkbox。",
+        "url": "https://www.nngroup.com/articles/genui-buttons-and-checkboxes/",
+        "why": "GenUI 的真正价值不在「生成界面」而在「收集上下文」——这改变了设计 AI 产品时的优先级排序。下次设计 AI 对话产品，先想怎么用传统 UI 控件帮用户表达需求，再想生成什么。",
+        "publishedAt": "2026-03-06"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "CSS corner-shape 终于来了：圆角之外的五种新形状",
+        "summary": "CSS 新属性 corner-shape 配合 border-radius 使用，支持 squircle（Apple 风超椭圆）、bevel（切角）、scoop（内凹）、notch（直角切口）、square 五种形状，还有 superellipse() 函数做精细控制。告别 clip-path 和 SVG mask 的 hack 时代。目前仅 Chrome 139+ 支持，但作为渐进增强可以开始用了。",
+        "url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
+        "why": "squircle 一直是 Apple 设计语言的标志性元素，现在原生 CSS 就能做了。做 web UI 时不再需要 SVG hack 来实现 iOS 风格的圆角，设计稿到代码的距离又近了一步。",
+        "publishedAt": "2026-03-12"
+      },
+      {
+        "source": "HuggingFace / NVIDIA",
+        "type": "article",
+        "title": "NVIDIA 用「可复用工具生成」拿下数据分析 agent 榜首",
+        "summary": "NVIDIA 团队在 DABStep 基准上拿了第一名，比 Claude Code baseline 快 30 倍。核心架构：把 agent 拆成两阶段——先用慢模式生成可复用的分析工具函数库，再用快模式调用这些工具做推理。不是每次从零写代码，而是先建「工具箱」再解题。这个「分离基础知识构建和快速推理」的策略在复杂多步数据分析任务上效果显著。",
+        "url": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
+        "why": "「先慢后快」的 agent 架构对产品设计有启发：AI 产品的 onboarding 阶段可以慢一点、收集更多上下文建立工具库，之后的日常使用就能快 30 倍。用户体验的投资回报不在首次使用，在重复使用。",
+        "publishedAt": "2026-03-13"
+      }
+    ]
+  }
+]
