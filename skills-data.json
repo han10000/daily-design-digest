@@ -11,15 +11,10 @@
       "license": "MIT",
       "topics": [],
       "tag": "design",
-      "category": "design",
+      "category": "Design-to-Code",
       "updated_at": "2026-03-26",
       "rank": 1,
-      "installs": "72,099 stars",
-      "repo_desc": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "homepage": "https://screenshottocode.com",
-      "how_to_install": "",
-      "how_to_use": "",
-      "features": ""
+      "installs": "72,099 stars"
     },
     {
       "name": "OpenViking",
@@ -37,15 +32,10 @@
         "context-database"
       ],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Design-to-Code",
       "updated_at": "2026-03-31",
       "rank": 2,
-      "installs": "20,174 stars",
-      "repo_desc": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
-      "homepage": "https://openviking.ai",
-      "how_to_install": "### Prerequisites\n\nBefore starting with OpenViking, please ensure your environment meets the following requirements:\n\n- **Python Version**: 3.10 or higher\n- **Go Version**: 1.22 or higher (Required for building AGFS components)\n- **C++ Compiler**: GCC 9+ or Clang 11+ (Required for building core extensions)\n- **Operating System**: Linux, macOS, Windows\n- **Network Connection**: A stable network connection is required (for downloading dependencies and accessing model services)",
-      "how_to_use": "",
-      "features": ""
+      "installs": "20,174 stars"
     },
     {
       "name": "impeccable",
@@ -57,15 +47,10 @@
       "license": "Apache-2.0",
       "topics": [],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Design & UX",
       "updated_at": "2026-03-30",
       "rank": 3,
-      "installs": "14,981 stars",
-      "repo_desc": "The design language that makes your AI harness better at design.",
-      "homepage": "https://impeccable.style",
-      "how_to_install": "### Option 1: Download from Website (Recommended)\n\nVisit [impeccable.style](https://impeccable.style), download the ZIP for your tool, and extract to your project.",
-      "how_to_use": "Once installed, use commands in your AI harness:\n\n```\n/audit           # Find issues\n/normalize       # Fix inconsistencies\n/polish          # Final cleanup\n/distill         # Remove complexity\n```\n\nMost commands accept an optional argument to focus on a specific area:\n\n```\n/audit header\n/polish checkout-form\n```\n\n**Note:** Codex CLI uses a different syntax: `/prompts:audit`, `/prompts:polish`, etc.",
-      "features": ""
+      "installs": "14,981 stars"
     },
     {
       "name": "Figma-Context-MCP",
@@ -83,15 +68,10 @@
         "typescript"
       ],
       "tag": "design",
-      "category": "Agent & Tools",
+      "category": "Figma & Plugins",
       "updated_at": "2026-03-28",
       "rank": 4,
-      "installs": "14,061 stars",
-      "repo_desc": "MCP server to provide Figma layout information to AI coding agents like Cursor",
-      "homepage": "https://www.framelink.ai/",
-      "how_to_install": "Many code editors and other AI clients use a configuration file to manage MCP servers.\n\nThe `figma-developer-mcp` server can be configured by adding the following to your configuration file.\n\n> NOTE: You will need to create a Figma access token to use this server. Instructions on how to create a Figma API access token can be found [here](https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens).",
-      "how_to_use": "1. Open your IDE's chat (e.g. agent mode in Cursor).\n2. Paste a link to a Figma file, frame, or group.\n3. Ask Cursor to do something with the Figma file—e.g. implement the design.\n4. Cursor will fetch the relevant metadata from Figma and use it to write your code.\n\nThis MCP server is specifically designed for use with Cursor. Before responding with context from the [Figma API](https://www.figma.com/developers/api), it simplifies and translates the response so only the most relevant layout and...",
-      "features": ""
+      "installs": "14,061 stars"
     },
     {
       "name": "cursor-talk-to-figma-mcp",
@@ -109,15 +89,10 @@
         "ai-agents"
       ],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Figma & Plugins",
       "updated_at": "2026-03-07",
       "rank": 5,
-      "installs": "6,586 stars",
-      "repo_desc": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
-      "homepage": "https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin",
-      "how_to_install": "",
-      "how_to_use": "1. Install Bun if you haven't already:\n\n```bash\ncurl -fsSL https://bun.sh/install | bash\n```\n\n2. Run setup, this will also install MCP in your Cursor's active project\n\n```bash\nbun setup\n```\n\n3. Start the Websocket server\n\n```bash\nbun socket\n```\n\n4. **NEW** Install Figma plugin from [Figma community page](https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin) or [install locally](#figma-plugin)",
-      "features": ""
+      "installs": "6,586 stars"
     },
     {
       "name": "community-resources",
@@ -135,7 +110,7 @@
         "figma-plugin"
       ],
       "tag": "design",
-      "category": "Agent & Tools",
+      "category": "Figma & Plugins",
       "updated_at": "2026-03-31",
       "rank": 6,
       "installs": "751 stars"
@@ -150,7 +125,7 @@
       "license": "NOASSERTION",
       "topics": [],
       "tag": "design",
-      "category": "Learning Resource",
+      "category": "Agent Skills for Design",
       "updated_at": "2026-02-28",
       "rank": 7,
       "installs": "724 stars"
@@ -165,7 +140,7 @@
       "license": "MIT",
       "topics": [],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Figma & Plugins",
       "updated_at": "2026-03-15",
       "rank": 8,
       "installs": "407 stars"
@@ -186,7 +161,7 @@
         "design"
       ],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Agent Skills for Design",
       "updated_at": "2026-03-24",
       "rank": 9,
       "installs": "346 stars"
@@ -207,7 +182,7 @@
         "copilot"
       ],
       "tag": "design",
-      "category": "Agent & Tools",
+      "category": "Design-to-Code",
       "updated_at": "2026-03-26",
       "rank": 10,
       "installs": "332 stars"
@@ -228,7 +203,7 @@
         "claude"
       ],
       "tag": "design",
-      "category": "Agent & Tools",
+      "category": "Design-to-Code",
       "updated_at": "2026-03-30",
       "rank": 11,
       "installs": "245 stars"
@@ -249,7 +224,7 @@
         "mcp"
       ],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Figma & Plugins",
       "updated_at": "2026-02-27",
       "rank": 12,
       "installs": "222 stars"
@@ -270,7 +245,7 @@
         "figma"
       ],
       "tag": "design",
-      "category": "Creative & Media",
+      "category": "Figma & Plugins",
       "updated_at": "2026-03-29",
       "rank": 13,
       "installs": "184 stars"
@@ -285,7 +260,7 @@
       "license": "",
       "topics": [],
       "tag": "design",
-      "category": "Learning Resource",
+      "category": "Color & Style",
       "updated_at": "2023-04-03",
       "rank": 14,
       "installs": "178 stars"
@@ -300,7 +275,7 @@
       "license": "",
       "topics": [],
       "tag": "design",
-      "category": "Agent & Tools",
+      "category": "Agent Skills for Design",
       "updated_at": "2026-03-16",
       "rank": 15,
       "installs": "173 stars"
