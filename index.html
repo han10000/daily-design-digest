@@ -578,7 +578,8 @@
   const panelBody = document.getElementById('panelBody');
   const panelClose = document.getElementById('panelClose');
 
-  function openPanel(item) {
+  // ── Panel shared ──
+  function openArticlePanel(item) {
     panelBody.scrollTop = 0;
     const pubDate = item.publishedAt || '';
     panelBody.innerHTML = `
@@ -596,6 +597,40 @@
           <div class="detail-insight-text">${esc(item.why)}</div>
         </div>` : ''}
         ${item.url ? `<a class="detail-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read Original &rarr;</a>` : ''}
+      </div>
+    `;
+    overlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function openSkillPanel(skill) {
+    panelBody.scrollTop = 0;
+    const url = skill.source === 'github' && skill.owner
+      ? `https://github.com/${encodeURIComponent(skill.owner)}/${encodeURIComponent(skill.name)}`
+      : '';
+    const tag = skill.tag || '';
+    panelBody.innerHTML = `
+      <div class="detail-body">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+          <span style="font-size:24px;font-weight:800;color:var(--muted);opacity:0.3;">#${skill.rank}</span>
+          ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}" style="font-size:12px;">${esc(tag)}</span>` : ''}
+        </div>
+        <h1 class="detail-title">${esc(skill.name)}</h1>
+        <div class="detail-meta">
+          ${skill.owner ? `<span class="detail-source">${esc(skill.owner)}</span>` : ''}
+          ${skill.installs ? `<span class="detail-date">${esc(skill.installs)}</span>` : ''}
+        </div>
+        <div class="detail-divider"></div>
+        <div class="detail-text">${esc(skill.desc || '')}</div>
+        ${skill.usage ? `<div class="detail-insight">
+          <div class="detail-insight-label">Designer Insight</div>
+          <div class="detail-insight-text">${esc(skill.usage)}</div>
+        </div>` : ''}
+        ${skill.reason ? `<div style="font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:28px;padding:14px 16px;background:var(--tag-bg);border-radius:10px;">
+          <div style="font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;opacity:0.6;">Assessment</div>
+          ${esc(skill.reason)}
+        </div>` : ''}
+        ${url ? `<a class="detail-link" href="${esc(url)}" target="_blank" rel="noopener">View on GitHub &rarr;</a>` : ''}
       </div>
     `;
     overlay.classList.add('open');
@@ -691,7 +726,7 @@
               <span>${esc(item.publishedAt || '')}</span>
             </div>
           `;
-          card.addEventListener('click', () => openPanel(_articles[key]));
+          card.addEventListener('click', () => openArticlePanel(_articles[key]));
           div.appendChild(card);
         });
 
@@ -728,6 +763,9 @@
       document.getElementById('articlesContent').innerHTML = '<div class="loading">Failed to load articles</div>';
     });
 
+  // ── Skills data store ──
+  const _skills = {};
+
   // ── Render skills ──
   fetch('skills-data.json')
     .then(r => r.json())
@@ -742,16 +780,13 @@
         const grid = document.createElement('div');
         grid.className = 'skills-grid';
 
-        data.trending.forEach(skill => {
+        data.trending.forEach((skill, i) => {
+          const key = 's' + i;
+          _skills[key] = skill;
           const tag = skill.tag || '';
-          const url = skill.source === 'github' && skill.owner
-            ? `https://github.com/${encodeURIComponent(skill.owner)}/${encodeURIComponent(skill.name)}`
-            : '#';
-          const card = document.createElement('a');
+          const card = document.createElement('div');
           card.className = 'skill-card';
-          card.href = url;
-          card.target = '_blank';
-          card.rel = 'noopener';
+          card.style.cursor = 'pointer';
           card.innerHTML = `
             <div class="skill-header">
               <span style="display:flex;align-items:center;gap:4px;">
@@ -766,6 +801,7 @@
             <div class="skill-desc">${esc(skill.desc || '—')}</div>
             ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:var(--muted);opacity:0.5;">via ${esc(skill.source)}</div>` : ''}
           `;
+          card.addEventListener('click', () => openSkillPanel(_skills[key]));
           grid.appendChild(card);
         });
 
