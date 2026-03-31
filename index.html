@@ -34,493 +34,193 @@
     padding: 0 20px;
   }
 
-  /* Header */
   header {
     padding: 48px 0 32px;
     border-bottom: 1px solid var(--border);
     margin-bottom: 32px;
   }
-
-  header h1 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    margin-bottom: 8px;
-  }
-
-  header p {
-    font-size: 15px;
-    color: var(--muted);
-    max-width: 480px;
-  }
+  header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 8px; }
+  header p { font-size: 15px; color: var(--muted); max-width: 480px; }
 
   /* Tabs */
   .tabs {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 32px;
-    background: var(--tag-bg);
-    padding: 4px;
-    border-radius: 12px;
-    width: fit-content;
+    display: flex; gap: 4px; margin-bottom: 32px;
+    background: var(--tag-bg); padding: 4px; border-radius: 12px; width: fit-content;
   }
-
   .tab {
-    padding: 8px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: var(--font);
-    color: var(--muted);
-    background: transparent;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
+    padding: 8px 20px; font-size: 14px; font-weight: 500; font-family: var(--font);
+    color: var(--muted); background: transparent; border: none; border-radius: 8px;
+    cursor: pointer; transition: all 0.2s ease; white-space: nowrap;
   }
-
   .tab:hover { color: var(--text); }
+  .tab.active { background: var(--surface); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 
-  .tab.active {
-    background: var(--surface);
-    color: var(--text);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  .fav-count {
+    font-size: 11px; font-weight: 700; background: var(--accent);
+    color: #fff; border-radius: 99px; padding: 1px 6px; margin-left: 4px;
+    display: none;
   }
+  .fav-count.visible { display: inline; }
 
-  /* Sections */
   .section { display: none; }
   .section.active { display: block; }
 
   /* Search */
-  .search-bar {
-    position: relative;
-    margin-bottom: 28px;
-  }
-
+  .search-bar { position: relative; margin-bottom: 28px; }
   .search-bar input {
-    width: 100%;
-    padding: 12px 16px 12px 42px;
-    font-size: 14px;
-    font-family: var(--font);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    color: var(--text);
-    outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%; padding: 12px 16px 12px 42px; font-size: 14px; font-family: var(--font);
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    color: var(--text); outline: none; transition: border-color 0.2s, box-shadow 0.2s;
   }
-
   .search-bar input::placeholder { color: var(--muted); opacity: 0.5; }
-
-  .search-bar input:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-subtle);
-  }
-
+  .search-bar input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-subtle); }
   .search-bar svg {
-    position: absolute;
-    left: 14px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--muted);
-    opacity: 0.4;
-    pointer-events: none;
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); opacity: 0.4; pointer-events: none;
   }
-
-  .search-empty {
-    text-align: center;
-    padding: 48px 20px;
-    color: var(--muted);
-    font-size: 14px;
-    display: none;
-  }
+  .search-empty { text-align: center; padding: 48px 20px; color: var(--muted); font-size: 14px; display: none; }
 
   /* Date group */
   .date-group { margin-bottom: 40px; }
-
   .date-label {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 16px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-    opacity: 0.6;
+    font-size: 13px; font-weight: 600; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;
+    padding-bottom: 8px; border-bottom: 1px solid var(--border); opacity: 0.6;
   }
 
   /* Feed Card */
   .feed-card {
-    background: var(--surface);
-    border-radius: 16px;
-    border: 1px solid var(--border);
-    padding: 20px;
-    margin-bottom: 16px;
-    text-decoration: none;
-    display: block;
-    color: inherit;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.25s;
+    background: var(--surface); border-radius: 16px; border: 1px solid var(--border);
+    padding: 20px; margin-bottom: 16px; text-decoration: none; display: block;
+    color: inherit; cursor: pointer; transition: transform 0.2s, box-shadow 0.25s;
   }
-
-  .feed-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  }
-
-  .feed-card:active {
-    transform: scale(0.98);
-    transition: transform 0.12s;
-  }
-
+  .feed-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .feed-card:active { transform: scale(0.98); transition: transform 0.12s; }
   .feed-card-title {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.35;
-    color: var(--text);
-    letter-spacing: -0.02em;
-    margin-bottom: 12px;
+    font-size: 18px; font-weight: 700; line-height: 1.35; color: var(--text);
+    letter-spacing: -0.02em; margin-bottom: 12px;
   }
-
-  .feed-card-content {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    margin-bottom: 14px;
-  }
-
-  .feed-card-thumb {
-    width: 72px;
-    height: 72px;
-    border-radius: 10px;
-    overflow: hidden;
-    flex-shrink: 0;
-    background: var(--bg);
-  }
-
-  .feed-card-thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
+  .feed-card-content { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 14px; }
+  .feed-card-thumb { width: 72px; height: 72px; border-radius: 10px; overflow: hidden; flex-shrink: 0; background: var(--bg); }
+  .feed-card-thumb img { width: 100%; height: 100%; object-fit: cover; }
   .feed-card-summary {
-    font-size: 14px;
-    line-height: 1.55;
-    color: var(--muted);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    flex: 1;
-    min-width: 0;
+    font-size: 14px; line-height: 1.55; color: var(--muted);
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    flex: 1; min-width: 0;
   }
-
   .feed-card-summary-full {
-    font-size: 14px;
-    line-height: 1.55;
-    color: var(--muted);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    font-size: 14px; line-height: 1.55; color: var(--muted);
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     margin-bottom: 14px;
   }
+  .feed-card-footer { display: flex; align-items: center; justify-content: space-between; font-size: 12px; color: var(--muted); opacity: 0.6; }
 
-  .feed-card-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 12px;
-    color: var(--muted);
-    opacity: 0.6;
-  }
-
-  /* ── Side Panel (overlay from right) ── */
+  /* Side Panel */
   .panel-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.2);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 100;
+    position: fixed; inset: 0; background: rgba(0,0,0,0.2);
+    opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 100;
   }
-
-  .panel-overlay.open {
-    opacity: 1;
-    visibility: visible;
-  }
-
+  .panel-overlay.open { opacity: 1; visibility: visible; }
   .side-panel {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: var(--panel-w);
-    max-width: 100vw;
-    background: var(--surface);
-    box-shadow: -8px 0 32px rgba(0,0,0,0.1);
-    transform: translateX(100%);
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 101;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    position: fixed; top: 0; right: 0; bottom: 0; width: var(--panel-w); max-width: 100vw;
+    background: var(--surface); box-shadow: -8px 0 32px rgba(0,0,0,0.1);
+    transform: translateX(100%); transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 101; display: flex; flex-direction: column; overflow: hidden;
   }
-
-  .panel-overlay.open .side-panel {
-    transform: translateX(0);
-  }
-
+  .panel-overlay.open .side-panel { transform: translateX(0); }
   .panel-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 24px;
-    border-bottom: 1px solid var(--border);
-    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 24px; border-bottom: 1px solid var(--border); flex-shrink: 0;
   }
-
-  .panel-header-title {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--muted);
-    opacity: 0.6;
-  }
-
+  .panel-header-title { font-size: 14px; font-weight: 600; color: var(--muted); opacity: 0.6; }
   .panel-close {
-    width: 32px;
-    height: 32px;
-    border: none;
-    background: var(--tag-bg);
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--muted);
-    font-size: 18px;
-    transition: background 0.15s;
+    width: 32px; height: 32px; border: none; background: var(--tag-bg);
+    border-radius: 8px; cursor: pointer; display: flex; align-items: center;
+    justify-content: center; color: var(--muted); font-size: 18px; transition: background 0.15s;
   }
+  .panel-close:hover { background: var(--border); }
+  .panel-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
 
-  .panel-close:hover {
-    background: var(--border);
-  }
-
-  .panel-body {
-    flex: 1;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-  }
-
-  /* Article detail inside panel */
-  .detail-hero {
-    overflow: hidden;
-  }
-
-  .detail-hero img {
-    width: 100%;
-    display: block;
-    max-height: 240px;
-    object-fit: cover;
-  }
-
-  .detail-body {
-    padding: 24px;
-  }
-
-  .detail-title {
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 1.35;
-    color: var(--text);
-    letter-spacing: -0.02em;
-    margin-bottom: 12px;
-  }
-
-  .detail-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    color: var(--muted);
-    margin-bottom: 20px;
-  }
-
-  .detail-source {
-    font-weight: 600;
-    color: var(--text);
-    opacity: 0.7;
-  }
-
+  /* Detail */
+  .detail-hero { overflow: hidden; }
+  .detail-hero img { width: 100%; display: block; max-height: 240px; object-fit: cover; }
+  .detail-body { padding: 24px; }
+  .detail-title { font-size: 22px; font-weight: 800; line-height: 1.35; color: var(--text); letter-spacing: -0.02em; margin-bottom: 12px; }
+  .detail-meta { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); margin-bottom: 20px; }
+  .detail-source { font-weight: 600; color: var(--text); opacity: 0.7; }
   .detail-date { opacity: 0.5; }
-
-  .detail-divider {
-    height: 1px;
-    background: var(--border);
-    margin-bottom: 24px;
-  }
-
-  .detail-text {
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--text);
-    margin-bottom: 28px;
-    white-space: pre-line;
-  }
-
-  .detail-insight {
-    background: var(--accent-subtle);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 28px;
-  }
-
-  .detail-insight-label {
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 8px;
-  }
-
-  .detail-insight-text {
-    font-size: 15px;
-    line-height: 1.7;
-    color: var(--text);
-  }
-
+  .detail-divider { height: 1px; background: var(--border); margin-bottom: 24px; }
+  .detail-text { font-size: 16px; line-height: 1.75; color: var(--text); margin-bottom: 28px; white-space: pre-line; }
+  .detail-insight { background: var(--accent-subtle); border-radius: 12px; padding: 18px 20px; margin-bottom: 28px; }
+  .detail-insight-label { font-size: 12px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+  .detail-insight-text { font-size: 15px; line-height: 1.7; color: var(--text); }
+  .detail-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
   .detail-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 20px;
-    background: var(--accent);
-    color: #fff;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    transition: opacity 0.15s;
+    display: inline-flex; align-items: center; gap: 6px; padding: 10px 20px;
+    background: var(--accent); color: #fff; border-radius: 10px; text-decoration: none;
+    font-size: 14px; font-weight: 600; transition: opacity 0.15s;
   }
-
   .detail-link:hover { opacity: 0.85; }
 
-  /* Skills Section */
-  .skills-grid {
-    display: grid;
-    gap: 12px;
+  /* Favorite button */
+  .fav-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 10px 20px; background: var(--tag-bg); border: none; border-radius: 10px;
+    font-size: 14px; font-weight: 600; color: var(--text); cursor: pointer;
+    transition: all 0.2s; font-family: var(--font);
   }
+  .fav-btn:active { transform: scale(0.95); }
+  .fav-btn.fav-active { color: var(--accent); background: var(--accent-subtle); }
 
+  /* Favorites empty */
+  .fav-empty {
+    text-align: center; padding: 80px 20px; color: var(--muted);
+  }
+  .fav-empty-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.3; }
+  .fav-empty-text { font-size: 15px; margin-bottom: 6px; }
+  .fav-empty-hint { font-size: 13px; opacity: 0.6; }
+
+  /* Fav card remove button */
+  .fav-remove {
+    border: none; background: none; color: var(--muted); cursor: pointer;
+    opacity: 0.4; transition: opacity 0.15s; padding: 4px;
+  }
+  .fav-remove:hover { opacity: 1; color: #e53e3e; }
+
+  /* Skills */
+  .skills-grid { display: grid; gap: 12px; }
   .skill-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 20px;
-    transition: transform 0.2s, box-shadow 0.25s;
-    text-decoration: none;
-    color: inherit;
-    display: block;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 20px; transition: transform 0.2s, box-shadow 0.25s;
+    text-decoration: none; color: inherit; display: block; cursor: pointer;
   }
-
-  .skill-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  }
-
-  .skill-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 8px;
-  }
-
-  .skill-name {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text);
-  }
-
+  .skill-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .skill-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+  .skill-name { font-size: 15px; font-weight: 600; color: var(--text); }
   .skill-tag {
-    font-size: 11px;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 99px;
-    background: var(--tag-bg);
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
+    font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 99px;
+    background: var(--tag-bg); color: var(--muted); text-transform: uppercase; letter-spacing: 0.3px;
   }
-
   .skill-tag[data-tag="AI"] { background: #EEF2FF; color: #4338CA; }
   .skill-tag[data-tag="design"] { background: #FDF2F8; color: #BE185D; }
   .skill-tag[data-tag="workflow"] { background: #ECFDF5; color: #047857; }
-
   .skill-desc {
-    font-size: 14px;
-    color: var(--muted);
-    line-height: 1.6;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    font-size: 14px; color: var(--muted); line-height: 1.6;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
-
-  .skill-section-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    letter-spacing: -0.3px;
-  }
-
+  .skill-section-title { font-size: 18px; font-weight: 600; margin-bottom: 16px; letter-spacing: -0.3px; }
   .skill-section { margin-bottom: 40px; }
+  .trending-rank { font-size: 13px; font-weight: 700; color: var(--muted); margin-right: 8px; min-width: 20px; opacity: 0.6; }
+  .trending-installs { font-size: 12px; color: var(--muted); margin-left: auto; opacity: 0.6; }
 
-  .trending-rank {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--muted);
-    margin-right: 8px;
-    min-width: 20px;
-    opacity: 0.6;
-  }
-
-  .trending-installs {
-    font-size: 12px;
-    color: var(--muted);
-    margin-left: auto;
-    opacity: 0.6;
-  }
-
-  /* Footer */
   footer {
-    margin-top: 64px;
-    padding: 24px 0;
-    border-top: 1px solid var(--border);
-    text-align: center;
-    font-size: 13px;
-    color: var(--muted);
-    margin-bottom: 48px;
-    opacity: 0.6;
+    margin-top: 64px; padding: 24px 0; border-top: 1px solid var(--border);
+    text-align: center; font-size: 13px; color: var(--muted); margin-bottom: 48px; opacity: 0.6;
   }
-
-  footer a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
+  footer a { color: var(--accent); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
+  .loading { text-align: center; padding: 48px; color: var(--muted); font-size: 14px; }
 
-  .loading {
-    text-align: center;
-    padding: 48px;
-    color: var(--muted);
-    font-size: 14px;
-  }
-
-  /* Responsive */
   @media (max-width: 640px) {
     header { padding: 32px 0 24px; }
     header h1 { font-size: 24px; }
@@ -544,6 +244,7 @@
   <div class="tabs">
     <button class="tab active" data-tab="articles">Articles</button>
     <button class="tab" data-tab="skills">Skills</button>
+    <button class="tab" data-tab="favorites">Favorites <span class="fav-count" id="favCount">0</span></button>
   </div>
 
   <div id="articles" class="section active">
@@ -559,6 +260,10 @@
     <div class="loading">Loading skills...</div>
   </div>
 
+  <div id="favorites" class="section">
+    <div id="favoritesContent"></div>
+  </div>
+
   <footer>
     Curated daily by <a href="https://github.com/han10000/daily-design-digest">Claw</a> &middot; Updated <span id="last-updated">—</span>
   </footer>
@@ -568,7 +273,7 @@
 <div class="panel-overlay" id="panelOverlay">
   <div class="side-panel" id="sidePanel">
     <div class="panel-header">
-      <span class="panel-header-title">Article Detail</span>
+      <span class="panel-header-title" id="panelTitle">Detail</span>
       <button class="panel-close" id="panelClose">&times;</button>
     </div>
     <div class="panel-body" id="panelBody"></div>
@@ -576,14 +281,126 @@
 </div>
 
 <script>
+  // ── Favorites (localStorage) ──
+  const FAV_KEY = 'digest_favorites';
+
+  function getFavs() {
+    try { return JSON.parse(localStorage.getItem(FAV_KEY) || '[]'); } catch(e) { return []; }
+  }
+  function saveFavs(favs) {
+    localStorage.setItem(FAV_KEY, JSON.stringify(favs));
+    updateFavUI();
+  }
+  function isFav(title) { return getFavs().some(f => f.title === title); }
+
+  function toggleFav(item) {
+    let favs = getFavs();
+    const idx = favs.findIndex(f => f.title === item.title);
+    if (idx >= 0) {
+      favs.splice(idx, 1);
+    } else {
+      favs.unshift({
+        title: item.title,
+        summary: item.summary || item.desc || '',
+        source: item.source || item.owner || '',
+        url: item.url || '',
+        why: item.why || item.usage || '',
+        image: item.image || '',
+        type: item.rank ? 'skill' : 'article',
+        savedAt: new Date().toISOString()
+      });
+    }
+    saveFavs(favs);
+    return idx < 0; // true = just added
+  }
+
+  function updateFavUI() {
+    const favs = getFavs();
+    const el = document.getElementById('favCount');
+    if (favs.length > 0) {
+      el.textContent = favs.length;
+      el.classList.add('visible');
+    } else {
+      el.classList.remove('visible');
+    }
+    // Re-render favorites tab if visible
+    if (document.getElementById('favorites').classList.contains('active')) {
+      renderFavorites();
+    }
+  }
+
+  function favBtnHtml(title) {
+    const saved = isFav(title);
+    const icon = saved
+      ? '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>'
+      : '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>';
+    return `<button class="fav-btn ${saved ? 'fav-active' : ''}" data-fav-title="${esc(title).replace(/'/g,'&#39;')}">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="${saved ? 'var(--accent)' : 'none'}" stroke="var(--accent)" stroke-width="2">${icon}</svg>
+      <span>${saved ? 'Saved' : 'Save'}</span>
+    </button>`;
+  }
+
+  function renderFavorites() {
+    const el = document.getElementById('favoritesContent');
+    const favs = getFavs();
+    if (!favs.length) {
+      el.innerHTML = `<div class="fav-empty">
+        <div class="fav-empty-icon"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></div>
+        <div class="fav-empty-text">No saved items yet</div>
+        <div class="fav-empty-hint">Click Save in any article or skill detail to bookmark it here</div>
+      </div>`;
+      return;
+    }
+    el.innerHTML = favs.map((fav, i) => {
+      const typeLabel = fav.type === 'skill' ? 'Skill' : 'Article';
+      return `<div class="feed-card" data-fav-idx="${i}">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;">
+          <div class="feed-card-title" style="flex:1">${esc(fav.title)}</div>
+          <button class="fav-remove" data-fav-idx="${i}" title="Remove">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        ${fav.summary ? `<div class="feed-card-summary-full">${esc(fav.summary)}</div>` : ''}
+        <div class="feed-card-footer">
+          <span>${esc(fav.source || '')} &middot; ${typeLabel}</span>
+          <span>${fav.savedAt ? new Date(fav.savedAt).toLocaleDateString() : ''}</span>
+        </div>
+      </div>`;
+    }).join('');
+
+    // Click to open original link or panel
+    el.querySelectorAll('.feed-card').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.fav-remove')) return;
+        const idx = parseInt(card.getAttribute('data-fav-idx'));
+        const fav = favs[idx];
+        if (fav && fav.url) window.open(fav.url, '_blank');
+      });
+    });
+
+    // Remove buttons
+    el.querySelectorAll('.fav-remove').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const idx = parseInt(btn.getAttribute('data-fav-idx'));
+        let favs = getFavs();
+        favs.splice(idx, 1);
+        saveFavs(favs);
+      });
+    });
+  }
+
   // ── Panel logic ──
   const overlay = document.getElementById('panelOverlay');
   const panel = document.getElementById('sidePanel');
   const panelBody = document.getElementById('panelBody');
   const panelClose = document.getElementById('panelClose');
+  const panelTitle = document.getElementById('panelTitle');
+  let _currentPanelItem = null;
 
-  // ── Panel shared ──
   function openArticlePanel(item) {
+    _currentPanelItem = item;
+    panelTitle.textContent = 'Article';
     panelBody.scrollTop = 0;
     const pubDate = item.publishedAt || '';
     panelBody.innerHTML = `
@@ -600,21 +417,26 @@
           <div class="detail-insight-label">Why This Matters</div>
           <div class="detail-insight-text">${esc(item.why)}</div>
         </div>` : ''}
-        ${item.url ? `<a class="detail-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read Original &rarr;</a>` : ''}
+        <div class="detail-actions">
+          ${item.url ? `<a class="detail-link" href="${esc(item.url)}" target="_blank" rel="noopener">Read Original &rarr;</a>` : ''}
+          ${favBtnHtml(item.title)}
+        </div>
       </div>
     `;
+    bindFavBtn(item);
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
 
   function openSkillPanel(skill) {
+    _currentPanelItem = skill;
+    panelTitle.textContent = 'Skill';
     panelBody.scrollTop = 0;
     const url = skill.source === 'github' && skill.owner
       ? `https://github.com/${encodeURIComponent(skill.owner)}/${encodeURIComponent(skill.name)}`
       : '';
     const tag = skill.tag || '';
 
-    // Metadata pills
     const pills = [
       skill.language ? skill.language : '',
       skill.license && skill.license !== 'NOASSERTION' ? skill.license : '',
@@ -639,7 +461,7 @@
 
         ${skill.how_to_install ? `<div style="margin-bottom:24px;">
           <div style="font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Installation</div>
-          <div style="font-size:14px;line-height:1.7;color:var(--text);background:var(--bg);border-radius:10px;padding:16px;white-space:pre-line;font-family:'SF Mono','Fira Code',monospace;font-size:13px;overflow-x:auto;">${esc(skill.how_to_install)}</div>
+          <div style="font-size:13px;line-height:1.7;color:var(--text);background:var(--bg);border-radius:10px;padding:16px;white-space:pre-line;font-family:'SF Mono','Fira Code',monospace;overflow-x:auto;">${esc(skill.how_to_install)}</div>
         </div>` : ''}
 
         ${skill.how_to_use ? `<div style="margin-bottom:24px;">
@@ -662,35 +484,55 @@
           ${esc(skill.reason)}
         </div>` : ''}
 
-        ${url ? `<a class="detail-link" href="${esc(url)}" target="_blank" rel="noopener">View on GitHub &rarr;</a>` : ''}
+        <div class="detail-actions">
+          ${url ? `<a class="detail-link" href="${esc(url)}" target="_blank" rel="noopener">View on GitHub &rarr;</a>` : ''}
+          ${favBtnHtml(skill.name || skill.title)}
+        </div>
       </div>
     `;
+    bindFavBtn(skill);
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
+  }
+
+  function bindFavBtn(item) {
+    const btn = panelBody.querySelector('.fav-btn');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const added = toggleFav(item);
+      const svg = btn.querySelector('svg');
+      const span = btn.querySelector('span');
+      if (added) {
+        btn.classList.add('fav-active');
+        svg.setAttribute('fill', 'var(--accent)');
+        span.textContent = 'Saved';
+      } else {
+        btn.classList.remove('fav-active');
+        svg.setAttribute('fill', 'none');
+        span.textContent = 'Save';
+      }
+    });
   }
 
   function closePanel() {
     overlay.classList.remove('open');
     document.body.style.overflow = '';
+    _currentPanelItem = null;
   }
 
   panelClose.addEventListener('click', closePanel);
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) closePanel();
-  });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closePanel();
-  });
-  // Prevent clicks inside panel from closing
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) closePanel(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePanel(); });
   panel.addEventListener('click', (e) => e.stopPropagation());
 
-  // ── Utils ──
+  // ── Tab switching ──
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       tab.classList.add('active');
       document.getElementById(tab.dataset.tab).classList.add('active');
+      if (tab.dataset.tab === 'favorites') renderFavorites();
     });
   });
 
@@ -709,6 +551,9 @@
     if (!str) return '';
     return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
+
+  // Init fav count
+  updateFavUI();
 
   // ── Article data store ──
   const _articles = {};
@@ -818,7 +663,6 @@
           const tag = skill.tag || '';
           const card = document.createElement('div');
           card.className = 'skill-card';
-          card.style.cursor = 'pointer';
           card.innerHTML = `
             <div class="skill-header">
               <span style="display:flex;align-items:center;gap:4px;">
@@ -826,7 +670,7 @@
                 <span class="skill-name">${esc(skill.name)}</span>
               </span>
               <span style="display:flex;align-items:center;gap:8px;">
-                ${skill.installs ? `<span class="trending-installs">${esc(skill.installs)} installs</span>` : ''}
+                ${skill.installs ? `<span class="trending-installs">${esc(skill.installs)}</span>` : ''}
                 ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}">${esc(tag)}</span>` : ''}
               </span>
             </div>
