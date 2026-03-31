@@ -803,9 +803,7 @@
 
           let imageHtml = '';
           if (item.image) {
-            imageHtml = `<img class="card-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.outerHTML='<div class=\\'card-image-placeholder\\' style=\\'background:${getSourceColor(item.source)}\\'>${esc(item.source)}</div>'">`;
-          } else {
-            imageHtml = `<div class="card-image-placeholder" style="background:${getSourceColor(item.source)}">${esc(item.source)}</div>`;
+            imageHtml = `<img class="card-image" src="${esc(item.image)}" alt="" loading="lazy" onerror="this.remove()">`;
           }
 
           card.innerHTML = `
