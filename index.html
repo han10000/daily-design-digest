@@ -474,21 +474,6 @@
         <div class="detail-divider"></div>
         <div class="detail-text">${esc(skill.desc || '')}</div>
 
-        ${skill.how_to_install ? `<div style="margin-bottom:24px;">
-          <div style="font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Installation</div>
-          <div style="font-size:13px;line-height:1.7;color:var(--text);background:var(--bg);border-radius:10px;padding:16px;white-space:pre-line;font-family:'SF Mono','Fira Code',monospace;overflow-x:auto;">${esc(skill.how_to_install)}</div>
-        </div>` : ''}
-
-        ${skill.how_to_use ? `<div style="margin-bottom:24px;">
-          <div style="font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Usage</div>
-          <div style="font-size:14px;line-height:1.7;color:var(--text);background:var(--bg);border-radius:10px;padding:16px;white-space:pre-line;">${esc(skill.how_to_use)}</div>
-        </div>` : ''}
-
-        ${skill.features ? `<div style="margin-bottom:24px;">
-          <div style="font-size:12px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px;">Features</div>
-          <div style="font-size:14px;line-height:1.7;color:var(--text);background:var(--bg);border-radius:10px;padding:16px;white-space:pre-line;">${esc(skill.features)}</div>
-        </div>` : ''}
-
         ${skill.usage ? `<div class="detail-insight">
           <div class="detail-insight-label">Designer Insight</div>
           <div class="detail-insight-text">${esc(skill.usage)}</div>
