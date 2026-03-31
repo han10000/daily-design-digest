@@ -91,6 +91,50 @@
   .section { display: none; }
   .section.active { display: block; }
 
+  /* Search */
+  .search-bar {
+    position: relative;
+    margin-bottom: 28px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 12px 16px 12px 42px;
+    font-size: 14px;
+    font-family: var(--font);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .search-bar input::placeholder { color: var(--muted); opacity: 0.5; }
+
+  .search-bar input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-subtle);
+  }
+
+  .search-bar svg {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .search-empty {
+    text-align: center;
+    padding: 48px 20px;
+    color: var(--muted);
+    font-size: 14px;
+    display: none;
+  }
+
   /* Date group */
   .date-group { margin-bottom: 40px; }
 
@@ -499,7 +543,12 @@
   </div>
 
   <div id="articles" class="section active">
-    <div class="loading">Loading articles...</div>
+    <div class="search-bar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Search articles...">
+    </div>
+    <div id="articlesContent"></div>
+    <div class="search-empty" id="searchEmpty">No articles found</div>
   </div>
 
   <div id="skills" class="section">
@@ -601,7 +650,7 @@
   fetch('feed.json')
     .then(r => r.json())
     .then(data => {
-      const container = document.getElementById('articles');
+      const container = document.getElementById('articlesContent');
       container.innerHTML = '';
 
       if (data.length > 0) {
@@ -648,9 +697,35 @@
 
         container.appendChild(div);
       });
+
+      // ── Search ──
+      const searchInput = document.getElementById('searchInput');
+      const searchEmpty = document.getElementById('searchEmpty');
+
+      searchInput.addEventListener('input', () => {
+        const q = searchInput.value.toLowerCase().trim();
+        let totalVisible = 0;
+
+        container.querySelectorAll('.date-group').forEach(group => {
+          let groupVisible = 0;
+          group.querySelectorAll('.feed-card').forEach(card => {
+            const key = card.getAttribute('data-key');
+            const item = _articles[key];
+            if (!item) return;
+            const haystack = [item.title, item.summary, item.source, item.why].filter(Boolean).join(' ').toLowerCase();
+            const show = !q || haystack.includes(q);
+            card.style.display = show ? '' : 'none';
+            if (show) groupVisible++;
+          });
+          group.style.display = groupVisible ? '' : 'none';
+          totalVisible += groupVisible;
+        });
+
+        searchEmpty.style.display = (q && totalVisible === 0) ? 'block' : 'none';
+      });
     })
     .catch(() => {
-      document.getElementById('articles').innerHTML = '<div class="loading">Failed to load articles</div>';
+      document.getElementById('articlesContent').innerHTML = '<div class="loading">Failed to load articles</div>';
     });
 
   // ── Render skills ──
