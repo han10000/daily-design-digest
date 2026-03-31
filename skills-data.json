@@ -8,10 +8,7 @@
       "source": "github",
       "installs": "29,501⭐ (+2,509 today)",
       "desc": "微软开源前沿语音 AI 框架，ASR-7B 支持60分钟单次转录、多说话人识别（Who+When+What 三维输出），已集成入 HuggingFace Transformers v5.3。今日再次蝉联榜首，较昨日猛增 +2,509 stars。",
-      "reason": "本地运行需 NVIDIA GPU（7B 参数模型）；云端 API 为微软付费服务；无 GPU 环境无法本地跑；不满足条件 b、c",
-      "usage": "「Who+When+What 三维转录结构」是用研访谈转录工具的理想形态——自动区分说话人 + 精确时间戳 + 内容，无需手动剪辑；对设计「AI 用研助手」产品时，这套输出结构可直接映射为访谈报告的数据模型；今日 +2509 持续放量说明语音 AI 基础设施正成为头条级关注点",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 2,
@@ -20,10 +17,7 @@
       "source": "github",
       "installs": "9,551⭐ (+4,150 today)",
       "desc": "今日黑马。视觉化、示例驱动的 Claude Code 完整学习指南，从基础概念到高级 agent 编排，含 Mermaid 流程图 + 可直接复制的生产级模板。今日 +4,150 stars 冲至榜眼，昨日还是第四名（+1,121）。",
-      "reason": "教程/学习资料 repo（非可安装工具）；面向希望系统学习 Claude Code 的开发者；不符合条件 a（不是可安装的 skill/tool）",
-      "usage": "今日暴增 +4,150 说明「可视化 + 可复制模板」是 Claude Code 学习材料的爆款公式；其「Mermaid 可视化教程」——用流程图解释 agent 运作机制——是面向非工程师受众设计 AI 教育产品的重要参考；progressive learning path（beginner→advanced）的课程架构是设计 AI onboarding 体验的好模板",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 3,
@@ -32,10 +26,7 @@
       "source": "github",
       "installs": "17,416⭐ (+1,785 today)",
       "desc": "Teams-first Claude Code 多 agent 编排框架，零配置开箱即用。/deep-interview 用 Socratic questioning 在执行前澄清需求；/team 支持 Claude/Codex/Gemini 三模型跨 tmux pane 并行工作；智能 model routing 节省 30-50% token 成本。连续热榜。",
-      "reason": "Claude Code 专用 plugin，需要 Anthropic API key（付费）；面向工程师开发团队，非设计师日常工具",
-      "usage": "/deep-interview 的 Socratic questioning 机制——在执行前通过多维追问澄清隐藏假设——是「AI 设计助手需求澄清阶段」的重要交互设计参考；tri-model routing（通用/代码/UI文档专业化分工）的架构思路值得借鉴",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 4,
@@ -44,10 +35,7 @@
       "source": "github",
       "installs": "18,208⭐ (+1,859 today)",
       "desc": "NousResearch 出品的自我进化 agent，能从对话经验中自动创建新 skill，兼容 agentskills.io 生态。「The agent that grows with you」——你用得越多，它的 skill 库越丰富。今日 +1,859 继续热榜。",
-      "reason": "需要 NousResearch 的模型 API（付费）；自我生成 skill 的安全边界模糊；面向 AI 开发者研究方向",
-      "usage": "「agent 从经验自动生成 skill」是 AI 助手产品长期进化的核心设计问题——如何让 AI 工具随用户习惯自适应成长；其 skill-from-interaction 机制对设计「个性化 AI 设计助手」的长期 roadmap 有参考价值",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 5,
@@ -56,10 +44,7 @@
       "source": "github",
       "installs": "今日新面孔",
       "desc": "今日新面孔。「practice makes Claude perfect」——系统整理 Claude Code 的 Subagents/Commands/Skills/Hooks 四大特性最佳实践，含结构化表格对比 + 官方文档深度链接。由 Boris Cherny（Claude Code 核心开发者）背书。",
-      "reason": "文档/最佳实践 repo（非可安装工具）；面向 Claude Code 高级用户，内容是参考指南而非可安装 skill；不符合条件 a",
-      "usage": "「Subagents vs Commands vs Skills」三层抽象的对比矩阵——独立上下文(agent) vs 知识注入(skill/command)——是设计 AI agent 系统架构时的核心思维框架；其对「context forking + progressive disclosure」的解释是 AI 工具 UX 设计的重要心智模型；Boris Cherny 背书说明这是 Claude Code 生态的权威实践总结",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 6,
@@ -68,10 +53,7 @@
       "source": "github",
       "installs": "今日新面孔入 Trending",
       "desc": "今日新面孔。强大的开源视频翻译/配音/字幕全流程工具。ASR 支持本地 Faster-Whisper（免费）；LLM 翻译支持 DeepSeek/Ollama 本地；TTS 支持 Edge-TTS（免费）；支持说话人分离 + 多角色配音 + 声音克隆。Python pip 安装，有 GUI 界面。",
-      "reason": "核心免费功能（Faster-Whisper + Edge-TTS + Ollama）可无 GPU 基础运行；但声音克隆（F5-TTS/CosyVoice）需要 GPU；设计师工作场景联系弱——视频翻译/配音不是设计核心工具，与「设计工具、workflow 提效、素材处理」相关性较弱；不满足条件 d",
-      "usage": "「ASR → 字幕翻译 → 多角色配音 → 视频合成」的一条龙架构——是设计「demo 视频国际化」工具产品的参考流程；说话人分离 + 多角色配音对「用研访谈视频自动处理」很有价值；Edge-TTS 免费 + Faster-Whisper 本地的「成本为零」策略对设计免费 AI 工具时的技术选型有参考意义",
-      "tag": "workflow",
-      "relevant": false
+      "tag": "workflow"
     },
     {
       "rank": 7,
@@ -80,10 +62,7 @@
       "source": "github",
       "installs": "今日新面孔入 Trending",
       "desc": "今日新面孔。微软 Research 出品，「零代码改动」让任意 AI agent 支持强化学习训练。兼容 LangChain/OpenAI Agent SDK/AutoGen/CrewAI 等所有框架；pip install agentlightning 安装；支持在多 agent 系统中选择性优化某个 agent。",
-      "reason": "面向 AI 研究员和工程师的 agent 训练框架；RL 训练阶段通常需要 GPU 算力；与 Product Designer 日常工作无直接关联；不满足条件 c、d",
-      "usage": "「零代码改动实现 RL 训练」的设计理念——把训练能力作为可插拔装饰器而非侵入式改造——是「AI 工具向下兼容」产品设计的重要参考；其 Trajectory Level Aggregation 算法对「AI agent 如何从交互数据自我改进」的产品化路径有启示；微软连续推出 VibeVoice + agent-lightning 说明 Azure AI 生态正在系统性开源基础设施",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 8,
@@ -92,10 +71,7 @@
       "source": "github",
       "installs": "持续热榜",
       "desc": "实时换脸 + 单图视频 deepfake 工具，持续热榜。支持摄像头实时换脸和视频处理，一张图片即可运行。",
-      "reason": "deepfake/换脸工具，伦理边界存疑；需要 GPU 才能实时处理；非设计师工作工具；不满足条件 b（某些功能需付费 API）、c、d",
-      "usage": "「单图驱动实时换脸」说明 AI 生成媒体的门槛已极低——对设计「AI 形象类产品」时的隐私/伦理设计问题提出了更紧迫的挑战；其在 GitHub 持续热榜反映了 deepfake 技术需求的真实规模，值得在 AI 产品责任设计时参考",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 9,
@@ -104,10 +80,7 @@
       "source": "github",
       "installs": "4,024⭐ (+240 today)",
       "desc": "SakanaAI 出品的全自主科研系统，通过 Agentic Tree Search 实现「Workshop 级别自动化科学发现」。首篇 AI 全自主生成论文通过同行评审里程碑。连续热榜。",
-      "reason": "面向 AI 研究员，自动化科研论文生成系统；运行成本高（大量 LLM API 调用）；与 Product Designer 日常工作无直接关联；不满足条件 b、d",
-      "usage": "「Agentic Tree Search 自动探索 → 实验 → 写作 → 审稿」的完整科研闭环，是「AI 全自动完成复杂认知任务」的里程碑案例；首篇 AI 论文通过 peer review 对「AI 创作物的质量评估体系」设计有深远影响——当 AI 能生产学术知识，如何设计人类在循环中的角色？",
-      "tag": "AI",
-      "relevant": false
+      "tag": "AI"
     },
     {
       "rank": 10,
@@ -116,10 +89,7 @@
       "source": "github",
       "installs": "21,362⭐ (+271 today)",
       "desc": "C 语言实现的高性能 neofetch 替代品，在终端以视觉美观的方式显示系统信息，支持 Linux/macOS/Windows 全平台，高度可定制。持续热榜。",
-      "reason": "系统信息显示工具，面向开发者/运维，终端工具；与 Product Designer 设计工作无任何直接关联；不满足条件 d",
-      "usage": "其终端「视觉信息展示」的设计——在极度受限的 ASCII/ANSI 色彩环境中实现高颜值信息密度——是「约束驱动设计」的极端案例；系统信息的分层展示（核心指标优先 + 可选详细信息）是「设备状态 UI 组件」设计的参考",
-      "tag": "workflow",
-      "relevant": false
+      "tag": "workflow"
     }
   ]
 }

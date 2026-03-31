@@ -202,6 +202,9 @@
     border-radius: 16px;
     padding: 20px;
     transition: transform 0.2s, box-shadow 0.25s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
   }
 
   .skill-card:hover {
@@ -425,9 +428,15 @@
         grid.className = 'skills-grid';
 
         data.trending.forEach(skill => {
-          const card = document.createElement('div');
-          card.className = 'skill-card';
           const tag = skill.tag || '';
+          const url = skill.source === 'github' && skill.owner
+            ? `https://github.com/${encodeURIComponent(skill.owner)}/${encodeURIComponent(skill.name)}`
+            : '#';
+          const card = document.createElement('a');
+          card.className = 'skill-card';
+          card.href = url;
+          card.target = '_blank';
+          card.rel = 'noopener';
           card.innerHTML = `
             <div class="skill-header">
               <span style="display:flex;align-items:center;gap:4px;">
