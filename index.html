@@ -8,31 +8,24 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #FAFAF8;
-    --surface: #FFFFFF;
-    --text: #1A1A1A;
-    --text-secondary: #6B6B6B;
-    --text-tertiary: #999;
-    --accent: #E8590C;
-    --accent-light: #FFF4E6;
-    --border: #EBEBEB;
+    --bg: #f8f7f4;
+    --surface: #ffffff;
+    --text: #1a1917;
+    --muted: #6b6960;
+    --accent: #5b5bd6;
+    --border: #e6e3dc;
     --tag-bg: #F5F5F3;
-    --radius: 12px;
-    --radius-sm: 8px;
-    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
-    --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
-    --transition: 0.2s ease;
+    --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'PingFang SC', 'Helvetica Neue', sans-serif;
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    font-family: var(--font);
     background: var(--bg);
     color: var(--text);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Layout */
   .container {
     max-width: 720px;
     margin: 0 auto;
@@ -55,18 +48,18 @@
 
   header p {
     font-size: 15px;
-    color: var(--text-secondary);
+    color: var(--muted);
     max-width: 480px;
   }
 
-  /* Tab Navigation */
+  /* Tabs */
   .tabs {
     display: flex;
     gap: 4px;
     margin-bottom: 32px;
     background: var(--tag-bg);
     padding: 4px;
-    border-radius: var(--radius);
+    border-radius: 12px;
     width: fit-content;
   }
 
@@ -74,12 +67,13 @@
     padding: 8px 20px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--text-secondary);
+    font-family: var(--font);
+    color: var(--muted);
     background: transparent;
     border: none;
-    border-radius: var(--radius-sm);
+    border-radius: 8px;
     cursor: pointer;
-    transition: all var(--transition);
+    transition: all 0.2s ease;
     white-space: nowrap;
   }
 
@@ -88,7 +82,7 @@
   .tab.active {
     background: var(--surface);
     color: var(--text);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
   }
 
   /* Sections */
@@ -101,91 +95,73 @@
   .date-label {
     font-size: 13px;
     font-weight: 600;
-    color: var(--text-tertiary);
+    color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin-bottom: 16px;
     padding-bottom: 8px;
     border-bottom: 1px solid var(--border);
+    opacity: 0.6;
   }
 
-  /* Article Card */
-  .card {
+  /* Feed Card — same as maoxian-factory */
+  .feed-card {
     background: var(--surface);
-    border-radius: var(--radius);
-    margin-bottom: 12px;
+    border-radius: 16px;
     border: 1px solid var(--border);
-    transition: all var(--transition);
+    padding: 20px;
+    margin-bottom: 16px;
     text-decoration: none;
     display: block;
     color: inherit;
-    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.25s;
   }
 
-  .card:hover {
-    border-color: #ddd;
-    box-shadow: var(--shadow-md);
-    transform: translateY(-1px);
+  .feed-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
   }
 
-  .card-body {
-    padding: 24px;
+  .feed-card:active {
+    transform: scale(0.98);
+    transition: transform 0.12s;
   }
 
-  .card-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
-  }
-
-  .card-source {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-light);
-    padding: 3px 10px;
-    border-radius: 99px;
-  }
-
-  .card-date {
-    font-size: 12px;
-    color: var(--text-tertiary);
-  }
-
-  .card h3 {
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1.4;
+  .feed-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--text);
+    letter-spacing: -0.02em;
     margin-bottom: 12px;
-    letter-spacing: -0.2px;
   }
 
-  .card-content {
+  .feed-card-content {
     display: flex;
     gap: 12px;
     align-items: flex-start;
+    margin-bottom: 14px;
   }
 
-  .card-thumb {
+  .feed-card-thumb {
     width: 72px;
     height: 72px;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
-    background: var(--tag-bg);
+    background: var(--bg);
   }
 
-  .card-thumb img {
+  .feed-card-thumb img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .card-summary {
+  .feed-card-summary {
     font-size: 14px;
-    color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.55;
+    color: var(--muted);
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -194,46 +170,25 @@
     min-width: 0;
   }
 
-  .card-summary-full {
+  .feed-card-summary-full {
     font-size: 14px;
-    color: var(--text-secondary);
-    line-height: 1.7;
+    line-height: 1.55;
+    color: var(--muted);
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    margin-bottom: 14px;
   }
 
-  .card-why {
-    margin-top: 12px;
-    padding-top: 12px;
-    border-top: 1px solid var(--border);
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    font-style: italic;
+  .feed-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--muted);
+    opacity: 0.6;
   }
-
-  .card-why::before {
-    content: "Why: ";
-    font-weight: 600;
-    font-style: normal;
-    color: var(--accent);
-  }
-
-  .expand-btn {
-    display: inline-block;
-    margin-top: 8px;
-    font-size: 13px;
-    color: var(--accent);
-    cursor: pointer;
-    border: none;
-    background: none;
-    padding: 0;
-    font-weight: 500;
-  }
-
-  .expand-btn:hover { text-decoration: underline; }
 
   /* Skills Section */
   .skills-grid {
@@ -244,14 +199,14 @@
   .skill-card {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: var(--radius);
+    border-radius: 16px;
     padding: 20px;
-    transition: all var(--transition);
+    transition: transform 0.2s, box-shadow 0.25s;
   }
 
   .skill-card:hover {
-    border-color: #ddd;
-    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
   }
 
   .skill-header {
@@ -264,7 +219,6 @@
   .skill-name {
     font-size: 15px;
     font-weight: 600;
-    font-family: "SF Mono", "Fira Code", "Consolas", monospace;
     color: var(--text);
   }
 
@@ -274,7 +228,7 @@
     padding: 3px 10px;
     border-radius: 99px;
     background: var(--tag-bg);
-    color: var(--text-secondary);
+    color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.3px;
   }
@@ -285,19 +239,8 @@
 
   .skill-desc {
     font-size: 14px;
-    color: var(--text-secondary);
+    color: var(--muted);
     line-height: 1.6;
-  }
-
-  .skill-badge {
-    display: inline-block;
-    margin-top: 8px;
-    font-size: 11px;
-    font-weight: 600;
-    padding: 3px 8px;
-    border-radius: 4px;
-    background: #ECFDF5;
-    color: #047857;
   }
 
   .skill-section-title {
@@ -312,15 +255,17 @@
   .trending-rank {
     font-size: 13px;
     font-weight: 700;
-    color: var(--text-tertiary);
+    color: var(--muted);
     margin-right: 8px;
     min-width: 20px;
+    opacity: 0.6;
   }
 
   .trending-installs {
     font-size: 12px;
-    color: var(--text-tertiary);
+    color: var(--muted);
     margin-left: auto;
+    opacity: 0.6;
   }
 
   /* Footer */
@@ -330,8 +275,9 @@
     border-top: 1px solid var(--border);
     text-align: center;
     font-size: 13px;
-    color: var(--text-tertiary);
+    color: var(--muted);
     margin-bottom: 48px;
+    opacity: 0.6;
   }
 
   footer a {
@@ -341,11 +287,10 @@
 
   footer a:hover { text-decoration: underline; }
 
-  /* Loading */
   .loading {
     text-align: center;
     padding: 48px;
-    color: var(--text-tertiary);
+    color: var(--muted);
     font-size: 14px;
   }
 
@@ -353,9 +298,9 @@
   @media (max-width: 640px) {
     header { padding: 32px 0 24px; }
     header h1 { font-size: 24px; }
-    .card-body { padding: 18px; }
-    .card h3 { font-size: 16px; }
-    .card-thumb { width: 64px; height: 64px; }
+    .feed-card { padding: 16px; }
+    .feed-card-title { font-size: 16px; }
+    .feed-card-thumb { width: 64px; height: 64px; }
   }
 </style>
 </head>
@@ -396,7 +341,6 @@
     });
   });
 
-  // Format date
   function formatDate(dateStr) {
     const d = new Date(dateStr + 'T00:00:00');
     const now = new Date();
@@ -408,9 +352,33 @@
     return `${months[d.getMonth()]} ${d.getDate()}`;
   }
 
-  function escHtml(str) {
+  function esc(str) {
     if (!str) return '';
     return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Feed card builder — identical to maoxian-factory
+  function feedCard(item) {
+    const hasImg = !!item.image;
+    let content = '';
+    if (hasImg && item.summary) {
+      content = `<div class="feed-card-content">
+        <div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div>
+        <div class="feed-card-summary">${esc(item.summary)}</div>
+      </div>`;
+    } else if (item.summary) {
+      content = `<div class="feed-card-summary-full">${esc(item.summary)}</div>`;
+    } else if (hasImg) {
+      content = `<div style="margin-bottom:14px"><div class="feed-card-thumb"><img src="${esc(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div></div>`;
+    }
+    return `<a class="feed-card" href="${esc(item.url)}" target="_blank" rel="noopener">
+      <div class="feed-card-title">${esc(item.title)}</div>
+      ${content}
+      <div class="feed-card-footer">
+        <span>${esc(item.source || '')}</span>
+        <span>${esc(item.publishedAt || '')}</span>
+      </div>
+    </a>`;
   }
 
   // Render articles
@@ -429,39 +397,11 @@
         div.className = 'date-group';
         div.innerHTML = `<div class="date-label">${formatDate(group.date)}</div>`;
 
+        let cardsHtml = '';
         group.items.forEach(item => {
-          const card = document.createElement('a');
-          card.className = 'card';
-          card.href = item.url;
-          card.target = '_blank';
-          card.rel = 'noopener';
-
-          const pubDate = item.publishedAt ? formatDate(item.publishedAt) : '';
-          const hasImg = !!item.image;
-
-          let contentHtml = '';
-          if (hasImg && item.summary) {
-            contentHtml = `<div class="card-content">
-              <div class="card-summary">${escHtml(item.summary)}</div>
-              <div class="card-thumb"><img src="${escHtml(item.image)}" alt="" loading="lazy" onerror="this.parentNode.style.display='none'"></div>
-            </div>`;
-          } else if (item.summary) {
-            contentHtml = `<div class="card-summary-full">${escHtml(item.summary)}</div>`;
-          }
-
-          card.innerHTML = `
-            <div class="card-body">
-              <div class="card-meta">
-                <span class="card-source">${escHtml(item.source)}</span>
-                ${pubDate ? `<span class="card-date">${pubDate}</span>` : ''}
-              </div>
-              <h3>${escHtml(item.title)}</h3>
-              ${contentHtml}
-              ${item.why ? `<div class="card-why">${escHtml(item.why)}</div>` : ''}
-            </div>
-          `;
-          div.appendChild(card);
+          cardsHtml += feedCard(item);
         });
+        div.innerHTML += cardsHtml;
 
         container.appendChild(div);
       });
@@ -477,7 +417,6 @@
       const container = document.getElementById('skills');
       container.innerHTML = '';
 
-      // Trending skills
       if (data.trending && data.trending.length > 0) {
         const section = document.createElement('div');
         section.className = 'skill-section';
@@ -493,15 +432,15 @@
             <div class="skill-header">
               <span style="display:flex;align-items:center;gap:4px;">
                 <span class="trending-rank">#${skill.rank}</span>
-                <span class="skill-name">${escHtml(skill.name)}</span>
+                <span class="skill-name">${esc(skill.name)}</span>
               </span>
               <span style="display:flex;align-items:center;gap:8px;">
-                ${skill.installs ? `<span class="trending-installs">${escHtml(skill.installs)} installs</span>` : ''}
-                ${tag ? `<span class="skill-tag" data-tag="${escHtml(tag)}">${escHtml(tag)}</span>` : ''}
+                ${skill.installs ? `<span class="trending-installs">${esc(skill.installs)} installs</span>` : ''}
+                ${tag ? `<span class="skill-tag" data-tag="${esc(tag)}">${esc(tag)}</span>` : ''}
               </span>
             </div>
-            <div class="skill-desc">${escHtml(skill.desc || '—')}</div>
-            ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:#999;">via ${escHtml(skill.source)}</div>` : ''}
+            <div class="skill-desc">${esc(skill.desc || '—')}</div>
+            ${skill.source ? `<div style="margin-top:6px;font-size:12px;color:var(--muted);opacity:0.5;">via ${esc(skill.source)}</div>` : ''}
           `;
           grid.appendChild(card);
         });
