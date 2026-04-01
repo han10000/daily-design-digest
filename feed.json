@@ -458,6 +458,75 @@
     ]
   },
   {
+    "date": "2026-03-13",
+    "items": [
+      {
+        "source": "NN/g",
+        "type": "article",
+        "title": "AI 聊天界面里最令人兴奋的进展：按钮和复选框",
+        "summary": "NN/g 发现 GenUI 正在从理论变成现实。Google AI Mode 在酒店推荐里加了复选框，用户勾选后选项自动填入对话框；Claude 在回答前生成多选题收集上下文（最多 4 题，有 guard rail 控制）。核心发现：AI 聊天最大的 UX 瓶颈不是生成质量，而是上下文收集——用户打字描述需求既慢又不精确，传统表单控件反而是最好的解法。这是 genUI 的第一个真正有用的落地：不是炫酷的动态界面，而是最朴素的 checkbox。",
+        "url": "https://www.nngroup.com/articles/genui-buttons-and-checkboxes/",
+        "why": "GenUI 的真正价值不在「生成界面」而在「收集上下文」——这改变了设计 AI 产品时的优先级排序。下次设计 AI 对话产品，先想怎么用传统 UI 控件帮用户表达需求，再想生成什么。",
+        "publishedAt": "2026-03-06",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards-1_x7ioBOZ.png"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "CSS corner-shape 终于来了：圆角之外的五种新形状",
+        "summary": "CSS 新属性 corner-shape 配合 border-radius 使用，支持 squircle（Apple 风超椭圆）、bevel（切角）、scoop（内凹）、notch（直角切口）、square 五种形状，还有 superellipse() 函数做精细控制。告别 clip-path 和 SVG mask 的 hack 时代。目前仅 Chrome 139+ 支持，但作为渐进增强可以开始用了。",
+        "url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
+        "why": "squircle 一直是 Apple 设计语言的标志性元素，现在原生 CSS 就能做了。做 web UI 时不再需要 SVG hack 来实现 iOS 风格的圆角，设计稿到代码的距离又近了一步。",
+        "publishedAt": "2026-03-12",
+        "image": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg"
+      },
+      {
+        "source": "HuggingFace / NVIDIA",
+        "type": "article",
+        "title": "NVIDIA 用「可复用工具生成」拿下数据分析 agent 榜首",
+        "summary": "NVIDIA 团队在 DABStep 基准上拿了第一名，比 Claude Code baseline 快 30 倍。核心架构：把 agent 拆成两阶段——先用慢模式生成可复用的分析工具函数库，再用快模式调用这些工具做推理。不是每次从零写代码，而是先建「工具箱」再解题。这个「分离基础知识构建和快速推理」的策略在复杂多步数据分析任务上效果显著。",
+        "url": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
+        "why": "「先慢后快」的 agent 架构对产品设计有启发：AI 产品的 onboarding 阶段可以慢一点、收集更多上下文建立工具库，之后的日常使用就能快 30 倍。用户体验的投资回报不在首次使用，在重复使用。",
+        "publishedAt": "2026-03-13",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place.png"
+      }
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "items": [
+      {
+        "source": "The Verge",
+        "type": "article",
+        "title": "Grammarly 未经许可用真人身份做 AI「专家点评」，被起诉了",
+        "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
+        "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
+        "publishedAt": "2026-03-11",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-1244428289.jpg?quality=90&strip=all&crop=0%2C10.491678610079%2C100%2C79.016642779841&w=1200"
+      },
+      {
+        "source": "MIT Technology Review",
+        "type": "article",
+        "title": "中国的「养龙虾」热：OpenClaw 催生了一个安装服务产业",
+        "summary": "一个北京工程师在闲鱼卖 OpenClaw 安装服务，248元一单做了7000单，从副业变成100人团队。中国用户给 OpenClaw 起了昵称「龙虾」，线下聚会和直播教学遍地开花，反映非技术用户对 AI agent 的强烈需求。",
+        "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+        "why": "AI agent 工具的用户增长瓶颈不是功能而是安装门槛——这催生了「安装即服务」的商业模式。对产品设计的启示：降低 onboarding 摩擦比增加功能更能扩大用户群。",
+        "publishedAt": "2026-03-11",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/lobster-pets2a.jpg?resize=1200,600"
+      },
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "那辆由女性为女性设计的汽车，后来怎样了？",
+        "summary": "回顾 2004 年 Volvo YCC 概念车，全女性团队设计。女性购买美国62%新车、影响85%购车决策，但汽车工程师中女性仅5%。YCC 的很多设计（更好视野、易清洁内饰）实际对所有用户更好。",
+        "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
+        "why": "经典的「为边缘用户设计，所有人受益」案例。做 AI 产品时同样适用：为非技术用户设计的简化流程，技术用户同样会选择使用。",
+        "publishedAt": "2026-03-11"
+      }
+    ]
+  },
+  {
     "date": "2026-03-11",
     "items": [
       {
@@ -758,75 +827,6 @@
         "url": "https://skills.sh/trending",
         "why": "每日热榜，了解 AI 工具生态动向",
         "image": "https://skills.sh/og.jpeg"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-12",
-    "items": [
-      {
-        "source": "The Verge",
-        "type": "article",
-        "title": "Grammarly 未经许可用真人身份做 AI「专家点评」，被起诉了",
-        "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
-        "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
-        "publishedAt": "2026-03-11",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-1244428289.jpg?quality=90&strip=all&crop=0%2C10.491678610079%2C100%2C79.016642779841&w=1200"
-      },
-      {
-        "source": "MIT Technology Review",
-        "type": "article",
-        "title": "中国的「养龙虾」热：OpenClaw 催生了一个安装服务产业",
-        "summary": "一个北京工程师在闲鱼卖 OpenClaw 安装服务，248元一单做了7000单，从副业变成100人团队。中国用户给 OpenClaw 起了昵称「龙虾」，线下聚会和直播教学遍地开花，反映非技术用户对 AI agent 的强烈需求。",
-        "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
-        "why": "AI agent 工具的用户增长瓶颈不是功能而是安装门槛——这催生了「安装即服务」的商业模式。对产品设计的启示：降低 onboarding 摩擦比增加功能更能扩大用户群。",
-        "publishedAt": "2026-03-11",
-        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/lobster-pets2a.jpg?resize=1200,600"
-      },
-      {
-        "source": "UX Collective",
-        "type": "article",
-        "title": "那辆由女性为女性设计的汽车，后来怎样了？",
-        "summary": "回顾 2004 年 Volvo YCC 概念车，全女性团队设计。女性购买美国62%新车、影响85%购车决策，但汽车工程师中女性仅5%。YCC 的很多设计（更好视野、易清洁内饰）实际对所有用户更好。",
-        "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
-        "why": "经典的「为边缘用户设计，所有人受益」案例。做 AI 产品时同样适用：为非技术用户设计的简化流程，技术用户同样会选择使用。",
-        "publishedAt": "2026-03-11"
-      }
-    ]
-  },
-  {
-    "date": "2026-03-13",
-    "items": [
-      {
-        "source": "NN/g",
-        "type": "article",
-        "title": "AI 聊天界面里最令人兴奋的进展：按钮和复选框",
-        "summary": "NN/g 发现 GenUI 正在从理论变成现实。Google AI Mode 在酒店推荐里加了复选框，用户勾选后选项自动填入对话框；Claude 在回答前生成多选题收集上下文（最多 4 题，有 guard rail 控制）。核心发现：AI 聊天最大的 UX 瓶颈不是生成质量，而是上下文收集——用户打字描述需求既慢又不精确，传统表单控件反而是最好的解法。这是 genUI 的第一个真正有用的落地：不是炫酷的动态界面，而是最朴素的 checkbox。",
-        "url": "https://www.nngroup.com/articles/genui-buttons-and-checkboxes/",
-        "why": "GenUI 的真正价值不在「生成界面」而在「收集上下文」——这改变了设计 AI 产品时的优先级排序。下次设计 AI 对话产品，先想怎么用传统 UI 控件帮用户表达需求，再想生成什么。",
-        "publishedAt": "2026-03-06",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards-1_x7ioBOZ.png"
-      },
-      {
-        "source": "Smashing Magazine",
-        "type": "article",
-        "title": "CSS corner-shape 终于来了：圆角之外的五种新形状",
-        "summary": "CSS 新属性 corner-shape 配合 border-radius 使用，支持 squircle（Apple 风超椭圆）、bevel（切角）、scoop（内凹）、notch（直角切口）、square 五种形状，还有 superellipse() 函数做精细控制。告别 clip-path 和 SVG mask 的 hack 时代。目前仅 Chrome 139+ 支持，但作为渐进增强可以开始用了。",
-        "url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
-        "why": "squircle 一直是 Apple 设计语言的标志性元素，现在原生 CSS 就能做了。做 web UI 时不再需要 SVG hack 来实现 iOS 风格的圆角，设计稿到代码的距离又近了一步。",
-        "publishedAt": "2026-03-12",
-        "image": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg"
-      },
-      {
-        "source": "HuggingFace / NVIDIA",
-        "type": "article",
-        "title": "NVIDIA 用「可复用工具生成」拿下数据分析 agent 榜首",
-        "summary": "NVIDIA 团队在 DABStep 基准上拿了第一名，比 Claude Code baseline 快 30 倍。核心架构：把 agent 拆成两阶段——先用慢模式生成可复用的分析工具函数库，再用快模式调用这些工具做推理。不是每次从零写代码，而是先建「工具箱」再解题。这个「分离基础知识构建和快速推理」的策略在复杂多步数据分析任务上效果显著。",
-        "url": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
-        "why": "「先慢后快」的 agent 架构对产品设计有启发：AI 产品的 onboarding 阶段可以慢一点、收集更多上下文建立工具库，之后的日常使用就能快 30 倍。用户体验的投资回报不在首次使用，在重复使用。",
-        "publishedAt": "2026-03-13",
-        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place.png"
       }
     ]
   }
