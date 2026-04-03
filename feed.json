@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-04-03",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "AI 把语言也重写了：我们正在说机器的话",
+        "summary": "Max Planck Institute 分析近 28 万条学术 YouTube 视频，发现 ChatGPT 发布后 18 个月内，「delve」使用频率增加 48%，「realm」增加 35%，「adept」增加 51%——而且这些词出现在即兴发言中，不是照稿朗读。这说明 AI 语言已经悄悄渗入人类的日常表达方式，形成了一个「人类写作喂给 AI，AI 输出再反喂给人类」的闭环。文章进一步分析了 em dash 被误认为「AI 标志」的案例，指出这其实是几百年的文学传统，用它来判断 AI 生成并不可靠。真正值得警惕的不是某个词或标点，而是：当 AI 不断用统计优化后的表达方式反哺我们，我们是否在慢慢失去个人表达的独特性？对产品设计师而言，这是 AI copywriting 工具和语音界面设计的核心矛盾——用户是否真的想要「更好的 AI 文字」，还是想要「听起来像自己的文字」？",
+        "url": "https://uxdesign.cc/ai-is-rewriting-the-rules-language-is-following-b811a1a91ced",
+        "why": "这篇有数据支撑、视角独特。AI 改写语言习惯这件事正在悄悄发生，而设计师日常用 AI 写文案/microcopy 时，正在参与这个过程。理解这个趋势，有助于在设计 AI 写作工具时做更有立场的判断。",
+        "publishedAt": "2026-04-01"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "设计原则实战指南：AI 时代，团队需要共同的价值锚",
+        "summary": "这篇文章的出发点很直接：在 AI 能在几分钟内生成「passable design」的时代，团队面临的最大问题不是效率，而是失去了判断「什么值得设计」的标准。设计原则的价值不是规则手册，而是让团队在没有争论的情况下做出一致决策的共识基础——像声音和语气一样，不刻意设计的话用户会帮你定义。文章引用了 Dieter Rams 的 10 条好设计原则（谦逊、实用、无多余装饰），以及 Anthropic 的 constitution、Joshua Porter 的产品设计原则、Linear 的 Agentic Design Principles 等真实案例，并提供 5 步建立原则的 workshop 流程。核心观点：好的设计原则不只说「我们做什么」，更重要的是说清楚「我们不做什么」——有立场的原则才有价值，模糊的「以用户为中心」不是原则，是废话。AI 工具能生成执行，但无法生成价值观——有了原则，AI 是加速器；没有原则，AI 只会更快地生成不知道想要什么的东西。",
+        "url": "https://smashingmagazine.com/2026/04/practical-guide-design-principles/",
+        "why": "Figma MCP 让 AI agent 能跟着设计系统自动生成组件，但「设计系统里该有什么」「这个功能值不值得做」这类判断，必须有原则做底座。这篇来得正是时候——当 AI 接管执行层，团队有没有共同的价值锚决定了方向，而不是工具。",
+        "publishedAt": "2026-04-01",
+        "image": "https://files.smashing.media/articles/stop-endless-debates-design-principles/practical-guide-design-principles.jpg"
+      },
+      {
+        "source": "Hugging Face Blog",
+        "type": "article",
+        "title": "Gemma 4 来了：Apache 2.0 授权，支持图文音频，最小版本跑在手机上",
+        "summary": "Google DeepMind 发布 Gemma 4 系列，全系 Apache 2.0 开源协议。四个版本覆盖从手机端到服务器端：E2B（2.3B 激活参数，支持音频）、E4B（4.5B 激活参数，支持音频）、31B（dense 模型，256K 上下文）、26B A4B（MoE 架构，26B 总参数但只激活 4B）。所有版本均支持图片（含视频）+文字输入，小版本额外支持音频输入。context window 最高达 256K tokens，远超多数同量级开源模型。可通过 transformers、llama.cpp、MLX、WebGPU 等主流框架部署，与 OpenClaw 等本地 AI agent 无缝对接。基准测试上与同参数量级的闭源模型持平甚至超越，且 HuggingFace 团队反映 Gemma 4 出厂质量极高，很难找到需要 finetune 改善的问题。对产品设计师：这意味着高质量多模态 AI 能力（能理解图片、文字、声音）已经彻底开源化，门槛大幅降低。",
+        "url": "https://huggingface.co/blog/gemma4",
+        "why": "Gemma 4 是目前最强的开源多模态模型之一，Apache 2 协议意味着商用无障碍。对于关注 AI 产品设计的设计师，这意味着「在产品里加视觉理解能力」这件事的成本已经降到很低。今天了解它，下次讨论 AI 功能方案时有底气评估可行性。",
+        "publishedAt": "2026-04-02",
+        "image": "https://huggingface.co/blog/assets/gemma4/thumbnail.png"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "items": [
+      {
+        "source": "UX Collective",
+        "type": "article",
+        "title": "我的团队每个人输出的设计质量都一样了——这才是问题所在",
+        "summary": "Figma 通过 MCP server 向 AI agent 开放了画布，Claude Code、Cursor、Codex 等 coding agent 现在能直接在 Figma 文件里读取设计系统、创建和修改组件。作者看了 demo：Claude Code 在几分钟内生成了一套 72 个变体的完整组件，token 引用正确，命名规范匹配，间距符合系统。然后他回头看了自己团队同周的产出，发现令他不安的事：他很难区分哪个是 AI 生成的。核心问题不是「AI 能不能做设计」，而是「当 AI 和人类使用同一套设计系统时，产出看起来一样的情况下，真正的价值在哪里」。文章最后指向一个残酷结论：你曾经轻视的那些技能——深度研究、系统性思考、解读模糊需求——现在才是团队最贵的能力，因为 AI 正在快速抹平执行层面的差距。",
+        "url": "https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec",
+        "why": "Figma MCP 是今天设计界最大的新闻，这篇文章是第一批认真反思其影响的第一手报告。不是「AI 来了好可怕」，而是「当组件生成被自动化，设计师的差异化价值到底在哪里」。直接和叉叉的工作相关。",
+        "publishedAt": "2026-04-01"
+      },
+      {
+        "source": "Smashing Magazine",
+        "type": "article",
+        "title": "设计原则实战指南：AI 时代，团队需要共同的价值锚",
+        "summary": "这篇文章的出发点很直接：在 AI 能在几分钟内生成「passable design」的时代，团队面临的最大问题不是效率，而是失去了判断「什么值得设计」的标准。设计原则的价值不是规则手册，而是让团队在没有争论的情况下做出一致决策的共识基础——像声音和语气一样，不刻意设计的话用户会帮你定义。文章引用了 Dieter Rams 的 10 条好设计原则（谦逊、实用、无多余装饰），以及 Anthropic 的 constitution、Joshua Porter 的产品设计原则等真实案例，提供 5 步建立原则的 workshop 流程。核心观点：好的设计原则不只说「我们做什么」，更重要的是说清楚「我们不做什么」——有立场的原则才有价值，模糊的「以用户为中心」不是原则，是废话。文章还强调，AI 工具能生成执行，但无法生成价值观——有了原则，AI 是加速器；没有原则，AI 只会更快地生成不知道想要什么的东西。",
+        "url": "https://smashingmagazine.com/2026/04/practical-guide-design-principles/",
+        "why": "Figma AI 代理能跟着设计系统做组件，但「设计系统里该有什么」「这个功能值不值得做」这类判断，必须有原则做底座。这篇来得正是时候——当 AI 接管执行层，团队有没有共同的价值锚决定了方向。",
+        "publishedAt": "2026-04-01",
+        "image": "https://files.smashing.media/articles/stop-endless-debates-design-principles/practical-guide-design-principles.jpg"
+      },
+      {
+        "source": "Hugging Face Blog",
+        "type": "article",
+        "title": "Holo3 刷新 Computer Use 榜单：开源 MoE 模型打败 GPT 5.4 和 Opus 4.6",
+        "summary": "H Company 发布 Holo3，在 OSWorld-Verified（桌面 Computer Use 权威基准测试）上拿到 78.85% 的分数，创行业新高。关键架构：122B 总参数，但每次推理只激活 10B（MoE 稀疏激活），成本仅是 GPT 5.4 或 Claude Opus 4.6 的一小部分。Holo3-35B-A3B 变体在 HuggingFace 上以 Apache 2.0 协议完全开源，并提供免费推理 API。训练上采用「Agentic Learning Flywheel」：合成导航数据 + 领域外增强 + 强化学习筛选，目标是在「几乎无限种类的 UI」上都能正确导航。H Company 定位是「Autonomous Enterprise」——让 AI agent 自主完成企业数字环境中的真实工作流，而不只是跑基准测试。这次发布意味着高性能 Computer Use 能力已经开源可用，不再是 Anthropic 闭源模型的专利。",
+        "url": "https://huggingface.co/blog/Hcompany/holo3",
+        "why": "Computer Use（AI 直接操作桌面/浏览器）是 AI agent 最直接影响设计工作流的能力方向，而且今天 Holo3 已经开源、免费可调用。作为设计师，现在就可以开始想象：哪些重复性的数字操作（整理文件、批量改稿、跑可访问性测试）可以交给这类 agent？",
+        "publishedAt": "2026-04-01",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/698224a939bac08a1b6e0488/V66nfQj4EqV6imWD-Cgf0.png"
+      }
+    ]
+  },
+  {
     "date": "2026-03-31",
     "items": [
       {
