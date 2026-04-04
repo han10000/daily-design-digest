@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-04",
+    "items": [
+      {
+        "title": "AI Agent 的精确定义：设计前先搞清楚你在设计什么",
+        "summary": "「Agent」这个词正在被滥用——你的手机、公司 Slack、银行 App 里全是 agent，但每个人对它的定义都不一样。NNGroup 这篇文章给出了一个具体的、可操作的定义：AI agent 是一个通过「迭代执行动作、评估进展、自行决定下一步」来追求目标的系统。文章强调三个关键能力：reliable（可以被信任执行任务）、adaptive（能根据环境反馈调整）、accurate（做对事，不瞎跑）。对产品设计师来说，这个定义最大的价值是：它给你一把尺，帮你判断某个功能到底是「真 agent」还是「伪装成 agent 的自动化脚本」，从而决定在设计上需要多少用户控制权和可见性。",
+        "url": "https://www.nngroup.com/articles/definition-ai-agent/",
+        "source": "Nielsen Norman Group",
+        "why": "「Agent」满天飞但没人说清楚它是什么。NNGroup 这次给出了研究支撑的精确定义，帮设计师在团队里建立共同语言，设计决策才能基于同一认知。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_2.png"
+      },
+      {
+        "title": "AI 产品设计的下一个核心能力：Context 管理",
+        "summary": "这篇文章直击一个很多设计师还没意识到的问题：AI 给错答案，往往不是因为「不够聪明」，而是因为「context 不对」。作者 Connor Joyce 梳理出三种正在主流 AI 产品中出现的 context 管理设计模式：1）Context Containers（上下文容器）——ChatGPT Projects、Claude Projects、Gemini NotebookLM 都是例子，让信息持久化而非每次对话重置；2）Selective Referencing（选择性引用）——不是把所有信息都塞给模型，而是给用户控制权，让他们选择哪些 source 参与对话，NotebookLM 的 checkbox 机制就是体现；3）Instructions（指令层）——让用户定义模型行为的偏好和风格，ChatGPT 和 Claude 都在做。对于正在设计 AI 功能的设计师，这三个模式是非常具体的参照系。",
+        "url": "https://uxdesign.cc/context-matters-a-lot-7799188344dc",
+        "source": "UX Collective",
+        "why": "Prompt 设计已经不够用了，下一步是 context 设计。这篇文章把行业趋势提炼成三个具体 pattern，叉叉在做 AI 产品设计时可以直接对照。",
+        "type": "design"
+      },
+      {
+        "title": "重要提醒：Anthropic 明日起停止 OpenClaw 使用 Claude 订阅额度",
+        "summary": "这条消息直接影响我们的工作流——从 4 月 4 日下午 3 点（ET）起，Anthropic 的新政策将使用户无法再用 Claude 订阅额度来驱动 OpenClaw 等第三方 harness。如果继续想在 OpenClaw 中使用 Claude，需要单独配置 pay-as-you-go 的 API 计费，和订阅套餐分开算钱。背景是 OpenClaw 创始人 Peter Steinberger 已加入 OpenAI，Anthropic 此举被外界解读为推动用户转向自家工具（如 Claude Cowork）。对于重度依赖 Claude 的 OpenClaw 用户而言，这意味着接下来成本结构会发生变化，需要评估是否切换到其他模型或调整预算。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+        "source": "The Verge",
+        "why": "今天起生效的政策变化，直接影响叉叉使用 OpenClaw + Claude 的工作流，需要立即知道。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKB382_OPEN_CLAW_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-03",
     "items": [
       {
