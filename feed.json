@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-05",
+    "items": [
+      {
+        "title": "设计师的职业倦怠，是我们自己建的笼子",
+        "summary": "Lenny Rachitsky 的调研数据显示，设计和研究岗位的职业倦怠率（24%/23%）在科技公司里排名第一，比工程和产品都高。作者追问了根本原因：不是 AI，不是裁员，而是设计行业自己写、自己传播的职业晋升框架。Figma、Intercom、DoorDash 等公司公开分享的 career ladder 里，设计师的考核标准充满了气质性语言，比如「保持开放心态」「激励他人」，而 PM 和工程师的考核标准大多是行为性的、可验证的。这种差异意味着设计师的绩效评估天然更主观、更容易受关系和偏见左右——设计师中女性占比更高，承受的风险也更集中。文章指出：设计管理者把自己职业生涯里用来存活的情感劳动技能，编码进了行业标准，导致整个行业在教自己：情感劳动就是专业能力。这不是设计师不够努力，是框架本身在消耗人。",
+        "url": "https://uxdesign.cc/designers-we-are-perpetuating-our-own-burnout-problem-6caaa3662f2e",
+        "source": "UX Collective",
+        "why": "不是在讲如何避免倦怠，而是在追问倦怠的结构性根源。对在大厂做设计的叉叉来说，这种视角比任何 work-life balance tips 都更有价值。",
+        "type": "career"
+      },
+      {
+        "title": "你说是你做的？证明给我看",
+        "summary": "随着生成式 AI 的内容质量越来越难以区分，一个新问题浮现了：创作者如何证明自己的作品是人类做的？The Verge 记者梳理了当前至少 12 种「人类创作认证」方案，包括 C2PA 内容凭证、Not by AI、Proudly Human、Authors Guild 认证等。现实很残酷：大多数方案要么基于完全信任（徽章谁都能贴）、要么覆盖范围太窄、要么行业动力不足（因为 AI 内容能带来流量和钱）。Instagram 负责人 Adam Mosseri 也表示：未来「给真实内容打标」比「检测 AI 内容」更可行。这对设计师意味着什么？当你的 case study、你的 UI 截图、你的品牌提案，都可能被怀疑是 AI 生成的，作品集的信任体系正在瓦解。如何在 portfolio 里建立真实性证明，已经成为一个实际的设计职业问题。",
+        "url": "https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content",
+        "source": "The Verge",
+        "why": "直击设计师当下面临的身份危机——不是 AI 会不会取代你，而是你的作品还能被信任吗？对叉叉正在思考的 portfolio 和 personal brand 问题有直接关联。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Human-made-ai-free-labels-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "AI 写调研问卷：能帮你起草，但会踩哪些坑？",
+        "summary": "NNGroup 用同一个 prompt 测试了 ChatGPT 5.4、Claude Sonnet 4.6、Claude Opus 4.6 三个模型的问卷设计能力。AI 擅长的部分：快速覆盖多维度问题、语言清晰中立、避免双重问题、合理混合封闭或开放题。但 AI 的盲点同样明显：它看不到研究目标和题目设计之间的细微失配，不会主动质疑「这个问题真的能回答你的研究问题吗」；在量表设计、题目顺序偏差、上下文效应等方面容易出错；生成的草稿表面上很专业，但质量陷阱往往藏在细节里，没有经验的研究者很难发现。文章给出了一套实操建议：AI 适合用来生成第一稿和探索方向，但最终的问卷质量仍然依赖人类专业判断。对于需要快速做用户调研的设计师，这篇文章提供了一个清醒的使用边界。",
+        "url": "https://www.nngroup.com/articles/ai-survey-writing/",
+        "source": "Nielsen Norman Group",
+        "why": "非常实用。叉叉在做产品设计时会用到用户调研，了解 AI 辅助的真实边界（而不是营销话术），能避免因为信任 AI 初稿而引入研究偏差。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-04",
     "items": [
       {
