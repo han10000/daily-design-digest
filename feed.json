@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-06",
+    "items": [
+      {
+        "title": "大多数设计师忽略的那层看不见的 UX",
+        "summary": "你在 Figma 里精调配色、打磨间距，但你的界面还有另一个版本——屏幕阅读器的朗读版本，而大多数设计师从来没见过它。这篇文章拆解了 VoiceOver / NVDA 的工作原理：UI 被压缩成一条线性信息流，只有角色（role）、名称（name）、状态（state）三个维度能被读出来，视觉上的层级和空间关系全部消失。问题在于，你精心设计的卡片组件，屏幕阅读器可能只会说「Learn more, link」「Icon, button」——因为视觉优先的组件结构并不自动等于语义结构。文章给出了几个高频「设计决策→屏幕阅读器灾难」的对应关系，以及如何在设计阶段就建立正确的语义层：头部标签的正确使用、图标按钮的描述性标签、卡片组件的上下文关联方式。可访问性不是交付前的最后一关，它是组件结构本身的一部分。",
+        "url": "https://uxdesign.cc/the-invisible-layer-of-ux-most-designers-ignore-69272cda4468",
+        "source": "UX Collective",
+        "why": "很多设计师「知道」无障碍重要，但没有直觉感受过自己的界面被读出来是什么样。这篇文章给了一个具体的心智模型——把 UI 拍平成线性，逼你重新审视组件结构，而不是颜色对比度。",
+        "type": "design-craft"
+      },
+      {
+        "title": "我让 Gemini 给我规划了一整天，效果出乎意料地好",
+        "summary": "The Verge 记者用 Google Maps 新加入的 Gemini「Ask Maps」功能，让 AI 规划了一天的城市行程：指定公共交通出行、一顿午饭、一段散步、一个可以工作的咖啡馆，限制 4:30 回家。AI 给出的路线让她发现了一家平时不会注意到的隐藏小馆子，并全程通过对话微调行程（「再快点找个附近没去过的店」）。真正有意思的是失败案例：Gemini 推荐了一家书店，却给了一个错误地址，「自信地幻觉」出了距离和方向。这次亲身测试提供了一个 AI 融入现实导航的用户视角——它什么时候感觉自然、什么时候断了信任、以及 conversational refinement（对话式微调）在地图场景里的潜力和边界。对在做 AI 产品的设计师来说，这是个很有价值的真实用例观察。",
+        "url": "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on",
+        "source": "The Verge",
+        "why": "AI 在工具类产品里落地效果参差不齐，这篇是个诚实的用户体验报告：哪些交互模式真的有效，哪些「自信幻觉」会摧毁信任。是做 AI 产品设计决策的参考素材。",
+        "type": "ai-product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/IMG_0562.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200"
+      },
+      {
+        "title": "Holo3 刷新 Computer Use 榜单：78.85% 正确率，只用了 10B 活跃参数",
+        "summary": "Hcompany 发布 Holo3，在 OSWorld-Verified 桌面操作基准上拿下 78.85% 的新 SOTA——超越了此前所有模型，包括 GPT 5.4 和 Opus 4.6 等大型专有模型，但只用了 10B 活跃参数（总参 122B MoE 架构），推理成本大幅降低。关键是训练方法：「Agentic Learning Flywheel」——用合成导航数据、域外增强、强化学习三重循环，让模型学会在任意真实界面上完成任务，而非只跑特定 benchmark。他们还构建了「合成企业环境工厂」，自动生成 486 个多步骤、跨应用的真实企业工作流任务作为评测集。这意味着什么？当 Computer Use 模型能够自主完成「从 PDF 取价格→对比员工剩余预算→自动发个性化邮件」这类跨系统工作流，GUI 的设计逻辑开始被重新定义——用户不再是唯一的操作者。",
+        "url": "https://huggingface.co/blog/Hcompany/holo3",
+        "source": "Hugging Face Blog",
+        "why": "Computer Use 的快速进步是设计师需要密切关注的信号——当 AI 能可靠地操作任何 GUI，「为人类操作设计的界面」这个前提开始松动。现在开始想这件事的设计师，六个月后有先发优势。",
+        "type": "ai-frontier",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/698224a939bac08a1b6e0488/V66nfQj4EqV6imWD-Cgf0.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-05",
     "items": [
       {
@@ -361,7 +392,7 @@
         "summary": "Dropdown 菜单在 scrollable 容器里被裁切掉——这是前端开发中极常见但原因模糊的 bug。文章深入解释了背后三个独立浏览器系统的碰撞：overflow 裁切规则、stacking context（层叠上下文）、containing block（包含块）。这三者分开理解都清晰，碰到一起就变得反直觉。文章给出了三种解法：使用 React createPortal 把 dropdown 挂载到 body 层、利用 CSS position: fixed 规避 overflow 裁切、以及最前沿的 CSS Anchor Positioning（）。后者是浏览器原生解法，会自动判断 viewport 边缘并翻转位置，是未来方向。文章还特别提醒：fixed 元素也必须保持 keyboard reachability，否则会在可访问性测试时踩坑。",
         "url": "https://smashingmagazine.com/2026/03/dropdowns-scrollable-containers-why-break-how-fix/",
         "why": "Dropdown 的 overflow 问题在 design system 组件开发中几乎必踩。理解背后的 CSS 渲染原理，才能在评审前端实现方案时说出靠谱的意见，而不是只会说「这里感觉不对」。",
-        "image": "https://files.smashing.media/articles/dropdowns-scrollable-containers-why-break-how-fix/dropdowns-scrollable-containers-why-break-how-fix.jpg"
+        "image": "https:"
       }
     ]
   },
