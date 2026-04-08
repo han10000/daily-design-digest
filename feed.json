@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-08",
+    "items": [
+      {
+        "title": "设计 Agent AI 时，你真正需要的是「透明时刻」框架",
+        "summary": "设计 Agentic AI 产品时，设计师面临两种极端：要么「黑箱」什么都不说，要么「数据倾泻」把每行日志都吐给用户。两种做法都失败了——前者让用户感到失控，后者制造通知盲区。这篇文章提出了一个结构化方法：Decision Node Audit（决策节点审计）+ Impact/Risk Matrix（影响/风险矩阵），帮设计师和工程师一起找到哪些关键时刻需要向用户汇报进度、哪些可以静默处理。文章用保险 AI 理赔系统作为真实案例：把「计算索赔状态」这条无意义的进度条，拆解为「正在对比 500 个碰撞档案」「正在扫描警方报告关键词」等具体的透明度时刻，显著恢复了用户信任。这套方法不是为了「让 AI 看起来更聪明」，而是在对的时间、用对的信息密度，让用户觉得事情在被认真对待。现在设计 AI 产品的人几乎都在面对这个问题，这篇是目前看到最实用的框架之一。",
+        "url": "https://smashingmagazine.com/2026/04/identifying-necessary-transparency-moments-agentic-ai-part1/",
+        "source": "Smashing Magazine",
+        "why": "叉叉在微软做设计，一定在接触或即将接触 AI 功能。这套 Decision Node Audit 框架可以直接用在协作工具的 AI 助手设计里，拆解「AI 在做什么」的透明度设计问题。",
+        "type": "AI UX / 设计框架",
+        "image": "https://files.smashing.media/articles/identifying-necessary-transparency-moments-agentic-ai-part1/identifying-necessary-transparency-moments-agentic-ai-part1.jpg"
+      },
+      {
+        "title": "UX 法律时刻：黑暗模式不只是道德问题，现在有法律责任了",
+        "summary": "Meta 被法院裁定对其欺骗性界面设计承担法律责任，这是一个改变游戏规则的判决。文章作者 Andrés Zapata 指出，这意味着「设计暗模式」这件事，从「道德上不对」变成了「法律上有后果」。任何通过视觉欺骗、认知负担、强制确认等手段操控用户决策的界面，都可能面临和有设计缺陷的物理产品（比如会起火的汽车）一样的法律责任。文章引用了认知科学的视角——我们在为大脑设计，而不是屏幕；用户的决策能力是有限的，而设计可以被武器化来对抗他们。作者提出「careful, liable UX」这个新概念：在设计阶段就要问「这个设计有没有在对抗用户」，而不只是「这个方案能提升转化吗」。对于任何产品团队来说，A/B 测试的对话会因此改变。",
+        "url": "https://uxdesign.cc/careful-liable-ux-is-a-thing-now-ff088a766de8",
+        "source": "UX Collective",
+        "why": "设计决策有法律后果这件事迟早会改变产品流程。叉叉在大公司做设计，这种外部压力会从法务、合规方向传导进来，早知道早准备。",
+        "type": "设计伦理 / 行业动态"
+      },
+      {
+        "title": "Don Norman 亲自批判了自己发明的「以人为中心设计」",
+        "summary": "以人为中心设计（HCD）的创始人 Don Norman 在其 2023 年新书中说：「我提倡 HCD 已经 20-30 年了，但它是错的。」他并非否定 HCD 的方法论，而是指出它的盲区：当我们优化「用户体验」时，从来没有问过——这个产品对地球友好吗？对没有使用它的人友好吗？对未来的人友好吗？这篇文章通过「设计一辆车」的思想实验呈现了这个跳跃有多大。Human-centred 变成 Humanity-centred，不是换个词那么简单，而是整个视角从个体最优解，转向系统性后果。文章还引用了多个设计案例，说明为单个用户优化如何制造更大范围的伤害。这不是说 HCD 没用，而是说它需要一个更大的容器。对于叉叉日常做的产品设计，这种提问方式值得内化：「这个功能对用这个软件的人有好处，但会产生什么更广泛的后果？」",
+        "url": "https://uxdesign.cc/beyond-the-user-why-design-needs-to-widen-its-circle-5d6d6bca783e",
+        "source": "UX Collective",
+        "why": "Don Norman 自我批判是罕见的。这篇文章有助于建立设计视角的层次感——不只看用户，也看系统。对叉叉的 product thinking 有长期价值。",
+        "type": "设计思维 / 大视角"
+      }
+    ]
+  },
+  {
     "date": "2026-04-07",
     "items": [
       {
