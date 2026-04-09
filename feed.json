@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-09",
+    "items": [
+      {
+        "title": "设计的法律责任时刻来了：Meta 和 Google 因针对未成年人的成瘾设计被判赔偿",
+        "summary": "2026年3月，加州陪审团裁定 Meta 和 Google 败诉，因为他们被认定故意用成瘾性设计针对弱势儿童。原告被法庭保护名称称为KGM，声称 Instagram 和 YouTube 导致其上瘾、抑郁和体象障碍，最终获赔 600 万美元，陪审团还认定两家公司存在恶意、压迫和欺诈行为，追加了惩罚性赔偿。Snapchat 和 TikTok 此前已与原告达成保密和解。更值得警惕的是：旧金山即将开始另一批联邦诉讼，原告超过数百名，6月开庭。文章揭示了一个设计师不能再回避的事实——产品设计决策正在成为法律风险，dark pattern 不再只是道德问题，而是会被陪审团追责的行为。这是设计行业的分水岭时刻。",
+        "url": "https://uxdesign.cc/social-media-on-trial-32be44a6434e",
+        "source": "UX Collective",
+        "why": "设计的法律责任时代正式到来。这篇文章用具体判决结果说明：成瘾设计、针对儿童的 dark pattern，已经从不道德升级为法律罪行。对任何做消费者产品的设计师来说，这个案例值得深读、值得存档。",
+        "type": "design-ethics"
+      },
+      {
+        "title": "三天 workshop 死了：2026 年设计工作坊怎么才能真正有用？",
+        "summary": "你开完 workshop，离场时 Miro 板满满当当，然后再也没人打开过。这种经历很多设计师都有。作者 Kai Wong 指出：老式的一周30人 workshop 模式已经宣告死亡。2025年最新的 State of Facilitation 报告建议，大多数协作会议应控制在 60-90 分钟以内。真正的问题在于：workshop 结束后，产品团队无法回答「公司从这次会议里得到了什么？」。新的 workshop 模式更轻、更聚焦，必须在结束时能回答三个问题：做了什么决定、谁负责推进、下一步是什么。文章提供了可操作的 workshop 设计框架，从议程结构到如何让产品负责人真正认为这次值得。对在大公司内部做协作推动的设计师非常实用。",
+        "url": "https://uxdesign.cc/the-old-design-workshop-is-dead-long-live-design-workshops-98f4ee58d9a7",
+        "source": "UX Collective",
+        "why": "大公司最容易陷入 workshop 剧场——大家都出席了，Post-it 贴满了，实际决策没发生。这篇文章直接给了解法：更短、更聚焦、有明确输出物的工作坊设计方式，拿来就能用。",
+        "type": "design-process"
+      },
+      {
+        "title": "AI Agent 终于学会「总结经验」了：解决永久实习生问题的记忆框架",
+        "summary": "IBM Research 发布了 ALTK-Evolve，一个让 AI Agent 真正能从经验中学习的记忆系统。核心问题被命名为永久实习生问题：大多数 AI Agent 每次启动都像第一天上班，会重读历史日志但无法从中提炼原则，就像一个厨师每天早上忘记你家烤箱温度偏高一样。ALTK-Evolve 的思路是把 agent 的交互轨迹转化为可复用的原则而不是需要重读的记录，在 AppWorld 等复杂多步骤任务基准测试上提升了 14.2%。对设计师来说，理解这个机制很重要：你设计的 AI 产品，它的 memory 是照着剧本读还是真的学会了，会带来截然不同的用户体验，尤其在需要个性化和上下文连贯性的场景里。",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+        "source": "Hugging Face Blog",
+        "why": "做 AI 产品的设计师需要理解 agent 的记忆机制。这篇文章用厨师比喻讲清楚了读历史和学原则的本质区别，帮助你在设计 AI 工作流时对 memory 能力有更准确的预期，而不是把所有 AI 产品当成一个黑盒。",
+        "type": "ai-product",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/uxQyadM-_5UjGrNiwUGI0.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-08",
     "items": [
       {
