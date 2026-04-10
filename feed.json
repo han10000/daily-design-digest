@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-10",
+    "items": [
+      {
+        "title": "『Taste』只是换了个名字的『Design』——设计师的愤怒与清醒",
+        "summary": "Pablo Stanley（Figma 前首席设计师）观察到一个有趣现象：自从 AI 能「做任何事」之后，科技圈突然流行起「taste」这个词。Paul Graham 说这是 AI 时代的最大差异化因素，Sam Altman 说 OpenAI 专门招有 taste 的人——而这些人说的其实正是设计师一直在做的事。Stanley 颇为愤怒：「design-driven」曾经流行，现在换成了「taste-driven」，但设计师和工程师的比例并没有改变，PM 岗位今年增长 20%，设计师岗位自 2023 年就持平。不过他最终还是做了一件设计师该做的事——追问「那 taste 到底是什么」。他的答案：与其说是 taste，不如说是「intentionality」——一种不断筛掉不对的选择、直到剩下真正有意义的东西的过程。这篇文章是对 AI 时代设计师身份焦虑最精准的表达，也是最有力的反击。",
+        "url": "https://uxdesign.cc/taste-md-e4fb75d9096f",
+        "source": "UX Collective",
+        "why": "直击设计师在 AI 时代的身份焦虑，同时给出了有力反击：taste 不是新概念，是设计师一直在做的事，只是终于被看见了。",
+        "type": "opinion"
+      },
+      {
+        "title": "Gemini 新功能：问问题，它直接给你一个可以转的 3D 模型",
+        "summary": "Google 为 Gemini 增加了生成交互式 3D 模型和模拟器的能力——不是静态图片，是真的可以旋转、拖拽、调整参数的实时 3D 对象。比如你问「月球怎么绕地球转」，它直接生成一个带速度滑块、轨道路径开关的 3D 轨道模拟。这个功能通过 Gemini Pro 访问，所有 Gemini 用户都可以体验。这已经是近几周内三大 AI 公司的同类动作：Anthropic 给 Claude 加了自动生成交互图表的能力，OpenAI 加了数学/科学可视化功能——现在 Google 把这个逻辑延伸到了 3D 世界。「回答」的形式正在从文字变成可操作的空间，信息呈现的设计范式正在被悄悄重写。",
+        "url": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
+        "source": "The Verge",
+        "why": "不只是新功能，是「AI 回答」形式的重大跃迁——从文字到图表、再到 3D 交互空间。对产品设计师来说，「信息呈现」的设计范式正在被重写，值得关注。",
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "在普通 GPU 上跑实时生成世界：Waypoint-1.5 开源发布",
+        "summary": "Overworld 发布了 Waypoint-1.5，一个可以在消费级 GPU（RTX 3090 以上）本地实时运行的互动世界生成模型，支持 720p/60fps，也有专为笔记本设计的 360p 版本，即将支持 Apple Silicon Mac。相比前一版本，训练数据量增加了约 100 倍，生成的场景连贯性和运动一致性都有明显提升。这个项目追求的不是「更漂亮的 AI 视频」，而是「响应感」——让生成的世界真正能对用户的交互作出即时反应，从被动观看跨越到真正「置身其中」。权重开源，已有 Web 端和桌面客户端可以试用（overworld.stream）。互动世界模型从「数据中心演示」变成「消费级本地运行」，这个转折对游戏、空间计算、沉浸式体验设计都有长期影响。",
+        "url": "https://huggingface.co/blog/waypoint-1-5",
+        "source": "Hugging Face Blog",
+        "why": "互动世界模型跨越「数据中心演示」到「消费级本地运行」的临界点，对空间计算和沉浸式体验设计赛道有前瞻价值。",
+        "type": "research",
+        "image": "https://huggingface.co/blog/assets/overworld/waypoint-v1-5.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-09",
     "items": [
       {
