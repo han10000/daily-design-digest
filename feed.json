@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-04-11",
+    "items": [
+      {
+        "title": "手作感正在成为 AI 时代的信任信号",
+        "summary": "NNGroup 这篇文章戳中了一个正在发生的范式转移：当任何人都能在几分钟内生成一张「精致」图片，视觉打磨本身就失去了品质信号的意义。用户开始像买黑胶唱片、用有线耳机那样，主动寻找「看得出有人用心做」的设计。手绘线条、不完美排版、刻意的粗粝感——这些曾经被视为「不专业」的特征，现在反而在传递可信度。文章引用了大量用户研究，指出 AI 疲劳（AI fatigue）正在重塑审美偏好，从扁平化到拟物再到 AI 生成的「完美」，这一次的反弹方向是「human-made」。对正在思考品牌视觉或界面风格的设计师来说，这是一个值得立刻内化的信号：polish 不等于 quality，deliberate imperfection 才是下一个差异化武器。",
+        "url": "https://www.nngroup.com/articles/handmade-designs/",
+        "source": "Nielsen Norman Group",
+        "why": "直接回答「AI 时代设计师怎么建立信任感」，研究支撑扎实，对做品牌/界面/营销物料的设计师都有即时参考价值",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_7.png"
+      },
+      {
+        "title": "当 AI Agent 开始用你设计的界面——「用户」这个词的定义正在裂变",
+        "summary": "NNGroup 的这篇文章提出了一个设计师必须正视的问题：AI agent 现在正在浏览网站、填写表单、比较选项、完成交易——它们是你界面的用户，但你从未为它们设计过。作者 Sarah Gibbons 和 Kate Moran 指出，这要求设计师更新一个核心假设：「user ≠ human」。文章系统梳理了 agent 与人类用户的差异（agent 不会被视觉层级引导、依赖语义结构、对 aria label 和 semantic HTML 极度敏感），并给出了双轨设计策略——如何在不破坏人类体验的前提下，让界面对 agent 也更可操作。这不是遥远的未来，Gemini Tasks、OpenAI Operator 这类产品已经在真实部署。设计师现在就需要开始思考「我的界面在被 AI 操作时是什么样的」。",
+        "url": "https://www.nngroup.com/articles/ai-agents-as-users/",
+        "source": "Nielsen Norman Group",
+        "why": "范式级别的认知更新，直接影响设计师做信息架构和语义结构的决策，与 Gemini/Copilot agent 趋势同步",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_8.png"
+      },
+      {
+        "title": "如何在「不能动」的系统里推进 UX——旧系统改造实战指南",
+        "summary": "Smashing Magazine 这篇文章写给所有在大公司里改造遗留系统的设计师——那种「用了十年、半天崩、没人知道为什么还能跑」的系统。文章坦承：你 40-60% 的时间都在维护这个黑盒，而用户的体验会因为流程中一个破碎的步骤而崩溃，哪怕其余部分做得再好。作者提供了可操作的 UX roadmap：不要否定历史代码（里面藏着宝贵的业务逻辑）、先做「最少痛苦」的改动而不是全面重写、用 UX debt 的语言和工程师谈判、在约束里寻找可见的 quick win 积累信任。对在微软这类企业环境工作、常常面对 legacy 产品线的设计师来说，这篇文章提供的不只是技术方法，更是一套在限制中仍能推进改变的政治智慧。",
+        "url": "https://smashingmagazine.com/2026/04/legacy-systems/",
+        "source": "Smashing Magazine",
+        "why": "非常贴近大厂设计师的真实处境，方法论实用，还提供了和工程/PM 对话的框架，不只是技术指南",
+        "type": "practice",
+        "image": "https://files.smashing.media/articles/how-improve-ux-legacy-systems/legacy-systems.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-04-10",
     "items": [
       {
