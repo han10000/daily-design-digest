@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-12",
+    "items": [
+      {
+        "title": "科技公司写了一份「保护工人」的政策白皮书——但作者是 OpenAI",
+        "summary": "OpenAI 本周发布了一份 13 页的政策文件《智能时代的产业政策：以人为本的想法》，提出了公共财富基金、资本而非劳动力征税、四天工作制等方案，坦承 AI 会导致失业和经济不平等。听起来进步？作者 Dora Czerna 指出其中的「哲学障眼法」：提议没有执行机制（财富基金怎么融资？没说）、措辞「刻意开放和探索性」，但 OpenAI 本身估值 8520 亿美元，且与正在制定监管政策的决策者有直接沟通渠道。文章核心问题：当破坏你职业的公司同时写下管理破坏的规则时，谁才是真正的受益者？对 Product Designer 来说，这篇文章是理解 AI 行业叙事框架的绝佳案例——你们的工具背后，是有政治立场的。",
+        "url": "https://uxdesign.cc/notes-from-the-people-building-your-future-2a1c7a9dfbcd",
+        "source": "UX Collective",
+        "why": "AI 产品设计师需要理解自己所在行业的权力结构和叙事框架，而不只是会用工具。这篇文章帮你看清楚谁在设定游戏规则、以及为什么这份「以人为本」的文件恰恰值得审慎对待。",
+        "type": "opinion"
+      },
+      {
+        "title": "《纽约客》用 AI 插画配 AI 报道——这个选择到底对不对？",
+        "summary": "《纽约客》最新封面故事是关于 OpenAI CEO Sam Altman 的深度档案，配图标注「Generated using A.I.」——作者是已工作十余年的混合媒体艺术家 David Szauder，他用自己编写的 AI 工具处理档案素材制作出这幅「九头蛇版 Altman」。The Verge 作者 Cath Virginia 指出：Szauder 的创作过程远比一键生图复杂，但最终结果依然浪费了一次机会——AI 缺乏自我意识，无法真正讽刺 AI 本身，这幅图依靠的只是「AI 动画的诡异感」，而不是真正的批判性洞察。文章同时梳理了《纽约客》过去五年使用 AI 的争议历史，以及编辑团队的辩护逻辑。核心张力：当技术成为创作工具本身，「用途」的道德边界在哪？对设计师来说，这是一道活生生的视觉传达伦理题。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
+        "source": "The Verge",
+        "why": "正在用 AI 做视觉工作的设计师不能绕开这个问题：AI 在什么场合下用是合适的，在什么场合下即便技术可行也是在「偷懒」？《纽约客》的案例是一个难得的、真实的讨论样本。",
+        "type": "analysis",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268452_New_Yorker_AI_art_CVirginia3.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "设计评审正在浪费所有人的时间——除非你换一种做法",
+        "summary": "HCI/UX 研究者 Filipe Nzongo 花了数年研究设计评审（design critique），发现大量团队的评审会其实效率低下：设计师感到不安全、反馈流于表面、知识无法积累。文章追溯了 critique 实践的起源（来自建筑教育），分析了现有做法的结构性缺陷，并提出了一套「设计评审框架」（Design Critique Framework Canvas），帮助团队通过结构化、反思性的评审会议系统性地构建设计知识库。框架核心：critique 的目的不应该是「让设计更好」，而是「让设计师更懂为什么这个设计是好的或不好的」——这是完全不同的出发点，会带来完全不同的会议结构和提问方式。对任何需要主导或参与设计评审的设计师都有实用价值。",
+        "url": "https://uxdesign.cc/rethinking-design-critique-3d358a859304",
+        "source": "UX Collective",
+        "why": "设计师成长最快的方式之一就是高质量的评审文化，但大多数团队的 critique 都在低效运转。这篇文章给了一个可落地的框架，值得拿去改造自己团队的评审流程。",
+        "type": "practice"
+      }
+    ]
+  },
+  {
     "date": "2026-04-11",
     "items": [
       {
