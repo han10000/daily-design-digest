@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-13",
+    "items": [
+      {
+        "title": "产品不需要「品牌语气」——它需要一个立场",
+        "summary": "这篇文章直接挑战了 UX 写作领域最常见的执念之一：把产品人格化、为它设计「tone of voice」。作者认为，用户在完成任务时根本不关心产品是否听起来像「厨房里的酷盖叔叔」或「有救世主情结的 Jean 聊天机器人」。内容不是用来说服用户的文学作品，而是帮助用户完成任务的工具。如果内容失败，用户就失败了——他们不会说「我不喜欢这个品牌的个性」，他们只是无法完成操作。文章建议：与其花精力制定没人会看两遍的 tone 规范，不如专注于真正有用的东西——plain English、主动语态、好的时机。这是一篇适合所有 product designer 和 UX writer 拿来反思自己「品牌声音」执念的文章。",
+        "url": "https://uxdesign.cc/most-products-dont-need-tone-of-voice-they-need-a-point-cf37f7c752ac",
+        "source": "UX Collective",
+        "why": "直接挑战了设计师常见的执念。「品牌语气」VS「能不能完成任务」——这个区分在 AI 产品时代尤其重要，很多团队还在花时间写 tone guide 而不是改掉让用户卡住的文案。",
+        "type": "opinion"
+      },
+      {
+        "title": "AI 编程大战白热化：OpenAI、Google、Anthropic 的三方争夺",
+        "summary": "The Verge 深度梳理了 AI 编程工具的演进史和当下格局。从 2021 年 GitHub Copilot 的诞生，到现在 OpenAI 的 Codex/o3、Google 的 Gemini Code Assist、Anthropic 的 Claude Code 全面开战，「vibe coding」正在从开发者工具变成大众产品。文章关键洞察：当每家公司都能提供「写代码」的能力，竞争重心已经转向谁能提供更好的 agent 体验——不只是补全代码，而是理解项目上下文、做出合理决策、帮用户 debug 整个系统。对设计师来说，这场战争的结果直接影响你下一年会用什么工具来辅助设计开发的协作——Cursor、Copilot、还是某个新进入者。",
+        "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
+        "source": "The Verge",
+        "why": "设计师越来越多地在用 AI coding 工具（vibe coding、前端快速原型）。了解这个战场的格局，能帮你更理性地选工具，也能帮你在团队里更好地与工程师讨论 AI workflow 的整合方向。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268441_AI_CODING_RACE_CVIRGINIA.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "设计「会学习的团队」：把 Senge 第五项修炼用在产品设计上",
+        "summary": "作者把 Peter Senge 1990 年的经典著作《第五项修炼》框架，迁移到现代产品设计和 UX 团队语境中解读。核心命题：在 AI 加速的当下，团队的真正竞争优势不是技术栈，而是「比对手更快学习的集体能力」。文章详细拆解了 Senge 五大修炼——个人精进、心智模型、共同愿景、团队学习、系统思考——如何适用于跨职能的产品团队。对 DesignOps、设计 lead 来说，这提供了一个有理论根基的框架来思考：为什么同样的设计师放在不同团队里，产出会天壤之别？不是人的问题，是系统的问题。",
+        "url": "https://uxdesign.cc/designing-adaptive-teams-cee73e55013d",
+        "source": "UX Collective",
+        "why": "在 AI 把个人生产力拉平的趋势下，团队的系统性学习能力会成为真正的护城河。这篇文章提供了一个实用的思维框架——不是那种「建立心理安全感」的泛泛之词，而是有结构的五步拆解。",
+        "type": "leadership"
+      }
+    ]
+  },
+  {
     "date": "2026-04-12",
     "items": [
       {
