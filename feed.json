@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-14",
+    "items": [
+      {
+        "title": "「Vibe 编程」正在侵蚀设计的话语权",
+        "summary": "作者 Michael Buckley 以 Google Stitch 的发布为切入点（Figma 股价应声跌 12%），指出 AI 界面生成工具带来的不只是效率变革，更是一场权力结构的悄然重塑。这类工具让界面「立竿见影」——描述即呈现、交互即时响应——但这种速度是有代价的：它把「看起来在进展」等同于「真正的进展」。Buckley 认为 vibe coding 本身是个误导性词汇，这些工具产出的是可执行原型，不是可维护的系统，更诚实的叫法应该是 vibe prototyping。更深的问题是：当 stakeholder 看到屏幕动了就认为设计完成了，设计师的架构判断力和隐形工作就被边缘化了——设计师已经在 Figma 里排练这种误解多年，现在只是被 AI 放大了。原型本应是架构决策之后的产物，而不是说服别人决策已做出的替代品。",
+        "url": "https://uxdesign.cc/vibe-coding-is-accelerating-the-erosion-of-design-authority-4dc21b233606",
+        "source": "UX Collective",
+        "why": "直接命中现在每个设计团队都在经历的困境：AI 工具越来越快地生成界面，但「可见即完成」的幻觉也在同步侵蚀设计师的专业话语权。值得每个 Product Designer 认真读。",
+        "type": "essay"
+      },
+      {
+        "title": "我们无意间造了这个——「不惜代价的 engagement」如何吞噬设计伦理",
+        "summary": "2026 年 3 月，Meta 因平台设计特性危害用户（尤其未成年人）被新墨西哥州法院罚款 3.75 亿美元。作者从这起判决出发拷问一个令人不安的问题：那些以「用研和证据驱动决策」为傲的设计师，是如何一步步成为伤害用户系统的帮凶的？文章引用 Rutger Bregman 的观点——人本善，但在相信自己做好事的时候，完全有能力做出坏事。「平台腐化」和 Cory Doctorow 的 enshittification 概念被用来解释：曾经以极致用户体验吸客的产品，如何在 engagement 指标和增长压力下把用户变成了被剥削的对象。文章最后警告：如果把同样的设计 brief 交给 AI 来执行，没有人类设计师在中间推回，这种系统性的伦理缺失会变得更加危险。这不是一篇控诉，是一篇让你照镜子的文章。",
+        "url": "https://uxdesign.cc/we-didnt-mean-to-build-this-engagement-at-any-cost-f0d80c24e14f",
+        "source": "UX Collective",
+        "why": "在 AI 工具加速设计输出的今天，设计伦理从来没有像现在这么重要，也从来没有这么容易被忽视。这篇文章是一个必要的打断。",
+        "type": "essay"
+      },
+      {
+        "title": "AI 虚拟网红「涌入」Coachella：你看到的那张脸，可能根本不存在",
+        "summary": "2026 年 Coachella 刚开幕，社交媒体上已充斥着极度精致的「参与者」——与 Kardashian 同框、完美构图、视觉几乎无破绽，但其中相当一部分是 AI 生成的虚假账号，粉丝从数十万到两百万不等。The Verge 记者记录了多个案例：有账号用 Higgsfield AI 生成女性面孔获得 200 万粉丝，却几乎没有可见的 AI 披露；Instagram 桌面版的 AI info 标签藏在三个点菜单里，根本没人会看。这对设计师的意义不只是「AI 在骗人」：当 AI 生成内容开始在真实文化场景里与真人难以区分，平台如何设计「真实性」标识、用户如何重建信任判断，将成为 UX 的核心命题——这是 identity design 问题，也是平台 trust infrastructure 的设计问题。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/911267/ai-influencers-coachella",
+        "source": "The Verge",
+        "why": "不只是新闻，是「在充斥 AI 生成内容的平台上设计真实感和信任感」这个 UX 命题的一批真实案例——Coachella 只是入口，背后是每个内容平台都要面对的设计挑战。",
+        "type": "report",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ai-label-10.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-13",
     "items": [
       {
