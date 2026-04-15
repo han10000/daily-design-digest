@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-15",
+    "items": [
+      {
+        "title": "竞品的差评，是你最有说服力的设计论据",
+        "summary": "竞品调研不是用来「偷视觉」的，而是用来「带证据」的。这篇文章提出一个具体方法：系统性地挖掘竞品的 1-3 星差评，从中提炼用户真实痛点，再把这些痛点作为设计决策的支撑论据。作者指出，大多数设计师做竞品分析时只关注截图和交互模式，却忽略了竞品评论区里最诚实的用户声音——他们亲口说了「这里出了什么问题」。当你能用真实用户的原话（而非你自己的判断）来支持某个设计方向，在 stakeholder review 里的说服力会完全不同。对于在微软这样需要频繁进行内部设计决策对齐的设计师来说，这个方法既能节省一手研究成本，又能让设计立场更有数据底气。",
+        "url": "https://uxdesign.cc/how-to-turn-your-competitors-worst-reviews-into-your-strongest-design-argument-6d216680693d",
+        "source": "UX Collective",
+        "why": "做设计决策最难的不是想到好方案，而是说服别人。竞品差评是现成的、真实的、有说服力的证据——这个视角很实用，直接可以用在下次 design review 里。",
+        "type": "design-research"
+      },
+      {
+        "title": "Chrome 推出 AI Skills：把常用 Prompt 存成一键复用的工作流",
+        "summary": "Google 正式在 Chrome 桌面端上线「Skills」功能——你可以把任何 Gemini 的 AI 提示词保存为 Skill，之后对任意网页标签页一键运行，无需重复输入。产品经理 Hafsah Ismail 的原话：「以前你每访问一个新页面，就要重新输入一遍相同的 prompt，比如让菜谱变成纯素食版本。现在存成 Skills 后，单击就能跑。」这意味着浏览器开始承担更多 AI workflow 编排的职责，从「一次性对话」进化成「可复用的 AI 动作库」。对产品设计师来说，这既是一个值得直接上手的效率工具，也是一个信号：AI 与 UI 的融合正在从「嵌入式 chatbot」往「持久化 workflow 层」演变，值得在设计 AI 功能时借鉴这种「存动作、复用动作」的心智模型。",
+        "url": "https://www.theverge.com/tech/911658/google-chrome-gemini-ai-skills-availability-launch",
+        "source": "The Verge",
+        "why": "这不只是一个 Chrome 小功能——它代表了浏览器层的 AI 范式在移动：从每次对话到持久工作流。对设计师而言，值得用一用，也值得想想「你自己的产品里有没有类似的机制」。",
+        "type": "ai-tools",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK114_Google_Chrome_03.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "信任延迟差：为什么 AI 越快，高风险 UX 反而要刻意慢下来",
+        "summary": "这篇文章提出了一个反直觉但极有价值的概念：「信任延迟差（Trust-Latency Gap）」——系统执行速度与用户建立信任所需时间之间的鸿沟。当 AI 把一笔 5 万美元交易压缩到 0.3 秒完成时，用户不是感到满意，而是感到不安。作者用财富管理行业举例：Robinhood 的极简快速体验适合低风险场景，但 Charles Schwab 那种「看起来很重」的多步验证，恰恰是用户在高风险金融决策时需要的安全感。文章还提出了「可逆性 × 影响程度」矩阵，帮助设计师判断哪些操作应该加摩擦（高影响+不可逆 → Intent Preview）、哪些可以静默完成（低影响+可逆 → 自动执行+日志）。这背后的「Labor Illusion」研究也值得记住：用户会因为「感知到工作正在发生」而对结果更满意，即便实际时间没有变化。",
+        "url": "https://uxdesign.cc/the-trust-latency-gap-why-the-future-of-ux-is-intentionally-slower-3433c1787d5e",
+        "source": "UX Collective",
+        "why": "在 AI agent 功能越来越普遍的今天，「什么时候该让用户感受到 AI 在工作」是个真实的设计问题。这篇文章给了一个清晰的框架：不是所有场景都追求速度，高风险场景需要可见的过程感。设计 AI 产品必读。",
+        "type": "ux-principles"
+      }
+    ]
+  },
+  {
     "date": "2026-04-14",
     "items": [
       {
