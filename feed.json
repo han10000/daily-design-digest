@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-04-16",
+    "items": [
+      {
+        "title": "HoloTab：零门槛 AI 浏览器助理，录屏示范一次就能自动化任何网页任务",
+        "summary": "HCompany 在 4 月 15 日发布了 HoloTab，一个基于他们自研 Holo3 computer-use 模型的 Chrome 扩展。它的核心卖点是 Routines：你只需要在浏览器里把一个操作做一遍（录屏），HoloTab 就会理解你的意图，之后可以随时自动重复这个流程——比如跨标签页采集竞品价格、整理 job listings 到追踪表格等。区别于需要写代码或配置 API 的自动化工具，HoloTab 完全面向普通用户，无需技术背景，免费可用。对 Product Designer 来说，这是 computer-use agent 真正走向大众的关键信号：当你的用户可以随时训练浏览器帮他做事，那些重复性的、跨页面的操作流程是否还值得设计？还是应该更早考虑 agent-first 的产品形态？",
+        "url": "https://huggingface.co/blog/Hcompany/holotab",
+        "source": "Hugging Face Blog",
+        "why": "computer-use agent 产品化的标志性一步——从研究走向 Chrome 扩展、走向普通用户。设计 workflow 工具或 B 端产品的设计师必读，了解下一波用户行为变化的形态。",
+        "type": "AI 工具",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holotab.png"
+      },
+      {
+        "title": "桌面端 AI 争夺战：Gemini Mac 应用上线，Option+Space 直接唤醒",
+        "summary": "4 月 15 日，Google 正式发布 Gemini Mac 应用。用户按下 Option+Space 就能唤出一个悬浮的 AI 对话泡，可以截取当前窗口内容作为上下文提问，也支持 Google Drive 文件、图片、视频生成等功能。从产品策略看，这是 Google 在桌面 AI 入口位置的一次补位——Anthropic、OpenAI、Perplexity 都已经有 Mac 桌面应用，Google 此前只有 Chrome 插件形态。但 Gemini 暂时没有 computer-use 能力（不能主动操作系统），在执行型 AI 助手维度仍落后于 Claude 和 ChatGPT。对 Product Designer 来说，观察各家桌面 AI 的入口交互设计（快捷键唤醒、悬浮窗、上下文感知）是理解下一代 OS 层交互的好窗口。",
+        "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app",
+        "source": "The Verge",
+        "why": "AI 助手从网页和手机迁移到桌面系统层，是一个正在发生的交互范式转变。设计师应该留意这些产品如何解决随时唤醒但不干扰的悬浮 UI 问题。",
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Gemini-for-MacOS_03_Capsule-Image_16x9.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "AI 智能体到底有多脆？IBM 用 8000 个 API 拆解 Agent 的推理断点",
+        "summary": "IBM Research 发布了 VAKRA——一个专门用来测试 AI Agent 在真实企业环境中推理与工具调用能力的 benchmark。与以往只测单一技能的 benchmark 不同，VAKRA 模拟的是 3-7 步的链式任务：Agent 需要跨多个 API、结合非结构化文档来完成查询，覆盖 62 个业务领域、超过 8000 个本地 API。测试结果显示，目前所有主流模型在 VAKRA 上的表现都很差——这篇分析文章重点解剖了几类典型的失败模式：工具调用顺序混乱、中间步骤推理断裂、文档与 API 信息无法有效整合等。对 Product Designer 来说，了解 Agent 在哪里失败，比知道它能做什么更重要——这直接影响你在 AI 产品设计中如何设置人工介入点和错误恢复流程。",
+        "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+        "source": "Hugging Face Blog",
+        "why": "设计 AI-powered 产品的设计师必须理解 Agent 的边界在哪里。VAKRA 的失败案例是很好的素材，帮助你判断哪些场景不能交给 Agent、哪里需要设计降级方案。",
+        "type": "AI 研究",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/677629b4931b3b2eb8d5820a/aheSsLHG7bQqr_2b8A6cS.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-15",
     "items": [
       {
@@ -1097,7 +1129,7 @@
         "url": "https://will-keleher.com/posts/this-css-makes-me-human/",
         "why": "AI 写作工具的 UX 设计必须解决 authorship 问题——用户不只要好内容，还要感觉「这是我写的」，否则会被抵制",
         "publishedAt": "2026-03-06",
-        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_a258d4313b43c23a.webp"
+        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_a2d7b00b9482471.webp"
       },
       {
         "source": "UX Collective",
