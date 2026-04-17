@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-17",
+    "items": [
+      {
+        "title": "当算法奖励争议内容：设计师如何在 Happy Path 之外防御有害社区",
+        "summary": "UX 设计师 Maria Teresa Stella 看完 Louis Theroux 的 Netflix 纪录片《Inside the Manosphere》后，从设计视角分析了为什么这类有害社区能在数字产品中野蛮生长。核心观点是：我们在设计「快乐路径」时往往忽略了如何设计「对抗有害行为者」。社交平台的算法机制主动奖励争议内容，让创作者陷入「越极端越有流量」的黄金牢笼，而他们的受众——最小仅13岁的男孩——却在内化这些极端观点。文章进而提出 UX 从业者可以做哪些具体改变：重新审视推荐算法的设计逻辑、在设计评审中纳入反滥用视角、以及如何在不剥夺用户自由的前提下降低有害内容的传播路径。这是一篇把社会议题拉回设计决策的文章，让人重新思考「我们设计的东西正在服务谁、在强化什么」。",
+        "url": "https://uxdesign.cc/i-watched-the-manosphere-documentary-here-is-how-design-is-making-things-worse-771de2bad594",
+        "source": "UX Collective",
+        "why": "设计师最容易忽视的盲区：我们优化的每一个交互指标背后，可能都在放大某种我们没想清楚的行为。今天最有立场的一篇。",
+        "type": "design-ethics"
+      },
+      {
+        "title": "OpenAI Codex 大更新：能操控 Mac 桌面、并行多 Agent、记住偏好——正面迎战 Claude Code",
+        "summary": "OpenAI 为旗下 AI 编程助手 Codex 发布了一系列重大更新，矛头直指 Anthropic 的 Claude Code。新功能包括：Codex 现在可以直接操控 macOS 桌面应用（后台静默运行，不打扰用户当前工作），多个 Agent 可以并行处理不同任务；新增 gpt-image-1.5 图片生成与迭代能力；内置 Web 浏览器，用户可在页面上直接注释来给 Agent 下达精确指令；集成 GitLab、Atlassian Rovo、Microsoft Suite 等工作流插件；以及最重要的记忆功能——Codex 能记住你的个人偏好、修正历史和花时间收集的信息，让未来任务更快完成。这场 AI 编程工具的军备竞赛对设计师的影响是真实的——当 Codex 能「看着你的前端」实时迭代，设计-开发的边界又在进一步模糊。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+        "source": "The Verge",
+        "why": "AI 编程工具的能力边界每周都在扩张。这次 Codex 从「写代码」进化成「能在你 Mac 上操作一切」——对设计师的工作流影响值得提前了解。",
+        "type": "ai-tools",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Screenshot-2026-04-16-at-13.01.11.png?quality=90&strip=all&crop=0%2C8.7994481637149%2C100%2C83.384081972391&w=1200"
+      },
+      {
+        "title": "Google AI Mode 新交互：点击来源侧边展开，不离开对话；还能直接调用已打开的 Tab",
+        "summary": "Google 为 Chrome 中的 AI Mode 带来了一个颇有设计价值的更新：当用户在 AI 对话中点击引用来源时，不再自动跳转新标签页，而是将原始页面以侧边栏形式展开，允许用户一边阅读原文一边继续追问 AI。此外，AI Mode 现在还支持直接调用浏览器中已打开的标签页作为上下文——点击「+」按钮选择目标 Tab，AI 就能基于那个页面内容回答问题，无需手动复制粘贴。这两个改动指向一个重要的 UX 方向：AI 对话界面正从「替代搜索」演变为「包裹一切」的控制层。对设计师而言值得追问：当 AI 界面开始消化用户所有 Tab 的上下文，原有的「打开新页面」这一基础导航模式还成立吗？",
+        "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
+        "source": "The Verge",
+        "why": "清晰的 UX 模式演变案例——侧边阅读 + Tab 作为上下文输入。拆解这个交互决策背后的逻辑，对设计 AI 产品很有参考价值。",
+        "type": "ai-ux",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/google-ai-mode-side-by-side.png?quality=90&strip=all&crop=0%2C15.573644440406%2C100%2C68.852711119189&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-16",
     "items": [
       {
