@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-18",
+    "items": [
+      {
+        "title": "AI 能读懂你的代码库，但它不了解你的产品",
+        "summary": "作者在用 AI 编程助手做产品头脑风暴时发现一个根本性问题：Agent 返回的建议（通知中心、引导向导、分析 Dashboard）看起来合理，但全部不适合自己的产品。原因不是代码读得不够，而是代码里根本没有「产品性格」——交互原则、品牌口吻、视觉禁忌、定位边界。作者将这类知识归纳为七种形态：架构、功能流程、技术栈规范、品牌语调、视觉语言、交互原则、产品定位。代码只能覆盖其中约 40%，剩余 60% 藏在 Figma 文件、Slack 讨论和团队默契里。解法是「context engineering」——把这些设计上下文结构化地喂给 Agent，作者以此写了一个 Claude Code skill，之后 AI 的产出不再「generic」。这篇直接影响你现在和团队用 Cursor/Claude Code 的方式：不只是写代码，要先写一份产品的「设计宪法」给 Agent。",
+        "url": "https://uxdesign.cc/your-ai-agent-can-read-your-codebase-it-doesnt-know-your-product-b5ea0cd77989",
+        "source": "UX Collective",
+        "why": "直接点中 AI 辅助工作流的核心漏洞——Agent 缺设计上下文，不是缺代码。七种知识形态的分类框架实战价值高，做产品的设计师现在就能拿去用。",
+        "type": "article"
+      },
+      {
+        "title": "设计师如何在大公司真正影响产品方向：信息管道框架",
+        "summary": "NNGroup 最新研究聚焦一个在大型产品组织里普遍存在的困境：设计师有能力、有洞察，但影响不了决策。核心障碍往往不是话语权，而是「信息碎片化」——每个团队只看到问题的一个切面，没有人掌握全貌。文章通过一个真实案例引入：一位 Lead Designer 把三个团队的支持工单、历史研究、路线图和数据整合在一起，呈现了一个完整的问题图景，最终让高层主动问她的推荐方案。这就是「设计自主权」——不是一个人拍板，而是掌握足够的信息来可信地影响共同决策。框架的核心是四步「信息管道」：持续收集跨团队信号→合成完整问题视图→提出有约束的解决方案→建立决策信誉。对在微软这类大组织做设计的人来说，这套打法的迁移价值极高。",
+        "url": "https://www.nngroup.com/articles/information-pipeline/",
+        "source": "Nielsen Norman Group",
+        "why": "把「设计师影响力」这个模糊话题转化成可操作的信息流管理策略，有研究支撑，不是鸡汤。大公司设计师的必读。",
+        "type": "article",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/6_Competencies-CC_9Eb8lC8.png"
+      },
+      {
+        "title": "别让 AI 客服闲聊了——用户只想要直接答案",
+        "summary": "NNGroup 基于真实用研（9名不同 AI 熟悉度的用户，测试8个不同网站的 AI 客服）发现：用户对网站 AI 客服的使用模式和搜索框几乎完全相同——尽量少打字，期待能快速扫描的答案，「更长的回答」不等于「更好的回答」。友好的对话式 AI 未必能建立品牌信任，更可能让急于找到答案的用户感到拖沓。设计启示明确：AI 客服的首要目标是「直接、可扫描的答案」，而不是对话感；用渐进展开（可展开的详情）代替一股脑的长回答；不要用多轮确认来替代直接给出结论。这个研究对正在设计任何 AI 问答产品的人来说是具体的反直觉数据——「把 AI 做得更有人情味」这个方向并不总是对的。",
+        "url": "https://www.nngroup.com/articles/less-chat-more-answer/",
+        "source": "Nielsen Norman Group",
+        "why": "研究数据明确，结论反直觉：做 AI 产品时「对话感」是设计陷阱，用户要的是效率不是陪伴。直接可用于指导 AI 产品的信息架构决策。",
+        "type": "article",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Less_Chat-CC.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-17",
     "items": [
       {
