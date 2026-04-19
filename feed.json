@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-19",
+    "items": [
+      {
+        "title": "我们天生是创造者，还是被设计成消费者？",
+        "summary": "这篇文章从神经科学切入，探讨数字消费文化和 AI 工具正在如何蚕食设计师的创造力。作者指出，大脑的默认模式网络（Default Mode Network）在走神、休息、无目的思考时最活跃——正是产生创意联想的温床。而短视频、社交媒体的被动消费压制了这一模式，让大脑忙碌而非真正休息。2024 年研究显示，高频刷短视频的用户执行功能更弱、自控力更差，甚至显示出眶额皮层（与奖赏相关）的灰质增加，越陷越深。设计师处境尤为两难：他们参与构建了这些让人上瘾消费的产品，AI 又在接管生成工作，让他们越来越成为评估者而非创造者。文章核心提醒：好的设计思考往往发生在间隙——洗澡、散步、发呆——当这些间隙被算法填满，创造力就被挤走了。这不是抽象的担忧，是设计师每天正在发生的认知损耗。",
+        "url": "https://uxdesign.cc/are-we-makers-by-nature-or-consumers-by-design-0a63abb301f0",
+        "source": "UX Collective",
+        "why": "直击设计师身份焦虑的核心。AI 时代每天面对 AI 生成稿、做评估和调整，这篇文章为「我还在真正创作吗？」这个隐忧提供了神经科学框架，值得认真读。",
+        "type": "essay"
+      },
+      {
+        "title": "AI 内存战争：全球 RAM 短缺可能持续到 2030 年",
+        "summary": "Nikkei Asia 报道显示，AI 算力暴增正在制造一场内存危机——全球三大内存制造商（三星、SK 海力士、美光）产能全力扩张，到 2027 年底也只能满足约 60% 的需求；SK 集团董事长更直言短缺可能持续到 2030 年。驱动这场危机的是 AI 训练和推理对 HBM（高带宽内存）的海量消耗，而新建晶圆厂从开工到量产至少需要 2-3 年，SK 今年在清州开设的新工厂是三家中唯一一次新增产能。对于设计 AI 产品的团队来说，这意味着算力是真实的、长期的约束——「什么功能可以在用户设备上实时运行」这个产品决策问题，未来几年的答案都会持续受硬件供给制约。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
+        "source": "The Verge",
+        "why": "AI 能力边界不仅是算法问题，也是硬件问题。内存短缺直接决定 on-device AI、实时推理功能的产品可行性时间线，做 AI 产品设计必须了解这层约束。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "OpenAI 砍掉 Sora，团队负责人离职——什么才算 side quest？",
+        "summary": "OpenAI 上月宣布终止 Sora 视频生成项目，随后 Sora 团队负责人 Bill Peebles 宣布离职，产品副总裁 Kevin Weil 也随之离开。这一系列变动背后，OpenAI 正在进行战略聚焦：公司明确表示要避免 side quests，将资源集中在 AGI 核心路径上。Sora 曾被视为 OpenAI 最炫目的 demo 之一，能以假乱真的视频引发全球关注，却最终被判定不是核心任务而被砍掉。这对整个 AI 产品行业是一个强烈的示范信号——当连 OpenAI 都开始主动放弃炫技产品、从 roadmap 里做减法，那些在产品里堆砌 AI 功能的团队应当认真反思：哪些功能是用户真正需要的，哪些不过是自我感动的 side quest？功能的存在感不等于功能的必要性。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+        "source": "The Verge",
+        "why": "OpenAI 的战略收缩是一个反向思考的入口：如果连最炫的 demo 产品都可以被砍，产品设计师在 roadmap 里应该如何判断什么是真正值得做的？",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-18",
     "items": [
       {
