@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-20",
+    "items": [
+      {
+        "title": "AI 时代设计团队的形态正在被重塑",
+        "summary": "Anthropic 设计负责人 Jenny Wen 宣称「设计流程已死」，掀起行业热议。这篇文章从组织层面接棒：当 AI 让一个人能完成整个团队的工作量，问题不在个人效率，而在团队结构和人才管道。作者提出「自主悖论」——AI 赋予了个人极高的自主性，但公司的汇报结构、团队分工方式却没跟上。更隐患的是初级设计师：当他们借助 AI 跳过基础步骤，表面上产出速度加快，实际上正在失去建立判断力的机会。而公司转而只招高级设计师，长期下去，整个行业的「高级设计师」来源会断掉。作者提出双转型模型：让一部分团队跑高速原子创新（AI 加持），另一部分维持稳定的核心能力培养，两者之间用「能力桥接」连通，让突破可以规模化，同时让新人有机会真正成长为下一代高级设计师。如果你在大公司做设计并关心团队建设，这篇文章值得认真读。",
+        "url": "https://uxdesign.cc/rethinking-the-shape-of-design-teams-in-an-ai-world-82f986bf9a27",
+        "source": "UX Collective",
+        "why": "直接击中「AI 时代设计师的职业发展」核心焦虑，且从组织设计角度切入，视角比个人层面的讨论更深。在微软这样的大公司里，团队结构问题比个人技能问题更难解决，值得提前思考。",
+        "type": "深度观点"
+      },
+      {
+        "title": "当 AI Agent 涌入开源社区，维护者们在经历什么",
+        "summary": "2026 年代码 Agent 开始真正好用，transformers 这样的大型开源项目 PR 量直接翻了 10 倍——但维护者数量没有增加。HuggingFace 团队写下这篇思考：Agent 生成的代码通常能跑、覆盖需求，但它不理解 codebase 的隐性契约。比如 transformers 的设计哲学是「model 文件从上到下可读，是人与人之间的沟通媒介」，Agent 看不到这一层，反而会建议「优化重构」，实际上破坏了这种可读性。Agent 还有一个特性：它会顺着任何一个方向走下去，包括那些有经验的维护者会在第一个 comment 就打断的错误方向。团队的应对方案是：把 Agent 定位为「助手」而不是「自动化执行者」，为它配备了专门的 Skill 和测试套件，人类维护者依然是判断者。这篇文章对 AI 产品设计有直接启发：什么情境下「AI as aide」比「AI as automation」更对？协作系统的隐性契约如何被 AI 侵蚀？",
+        "url": "https://huggingface.co/blog/transformers-to-mlx",
+        "source": "Hugging Face Blog",
+        "why": "从工程实践角度给出了一个有力的案例：AI 自动化并不总是正收益，尤其在需要隐性上下文和判断力的场景。对产品设计的启发在于如何界定 AI 介入的边界，以及什么叫「meaningful contribution」。",
+        "type": "技术洞察",
+        "image": "https://huggingface.co/blog/assets/transformers-to-mlx/thumbnail.jpg"
+      },
+      {
+        "title": "Vercel 被黑：攻击入口是一个第三方 AI 工具",
+        "summary": "云端开发平台 Vercel 遭到黑客组织 ShinyHunters 入侵，员工姓名、邮箱、活动时间戳等数据被盗并在网上出售。Vercel 官方确认安全事件确实发生，影响了「有限子集」的用户。关键细节：攻击路径是一个「第三方 AI 工具」的 Google Workspace OAuth 应用被更大范围的攻击波及，导致 Vercel 的访问权限被暴露。Vercel 建议管理员立即检查活动日志、轮换环境变量和 API key。这件事值得关注的不是 Vercel 本身，而是背后的模式：AI 工具正在通过 OAuth 授权深度集成进团队的工作流，每一个授权入口都是潜在攻击面。设计团队现在使用的 Figma 插件、AI 设计工具、工作流自动化——这些工具拿着什么权限？有多少人真的检查过？",
+        "url": "https://www.theverge.com/tech/914723/vercel-hacked",
+        "source": "The Verge",
+        "why": "AI 工具安全风险正在从「理论讨论」变成真实事故。设计师团队使用大量第三方 AI 工具，这次事件是一个很好的契机去审视自己的授权列表。实用性强，且时间点刚好。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/Screenshot-2026-04-19-at-3.53.46PM.png?quality=90&strip=all&crop=0%2C10.355779531361%2C100%2C79.288440937278&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-19",
     "items": [
       {

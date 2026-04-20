@@ -1,13 +1,63 @@
 {
-  "updated": "2026-04-18",
+  "updated": "2026-04-19",
   "trending": [
     {
       "rank": 1,
+      "name": "FinceptTerminal",
+      "owner": "Fincept-Corporation",
+      "source": "github",
+      "installs": "6,086 stars (+1,169 今日，Python 热榜第一，今日新面孔)",
+      "stars": 6612,
+      "desc": "现代金融终端 v4：C++20 原生桌面应用，Qt6 UI，内嵌 Python 分析层。37 个 AI agent（Buffett/Graham/Lynch 等投资框架），100+ 数据连接器，视觉化 Node 编辑器用于自动化 pipeline，MCP tool 集成，实时交易。Python + C++，GPL-3.0",
+      "reason": "今日 GitHub 全榜第一，+1,169。金融终端里藏着一个完整的 Node 编辑器 automation pipeline + MCP tool 集成——「可视化节点 + AI agent」架构设计是 B2B 复杂数据产品的典型参考案例",
+      "usage": "C++20 + Python，下载 Release 二进制，macOS/Windows/Linux 均有发行版；⚠️ 功能完整使用需金融数据 API key（Polygon/Kraken 等，部分免费层），relevant=false；设计师视角：FinceptTerminal 的 Node editor + MCP 集成架构——让非技术用户可视化搭建数据 pipeline——是 B2B 产品「复杂能力 + 零代码入口」设计的极佳参考",
+      "tag": "AI",
+      "category": "AI Finance Terminal",
+      "relevant": false,
+      "language": "Python",
+      "license": "NOASSERTION",
+      "topics": [
+        "bloomberg-terminal",
+        "contributions-welcome",
+        "finance",
+        "financial-markets",
+        "foss"
+      ],
+      "repo_desc": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "homepage": "https://fincept.in",
+      "how_to_install": "<!-- DOWNLOAD-TABLE-START -->",
+      "how_to_use": "",
+      "features": "| **Feature** | **Description** |\n|-------------|-----------------|\n| 📊 **CFA-Level Analytics** | DCF models, portfolio optimization, risk metrics (VaR, Sharpe), derivatives pricing via embedded Python |\n| 🤖 **AI Agents** | 37 agents across Trader/Investor (Buffett, Graham, Lynch, Munger, Klarman, Marks…), Economic, and Geopolitics frameworks; local LLM support; multi-provider (OpenAI, Anthropic, Gemini, Groq, DeepSeek, MiniMax, OpenRouter, Ollama) |\n| 🌐 **100+ Data Connectors** | DBnomics, P..."
+    },
+    {
+      "rank": 2,
+      "name": "arc-kit",
+      "owner": "tractorjuice",
+      "source": "github",
+      "installs": "931 stars (+263 今日，HTML，今日新面孔)",
+      "stars": 1012,
+      "desc": "企业架构治理 & 供应商采购工具包：Claude Code 插件，68 命令，10 个自主研究 agent，5 个 automation hook（session init/context injection/filename enforcement/output validation/impact scan），捆绑 MCP servers（AWS Knowledge/Microsoft Learn/Google Developer Knowledge），Wardley Mapping，Mermaid 架构图生成，HLD/DLD 设计 review 工作流。HTML，MIT 协议",
+      "reason": "今日 GitHub 新面孔 +263。作为 Claude Code 插件直接进入热榜——说明「企业级架构 workflow + AI 自动化」的组合正在被大型组织采纳。68 命令 + 10 agent 是 Claude Code skill 生态里规模最大的企业治理 toolkit 之一",
+      "usage": "Claude Code 插件市场安装：/plugin marketplace add tractorjuice/arc-kit；⚠️ 需要 Claude Code v2.1.112+（依赖付费 Claude API），relevant=false；设计师视角：arc-kit 的「68 命令 + 5 automation hook + 捆绑 MCP」架构——把完整企业治理 workflow AI 化——是「AI 替代繁琐审批流程」的极致实现",
+      "tag": "AI",
+      "category": "Enterprise AI Workflow",
+      "relevant": false,
+      "language": "HTML",
+      "license": "MIT",
+      "topics": [],
+      "repo_desc": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+      "homepage": "https://arckit.org/",
+      "how_to_install": "### Installation\n\n**Claude Code** (premier experience) — install the ArcKit plugin (requires **v2.1.112+**):\n\n```text\n/plugin marketplace add tractorjuice/arc-kit\n```\n\nThen install from the Discover tab. Claude Code is the **primary development platform** for ArcKit and provides the most complete experience: all 68 commands, 10 autonomous research agents, 5 automation hooks (session init, project context injection, filename enforcement, output validation, impact scan), bundled MCP servers (AW...",
+      "how_to_use": "",
+      "features": ""
+    },
+    {
+      "rank": 3,
       "name": "claude-mem",
       "owner": "thedotmack",
       "source": "github",
       "installs": "62,299 stars (+1,024 今日，TypeScript 热榜第一，持续热榜)",
-      "stars": 62490,
+      "stars": 63347,
       "desc": "Claude Code 自动记忆插件：捕获每次 coding session 中 Claude 做的所有事，用 AI 压缩摘要，并在未来 session 中自动注入相关上下文。TypeScript，MIT 协议",
       "reason": "今日 +1,024 占据 TypeScript 热榜第一。连续多日强势，已成 Claude Code 生态最核心的记忆基础设施",
       "usage": "Claude Code plugin，TypeScript；⚠️ 本身不是设计工具，relevant=false；设计师视角：「自动捕获 + 压缩 + 上下文注入」三段式记忆架构，是任何 AI 助手「长期陪伴感」的核心设计模式",
@@ -30,12 +80,12 @@
       "features": ""
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "voicebox",
       "owner": "jamiepine",
       "source": "github",
       "installs": "20,431 stars (+688 今日，TypeScript 热榜，连续多日热榜)",
-      "stars": 20592,
+      "stars": 21223,
       "desc": "开源本地语音合成工作室：免费 ElevenLabs 替代，5 种 TTS 引擎（Qwen3-TTS/LuxTTS/Chatterbox/TADA），23 种语言，声音克隆（几秒样本即可），多轨时间轴编辑器，表情标签 [laugh][sigh][gasp]，无限长度自动切片，REST API。Tauri（Rust）原生，macOS/Windows/Linux/Docker 均可用，LuxTTS 引擎 CPU 可跑",
       "reason": "今日 +688 持续 TypeScript 热榜。本地免费全功能 TTS 工作室——对设计师最直接的价值：demo 视频配音、产品 launch 视频旁白、原型语音交互 demo，全部本地完成，零 API 费用",
       "usage": "macOS 直接下载 DMG，Linux 从源码构建（Tauri + Rust）。LuxTTS 引擎无 GPU 可跑，150x 实时速度；完全免费开源，MIT 协议",
@@ -55,15 +105,15 @@
       "homepage": "https://voicebox.sh",
       "how_to_install": "```bash\ngit clone https://github.com/jamiepine/voicebox.git\ncd voicebox\n\njust setup   # creates Python venv, installs all deps\njust dev     # starts backend + desktop app\n```\n\nInstall [just](https://github.com/casey/just): `brew install just` or `cargo install just`. Run `just --list` to see all commands.\n\n**Prerequisites:** [Bun](https://bun.sh), [Rust](https://rustup.rs), [Python 3.11+](https://python.org), [Tauri Prerequisites](https://v2.tauri.app/start/prerequisites/), and [Xcode](https:...",
       "how_to_use": "",
-      "features": "### Multi-Engine Voice Cloning\n\nFive TTS engines with different strengths, switchable per-generation:\n\n| Engine                      | Languages | Strengths                                                                                                                                |\n| --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |\n| **Qwen3-TTS** (0.6B / 1.7B..."
+      "features": "### Multi-Engine Voice Cloning\n\nSeven TTS engines with different strengths, switchable per-generation:\n\n| Engine                      | Languages | Strengths                                                                                                                                |\n| --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |\n| **Qwen3-TTS** (0.6B / 1.7..."
     },
     {
-      "rank": 3,
+      "rank": 5,
       "name": "GenericAgent",
       "owner": "lsdefine",
       "source": "github",
       "installs": "4,201 stars (+794 今日，Python 热榜，连续热榜)",
-      "stars": 4249,
+      "stars": 4548,
       "desc": "自我进化 agent 框架：从 3.3K 行种子代码出发，通过 9 个原子工具 + 100 行 Agent Loop，获得对本地电脑完整控制权（浏览器/终端/文件系统/键鼠/屏幕视觉/移动设备 ADB）。每解决一个新任务，自动将执行路径结晶为 skill tree。支持 Claude/Gemini/Kimi/MiniMax",
       "reason": "今日 +794，连续热榜加速。国内团队出品自我进化 agent，「任务→skill→复用」的自生长架构是中国 AI agent 生态代表作",
       "usage": "Python + pip install；⚠️ 依赖 LLM API key（付费），relevant=false；设计师视角：GenericAgent 的「任务 → skill 结晶 → 自动复用」进化路径，是 AI 助手个性化成长的极致实现参考",
@@ -86,12 +136,12 @@
       "features": ""
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "magika",
       "owner": "google",
       "source": "github",
       "installs": "15,825 stars (+560 今日，Python 热榜，连续热榜)",
-      "stars": 15880,
+      "stars": 16103,
       "desc": "Google 出品的 AI 文件内容类型检测工具：深度学习模型精准识别 100+ 种文件类型，比传统 magic bytes 方式更快更准。Python，Apache 2.0，完全免费开源",
       "reason": "今日 +560 持续 Python 热榜，Google 官方出品 AI 文件识别工具",
       "usage": "pip install magika，Python CLI + API；⚠️ Python 工具，非直接可安装 OpenClaw skill，relevant=false；设计师视角：可集成进素材整理 workflow，自动区分 PNG/SVG/JPEG/PDF/Sketch 等设计资产",
@@ -114,12 +164,12 @@
       "features": "- Available as a command line tool written in Rust, a Python API, and additional bindings for Rust, JavaScript/TypeScript (with an experimental npm package, which powers our [web demo](https://securityresearch.google/magika/demo/magika-demo/)), and GoLang (WIP).\n- Trained and evaluated on a dataset of ~100M files across [200+ content types](./assets/models/standard_v3_3/README.md).\n- On our test set, Magika achieves ~99% average precision and recall, outperforming existing approaches -- espec..."
     },
     {
-      "rank": 5,
+      "rank": 7,
       "name": "opensre",
       "owner": "Tracer-Cloud",
       "source": "github",
       "installs": "1,670 stars (+520 今日，Python 热榜，连续热榜)",
-      "stars": 1689,
+      "stars": 1812,
       "desc": "Open Source AI SRE Toolkit：构建自己的 AI SRE（Site Reliability Engineering）agent——监控、告警、自动修复，专为 AI 时代的 ops workflow 设计。Python，MIT 协议",
       "reason": "今日 +520，Python 热榜持续加速。「AI SRE agent」是继 AI coding agent 之后的下一个垂直 agent 品类",
       "usage": "Python，DevOps/SRE 工具；⚠️ 运维向，非设计工具，relevant=false；设计师视角：「监控 → 诊断 → 自动修复」三段式 agent 结构，是任何巡检类 AI 工具（设计规范检查/可访问性扫描）的参考架构",
@@ -142,12 +192,12 @@
       "features": "|                                          |                                                                                  |\n| ---------------------------------------- | -------------------------------------------------------------------------------- |\n| 🔍 **Structured incident investigation** | Correlated root-cause analysis across all your signals                           |\n| 📋 **Runbook-aware reasoning**           | OpenSRE reads your runbooks and applies them automatically            ..."
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "thunderbolt",
       "owner": "thunderbird",
       "source": "github",
-      "installs": "1,433 stars (+458 今日，TypeScript 热榜，今日新面孔)",
-      "stars": 1576,
+      "installs": "2,095 stars (+696 今日，TypeScript 热榜，连续第二日热榜)",
+      "stars": 2241,
       "desc": "Mozilla Thunderbird 团队出品的开源自托管 AI 客户端：反 vendor lock-in，可选择任意前沿/本地/私有模型，数据完全自有，跨平台（Web/macOS/Windows/Linux/iOS/Android）。TypeScript，基于 deepset Haystack 构建，Enterprise features 可用。2026-04-16 正式发布",
       "reason": "今日新面孔 +458。Mozilla 入场 AI 客户端市场——「你选模型，你拥有数据」的 sovereign AI 立场，是对 Microsoft Copilot / ChatGPT Enterprise 的正面挑战。Thunderbird 背后的 MZLA 专门融资开发",
       "usage": "TypeScript，自托管服务器部署；⚠️ 企业级 AI 客户端，非设计专用工具，relevant=false；设计师视角：Thunderbolt 的「model-agnostic + self-hosted data」产品定位，代表 2026 年企业 AI 工具的核心关注点——控制权和隐私。设计这类工具时「你控制一切」的 positioning 比「我有最强模型」更有共鸣",
@@ -169,12 +219,12 @@
       "features": ""
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "chrome-devtools-mcp",
       "owner": "ChromeDevTools",
       "source": "github",
       "installs": "36,063 stars (+438 今日，TypeScript 热榜，持续热榜)",
-      "stars": 36085,
+      "stars": 36223,
       "desc": "Chrome DevTools 官方 MCP server：让 AI coding agent 直接控制 Chrome DevTools，支持断点调试、网络请求检查、DOM 查询、Console 执行，Google 官方出品，TypeScript，Apache 2.0",
       "reason": "今日 +438 持续 TypeScript 热榜，36k stars 官方出品",
       "usage": "npm install 或 npx 方式运行；⚠️ 发送遥测数据（Google DevTools 官方），需注意隐私；非设计工具，relevant=false；设计师视角：AI agent 能直接「看」网页的视觉状态并给出样式诊断，是 AI 辅助视觉 QA 的重要基础设施",
@@ -197,12 +247,12 @@
       "features": "- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in\n  Chrome and automatically wait for action results."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "worldmonitor",
       "owner": "koala73",
       "source": "github",
       "installs": "48,913 stars (+289 今日，TypeScript 热榜，持续热榜)",
-      "stars": 48988,
+      "stars": 49331,
       "desc": "实时全球情报仪表盘：AI 驱动的新闻聚合、地缘政治监控、基础设施追踪，统一态势感知界面。TypeScript",
       "reason": "今日 +289，持续 TypeScript 热榜。近 50k stars 的全球情报仪表盘，数据密集型 dashboard 设计的参考案例",
       "usage": "TypeScript，dashboard 应用；⚠️ 信息聚合工具，非设计工具，relevant=false；设计师视角：处理大量实时多源数据的 dashboard UI 如何做到「信息密度高但不让人窒息」，是 B2B 产品设计的经典挑战",
@@ -225,12 +275,12 @@
       "features": "- **435+ curated news feeds** across 15 categories, AI-synthesized into briefs\n- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 45 data layers\n- **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence\n- **Country Intelligence Index** — composite risk scoring across 12 signal categories\n- **Finance radar** — 92 stock exchanges, commodities, crypto, and 7-signal market composite\n- **Local AI** — run everything with Ollama, no A..."
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "craft-agents-oss",
       "owner": "lukilabs",
       "source": "github",
       "installs": "4,371 stars (+175 今日，TypeScript 热榜，持续热榜)",
-      "stars": 4375,
+      "stars": 4401,
       "desc": "Craft Agents OSS：lukilabs 出品的开源 agent 框架——TypeScript，强调 agent 任务的「工艺感」（craft），注重可组合性和可测试性，生产级多 agent 协作支持",
       "reason": "今日 +175 持续 TypeScript 热榜。agent 框架以「工艺」为理念，强调可维护性 vs 快速搭建的权衡",
       "usage": "TypeScript，开发者框架；⚠️ agent 开发框架，非设计工具，relevant=false；设计师视角：「可维护性 vs 快速原型」的 tradeoff 在 agent 产品设计中同样重要",
@@ -247,12 +297,12 @@
       "features": "- **Multi-Session Inbox**: Desktop app with session management, status workflow, and flagging\n- **Claude Code Experience**: Streaming responses, tool visualization, real-time updates\n- **Multiple LLM Connections**: Add multiple AI providers and set per-workspace defaults\n- **Multi-Provider Support**: Run sessions with Google AI Studio, ChatGPT Plus, GitHub Copilot, or OpenAI API keys alongside Anthropic\n- **Craft MCP Integration**: Access to 32+ Craft document tools (blocks, collections, sear..."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "lyra",
       "owner": "nv-tlabs",
       "source": "github",
       "installs": "1,483 stars (+69 今日，Python 热榜，今日新面孔)",
-      "stars": 1492,
+      "stars": 1558,
       "desc": "NVIDIA Project Lyra（ICLR 2026）：开源生成式 3D 世界模型——从单张图片或视频生成可探索的 3D 场景，基于 Video Diffusion Model Self-Distillation，支持 Lyra 1.0 + 2.0，无需真实世界多视角数据。Python，HuggingFace 可下载模型",
       "reason": "今日新面孔 +69，ICLR 2026 顶会论文配套代码正式开源。「单图→完整 3D 空间」的生成能力，对 3D 场景设计/游戏关卡设计/空间原型有长远影响",
       "usage": "Python，NVIDIA 研究代码；⚠️ 需要 GPU 推理（NVIDIA 研究级模型），relevant=false；设计师视角：Lyra 的「image-to-3D world」生成路径——从一张参考图直接得到可探索 3D 空间——预示着空间/环境设计的原型制作方式将被彻底改变",
@@ -275,7 +325,21 @@
       "features": ""
     },
     {
-      "rank": 11,
+      "rank": 13,
+      "name": "assemble",
+      "owner": "assembleone",
+      "source": "producthunt",
+      "installs": "Product Hunt 今日新品，2026-04-19 上线，开源 GitHub",
+      "stars": 0,
+      "desc": "AssembleOne：开源 AI 工作配置生成器——/go 命令、记忆、spec 驱动 workflow，零运行时，支持 21 个平台（Claude/Cursor/Codex/Windsurf/GitHub Copilot 等）。不依赖任何 runtime，纯配置层，MIT 协议，GitHub 开源",
+      "reason": "Product Hunt 今日新品。「/go 命令 + 零运行时 + 21 平台兼容」的设计思路——把 AI agent 工作配置标准化，跨平台共享——是 agent workflow 可移植性的重要探索；同时验证了 OpenClaw SOUL/AGENTS.md 式「宣言配置层」的市场需求",
+      "usage": "GitHub 开源，零运行时，纯配置文件；完全免费，MIT 协议；⚠️ 开发者工具，非设计专用，relevant=false；设计师视角：AssembleOne「spec 声明 → workflow 执行」的配置层思路，与 design token → component spec → AI 生成 UI 有相同的「声明式约束 + AI 执行」架构哲学",
+      "tag": "workflow",
+      "category": "AI Config Generator",
+      "relevant": false
+    },
+    {
+      "rank": 14,
       "name": "md-this-page",
       "owner": "browserext",
       "source": "producthunt",
@@ -289,7 +353,7 @@
       "relevant": false
     },
     {
-      "rank": 12,
+      "rank": 15,
       "name": "craftbot",
       "owner": "craftbot-dev",
       "source": "producthunt",
@@ -303,7 +367,7 @@
       "relevant": false
     },
     {
-      "rank": 13,
+      "rank": 16,
       "name": "firefly-ai-assistant",
       "owner": "adobe",
       "source": "industry-news",
@@ -317,7 +381,7 @@
       "relevant": false
     },
     {
-      "rank": 14,
+      "rank": 17,
       "name": "claude-design-tool",
       "owner": "anthropic",
       "source": "industry-news",
