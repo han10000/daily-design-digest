@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-21",
+    "items": [
+      {
+        "title": "2026 年，产品设计师的「围墙」正在倒塌",
+        "summary": "作者 Kike Peña 从20年行业经验出发，梳理了历史上阻碍设计师影响力的三道「墙」：产品决策对话的封闭性、设计与代码之间的鸿沟、以及业务理解的隔阂。作者认为，AI 带来的 vibe coding 浪潮正在打破最后一道「代码墙」——设计师现在可以直接将设计稿通过 AI 转化为可运行的产品环境，而不再停留在静态原型。随着 product triad 替代了单一产品决策模式，设计师已能在决策链路中占据更主动的位置。文章呼吁设计师抓住这个历史性窗口，主动扩大影响力，从执行者变为决策参与者——「所有阻碍我们处于次要角色的围墙已经倒塌，这正是时候。」语气不是焦虑，而是振臂一呼。",
+        "url": "https://uxdesign.cc/product-design-in-2026-the-beginning-of-a-fantastic-voyage-fb6866c907ac",
+        "source": "UX Collective",
+        "why": "直接回应「AI 时代设计师影响力」这个核心议题，观点有立场、有历史感，不是泛泛而谈",
+        "type": "Article"
+      },
+      {
+        "title": "Session 超时：被设计师长期忽视的无障碍隐患",
+        "summary": "文章揭示了登录态超时这个常被忽视的设计细节，对残障用户造成的实质性伤害。肢体障碍用户因输入速度慢被踢出表单（填了一半的购票流程，被迫重来）；认知障碍或神经多样性用户因需要更多时间阅读和思考，被系统误判为「不活跃」。全球约13亿人有显著残障，约20%的网络用户是神经多样性群体——这不是小众问题。文章提供了具体解决方案：给予充分的超时时间、提供明显的倒计时警告、允许用户自行控制超时设置，并梳理了 WCAG 2.1 的合规要求。对于做交易类、表单类产品的设计师，这是一个值得对照自己产品进行反思的好机会。",
+        "url": "https://smashingmagazine.com/2026/04/session-timeouts-accessibility-barrier-authentication-design/",
+        "source": "Smashing Magazine",
+        "why": "具体可执行的 UX 知识盲区，不是大道理，是真实的用户伤害案例 + 修复方案",
+        "type": "Article",
+        "image": "https://files.smashing.media/articles/session-timeouts-accessibility-barrier-authentication-design/session-timeouts-accessibility-barrier-authentication-design.jpg"
+      },
+      {
+        "title": "硅谷总是忘记普通人要什么",
+        "summary": "The Verge 记者 Elizabeth Lopatto 以一次和科技圈熟人的尬聊开篇：对方沉迷于一个关于 LLM 理解语言的「重大发现」，而这对外行来说早已显而易见。文章延续了她的一个长期观察：从 NFT、元宇宙到如今的 AI，硅谷一次又一次陷入自嗨循环——工程师为工程师构建，投资人为投资人鼓吹，而普通人根本不在乎。作者认为 AI 正在重蹈元宇宙的覆辙：技术本身也许有价值，但被包装成「改变一切」的方式让普通用户望而却步。对产品设计师的直接启发：你的用户不是你，不是你的朋友圈，而是那些打开 App 只想完成一件具体小事的人。这个提醒在任何时代都不过时，但 2026 年的 AI 浪潮下尤其需要。",
+        "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+        "source": "The Verge",
+        "why": "锋利的行业批评，帮设计师保持清醒——别只给圈内人做产品",
+        "type": "Analysis",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268457_HUBRIS_CVIRGINIA.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-20",
     "items": [
       {
