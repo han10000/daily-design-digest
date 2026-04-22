@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-22",
+    "items": [
+      {
+        "title": "不在场的设计师，怎样让决策朝你期望的方向走？",
+        "summary": "设计总监说了一句扎心的话：「设计师做了很好的工作，但不知道怎么沟通。拿着一堆 Figma 页面来，我都不知道从哪里看起，更别提拿给 VP 看了。」作者 Kai Wong 提出了一个简单但有力的三段式标注框架：Decision（为什么做这个决定）、Hypothesis（预期会发生什么）、Outcome（衡量成功的指标）。AI 加速了界面迭代速度，视觉本身越来越难以「自证」，现在的 before/after 已经不够清晰到能让决策者一眼看懂了。设计师需要给每一个关键决策加上这层元信息，才能在不在场时依然影响决策走向。能写清楚 Annotation 的设计师，往往也是最早获得决策权、最能向上汇报的那批人。这个框架在大公司 design review 和向 VP 汇报的场景里直接可以落地。",
+        "url": "https://uxdesign.cc/how-design-leaders-influence-decisions-without-being-in-the-room-4f52fbffabba",
+        "source": "UX Collective",
+        "why": "在微软这样的大公司，设计师经常面对「你不在的会议里方案被改了」的困境。这个三段式 Annotation 框架轻量、即插即用，尤其适合 Figma 文档里的设计说明场景。",
+        "type": "设计职业发展"
+      },
+      {
+        "title": "SpaceX 想用 600 亿美元买下 Cursor，AI 编码工具大战全面升级",
+        "summary": "SpaceX 宣布与 AI 编码工具 Cursor 达成协议：年内可选择以 600 亿美元收购，或支付 100 亿美元「合作费」。Cursor 此前估值 $500 亿、刚完成 $20 亿融资。与此同时，谷歌 Sergey Brin 组建「突击队」追赶 Anthropic 编码 Agent，OpenAI 去年喊出「code red」后关掉 Sora 专攻 Codex。三大势力同时加注 AI 编码工具，信号很清晰：谁掌控开发者工作流，谁就掌控下一个 AI 平台入口。Cursor 被 xAI 收购意味着它可能绑进 Musk 生态系统，工具的中立性和数据隐私都会打问号。对设计师来说，这场争夺直接影响工程师团队用哪个工具，进而影响 design-to-dev 的整条协作链路。",
+        "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+        "source": "The Verge",
+        "why": "AI 编码工具的整合方向决定未来 design-to-dev 工作流的形态。了解这场格局变化，才能更好地做工具选型判断和团队协作规划——尤其是现在很多团队都在重度使用 Cursor。",
+        "type": "AI × 工具生态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200"
+      },
+      {
+        "title": "企业 AI 落地为什么总翻车？一个实战派的深度复盘",
+        "summary": "作者在企业 AI 实施领域深耕多年，见证了大量「AI 剧场」——看起来在用 AI，实际没有任何真实价值产出。文章梳理了企业 AI 实施最常见的风险：需求模糊导致功能堆砌；数据质量差导致模型输出不可信；组织变革阻力被低估；以及最根本的——没有人认真思考「这个 AI 功能解决了谁的什么问题」。文章提出几个关键防火墙：在早期 sprint 就引入用户研究；建立 AI 功能的「信任预算」概念（用户对 AI 犯错的容忍度是有限的，用完就很难找回来）；以及设计团队主动成为 AI 实施的质量把关角色，而不是等工程团队搭好了再来做「UI 贴皮」。对在大公司推进 AI 功能的设计师来说，这是一本实用手册。",
+        "url": "https://uxdesign.cc/how-to-mitigate-the-risk-of-ai-implementation-in-enterprise-environments-74d3bd7f9e65",
+        "source": "UX Collective",
+        "why": "微软大量产品在整合 Copilot 和 AI 功能，这篇文章提供的「信任预算」框架和早期介入策略直接可以用在项目里，帮助设计师从执行者变成 AI 实施的质量守门员。",
+        "type": "AI × 产品设计"
+      }
+    ]
+  },
+  {
     "date": "2026-04-21",
     "items": [
       {
