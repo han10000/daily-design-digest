@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-23",
+    "items": [
+      {
+        "title": "当「可生产代码」成为设计交付物：UX 设计师的职业噩梦",
+        "summary": "作者 Carrie Webster 观察到，2026 年 UX 设计师的职位描述几乎一夜之间发生了根本性变化——不再只需要共情能力和信息架构设计，还需要用 AI 生成「可生产级」的代码原型并直接推送至代码库。这种「设计师即工程师」的模型正通过招聘市场的压力被强制推行，而非来自设计社区的共识。调查显示 73% 的设计师已将 AI 视为首要协作者而非辅助工具，但这种「协作」往往是单方面的角色蔓延。文章探讨了设计师在这场变革中能保留什么——那些 AI 无法替代的、以用户为中心的判断力，以及设计师作为「用户体验守护者」的核心价值应该如何在 role creep 的压力下坚守。",
+        "url": "https://smashingmagazine.com/2026/04/production-ready-becomes-design-deliverable-ux/",
+        "source": "Smashing Magazine",
+        "why": "直击 2026 年设计师最焦虑的职业变化——AI 驱动的 role creep 正在把 UX 设计师推向「设计工程师」角色。不是以后的事，是现在正在发生的事。",
+        "type": "insight",
+        "image": "https://files.smashing.media/articles/ux-designer-nightmare-production-ready-becomes-design-deliverable/production-ready-becomes-design-deliverable-ux.jpg"
+      },
+      {
+        "title": "OpenAI 推出 Workspace Agents：企业 ChatGPT 现可自主完成业务任务",
+        "summary": "OpenAI 面向 Business、Enterprise、Edu 和教师计划用户正式开放基于云端的 Workspace Agents 功能。这些 agent 能够在无需实时人工监督的情况下自主执行业务任务，例如：在网上抓取产品反馈并自动生成 Slack 汇报的 agent、自动推进销售跟进流程的 agent 等。与以往需要用户主动触发的 ChatGPT 不同，Workspace Agents 可以在后台主动运行。这对 Product Designer 有直接影响：企业工作流中将出现越来越多「无人驾驶」的 AI 节点，如何设计让人信任且可监控的 agent 交互界面、如何处理 agent 错误时的归因与反馈，将成为 2026 年最重要的 agentic UX 课题之一。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
+        "source": "The Verge",
+        "why": "Agentic UX 正在从概念变成产品现实。理解企业级 agent 的能力边界和工作模式，是设计 AI 产品的必要前提。",
+        "type": "tool",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_B.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+      },
+      {
+        "title": "即兴喜剧告诉我们：为什么创新总会「跑偏」",
+        "summary": "作者 Ian Batterbee 用即兴表演的框架解析产品创新中一个常见却难以言说的问题：当组织内不同人各自做出「合理的适应」，整体却开始失去协调——就像即兴喜剧里每个演员都在认真表演，但节奏和方向完全跑偏。这种「失同步」并不是因为能力不足，而是缺乏让适应保持对齐的机制。文章指出，创新的真正挑战不在于让单个团队跑得更快，而在于维持整个用户旅程的节奏一致性。这与 service design 的核心命题高度契合，也直接影响到设计师在跨职能协作中如何定义自己的系统性角色——不只是交付界面，而是维持各环节适应行为的「协奏」。",
+        "url": "https://uxdesign.cc/what-improv-taught-me-about-why-innovation-falls-out-of-sync-1e3961fa2083",
+        "source": "UX Collective",
+        "why": "用即兴喜剧类比团队协调失败，视角新鲜且直指真实痛点：多团队并行时用户旅程「错位」的根源不是个人问题，是系统性失同步。",
+        "type": "insight"
+      }
+    ]
+  },
+  {
     "date": "2026-04-22",
     "items": [
       {
