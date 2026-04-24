@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-24",
+    "items": [
+      {
+        "title": "用 AI 辅助设计，但不让 AI 替你思考",
+        "summary": "一位设计师发现自己越来越依赖 AI——光速生成高保真稿，不再花时间在草图阶段消化问题。他开始担心批判性思维正在被外包给 LLM。于是他自己构建了一个实时 AI 协作者 Thia，具备视觉和语音能力，能在白板草图阶段陪他进行苏格拉底式对话——但设计原则是绝不说好主意，而是不断质疑和追问。文章核心洞察：当做意面变得廉价，往墙上扔意面看哪根粘就成了默认开发方法论，这恰恰是设计质量退化的起点。BBC 研究也指出 AI 正让人们丧失批判性思维，但讽刺的是，这正是 AI 浪潮之后最稀缺的能力。作者认为早期草图和白板构思是设计过程中最需要保持人类主导的环节，不是因为 AI 做不到，而是因为这个阶段的慢本身就是价值。",
+        "url": "https://uxdesign.cc/designing-with-ai-without-losing-your-mind-0cfba48f6309",
+        "source": "UX Collective",
+        "why": "直接戳中当前最热的设计焦虑——AI 加速与批判性思维退化之间的张力。作者不只是焦虑，还建了工具来对抗这种趋势，视角罕见且有实操价值。",
+        "type": "essay"
+      },
+      {
+        "title": "Claude 开始直接接管你的个人 App：Spotify、Uber、TurboTax 全来了",
+        "summary": "Anthropic 宣布 Claude 新增 Personal Connectors，将 AI 助手的能力从工作场景（微软套件）扩展到个人生活层面：Audible、Spotify、Uber、AllTrails、TripAdvisor、Instacart、TurboTax 等应用全面接入。接入后 Claude 会在对话中根据语境主动推荐相关 App——例如聊到爬山时 Claude 会自动建议使用 AllTrails。ChatGPT 此前已有类似的 Spotify/Zillow 插件，现在两者在个人 AI 生活助手赛道上正面竞争。对产品设计师而言，真正值得思考的不是功能本身，而是这种 AI 作为 App 入口的新交互范式——用户发现和使用 App 的路径正在从图标点击变成 AI 对话中的一句推荐。这直接改变了 App 的分发逻辑，也意味着 onboarding 设计需要考虑从 AI 跳转进来的用户这一全新场景。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
+        "source": "The Verge",
+        "why": "AI 与 App 集成进入新阶段，直接影响产品设计师对用户如何发现和进入 App 的底层假设——你的 App 未来的入口可能不是图标，而是 AI 对话里的一条建议。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/anthropic-claude-personal-apps.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "Meta 裁员 10%：8000 人走，AI 投入不减反增",
+        "summary": "Meta 宣布将在 5 月裁撤约 10% 员工，涉及约 8000 人，同时关闭约 6000 个在招岗位。这一消息来自公司首席人事官 Janelle Gale 发给员工的内部备忘录。背景是 Meta 正同步大举押注 AI——2026 年资本开支预算高达 1150 至 1350 亿美元，远超 2025 年的 722 亿。扎克伯格将这一轮裁员定性为效率优先。这波裁员的行业信号意义：即便最激进的 AI 押注者也在同步收缩人力成本。AI 会创造更多岗位的叙事正在被现实数据质疑。对在大厂做产品设计的人来说，这是一个需要纳入职业判断的现实坐标：AI 投资是真实的，但它带来的首先是组织重组，而非扩招。",
+        "url": "https://www.theverge.com/tech/917690/meta-is-laying-off-10-percent-of-its-staff",
+        "source": "The Verge",
+        "why": "行业现实感知——与大厂设计师职业处境直接相关的组织变化信号，帮助建立对当前科技行业 AI 投资加人力收缩并行模式的清醒认知。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-2235448475.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-23",
     "items": [
       {
