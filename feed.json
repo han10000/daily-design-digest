@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-25",
+    "items": [
+      {
+        "title": "AI 产品设计的「规则书」：三大科技公司的 Human-AI Interaction 框架横评",
+        "summary": "微软、谷歌、IBM 三家公司分别发布了面向设计师的 Human-AI Interaction（HAI）规范框架，这篇文章把它们放在一起横向比较，拆解各自的思路和侧重点。微软的 HAX Toolkit 最系统：18条 HAI 设计准则，配套可按场景过滤的设计模式库（支持按产品类别、AI 类型、设计目标筛选），把原则真正落到可操作层面。谷歌 PAIR Guidebook 则聚焦提问方式，结构化为六个主题（用户需求、心智模型、反馈控制、可解释性等）。其中最有价值的概念是「appropriate reliance」——设计目标不是让用户信任 AI，而是让用户对 AI 能力建立准确的感知：什么时候该信，什么时候该质疑。高风险场景（医疗、法律决策）的 AI 体验如果用跟音乐推荐一样的置信度呈现结果，不只是设计问题，而是安全问题。这种校准本质上是一个设计决策，不是工程决策。",
+        "url": "https://uxdesign.cc/the-rulebook-for-designing-ai-experiences-a22a50bb063c",
+        "source": "UX Collective",
+        "why": "叉叉在微软做设计，这篇文章直接横评了微软自家的 HAX Toolkit 和竞品框架，是极其稀有的 principle-to-practice 拆解。AI 产品体验设计是当前最核心的方向，而「适当信任」这个概念值得在下次 design review 里用上。",
+        "type": "design_insight"
+      },
+      {
+        "title": "NNGroup 实测：10 条让 AI 聊天机器人真正有用的设计准则",
+        "summary": "NNGroup 研究团队实际观察了真实用户与多个网站 AI chatbot 的交互过程，发现细小的设计决策对用户是否愿意持续使用有决定性影响。10条准则涵盖：不要让多个聊天入口并存（用户搞不清楚该问哪个）；chatbot 应该跨页面跟随用户而不是消失；开场白要清楚说明自己能做什么；建议问题用按钮而非纯文本；回复中要包含图片而不只是链接；用渐进式披露控制对话长度；不要自动滚动到回复末尾（会打断用户的阅读节奏）；允许用户调整窗口大小；支持保存或分享对话内容；考虑提供语音输入。每一条都来自真实观察，不是拍脑袋的最佳实践。Home Depot 的反面案例尤其典型——两个 chatbot 并存、名字相近、可用页面范围不同，导致用户无所适从。",
+        "url": "https://www.nngroup.com/articles/ai-chatbots-design-guidelines/",
+        "source": "Nielsen Norman Group",
+        "why": "研究级别的实操准则，直接可以用在 AI chatbot 的设计评审或功能规划中。NNGroup 的用户研究背书 > 任何「业内经验」，每一条都有具体的观察案例支撑。",
+        "type": "ux_research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/10_Guidelines-Cards.png"
+      },
+      {
+        "title": "DeepSeek-V4：真正能用于 Agent 任务的百万 Token 上下文模型",
+        "summary": "DeepSeek 发布 V4，包含两个 MoE 检查点：Pro 版（1.6T 总参数、49B 激活）和 Flash 版（284B 总参数、13B 激活），两者都支持 100 万 token 上下文窗口。benchmark 数字中规中矩，但真正的创新在架构层面——它专门针对长上下文推理的效率问题做了重新设计。相比 V3.2，V4-Pro 在单 token 推理算力上只需要 27% 的 FLOPs，KV cache 内存占用降至 10%；V4-Flash 更激进，FLOPs 降至 10%、KV cache 降至 7%。对于 agent 任务（比如跑完整个 SWE-bench 任务、多步骤浏览 session、带几百条命令的终端会话），这意味着长上下文不再是瓶颈。核心机制是 CSA（压缩稀疏注意力）和 HCA（混合上下文注意力）的交替组合，把 KV cache 的搜索空间压缩到原来的 2%。这是开源 Agent 基础设施的重要突破节点。",
+        "url": "https://huggingface.co/blog/deepseekv4",
+        "source": "Hugging Face Blog",
+        "why": "AI agent 能力边界在这一刻发生了变化——百万 token 上下文开始真正可用，而不只是理论上的数字。这直接影响可以设计什么样的 agent 产品体验：哪些交互模式现在成立了，哪些假设需要更新。Product Designer 应该知道地基在哪里移动。",
+        "type": "ai_frontier",
+        "image": "https://huggingface.co/blog/assets/deepseekv4/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-24",
     "items": [
       {
