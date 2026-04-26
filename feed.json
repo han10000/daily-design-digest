@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-04-26",
+    "items": [
+      {
+        "title": "用户调研面板为何会失效：三个可预测的崩坏模式",
+        "summary": "持续维护的用户调研面板本来是节省招募成本、提高研究效率的利器，但 NNGroup 的最新研究揭示了它以三种可预测方式悄悄失效的过程。第一是「静态数据库问题」：成员的使用行为、生活状况随时间变化，面板若不持续刷新就会逐渐失去代表性；第二是「专家偏见污染」：频繁参与研究的成员会形成经验用户偏差，他们的反馈越来越不像真实用户；第三是「便捷性陷阱」：团队倾向于反复邀请最活跃的成员，导致样本同质化。文章给出了具体预防建议：设置参与频率上限、定期引入新成员、建立面板健康度监测机制。对任何依赖固定研究面板的设计团队来说，「便捷」本身就是潜在的偏差来源——研究方法的严谨性需要持续维护，而不是一次建立就永久有效。",
+        "url": "https://www.nngroup.com/articles/user-panels-fail/",
+        "source": "Nielsen Norman Group",
+        "why": "如果你的团队有固定的用研面板或常规的用户测试对象，这篇文章是一记警钟。「最好招募」的人往往是「最不典型」的用户，这个悖论很多团队意识到太晚。",
+        "type": "research-methodology",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Why_User_Panels_Fail-CC.png"
+      },
+      {
+        "title": "本地跑 AI，数据不出设备：Transformers.js Chrome 扩展完整架构拆解",
+        "summary": "HuggingFace 以他们实际发布的 Gemma 4 Browser Assistant Chrome 扩展为案例，详解了在 Manifest V3 约束下将 AI 模型完全本地运行的架构设计。核心决策是把模型推理放在 background service worker，让 UI（侧边栏）和内容脚本保持轻量，通过消息传递协调各部分。这种架构的关键意义在于：AI 推理完全在用户设备上运行，无需调用任何服务器，用户数据永远不会离开本地。对产品设计师来说，这打开了一类全新的产品形态——「零服务器成本 + 完全隐私保护」的 AI 功能。页面内容分析、敏感文本处理、离线使用场景，都可以用这种方式实现。这与传统的 AI API 调用范式有根本性差异，产品的定位方式、用户信任的建立方式，以及隐私敏感行业（企业、医疗、法律）的应用可能性都完全不同。文章附有完整开源代码，可以直接拿来参考。",
+        "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+        "source": "Hugging Face Blog",
+        "why": "「On-device AI」经常被提但很少落地到具体架构。这篇给了最清晰的工程路径，更重要的是帮产品设计师看到一个被低估的竞争差异点：当你能说「你的数据永远不上传」，这在某些场景是比模型能力更强的产品卖点。",
+        "type": "ai-product",
+        "image": "https://huggingface.co/blog/assets/transformersjs-chrome-extension/thumbnail.jpg"
+      },
+      {
+        "title": "从谷歌员工抗议到1000次精确打击：Project Maven 如何让军队爱上 AI",
+        "summary": "基于记者 Katrina Manson 的新书 Project Maven，The Verge 的深度报道追溯了美国军方从 2017 年开始的 AI 采用弧线。Project Maven 最初是将计算机视觉应用于无人机录像分析的实验，却意外触发了谷歌员工大规模抗议并迫使谷歌退出合同。然而这并未终止项目——它演化成 Maven Smart System，在近期军事行动中24小时内完成超过1000次精确打击，效率是上一代行动的两倍。这个故事最值得设计师关注的不是军事技术本身，而是「组织如何从恐惧到全面依赖 AI」的完整路径：最初的强烈抵制、原型验证阶段、逐步接受、直到 AI 深度嵌入决策基础设施。这条路径在很多企业 AI 产品推广中也在上演。同时，它也逼出设计师无法回避的问题：当 AI 系统被集成进关键决策流程，transparency 和 appropriate reliance 在实践中意味着什么？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
+        "source": "The Verge",
+        "why": "你在企业内部推 AI 功能时遭遇的组织阻力，和 Maven 早期面对的阻力在结构上高度相似。这个极端版本的案例给了一个清晰的「AI 产品被采用」路径模板，以及一个关于 AI 透明度设计的极端压力测试场景。",
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268484_How_the_US_embraced_AI_warfare_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-25",
     "items": [
       {
