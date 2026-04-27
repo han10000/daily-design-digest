@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-27",
+    "items": [
+      {
+        "title": "从「翻译者」到「指挥家」：一名设计师的 AI 原生工作流实录",
+        "summary": "这篇文章来自一位有七年经验的产品设计师，记录了他如何在 2024 年彻底重构自己的工作方式。他的核心工具变成了 Claude Code、Figma Make 和 LLM，不再交付静态 Figma 原型，而是直接生成可运行的 working demo。文章提出了一个关键框架 3C（Context、Components、Criteria）：让 AI 代码输出真正有质量的前提，是你能把自己的 tacit knowledge（隐性知识）清晰地传递给它——包括项目背景、你接入的设计系统组件，以及明确的「不要做什么」（negative constraints 往往比正向指令更有效）。他还分享了实战细节：让 AI 跑完生成后做一次自审，检查有没有默认蓝紫色、有没有用 Arial——即「自查有没有 AI slop」。这种从「交付文件」到「指挥 AI 执行」的转变，不是技能贬值，而是七年经验终于找到了新的落点。对正在探索 AI 设计工作流的设计师来说，这篇文章有很强的参考价值。",
+        "url": "https://uxdesign.cc/becoming-an-ai-native-designer-828365b71109",
+        "source": "UX Collective",
+        "why": "第一视角的 AI 原生设计工作流实录，涉及 Claude Code、Figma Make 的真实使用方式，3C 框架直接可以拿来用。叉叉在做 AI 产品设计，这篇非常对口。",
+        "type": "design-workflow"
+      },
+      {
+        "title": "Musk 对 Altman 的诉讼今天开庭：OpenAI 这场戏要乱了",
+        "summary": "Elon Musk 起诉 OpenAI 欺诈的案件，于 2026 年 4 月 27 日（也就是今天）在加州奥克兰正式开庭。这场诉讼表面上是关于 OpenAI 是否背叛了公益使命、是否欺骗了 Musk，本质上是两个 AI 行业大佬争夺叙事权和市场话语权的公开对决——Altman 和 Musk 都将亲自出庭作证。过去两年，Musk 的诉讼理由从违约、不正当竞争换到了虚假广告，始终没有找到一个站得住脚的核心主张，但这场诉讼依然是 AI 行业最受关注的事件之一。对产品设计师来说，OpenAI 的方向直接影响 GPT 系列产品的走向，以及整个 AI 生态的权力结构——这场庭审的结果，值得持续关注。The Verge 的这篇分析把两人的恩怨和法律细节都梳理得非常清楚。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
+        "source": "The Verge",
+        "why": "诉讼今天开庭，时效性极强。OpenAI 的走向影响所有在用 GPT 系产品的设计师，了解这场纠纷的来龙去脉有必要。",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "DeepSeek V4 为什么重要：MIT 技术评论的三个理由",
+        "summary": "MIT Technology Review 从开发者视角分析了 DeepSeek V4 的实际意义。V4 有两个版本：V4-Pro 针对复杂代码和 agent 任务，V4-Flash 更快更便宜。最亮眼的数字：V4-Pro API 定价仅 $1.74/百万 input tokens，是 OpenAI/Anthropic 同级模型的极小分之一；V4-Flash 更低至 $0.14——意味着在 AI 产品中大规模调用模型的成本门槛大幅降低。两个版本都支持 100 万 token 的上下文窗口。V4 还专门针对 Claude Code、OpenClaw 等 agent 框架做了优化。MIT Tech Review 重点指出的三个意义是：1）它是当前最强的开源可用模型，让开发者摆脱对闭源 API 的依赖；2）1M token 长上下文让复杂 agentic 任务真正可行；3）价格压缩加速了 AI 能力的全球普及。对在设计 AI 产品或关注工具成本结构的设计师来说，这篇分析比参数对比更有决策价值。",
+        "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+        "source": "MIT Technology Review",
+        "why": "比 HuggingFace 的技术博客更有决策视角，分析了 DeepSeek V4 对整个 AI 生态的影响，包括成本结构和 agent 支持——影响到做 AI 产品的设计判断。",
+        "type": "ai-tools",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/260424_deepseek.jpg?resize=1200,600"
+      }
+    ]
+  },
+  {
     "date": "2026-04-26",
     "items": [
       {
