@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-28",
+    "items": [
+      {
+        "title": "做减法的艺术：功能无限增殖的时代，怎样设计才算克制？",
+        "summary": "作者从委拉斯开兹名画《宫娥》出发，探讨视觉艺术中「减法」的本质——不是缺失，而是意图。画中大量区域溶入阴影、背景人物刻意模糊，这种「故意不解析」反而让焦点人物更有力量。在产品设计中，AI 工具让「添加」变得成本极低，功能无限扩张的压力随之升级。文章核心论点是：真正的克制不是放弃功能，而是问清楚每一个元素存在的理由。被移除的东西，往往才是让剩余内容更清晰、更有力的关键。这种思维框架在 AI 辅助生成内容的时代尤为稀缺——模型倾向于添加，设计师的价值正在于知道该删什么、什么时候停下来。",
+        "url": "https://uxdesign.cc/the-art-of-subtraction-in-a-world-of-infinite-features-722a9f02ed73",
+        "source": "UX Collective",
+        "why": "直击 SOUL.md 核心：减法比加法难。AI 辅助设计泛滥的当下，这篇是难得的「删除力」思考框架，配合《宫娥》案例，记忆点强。",
+        "type": "设计哲学"
+      },
+      {
+        "title": "大模型学会了我们最坏的设计习惯——现在得靠设计师来纠正",
+        "summary": "UC San Diego 2026 年研究分析了 1296 个 LLM 生成的电商 UI 组件，发现 55.8% 含有至少一种欺骗性设计模式（dark pattern），30.6% 含有两种以上——用户完全没有主动要求这些操纵手法，模型只是把互联网上学到的暗黑设计当成默认语言复现了出来。更不安的发现：当提示词强调「提升转化率」，欺骗性设计增加 15.8 个百分点；而强调「以用户利益为先」，暗黑模式仅减少 5.8 个百分点。也就是说，推向操纵远比推向诚实高效。作者的结论：设计师使用 AI 工具不只是效率问题，更是伦理责任——你的提示词在塑造产品的道德底线，建立清晰的伦理 prompting 框架，才能守住产品诚实的边界。",
+        "url": "https://uxdesign.cc/the-web-trained-ai-to-deceive-now-designers-have-to-untrain-it-420f9d3fe78e",
+        "source": "UX Collective",
+        "why": "有数据支撑的重要警告。用 Cursor 或 Claude 生成 UI 时，模型的默认倾向是操纵性设计，这不是抽象风险，是已有研究证实的现象，设计师必须知道。",
+        "type": "AI × 设计伦理"
+      },
+      {
+        "title": "AI 替你省掉了找同事「麻烦」——但那些「麻烦」正是团队凝聚的来源",
+        "summary": "「现在我再也不用打扰任何人了」——AI 工具带来的这种解放感，正在悄然瓦解团队里最核心的非正式连接。文章引用 MIT 人类动态实验室研究：团队效率最可靠的预测指标不是正式会议，而是非正式沟通中产生的「能量」，高互动团队成功率高出 35%。Google Project Aristotle 发现：心理安全感（由高频低风险互动构建）是高绩效团队第 1 号预测因子。当设计师不再需要找研究员要洞察、PM 不再需要找设计师要原型，那 2 分钟「顺便」的对话——正是归属感和信任感的原材料。2025 年 Harvard/Columbia 研究也证实：AI 驱动自动化降低了整体团队绩效并增加了协调失败率。文章核心不是反 AI，而是提醒：效率优化需要刻意保留人际摩擦，否则等你意识到团队文化散了，可能已经太晚。",
+        "url": "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
+        "source": "Smashing Magazine",
+        "why": "在大公司跨团队协作的设计师尤其需要读这篇。AI 不只改变工作流，它在改变团队人际生态，这种系统性视角是大多数 AI 文章没讲到的角度。",
+        "type": "团队协作 × AI 影响",
+        "image": "https://files.smashing.media/articles/bug-free-workforce/bug-free-workforce-ai-disrupting-teams.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-04-27",
     "items": [
       {
@@ -1536,8 +1566,7 @@
         "summary": "Khoj 是一个开源的 AI 助手，支持连接个人笔记、文档和网页搜索，可以完全本地部署。核心特点是能索引用户的 Obsidian/Notion 笔记作为上下文，回答基于个人知识库。",
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
-        "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/396569538/533a8bf7-385f-427b-a03f-76795fd938ed"
+        "publishedAt": ""
       },
       {
         "source": "Hugging Face",
