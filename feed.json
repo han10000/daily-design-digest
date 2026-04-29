@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-29",
+    "items": [
+      {
+        "title": "AI 真正在消耗地球多少代价？",
+        "summary": "这篇文章用翔实的数据揭示了 AI 背后不可见的环境账单。2023 年数据中心已消耗美国 4.4% 的电力，预计到 2028 年翻三倍；仅训练 GPT-3 一次就产生约 552 吨碳排放；一次 ChatGPT 文字搜索消耗的电量是 Google 搜索的近 10 倍。更被忽视的是水资源：2025 年 AI 系统的耗水量预计等于全球一年瓶装水消耗量，而很多数据中心偏偏建在淡水匮乏的地区。文章还指出，大量讨论止步于能耗，几乎没人关注硬件制造本身的碳代价。对设计师而言，这不只是环保议题——每次你在产品里加 AI 功能、给用户提供「无限生成」的入口，背后都在做一笔隐形的环境预算。了解这个数字，是负责任设计的基本盘。",
+        "url": "https://uxdesign.cc/what-is-ai-really-costing-the-planet-ec14be648d65",
+        "source": "UX Collective",
+        "why": "设计师每天在做「要不要加 AI 功能」的决策，这篇提供了最被忽视的成本维度——环境代价。数据具体、角度独特，是做 AI 产品设计时的思维校准器。",
+        "type": "深度观点"
+      },
+      {
+        "title": "AI 盈利公式的缺失一步：从炒作到落地，中间的问号在哪里",
+        "summary": "MIT Technology Review 用南公园里「偷内裤小地精」的经典梗，精准戳穿了当下 AI 行业的现状：第一步建好技术，第三步许诺改变世界，但第二步 ??? 依然是大问号。文章引用多项研究：Anthropic 预测 LLM 对工作岗位的影响，但这些预测建立在「AI 擅长的任务类型」而非「AI 在真实工作中的表现」上。另一项研究测试了 480 个银行、咨询、法律类工作任务，所有 AI agent 都失败了大多数。核心洞察是：AI 不是被丢进无菌室，它必须工作在「被人和既有流程污染」的真实环境里。产品人的启发：不要把「技术能做什么」等同于「产品该承诺什么」，用户看到的 Step 1 和 Step 3 之间，设计师需要亲手填上 Step 2。",
+        "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+        "source": "MIT Technology Review",
+        "why": "当前每个做 AI 产品的人都在经历「技术承诺 vs 现实落地」的撕裂感，这篇文章把这个撕裂感说清楚了，而且给出了有效的思维框架——不是反 AI，是帮你看清 Phase 2 的真实难度。",
+        "type": "产品思考",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/gnome-steps2a.jpg?resize=1200,600"
+      },
+      {
+        "title": "NVIDIA Nemotron 3 Nano Omni：能读文档、听声音、看视频的多模态 AI Agent 来了",
+        "summary": "NVIDIA 发布了 Nemotron 3 Nano Omni，这是一个真正意义上的「全感官」AI 模型——同时处理文字、图片、文档、音频和视频，专为 Agent 工作流设计。核心亮点包括：文档理解在 MMLongBench-Doc 上得分 57.5（同类最高），GUI 操控在 OSWorld 基准上达到 47.4（远超此前版本的 11.0），视频+音频理解在多个榜单排名第一，且推理速度是竞品的 2.9 倍、吞吐量高 9 倍。架构上融合了 Mamba-Transformer MoE 骨干 + 专业视觉编码器 + Parakeet 音频编码器。对产品设计师的意义：你接下来设计的 AI 产品，底层 agent 可能真的能「看到你的屏幕、听到你的声音、读完你的文件」再行动——这不是未来，现在就是能力基线了。设计时要开始假设 AI 拥有完整的多模态感知能力。",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+        "source": "Hugging Face Blog",
+        "why": "多模态 Agent 是 2026 年 AI 产品设计的核心基础设施变量。这个模型的能力边界直接影响你能设计出什么样的交互——了解技术边界，才能做有想象力的产品决策。",
+        "type": "技术前沿",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-28",
     "items": [
       {
@@ -1566,7 +1597,8 @@
         "summary": "Khoj 是一个开源的 AI 助手，支持连接个人笔记、文档和网页搜索，可以完全本地部署。核心特点是能索引用户的 Obsidian/Notion 笔记作为上下文，回答基于个人知识库。",
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
-        "publishedAt": ""
+        "publishedAt": "",
+        "image": "https://repository-images.githubusercontent.com/396569538/533a8bf7-385f-427b-a03f-76795fd938ed"
       },
       {
         "source": "Hugging Face",
