@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-04-30",
+    "items": [
+      {
+        "title": "这 10 个 UI 模式正在被 AI 淘汰",
+        "summary": "作者 Taras Bakusevych 梳理了 10 个建立在「用户自己完成工作」这一假设上的经典 UI 模式，并指出这些模式的存在前提正被 AI 能力逐步瓦解。文章识别出 8 种底层压力：自动化执行、自然语言意图解析、环境上下文理解、多模态输入、生成式草稿、按需情境解释、交互信息压缩、智能优先级排序。受冲击的模式包括：多步骤引导向导（从「逐步填写」变成「系统推断后用户确认」）、手动过滤侧边栏（从精确指定变成自然语言描述）、静态 Dashboard（从数字堆砌变成异常浮现）、手动录入表单（从转录变成确认）、FAQ 页面（从浏览文章变成情境式 AI 解答）、CRUD 重型表格、时序通知流（变成智能摘要）以及空白「新建」按钮（变成生成式草稿起点）。这不是「功能坏了吗」的问题，而是「它存在的理由还成立吗」——是一次架构层面的整体重新审视。",
+        "url": "https://uxdesign.cc/10-ui-patterns-that-wont-survive-the-ai-shift-002cb9b853ae",
+        "source": "UX Collective",
+        "why": "直接击中在 AI 时代还在设计「老式」UI 的产品团队。每一个模式都给出了替代方向，不是空谈，而是可以带进下次设计评审的框架。",
+        "type": "design"
+      },
+      {
+        "title": "AI 没有杀死搜索，反而把它推上历史新高",
+        "summary": "Alphabet Q1 2026 财报显示，Google 搜索查询量创历史新高，搜索收入同比增长 19%，公司总营收达 1099 亿美元（同比 +22%）。CEO Sundar Pichai 原话：「AI experiences 在驱动使用量增长，查询量达到历史最高」。Google Cloud 收入同比暴增 63% 至 200 亿美元。这份数据打破了一个流行的产品假设：AI 回答 = 搜索流量下降。现实是，AI Mode 让搜索更好用，用户反而搜得更多了。对产品设计师的启示是：AI 不一定是零和博弈，增强现有体验而非简单替代，同样能创造增量价值。当然，对依赖 SEO 的内容创作者来说，这仍然是另一个故事——查询量增加不代表点击量增加。",
+        "url": "https://www.theverge.com/tech/920815/google-alphabet-q1-2026-earnings-sundar-pichai",
+        "source": "The Verge",
+        "why": "反直觉的商业信号。帮助在设计 AI 功能时判断「增强」vs「替代」的边界——搜索的案例说明，做好 AI 体验可以放大平台本身，而不是蚕食它。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951561/VRG_Illo_STK179_L_Normand_SundarPichai_Neutral.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "AI 评估成本正在成为新的算力瓶颈",
+        "summary": "HuggingFace 研究团队分析了 AI 评估（eval）的成本爆炸：Holistic Agent Leaderboard 跑 9 个模型花费约 4 万美元，单次 GAIA 前沿模型评估高达 2829 美元，一次 agent 配置扫描耗资 2.2 万美元——同一任务上不同 scaffold 选择带来 33 倍成本差异。在科学 ML 领域，评估一个新架构需要 960 个 H100 小时。研究指出：随着推理时序计算（inference-time compute）的重要性上升，每次评估的成本也成倍放大，eval 费用甚至可能超过预训练本身。这意味着「谁能做严格评估」正在成为 AI 开发的竞争壁垒——小团队和大公司的差距不只是算力，还有评估能力。对产品团队来说，这也解释了为什么很多 AI 功能上线后质量参差不齐：背后是评估投入的不对等。",
+        "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+        "source": "Hugging Face Blog",
+        "why": "帮助理解 AI 产品质量差异背后的基础设施约束，做更现实的功能期望管理。知道为什么某些 AI 功能「感觉没测过」，比只是批评它更有价值。",
+        "type": "ai",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/6413251362e6057cbb6259bd/ukJJW86oJu36zOJwqZJBG.png"
+      }
+    ]
+  },
+  {
     "date": "2026-04-29",
     "items": [
       {
