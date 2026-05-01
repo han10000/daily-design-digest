@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-01",
+    "items": [
+      {
+        "title": "各大 AI 模型谁最懂配色？Perplexity 的无障碍色彩三色组实验",
+        "summary": "作者 Theresa-Marie Rhyne 是色彩与数据可视化专家，正在进行一项系列横评：让 ChatGPT、Claude、DeepSeek、Copilot、Grok、Gemini、Perplexity 等主流 AI 在感知均匀色彩空间（CIE LAB / HCL）内，生成能通过色盲测试的三色组配色方案。本篇聚焦 Perplexity。与其他直接做数学计算的 AI 不同，Perplexity 依赖网络检索，从色彩理论文献和实践案例中综合推理——结果风格迥异，更像「引用专家建议」而非精确色值输出。文章揭示了不同 AI 工具在处理专业设计问题时的本质差异：检索型 AI 和推理型 AI 面对同一任务时思路根本不同，各有盲区。对于日常需要处理色彩无障碍问题的产品设计师，这个系列是少见的实证参照——帮你判断不同场景下该选哪款 AI 工具。",
+        "url": "https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10",
+        "source": "UX Collective",
+        "why": "配色是设计师日常最高频的任务之一，但 AI 工具的色彩能力差异巨大、鲜少被横向比较。这篇用同一专业任务测试了 7 款 AI，属于实证研究，对做无障碍设计的 designer 特别有参考价值。",
+        "type": "tool × color × accessibility"
+      },
+      {
+        "title": "马斯克 vs Altman 庭审第一手文件全解：OpenAI 创始内幕是这样的",
+        "summary": "随着马斯克起诉 OpenAI 的陪审团审判正式开庭，大量早期邮件、照片和内部文件陆续公开。核心披露包括：Altman 在 2015 年给马斯克的邮件中明确提出要创建「人类第一个通用 AI」并将技术成果「供全世界使用」；马斯克主导起草了 OpenAI 使命宣言，对早期架构影响深远；Brockman 和 Sutskever 曾私下担忧马斯克的控制欲过强；英伟达 CEO 黄仁勋曾向 OpenAI 赠送一台顶级超算。庭审核心争议在于：OpenAI 是否背离了「广泛造福人类」的非营利创始使命，向商业利益转型。这不只是一场法律诉讼，更是 AI 行业创始期的 X 光片，展示了一个本该「拯救人类」的机构如何在商业压力下演变——每个在产品中使用 OpenAI 工具的设计师都应该了解这段历史。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+        "source": "The Verge",
+        "why": "每个在做 AI 产品的 designer 都应该知道自己在用的工具有什么历史包袱。这场审判把 OpenAI 创始期的内部矛盾暴露在公众视野里——理解 AI 行业格局的必读背景，也是一个关于「产品使命漂移」的活生生案例。",
+        "type": "industry × AI × product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia6.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-04-30",
     "items": [
       {
