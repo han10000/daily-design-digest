@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-02",
+    "items": [
+      {
+        "title": "如何为流式内容设计稳定的界面",
+        "summary": "随着 AI 聊天、实时日志、转录工具越来越普及，流式 UI 已成为产品设计的新常态。但这类界面有三个核心难题：滚动锁定（用户刚滚动时界面自动拽回底部）、布局偏移（内容持续增长导致其他元素位置偏移）、渲染频率（DOM 更新频率超过浏览器绘制频率，带来静默的性能损耗）。文章通过三个实战 demo——AI 聊天气泡、实时日志流、语音转录视图——逐一还原问题的发生场景，并给出稳定滚动锚点、分块渲染、ARIA 属性设置等具体解法。作者指出，「流式 UI 的设计问题不是 bug，是结构性的」——它要求设计师在交互上把「内容还在生成中」作为一种独立状态来设计，而不是假设内容最终总会完整。对正在设计 AI 对话产品、实时反馈系统的设计师来说，这是一篇可以直接带进评审的参考文章。",
+        "url": "https://smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/",
+        "source": "Smashing Magazine",
+        "why": "流式界面是当前 AI 产品最常见的交互模式，但 layout shift 和滚动失控几乎每个 AI 产品都踩过坑。Smashing 这篇把问题拆得清晰，解法具体，可直接复用。",
+        "type": "设计实战",
+        "image": "https://files.smashing.media/articles/designing-stable-interfaces-streaming-content/designing-stable-interfaces-streaming-content.jpg"
+      },
+      {
+        "title": "中国用户怎么搜信息：生态截然不同，行为却惊人相似",
+        "summary": "NNGroup 对 6 名中国用户进行了远程研究，探讨 AI 如何改变信息搜索行为。核心发现出人意料：尽管中国信息生态与西方截然不同（Google 和 ChatGPT 均不可用，微信、小红书、微博取代了搜索引擎），用户与 AI 工具的交互模式却与西方惊人相似——包括如何构建 prompt、判断哪些输出可信、AI 素养如何影响体验质量。研究还揭示了移动优先文化的深层影响：中国用户更倾向在社交平台而非搜索引擎获取信息，这让「搜索入口」的设计假设在中国语境下完全不同。对设计师而言，这个研究的价值不只是跨文化洞察，更是对「人机交互中有哪些行为是跨平台、跨生态的普遍规律」这个问题的一次有数据支撑的回答。",
+        "url": "https://www.nngroup.com/articles/information-seeking-china/",
+        "source": "Nielsen Norman Group",
+        "why": "跨文化研究视角 + NNGroup 的严谨方法论。「生态不同，但与 AI 的交互模式相似」这个发现，对设计面向全球用户的 AI 产品有直接启示。",
+        "type": "用户研究",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Information_Seeking_in_China-CC.png"
+      },
+      {
+        "title": "AI 时代，别再把「可用性」和「无障碍」混为一谈了",
+        "summary": "作者以一次真实的工作对话开篇：他在讨论无障碍问题时被开发负责人打断——「你只需要关注信息架构和 UX，无障碍不是单独的事」。这句话触发了文章的核心论点：可用性（usability）和无障碍（accessibility）是两个完全不同的维度。ISO 9241-11 定义的可用性本质上是有条件的——它只衡量「特定用户」在「特定场景」下的表现，默认用户「能接触到界面」。而无障碍是前提，不是锦上添花：没有无障碍，可用性对很多人就是一扇永远锁着的门。文章特别指出，在 vibe coding 和 AI 辅助生成 UI 盛行的当下，这个认知混乱正在被放大——AI 生成的界面往往通过了主流流程的可用性测试，却在色彩对比度、键盘导航、屏幕阅读器支持上一塌糊涂。设计师需要主动成为这道防线。",
+        "url": "https://uxdesign.cc/usability-accessibility-and-the-human-ai-paradigm-6ffda2806b56",
+        "source": "UX Collective",
+        "why": "AI 辅助设计正在重演一个老问题——可用性和无障碍被当成同一件事。这篇在 vibe coding 时代尤其值得重新审视，设计师不能把这道防线拱手让给工具。",
+        "type": "设计观点"
+      }
+    ]
+  },
+  {
     "date": "2026-05-01",
     "items": [
       {
