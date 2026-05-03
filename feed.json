@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-03",
+    "items": [
+      {
+        "title": "AI 真的能让你找到另一半吗？约会 App 的 AI 改造困局",
+        "summary": "约会 App 正面临严重的信任危机：78% 的用户报告经历过「约会疲劳」，Tinder 和 Bumble 连续两年失去付费用户。AI 被寄予厚望，Match Group 豪掷 2000 万美元与 OpenAI 合作，推出了 AI 约会教练（Rizz，月活 150 万）、AI 兼容性评分器，甚至允许用户训练一个「AI 克隆版自己」去替你相亲。但用户反应出奇冷淡——只有 15% 的人相信 AI 能带来更好的感情结果，女性中这一数字仅 10%。核心矛盾赤裸裸摆在那里：约会 App 是人类最需要真实连接的场景，而所有 AI 工具的本质都是「效率优先」。AI 撰写的消息更吸引人，但当对方发现你用 AI 代笔时信任立刻崩塌。这篇文章是检验「AI 植入消费品」的绝佳案例——产品设计师必须直视那个根本问题：某些场景里，减少摩擦 = 毁掉体验本身。",
+        "url": "https://uxdesign.cc/can-ai-make-your-dating-life-better-aae6e3d26be2",
+        "source": "UX Collective",
+        "why": "Dating app 是检验 AI 产品设计最尖锐的边缘案例。信任/真实性的张力、用户对「有没有 AI 介入」的感知，对所有做 AI 功能的产品设计师都有高度参考价值——尤其是在考虑把 AI 引入高情感密度的交互场景时。",
+        "type": "product-design"
+      },
+      {
+        "title": "你真的会选对研究参与者吗？NNG 的用户招募筛选指南",
+        "summary": "NNG 发布实用研究方法论文章，系统讲解如何为用户研究制定严格的参与者选择标准。文章核心区分三类标准：包含标准（必须具备的特征，如「每周使用健身工具超过 3 次」）、排除标准（会污染数据的因素，如「参与过竞品内测」）、以及多样性标准（确保样本覆盖不同用户群体）。作者指出：研究问题本身决定了谁才是「对的人」，单靠人口统计学特征往往远远不够。文章列举了一个经典失败案例：研究健身工具时招募了完全不关心健身的人，数据一片混乱，每个参与者还得照付报酬。对于 remote research 时代的设计师而言，筛选标准写得不够精细是最常见、最贵的错误之一——这篇文章提供了可直接落地的筛选框架。",
+        "url": "https://www.nngroup.com/articles/selection-criteria/",
+        "source": "Nielsen Norman Group",
+        "why": "直接实用。任何自己主导用户研究的设计师都会遇到「选错人」的问题，NNG 的系统化框架比大部分内部 SOP 都扎实。适合收藏作为下次写研究计划的参考。",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Selection_Criteria__The_Step_Most_Researchers_Skip-CC.png"
+      },
+      {
+        "title": "五角大楼与主要 AI 公司签署机密协议，唯独排除了 Anthropic",
+        "summary": "美国国防部宣布与 OpenAI、Google、Microsoft、Amazon、Nvidia 和 xAI 签署协议，允许这些公司的 AI 工具在机密网络中使用。最引人注目的细节：Anthropic 被明确排除在外，理由是「供应链风险」，尽管此前国防部曾与 Anthropic 有过合作。这标志着主流 AI 公司全面进军军事/政府应用的里程碑——从消费级助手到机密作战工具，AI 部署的边界正在迅速重划。对产品设计师而言，这条新闻不只是政策层面的故事：它揭示了 AI 公司在「安全立场」与「商业机会」之间正在产生明显分化。Anthropic 坚持的安全原则，在这一刻成了被排除的理由。这是 AI 产业格局中值得长期观察的结构性矛盾。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/922113/pentagon-ai-classified-openai-google-nvidia",
+        "source": "The Verge AI",
+        "why": "AI 行业格局的重大节点事件。Anthropic 被排除的细节具有讨论价值——坚持 safety 定位的公司正面临来自政府客户的明确代价。对理解未来 AI 产品生态（谁能拿大合同、谁被边缘化）有参考意义。",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2273115889.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-02",
     "items": [
       {
@@ -1213,8 +1244,7 @@
         "title": "让 AI 成为更好的编辑：3 个提示词技巧",
         "summary": "NNGroup 的 UX 写作专家 Taylor Dykes 分享 3 个让 AI 编辑效果更好的方法：在 prompt 中包含多个语气词或示例、要求生成多个备选方案、避免依赖默认输出。核心洞察：AI 的编辑能力通常不错，但好的 prompting 实践不应被忽视——「能用」和「用好」之间差的是 prompt 质量。",
         "url": "https://www.nngroup.com/videos/better-AI-editor/",
-        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。",
-        "image": "https://media.nngroup.com/media/videos/thumbnails/Taylor_3_Tips_to_Make_AI_a_Better_Editor.jpg"
+        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。"
       }
     ]
   },
@@ -1266,8 +1296,7 @@
         "title": "AI 研究工具的方法论盲点",
         "summary": "NNGroup 指出当前 AI 辅助用户研究工具的核心问题：AI 能快速处理数据，但容易忽略方法论的严谨性。量化效率不等于研究质量，工具设计需要内置方法论护栏。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
-        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
+        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。"
       },
       {
         "source": "HuggingFace",
@@ -1384,8 +1413,7 @@
         "summary": "NNGroup 回应 Anthropic 设计负责人 Jenny Wen「丢掉设计流程」的观点。资深设计师看起来跳过流程其实是把 discover-ideate-evaluate 内化后快速压缩执行。Double Diamond 是风险管理工具不是 checklist，Solution-first 只在成熟问题空间有效。提出 Process Literacy 概念：根据不确定性程度匹配流程深度。",
         "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
         "why": "直接回应了 AI 时代「设计师还需不需要流程」的争论。Process Literacy 概念很实用——下次面对新项目时，先评估问题空间的成熟度，再决定流程深浅，而不是默认走全套或全跳过。",
-        "publishedAt": "2026-03-13",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_A.png"
+        "publishedAt": "2026-03-13"
       },
       {
         "source": "UX Collective",
@@ -1403,8 +1431,7 @@
         "summary": "梳理 UX 研究工具 20 年演变，指出很多平台内置方法论错误。过去只是不方便，现在 AI 用有缺陷的工具做研究规划和分析，规模化产出误导性结论——带着自信呈现有缺陷的研究。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
         "why": "如果你用 AI 研究工具做用户研究，要警惕工具本身的方法论偏差。AI 让坏方法论的伤害从「一个项目」扩大到「所有项目」，选工具前先审方法论。",
-        "publishedAt": "2026-03-13",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
+        "publishedAt": "2026-03-13"
       }
     ]
   },
