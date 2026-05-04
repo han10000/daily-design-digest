@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-04",
+    "items": [
+      {
+        "title": "AI 不是插件——是重构产品概念层的机会",
+        "summary": "大多数产品集成 AI 的方式是在现有功能上叠加一个智能助手：用户可以问问题、执行操作，但产品本身没变。作者 Revanth Krishna 提出更深的切入点：AI 不应只优化交互层（让用户更快点击），而应渗透到「概念层」——也就是产品强迫用户学习的内部抽象概念。以 AWS 为例：用户必须先理解 S3 桶、IAM 策略才能存数据，但这些概念是 AWS 自己发明的，并非用户真实世界的语言。AI 原生产品应该让 AI 吸收这些抽象负担——用户只需说「给我的 app 存 50GB 数据」，AI 自动处理底层细节。这意味着设计师和 PM 需要重新审查产品里每一个概念：是用户真正需要理解的领域知识，还是只是产品内部发明的抽象？后者完全可以让 AI 承担。文章最后强调，AI 原生设计的核心是信任：AI 的行为需要透明可逆，高风险操作需明确确认，用户看到的是结果语言，而非产品内部术语。",
+        "url": "https://uxdesign.cc/dont-simply-bolt-on-ai-rethink-from-the-ground-up-ae73a9093cd2",
+        "source": "UX Collective",
+        "why": "从「概念层 vs 交互层」切入 AI 产品设计的本质，帮助设计师和 PM 判断哪些用户负担是真实的，哪些是产品自己造成的——然后让 AI 去扛后者",
+        "type": "思维框架"
+      },
+      {
+        "title": "AI 音乐正在淹没流媒体，但没人在找它",
+        "summary": "AI 生成音乐从实验工具（Suno、Udio 等）快速演变为可批量生产的内容，正在大规模涌入 Spotify、Apple Music 等平台。问题在于：这些 AI 音乐听起来不算差，但没有人真正在主动寻找它。调研显示大多数用户仍靠算法推荐发现人类创作的音乐，AI 内容发现率极低。更关键的是，真人音乐人担忧的不是质量竞争，而是信号稀释：AI 音乐和人类音乐混在同一池子里，让推荐算法越来越难抓取有意义的偏好信号。这引出一个对所有内容平台产品设计师都重要的问题：当供给无限增长时，发现机制需要从「更多内容」转向「更清晰的信号」。图片、视频、文章都在面临同样的处境。设计者需要思考：在 AI 内容爆炸的时代，平台如何保证人类创作者的可见性，以及用户的信噪比体验？",
+        "url": "https://www.theverge.com/column/921599/ai-music-is-flooding-streaming-services-but-who-wants-it",
+        "source": "The Verge",
+        "why": "AI 生成内容爆炸对平台发现机制的冲击——不只是音乐问题，而是所有内容平台都在面对的信号噪声比危机，设计者需要提前思考",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/GettyImages-1468752442.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "用篮球教练类比 AI 时代的团队打法",
+        "summary": "作者 Patrick Neeman 用四位顶级篮球教练类比软件开发方法论在 AI 时代的演变：Pat Riley（湖人）是瀑布式——完整规格文档主导一切，AI 时代一个功能的规格写完就已经过时；Gregg Popovich（马刺）是敏捷——短迭代、团队优于个人，但 Scrum 仪式感在 AI 时代已成摩擦；Phil Jackson（公牛/湖人）的三角进攻对应成熟团队——不喊战术，靠共享语境和原则让每人自主做出正确判断，这是真正的智能分布式。最后是 Dawn Staley（南卡）：她不预设系统，评估现有人才后再围绕他们构建打法——这恰好是 AI 时代最需要的能力：先看模型实际擅长什么，再设计工作流程。文章的核心洞察：AI 时代最稀缺的不是执行者，而是能在 100 个 AI 生成选项中判断「哪个对」的人——taste 本身成为基础设施。",
+        "url": "https://uxdesign.cc/the-basketball-playbook-for-ai-builder-teams-5ab76a91780e",
+        "source": "UX Collective",
+        "why": "把 AI 时代团队运作的变化讲得生动且有洞察，「taste 成为基础设施」这个判断值得细品，对设计 lead 和想理解 AI 工作流的人都适用",
+        "type": "产品思考"
+      }
+    ]
+  },
+  {
     "date": "2026-05-03",
     "items": [
       {
@@ -1244,7 +1274,8 @@
         "title": "让 AI 成为更好的编辑：3 个提示词技巧",
         "summary": "NNGroup 的 UX 写作专家 Taylor Dykes 分享 3 个让 AI 编辑效果更好的方法：在 prompt 中包含多个语气词或示例、要求生成多个备选方案、避免依赖默认输出。核心洞察：AI 的编辑能力通常不错，但好的 prompting 实践不应被忽视——「能用」和「用好」之间差的是 prompt 质量。",
         "url": "https://www.nngroup.com/videos/better-AI-editor/",
-        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。"
+        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。",
+        "image": "https://media.nngroup.com/media/videos/thumbnails/Taylor_3_Tips_to_Make_AI_a_Better_Editor.jpg"
       }
     ]
   },
@@ -1296,7 +1327,8 @@
         "title": "AI 研究工具的方法论盲点",
         "summary": "NNGroup 指出当前 AI 辅助用户研究工具的核心问题：AI 能快速处理数据，但容易忽略方法论的严谨性。量化效率不等于研究质量，工具设计需要内置方法论护栏。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
-        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。"
+        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
       },
       {
         "source": "HuggingFace",
@@ -1413,7 +1445,8 @@
         "summary": "NNGroup 回应 Anthropic 设计负责人 Jenny Wen「丢掉设计流程」的观点。资深设计师看起来跳过流程其实是把 discover-ideate-evaluate 内化后快速压缩执行。Double Diamond 是风险管理工具不是 checklist，Solution-first 只在成熟问题空间有效。提出 Process Literacy 概念：根据不确定性程度匹配流程深度。",
         "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
         "why": "直接回应了 AI 时代「设计师还需不需要流程」的争论。Process Literacy 概念很实用——下次面对新项目时，先评估问题空间的成熟度，再决定流程深浅，而不是默认走全套或全跳过。",
-        "publishedAt": "2026-03-13"
+        "publishedAt": "2026-03-13",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_A.png"
       },
       {
         "source": "UX Collective",
@@ -1431,7 +1464,8 @@
         "summary": "梳理 UX 研究工具 20 年演变，指出很多平台内置方法论错误。过去只是不方便，现在 AI 用有缺陷的工具做研究规划和分析，规模化产出误导性结论——带着自信呈现有缺陷的研究。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
         "why": "如果你用 AI 研究工具做用户研究，要警惕工具本身的方法论偏差。AI 让坏方法论的伤害从「一个项目」扩大到「所有项目」，选工具前先审方法论。",
-        "publishedAt": "2026-03-13"
+        "publishedAt": "2026-03-13",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
       }
     ]
   },
