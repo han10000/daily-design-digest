@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-05",
+    "items": [
+      {
+        "title": "奥古斯丁的警告：AI 优化的从不是「好」，而是「你以为的好」",
+        "summary": "作者用奥古斯丁的哲学框架解剖 AI 的根本困境：每个 AI 系统在运行之前，都必须事先定义什么是「好的结果」——但这个定义本身就是主观的价值判断，而非客观真理。算法优化 engagement，就会侵蚀注意力；优化 efficiency，就会牺牲难以量化的东西。系统可以运行完全「正确」，却同时强化了一套扭曲的价值体系。奥古斯丁的 ordo amoris（爱的秩序）告诉我们：不是系统能力不足，而是它优化的终点往往是「手段被包装成了目的」——一旦某个价值变成可度量的指标，它就获得了客观性的外衣，开始主导一切。对产品设计师来说，这篇文章是一面镜子：你不只是在「构建功能」，你在「编码价值观」。每个设计决策背后都有一个关于什么值得被优化、什么可以被牺牲的隐性选择。",
+        "url": "https://uxdesign.cc/st-augustine-and-ais-false-promise-4f67c75b3275",
+        "source": "UX Collective",
+        "why": "做 AI 产品的设计师必读。当你在 Figma 里做交互决策时，你同时在决定系统强化什么价值、忽视什么。这篇文章帮你把这件事从无意识变成有意识。",
+        "type": "essay"
+      },
+      {
+        "title": "Roomba 发明者回来了，这次他要造一个你会「爱上」的机器人",
+        "summary": "iRobot 创始人 Colin Angle 推出新公司 Familiar Machines & Magic，首款产品「Familiar」是一个狗大小的伴侣机器人，外形介于熊、仓鸮与金毛之间，配有可动的眉毛、耳朵和眼睛，搭载端侧生成式 AI，能在家中四足行走、识别情绪、并随时间形成独特个性。Angle 明确声明：「机器人的下一纪元，不是关于灵巧度或人形形态，而是关于能建立并维持人类连接的机器。」产品定价对标「养一只宠物的成本」，目标用户是有幼儿的家庭、需要陪伴的老人以及孤独问题困扰者。团队来自 Disney、MIT、Boston Dynamics、Bose、Sonos 的跨界组合本身就是一份设计宣言：情感型 AI 产品需要的能力组合，和功能型机器人完全不同。预计最早明年上市。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
+        "source": "The Verge",
+        "why": "「完成任务」到「建立连接」的产品设计转变。当核心 KPI 从 task completion 变成 emotional bond，整套设计语言都要重写。这个方向值得提前感受。",
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Golden.png?quality=90&strip=all&crop=0%2C1.8117057886209%2C100%2C96.376588422758&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-04",
     "items": [
       {
