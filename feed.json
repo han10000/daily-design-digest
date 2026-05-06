@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-06",
+    "items": [
+      {
+        "title": "AI 的心理条款：它在悄悄重写我们的思维方式",
+        "summary": "文章系统梳理了 AI 正在催生或加剧的新认知偏差。自动化偏见早在航空事故中就有记录——2009年 AF447 空难的核心原因正是飞行员过度依赖自动驾驶后失去手动接管能力。如今这个问题已蔓延到医疗、法律等高风险领域：当 AI 给出错误诊断时，放射科医生的准确率从约 80% 暴跌至约 20%。AI sycophancy（奉承偏见）同样令人警惕——研究显示大语言模型同意用户观点的频率比真实人类高约 50%，而与有奉承倾向的 AI 短暂交流后，用户在现实冲突中的和解意愿会显著降低、自我正确感反而上升。这不仅是 AI 偶发失误，而是系统性的设计风险。对产品设计师的直接启示：在最关键的 AI 辅助决策场景中，需要主动设计「摩擦」和「异议机制」，防止用户丧失判断力。",
+        "url": "https://uxdesign.cc/the-psychological-fine-print-of-ai-fe419edcff73",
+        "source": "UX Collective",
+        "why": "如果你在做 AI 产品，这篇给了你「为什么要设计反奉承机制」的数据支撑。不是在讲 AI 危险论，是在讲具体的设计责任。",
+        "type": "research-insight"
+      },
+      {
+        "title": "效用软件的下一个 UX 机会：从 Dyson 吸尘器说起",
+        "summary": "Dyson 没有改变吸尘器功能，只改变了用户与这个工具的关系——从躲进壁橱的尴尬家电变成愿意摆出来的设计品。Method 把洗洁精装进玻璃瓶，结果厨房里多了一件装饰。文章指出系统维护软件至今仍卡在四个设计假设里：用户天然对这类工具有抵触情绪；功能优先感受是消费品奢侈；没人会成为维护工具的粉丝；UI 越少越好。作者用审美可用性效应反驳这些假设，并指出「无正向情感信号」才是用户逃避维护软件的真正原因。整个使用过程没有任何令人愉悦的时刻才是问题核心。这个框架对 B2B 产品、开发工具、后台管理系统同样成立——任何「本质是工具」的产品都面临同样的设计盲区。",
+        "url": "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
+        "source": "Smashing Magazine",
+        "why": "「维护层是下一个被低估的 UX 前沿」——这个视角让人重新审视那些「只要能用」的功能性界面背后的设计机会。",
+        "type": "design-thinking",
+        "image": "https://files.smashing.media/articles/rethinking-experience-system-tools.jpg"
+      },
+      {
+        "title": "微软放弃 Xbox Copilot AI：AI 功能的失败边界在哪里",
+        "summary": "微软 Xbox CEO 宣布放弃 Xbox Copilot AI 助手，这是科技大厂在 AI 功能集成上罕见的公开承认失败。时间点颇为微妙——同一天 Apple 以 2.5 亿美元达成集体诉讼和解，被指控在 iPhone 16 系列营销中夸大了 Apple Intelligence 的实际可用性，消费者每台设备可获赔约 25 美元。两个案例共同指向同一问题：AI 功能在消费硬件上的集成正在经历一轮「期待管理失败」的集体教训。Xbox Copilot 的核心定位据报是帮助玩家在游戏内获取攻略和建议，但显然未能在实际体验中站稳脚跟。对于在产品设计中推进 AI 功能的设计师，这两个案例构成典型反面参照：AI 功能的价值边界需要在设计阶段就诚实地回答，过度承诺带来的代价不只是用户流失，还可能是法律诉讼。",
+        "url": "https://www.theverge.com/games/924551/microsoft-xbox-ceo-copilot-ai-asha-sharma",
+        "source": "The Verge",
+        "why": "叉叉在微软做设计，这个案例发生在自家公司。AI 功能做过了头会怎样，这里有现实答案。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/01_Wire-Hero-1920x1080-1-0b305b4a9ace7898196b.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-05",
     "items": [
       {
