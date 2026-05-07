@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-07",
+    "items": [
+      {
+        "title": "我们造了这个，就该对它负责",
+        "summary": "一篇让设计师坐立不安的文章。作者以一位在 Character.AI 上和 GoT 角色聊天后自杀的佛罗里达少年为切入点，追溯了从启蒙运动到工业革命再到互联网时代，「个人」如何逐渐取代「集体」成为文化中心——而科技行业正是这一超个人主义土壤里长出来的产物。文章不谈政策，直接问责到人：那个选了这个人物设定的人、那个设计了对话流程的人、那个批准上线的人。作者认为，AI 伴侣不同于导航出错、医疗 AI 误诊，它会主动填补社交空白、刺激依恋机制，风险敞口在设计层就已经被打开了。这不是在说不能造 AI 产品，而是在问：我们有没有真的预判过我们在优化什么。",
+        "url": "https://uxdesign.cc/we-built-this-now-we-own-it-1f8f1ba7c768",
+        "source": "UX Collective",
+        "why": "每天做 AI 产品的 PD 都应该读一次。不是为了变得焦虑，是为了在下一个设计决策前多问一句「然后呢」。",
+        "type": "design-ethics"
+      },
+      {
+        "title": "Google 关停 Project Mariner：web agent 第一次大型实验落幕",
+        "summary": "Google 于 2026 年 5 月 4 日正式关闭了 Project Mariner——这个自 2024 年 12 月亮相、最多可同时执行 10 个 web 任务的 AI browsing agent。关停通知语气轻描淡写：「技术已启航去往其他 Google 产品。」实际情况是：Mariner 的核心能力已被拆解整合进 Gemini Agent（可代劳归档邮件、订酒店）和 AI Mode 搜索。与此同时，Google 正在 Chrome 里测试一个叫「auto-browse」的多步任务功能。背景是：距离 Google I/O 只剩两周（5 月 19 日开幕），这很可能是在为 I/O 上的更大发布清路。而 OpenAI Operator、Perplexity Comet 都在争这个 agentic browser 赛道。",
+        "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+        "source": "The Verge",
+        "why": "Agentic web 的 UX 设计模式还在成形阶段，谁在主导、谁在退出，直接影响设计师接下来两年的工作方向。Mariner 的「整合」而非「死亡」值得细品。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200"
+      },
+      {
+        "title": "Local-First 不是 Offline-First：搞清楚这个区别，你的产品决策会不一样",
+        "summary": "作者用一个在里斯本酒店 Wi-Fi 断线、演示崩掉的亲身经历引出主题：传统 client-server 架构让用户数据依赖服务器，而 local-first 是一种数据架构——客户端持有数据主副本，读写都在本地，服务器变成同步节点而非 gatekeeper。文章特别强调 local-first 不是 PWA，不是 offline-first，不是「加个 service worker」。它改变的是整个数据模型。作者也诚实地列出了不适用场景：服务器生成型数据（如 analytics dashboard）、强事务一致性需求（银行支付）、无协作需求的简单 CRUD。适合场景：笔记、协作工具、个人知识库、创作类 app。这是一篇反银弹文章，但给想做「真正离线可用」产品的团队指了一条清晰的路。",
+        "url": "https://smashingmagazine.com/2026/05/architecture-local-first-web-development/",
+        "source": "Smashing Magazine",
+        "why": "做协作工具或 creator 工具的 PD 和 PM 必读。理解数据架构的基本模型，才能在 spec 里写出真正可落地的离线体验和数据所有权设计。",
+        "type": "engineering-for-designers",
+        "image": "https://files.smashing.media/articles/architecture-local-first-web-development/architecture-local-first-web-development.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-06",
     "items": [
       {
