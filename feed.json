@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-08",
+    "items": [
+      {
+        "title": "让 Claude Code 遵守你的设计规范：Figma MCP 工作流拆解",
+        "summary": "Claude Code 通过 Figma MCP 能直接在画布上构建界面，视觉效果看起来像素完美——但点进图层你会发现：颜色是硬编码的 HEX，文字大小是裸数字，组件是临时捏出来的新东西，没有一个 token 绑定。UX Collective 作者 Sen Lin 把这个问题定义为「治理失效」而非「能力不足」：Claude Code 知道怎么调 Figma API，但没人告诉它你团队的规则，所以它自己发明了一套。他借鉴 AI 工程中的 Harness 概念（约束框架），为 Figma 工作流构建了 4 个 Claude Code Skills：Preflight（建任何节点前先检查 MCP 连接、token 库、组件注册表是否就绪）、Reference Interpreter（把截图或描述解析为结构化 Design Brief 再开始构建）、Component Rules（强制调用库中已有组件而非创建新组件）、Style Binding（把每个值绑定到设计系统 token）。整套方案的核心洞察是：AI 产出的「可迭代性」才是关键，视觉通过不等于结构通过，没有 token 绑定的设计无法真正迭代。对于在团队里推进 AI 辅助设计工作流的设计师来说，这是目前最接近生产可用的实战方案。",
+        "url": "https://uxdesign.cc/how-to-make-claude-code-follow-your-design-system-in-figma-559618cffaa9",
+        "source": "UX Collective",
+        "why": "用 AI 写界面但设计系统一团糟的问题太普遍了，这篇直接给出了可复用的工作流方案，不是理论，是能装进 Claude Code 的 Skills。",
+        "type": "workflow"
+      },
+      {
+        "title": "Apple AirPods 要加摄像头了：环境感知 AI 时代的设计挑战",
+        "summary": "Apple 正在推进内置摄像头的 AirPods 开发，目前已进入设计验证测试阶段（DVT），距离量产测试只差一步。这款 AirPods 的摄像头不是用来拍照或录像的，而是以低分辨率持续采集视觉信息，让 Siri 能理解用户当前的环境上下文——比如对着冰箱问「我能做什么菜」，或者配合导航给出转弯提示。从外观上看，它比 AirPods Pro 3 的杆更长以容纳摄像头技术，并配备一个 LED 指示灯来提示视觉数据上传状态。这次发布的推迟主要是因为升级版 Siri 的延期，预计 9 月回归。从产品设计角度看，这标志着一个新的交互范式在临近：AI 不再等用户主动提问，而是持续感知环境、随时准备介入。这和 Meta 智能眼镜的路径相似，但嵌入在耳机这个已经高度普及的设备里，渗透率会完全不同。设计师需要开始思考：当 AI 「看见」用户的物理世界时，什么时候介入是合适的，什么时候是侵入？这是一个全新的 UX 问题域。",
+        "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
+        "source": "The Verge",
+        "why": "AirPods 是最高普及率的个人设备之一，加入环境摄像头意味着「AI 看见你的世界」这件事会以前所未有的规模发生，UX 设计的边界和隐私设计的考量都要跟着变。",
+        "type": "product news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0145.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-07",
     "items": [
       {
