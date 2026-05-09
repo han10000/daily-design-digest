@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-09",
+    "items": [
+      {
+        "title": "设计 AI Agent 的四条真实教训：NNGroup 对中国 Qwen Agent 的用研发现",
+        "summary": "NNGroup 在中国进行了一项远程可用性研究，邀请 6 名年龄 18-45 岁、AI 使用经验各异的用户首次体验 Qwen 的 AI Agent 功能，提炼出四条设计教训。第一，支持可发现性——用户对 agent 能做什么完全不了解，需要主动引导和示例展示，否则功能形同虚设；第二，复用熟悉模式——用户更容易接受与已知交互相似的 agent 操作流程，不要为了炫技发明陌生交互；第三，谨慎处理个人数据——当 agent 访问日历、联系人等私人信息时用户会产生明显警觉，权限获取须透明解释；第四，保护用户自主权——agent 自动执行任务时若缺乏打断和确认机制，用户会感到失控。这四条原则基于真实可用性测试，对正在设计 AI agent 入口、AI 助手功能的产品设计师来说是目前少有的实战指南。",
+        "url": "https://www.nngroup.com/articles/designing-ai-agents/",
+        "source": "Nielsen Norman Group",
+        "why": "目前 AI agent 设计还停留在拍脑袋阶段，这是少数基于真实用研的设计原则总结，而且来自中国市场——双重稀缺。",
+        "type": "UX Research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/4_Lessons_from_China-cc.png"
+      },
+      {
+        "title": "关于 AI，我从精灵童话里学到的一切",
+        "summary": "斯德哥尔摩的 content designer Nicole 用「神灯精灵的三条规则」类比 LLM 的行为边界，写出了一篇既有趣又实用的 AI 使用指南。阿拉丁规则一「不能杀人」对应 LLM 的安全护栏；规则二「不能让人爱上你」对应 AI 会顺着你的意思讨好你（sycophancy），但这条规则在现实中被弯曲得最厉害——你让它写「有说服力的」文案，它会把所有诚实的注脚全部删掉；规则三「不能让死人复活」对应 AI 无法真正触达现实世界，它只能生成听起来可信的内容，真实性还是靠你判断。文章还深入讲了「精确许愿」的实操：要说清楚结果而非行为，给 AI 一个角色，明确说出你不想要什么（负向约束往往比正向指令更有效）。对于每天要用 AI 做设计决策、写文案、生成内容的设计师，这套思维框架值得内化。",
+        "url": "https://uxdesign.cc/everything-i-know-about-ai-i-learned-from-a-genie-e5745d22c722",
+        "source": "UX Collective",
+        "why": "用一个所有人都懂的童话把 LLM 的底层逻辑讲清楚了——AI 的字面理解、奉承倾向、边界问题，全部对应到精灵规则，很好记，也很好用。",
+        "type": "AI / Content Design"
+      },
+      {
+        "title": "UX Writing 实战 FAQ：从业者最常踩的坑，NNGroup 一次答完",
+        "summary": "NNGroup 资深讲师 Anna Kaley 在多年「Writing Compelling Digital Copy」课程中积累了设计师最频繁提出的问题，整理成这篇实战 FAQ。核心知识点包括：目标受众写作应瞄准 6-8 年级阅读水平（NNGroup 眼动研究显示用户只阅读页面 20-28% 的文字，越简单处理得越快）；平原语言和可读性不是「降智」，而是降低用户认知负荷；如何在 AI 辅助写作时保持内容准确性和语气一致性；如何为不同的 UI 元素（按钮、错误提示、空状态、引导文案）分别建立写作原则；以及怎样在没有专职 content designer 的团队里独立把控文案质量。文章的问题越来越尖锐——从业者在变得更怀疑 AI 给出的通用答案，开始寻求有真实经验的人提供的细粒度洞察，这本身就是一个值得注意的行业信号。",
+        "url": "https://www.nngroup.com/articles/ux-writing-faqs/",
+        "source": "Nielsen Norman Group",
+        "why": "UX Writing 是很多产品设计师的软肋，这篇 FAQ 格式特别适合查漏补缺，而且 NNGroup 的建议是有眼动数据支撑的，不是鸡汤。",
+        "type": "UX Writing",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UXwriting-CC.png"
+      }
+    ]
+  },
+  {
     "date": "2026-05-08",
     "items": [
       {
