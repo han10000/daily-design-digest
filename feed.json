@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-11",
+    "items": [
+      {
+        "title": "OpenAI 生死存亡审判第二周：Musk 到底想要什么",
+        "summary": "马斯克诉 OpenAI 案进入第二周，Greg Brockman 和 Shivon Zilis 相继出庭作证。Brockman 反击称马斯克其实是推动 OpenAI 成立盈利部门的人，只是因为没能拿到「绝对控制权」才愤而出走。更戏剧性的是：Zilis（马斯克 4 个孩子的母亲，前 OpenAI 董事会成员）在庭上披露，马斯克曾试图招募 Sam Altman 去领导 Tesla 的 AI 实验室，说明两人之间的关系远比外界以为的复杂。马斯克目前要求法院撤销 OpenAI 去年完成的公司重组（从非营利转为 public benefit corporation），并向 OpenAI 和 Microsoft 索赔高达 1340 亿美元。案件走向将直接影响 OpenAI 迈向估值近 1 万亿美元的 IPO 进程——结果若对 OpenAI 不利，可能导致公司结构大幅调整，进而影响 API 定价、访问政策，乃至整个 GPT 生态的稳定性。",
+        "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+        "source": "MIT Technology Review",
+        "why": "用 GPT、Claude 或 Copilot 做设计工具的人都应该关注这个案子——OpenAI 的法律命运直接影响 AI 工具链的稳定性。这不是行业八卦，是可能改变你 2026 roadmap 假设的战略上下文。",
+        "type": "ai-industry",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/260508_OpenAIcase.jpg?resize=1200,600"
+      },
+      {
+        "title": "43% 的美国人认为 AI 数据中心是电费上涨主因",
+        "summary": "Pew Research Center 最新调查显示，43% 的美国人认为 AI 数据中心是家庭能源账单上涨的主要原因之一。更值得注意的是：这一比例在共和党和民主党选民中基本一致，说明 AI 基础设施的能源消耗已经从科技圈讨论演变为两党共识的政治议题。类似趋势正在各地出现：犹他州刚刚批准了一个占地 4 万英亩的数据中心项目，尽管社区强烈反对。这意味着公众对 AI 环境成本的感知正在快速主流化。对 Product Designer 来说，类比路径很清晰：几年前 cookie banner 从可选变成法律标配，「负责任地使用 AI」的信任信号可能也在走同样的路——从可选 UX 文案变成用户实际期待的产品要素。这条数据是民意而非预判，值得提前放进设计决策的背景。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/925426/43-percent-of-americans-blame-data-centers-as-a-major-reason-for-rising-power-bills",
+        "source": "The Verge",
+        "why": "用户对 AI 环境成本的关注正从小圈子变为主流民意。这会影响 AI 产品的 trust design——\"我们在负责任地使用 AI\" 很快可能从加分项变成基本门槛。",
+        "type": "ai-perception",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90&strip=all&crop=0,0.13712291199202,100,99.725754176016"
+      },
+      {
+        "title": "不是作品集，是一个家——San Rita 如何重新定义数字存在感",
+        "summary": "Awwwards 刊出的 San Rita 工作室网站 case study，出发点只有一句话：「我们长期以来只是想建一个感觉像家的东西，而不是又一个作品集。」这个 brief 本身就是一个设计问题——如何把一种看世界的方式翻译成一个可以被滚动浏览但又不会「被打破」的数字空间？案例展示了当设计团队不以「show your work」为第一目标，而以传达视角和文化为优先时，会做出哪些不同的排版、节奏和信息密度决策。这类克制性的设计选择——选择说什么、更重要的是不说什么——和很多 B2B/enterprise 产品设计师面对的问题高度同构：你的产品 UI 不只是功能入口，它也在传达「我们是谁」。San Rita 用工作室网站做了一次极端实验，结论有迁移价值。",
+        "url": "https://www.awwwards.com/mapping-the-uncharted-the-san-rita-project.html",
+        "source": "Awwwards",
+        "why": "设计师通常被训练展示功能，这个 case study 展示了把氛围和视角置于功能之上的设计决策路径，对任何在做品牌感知或 enterprise 产品 identity 的人都有参考价值。",
+        "type": "design-case-study",
+        "image": "https://assets.awwwards.com/awards/images/2026/04/thumbnail.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-10",
     "items": [
       {
