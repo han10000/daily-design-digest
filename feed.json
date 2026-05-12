@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-12",
+    "items": [
+      {
+        "title": "用「思考之手」重新设计：AI 时代手工美学的反击",
+        "summary": "当 AI 生成的视觉内容充斥屏幕，一种反向趋势正在设计界悄然兴起——手工质感的回归。本文以 Lucasfilm 动画《星球大战：黑武士》的遮罩绘画为切入点，解释了为何一个 20 年前的老技术在 AI 时代反而获得 98% 好评：那种帧帧手绘的粗粝、噪点与故意的不完美，恰恰提供了 AI 无法复制的「人类意图信号」。NN/g 的同期研究也印证了这一钟摆效应：设计审美总在抽象与写实之间摆动，「过度抛光的 AI 视觉」与「凌乱但真实的手工设计」之间的张力，正在重演 skeuomorphism vs flat design 的历史。文章的核心概念是「思考之手」（thinking hand）——设计师在动手制作中形成的判断力和直觉，是一种身体性知识，AI prompt 无法捕获它。对产品设计师的启示：你的核心价值不在于能生成什么，而在于你做过多少次、踩过多少坑积累的那双手的判断力。Spider-Verse、Arcane 等作品的成功，也验证了「刻意的不完美」正在成为一种高感知价值的设计语言。",
+        "url": "https://uxdesign.cc/rethinking-design-with-your-hands-in-the-ai-world-b8d4adf3322c",
+        "source": "UX Collective",
+        "why": "直接回答「AI 时代设计师核心价值在哪」——不是技能，是判断力。手工美学的回潮对品牌调性、视觉风格、交互质感都有直接影响，叉叉做 AI 产品正好需要这个视角。",
+        "type": "essay"
+      },
+      {
+        "title": "Mira Murati 的新公司在做什么：「交互模型」要打破 AI 对话框逻辑",
+        "summary": "前 OpenAI CTO Mira Murati 创立的 Thinking Machines 发布了新概念「交互模型」（interaction models）。与当前所有 AI 的交互逻辑不同——用户说完 AI 才开始处理——交互模型会持续感知用户的音频、视频和文字，像真人协作一样实时思考和响应。Thinking Machines 的解释是：「今天的模型在单线程中体验现实，直到用户说完才开始感知。这造成了人机协作的带宽瓶颈——用户被迫去适应 AI 的界面，而不是 AI 去适应用户的方式。」他们已演示了几个案例：实时识别故事中的动物、实时翻译语音、检测用户是否驼背。目前进入「有限研究预览」阶段，今年晚些时候公开发布。对产品设计师而言，这是一次范式冲击：当前所有 AI 界面都建立在「输入-等待-输出」的对话框逻辑上，一旦 AI 开始持续感知，界面的核心问题就从「如何让用户描述需求」变成「如何让用户感知 AI 正在感知自己」——透明度、打断机制、注意力边界将成为全新的设计挑战。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+        "source": "The Verge",
+        "why": "「交互模型」预示了下一代 AI 界面的范式转移——从「响应器」到「持续感知者」。这对所有在做 AI 产品的设计师都是必读信号，现在就该开始想它带来的设计新课题。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/VRG_Illo_mira-murati_stock_02.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "OpenAI 推 Daybreak：AI 安全代理人上岗，Agentic UI 设计的活教材",
+        "summary": "OpenAI 发布 Daybreak，一个专注漏洞检测的 AI agent 项目，基于 Codex Security AI agent，能对代码自动构建威胁模型、识别攻击路径、验证高风险漏洞并自动修复，整个过程几乎不需要人类干预。这是距离 Anthropic 发布安全 AI 项目 Claude Mythos 仅一个多月后的竞品回应。从产品设计视角看，Daybreak 代表了「高自主度 AI agent 产品化」的最新进展：AI 不只是辅助人做判断，而是独立完成「感知-判断-行动-验证」的完整闭环。这正是现在几乎没有成熟设计范式的领域：在 agentic 系统里，用户控制感应该以什么颗粒度呈现？中间步骤何时展示、何时隐藏？AI 自主决策和人类干预的边界在哪？失败时的 fallback 体验是什么？Daybreak 本身是安全工具，但它提出的这些问题对任何做 agentic 产品的设计师都同样适用，是一个值得拆解的设计案例。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai",
+        "source": "The Verge",
+        "why": "最新「高自主 AI agent 产品化」案例。设计师现在就该想清楚 agentic UI 的核心挑战：透明度、控制感、错误处理。看竞品怎么做，比等自己踩坑快得多。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-11",
     "items": [
       {
