@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-13",
+    "items": [
+      {
+        "title": "AI 产品把 Empty State 做坏了——有数据为证",
+        "summary": "作者是一位同时做 Chrome 扩展和 AI 产品的创始人，他发现自己共同创建的扩展有 70% 的新装用户不会回来第二次，原因指向同一个地方：空状态（Empty State）。他的结论是，自 2023 年以来每一个 AI 工具都在重复同一套设计——居中的输入框 + Ask me anything 占位文本——把这叫做极简主义，但本质是设计缺席。他回溯了这二十年来的 empty state 设计智慧：Linear、Notion、Figma、Airtable 都曾把初次进入界面当成最精心设计的页面，用模板、范例数据、60 秒视频和明确的起始动作引导新用户。Don Norman 的《设计心理学》早已指出：没有 signifier 的空白界面，从设计定义上就是坏掉的。NNGroup 的 empty state 准则也写明了三件必须做的事：解释这里将出现什么、展示如何触发内容、给一个起始动作。这三点都不是装饰，是留住第二天回访用户的关键。文章最后对比了 Notion 2026 版本的空状态：三个起始动词、六个示例、AI 只是选项之一——作为一个反面教材的正例存在。",
+        "url": "https://uxdesign.cc/the-death-of-the-empty-state-in-ai-products-2026-e11439fbb688",
+        "source": "UX Collective",
+        "why": "直接戳到 AI 产品设计的一个死角：大家在卷对话能力、模型能力，却忘了第一印象。这篇有数据、有框架、有对比，适合任何在做 AI 产品的设计师拿来 review 自己的 onboarding 流程。",
+        "type": "design"
+      },
+      {
+        "title": "Meta 在 Threads 上放了一个你无法屏蔽的 AI 账号",
+        "summary": "Meta 宣布在 Threads 上测试一项新功能：用户可以 @MetaAI 账号来获取问题解答或对话上下文。听起来像 X 上的 Grok 集成。但关键区别在于：这个 Meta AI 账号，你无法屏蔽（block）。Meta 承认屏蔽功能确实不可用，给出的理由是屏蔽 AI 和屏蔽真人账号在功能上不一样。这个设计决策本身就是一个值得拆解的 UX + 产品伦理问题：平台在向用户的社交 feed 里注入 AI 角色时，是否应该保留用户的退出权（opt-out）？当 AI 作为账号而不是功能出现时，用户预期的控制边界在哪里？这篇报道没有给出设计层面的深度分析，但它描述的产品决策本身就是一个值得 PM 和设计师讨论的 case——特别是在 AI presence in social products 这个快速演变的领域里，用户代理权（user agency）正在被逐步压缩。",
+        "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
+        "source": "The Verge",
+        "why": "不是技术新闻，是产品决策案例：当平台把 AI 包装成账号而非功能，用户控制权应该如何设计？这个问题在未来两年会越来越尖锐，适合提前建立框架。",
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24774110/STK156_Instagram_threads_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "你最好的设计作品是个小项目，怎么办？",
+        "summary": "作者 Kai Wong 提出了一个很现实的设计师困境：你做过的最扎实、最有思考深度的项目，可能规模很小——一个改版实验、一个内部工具、一次从零到一的探索——却很难在 portfolio review 或晋升答辩里说清楚它的影响力。文章给出了一套用 6 个 emoji 拆解设计影响的框架，把复杂的设计决策转换成可传达的叙事：从问题背景到约束条件、设计决策、结果、反思、可复用的洞察。他的核心论点是：小项目的问题不是规模小，是设计师不知道怎么把深度思考转化为可传达的价值语言。大项目靠规模掩盖了叙事弱点，小项目恰恰逼你把每一步决策都讲清楚。如果能做到，一个改版一个按钮颜色的故事，都可以比我参与了一个服务百万用户的产品更有说服力。",
+        "url": "https://uxdesign.cc/what-do-you-do-if-your-best-design-work-is-a-small-project-6d57e619d866",
+        "source": "UX Collective",
+        "why": "设计师的日常困惑：好工作没法讲好故事。这篇给了一套简单好用的叙事框架，对准备 portfolio 更新、晋升答辩、或者做内部设计 review 的人都有直接帮助。",
+        "type": "career"
+      }
+    ]
+  },
+  {
     "date": "2026-05-12",
     "items": [
       {
