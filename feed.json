@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-14",
+    "items": [
+      {
+        "title": "AI 透明感的界面设计实战（下）——告别 spinner，用真实语言告诉用户 AI 在干什么",
+        "summary": "传统 loading spinner 在 AI 时代彻底失灵——AI agent 的等待不是「在下载」，而是「在思考」。本文是 Smashing Magazine 系列的第二篇，聚焦如何用具体界面模式和文案策略，把 AI 的工作过程变成用户可理解的实时叙事。核心是「Agentic Update 公式」：Action Word + Specific Item + Limits，把模糊的 Searching for flights… 变成 Finding cheapest flights to NYC within your 500 budget。文章还揭示当下大量 AI 产品的共同失误：用 Loading 或 Working 这类占位符代替真实状态，不是极简，是设计缺席。以 Perplexity AI 为正面案例，展示如何用实时步骤列表将等待变成信任时刻。对任何在做 AI 产品的设计师，这篇文章提供了可直接落地的文案公式和透明度设计框架。",
+        "url": "https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/",
+        "source": "Smashing Magazine",
+        "why": "AI 产品等待状态是最被忽视的设计细节。文章给了可落地的文案公式，比大部分 AI UX 文章都具体得多。",
+        "type": "设计方法论",
+        "image": "https://files.smashing.media/articles/practical-interface-patterns-ai-transparency/practical-interface-patterns-ai-transparency.jpg"
+      },
+      {
+        "title": "Meta 推出「隐身对话」：号称首个 AI 公司连自己也看不见你聊什么",
+        "summary": "Zuckerberg 宣布 Meta AI 的新功能 Incognito Chat，声称这是业界首个真正端对端加密的 AI 对话——不只是不保存聊天记录，而是就算 Meta 自己也无法读取你的对话内容。其他 AI 产品的隐身模式通常只是不保存历史，但服务端依然可见所有内容；Meta 这次用 E2E 加密做了一个清晰的差异化切割。从产品设计角度看，这是把隐私从一项功能特性提升为技术架构级承诺的典型案例——用户不需要信任你的隐私政策，因为加密本身就不允许数据泄露。这种架构即信任的设计思路，对任何在做 AI 产品的设计师都有参考价值，尤其是在用户隐私焦虑日益上升的当下。",
+        "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+        "source": "The Verge",
+        "why": "把信任从 UI 层下沉到技术架构层——这是 AI 产品信任设计的新范式，值得思考。",
+        "type": "AI 产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/meta-ai-incognito-chats.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "Edge 升级：Copilot 现在能读懂你所有打开的标签页",
+        "summary": "Microsoft Edge 更新 Copilot AI，现在可以跨所有打开的标签页聚合并理解信息。用户可以让 AI 对比多个商品页面、总结打开的多篇文章、回答跨 tab 的问题。这是浏览器层面对全局上下文感知的一次大胆尝试——AI 不再只是侧边栏聊天框，而是能理解你整个 browsing session 的超级助手。从 UX 趋势角度，这是一个重要信号：AI 的价值正从单点问答，向感知整个工作 session 进化。Microsoft 同步合并了原有的 Copilot Mode，简化了 AI 功能入口架构，避免用户被不同 AI 模式搞晕——这本身也是一个产品简化的好案例。对做信息产品、知识工具、浏览器插件的设计师，这波趋势值得密切关注。",
+        "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+        "source": "The Verge",
+        "why": "浏览器层面的跨 tab 上下文 AI 正在成形——这对信息产品和知识工具的设计范式有直接影响。",
+        "type": "AI 产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24385267/STK148_Microsoft_Edge_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-13",
     "items": [
       {
