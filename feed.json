@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-15",
+    "items": [
+      {
+        "title": "AI 让人人都成了创作者，但没人成为设计师",
+        "summary": "生成式 AI 工具（v0、Cursor、Claude Code 等）把「从想法到界面」的距离压缩到了几秒钟。但这场技术变革带来的是产出的民主化，而不是设计判断力的民主化。文章指出当下 SaaS 产品正在陷入「界面趋同」困境——圆角卡片、中性无衬线字体、渐变 hero 区域、右下角 AI 助手，已成为所有产品的默认语法。根本原因在于：AI 工具能生成精美的静态截图，却无法提供跨状态的一致性、可预测的交互逻辑和统一的品牌基调。设计价值链的重心正从「生产」转向「判断」——核心问题从「我们能做出来吗？」变成「这个东西该存在于我们的产品系统里吗？」有创作意图的设计师，和只会 prompt 的创作者，差距会越来越大。",
+        "url": "https://uxdesign.cc/ai-made-everyone-a-creator-not-a-designer-e28deb6e603b",
+        "source": "UX Collective",
+        "why": "直接命中叉叉的工作场景：AI 时代设计师的价值在哪里，界面趋同怎么破。",
+        "type": "think-piece"
+      },
+      {
+        "title": "两个高维心智之间，只有一根一维管道",
+        "summary": "这篇文章从一个有趣的哲学视角切入 AI 产品设计：人类和 AI 模型都是高维的存在（处理海量参数和复杂语境），但它们之间沟通的媒介却是极度线性的——一句 prompt，一段文字。这种不对称制造了一个奇特的张力：两个复杂系统通过一根「一维管道」互相理解对方。作者探讨了这对产品交互设计意味着什么：设计 AI 产品不只是设计界面，更是在设计「人类意图如何被压缩成语言、再被 AI 解读和放大」的全链路体验。文章触及了 prompt 工程、意图表达与 AI 交互设计的核心矛盾，对想深入思考「AI 产品交互范式」的设计师很有启发，尤其适合在做对话界面或 AI 工作流产品的设计师阅读。",
+        "url": "https://uxdesign.cc/the-one-dimensional-pipe-between-two-high-dimensional-minds-7bc81c49627e",
+        "source": "UX Collective",
+        "why": "为想深入理解 AI 产品交互逻辑的设计师提供了哲学框架，角度新鲜。",
+        "type": "think-piece"
+      },
+      {
+        "title": "OpenAI Codex 进手机了：AI 写代码正在脱离桌面约束",
+        "summary": "OpenAI 宣布将 Codex（其桌面端 AI 编程工具，可以写代码并操作电脑应用）集成进 ChatGPT 手机 App。背景是 Anthropic 的 Claude Code 大受欢迎后，OpenAI 加速追赶，据报道为此大幅缩减了旁支项目。此举标志着 AI 编程工具的战场正式从桌面扩展到移动端。对设计师来说，这意味着两件事：一是随时随地用手机调整产品代码原型的场景会越来越真实；二是随着 AI 写代码工具的普及，产品 UI 的设计和交付路径会发生结构性变化——设计师和工程师的协作边界会继续模糊，「会用 AI 工具辅助实现想法」将成为基本能力要求。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+        "source": "The Verge",
+        "why": "AI 编程工具移动化是值得关注的产品趋势，对设计师的工作方式有直接影响。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/App-view.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-14",
     "items": [
       {
@@ -2131,7 +2161,7 @@
         "summary": "agent-browser（让 AI 操控浏览器）、sleek-design-mobile-apps（移动端设计 AI）、nano-banana-2（轻量 agent 框架）——对你最有用的是 agent-browser，和潮汕攻略那个案例同一类能力。",
         "url": "https://skills.sh/trending",
         "why": "每日热榜，了解 AI 工具生态动向",
-        "image": "https://skills.sh/og.jpeg"
+        "image": "https://www.skills.sh/og.jpeg"
       }
     ]
   }
