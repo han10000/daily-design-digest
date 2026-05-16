@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-16",
+    "items": [
+      {
+        "title": "设计师在产品团队里真正挣扎的是什么",
+        "summary": "NNGroup 对约 150 名设计师和研究员做了调查，结果出人意料：他们最头疼的既不是设计技能，也不是研究方法，而是「对齐」——让不同背景的人站到同一页面上。近半数反馈指向同一主题：促成跨职能对齐。设计师们把自己描述成团队的「粘合剂」，在工程、产品、市场和领导层之间穿针引线，却完全没有方法论或工具支撑这项工作。他们做的是组织层面的事，但没有人教过他们怎么做。调查还揭示了对设计影响力不足、目标模糊、跨时区协作困难等共同挣扎。NNGroup 的结论直接：设计师的核心挑战不在于造东西，而在于塑造「什么值得被造出来」。",
+        "url": "https://www.nngroup.com/articles/designers-product-teams/",
+        "source": "Nielsen Norman Group",
+        "why": "150 人样本、数据有支撑，直击大公司设计师的日常痛点——跨职能对齐、影响力建设，没有方法论却必须每天面对。",
+        "type": "design-career",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Designers_Actually_Struggle_-_CC.png"
+      },
+      {
+        "title": "人少反而跑得快：小型设计系统团队的优势",
+        "summary": "NNGroup 研究了设计系统团队的规模规律，发现一个反直觉的现象：设计系统团队不会随公司规模等比扩大。即便在 5000 人以上的大公司，设计系统团队平均只有 9-11 人，极少超过 25 人。这不仅仅是资源限制的结果，而更像是经过验证的最优解。多位从业者反馈：小团队更容易保持凝聚力和协调效率，能更清晰地维护系统愿景；大团队则容易陷入协调成本内耗和方向分歧。文章区分了两种小：「被动的资源不足」和「主动的战略精简」——只有后者才能让小团队发挥出超越自身规模的影响力。",
+        "url": "https://www.nngroup.com/articles/lean-design-system-teams/",
+        "source": "Nielsen Norman Group",
+        "why": "对在大公司维护设计系统的设计师很有参考价值——理解规模与效率的关系，找到让小团队高影响力运转的方式。",
+        "type": "design-systems",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UXwriting-CC_FZU7yrN.png"
+      },
+      {
+        "title": "10 个有数据撑腰的 UX ROI 真相",
+        "summary": "如何在会议室里为 UX 争取资源？这篇 Smashing Magazine 文章给出 10 条有数据支撑的论据。关键数据：在设计阶段修复问题的成本仅是上线后修复的 1/100（IBM 研究）；页面加载每延迟 1 秒，转化率下降 20%；用户在 50 毫秒内形成第一印象；94% 的第一印象与设计质量直接相关。作者是有多年 B2C 实战经验的 UX 设计师，曾仅靠删减视觉资源、压缩 1.2 秒加载时间，就直接带来交易量 12% 的提升。文章不是「设计小技巧」，而是把设计工作翻译成业务语言的武器库——0.1 秒的加载优化能带来 8.4% 的零售转化率提升，这种量级的数字，足以在任何汇报中站稳脚跟。",
+        "url": "https://smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/",
+        "source": "Smashing Magazine",
+        "why": "「说服利益相关方」是大公司设计师的必修课。这些有来源的数据公式化但管用，需要为设计争取资源时随时能拿出来说话。",
+        "type": "ux-research",
+        "image": "https://files.smashing.media/articles/data-backed-truths-user-experience-roi/data-backed-truths-user-experience-roi.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-15",
     "items": [
       {
