@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-17",
+    "items": [
+      {
+        "title": "你对 AI 有礼貌，是为了它，还是为了你自己？",
+        "summary": "从 1966 年的 ELIZA 程序说起——一个毫无智能的问答机器，却让用户当成朋友倾诉，甚至请发明者离开房间好私下聊天。这个「ELIZA 效应」揭示了一个根本性的人类行为模式：我们会自动把情感投射到任何能回应我们的东西上。文章深入分析了大语言模型时代这个效应的升级版：用户不只是「客气地说谢谢」，而是真的会调整自己的语气、词汇、甚至说话节奏来适应 AI（语言学术语叫「entrainment」）。更重要的是，这种调整可能反向影响我们与人类的沟通方式。研究显示 Gen Z 对 AI 的情感投入远超其他代际，女性用户使用 please/thank you 的比例比男性高 17 个百分点。对设计师的核心启示：你在产品里植入的 AI persona，不只是一个品牌风格问题，它在重塑用户的沟通习惯。",
+        "url": "https://uxdesign.cc/should-we-be-kind-to-machines-for-our-own-sake-really-26acf222af29",
+        "source": "UX Collective",
+        "why": "AI 产品的 tone of voice 设计通常被当作品牌工作，但这篇文章提醒设计师：AI persona 有心理学层面的长期影响，值得从更深的层面去设计和考量",
+        "type": "深度分析"
+      },
+      {
+        "title": "Sony AI 拍照助手翻车：当 AI 建议全都看起来很糟",
+        "summary": "Sony Xperia 1 XIII 的 AI Camera Assistant 功能在社交媒体上引发嘲笑——它给出的 4 个拍照建议方案看起来全部很差劲。Sony 随后出面解释：这个功能不是修图，而是基于光线/景深/主体给出曝光、色彩和背景虚化的调整建议。但解释并没有消除问题：如果用户看不懂为什么 AI 建议这样调整，建议本身就是噪音。这个案例完美展示了 AI 功能设计的一个核心陷阱：系统能生成结果，但无法传达意图。可解释性不是技术文档问题，是 UX 问题。一旦用户对 AI 建议失去信任，整个功能就形同虚设。文章还涉及 Sony 宣传视频里「推荐最佳拍摄角度」与实际功能之间的落差，揭示了 AI feature 过度宣传的风险。",
+        "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+        "source": "The Verge",
+        "why": "一个具体的 AI UX 失败案例：AI 给出的建议没有可解释性，用户无法建立信任。任何在产品里加 AI 建议功能的设计师都应该看",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/HIW4oV0XgAEmtI2.jpeg?quality=90&strip=all&crop=0,29.168083278796,100,52.356020942408"
+      },
+      {
+        "title": "YouTube 把 AI 深度伪造检测开放给所有成年用户",
+        "summary": "YouTube 将 AI 肖像相似度检测功能扩展至所有 18 岁以上用户。用户上传自拍后平台会持续监控是否有人上传了用你的脸合成的视频，一旦发现匹配即通知用户并可请求下架。此前该功能只向创作者、政客和记者开放。这是一个典型的「防御性 UX」设计案例：面对 AI 生成内容泛滥，平台开始将防御工具交还给普通用户。设计层面有几个有趣的问题：如何在不引发恐慌的前提下让用户知道这个功能的存在？如何设计「你的脸可能被滥用」这类敏感话题的 onboarding？以及当检测到匹配时，通知设计应该有多大程度的紧迫感？这类「保护用户数字身份」的功能将成为未来产品设计的重要方向。",
+        "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
+        "source": "The Verge",
+        "why": "AI 深度伪造普及在推动一种新的产品设计方向：数字身份保护。这个功能背后的 UX 挑战值得设计师思考——如何优雅地处理「你的脸被盗用」这类极其敏感的用户场景",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK419_DEEPFAKE_3_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-16",
     "items": [
       {
