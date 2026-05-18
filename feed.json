@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-18",
+    "items": [
+      {
+        "title": "Apple 用「隐私」打差异化牌：新 Siri 支持对话记录自动删除",
+        "summary": "据 Bloomberg 报道，Apple 将在 iOS 27 中推出新版 Siri（类似 chatbot 界面），核心差异化功能是可自定义的对话记录保存时长：30 天、一年或永久保存。这与竞争对手（OpenAI、Google）只提供无痕模式的策略形成鲜明对比，Apple 给了用户更精细的控制权。从产品设计角度看，这是一个典型的「用限制建立信任」的案例——在 AI 产品普遍焦虑隐私风险的当下，Apple 选择把控制权交给用户，而不是试图说服用户说「我们不会乱用你的数据」。当用户对某项技术有本能的不信任时，赋予可见、可控的退出机制，比任何隐私政策声明都更有说服力。对于正在做 AI 产品的设计师来说，这是直接可以参考的设计策略：把控制权的颗粒度变成产品特性，让用户觉得自己掌握着主动权。",
+        "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+        "source": "The Verge AI",
+        "why": "AI 产品里的隐私信任设计正在成为差异化核心。Apple 这个选择是设计师做 AI 产品时的直接参考案例。",
+        "type": "🔍 产品洞察",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10817647/acastro_180510_1777_siri_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "移动端认知衰退筛查 App 的设计课：跨文化、低焦虑、科学有效",
+        "summary": "这篇文章梳理了几款将临床认知评估转化为移动端自测工具的设计案例，揭示了几条对 UX 设计师有深度启发的原则。其中最有意思的是「文化中性」设计——比如 Cognetivity 的 ICA 测试利用人类识别动物的进化本能（「是否有动物」），替代了依赖文化背景知识的词语记忆测试。另一个重要发现：老年用户的测试焦虑会直接影响认知表现，因此界面设计必须主动降低用户对犯错的恐惧感，不只是做到可访问性合规。文章从真实医疗需求出发，涵盖跨文化 UX、老年用户研究、健康科技等多个方向，其中关于「把科学有效性和游戏化体验结合」的讨论尤其值得关注——用户愿意参与的测试，才是真正有效的测试。",
+        "url": "https://uxdesign.cc/how-mobile-apps-are-reshaping-screening-for-cognitive-decline-a26391fe3ae1",
+        "source": "UX Collective",
+        "why": "健康 UX 是被严重低估的设计领域。这篇文章的跨文化设计框架和降焦虑思路可以直接迁移到很多 B2C 产品设计中。",
+        "type": "🎨 设计深度"
+      },
+      {
+        "title": "毕业典礼现场嘘声：年轻一代对 AI 乐观主义的明确拒绝",
+        "summary": "前 Google CEO Eric Schmidt 在亚利桑那大学毕业典礼发表演讲，当话题转向 AI 时，台下学生多次发出嘘声。这个信号值得关注：当即将进入职场的年轻人——他们是 AI 工具的直接受益者和潜在受害者——对「AI 改变一切」的叙事表现出明确的反感，说明设计师面对的用户情绪远比产品圈自嗨的氛围复杂得多。他们并不是不理解 AI，而是在面对一个充满就业不确定性的未来时，对技术乐观主义感到愤怒。这对产品设计师是个重要的清醒剂：AI 功能的价值叙事必须从「很酷」转向「对你真正有帮助」，用户不信任那些帮助他们变得可替代的工具。设计时需要正视这种情绪，而不是假装它不存在。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+        "source": "The Verge AI",
+        "why": "了解真实用户对 AI 的情感态度，是做出有共情的 AI 产品的前提。这个故事是当前年轻用户情绪的一个缩影。",
+        "type": "📡 趋势信号",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23350482/1328571726.jpg?quality=90&strip=all&crop=0%2C10.675926728958%2C100%2C78.648146542083&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-17",
     "items": [
       {
