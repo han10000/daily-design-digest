@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-19",
+    "items": [
+      {
+        "title": "AI 产品的「等待」设计难题：一个被忽视了 40 年的数字",
+        "summary": "1982 年 IBM 研究员 Walter Doherty 提出「Doherty 阈值」：系统响应时间低于 400ms，用户才能维持心流状态、真正「与机器一起思考」而非「等待机器」。这篇文章指出，2023-2026 年几乎所有主流 AI 产品在发布时都完全无视了这个数字——chat 首字节需要 0.5-3 秒，完整回复需要 10-30 秒，reasoning 模型更长达 30-90 秒，agent 任务则以分钟计。作者通过用户录屏发现：用户在等待过程中切换了 tab，答案到了也不知道，于是重新问了同样的问题。文章梳理了从 Nielsen 三段响应时间理论到 Tognazzini 的「传达进度感」原则，论证「AI 等待」不是技术问题，是设计问题。核心建议：不能缩短等待时就要让等待变得有意义——进度可见、步骤可读、中间状态有价值。",
+        "url": "https://uxdesign.cc/the-waiting-problem-in-ai-products-e7c11fd5a825",
+        "source": "UX Collective",
+        "why": "做 AI 产品的设计师几乎每天都在处理「loading state」，但大多数人没有理论框架。这篇文章把 Doherty 阈值这个四十年前就被证明的 HCI 结论直接套到 AI 产品上，论证清晰、数据扎实。看完之后审视自己手上的任何 AI 产品，loading 设计马上会有新的切入点。",
+        "type": "design-practice"
+      },
+      {
+        "title": "首个开放 AI Agent 排行榜上线：谁是当前最强 agent？",
+        "summary": "IBM Research 联合 Hugging Face 发布了 Open Agent Leaderboard，对当前主流开源和商业 AI agent 进行系统性评测，涵盖任务规划、工具调用、多步骤推理、错误恢复等核心能力维度。这是目前第一个完全开放方法论、可复现的 agent benchmark。对产品设计师来说，这份榜单的价值不在于「哪个 agent 分数高」，而在于它定义了 agent 能力的坐标系——你设计 agent 功能时用户期望的能力边界是什么、哪些任务 agent 当前仍然高频失败、失败模式是什么。理解 agent 的真实能力天花板，能帮助设计师在功能期望与实际体验之间找到诚实的平衡点，避免过度承诺导致的信任崩塌。",
+        "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+        "source": "Hugging Face Blog",
+        "why": "agent 产品的设计师最大的难点之一是「不知道 agent 能做什么」——没有标准参照，只能靠试错。这个排行榜第一次建立了公开的能力坐标系，设计师可以用它来校准功能范围、设计合适的引导和失败处理方案，是做 agent UI 的必读参考。",
+        "type": "ai-tool",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/5fc0292de45c5468456e022b/CpwVutMu5EiniBliQ9RXs.png"
+      },
+      {
+        "title": "Musk 诉 Altman 案落幕：AI 行业是否被「错误的人」掌控？",
+        "summary": "历时近一个月的 Musk v. Altman 案以陪审团仅用两小时裁定「因超过诉讼时效驳回所有诉求」告终。但 The Verge 的分析认为，这场审判真正的遗产不是法律结果，而是它让公众看到了 AI 行业顶层权力结构的真实状态：马斯克、Altman、Brockman、微软 CEO Nadella 等人的证词共同描绘出一幅「几乎没有人值得完全信任」的图景。文章直接提出：AI 的未来方向由这批「气质上无法掌控权力」的人决定，是一个结构性风险。这对产品设计师的启示在于：当我们讨论 AI 产品的伦理设计和透明度时，背后的组织治理真空是一个不可忽视的上下文。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
+        "source": "The Verge AI",
+        "why": "这不是八卦，是行业背景。在微软工作的设计师尤其应该有这个视角——你的产品和 OpenAI 深度绑定，了解 AI 权力结构的现状，有助于在内部做产品决策时保持清醒。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25739950/247386_Elon_Musk_Open_AI_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-18",
     "items": [
       {
