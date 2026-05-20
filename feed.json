@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-20",
+    "items": [
+      {
+        "title": "Google 想用一个搜索框包办你的一切",
+        "summary": "Google I/O 2026 的主旋律不是新模型，是一次交互范式的宣言。搜索框本身在升级：输入时动态扩展，AI 建议超越自动补全，结果页变成按你的习惯生成的个性化 UI——包含交互图表和实时数据。更激进的是，你可以直接在搜索框里创建信息 Agent，持续跟踪你关心的事（比如新鞋发售、房源更新）。Gemini 的 Daily Brief 能扫描你的 Gmail 和 Calendar 生成一日简报；Gemini Spark 允许你搭自己的 AI Agent；Universal Cart 打通 Search、Gmail、YouTube 的购物体验。这不只是功能堆叠——它在暗示：未来用户不会去搜索，而是让 Google 替我做。对于产品设计师，这个转变意味着我们设计的很多信息架构和导航模式，正在被一个全知搜索框消解。",
+        "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
+        "source": "The Verge",
+        "why": "Google I/O 2026 核心趋势总结，一篇文章看清搜索+AI Agent 的范式转移，对做 AI 产品的设计师极有参考价值",
+        "type": "industry-trend",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/lcimg-036c9a25-7169-4853-846e-94fd035c259f.jpeg?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
+      },
+      {
+        "title": "Google 的 AI 未来，靠你先交出所有数据",
+        "summary": "Google I/O 2026 发布的 Gemini Spark、Daily Brief 等功能听起来很魔法，但背后的运作逻辑是：Gemini 需要读取你的 Gmail、Calendar、Photos、Drive、搜索历史，才能真正有用。文章深入分析了这个悖论：这些功能技术上是可选的 opt-in，但 Google 的整个 AI 战略实际上依赖于用户大规模选择接入个人数据。Personal Intelligence 已有数百万用户每天使用，而 Gemini Spark 更进一步，24/7 在后台主动扫描数据、生成更新。作者指出这是 Google 在 AI 竞争中对抗 OpenAI、Anthropic 的核心优势——第一方数据 + 一键接入。对产品设计师来说，这是一堂关于 AI 产品信任设计的真实案例：当功能的价值与隐私代价深度绑定，如何设计 consent、控制感和透明度？",
+        "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
+        "source": "The Verge",
+        "why": "AI 产品的信任设计难题，Google 是最真实的案例——数据深度整合带来的 UX 挑战，设计师必须提前想清楚",
+        "type": "product-design",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gemini-spark-tasks.png?quality=90&strip=all&crop=0.50140845070423%2C0%2C98.997183098592%2C100&w=1200"
+      },
+      {
+        "title": "设计伦理框架的地基在松动，我们需要比五大原则更深的东西",
+        "summary": "作者是 Seton Hall 大学设计教授，他创建了一套伦理界面设计框架，基于五大原则：Inclusion、Autonomy、Transparency、Privacy、Well-Being。但随着研究的深入，他发现了一个哲学漏洞：这五个原则都根植于西方世俗道德哲学，而后者本质上是流动的、相对的——它无法解释为什么一种道德主张应该优先于另一种，只能靠社会共识或权力协商。他由此转向奥古斯丁和阿奎那的天主教哲学传统，探索其中对善的超越性定位，是否能为界面伦理提供更稳固的根基。文章不是要你信教，而是提出一个设计行业很少被认真追问的问题：我们设计的道德假设，到底建立在什么之上？在 AI 产品飞速扩张、设计决策影响数亿人行为的今天，这个问题从学术变成了职业责任。",
+        "url": "https://uxdesign.cc/the-case-for-catholic-philosophy-in-ethical-interface-design-c5a30b729e4b",
+        "source": "UX Collective",
+        "why": "挑战设计师最熟悉的伦理框架，追问它们的哲学根基——在 AI 时代，设计决策的道德基础值得被认真审视",
+        "type": "design-thinking"
+      }
+    ]
+  },
+  {
     "date": "2026-05-19",
     "items": [
       {
