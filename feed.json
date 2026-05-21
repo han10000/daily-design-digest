@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-21",
+    "items": [
+      {
+        "title": "手机也要 vibe code 了 — Google 提出「生成式 UI」",
+        "summary": "Google I/O 2026 宣布了一个对 Product Designer 来说信息量极大的概念：generative UI。具体形态是：用户可以通过 AI Studio 用自然语言在几分钟内生成一个 Android 原生应用，也可以用 prompt 生成手机桌面小组件（比如定制气象数据展示或食谱推荐）。Google Android 总裁 Sameer Samat 说，他们并不想每天早上让设备拥有不同的 UI，但认为个性化定制的空间可以令人惊喜。这背后指向一个更大的方向：如果「按需生成界面」成为现实，固定 UI 设计的很多前提都要被重写。这不仅是工具层面的变化，更是对 designer 身份的一次重新定位：你设计的不再只是一个静态产品，而是一套能被 AI 动态解释和生成的规则系统。Apple 也在同步跟进，传闻正在研发类似的自动 Shortcuts 生成功能。",
+        "url": "https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts",
+        "source": "The Verge",
+        "why": "「生成式 UI」概念首次被主流厂商认真提出——手机根据用户需要动态生成界面和应用。这是 Product Designer 需要提前预判的范式转移：设计的终态可能不是 pixel-perfect 的稿，而是能被 AI 理解和执行的设计意图。",
+        "type": "industry-trend",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258002_Google_Pixel_10_Pro_Fold_AJohnson_0010.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+      },
+      {
+        "title": "Google 正式下场 AI 设计工具，发布「Pics」直接对战 Canva 和 Claude Design",
+        "summary": "Google I/O 2026 上，Google 发布了 Pics——一个内置于 Google Workspace 的 AI 原生设计工具，定位是让任何人（老师、小商家、非设计师）都能用自然语言 prompt 生成社媒配图、邀请函、营销素材和 mockup。Pics 最关键的产品思路不是单纯生图，而是生成后的每个元素都可以直接编辑——你可以像在 Google Docs 里批注一样点击某个局部留下修改意见，也可以直接手动编辑文字。技术上由 Gemini 驱动，图像生成依赖 Google 新模型 Nano Banana 2，主打精准文字渲染和现实世界知识。Google 明确承认现有 AI 生图工具的核心痛点：改一个细节往往要整个重来——Pics 的设计目标就是解决这个问题。这款产品的出现，标志着 AI 设计工具竞争从 Canva 和初创公司之间的战争，正式升级为科技巨头的全面入场。",
+        "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+        "source": "TechCrunch",
+        "why": "AI 设计工具赛道一周内连续三强出牌（Anthropic Claude Design、Canva、Google Pics），叉叉作为 designer 值得关注这场竞争的产品思路差异——尤其 Pics 「生成 + 可直接编辑」的组合，是当前 AI 设计工具里比较清醒的用户需求判断。",
+        "type": "product-launch",
+        "image": "https://techcrunch.com/wp-content/uploads/2026/05/google-pics.png?resize=1200,736"
+      },
+      {
+        "title": "Google 说 AI 能「解决所有疾病」——先冷静一下",
+        "summary": "Google DeepMind CEO Demis Hassabis 在 I/O 2026 的主题演讲最后，以完全平淡的表情说道，公司希望「重新构想药物发现流程，目标是有朝一日解决所有疾病」。The Verge 专栏作者 Victoria Song 写了一篇专门拆解这句话的文章：从 AlphaFold 到 AlphaGenome，Google DeepMind 在生物领域确实有真实成果，但「解决所有疾病」这类表述背后隐藏着巨大的跳跃——从蛋白质折叠预测到实际药物开发之间，有漫长的验证周期和现实复杂性。这篇文章对 Product Designer 的价值不是科学内容本身，而是它提供了一个清醒的思维框架：当 AI 公司在发布会上做大声明时，如何区分真正的技术里程碑和为产品推广服务的叙事放大——这是 AI 时代每个产品人都需要练习的判断力。",
+        "url": "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
+        "source": "The Verge",
+        "why": "AI 时代的产品人需要能分辨技术突破和营销叙事。这篇文章是一个很好的示范：不否定 AI 在科学领域的真实进展，但把「解决所有疾病」这样的大词还原回具体问题——是产品思维清醒度的训练。",
+        "type": "perspective",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/demishassabis.webp?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-20",
     "items": [
       {
