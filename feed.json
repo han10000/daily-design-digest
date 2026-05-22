@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-22",
+    "items": [
+      {
+        "title": "从设计界面到设计「人类+AI 系统」：这是职业生涯中最大的范式转移",
+        "summary": "作者 Daniel Ruston 在过去 20 年亲历了 HCI → Web 设计 → 移动 → AR/VR → AI 的每一轮技术更迭。他认为今天站在的这个节点与以往不同——不是「界面换了一张脸」，而是产品设计的底层逻辑正在被重写。我们正从「设计玻璃屏和按钮」转向「定义和设计人类-AI 系统」。过去，产品设计师的核心工作是把用户目标映射到 UI 交互；而在 Agentic AI 时代，产品的核心不再是界面，而是「系统如何感知、判断、行动，以及在哪里让人类介入」。文章把这次转变命名为一次「架构层面的转移」——不只是工具和流程的变化，而是「产品是什么」的根本重新定义。对于一直在问「设计师在 AI 时代到底做什么」的人，这篇给了一个有力的答案框架。",
+        "url": "https://uxdesign.cc/designing-the-human-ai-system-d7f6fc8bf772",
+        "source": "UX Collective",
+        "why": "直接回答「设计师在 Agent 时代的角色转变」这个核心问题，不是焦虑文也不是鸡汤，是有职业纵深的结构性分析。",
+        "type": "思维框架"
+      },
+      {
+        "title": "AI UX 债务：vibe coding 造出来的「幽灵产品」正在成为下一个技术债",
+        "summary": "文章从一个场景开始：一个独立开发者深夜用一段自然语言提示词，几秒内生成了带 glassmorphism 效果的完整 Web App。代码流出来了，动效也对了，感觉赢了——但这正是问题的开始。作者 Zeeshan Khalid 把这种现象称为「AI UX debt」：vibe coding 生成的界面可以迅速通过视觉验收，但底层的信息架构、可访问性、状态管理、错误处理几乎全部缺席。产品看起来完成了，实际上是一具「幽灵」——外表光鲜，核心空洞。更危险的是，这类债务很难被发现，因为它不表现为 bug，而是「用起来哪里不对劲，但说不清楚在哪」的那种用户摩擦。文章提出，随着 AI 辅助开发工具在 2026 年全面普及，这将成为比传统技术债更难偿还的新型瓶颈，因为它天然对抗可见性。这篇适合拿给任何在讨论「要不要 vibe code 产品」的团队成员看。",
+        "url": "https://uxdesign.cc/ai-ux-debt-a-new-bottleneck-ed91c256b86b",
+        "source": "UX Collective",
+        "why": "精准命名了一个所有人都感受到但还没有标准词汇描述的现象。对设计师和 PM 都有直接的决策参考价值。",
+        "type": "行业洞察"
+      },
+      {
+        "title": "CSS 新属性 sibling-index() 和 sibling-count()：告别 nth-child 地狱，一行搞定交错动画",
+        "summary": "Smashing Magazine 的这篇文章介绍了 CSS Values Level 5 规范中两个刚刚落地的函数：sibling-index() 和 sibling-count()。过去要做「卡片依次淡入」这类交错动画，要么写 10 条 :nth-child() 规则各自 hardcode 一个 --index 变量，要么用 JavaScript 循环注入内联样式——两种方案都让人觉得「一定是哪里不对，应该有更好的方法」。现在有了：li { animation-delay: calc(sibling-index() * 100ms); } 一行，适用于 5 个元素或 5000 个元素，不需要 JS，不需要 Sass 循环，浏览器本来就知道每个元素是第几个子节点，CSS 现在终于能访问这个信息了。文章还介绍了规范路线图中即将加入的 children-count() 和 descendant-count()，以及 sibling-index(of .selector) 语法。对于在 Figma 做了动效标注、却总发现开发实现起来很别扭的设计师，了解这个属性能帮你更合理地描述「我想要什么感觉」。",
+        "url": "https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/",
+        "source": "Smashing Magazine",
+        "why": "这类「终于有了」的 CSS 更新会直接改变动效标注的沟通方式。设计师知道这个，和开发聊动效时会少很多摩擦。",
+        "type": "技术工具",
+        "image": "https://files.smashing.media/articles/mathematical-layouts-sibling-index-sibling-count/mathematical-layouts-sibling-index-sibling-count.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "items": [
       {
