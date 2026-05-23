@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-23",
+    "items": [
+      {
+        "title": "设计师的「草稿陷阱」：你做的不是交付物，是思考工具",
+        "summary": "NNGroup 的 Laura Klein 提出了「设计消耗品（design disposables）」概念——那些用来帮助思考而非交付给他人的粗糙产出物：早期概念草图、白板便利贴、没人看的研究计划初稿。问题在于，很多设计师从不区分这两种产出，开始一个模糊问题的探索时，就直接做出精心排版、带标注的「正式」文件。做完了舍不得扔，沉没成本让他们看不见缺陷，反而拖慢了探索效率。文章还点出 AI 让这个问题「更难」了——AI 可以帮你几秒内生成精致的草图，但精致反而遮蔽了「这个方向值得继续吗」的判断。作者建议：在动手之前先问自己，这个东西是做给别人看的还是帮自己想清楚的。这个判断如果做对了，会解放 60% 的设计时间。",
+        "url": "https://www.nngroup.com/articles/design-disposables/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 时代设计工具越来越快，越来越精致，但「精致感」本身在误导我们——让探索阶段的成本感觉比实际高，做更少的发散。这篇文章命名了一个所有人都有但没人说清楚的问题。",
+        "type": "design-process",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/B-CC.png"
+      },
+      {
+        "title": "用户说的话只是第一层：理解用户行为的四个层次",
+        "summary": "Smashing Magazine 这篇文章介绍了 Hannah Shamji 的四层用户理解框架：第一层「他们说了什么」（最表面，最不可靠）；第二层「他们认为和感受到什么」（受记忆和偏好影响）；第三层「他们实际做了什么」（行为数据、任务分析）；第四层「为什么这样做」（深层动机，需要信任关系和重复访谈才能触达）。文章用大量研究佐证：人们不总是知道自己的真实动机，表达时会夸大、聚焦边缘场景、偏向短期目标。甚至语言本身都不可靠——「有可能」和「很可能」在不同人口中指的概率区间相差极大。作者建议，做用户研究时不要只停留在 survey/NPS 层面，要主动用四个维度交叉验证，才能接近真实的用户画像。这个框架对产品决策和 research 计划都有直接指导价值。",
+        "url": "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/",
+        "source": "Smashing Magazine",
+        "why": "产品设计里最常见的错误之一就是把用户说的话当成行为数据。这个框架把「要挖多深」这件事结构化了，在任何 research 计划里都能直接套用。",
+        "type": "ux-research",
+        "image": "https://files.smashing.media/articles/four-levels-customer-understanding/four-levels-customer-understanding.jpg"
+      },
+      {
+        "title": "设计评审结束后最重要的一步：把反馈的去向告诉提反馈的人",
+        "summary": "NNGroup 的 Rachel Krause 发现，大多数团队花大量时间准备和主持设计评审，但评审结束后反馈就进了文档再没人看。这是评审文化悄悄崩溃的根本原因：提了反馈的人不知道自己的意见有没有被采纳，久而久之就停止认真参与。文章提出两种跟进机制：一是「即时会后小结」——一条 Slack 消息说清楚什么会做、什么还在研究、什么不做了；二是「深度跟进」——在方案迭代后，明确告诉每个人「这个改动是因为你上次说的那句话」。后者是真正建立信任的环节。作者的核心观点：展示「之前-之后」不只是展示进展，而是把反馈和结果之间的因果关系显性化，让参与感真实可见。对于任何需要影响跨职能团队决策的设计师来说，这是立竿见影的文化建设技巧。",
+        "url": "https://www.nngroup.com/articles/after-design-critique/",
+        "source": "Nielsen Norman Group",
+        "why": "大公司里设计评审文化很容易流于形式——叉叉在微软这种大型跨部门环境里工作，这篇文章提供的两个具体动作可以直接用，成本极低但影响力很高。",
+        "type": "design-culture",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png"
+      }
+    ]
+  },
+  {
     "date": "2026-05-22",
     "items": [
       {
