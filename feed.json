@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-24",
+    "items": [
+      {
+        "title": "设计师怎样真正「掌握」AI 工具？来自 Salesforce 46 人团队的 6 个月实验",
+        "summary": "文章记录了 Salesforce Service UX 团队 46 位设计师参与的为期 6 个月 AI 共学实验。核心发现是：掌握一个 AI 工具并不意味着学会「正确使用」，而是把工具弯曲适应自己的思维方式——每个人的路径都不一样，没有统一答案。研究员 Fatimah Richmond 用 NotebookLM 挖掘多年积压的研究档案；不同设计师展示了截然不同的个人 workflow，从 Cursor 到 Wispr Flow，每个人都在塑造属于自己的「使用语言」。文章挑战了「统一培训全员」的传统企业做法，提出真正的 AI 掌握是发散的、高度个人化的、永远没有终点的。还直面了设计师们心里最真实的焦虑：这些工具足够好之后，我的工作还在吗？对任何正在摸索 AI workflow 的设计师来说，这篇文章既是案例研究，也是一种方法论许可：「你不需要和别人一样掌握，找到你自己的弯法就够了。」",
+        "url": "https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945",
+        "source": "UX Collective",
+        "why": "叉叉在微软做设计，身处和这篇文章一样的处境——组织在推 AI 工具，但没有人告诉你「掌握」到底意味着什么。这个真实案例提供的不是工具列表，而是一种思维框架：mastery is divergent and personal。",
+        "type": "ux-strategy"
+      },
+      {
+        "title": "搜索「disregard」，Google AI 回你：「好的，有什么我能帮你的？」",
+        "summary": "5 月 22 日，用户发现 Google AI Overviews 出现了一个荒诞 bug：搜索「disregard」「ignore」「skip」等词时，AI 不再生成正常内容摘要，而是像聊天机器人一样回复「收到！有什么我能帮你的？」——这些词语触发了底层大模型的「服从指令」模式，让搜索功能完全失效。Google 官方承认是系统「误将行动类查询解读为指令」，并迅速下线了这些词语的 AI Overview。这是一个极其直观的 prompt injection（提示注入）案例：用户的搜索词直接劫持了 AI 的行为，完全越过了设计者的意图。搞笑之余，这个 bug 暴露了所有基于大模型的产品都面临的结构性漏洞：当「用户的文字」和「给 AI 的指令」共享同一个处理通道，边界就很脆弱。对设计师的直接价值：任何嵌入 AI 的搜索框、输入表单、对话入口，都需要在设计阶段就考虑鲁棒性——这不只是工程问题，更是 UX 的安全设计维度。",
+        "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
+        "source": "The Verge",
+        "why": "这个 bug 把「AI 产品 UX 安全」从抽象概念变成了可以截图给 stakeholder 看的真实案例。设计 AI 功能时，「用户会输入什么奇怪的东西」应该是设计 checklist 的一部分，不只是测试环节的事。",
+        "type": "ai-product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Screenshot-2026-05-22-at-8.44.28AM.png?quality=90&strip=all&crop=0%2C13.100144814526%2C100%2C73.799710370948&w=1200"
+      },
+      {
+        "title": "亲测 Google Gemini Omni：「任意媒体互转」AI 的真实能力边界",
+        "summary": "Google I/O 2026 发布的 Gemini Omni Flash 现已在视频生成平台 Flow 上线，目标是实现「任意输入→任意输出」：照片、视频、文本之间可以任意互转。The Verge 记者做了一次实测，用一只毛绒玩具鹿的图片和文字描述生成了一系列旅行视频：角色一致性比前代 Veo 明显提升，模型甚至能自主发挥创意（让鹿把蜂蜜误当防晒霜涂）；但 AI 特有的跳变问题依然存在——道具形态随帧改变、最后一帧完全失控、角色体态随机翻转。视频内编辑功能比 Veo 有所改善，但效果仍然不稳定。作者的结论是：Omni 代表真实的技术进步，但「任意转任意」距离真正可靠的创作工具还有不小的距离。对产品设计师的参考价值：当你评估在产品里集成 AI 视频/多模态生成能力时，需要用这种实测眼光理解真实的能力边界，而不是被发布会演示迷惑——了解「坏的时候有多坏」和「好的时候有多好」同样重要。",
+        "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+        "source": "The Verge",
+        "why": "多模态 AI 正在快速进入设计工具链。这篇 hands-on 不是 hype，是务实的能力评估——帮你在「可以用 AI 生成这个」和「这个 AI 还不够稳定」之间划一条现实的线。",
+        "type": "ai-tools",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/ai-label-19.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-23",
     "items": [
       {
@@ -2140,8 +2171,7 @@
         "summary": "Fiddle.Digital 团队在做品牌网站时发现 GSAP 等主流动效库优化深度不够，自建了 StringTune——轻量 JS 动效库，核心是「复杂效果用简单方法，尽量纯 CSS」。网站本身是产品压力测试，加载大量高要求设计方案确保高负荷下流畅。",
         "url": "https://www.awwwards.com/stringtune-for-core-web-animations.html",
         "why": "动效性能是前端设计师经常忽略的维度。StringTune 的思路——先问能不能用 CSS 实现，再考虑 JS——是一个值得内化的设计决策框架。",
-        "publishedAt": "2026-03-04",
-        "image": "https://assets.awwwards.com/awards/images/2026/03/st-cs-thumbnail.jpg"
+        "publishedAt": "2026-03-04"
       }
     ]
   },
