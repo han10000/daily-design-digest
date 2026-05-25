@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-25",
+    "items": [
+      {
+        "title": "你不再是用户，你是「委托人」",
+        "summary": "Adrian Levy 以 Google I/O 2026 为锚点，深刻剖析了 AI agent 时代最根本的设计范式转移。当 Gemini Spark 可以在你睡觉时替你处理邮件、扫描账单，当 Android Halo 只是手机角落一个光点、告诉你「有什么事正在以你的名义发生」，「用户」这个词就失效了。新的角色叫「委托人（principal）」——用户不再操作系统，而是授权代理去执行。这一字之差，撕开了整个 UX 学科的地基：affordance、learnability、mental model、导航——这些概念全都是为「在场的操作者」服务的，对「不在场的委托人」没有意义。作者援引 John Maeda（微软 VP）提出的「从 UX 到 AX」转变，以及 Ethan Mollick 的框架，指出核心跳跃是从「执行鸿沟」到「评估鸿沟」：设计师未来设计的对象是代理，判断标准是「代理是否按照委托人的真实意图行动」，而非「界面是否让用户顺利操作」。这是今年迄今最值得每个设计师读的一篇。",
+        "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+        "source": "UX Collective",
+        "why": "直接命中当下 AI 产品设计的核心困惑——当 agent 替用户行动，设计师的工作对象是谁？这篇文章给了最清晰的概念框架。在微软做设计，这个问题每天都在发生。",
+        "type": "deep-read"
+      },
+      {
+        "title": "黑客开始攻击聊天机器人的「人格」——Persona 设计不只是 UX 问题",
+        "summary": "第一代 AI 聊天机器人的越狱极其简单，有时只需礼貌请求它「忽略规则」。但随着模型拥有越来越鲜明的「个性」，攻击方式也随之进化。攻击者开始系统研究模型的 persona：如果它被设定成「总是帮助用户」，就把恶意请求包装成「帮助」形式；如果它「绝不拒绝对话」，就用角色扮演场景让它在虚构中执行真实危害。这篇文章揭示了一个反直觉的设计悖论：「有帮助的」「温暖的」「从不让用户失望」——这些听起来像是优质 UX 的人格设定，恰恰可能成为安全漏洞。模型越有个性、越「像人」，被社会工程攻击的面就越大。对产品设计师来说，这意味着：你在 system prompt 里写下的每一句语气要求、每一个性格约束，不只是 UX 决策，也是安全边界的划定。The Verge 的深度周刊 The Stepback 出品，值得收藏。",
+        "url": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+        "source": "The Verge",
+        "why": "做 AI 产品设计时，Persona 设计往往被当作纯粹的 UX 问题。这篇文章让你意识到，你赋予 AI 的「好性格」，可能正在被人利用。",
+        "type": "watch",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0005_3.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "NVIDIA 发布扩散语言模型：并行生成 + 可修订——打开 AI 写作 UX 的新设计空间",
+        "summary": "传统自回归语言模型逐词生成、每个 token 一旦输出不可修改——这是当前所有 AI 写作工具 UX 的技术前提。NVIDIA Nemotron-Labs Diffusion 系列（3B/8B/14B）引入全新范式：一次并行生成多个 token，再反复迭代精炼。两个关键突破：一是速度，GPU 从「等内存」变成「做计算」，大幅提升吞吐；二是可修订性，模型能回过头改之前生成的词，而非一路向前不回头。对 UX 设计的含义远不止速度：可修订性意味着 AI 写作工具可以设计成「草稿-精炼」的交互循环，而非现在「一次输出、不可更改」的单向流；用户看到的第一版是起点而非终点。此外，减少精炼步骤可以动态降低算力，这给「低延迟草稿模式 vs 高质量精炼模式」的 UX 分层提供了技术基础。全系列开源，商业友好许可证。",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+        "source": "Hugging Face Blog",
+        "why": "技术范式决定交互范式。自回归模型的「逐词单向输出」是当前 AI 写作 UX 的天花板，扩散模型的可修订性打开了新的设计空间——草稿循环、动态质量分级、可介入的生成过程。值得提前看到这个底层变化。",
+        "type": "tech",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/nemotron-labs-diffusion.png"
+      }
+    ]
+  },
+  {
     "date": "2026-05-24",
     "items": [
       {
@@ -2171,7 +2202,8 @@
         "summary": "Fiddle.Digital 团队在做品牌网站时发现 GSAP 等主流动效库优化深度不够，自建了 StringTune——轻量 JS 动效库，核心是「复杂效果用简单方法，尽量纯 CSS」。网站本身是产品压力测试，加载大量高要求设计方案确保高负荷下流畅。",
         "url": "https://www.awwwards.com/stringtune-for-core-web-animations.html",
         "why": "动效性能是前端设计师经常忽略的维度。StringTune 的思路——先问能不能用 CSS 实现，再考虑 JS——是一个值得内化的设计决策框架。",
-        "publishedAt": "2026-03-04"
+        "publishedAt": "2026-03-04",
+        "image": "https://assets.awwwards.com/awards/images/2026/03/st-cs-thumbnail.jpg"
       }
     ]
   },
