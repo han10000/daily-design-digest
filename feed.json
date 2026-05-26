@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-26",
+    "items": [
+      {
+        "title": "设计的用户已不只是人类：我们该如何同时为机器设计？",
+        "summary": "设计系统从业者 Allie Paschal 发现了一个正在悄悄发生的范式裂缝：她的组件文档的「用户」已经不只是设计师和工程师，还有 AI 工具。原本对人类自然易懂的指引——「在需要强调时使用这个变体」——对机器来说毫无意义，因为机器无法推断「强调」的边界在哪。文章从 Don Norman 的《日常事物的设计》出发，追问当「用户」同时包含人类与机器时，以人为中心的设计思维是否还能成立。作者提出三个让设计文档机器可读的方向：用明确的输入输出条件替换主观描述、用 if-else 逻辑替代弹性建议、将文字说明结构化为设计 token 和组件属性。这不只是设计系统的技术迭代，而是整个 UX 职业的底层假设在松动——我们正在同时为两种截然不同的「理解方式」设计，一种靠直觉，一种靠规则。",
+        "url": "https://uxdesign.cc/should-i-design-for-humans-or-machines-3b8d3addd006",
+        "source": "UX Collective",
+        "why": "设计系统正在被 AI 工具消费，不只是人类。这道裂缝会越来越大，早想清楚的设计师会更从容。",
+        "type": "设计思维"
+      },
+      {
+        "title": "教皇发布 42000 字通谕：AI 时代，做一个「深刻的人类」",
+        "summary": "教皇利奥十四世于5月25日发布了其任内首份重大文件《Magnifica Humanitas》（宏大的人性），这份超过4.2万字的通谕专门论述「在人工智能时代守护人的尊严」。文件警告 AI 驱动战争的风险、AI 对劳动力的冲击，以及现有法律和伦理框架的严重滞后。教皇将当下比作巴别塔时代，警惕将一切包括人的奥秘都翻译成数据和绩效的冲动。通谕提出具体主张：自动化和 AI 引入需配套社会标准和工人再培训项目；致命武力的使用决策权必须留在人类手中；算法用于招聘或资源分配时必须透明可问责。值得注意的是，Anthropic 联合创始人 Christopher Olah 出席了通谕发布仪式，Amazon、Meta 等公司代表也与教皇会面。利奥十四世选择此papal名，正是致敬工业革命时期发布劳工保护通谕的前任教皇利奥十三世——这个类比本身就是一个信号。",
+        "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+        "source": "The Verge",
+        "why": "覆盖十几亿人的机构正式发声，「人的尊严」将越来越成为产品评判标准。Anthropic 出席发布仪式，AI 公司的社会角色博弈已进入新阶段。",
+        "type": "AI + 伦理",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2278126608.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.487862082976&w=1200"
+      },
+      {
+        "title": "AI Agent 术语大扫盲：Harness、Scaffold、Context Engineering 到底是什么？",
+        "summary": "Hugging Face 发布了一篇 AI Agent 术语澄清文章，起因是研究员在 ICLR 2026 大会上发现 harness 和 scaffold 两个词被不同人用完全不同的方式解释，没有任何收敛。文章系统梳理了 agent 架构的核心词汇：Model 是 LLM 本体，单独没有记忆和循环；Scaffolding 是行为定义层，包括 system prompt、工具描述和上下文管理；Harness 是执行层，负责调用模型、处理工具调用、决定何时停止；Agent 是把这些包裹在一起的整体。Context Engineering 指精心管理传给模型的上下文，而非只是「写 prompt」。文章还澄清了 Claude Code 官方文档中把整个系统叫做 harness 的广义用法与学术区分的差异。对设计师的价值是双重的：一是与工程师协作时说同一种语言，减少需求传递中的语义摩擦；二是在设计 AI 产品交互时，能更准确判断自己在设计的究竟是哪一层——这直接影响设计决策的切入点。",
+        "url": "https://huggingface.co/blog/agent-glossary",
+        "source": "Hugging Face Blog",
+        "why": "AI agent 产品越来越多，设计师如果搞不清楚 scaffold 和 harness 的区别，和工程师开会会很痛苦。这篇是目前最清晰的一次整理。",
+        "type": "AI 工具",
+        "image": "https://huggingface.co/blog/assets/agent-glossary/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "items": [
       {
