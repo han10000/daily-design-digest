@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-27",
+    "items": [
+      {
+        "title": "书封面是一段关系，不是一张图",
+        "summary": "这篇文章从产品设计视角重新解读了书封面的本质。作者 Urszula Kluz 指出，书封面既不是包装，也不是广告——它是一个贯穿读者整个阅读生命周期的「关系对象」，会随着读者理解的加深而改变意义。她以 Marcin Wicha 的《我如何停止热爱设计》为例：设计师 Przemek Dębowski 故意选用最朴素的纸张、Times New Roman 字体和 Word 排版，制造了一个「用最反设计的方式设计出最设计感的封面」的悖论。这种减法思维——不是追求「好看」，而是追求「意义生长」——对产品设计同样成立。你设计的 onboarding flow、空状态、错误提示，是否也在和用户建立一段随时间演变的关系？这篇文章是对「设计对象的时间维度」少有的认真讨论。",
+        "url": "https://uxdesign.cc/the-book-cover-as-a-relational-object-288fb15deff1",
+        "source": "UX Collective",
+        "why": "用书封面设计打开了「设计的时间维度」这个话题——产品中有哪些设计是活的、会随用户成长而变化的？这是叉叉做 AI 产品时值得追问的问题。",
+        "type": "design-thinking"
+      },
+      {
+        "title": "Sundar Pichai：搜索正在消失，AI agent 是下一个搜索框",
+        "summary": "这是 Google I/O 后 Nilay Patel 对 Sundar Pichai 的年度深访，也是今年最值得读的一次 CEO 对话。Sundar 坦承 ChatGPT 出现时他重新审视了 Google 的运作方式，并做了大量架构调整。最核心的信号：新的 Google Search 正在把「搜索」和「Gemini Spark agent」融合——搜索不再只是「找答案」，而是「启动任务」。Nilay 几年前提出的「Google Zero」（Google 流量归零，因为它直接在搜索页答完问题）已经从预言变成了整个媒体行业的现实。更激进的是，Google 在用 YouTube 视频训练模型，并让 YouTube 搜索直接跳到视频的相关片段——这意味着内容创作者也即将经历 publishers 正在经历的流量崩塌。对做 AI 产品的 designer 来说，这次访谈描绘了未来两三年信息产品的地形：入口在变，意图在变，「搜索」这个交互范式本身在消失。",
+        "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+        "source": "The Verge",
+        "why": "Google 搜索的变化直接影响所有信息产品的入口逻辑。Sundar 首次清晰描述了「搜索触发任务」的产品图景，是做 AI 产品 designer 的必读背景。",
+        "type": "industry-insight",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/DCD_2026.05.26_Sundar_Google.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "你的原型在对用户撒谎——以及如何修掉这个 bug",
+        "summary": "Smashing Magazine 这篇文章触及了用研中的一个沉默陷阱：当参与者意识到这是「假的」原型时，他们的行为就开始表演，而不是真实反应——所有后续数据都被这层滤镜污染了。尤其是金融产品，用户对「感觉不对」的东西极为敏感：余额不合逻辑、任意输入都能通过的登录框……这些细节让用户瞬间出戏。文章以 ProtoPie 为例，展示了如何在不写代码的情况下，让登录流程真的「验证」用户名和密码、真的显示错误状态、真的呈现 Face ID 动画。核心洞察是：找到建立用户信任的那一个关键触点，让那个交互变真。不是把整个原型做成产品级，而是精准干预「信任建立时刻」。这对设计师做 usability test 的心智模型是一次很有价值的更新。",
+        "url": "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/",
+        "source": "Smashing Magazine",
+        "why": "原型保真度不是「越高越好」的线性关系，而是要精准命中「信任建立时刻」。这个框架比笼统的「high-fi vs lo-fi」更实用，对任何做用研的 designer 都有直接价值。",
+        "type": "ux-craft",
+        "image": "https://files.smashing.media/articles/prototype-users-fix-protopie/prototype-users-fix-protopie.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-26",
     "items": [
       {
