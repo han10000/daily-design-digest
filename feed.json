@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-05-28",
+    "items": [
+      {
+        "title": "AI 的 onboarding 黑洞：为什么天才产品死在第一屏",
+        "summary": "一位拥有十年经验的 UX 设计师尝试安装一款被誉为「超越 ChatGPT 和 Claude」的欧洲 AI 产品，却在 60 秒内被迷宫般的 onboarding 流程击败——层层嵌套的权限设置、加密标签的输入框、找不到起点的配置面板。文章从这个亲身经历出发，深入探讨了 AI 产品面临的信任鸿沟：当 70% 的用户已经害怕被 AI 时代抛下，糟糕的 onboarding 设计正在把他们进一步推开。作者指出，问题不在于 AI 本身够不够智能，而在于设计师是否把「建立信任」当作第一目标，而非展示功能。AI 能力越强，onboarding 设计的责任反而越重——这是 2026 年 AI 产品设计最核心的悖论之一。",
+        "url": "https://uxdesign.cc/the-trust-gap-between-ai-and-humans-ccea4c503702",
+        "source": "UX Collective",
+        "why": "直击 AI 产品设计的核心矛盾：技术越强大，第一印象越脆弱。对做 AI 产品的设计师有直接参考价值，onboarding 设计是当下被严重低估的战场。",
+        "type": "ux-insight"
+      },
+      {
+        "title": "冥想 10 天沉默回来，我想聊聊 AI 时代的共情",
+        "summary": "作者参加了 10 天 Vipassana 冥想禅修，每天 10 小时打坐，与手机、语言和书写完全隔绝。出关后他意外发现自己重新拥有了久违的「临在感」——能真正听到对方在说什么，感受对方在想什么。文章把这段经历与 AI 设计联结起来：当 AI 正在接管越来越多「感知用户」的工作，当我们依赖工具来模拟共情，设计师自身的感知能力是在进化还是在萎缩？作者认为共情从来不是一种方法论，而是一种存在方式。AI 可以模拟同理心，可以生成「符合情感模式」的设计，但无法真正在场。这正是设计师最后也最坚实的护城河——不是技能，是人性本身。",
+        "url": "https://uxdesign.cc/we-havent-lost-the-battle-for-empathy-have-we-af31d1226da2",
+        "source": "UX Collective",
+        "why": "超越了工具讨论，触碰到「设计师身份」这个更根本的问题。在 AI 加速的当下，是一篇值得慢读、不追热点的文章。",
+        "type": "design-thinking"
+      },
+      {
+        "title": "Robinhood 允许 AI agent 自主炒股——agentic UX 的控制设计长什么样",
+        "summary": "Robinhood 宣布通过 MCP 协议向 AI agent 开放交易权限，用户可以给 agent 分配一笔资金，让它自主决策买卖股票、再平衡投资组合，甚至用 AI agent 刷虚拟信用卡购物。这是消费金融领域第一个重量级的 agentic UX 落地案例。值得设计师拆解的是 Robinhood 的「人类控制层」：每笔交易实时推送通知、可查看 agent 活动流、随时暂停按钮、可选的手动审批模式。这套「给 agent 权限但保留人类插手权」的设计框架，几乎是所有高风险 agentic 产品的标准答案。文章也坦诚承认当前 AI agent 还远未达到「全自动」水平——但这个产品已经在定义用户对 agentic AI 的信任边界了。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
+        "source": "The Verge",
+        "why": "第一个真实落地的消费级 agentic finance 产品案例。agent 权限边界 + 控制 UI 的设计思路对任何在做 AI agent 产品的设计师都有直接参考价值。",
+        "type": "product-case",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/acastro_STK049_03.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "items": [
       {
