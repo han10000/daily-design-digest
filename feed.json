@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-29",
+    "items": [
+      {
+        "title": "用 1999 年的方式设计 AI 产品",
+        "summary": "作者 Patrick Neeman 把当下的 AI 产品设计时代和 1999 年的早期 Web 设计时代做了一个让人耳目一新的类比：两个时代都没有成熟的设计规范、工具还在边用边造、浏览器兼容问题就是今天的模型差异。他引用 VC John Doerr 的「13-14 年技术浪潮」理论（1980 PC → 1994 Internet → 2007 Mobile → 2022 AI），论证我们正处在 AI 浪潮的最前端，而不是中段。最有力的一句：AI 领域的那些「约定俗成」还没人占位——现在正在做产品的人，就是在写给下一代设计师继承的规则。MCP 协议从 Anthropic 发布到被 ChatGPT/Gemini/Copilot 全部采用只用了一年，比 HTML/CSS 的标准化快得多。文章最后提醒：很多现在听起来高大上的词（比如 ambient AI）其实不过是花哨的 cron job，规范还远没到位。",
+        "url": "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644",
+        "source": "UX Collective",
+        "why": "叉叉在微软做 AI 产品设计，这篇提供了一个绝佳的时代坐标感——不是「AI 来了怎么办」的焦虑，而是「历史上这种时刻的人做了什么」的底气。适合收藏反复看。",
+        "type": "think"
+      },
+      {
+        "title": "Microsoft 365 Copilot 大改版：速度翻倍，渐进式披露代替功能堆砌",
+        "summary": "微软正式发布重新设计的 Microsoft 365 Copilot，宣称加载速度提升 2 倍，同时带来更清洁的界面。最值得关注的设计决策是「progressive disclosure（渐进式披露）」：Copilot 不再一股脑展示所有工具和控件，而是根据你当前的 prompt 动态呈现相关选项。这直接解决了早期 Copilot「功能太多不知从何下手」的体验问题。此外，升级的提示框支持直接在 Copilot 界面内格式化文本，扩展后可以容纳更长的内容。改版在 desktop 和 mobile 同步推出。这是微软对「AI 界面应该长什么样」的一次明确表态：少就是多，让上下文决定界面。",
+        "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
+        "source": "The Verge",
+        "why": "叉叉在微软做设计，M365 Copilot 的界面方向跟内部工作直接相关。「渐进式披露」在 AI 产品里的应用值得深挖——这是 AI 产品从「能用」走向「好用」的关键设计模式之一。",
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/M365Copilot_Hero_BannerImage_1920x1080.webp?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "CSS contrast-color() 来了：浏览器原生自动修复无障碍颜色对比",
+        "summary": "Smashing Magazine 深度解析了 CSS Level 5 的新函数 contrast-color()：只需一行声明，浏览器就能自动判断用哪种文字颜色（黑或白）能在当前背景上达到最佳对比度，完全不需要 JavaScript 或构建步骤。文章开篇就亮出残酷数据：2025 年仍有 70% 的网站无法通过基础 WCAG 对比度检测，2026 年主页违规率反而升到 83.9%——多年的 JS 库和 linter 根本没有移动这根针。contrast-color() 在浏览器渲染样式时就计算完毕，页面绘制前已经确定颜色，不存在闪烁或水合延迟。文章还提醒旧名称 color-contrast() 已废弃，直接改用新名即可。对于做设计系统和 token 的设计师来说，这是一个「应该早就有」的 CSS 原语。",
+        "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
+        "source": "Smashing Magazine",
+        "why": "设计系统里无障碍颜色一直是「人人知道重要、实际上没做好」的问题。这个 CSS 原生方案把解决方案内嵌进平台层，设计师在 token 层面一次设置、永远生效——这才是真正的系统思维。",
+        "type": "craft",
+        "image": "https://files.smashing.media/articles/building-self-correcting-color-systems-contrast-color/building-self-correcting-color-systems-contrast-color.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "items": [
       {
