@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-30",
+    "items": [
+      {
+        "title": "让用研真正影响 Roadmap 的 11 个策略",
+        "summary": "这篇文章来自 NNGroup 资深导师 Laura Klein，针对设计师最普遍的痛点——做完的研究被礼貌地搁置。核心论点：让研究上路，关键不是找到「魔法词」让 PM 在意 UX，而是更早介入、更刻意行动、更流利地说 roadmap 的语言。文章给出 11 条极具体的策略，覆盖从「摸清 roadmap 真正拍板的时间点（而不是 Confluence 页面上线的时候）」到「找 roadmap 上没人记得为什么在的条目——那才是你的切入口」。最关键的操作建议：在方案上桌之前就进入 discovery、把研究发现翻译成 PM 语言（KPI、收入影响、风险降低），以及「不只分享 findings，而是明确给出建议」。在大公司里，UX 被边缘化几乎都不是因为 PM 不在乎用户，而是因为设计师太晚出现——等 roadmap 分享出来的时候决定早就做了一半。",
+        "url": "https://www.nngroup.com/articles/research-recommendations-roadmap/",
+        "source": "Nielsen Norman Group",
+        "why": "微软这种大公司里，研究被搁置是高频痛点。这篇把「为什么研究不上路」拆解得很具体，而且全是可立即操作的动作，不是「要更好沟通」这类废话建议。",
+        "type": "设计实战",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Research-cc.png"
+      },
+      {
+        "title": "用户根本不读文字——但你还是可以让他们发现新功能",
+        "summary": "文章从认知科学出发解释用户为什么跳过文字：现代网页阅读是任务驱动的，不是消遣驱动的，大家都被认知超载，眼睛自动寻找捷径而非线性阅读。NNGroup 经典 F-pattern 研究表明，用户会优先捕捉：标题、每行第一个词、数字、加粗文字和图片说明——其余基本被跳过。所以，为新功能写 onboarding 或 discovery 内容时，正确策略不是写更完整的说明，而是把最关键的信息精准放在扫视路径上。文章给出具体操作技巧：用动词开头的标题、把「用户能做什么」放进第一句话、用视觉层级（大小、粗细、空白）引导注意力、tooltip 文案控制在一行内。AI 产品时代，每次发版都带来新功能，如何用最少的文字让用户发现并理解价值，是设计师绕不过去的高频挑战。",
+        "url": "https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb",
+        "source": "UX Collective",
+        "why": "feature onboarding 没人读是几乎所有产品设计师的老难题。这篇把认知科学和实际写法连起来，有理有据，直接可用。",
+        "type": "UX 写作"
+      },
+      {
+        "title": "Jony Ive 的跑车大考：Ferrari Luce 是设计勇气还是失控？",
+        "summary": "Ferrari 首款纯电车 Luce 由 Jony Ive 和 Marc Newson（LoveFrom 工作室）主导设计，外观与传统 Ferrari 截然不同——圆润、简洁、带点 Apple 味，被大量 Ferrari 粉丝痛批「这不像 Ferrari，更像大众」。Vergecast 本期深度讨论了几个关键设计问题：Ive 的设计哲学是否在这次跨界中「溢出」了？Ferrari 为何如此迫切地想逃离自己的遗产？新的交互设计和车内界面语言，有没有可能向下渗透到更亲民的车型？这个案例对数字产品设计师有特别的参考意义——当一个极具个人风格的设计师进入全新品类，品牌 DNA 和设计语言的张力会如何爆发？Ive 在 Apple 的减法美学，放到一辆需要激情感和驾驶仪式感的 supercar 上，是在开拓新范式，还是在用错误的锤子砸一颗螺丝钉？",
+        "url": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
+        "source": "The Verge",
+        "why": "Jony Ive 离开 Apple 后最大的作品之一，是检验「设计哲学能不能跨品类迁移」的绝佳案例。极简主义遭遇情感驱动品牌，会发生什么——对做 AI 产品设计的叉叉来说，这个问题比任何 UX 教条都有意思。",
+        "type": "设计文化",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/VRG_VST_052926_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-05-29",
     "items": [
       {
