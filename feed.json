@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-05-31",
+    "items": [
+      {
+        "title": "不靠直觉，用数据分配研究资源：RAS 框架实战指南",
+        "summary": "NNGroup 这篇是 RAS 系列第三篇，也是最实用的一篇。前两篇建立了「research breakage」概念和 RAS（推荐采纳率）的计算方式，这篇直接告诉管理者：怎么用这个数字做资源决策。核心论点很犀利——大多数研究主管分配资源靠直觉、靠谁叫得响或先到先得，这些方式根本无法最大化研究团队的影响力。RAS 的价值不只是暴露哪些研究建议没被落地，更是帮管理者识别「高落地率团队」vs「资源浪费团队」，进而做出数据驱动的分配决策。对于在大公司（如微软）里做设计研究、需要对上汇报研究价值的设计师来说，这套框架可以直接拿来用。研究做了没人听？这篇文章让你有东西可以量化地反驳。",
+        "url": "https://www.nngroup.com/articles/ras-research-resource-allocation/",
+        "source": "Nielsen Norman Group",
+        "why": "在大公司里做设计，最难的往往不是研究方法，而是让研究影响决策。RAS 框架提供了一套量化工具，让「研究影响力」从软性感知变成可追踪的指标——这在需要向 PM 和管理层证明 UX Research ROI 的场景里非常有用。",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Using_RAS_-_CC.png"
+      },
+      {
+        "title": "AI 泡沫里，这个前 Meta 工程师拒绝 VC、做了一个网站——然后赢了",
+        "summary": "Craig Campbell 卖掉上一个创业项目的时间点完美踩在 AI 热潮最高点，VC 们排队给他开「空头支票」让他去做 AI 公司。他拒绝了，转头做了 Past Maps——一个叠加历史地图与现代地图的网站，最初来自他的金属探测爱好。三年后，月活从 2 万涨到 30 万，靠订阅收入养活了自己和妻子。没有融资，没有 AI 噱头，靠的是扎实的 SEO、真实的用户需求、和「这就是网络本来应该有的样子」的朴素哲学。Campbell 说：「旧式网络没死，只是活在一个个非常细分的小生态里。」反讽的是，他同时大量使用 AI 工具来提升运营效率——只是没有把 AI 变成产品本身。对产品设计师来说，这个故事是关于产品哲学最好的案例：专注一件真正有趣的事，远比追风口更可持续。",
+        "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+        "source": "The Verge",
+        "why": "当所有人都在讨论「AI first」的时候，这个故事提供了一个反例：真正的产品力来自对用户需求的深度专注，而不是跟风。Past Maps 的增长路径——从 Reddit 上分享、到 SEO 自然增长、到订阅变现——是一个非常「设计师式」的产品思维：从真实问题出发，减法胜加法。",
+        "type": "product-thinking",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Screenshot-2026-05-27-at-11.17.27AM.png?quality=90&strip=all&crop=0%2C9.2187253673634%2C100%2C81.562549265273&w=1200"
+      },
+      {
+        "title": "顶尖 AI 模型在企业 IT Agent 任务上得分不到 50%——第一个权威基准出炉",
+        "summary": "IBM Research 和 Artificial Analysis 联合发布了 ITBench-AA，这是业界第一个专门测试「AI Agent 处理企业 IT 任务」能力的基准测试。测试覆盖真实场景：线上故障处理（incident response）、DevOps 自动化、基础设施调试等。结果令人冷静——当前最强的前沿模型（包括 GPT-4o、Claude Opus 等）准确率均低于 50%。这并非说 AI 无用，而是说「企业级 Agentic AI」还远没到「可以放手让它跑」的阶段。对产品设计师来说，这个数据有双重价值：一是帮你校准 AI Agent 的真实能力边界，避免在产品设计里过度依赖自动化；二是提醒你——凡是需要高可靠性的企业场景，人在回路（Human in the Loop）的设计依然是刚需，不是妥协。",
+        "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+        "source": "Hugging Face Blog",
+        "why": "叉叉在微软做设计，AI 辅助场景的产品决策里「给 AI 多少自主权」是高频问题。这个 benchmark 提供了来自学术界的真实数据支撑，让「AI Agent 应该有多大的自动化程度」的讨论从感性判断变成有依据的设计决策。",
+        "type": "ai-industry",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/QzGxABeEDggNYzvgSLQqU.png"
+      }
+    ]
+  },
+  {
     "date": "2026-05-30",
     "items": [
       {
