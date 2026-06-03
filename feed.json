@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-03",
+    "items": [
+      {
+        "title": "AI 文档疲劳的设计解法：一个设计师怎么从屏幕前逃出来",
+        "summary": "一个设计师发现了 AI 时代最大的反讽：原本承诺减少工作的 AI，反而催生了更多 AI 生成的文档需要人来审阅。作者 Heenesh Patel 受不了每天盯屏幕看那些枯燥的产品文档，于是自己设计并开发了一个叫 ARC（Audio Review Companion）的语音优先应用。核心流程是：导入 Google Doc → AI 朗读文档内容 → 用户随时语音打断并发表评论 → AI 自动把评论写回文档。设计目标非常明确：不需要坐在桌前、不需要看屏幕、双手解放可以同时做其他事。文章梳理了他排除现有工具的过程——Speechify 不支持对 Google Doc 写回评论，NotebookLM 只能做摘要——最终决定自己构建。整个案例是一个「为自己设计」的典型示范，从真实痛点出发，边界清晰，解法克制。",
+        "url": "https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669",
+        "source": "UX Collective",
+        "why": "AI 正在加速信息生产，但消费端的体验设计几乎没人在做。这篇文章触碰了一个鲜少被讨论的问题：当 AI 成为内容生产加速器，大量 AI 生成内容的「可消化性」本身就是一个设计课题。而作者给出的答案——把文档审阅从「视觉任务」变成「听觉任务」——是一个很有启发性的模态重构思路。",
+        "type": "case-study"
+      },
+      {
+        "title": "Microsoft Build 2026 七大亮点：always-on AI 助手、自研推理模型全线登场",
+        "summary": "微软开发者大会 Build 2026 发布了一批重量级 AI 产品更新。硬件方面：Surface RTX Spark Dev Box 搭载 Nvidia 全新 Arm 架构芯片 + 128GB 内存，专为本地运行 AI 模型设计，是 Qualcomm 取消开发套件后的直接替代品。模型方面：微软推出自研第一个高级推理模型 MAI-1（MAI Thinking 1），正式进入推理模型赛道。产品方面：一个「always-on」AI 个人助手概念产品亮相，意味着微软正在重新定义 Windows 上的 AI 常驻体验。整个 Build 发布标志着微软从「AI 功能叠加」全面转向「AI 原生产品架构」，从硬件到模型到操作系统层全线重构。",
+        "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+        "source": "The Verge",
+        "why": "Build 是 Windows/Azure 生态每年最重要的风向标。今年 always-on AI 助手 + 本地推理设备的组合，意味着设计师很快要面对一个新命题：在「AI 常驻环境」下如何设计界面——不是 AI 作为功能入口，而是 AI 作为持续存在的背景层。这个转变对交互范式的影响，和当年从桌面到移动一样根本。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/nadella-build-2026.png?quality=90&strip=all&crop=0%2C2.9395307941329%2C100%2C94.120938411734&w=1200"
+      },
+      {
+        "title": "Holo3.1：更快、可本地部署的计算机操控 Agent，UI 不只是给人看的了",
+        "summary": "H Company 发布了 computer use agent 系列新版本 Holo3.1，核心升级是速度大幅提升并支持完全本地部署。Holo3.1 能够自主操控计算机界面完成复杂任务——分析屏幕截图、点击按钮、填写表单、拖拽元素——整套动作无需人工干预。前代 Holo3 已经在 computer use 领域有较高评价，这次本地化部署的加入大幅降低了集成门槛，让企业或个人开发者可以在自己的设备上运行完整的 agent 能力。从设计角度看，这类 agent 改变了「界面」的本质定义：UI 不再只是给人看和操作的，它同时是 AI agent 的操作对象。agent 能否正确理解一个按钮、识别一个表单，开始直接取决于界面设计的质量。",
+        "url": "https://huggingface.co/blog/Hcompany/holo31",
+        "source": "Hugging Face Blog",
+        "why": "Computer use agents 正在把「自动化操作 UI」变成主流产品能力。设计师不只要为人设计，还要为 AI agent 设计——组件命名、层级清晰度、可操作性语义，都变成了新的设计标准。本地部署让这类能力更快落地，设计师需要尽早理解这个新的「使用者」。",
+        "type": "ai-tools",
+        "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/Hcompany/holo31.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-02",
     "items": [
       {
