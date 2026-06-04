@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-06-04",
+    "items": [
+      {
+        "title": "让你的设计系统真正 AI-Ready：三层架构实战指南",
+        "summary": "AI 生成的原型质量差，问题往往不在模型，在设计系统本身——决策没有文档化、变量硬编码、规则靠 AI 自己猜。Atlassian 设计师 Hardik Pandya 总结了一套实用框架：把设计决策当作基础设施，每次做出决策就写进 Spec Files（结构化 Markdown 文件，包含间距规则、颜色选择、组件使用指南）；用 Token Layer 给 AI 提供封闭变量集，避免它自由发挥；用 FigmaLint 插件审计设计系统的一致性，检测 detached instances、missing interactive states 等常见问题。Smashing 的文章还延伸到「Context Engineering」的概念——AI 的输出质量取决于它能读到多清晰的上下文，Spec Files 本质上就是在做这件事。对于正在摸索怎么让 Cursor/Claude Code 按设计系统出稿的设计师来说，这篇非常值得仔细读。",
+        "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+        "source": "Smashing Magazine",
+        "why": "实操性极强，直接解决「AI 生成原型不符合设计规范」这个高频痛点，FigmaLint 工具 + Spec Files 架构可以立刻上手试用。",
+        "type": "workflow/tool",
+        "image": "https://files.smashing.media/articles/how-make-design-system-ai-ready/how-make-design-system-ai-ready.jpg"
+      },
+      {
+        "title": "AI 越能干，那个空洞的承诺就越清晰",
+        "summary": "The Verge 的 TC Sottek 这周观察了 Google Gemini Spark 的两篇体验报道——这个 AI agent 甚至能记住记者的狗叫什么、妻子的名字，完全没有被明确告知过。效果令人窒息，但 Sottek 追问的问题是：我们在为谁解决什么问题？「生产力」被当作万灵药推销了几十年，AI 公司现在承诺修复的，很多恰恰是这些公司自己造成的问题——无边界的工作、永远 urgent 的通知、work-life blur。文章援引法国「断网权」立法，以及他母亲剪优惠券的童年记忆：AI 助手或许能帮找到最优惠的超市折扣，但它永远修复不了让折扣变成刚需的经济结构。对做 AI 产品的设计师来说，这篇提供了一个重要的校准视角：我们在让谁的什么变得更容易，这件事值得还是不值得？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+        "source": "The Verge",
+        "why": "好的 AI 产品设计需要先想清楚「为什么」。这篇文章是一剂反思剂，防止设计师在优化 engagement 的路上忘了问：这件事该被优化吗？",
+        "type": "perspective",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/11503853/mdoying_180419_1777_0454_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "亚马逊搜索框新功能：AI 帮你「想象」你想买的东西，但那东西不存在",
+        "summary": "亚马逊在 App 搜索栏里加了一个 AI 图像生成功能：当你描述一件商品但不知道准确名字时（比如「带垂领的衬衫」而不是专业术语「cowl neck」），搜索框会生成 AI 图像帮你「看到」你脑子里的东西，然后用这张图去搜索相似的真实商品。功能目前限于服装和家居。这个设计模式很值得琢磨：它把「表达意图」的障碍从语言文字转移到了视觉——让用户点「最接近的那张图」而不是打出他们叫不出名字的词。Google Shopping 的 AI Mode 去年已有类似功能。另一个更有趣的相关功能是「shop by style」——Amazon 会生成 AI 穿搭拼图，但拼图里的衣服是真实可购买的商品，AI 生成的只是场景图，这是两个完全不同的设计决策，值得对比思考。",
+        "url": "https://www.theverge.com/tech/942547/amazon-search-bar-ai-images",
+        "source": "The Verge",
+        "why": "AI 改写电商搜索的具体设计案例，Amazon + Google 都在探索「视觉意图表达」这条路。对做任何搜索/发现类功能的设计师，这是现成的模式参考。",
+        "type": "product/UX case",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/amazon-ai-search.png?quality=90&strip=all&crop=0%2C4.865499187579%2C100%2C90.269001624842&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-03",
     "items": [
       {
@@ -2068,8 +2100,7 @@
         "summary": "《Crimson Desert》发布后被玩家发现游戏内含有 AI 生成画作，开发商 Pearl Abyss 公开道歉，承认确实用了 AI 生成素材，但解释这些内容「原计划在发布前替换掉」，因故未能完成。这个事件揭示了 AI 素材在游戏/产品开发中的实际使用现状：AI 生成内容正在被大量用于生产 pipeline 的中间阶段（占位图、参考材料、快速原型），但公开承认受到强烈反弹。用户对 AI 素材的排斥程度远高于业界估计，且「原打算换掉」这类说法没有减少反弹。核心设计问题：当 AI 素材不可区分于人工创作时，是否存在「透明度义务」？",
         "url": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
         "why": "跟设计师日常非常相关的实际案例：AI 资产在产品中的使用边界和披露义务正在成为行业共识问题，而不只是「道德选择」。下次你在产品里用 AI 生成图时，这个案例值得想一想。",
-        "publishedAt": "2026-03-22",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/found-this-ai-painting-v0-otfba7ufh8qg1.webp?quality=90&strip=all&crop=0,3.4229797217454,100,93.154040556509"
+        "publishedAt": "2026-03-22"
       },
       {
         "source": "Hugging Face Blog",
