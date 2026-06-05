@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-05",
+    "items": [
+      {
+        "title": "「创新」的修辞面具：一个词如何让我们在证明进步之前就声称进步",
+        "summary": "这篇文章解剖了「创新」这个词在科技、设计、医疗等行业的滥用问题。Merriam-Webster 对创新的定义仅仅是「新的想法、方法或设备」——强调的是新颖，而非改善。这就创造了一个语言陷阱：公司可以推出让用户体验更差的「新」设计，然后把它称为创新。文章区分了「创新」（引入新事物）和「进步」（判断变化让事情变得更好）这两个常被混淆的概念。三轮车 Reliant Robin 被作为反例：它是「创新」的（解决了燃油成本问题），但因为容易侧翻，很难说是进步。抗生素和智能手机则更复杂，两者都扩展了人类能力，却也带来了深远的负面后果。文章追问的核心问题是：「创新」这个词在多大程度上是一个修辞工具，用来把正面联想提前转嫁给一个还未证明自身价值的新事物？对设计师的启示：下次你说某个功能「更创新」的时候，请想想——你的意思是它是新的，还是它真的更好？这两件事不是同一回事。",
+        "url": "https://uxdesign.cc/the-rhetorical-mask-of-innovation-12f3abcd6120",
+        "source": "UX Collective",
+        "why": "设计师每天都在用「创新」这个词说服自己和他人，但这篇文章提醒我们：新颖不等于改善。在 AI 功能大爆发的当下，这种批判性思维尤为珍贵——多少「AI 赋能」的功能只是换了个界面？",
+        "type": "观点"
+      },
+      {
+        "title": "为人类和 AI Agent 同时设计 CLI：HuggingFace 的双受众产品实践",
+        "summary": "HuggingFace 重新设计了 hf 命令行工具，以同时服务于两类用户：人类和 AI 编程 Agent（Claude Code、Codex、Cursor 等）。关键发现是这两类用户需要完全相反的输出格式：人类需要富文本终端输出（ANSI 颜色、截断对齐的表格、进度条、友好提示），而 AI Agent 需要的是相反的一切（无 ANSI 色彩、不截断、密集结构化输出、无交互提示）。HuggingFace 通过检测环境变量（如 CLAUDECODE、CODEX_SANDBOX）自动识别当前用户是人类还是 Agent，然后为同一条命令渲染不同格式的输出。数据显示，使用 hf CLI 后，AI Agent 在复杂多步骤任务中消耗的 token 比直接用 curl 或 Python SDK 少 6 倍。仅在 2026 年 4 月就追踪到 Claude Code 约 4 万用户发出近 4900 万次请求。这是一个真实的「同一个产品，多套渲染逻辑」的双受众设计案例，展示了当非人类用户成为主流之后，信息架构需要如何根本性地重设。",
+        "url": "https://huggingface.co/blog/hf-cli-for-agents",
+        "source": "Hugging Face Blog",
+        "why": "这不只是一个工程博客——这是关于「非人类用户」的产品设计案例。当 AI Agent 成为你产品的主力用户之一，设计语言、信息密度、交互模式都需要重新思考。这是 2026 年最值得关注的设计趋势之一。",
+        "type": "工具/案例",
+        "image": "https://huggingface.co/blog/assets/hf-cli-for-agents/thumbnail.png"
+      },
+      {
+        "title": "台积电：AI 需求太大，「我们只能支撑这么多」——芯片短缺正在成为产品设计的隐形约束",
+        "summary": "台积电 CEO 魏哲家在股东大会后表示，AI 芯片需求已经超过台积电的最大生产能力，「客户需求太高，我们只能支撑这么多，正在尽力确保台积电不成为瓶颈」。这一表态的背景是：AI 算力消耗正在以前所未有的速度增长，已经造成 RAM 和 NAND Flash 内存的全球性短缺，这种短缺预计将持续数年。对于产品设计师，这条新闻的真正意义在于供给约束的传导效应：AI 算力不是无限便宜的——当半导体供应链层面都在拉警报，「随处是 AI」的设计模式将越来越昂贵且不稳定。设计师需要更有意识地问：这个场景真的值得调用 AI？还是规则引擎或更简单的方案就够了？历史上，供给约束往往倒逼更好的设计决策。",
+        "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+        "source": "The Verge",
+        "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "items": [
       {
@@ -2100,7 +2131,8 @@
         "summary": "《Crimson Desert》发布后被玩家发现游戏内含有 AI 生成画作，开发商 Pearl Abyss 公开道歉，承认确实用了 AI 生成素材，但解释这些内容「原计划在发布前替换掉」，因故未能完成。这个事件揭示了 AI 素材在游戏/产品开发中的实际使用现状：AI 生成内容正在被大量用于生产 pipeline 的中间阶段（占位图、参考材料、快速原型），但公开承认受到强烈反弹。用户对 AI 素材的排斥程度远高于业界估计，且「原打算换掉」这类说法没有减少反弹。核心设计问题：当 AI 素材不可区分于人工创作时，是否存在「透明度义务」？",
         "url": "https://www.theverge.com/games/898771/crimson-desert-dev-apologizes-ai-art",
         "why": "跟设计师日常非常相关的实际案例：AI 资产在产品中的使用边界和披露义务正在成为行业共识问题，而不只是「道德选择」。下次你在产品里用 AI 生成图时，这个案例值得想一想。",
-        "publishedAt": "2026-03-22"
+        "publishedAt": "2026-03-22",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/found-this-ai-painting-v0-otfba7ufh8qg1.webp?quality=90&strip=all&crop=0,3.4229797217454,100,93.154040556509"
       },
       {
         "source": "Hugging Face Blog",
