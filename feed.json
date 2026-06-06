@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-06",
+    "items": [
+      {
+        "title": "AI 给设计师造了四个新岗位（目前为止）",
+        "summary": "NNGroup 最新研究发现，「AI 设计」这个标签已经分叉成四种本质不同的工作：一是用 AI 工具辅助设计执行（组件变体生成、设计系统扩展）；二是设计 AI 产品的界面（Chat UI、Agent UI 等对话型产品）；三是构建 AI 能解析的数据结构（Prompt 工程、信息架构重构）；四是定义 LLM 本身的行为（系统提示、护栏设计）。这四类工作所需的技能、思维方式和产出物完全不同，但当下全部被混同为「AI 设计师」。对于正在做 AI 产品的 Designer 来说，搞清楚自己在做哪一种、对应要发展哪些能力，比追赶所有 AI 工具重要得多。",
+        "url": "https://www.nngroup.com/articles/design-jobs-ai-created/",
+        "source": "Nielsen Norman Group",
+        "why": "把设计师在 AI 时代的角色分拆得清晰、可操作，帮叉叉想清楚自己在微软做的 AI 产品设计属于哪个分支、该投哪个方向",
+        "type": "design-strategy",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Four_Design_Jobs_AI_Created-1.png"
+      },
+      {
+        "title": "设计没死，只是换了几个花哨的新名字",
+        "summary": "UX Collective 作者 Nicole Alexandra Michaelis 回应了「设计已死」叙事，细数 AI 时代正在涌现的真实设计角色。B2B 端：「嵌入式 AI 设计顾问」（对应 AI Forward Deployed Engineer，驻场帮企业设计人机协作流程）和「Agentic UX 架构师」（专门设计异步体验——当用户发出指令后 AI 执行三小时任务，期间的进度日志、置信度可视化、人工审核检查点）。B2C 端：「对话 UI 编导」和「信任设计师」。文章的核心论点：好的设计师本来就擅长快速切换技能和工作方式，AI 只是把这个能力推向了前台。设计的本质没变，改变的是执行对象和协作对象。",
+        "url": "https://uxdesign.cc/designs-alive-and-kicking-it-just-got-some-flashy-new-names-779b4503c869",
+        "source": "UX Collective",
+        "why": "和 NNGroup 那篇形成互读——一篇分析岗位类型，一篇讲设计师心态；两篇加在一起是一个完整的「AI 时代设计师定位」框架",
+        "type": "career-design"
+      },
+      {
+        "title": "行为经济学如何帮你找到用户体验里的隐形摩擦",
+        "summary": "NNGroup 新文章将行为经济学框架引入 UX 实践，核心洞察是：用户「打算做」和「真的做」之间的鸿沟，往往不是功能缺失造成的，而是情绪、习惯、不确定感、社会线索、风险感知和信息呈现方式共同作用的结果。文章介绍了几个可直接落地的框架：默认值设计（利用现状偏误）、损失厌恶的视觉化表达、社会证明的时机与位置、降低感知努力的信息分层。对于做 onboarding、功能发现、转化率优化的设计师尤其实用——在着手改界面之前，先用这些框架诊断用户停滞在哪一步、是什么心理机制在阻碍他们，比直接猜设计方向要精准得多。",
+        "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
+        "source": "Nielsen Norman Group",
+        "why": "设计方法论层面的干货，把行为经济学拉到 UX 的日常工具箱，适合叉叉在做用户体验改进时换一个诊断角度",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Hidden_Why__Behavioral_Economics_for_UX-1_TRWDwW2.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "items": [
       {
