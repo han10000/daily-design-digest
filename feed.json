@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-07",
+    "items": [
+      {
+        "title": "速度的心理代价：AI 时代的「设计固化」陷阱",
+        "summary": "AI coding agent（Cursor、Claude Code）让「做出来」的成本趋近于零，但作者 Meg Kurdziolek 指出：财务成本下降并不等于认知成本下降。研究表明，一旦你看到一个能跑起来的原型，大脑就会进入「沉没成本」模式——开始寻找证明它正确的证据，而非证伪它的证据。这就是「设计固化（Design Fixation）」。Viswanathan 等人的实验证实，花越多精力构建原型，反而越难产出新颖的想法。作者引入「设计科学」框架提出解法：把原型当成问题（inquiry），而不是答案；用 MVP 去验证假设，而不是去确认假设。在每个人都在「vibe coding 直接出产品」的当下，这篇文章是一个清醒的提醒——发现阶段的价值不在于慢，而在于防止你在错误的方向上越跑越快。",
+        "url": "https://uxdesign.cc/the-psychological-cost-of-moving-too-fast-867fb3830722",
+        "source": "UX Collective",
+        "why": "直接击中 AI 时代设计师的盲区：工具越快，越容易在错的事情上投入太多。Vibe design 盛行，这篇是反向思考的必读。",
+        "type": "深度观点"
+      },
+      {
+        "title": "Siri 再次「新生」：Apple WWDC 2026 的 AI 豪赌",
+        "summary": "Apple 将在 WWDC 2026（本周一）正式发布新一代 Siri——这次是建立在 Gemini 之上的。The Verge 的分析指出，Apple 在 AI 军备赛中明显落后（Gemini 已经可以帮你叫 Uber、刷 DoorDash），但「输在起跑线」反而暗藏优势：用户对 AI 的不信任感正在增长，Google 的 Gemini 无处不在（每打开一个 Google 应用都有 sparkle）已经开始令人烦躁，而 Apple 的「克制」——哪怕是被迫的——让它在时机上意外占据了更友好的位置。新 Siri 预计将出现在 Dynamic Island、Photos、甚至独立 App 中。从 UX 角度看，这是一次关键的平台级 AI 整合，直接影响 iOS/macOS 全线的交互模式——每一个 Apple 平台上的设计师都值得关注。",
+        "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
+        "source": "The Verge",
+        "why": "WWDC 即将开幕，这篇分析帮你在发布会前建立正确的观察框架：Apple 的 AI 策略不是「落后」，而是一种克制的差异化。对在苹果生态上做设计的人尤其重要。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/wwdc_2024.jpg?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
+      },
+      {
+        "title": "Meta 自己造了一个 AI 生成点击党内容流",
+        "summary": "Meta AI 独立 App 的「For You」页面悄悄上线了一个功能：根据用户画像生成个性化「文章」——话题、图片、正文全由 AI 生成，没有署名，没有来源。记者测试后发现，算法认为伦敦人喜欢喝茶排队，就源源不断推出「皇家管家终于解决先放茶还是先放奶」之类的故事。点多次相同标题会生成略有差异的版本，内容空洞，充斥虚假「专家」引用。更有意思的是：文章背后是一段隐藏 prompt，以「You are a helpful conversational assistant...」开头。这是一个 AI 内容生态的极端案例——当参与度最大化逻辑遇上生成式 AI，产出的是什么？从设计伦理角度，这也是一个关于「信息流设计」和「AI 内容标注」的实时案例研究。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+        "source": "The Verge",
+        "why": "不是批评，是一个值得仔细拆解的设计决策样本：当 AI 生成取代内容策展，信息流的设计逻辑会往哪走？Meta 走到了一个极端，值得参照思考。",
+        "type": "案例观察",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-06",
     "items": [
       {
