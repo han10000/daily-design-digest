@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-08",
+    "items": [
+      {
+        "title": "你还在归档，但你的文件早已成为 AI 的「原材料」",
+        "summary": "作者讲述了一个顿悟时刻：他桌面上积累了三年的一个文件夹，某天被指向给 AI 来解决一个信息架构问题。AI 返回的不是搜索结果、不是摘要——而是一份草稿，悄悄吸收了他存进去的每篇文章、每条旁注、每个未完成的思考片段。AI 引用了他六个月前随手写进 LinkedIn 说明的一个比喻，发现了他在不同时间写下的两段相互矛盾的文字，甚至找出了他自己都忘了为何收藏的一段引语。文件夹本身没变，macOS 还是那个 macOS，文件还是 markdown——但它的功能已彻底不同：从「万一以后用得上」的存档，变成了 AI 推理的上下文基底（substrate）。这篇文章追问：当文件不再只是给「自己」查看的档案，而是给 AI 「读」的输入层，设计师应该如何重新思考知识管理、文件命名和内容组织的方式？",
+        "url": "https://uxdesign.cc/youre-still-archiving-your-files-have-already-become-substrate-ce65f088b75a",
+        "source": "UX Collective",
+        "why": "AI agent 时代，你的 Figma 备注、PRD、research notes 不只是给自己看的——它们是 AI 协作的 context 层。这个认知转变直接影响你怎么组织知识库、写设计说明、甚至怎么命名文件。",
+        "type": "思维转变"
+      },
+      {
+        "title": "AI 创作者越来越难被识别：当假人开始真的像真人",
+        "summary": "最早的 AI 虚拟网红（Lil Miquela、Aitana Lopez 等）很容易辨认——风格精致到奇怪，明显是数字产品，需要专业团队维持。但现在情况彻底变了。AI 虚拟人正在以极低成本批量涌现，他们的内容风格越来越像「那个你没怎么保持联系的大学朋友」——普通、自然、不精致。更关键的是，这不只是娱乐现象：AI 虚拟人在卖假货、诈骗、推送虚假信息，甚至参与种族主义内容的传播。The Verge 深度分析了这个正在失控的规模——平台不公开虚假账号数量，生成工具越来越廉价，批量创建 AI 人格的教程课程正在快速扩散。这是一个关于「真实性信号」系统性坍塌的问题，平台设计师正面临前所未有的 trust & safety 挑战。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+        "source": "The Verge",
+        "why": "平台设计师必读。AI 内容泛滥正在重写用户对「真人」的感知预期，这直接影响 content labeling UX、AI disclosure 设计、以及社交产品的 trust signal 体系如何重建。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/GAUYdq3a4AAAlsX.jpg?quality=90&strip=all&crop=0%2C0.6699364330709%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "GQ × 爱彼表：用实时渲染重新定义豪华品牌叙事的边界",
+        "summary": "这是一个令人着迷的跨界案例：Condé Nast 旗下 GQ 与爱彼表（Audemars Piguet）合作，围绕 RD#5 腕表打造了一场实时电影级别的数字体验「The Extraordinary Lab」。这个项目挑战的不是广告页面，而是浏览器能否承载真正的沉浸式视觉叙事——实时渲染、动态光影、电影级摄影语言，全部在 Web 上运行。对设计师来说，这个案例值得研究的不只是视觉的精致程度，更是它背后的命题：豪华品牌的「数字质感」到底靠什么传递？当 AI 工具让精致视觉门槛降低，真正稀缺的是对「重量感」和「克制」的把控——而这正是这类项目反复在验证的事。",
+        "url": "https://www.awwwards.com/gq-audemars-piguet-the-extraordinary-lab.html",
+        "source": "Awwwards",
+        "why": "Web 视觉叙事的天花板案例。了解顶级品牌如何用实时渲染重新定义数字体验的质感，对做高端产品的设计师有直接的审美参照价值。",
+        "type": "设计案例",
+        "image": "https://assets.awwwards.com/awards/images/2026/06/gq-cs-thumb.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "items": [
       {
