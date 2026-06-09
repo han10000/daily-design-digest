@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-09",
+    "items": [
+      {
+        "title": "AI 设计不丑，它太「流利」了——这才是真正的问题",
+        "summary": "作者 Takuma Kakehi 提出了一个犀利洞察：Claude Design、Lovable、v0 等 AI 设计工具生成的界面并不难看，它们甚至「很好看」——但所有东西都长一个样。这种现象被称为「流利性」（fluency）：AI 从海量优秀设计中学习，生成的结果永远落在「可接受的中位数」，没有强烈的立场，没有刻意的怪癖，没有让人记住的特征。文章引用了圣路易斯一个被炸毁的公共住房项目作为类比：那个项目在建筑上完美符合标准，但完全缺乏人的尺度感和个性，最终因为「没有人想住在那里」而被拆除。AI 设计工具正在走向同样的困境——技术上无可挑剔，体验上却空洞无物。对 Product Designer 来说，这篇文章是个警醒：当所有人都用同一套工具生成设计时，真正的差异化反而来自你敢于拒绝「流利」、坚持有立场的设计决策。",
+        "url": "https://uxdesign.cc/ai-design-isnt-ugly-it-s-fluent-and-that-s-the-problem-131b2f4eb78c",
+        "source": "UX Collective",
+        "why": "直击 AI 设计工具的核心矛盾：越来越好用，生成的东西却越来越相似。对任何在用 AI 辅助设计的人来说，这是最值得警惕的趋势。",
+        "type": "design-analysis"
+      },
+      {
+        "title": "AI 成了客户会议里的「第三者」——设计师该怎么应对",
+        "summary": "作者 Michael Buckley 分享了一个越来越常见的场景：他为相识 15 年的客户交付了网站设计，对方事后用 ChatGPT 跑了一遍「二次审查」，然后把 AI 的反馈带进下一次会议讨论。这不是个案——他的多个客户都开始这样做。文章没有把这当作威胁来渲染，而是理性分析：当客户拥有了一个随时可以给出「第二意见」的工具，这种行为几乎是必然的。关键问题是：当 AI 的建议与你的设计决策冲突时，你如何有效地解释自己的选择？作者建议设计师转变角色——不只是交付物的生产者，而是能够清晰阐述设计理由的「决策顾问」。同时他也承认，AI 的反馈并非总是错的，有时能发现真实问题。新的专业素养是：能够区分 AI 发现的真实问题和它的系统性盲区，并用对方能理解的语言解释为什么你的判断更可靠。",
+        "url": "https://uxdesign.cc/ai-has-become-the-third-wheel-ee8e53e06b85",
+        "source": "UX Collective",
+        "why": "这是 2026 年 Product Designer 的新日常：不只要做好设计，还要学会在客户已经用 AI「预审」过你作品的情况下，捍卫和解释自己的决策。",
+        "type": "design-practice"
+      },
+      {
+        "title": "Apple 用 AI 解决了 Safari 最大的短板：现在你可以用自然语言「描述」出自己的扩展",
+        "summary": "WWDC 2026 上，Apple 展示了 Safari 的新功能「Describe an Extension」：用户只需用自然语言描述想要的功能——比如「从网上保存食谱，点击工具栏按钮查看并添加笔记」——Safari 就会通过 Apple Intelligence 自动生成对应的扩展插件。这直接回应了 Safari 长期以来的最大痛点：由于苹果严格的开发要求，Safari 的扩展生态远远落后于 Chrome 和 Firefox。现在这个壁垒被 AI 打破了——普通用户无需写代码，也能得到量身定制的功能。从设计视角看，这是一个值得深思的交互范式转变：当「描述即创造」成为可能，产品的边界从「开发者能构建什么」扩展到了「用户能想象什么」。这对 AI 产品设计的交互模式、权限管理、以及如何引导用户表达需求，都提出了新的设计命题。",
+        "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+        "source": "The Verge",
+        "why": "不只是一个苹果新闻——这个功能代表了 AI 如何重新定义「用户能力边界」，是理解 AI-native 产品设计方向的好案例。",
+        "type": "product-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/describe-extension-safari.jpg?quality=90&strip=all&crop=0%2C10.742998834307%2C100%2C78.514002331385&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "items": [
       {
