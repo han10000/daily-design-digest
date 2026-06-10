@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-10",
+    "items": [
+      {
+        "title": "Dieter Rams 不用电脑，但他的十条原则完全适用于 AI 设计",
+        "summary": "Dieter Rams 在 Braun 做了四十年工业设计，从不用电脑，却留下了影响整个现代设计语言的「好设计十原则」——Jony Ive 直接把它们搬进了 Apple 的 DNA。文章将这十条原则逐一对照到 AI 产品设计中，核心论点是：好设计从来不是为了技术本身，而是为了克制、诚实和清晰——恰恰是当下「快速上线 AI 功能」浪潮里最容易被牺牲的三件事。比如「好设计是诚实的」对应不让 AI 假装全知全能；「好设计是克制的」对应不把每个功能都塞进对话框；「好设计是持久的」对应不要为了追热点让产品变成一堆叠加的 prompt 入口。对于正在给 AI 产品做 UX 的设计师，这篇文章提供了一套稳定的评判框架，拒绝功能堆砌，让 AI 能力真正服务于人。",
+        "url": "https://uxdesign.cc/dieter-rams-avoids-computers-his-ten-rules-still-fit-designing-for-ai-499229fd049e",
+        "source": "UX Collective",
+        "why": "Rams 的原则是减法哲学的源头，把它套到 AI 设计上是个非常扎实的思维锚——帮你判断「这个 AI 功能应不应该做」比「这个功能怎么做」更有价值。",
+        "type": "design-thinking"
+      },
+      {
+        "title": "我试了新版 Siri AI，它这次居然真的能用了",
+        "summary": "WWDC 2026 之后，The Verge 记者第一手上手测评新版 Siri AI（built on Gemini models）。新 Siri 终于能跨越邮件、日历、屏幕内容做多源上下文推理——比如「我什么时候要还相机器材」直接从邮件和日历事件中提取答案，「把这些赛程加进日历」一句话搞定。文章也直白点出：这些对 Android 用户来说早就是 Gemini 2025 年的基础功能，Apple 花了两年才追上来。核心差异在于隐私架构——Siri 走的是 Private Cloud Compute（按需发送最小必要数据），Gemini 走的是主动授权直连 Gmail/Calendar。对 Product Designer 来说，这篇文章提供了两个思路：一是 AI 助手「有用感」的最低门槛在哪（跨源上下文引用是基础，不是惊喜）；二是不同隐私架构如何影响 AI UX 的设计决策。",
+        "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
+        "source": "The Verge",
+        "why": "新 Siri 是目前最受关注的 AI 助手产品之一，手测报告比发布稿更值得读——你能从「哪里能用、哪里不能用」里看出苹果对 AI UX 边界的真实判断。",
+        "type": "product-ai",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/DSC03775_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+      },
+      {
+        "title": "你真的要把整个数字生活都交给 AI 吗？",
+        "summary": "文章从一个具体的用户时刻出发：屏幕上弹出权限请求，AI 要访问你的全盘文件、联系人、照片、每次键盘输入、屏幕内容、甚至后台位置——你要不要点「允许」？作者以产品设计师的视角解构了这个许可流程背后的心理机制：AI 的「有用感」来自数据深度，而数据深度要求隐私让渡，这制造了一个用户几乎无法理性评估的 consent moment。文章提出：设计师有责任让这个决策变得「看得见」——不是用一张 checkbox 列表糊弄用户，而是真正帮用户理解「开这个权限，AI 能帮你做什么，换来的是什么」。在 Siri AI、Copilot、Gemini 全面抢夺系统级权限的今天，这个问题对 AI 产品 UX 设计极其现实。",
+        "url": "https://uxdesign.cc/should-you-really-give-ai-your-whole-digital-life-9b0c55df46e2",
+        "source": "UX Collective",
+        "why": "权限设计是 AI 产品最容易糊弄过去的地方，这篇文章帮你想清楚「我是在帮用户做决定，还是在帮产品绕过用户决策」。",
+        "type": "ux-ethics"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "items": [
       {
