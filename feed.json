@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-11",
+    "items": [
+      {
+        "title": "Liquid Glass 谁说了算：Apple 把「透明度滑块」交给用户，设计师输了吗？",
+        "summary": "Apple 在 WWDC 2026 发布 Liquid Glass UI 并附带一个透明度调节滑块，让用户自行决定界面的磨砂玻璃效果强度。表面上是无障碍让步，实质上触碰了设计哲学的核心命题：当你把「拨钮」交给用户，是真正的赋权，还是把本该由设计师完成的判断外包给了不具备这种训练的人？作者 Fabrizia Ausiello 认为，设计的本质是替用户做决定——不是傲慢，而是减少认知负担。要求非技术用户评估「界面透明度等级」，说明你还没完成自己的工作。这篇文章恰好在 iOS 27 发布节点出现，对正在思考「用户控制边界在哪里」的产品设计师极有参考价值——尤其是当 AI 系统把越来越多的行为决策权暴露给用户时，同样的张力正在所有产品里上演。",
+        "url": "https://uxdesign.cc/liquid-glass-who-gets-to-decide-how-an-interface-looks-a0abe75ae21e",
+        "source": "UX Collective",
+        "why": "WWDC 热点 + 永恒设计命题的新案例。正好叉叉在微软做设计，这个「控制权边界」问题在 AI 产品里比 iOS 还尖锐，值得深想一层。",
+        "type": "设计思考"
+      },
+      {
+        "title": "Claude Fable 5 生物问题不回答：Anthropic 用「能力限制」重新定义 AI 产品边界",
+        "summary": "Anthropic 发布 Claude Fable 5，号称史上最强公开可用模型，重点宣传生物学能力。但实际测试发现它拒绝回答连高中生都能搞定的基础生物题，并把问题转给旧版 Opus 4.8。原因不是 Fable 不懂，而是 Anthropic 主动限制——Fable 属于 Mythos 级模型家族，此前因网络安全能力过强被评定为「危险而无法公开」。这是 AI 产品设计里一个极少被讨论的维度：能力已经存在，但产品层主动选择不暴露。这对 Product Designer 的启示在于：「功能可见性」不只是 UX 问题，也是产品安全和信任的设计决策。用户界面上的缺席，背后可能是深思熟虑的克制，而非遗漏。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+        "source": "The Verge AI",
+        "why": "Anthropic 的新模型发布 + 能力收口的产品决策案例，帮叉叉理解「AI 产品克制」这个设计选择背后的逻辑。",
+        "type": "AI 产品",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_2_A_3800fc.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "AI Agent 串联两个 HF Space，自己建了一个巴黎 3D 展览馆",
+        "summary": "Hugging Face 工程师 Mishig 让一个编程 Agent 完成了这件事：输入「给我做一个展示巴黎地标的 3D 网站」，Agent 自行调用两个 Space——先用 Ideogram 4 生成各地标的隔离背景图，再用 TripoSplat 把每张图重建成 3D 高斯泼溅（.ply 文件），最后组装成一个可交互的 cinematic 3D 展览页面，全程没有人工干预图像生成或 3D 建模工具。关键技术是 agents.md 协议：每个 Gradio Space 现在都自动暴露一个纯文本说明文件，告诉 Agent 如何调用它，输入什么格式，怎么轮询结果。Mitchell Hashimoto 称之为「积木经济」——AI 擅长把成熟的组件拼起来，而不是从头造。这篇文章是对「Agent 能做什么」最直观的一次演示，对设计师思考 AI-native 产品工作流很有参考价值。",
+        "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+        "source": "Hugging Face Blog",
+        "why": "Agent 工作流的具体案例，有 demo 链接可以直接看效果。正好对应叉叉关注的「AI workflow」方向，很直观。",
+        "type": "AI workflow",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/60a551a34ecc5d054c8ad93e/0tamlKpAvO3lZEklNmwHT.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "items": [
       {
