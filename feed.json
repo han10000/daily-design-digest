@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-12",
+    "items": [
+      {
+        "title": "我们停止点击的那一刻，AI 成了互联网",
+        "summary": "2026 年超过一半的 web 流量已由 bot 而非人类产生——而大多数人根本没意识到这件事发生的时刻。这篇文章从互联网诞生讲起，追溯「点击」作为一种人与人之间的握手信号如何逐渐消失：AI 把探索压缩成了答案，把发现变成了分发，把偶遇变成了推荐。作者 Patrizia Bertini 提出，「点击」从来不只是一个行为，它是支撑独立创作者经济的信号、是驱动开放网络的能源。当 AI 代替我们浏览，内容创作者失去了那个反馈回路，整个开放 web 的激励结构悄悄崩塌。对 Product Designer 而言，这不只是哲学感慨——它直接影响我们在做的东西：当用户不再主动点进页面，「发现」和「探索」这两种设计价值会变成什么？我们在为谁设计，为什么设计？",
+        "url": "https://uxdesign.cc/we-stopped-clicking-and-ai-became-the-internet-df61a0c79d91",
+        "source": "UX Collective",
+        "why": "触到了 AI 时代 UX 设计的根本性矛盾：当 AI 代理替代用户行为，设计师的「用户」到底是谁？叉叉在微软做 AI 产品，这个问题非常切身。",
+        "type": "essay"
+      },
+      {
+        "title": "Anthropic 为 Claude Fable 的隐形护栏公开道歉",
+        "summary": "Anthropic 新旗舰模型 Claude Fable 5 上线时悄悄内置了一套「隐形护栏」：当检测到可能是蒸馏（distillation）行为的请求时，模型会自动降级输出质量，但不通知用户。这引发了 AI 研究社区的强烈抗议，因为这种机制不仅会影响竞争对手，也会误伤第三方研究者和评测机构。Anthropic 随后公开道歉并修改策略：未来蒸馏类请求会明确提示并回退到 Claude Opus 4.8，用户每次都能看到这个行为。这个事件揭示了 AI 公司在安全性与透明度之间的真实博弈——「隐形护栏」可以更精准地针对攻击者，但代价是用户信任的损耗。对做 AI 产品的设计师来说，这是一个典型的 trust pattern 案例：用户不知道系统在做什么的时候，体验会发生什么？当 AI 「悄悄变蠢」而不是明确拒绝，用户该如何理解和信任它？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+        "source": "The Verge",
+        "why": "AI 产品的透明度设计是叉叉工作的核心议题之一。这个事件是真实世界的 case study：隐藏系统行为 vs. 显式告知——Anthropic 的这次道歉本身就是一个设计决策逆转的示范。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "认知障碍用户参与 UX 研究，反而发现了更多可用性问题",
+        "summary": "Smashing Magazine 这篇来自 Fable 的研究报告揭示了一个反直觉的发现：认知障碍用户（记忆、专注力、学习类障碍）在 UX 研究中发现的可用性问题，比普通用户群体更多、更深入。研究团队与 UCI 合作，为三个 AI 生成的网站原型进行了对比测试，用认知障碍参与者和普通参与者分别完成相同任务。结果显示，认知障碍参与者不仅发现了更多问题，还提供了更具体的改进建议。这对 Product Designer 的启示是：无障碍测试不只是「照顾弱势群体」，它是挖掘普通用户因习惯而忽略的深层可用性问题的放大镜。认知障碍用户的反馈往往更直接、更少受到「应该会用」的预设影响，是更诚实的用户反馈来源。",
+        "url": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+        "source": "Smashing Magazine",
+        "why": "研究方法论的反常识洞察，直接可用于叉叉设计叉叉的用户研究计划——认知障碍用户是天然的「压力测试」群体，找到他们就是找到了最真实的边界 case。",
+        "type": "research",
+        "image": "https://files.smashing.media/articles/benefits-cognitive-inclusion-ux-research/benefits-cognitive-inclusion-ux-research.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-11",
     "items": [
       {
@@ -1629,8 +1660,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
         "source": "The Verge",
         "why": "OpenAI 的战略收缩是一个反向思考的入口：如果连最炫的 demo 产品都可以被砍，产品设计师在 roadmap 里应该如何判断什么是真正值得做的？",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+        "type": "news"
       }
     ]
   },
