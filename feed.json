@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-06-13",
+    "items": [
+      {
+        "title": "AI 时代设计师的核心技能：「批判性评估」",
+        "summary": "Nielsen Norman Group 最新文章指出，AI 产品与传统软件的根本区别在于：AI 是概率性的，不是确定性的。传统设计师写规格说明书，工程师照着实现——这套流程在 AI 时代失效了。你无法用 Figma 标注 AI 应该在什么时候说什么话。取而代之的，设计师必须掌握一项新技能：定义「什么是好的输出」，然后构建评估标准（evaluator / judge）来持续衡量 AI 是否达到这个标准。文章提出了 Judge-Evaluate-Iterate 循环：先让 AI 充当评判者，再用用户研究校准这个评判者，最后持续迭代提升质量。这不只是方法论，更是一种思维转变——设计师从「定义界面」变成了「定义什么叫好」。对于正在构建 AI 产品的设计师来说，这篇是今年 NN/g 产出最有实战价值的文章之一。",
+        "url": "https://www.nngroup.com/articles/ai-era-critique/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 产品设计的方法论正在根本性转变，这篇文章用「确定性 vs 概率性系统」这个框架解释清楚了为什么。对于在微软做 AI 产品设计的叉叉，这是工作中每天都会遇到的真实挑战，文章给出了可落地的思路。",
+        "type": "深度方法论",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Core_Skill_of_Design_in_the_AI_Era__Critique-1.png"
+      },
+      {
+        "title": "Context Architecture：把信息架构的方法用到 AI Agent 上",
+        "summary": "NN/g 同日发布的另一篇文章，提出了「Context Architecture」这个新概念。它的逻辑是：IA（信息架构）的本质是「让人能找到、理解、使用信息」，而现在 AI agent 面临同样的问题——它需要在正确的时刻获得正确的上下文，才能做出好的决策和输出。文章把 AI 产品的进化路径拆成三阶段：prompt engineering（写好指令）→ context engineering（编排上下文：指令 + 检索知识 + 工具 + 记忆 + 状态）→ context architecture（为 AI 设计「思考环境」）。每一个阶段都需要更深的设计介入。文章还指出，context 从来不是中性的——你选择给 AI 什么信息，就在塑造它的决策偏向。这对设计师意味着一种新的责任：我们不只是设计界面，而是在设计 AI 理解世界的方式。",
+        "url": "https://www.nngroup.com/articles/context-architecture/",
+        "source": "Nielsen Norman Group",
+        "why": "「Context Architecture」这个框架把 IA 的经典方法迁移到 AI agent 设计，对设计师非常友好。叉叉在做 AI 产品时正好需要这类连接传统设计知识和 AI 新范式的思维框架。",
+        "type": "新概念 / 框架",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Architecture_-_1.png"
+      },
+      {
+        "title": "人形机器人正在改变人类社会——设计师该想什么",
+        "summary": "Smashing Magazine 这篇文章不是技术报告，而是一位设计师从人文视角审视人形机器人快速商用化的深度反思。Figure AI 的机器人已经在 BMW 工厂工作了数月，Tesla Optimus 正在 Gigafactory 大规模测试。文章探讨的核心问题是：当机器人外观和行为越来越像人，人类的心理模型、社交关系、信任机制会发生什么变化？这不只是哲学问题，也是设计问题——我们如何设计「明显是机器但也值得信任」的交互体验？「恐怖谷」效应的边界在哪里？当 AI 和机器人同时出现，谁来定义「值得信赖的非人类」的设计标准？对于关注 AI 产品体验的设计师，这篇提供了一个更大的视野：我们现在做的 AI 界面，是未来人机共存设计生态的早期实验。",
+        "url": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
+        "source": "Smashing Magazine",
+        "why": "人形机器人的快速落地正在把「AI 体验设计」的边界从屏幕推向物理世界。叉叉关注 AI 产品的前沿方向，这篇提供了一个超出日常讨论范围的视角——设计师如何为「几乎是人但不是人」的存在设计交互。",
+        "type": "趋势 / 深度思考",
+        "image": "https://files.smashing.media/articles/impact-humanoid-robots-humanity/impact-humanoid-robots-humanity.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-12",
     "items": [
       {
@@ -1660,7 +1692,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
         "source": "The Verge",
         "why": "OpenAI 的战略收缩是一个反向思考的入口：如果连最炫的 demo 产品都可以被砍，产品设计师在 roadmap 里应该如何判断什么是真正值得做的？",
-        "type": "news"
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
       }
     ]
   },
