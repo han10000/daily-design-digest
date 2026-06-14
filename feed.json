@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-14",
+    "items": [
+      {
+        "title": "AI 变成了我们的购物顾问——但它替你做的决定，你看不见",
+        "summary": "当你向 AI 询问「买哪款椅子」，它直接给你一个答案，而不是十条链接。这篇文章深度拆解了「AI 购物建议」背后发生了什么：过去你要自己比较、筛选、质疑，现在这些判断过程被外包给了一个你无法审查的系统。作者引用了 Clutch 2026 年 1 月对美国消费者的调查：七成人在购买前使用 AI 研究，65% 用 AI 做产品调研，但只有 4% 愿意让 AI 直接下单。我们把「挖掘」的工作交出去了，但没把「钱包」也交出去——而那个被交出去的「比较与判断」阶段，恰恰是我们过去形成偏好、建立认知的地方。文章进一步警示：一整个行业正在崛起，专门优化「让 AI 推荐我」，就像当年的 SEO——对 Product Designer 来说，这是理解 AI 推荐 UX 的必读背景。",
+        "url": "https://uxdesign.cc/a-shortlist-of-one-how-ai-became-our-shopping-adviser-d55f43c411db",
+        "source": "UX Collective",
+        "why": "AI 把「搜索给你选项」变成「替你做决定」，设计师需要理解这个权力转移对用户认知的影响，以及如何在设计推荐系统时保留用户的判断感和主体性。",
+        "type": "design-thinking"
+      },
+      {
+        "title": "亚马逊安全研究触发了白宫对 Anthropic Fable 5 的封禁",
+        "summary": "据《华尔街日报》报道，导致 Anthropic 被迫切断 Fable 5 和 Mythos 5 对外国用户访问的出口管制指令，源于亚马逊的一份内部安全研究报告，以及 CEO Andy Jassy 与白宫的直接沟通。亚马逊的研究报告声称，通过一系列特定提示（prompts），可以让 Fable 5 提供能用于网络攻击的信息。Jassy 随即将这一发现分享给了政府，政府做出了封锁决定。这一事件让整个 AI 行业意识到：即使是顶尖的安全团队，也可能在商业利益与安全责任之间做出影响整个行业的举动；同时，AI 模型的「护栏」有多可靠、谁有权利定义「安全」，正在成为新的政治博弈。对产品设计师来说，这提示我们在设计 AI 产品时，安全护栏的边界设计不只是技术问题，也是合规与信任设计的核心议题。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+        "source": "The Verge",
+        "why": "AI 产品的安全边界正成为政策与商业交叉的战场。了解 Fable 封禁事件，帮助 Product Designer 理解「AI 产品护栏」从设计语言到政策层面的真实重量。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "做数字无障碍倡导者是什么感受——最安静的那个声音，往往救了整家公司",
+        "summary": "这篇来自 UX Collective 的第一人称文章，讲述了一位数字无障碍倡导者在组织内部的真实处境：你是那个在会议里举手说「这个按钮对色盲用户不可见」的人，你拿着研究数据、法规条文，但依然会被当作「流程障碍」。作者指出，无障碍设计最大的难题不是技术实现，而是组织文化——当无障碍问题被外包给一个「专职负责人」，就意味着整个团队已经放弃了把它内化到设计流程的责任。文章还警告：在美国，数字无障碍诉讼数量在过去五年激增，忽视它的公司不仅面临品牌损失，还面临真实的法律风险。对 Product Designer 来说，这是一篇让你重新思考「为什么无障碍总是被排在最后」的文章，也是一封来自一线的诚实报告。",
+        "url": "https://uxdesign.cc/what-it-really-feels-like-to-be-a-digital-accessibility-advocate-07afc7e1d16f",
+        "source": "UX Collective",
+        "why": "无障碍不只是合规，是组织文化和设计流程的镜子。这篇文章道出了很多 designer 心里有但不知如何开口的困境，读完会让你重新审视自己团队对无障碍的真实态度。",
+        "type": "ux-practice"
+      }
+    ]
+  },
+  {
     "date": "2026-06-13",
     "items": [
       {
