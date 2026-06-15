@@ -1,13 +1,133 @@
 {
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "trending": [
     {
       "rank": 1,
+      "name": "Taste-Lab",
+      "owner": "tyagicapx",
+      "source": "producthunt",
+      "installs": "Product Hunt 2026-06-14 今日新品，开源 GitHub，免费使用",
+      "stars": 0,
+      "desc": "Taste Lab：AI 网站 design DNA 提取工具——向任意网站的 URL 指向 AI agent，获取完整设计拆解：颜色系统、字体排版、间距规律，以及每一个设计决策背后的推理依据。输出直接可用于下一个项目构建。不只是提取样式，而是提取设计意图和 'why'。免费开源，GitHub 上托管，Product Hunt 今日上线。",
+      "reason": "Product Hunt 2026-06-14 今日新品。对 Product Designer 的直接价值：研究竞品/参考案例时，一键获取对方完整的设计决策 spec，包括背后的 why——这正是 AI agent 做设计还原时最缺的那一层。完全免费，直接可用。",
+      "usage": "Web 工具/GitHub，免费开源；macOS/Linux 浏览器直接使用；不需要任何付费 API key；输入网站 URL，输出结构化 design spec。设计师场景：参考竞品设计时用，把感性的'这个设计不错'变成可量化的 spec 和可传递的决策链",
+      "tag": "design",
+      "category": "Design Analysis Tool",
+      "relevant": true
+    },
+    {
+      "rank": 2,
+      "name": "Memoriq",
+      "owner": "memoriq-app",
+      "source": "producthunt",
+      "installs": "Product Hunt 2026-06-14 今日新品，开源，自托管",
+      "stars": 0,
+      "desc": "Memoriq：跨 AI 模型的私人记忆保险库——保存 ChatGPT/Claude/Gemini/Grok 中有价值的对话，端对端加密，仅你可访问。开源可自托管，搜索/整理/保持对 AI 知识的掌控。不依赖任何 AI 提供商的云服务。",
+      "reason": "Product Hunt 2026-06-14 新品。「E2E 加密 + 自托管 + 跨平台 AI 记忆」组合——在 AI 模型厂商都希望锁住你对话数据的趋势下，Memoriq 代表数据自主权的反向力量",
+      "usage": "开源，MIT；可自托管；⚠️ 通用 AI 记忆工具，非设计专用，relevant=false；设计师视角：跨 AI 工具的结构化知识积累——把 Claude/Gemini 对话中的设计决策沉淀为可搜索的知识库——是个人设计知识管理的重要缺口工具",
+      "tag": "workflow",
+      "category": "AI Memory",
+      "relevant": false
+    },
+    {
+      "rank": 3,
+      "name": "Conan",
+      "owner": "conan-app",
+      "source": "producthunt",
+      "installs": "Product Hunt 2026-06-14 今日新品，macOS 原生应用",
+      "stars": 0,
+      "desc": "Conan：Claude Code 专属 macOS 原生 cockpit——将 Claude Code 封装在实时 HUD 中，每一个 prompt、tool call、skill 调用和 token 消耗都实时呈现。原生 macOS，不是 Electron 套壳。",
+      "reason": "Product Hunt 2026-06-14 新品。继 AgentPeek（notch 监控）、Skilled（TUI dashboard）之后，Claude Code 原生 macOS 管理工具品类又出新玩家——说明 Claude Code 用户对「看清 agent 在做什么」的需求持续旺盛",
+      "usage": "macOS 原生 App；⚠️ 面向使用 Claude Code 的开发者，非直接设计工具，relevant=false；设计师视角：Conan 的「每步 agent 行为实时 HUD」模式是所有 AI agent 工具「可观测性 UX」的标准参考——用户不是不信任 AI，而是需要恰到好处的透明度",
+      "tag": "AI",
+      "category": "AI Agent Dashboard",
+      "relevant": false
+    },
+    {
+      "rank": 4,
+      "name": "iptv-org-iptv",
+      "owner": "iptv-org",
+      "source": "github",
+      "installs": "120,492 stars (+1,531 今日 2026-06-14，TypeScript 热榜第一，持续活跃)",
+      "stars": 120492,
+      "desc": "全球公开 IPTV 频道集合：来自世界各地的公开可用 IPTV 频道数据库，M3U 格式，持续社区维护更新。TypeScript，开源。",
+      "reason": "今日 TypeScript 热榜全榜第一 +1,531。120k stars 的巨型内容 DB——代表开放媒体资源聚合的持续旺盛需求",
+      "usage": "开源内容数据库；⚠️ 媒体内容工具，非设计工具，relevant=false；设计师视角：作为内容聚合 DB 的规模和维护方式——公开、可查询、持续更新——是设计资产库/素材集合的理想架构参考",
+      "tag": "workflow",
+      "category": "Media Database",
+      "relevant": false
+    },
+    {
+      "rank": 5,
+      "name": "SkillSpector",
+      "owner": "NVIDIA",
+      "source": "github",
+      "installs": "5,113 stars (+962 今日 2026-06-14，Python 热榜，2026-06-13 正式开源)",
+      "stars": 5313,
+      "desc": "NVIDIA 出品 AI agent skill 安全扫描器：检测 AI agent skills 中的漏洞、恶意模式、安全风险。64 种漏洞模式，覆盖 16 类安全问题（prompt injection、数据外泄、权限升级、供应链攻击等）。两阶段扫描：快速静态分析 + 可选 LLM 语义深度分析。接受 Git repo/URL/zip/本地目录多种输入。Python，NVIDIA 官方出品。",
+      "reason": "今日 +962 大涨进入 Python 热榜，2026-06-13 正式开源。NVIDIA 官方入场 AI skill 安全领域——继续印证 2026 年 AI agent skill 生态规模化后，安全审查需求从「可选」变「必须」的趋势",
+      "usage": "pip install，Python CLI；完全免费开源；⚠️ 安全工具，非设计工具，relevant=false；设计师视角：SkillSpector 扫描维度——prompt injection/数据外泄/供应链攻击——正是 AGENTS.md 中「Skill 推荐规范」所防范的风险清单，与我们手动安全审查的逻辑高度吻合",
+      "tag": "AI",
+      "category": "AI Security",
+      "relevant": false,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": [],
+      "repo_desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "homepage": null,
+      "how_to_install": "### Installation\n\nCreate and activate a virtual environment first (all `make` targets assume the venv is active). Use **uv** or **pip**; the Makefile uses `uv` if available, otherwise `pip`.\n\n```bash",
+      "how_to_use": "```bash",
+      "features": "- **Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files\n- **64 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning\n- **Two-stage analysis**: Fast static analysis + optional LLM sema..."
+    },
+    {
+      "rank": 6,
+      "name": "Pool",
+      "owner": "pool-app",
+      "source": "producthunt",
+      "installs": "Product Hunt 2026-06-14 今日新品，iOS App，免费，v2.0.0 2026-06-11 上线",
+      "stars": 0,
+      "desc": "Pool：截图→结构化内容 iOS App——用截图保存任何东西（食谱、产品、推文、灵感），AI 自动分类、找回原始链接、全文可搜索，整理进自定义 pool，可分享。免费 iOS App，v2.0.0 已无邀请限制开放全用户。",
+      "reason": "Product Hunt 2026-06-14 新品。设计师日常随手截图 = 灵感积累的主要方式。Pool 把「截图→混乱相册」变成「截图→有组织的知识库」——解决设计师最普遍的灵感管理痛点",
+      "usage": "iOS App，免费；⚠️ iOS App，服务器端无法直接运行，且为通用 productivity 工具非设计专用，relevant=false；设计师视角：Pool 的「截图→自动提取内容→链接回溯→可搜索」管道，是灵感管理 App 的理想态 UX 蓝图；AI 自动分类 + 原始来源追溯是 moodboard 工具进化方向",
+      "tag": "design",
+      "category": "Screenshot Organizer",
+      "relevant": false
+    },
+    {
+      "rank": 7,
+      "name": "addyosmani-agent-skills",
+      "owner": "addyosmani",
+      "source": "github",
+      "installs": "58,000+ stars，连续多日 GitHub Shell 热榜，今日持续",
+      "stars": 58097,
+      "desc": "Addy Osmani（Google Chrome DevTools 主导者）出品：为 AI coding agent 打包「生产级工程师技能」——质量门禁、PR review、代码健康扫描等工作流封装为 slash 命令，可直接供 Claude Code/Copilot/Codex 调用。Shell，MIT 协议。",
+      "reason": "连续多日 GitHub Shell 热榜，58k+ stars 且仍在加速。代表 coding skill 生态成熟化：不再是个人 workflow，而是工程师集体智慧的可复用化",
+      "usage": "Shell，Claude Code slash command；⚠️ 工程师 coding skill，非设计专用，relevant=false；设计师视角：agent-skills 的「质量门禁 + 自动化 PR review」模式可以迁移到设计交付——把设计规范检查、可访问性审查、一致性扫描封装成 agent slash command",
+      "tag": "AI",
+      "category": "AI Coding Skills",
+      "relevant": false
+    },
+    {
+      "rank": 8,
+      "name": "apple-container",
+      "owner": "apple",
+      "source": "github",
+      "installs": "36,106+ stars，连续热榜，WWDC 2026 发布，Swift",
+      "stars": 36106,
+      "desc": "Apple 官方 Swift 开源容器工具：在 Mac 上原生运行 Linux 容器，Docker Desktop 的 Apple Silicon 原生替代。Swift，Apache 2.0，WWDC 2026 同期发布。",
+      "reason": "连续多日热榜，WWDC 2026 重要开源项目，Apple 正式重新收编 macOS 开发工具链",
+      "usage": "Swift，macOS Apple Silicon；⚠️ 容器工具，非设计专用，relevant=false；设计师视角：Apple 官方出品本地容器工具——意味着在 Mac 上用 Docker 跑本地 AI 模型的体验将被彻底优化，未来本地 AI 工作流基础设施门槛大幅降低",
+      "tag": "workflow",
+      "category": "Mac Container Tool",
+      "relevant": false
+    },
+    {
+      "rank": 9,
       "name": "FinceptTerminal",
       "owner": "Fincept-Corporation",
       "source": "github",
       "installs": "12,905 stars (+1,586 今日 2026-04-22，Python 热榜，连续多日热榜)",
-      "stars": 26576,
+      "stars": 26713,
       "desc": "现代金融终端 v4：C++20 原生桌面应用，Qt6 UI，内嵌 Python 分析层。37 个 AI agent（Buffett/Graham/Lynch 等投资框架），100+ 数据连接器，视觉化 Node 编辑器用于自动化 pipeline，MCP tool 集成，实时交易。Python + C++，GPL-3.0",
       "reason": "连续多日 GitHub 全榜第一，今日 +3,129 暴增至 9k。金融终端里藏着一个完整的 Node 编辑器 automation pipeline + MCP tool 集成——「可视化节点 + AI agent」架构设计是 B2B 复杂数据产品的典型参考案例",
       "usage": "C++20 + Python，下载 Release 二进制，macOS/Windows/Linux 均有发行版；⚠️ 功能完整使用需金融数据 API key（Polygon/Kraken 等，部分免费层），relevant=false；设计师视角：FinceptTerminal 的 Node editor + MCP 集成架构——让非技术用户可视化搭建数据 pipeline——是 B2B 产品「复杂能力 + 零代码入口」设计的极佳参考",
@@ -30,7 +150,7 @@
       "features": "| **Feature** | **Description** |\n|-------------|-----------------|\n| 📊 **Multi-Asset Analytics** | DCF models, portfolio optimization, risk metrics (VaR, Sharpe), derivatives pricing across equity, fixed income, derivatives, portfolio, and alternatives via embedded Python |\n| 🤖 **AI Agents** | 37 agents across Trader/Investor (Buffett, Graham, Lynch, Munger, Klarman, Marks…), Economic, and Geopolitics frameworks; local LLM support; multi-provider (OpenAI, Anthropic, Gemini, Groq, DeepSeek, M..."
     },
     {
-      "rank": 2,
+      "rank": 10,
       "name": "arc-kit",
       "owner": "tractorjuice",
       "source": "github",
@@ -52,12 +172,12 @@
       "features": ""
     },
     {
-      "rank": 3,
+      "rank": 11,
       "name": "claude-mem",
       "owner": "thedotmack",
       "source": "github",
       "installs": "62,299 stars (+1,024 今日，TypeScript 热榜第一，持续热榜)",
-      "stars": 82146,
+      "stars": 82272,
       "desc": "Claude Code 自动记忆插件：捕获每次 coding session 中 Claude 做的所有事，用 AI 压缩摘要，并在未来 session 中自动注入相关上下文。TypeScript，MIT 协议",
       "reason": "今日 +1,024 占据 TypeScript 热榜第一。连续多日强势，已成 Claude Code 生态最核心的记忆基础设施",
       "usage": "Claude Code plugin，TypeScript；⚠️ 本身不是设计工具，relevant=false；设计师视角：「自动捕获 + 压缩 + 上下文注入」三段式记忆架构，是任何 AI 助手「长期陪伴感」的核心设计模式",
@@ -80,12 +200,12 @@
       "features": ""
     },
     {
-      "rank": 4,
+      "rank": 12,
       "name": "voicebox",
       "owner": "jamiepine",
       "source": "github",
       "installs": "20,431 stars (+688 今日，TypeScript 热榜，连续多日热榜)",
-      "stars": 29929,
+      "stars": 29977,
       "desc": "开源本地语音合成工作室：免费 ElevenLabs 替代，5 种 TTS 引擎（Qwen3-TTS/LuxTTS/Chatterbox/TADA），23 种语言，声音克隆（几秒样本即可），多轨时间轴编辑器，表情标签 [laugh][sigh][gasp]，无限长度自动切片，REST API。Tauri（Rust）原生，macOS/Windows/Linux/Docker 均可用，LuxTTS 引擎 CPU 可跑",
       "reason": "今日 +688 持续 TypeScript 热榜。本地免费全功能 TTS 工作室——对设计师最直接的价值：demo 视频配音、产品 launch 视频旁白、原型语音交互 demo，全部本地完成，零 API 费用",
       "usage": "macOS 直接下载 DMG，Linux 从源码构建（Tauri + Rust）。LuxTTS 引擎无 GPU 可跑，150x 实时速度；完全免费开源，MIT 协议",
@@ -108,12 +228,12 @@
       "features": "### Multi-Engine Voice Cloning\n\nSeven TTS engines with different strengths, switchable per-generation:\n\n| Engine                      | Languages | Strengths                                                                                                                                |\n| --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |\n| **Qwen3-TTS** (0.6B / 1.7..."
     },
     {
-      "rank": 5,
+      "rank": 13,
       "name": "GenericAgent",
       "owner": "lsdefine",
       "source": "github",
       "installs": "4,201 stars (+794 今日，Python 热榜，连续热榜)",
-      "stars": 12840,
+      "stars": 12864,
       "desc": "自我进化 agent 框架：从 3.3K 行种子代码出发，通过 9 个原子工具 + 100 行 Agent Loop，获得对本地电脑完整控制权（浏览器/终端/文件系统/键鼠/屏幕视觉/移动设备 ADB）。每解决一个新任务，自动将执行路径结晶为 skill tree。支持 Claude/Gemini/Kimi/MiniMax",
       "reason": "今日 +794，连续热榜加速。国内团队出品自我进化 agent，「任务→skill→复用」的自生长架构是中国 AI agent 生态代表作",
       "usage": "Python + pip install；⚠️ 依赖 LLM API key（付费），relevant=false；设计师视角：GenericAgent 的「任务 → skill 结晶 → 自动复用」进化路径，是 AI 助手个性化成长的极致实现参考",
@@ -136,12 +256,12 @@
       "features": ""
     },
     {
-      "rank": 6,
+      "rank": 14,
       "name": "magika",
       "owner": "google",
       "source": "github",
       "installs": "15,825 stars (+560 今日，Python 热榜，连续热榜)",
-      "stars": 17134,
+      "stars": 17135,
       "desc": "Google 出品的 AI 文件内容类型检测工具：深度学习模型精准识别 100+ 种文件类型，比传统 magic bytes 方式更快更准。Python，Apache 2.0，完全免费开源",
       "reason": "今日 +560 持续 Python 热榜，Google 官方出品 AI 文件识别工具",
       "usage": "pip install magika，Python CLI + API；⚠️ Python 工具，非直接可安装 OpenClaw skill，relevant=false；设计师视角：可集成进素材整理 workflow，自动区分 PNG/SVG/JPEG/PDF/Sketch 等设计资产",
@@ -164,12 +284,12 @@
       "features": "- Available as a command line tool written in Rust, a Python API, and additional bindings for Rust, JavaScript/TypeScript (with an experimental npm package, which powers our [web demo](https://securityresearch.google/magika/demo/magika-demo/)), and GoLang (WIP).\n- Trained and evaluated on a dataset of ~100M files across [200+ content types](./assets/models/standard_v3_3/README.md).\n- On our test set, Magika achieves ~99% average precision and recall, outperforming existing approaches -- espec..."
     },
     {
-      "rank": 7,
+      "rank": 15,
       "name": "opensre",
       "owner": "Tracer-Cloud",
       "source": "github",
       "installs": "1,670 stars (+520 今日，Python 热榜，连续热榜)",
-      "stars": 6902,
+      "stars": 6955,
       "desc": "Open Source AI SRE Toolkit：构建自己的 AI SRE（Site Reliability Engineering）agent——监控、告警、自动修复，专为 AI 时代的 ops workflow 设计。Python，MIT 协议",
       "reason": "今日 +520，Python 热榜持续加速。「AI SRE agent」是继 AI coding agent 之后的下一个垂直 agent 品类",
       "usage": "Python，DevOps/SRE 工具；⚠️ 运维向，非设计工具，relevant=false；设计师视角：「监控 → 诊断 → 自动修复」三段式 agent 结构，是任何巡检类 AI 工具（设计规范检查/可访问性扫描）的参考架构",
@@ -192,12 +312,12 @@
       "features": ""
     },
     {
-      "rank": 8,
+      "rank": 16,
       "name": "thunderbolt",
       "owner": "thunderbird",
       "source": "github",
       "installs": "3,362 stars (+591 今日 2026-04-21，TypeScript 热榜，连续热榜)",
-      "stars": 4710,
+      "stars": 4713,
       "desc": "Mozilla Thunderbird 团队出品的开源自托管 AI 客户端：反 vendor lock-in，可选择任意前沿/本地/私有模型，数据完全自有，跨平台（Web/macOS/Windows/Linux/iOS/Android）。TypeScript，基于 deepset Haystack 构建，Enterprise features 可用。2026-04-16 正式发布",
       "reason": "连续三日热榜，今日 +667 至 2,718。Mozilla 入场 AI 客户端市场——「你选模型，你拥有数据」的 sovereign AI 立场，是对 Microsoft Copilot / ChatGPT Enterprise 的正面挑战",
       "usage": "TypeScript，自托管服务器部署；⚠️ 企业级 AI 客户端，非设计专用工具，relevant=false；设计师视角：Thunderbolt 的「model-agnostic + self-hosted data」产品定位，代表 2026 年企业 AI 工具的核心关注点——控制权和隐私。设计这类工具时「你控制一切」的 positioning 比「我有最强模型」更有共鸣",
@@ -219,12 +339,12 @@
       "features": ""
     },
     {
-      "rank": 9,
+      "rank": 17,
       "name": "chrome-devtools-mcp",
       "owner": "ChromeDevTools",
       "source": "github",
       "installs": "36,063 stars (+438 今日，TypeScript 热榜，持续热榜)",
-      "stars": 43536,
+      "stars": 43601,
       "desc": "Chrome DevTools 官方 MCP server：让 AI coding agent 直接控制 Chrome DevTools，支持断点调试、网络请求检查、DOM 查询、Console 执行，Google 官方出品，TypeScript，Apache 2.0",
       "reason": "今日 +438 持续 TypeScript 热榜，36k stars 官方出品",
       "usage": "npm install 或 npx 方式运行；⚠️ 发送遥测数据（Google DevTools 官方），需注意隐私；非设计工具，relevant=false；设计师视角：AI agent 能直接「看」网页的视觉状态并给出样式诊断，是 AI 辅助视觉 QA 的重要基础设施",
@@ -247,12 +367,12 @@
       "features": "- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in\n  Chrome and automatically wait for action results."
     },
     {
-      "rank": 10,
+      "rank": 18,
       "name": "worldmonitor",
       "owner": "koala73",
       "source": "github",
       "installs": "51,376 stars (+449 今日 2026-04-22，TypeScript 热榜，持续热榜)",
-      "stars": 56410,
+      "stars": 56458,
       "desc": "实时全球情报仪表盘：AI 驱动的新闻聚合、地缘政治监控、基础设施追踪，统一态势感知界面。TypeScript",
       "reason": "今日 +477，近 50k stars 的全球情报仪表盘，数据密集型 dashboard 设计的参考案例",
       "usage": "TypeScript，dashboard 应用；⚠️ 信息聚合工具，非设计工具，relevant=false；设计师视角：处理大量实时多源数据的 dashboard UI 如何做到「信息密度高但不让人窒息」，是 B2B 产品设计的经典挑战",
@@ -275,12 +395,12 @@
       "features": "- **500+ curated news feeds** across 15 categories, AI-synthesized into briefs\n- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56 map layer types\n- **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence\n- **Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries\n- **Finance radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite\n- **Local AI** — run eve..."
     },
     {
-      "rank": 11,
+      "rank": 19,
       "name": "craft-agents-oss",
       "owner": "lukilabs",
       "source": "github",
       "installs": "5,528 stars (+314 今日 2026-04-30，TypeScript 热榜，持续热榜)",
-      "stars": 6268,
+      "stars": 6272,
       "desc": "Craft Agents OSS：lukilabs 出品的开源 agent 框架——TypeScript，强调 agent 任务的「工艺感」（craft），注重可组合性和可测试性，生产级多 agent 协作支持",
       "reason": "今日 +175 持续 TypeScript 热榜。agent 框架以「工艺」为理念，强调可维护性 vs 快速搭建的权衡",
       "usage": "TypeScript，开发者框架；⚠️ agent 开发框架，非设计工具，relevant=false；设计师视角：「可维护性 vs 快速原型」的 tradeoff 在 agent 产品设计中同样重要",
@@ -297,12 +417,12 @@
       "features": "- **Multi-Session Inbox**: Desktop app with session management, status workflow, and flagging\n- **Claude Code Experience**: Streaming responses, tool visualization, real-time updates\n- **Multiple LLM Connections**: Add multiple AI providers and set per-workspace defaults\n- **Multi-Provider Support**: Run sessions with Google AI Studio, ChatGPT Plus, GitHub Copilot, or OpenAI API keys alongside Anthropic\n- **Craft MCP Integration**: Access to 32+ Craft document tools (blocks, collections, sear..."
     },
     {
-      "rank": 12,
+      "rank": 20,
       "name": "lyra",
       "owner": "nv-tlabs",
       "source": "github",
       "installs": "1,483 stars (+69 今日，Python 热榜，今日新面孔)",
-      "stars": 2088,
+      "stars": 2089,
       "desc": "NVIDIA Project Lyra（ICLR 2026）：开源生成式 3D 世界模型——从单张图片或视频生成可探索的 3D 场景，基于 Video Diffusion Model Self-Distillation，支持 Lyra 1.0 + 2.0，无需真实世界多视角数据。Python，HuggingFace 可下载模型",
       "reason": "ICLR 2026 顶会论文配套代码正式开源。「单图→完整 3D 空间」的生成能力，对 3D 场景设计/游戏关卡设计/空间原型有长远影响",
       "usage": "Python，NVIDIA 研究代码；⚠️ 需要 GPU 推理（NVIDIA 研究级模型），relevant=false；设计师视角：Lyra 的「image-to-3D world」生成路径——从一张参考图直接得到可探索 3D 空间——预示着空间/环境设计的原型制作方式将被彻底改变",
@@ -325,7 +445,7 @@
       "features": ""
     },
     {
-      "rank": 13,
+      "rank": 21,
       "name": "assemble",
       "owner": "assembleone",
       "source": "producthunt",
@@ -339,7 +459,7 @@
       "relevant": false
     },
     {
-      "rank": 14,
+      "rank": 22,
       "name": "md-this-page",
       "owner": "browserext",
       "source": "producthunt",
@@ -353,7 +473,7 @@
       "relevant": false
     },
     {
-      "rank": 15,
+      "rank": 23,
       "name": "craftbot",
       "owner": "craftbot-dev",
       "source": "producthunt",
@@ -367,7 +487,7 @@
       "relevant": false
     },
     {
-      "rank": 16,
+      "rank": 24,
       "name": "firefly-ai-assistant",
       "owner": "adobe",
       "source": "industry-news",
@@ -381,7 +501,7 @@
       "relevant": false
     },
     {
-      "rank": 17,
+      "rank": 25,
       "name": "claude-design-tool",
       "owner": "anthropic",
       "source": "industry-news",
@@ -395,12 +515,12 @@
       "relevant": false
     },
     {
-      "rank": 18,
+      "rank": 26,
       "name": "paperless-ngx",
       "owner": "paperless-ngx",
       "source": "github",
       "installs": "GitHub Trending 2026-04-20 新面孔，100k+ stars 社区驱动项目",
-      "stars": 42122,
+      "stars": 42147,
       "desc": "社区维护的超级文档管理系统：扫描、索引、存档所有文档，支持 OCR（多语言）、全文检索、自动标签规则、邮件 import、移动端 app。可选集成本地 AI（Ollama/Paperless-GPT）实现智能分类和语义搜索，Docker 一键部署。Python，GPL-3.0",
       "reason": "今日 GitHub Trending 新面孔，百万级社区项目。「扫描→OCR→自动分类→全文搜索」完整文档 pipeline + AI 叠加层，代表本地自托管知识管理系统的最成熟实现",
       "usage": "Docker Compose 部署，本地运行；可选接入 Ollama 实现完全离线 AI 分类；完全免费 GPL-3.0；⚠️ 文档管理工具，非直接设计工具，relevant=false；设计师视角：paperless-ngx「捕获→智能分类→全文搜索」三段 pipeline，是设计师管理海量参考图/规范文档/合同的理想基础架构参考",
@@ -423,12 +543,12 @@
       "features": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards-dark.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png\">\n  <img src=\"https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png\">\n</pic..."
     },
     {
-      "rank": 19,
+      "rank": 27,
       "name": "openai-agents-python",
       "owner": "openai",
       "source": "github",
       "installs": "GitHub Trending 2026-04-20 新面孔，OpenAI 官方出品",
-      "stars": 27130,
+      "stars": 27145,
       "desc": "OpenAI 官方多 agent 工作流框架：轻量级、强大的 Python 库，支持 agent handoff、tool calling、guardrails、tracing。OpenAI Swarm 的正式生产继任版，Apache 2.0",
       "reason": "今日 GitHub Trending 新面孔，OpenAI 官方将多 agent 编排纳入官方工具链——标志 multi-agent workflow 从实验阶段进入生产化",
       "usage": "pip install openai-agents；⚠️ 依赖 OpenAI API key（付费），relevant=false；设计师视角：「agent handoff + guardrails + tracing」三层架构是 AI 工具产品可观测性设计的权威参考；OpenAI 官方背书说明 multi-agent 已成行业标准范式",
@@ -451,7 +571,7 @@
       "features": ""
     },
     {
-      "rank": 20,
+      "rank": 28,
       "name": "Figma-Context-MCP",
       "owner": "GLips",
       "source": "mcp-design-ranking",
@@ -465,12 +585,12 @@
       "relevant": true
     },
     {
-      "rank": 21,
+      "rank": 29,
       "name": "mempalace",
       "owner": "MemPalace",
       "source": "github",
       "installs": "43,367 stars，2026-04-05 创建，GitHub 本周新项目第一，Python",
-      "stars": 55536,
+      "stars": 55609,
       "desc": "MemPalace：AI 记忆宫殿系统——用空间记忆宫殿技术增强 AI agent 的长期记忆和知识检索。2026 年 4 月 5 日发布，一周内跑到 43k stars，是本月增速最快的新项目。Python",
       "reason": "本周 GitHub 新项目 star 增速第一（43,367 stars，仅创建两周），用「记忆宫殿」隐喻重新设计 AI 长期记忆系统——空间化记忆结构在 AI 应用中的全新探索",
       "usage": "Python；⚠️ AI 记忆系统工具，非设计工具，relevant=false；设计师视角：「空间化知识组织」思维——用记忆宫殿而非平铺列表存储知识——对 AI 产品信息架构设计有启发：人类记忆本质上是空间的，AI 知识管理 UI 可以探索空间隐喻",
@@ -493,12 +613,12 @@
       "features": ""
     },
     {
-      "rank": 22,
+      "rank": 30,
       "name": "nuwa-skill",
       "owner": "alchaincyf",
       "source": "github",
       "installs": "8,453 stars，2026-04-05 创建，本周新项目第二，Python",
-      "stars": 24194,
+      "stars": 24300,
       "desc": "Nuwa Skill：「女娲 Skill」——persona 蒸馏工具，将真实人物的思维方式、表达风格、判断框架提炼为可复用的 AI Skill。引爆本周「persona distillation wave」趋势，多个 follow-up repo 在同一周诞生（zhangxuefeng-skill、awesome-persona-distill-skills 等）。Python",
       "reason": "本周新项目第二（8k stars），引发「persona 蒸馏」浪潮——超过半数本周新项目是此 pattern 的变体。说明「把人的思维方式装进 AI」正成为 2026 年 skill 生态的主旋律",
       "usage": "Python；⚠️ persona 蒸馏工具，非直接设计工具，relevant=false；设计师视角：nuwa-skill 的「思维方式蒸馏→可复用 skill」逻辑，是 OpenClaw SOUL.md 机制的 open-source 验证——「AI 的个性化来自宣言，不来自微调」",
@@ -515,7 +635,7 @@
       "features": ""
     },
     {
-      "rank": 23,
+      "rank": 31,
       "name": "penpot-mcp",
       "owner": "penpot",
       "source": "mcp-design-ranking",
@@ -529,7 +649,7 @@
       "relevant": false
     },
     {
-      "rank": 24,
+      "rank": 32,
       "name": "better-icons",
       "owner": "better-auth",
       "source": "mcp-design-ranking",
@@ -543,7 +663,7 @@
       "relevant": false
     },
     {
-      "rank": 25,
+      "rank": 33,
       "name": "touchdesigner-mcp",
       "owner": "8beeeaaat",
       "source": "mcp-design-ranking",
@@ -557,7 +677,7 @@
       "relevant": false
     },
     {
-      "rank": 26,
+      "rank": 34,
       "name": "Claro",
       "owner": "claro-data",
       "source": "producthunt",
@@ -571,7 +691,7 @@
       "relevant": false
     },
     {
-      "rank": 27,
+      "rank": 35,
       "name": "Cubik.one",
       "owner": "cubik-one",
       "source": "producthunt",
@@ -585,12 +705,12 @@
       "relevant": false
     },
     {
-      "rank": 28,
+      "rank": 36,
       "name": "claude-context",
       "owner": "zilliztech",
       "source": "github",
       "installs": "7,344 stars (+873 今日 2026-04-22，TypeScript 热榜第一)",
-      "stars": 11838,
+      "stars": 11847,
       "desc": "zilliztech 出品的 Claude Code 代码搜索 MCP server：让 AI coding agent 将整个 codebase 纳入上下文进行精准搜索。向量化索引代码，语义检索，零配置即可让 Claude Code 理解整个项目结构。TypeScript，MIT 协议",
       "reason": "今日 TypeScript 热榜新面孔 +259。Milvus/Zilliz 出品，代码语义搜索 MCP——让 AI agent 从「只看当前文件」升级为「理解整个 codebase」。随着代码库规模增长，这类 MCP 将成为 coding agent 标配基础设施",
       "usage": "TypeScript/Node.js MCP server，npm 安装；⚠️ 主要为 AI coding agent 提升代码理解，非设计工具，relevant=false；设计师视角：claude-context「向量化索引 + 语义搜索 codebase」的思路迁移到设计领域——对整个设计系统/组件库建立语义索引，让 AI 能「理解」整个设计资产库——是设计系统 AI 化的核心基础设施方向",
@@ -613,12 +733,12 @@
       "features": ""
     },
     {
-      "rank": 29,
+      "rank": 37,
       "name": "manifest",
       "owner": "mnfst",
       "source": "github",
       "installs": "5,465 stars (+174 今日 2026-04-21，TypeScript 热榜新面孔)",
-      "stars": 6949,
+      "stars": 6963,
       "desc": "Manifest：智能模型路由 for 个人 AI agent——自动选择最优 LLM 处理每个请求，降低 AI 使用成本最高 70%。支持 Claude/GPT/Gemini/本地模型动态路由，按任务复杂度分级。TypeScript，MIT 协议",
       "reason": "今日 TypeScript 热榜新面孔 +174。「智能模型路由」赛道继 LiteLLM 之后又一个重量级玩家——但 Manifest 聚焦「个人 AI agent」而非企业级，定位更亲民。AI 工具成本压力下，模型路由将是 2026 年 AI 产品的标配能力",
       "usage": "TypeScript，Node.js 运行；⚠️ AI 基础设施工具，非设计专用，relevant=false；设计师视角：Manifest「按任务复杂度自动路由模型」的产品逻辑——简单问题用便宜模型、复杂任务用旗舰模型——是 AI 产品降本策略的经典设计范式，也是 AI 工具 pricing UX 设计的重要参考",
@@ -641,12 +761,12 @@
       "features": ""
     },
     {
-      "rank": 30,
+      "rank": 38,
       "name": "siyuan",
       "owner": "siyuan-note",
       "source": "github",
       "installs": "42,840 stars (+37 今日 2026-04-21，TypeScript 热榜)",
-      "stars": 44435,
+      "stars": 44454,
       "desc": "思源笔记：隐私优先、自托管、完全开源的个人知识管理软件。TypeScript + Golang，双链笔记，Block 级别内容寻址，端对端加密同步，插件生态丰富，支持 macOS/Windows/Linux/iOS/Android。AGPLv3 协议",
       "reason": "今日 GitHub Trending 新面孔。42,840 stars 的成熟 PKM 系统——「Block 级内容寻址 + 端对端加密 + 全平台」的产品设计，在 Obsidian/Notion 之外提供了一条完全开源自托管的知识管理路径。设计师作为重度知识积累者，值得了解其产品架构",
       "usage": "TypeScript + Golang，下载官方安装包；完全免费开源（付费云同步可选），自托管完全免费；⚠️ 通用知识管理工具，非设计专用，relevant=false；设计师视角：思源笔记「Block 级内容寻址」架构——任何内容块都有唯一 ID 可被引用——是知识型产品（设计系统文档/规范库）信息架构的设计参考",
@@ -669,7 +789,7 @@
       "features": ""
     },
     {
-      "rank": 31,
+      "rank": 39,
       "name": "GladeKit",
       "owner": "glade-tool",
       "source": "producthunt",
@@ -683,7 +803,7 @@
       "relevant": false
     },
     {
-      "rank": 32,
+      "rank": 40,
       "name": "ScreenBuddy",
       "owner": "screenbuddy-app",
       "source": "producthunt",
@@ -697,12 +817,12 @@
       "relevant": false
     },
     {
-      "rank": 33,
+      "rank": 41,
       "name": "langfuse",
       "owner": "langfuse",
       "source": "github",
       "installs": "25,513 stars (+160 今日 2026-04-22，TypeScript 热榜新面孔)",
-      "stars": 29024,
+      "stars": 29072,
       "desc": "开源 LLM 工程平台：LLM 可观测性、指标监控、eval、Prompt 管理、Playground、数据集管理。支持 OpenTelemetry、Langchain、OpenAI SDK、LiteLLM 集成，YC W23，Apache 2.0",
       "reason": "今日 TypeScript 热榜新面孔 +160。LLM 可观测性领域的领头产品——随着 AI 产品进入生产阶段，对 LLM 行为的监控、eval 和调试变成核心基础设施需求",
       "usage": "TypeScript/Node.js，可自托管 Docker 部署；⚠️ LLM 工程基础设施工具，非设计专用，relevant=false；设计师视角：Langfuse「Prompt 管理 + eval + trace」三层体系——把 AI 产品的不确定性做成可观测、可测量的系统——是 AI 产品质量保证设计的核心框架参考",
@@ -725,12 +845,12 @@
       "features": ""
     },
     {
-      "rank": 34,
+      "rank": 42,
       "name": "OpenMetadata",
       "owner": "open-metadata",
       "source": "github",
       "installs": "12,066 stars (+609 今日 2026-04-22，TypeScript 热榜新面孔)",
-      "stars": 14182,
+      "stars": 14191,
       "desc": "统一元数据平台：数据发现、数据可观测性、数据治理，列级别血缘追踪，团队协作，开源，Apache 2.0",
       "reason": "今日 TypeScript 热榜新面孔 +609。数据治理/元数据管理领域的核心开源工具——AI 产品时代数据血缘和质量管理的需求快速增长",
       "usage": "TypeScript，Docker 部署；⚠️ 数据治理工具，非设计专用，relevant=false；设计师视角：OpenMetadata 的「列级血缘追踪」可视化——把数据流向关系图形化——是数据产品 IA 设计和可视化的重要参考案例",
@@ -753,7 +873,7 @@
       "features": ""
     },
     {
-      "rank": 35,
+      "rank": 43,
       "name": "mcp",
       "owner": "magicuidesign",
       "source": "mcp-design-ranking",
@@ -767,7 +887,7 @@
       "relevant": false
     },
     {
-      "rank": 36,
+      "rank": 44,
       "name": "mcp_excalidraw",
       "owner": "yctimlin",
       "source": "mcp-design-ranking",
@@ -781,7 +901,7 @@
       "relevant": false
     },
     {
-      "rank": 37,
+      "rank": 45,
       "name": "shadcn-ui-mcp-server",
       "owner": "Jpisnice",
       "source": "mcp-design-ranking",
@@ -795,7 +915,7 @@
       "relevant": false
     },
     {
-      "rank": 38,
+      "rank": 46,
       "name": "canva-ai-2",
       "owner": "canva",
       "source": "industry-news",
@@ -809,7 +929,7 @@
       "relevant": false
     },
     {
-      "rank": 39,
+      "rank": 47,
       "name": "gpt-image-2",
       "owner": "gpt-image-2",
       "source": "producthunt",
@@ -823,7 +943,7 @@
       "relevant": false
     },
     {
-      "rank": 40,
+      "rank": 48,
       "name": "trail",
       "owner": "trail-app",
       "source": "producthunt",
@@ -837,7 +957,7 @@
       "relevant": false
     },
     {
-      "rank": 41,
+      "rank": 49,
       "name": "blankout",
       "owner": "blankout-dev",
       "source": "producthunt",
@@ -851,7 +971,7 @@
       "relevant": false
     },
     {
-      "rank": 42,
+      "rank": 50,
       "name": "AdsAgent",
       "owner": "adsagent-dev",
       "source": "producthunt",
@@ -865,12 +985,12 @@
       "relevant": false
     },
     {
-      "rank": 43,
+      "rank": 51,
       "name": "ml-intern",
       "owner": "huggingface",
       "source": "github",
       "installs": "6,103 stars (+1,236 今日 2026-04-23，Python 热榜；2026-04-25 更新至 6,103 stars）",
-      "stars": 10444,
+      "stars": 10453,
       "desc": "HuggingFace 官方开源 ML 工程师 agent：自主读论文、训练模型、发布 ML 模型，多人协同构建（含 claude 作为 contributor），Python + TypeScript",
       "reason": "HuggingFace 官方首次发布自主 ML 工程师 agent——「读论文 → 训练模型 → 发布」全链路自动化。官方出品说明 AI 自主完成 ML 工程任务正在被最核心的 AI 基础设施团队认真对待",
       "usage": "Python；⚠️ 需要 GPU + HuggingFace 账户进行模型训练，非设计工具，relevant=false；设计师视角：ml-intern「从论文到产品」的自动化循环——AI 自主完成整个研究→工程→发布链路——预示着 2026 年越来越多 AI 工具将由 AI 自身构建；当 AI 工具开始自我生长，设计师需要的技能将从「会用工具」转向「会描述目标」",
@@ -887,12 +1007,12 @@
       "features": ""
     },
     {
-      "rank": 44,
+      "rank": 52,
       "name": "Open-Generative-AI",
       "owner": "Anil-matcha",
       "source": "github",
       "installs": "6,747 stars (+384 今日 2026-04-23，JavaScript 热榜新面孔)",
-      "stars": 19137,
+      "stars": 19415,
       "desc": "开源自托管 AI 图像/视频生成工作室：Higgsfield/Freepik/Krea/Openart 的免费替代，200+ 模型（Flux/Midjourney/Kling/Sora/Veo），无内容过滤，自托管，JavaScript，MIT 协议",
       "reason": "今日 JavaScript 热榜新面孔 +384。「200+ 生成模型 + 统一界面 + 无限制 + 自托管」的开源生成工作室直接对标付费 AI 创意平台——设计师日常素材生成需求（广告图/品牌视觉/产品渲染）的免费开源解法正在成型",
       "usage": "JavaScript，自托管 Node.js；⚠️ 核心生成功能依赖 GPU 或云端 API，不满足「无 GPU 可跑」条件，relevant=false；设计师视角：Open-Generative-AI「聚合 200+ 生成模型 + 统一工作台」架构——让设计师在一处切换 Flux/Kling/Sora——代表 AI 素材生成工作站的理想形态；当 GPU 成本持续下降，这类本地工作站的部署门槛将大幅降低",
@@ -915,12 +1035,12 @@
       "features": ""
     },
     {
-      "rank": 45,
+      "rank": 53,
       "name": "free-claude-code",
       "owner": "Alishahryar1",
       "source": "github",
       "installs": "11,212 stars（+3,975 今日 2026-04-25，Python 热榜第一，持续暴涨，2 日内翻倍至 11k）",
-      "stars": 34292,
+      "stars": 34479,
       "desc": "免费在终端/VSCode/Discord 使用 Claude Code：绕过付费门槛接入 Claude coding agent，类似 OpenClaw 在 Discord 的方式，Python，开源",
       "reason": "今日 Python 热榜第一 +2,388，单日增速全榜最快。「免费用 Claude Code」的强烈需求被充分验证——Claude Code 的付费门槛正在催生大批开源替代方案，OpenClaw 的市场定位被进一步佐证",
       "usage": "Python；⚠️ 绕过付费 API 存在服务条款风险；非设计工具，relevant=false；设计师视角：free-claude-code 的爆火说明 AI coding agent 仍有极高的付费阻力——「免费 AI agent 接入层」是 2026 年竞争最激烈的基础设施赛道",
@@ -937,12 +1057,12 @@
       "features": ""
     },
     {
-      "rank": 46,
+      "rank": 54,
       "name": "context-mode",
       "owner": "mksglu",
       "source": "github",
       "installs": "9,288 stars (+302 今日 2026-04-23，TypeScript 热榜新面孔)",
-      "stars": 17359,
+      "stars": 17425,
       "desc": "AI coding agent 上下文窗口优化工具：沙箱化工具输出，实现 98% 上下文压缩，支持 12 个主流平台（Claude Code/Cursor/Codex 等），TypeScript，MIT 协议",
       "reason": "今日 TypeScript 热榜新面孔 +302。「98% 上下文压缩」是强力的产品声明——12 平台兼容说明是「平台无关上下文管理层」的设计思路，正在成为 AI coding agent 基础设施标配",
       "usage": "TypeScript，npm 安装；⚠️ 面向 AI coding agent 的基础设施工具，非设计专用，relevant=false；设计师视角：context-mode「沙箱化输出 + 上下文压缩」的思路——让 AI agent 在有限认知窗口内处理更多信息——与视觉设计「层次感」原则同理：主动限制注意力边界才能提升效率",
@@ -965,35 +1085,21 @@
       "features": ""
     },
     {
-      "rank": 47,
+      "rank": 55,
       "name": "awesome-agent-skills",
       "owner": "VoltAgent",
       "source": "github",
       "installs": "16,900+ stars，今日 GitHub Trending，策划集合",
-      "stars": 25246,
+      "stars": 16900,
       "desc": "社区策划的 1000+ agent skill 集合：官方团队与社区共建，兼容 Claude Code、Codex、Antigravity、Gemini CLI、Cursor 等多平台。涵盖设计、营销、工程、研究等垂直领域",
       "reason": "今日 GitHub Trending，16.9k stars。1000+ skills 的策划集合是 AI agent skill 生态的百科全书入口，同时验证了 skill 生态正在指数级扩张——三个月前 agentskills.io 只有几百个 skill，现在已经超过 1000 个",
       "usage": "Awesome list，浏览/安装为主；⚠️ 本身是文档策划集合，不是可直接安装到 OpenClaw 的单一 skill，relevant=false；设计师视角：awesome-agent-skills 是发现新设计向 skill 的重要入口——定期浏览可以发现还未进入主流视野的设计/workflow 工具；可重点关注其中 design、UI、visual、figma 分类",
       "tag": "AI",
       "category": "Agent Skills Index",
-      "relevant": false,
-      "language": null,
-      "license": "MIT",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "antigravity-skills",
-        "awesome",
-        "awesome-list"
-      ],
-      "repo_desc": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "homepage": "https://officialskills.sh/",
-      "how_to_install": "",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 48,
+      "rank": 56,
       "name": "design-md",
       "owner": "getdesignmd",
       "source": "producthunt",
@@ -1007,7 +1113,7 @@
       "relevant": false
     },
     {
-      "rank": 49,
+      "rank": 57,
       "name": "agent-context",
       "owner": "agent-context-app",
       "source": "producthunt",
@@ -1021,7 +1127,7 @@
       "relevant": false
     },
     {
-      "rank": 50,
+      "rank": 58,
       "name": "figma-canvas-agent",
       "owner": "figma",
       "source": "industry-news",
@@ -1035,29 +1141,21 @@
       "relevant": false
     },
     {
-      "rank": 51,
+      "rank": 59,
       "name": "typescript-go",
       "owner": "microsoft",
       "source": "github",
       "installs": "24,982 stars (+22 今日 2026-04-24，Go 语言，GitHub Trending 今日新面孔)",
-      "stars": 25656,
+      "stars": 24982,
       "desc": "Microsoft 官方 TypeScript 原生 Go 语言重写版：将 TypeScript 编译器从 TypeScript 移植为原生 Go，目标是大幅提升编译速度（官方披露快 10x+）。这是 TypeScript 生态最重大的架构变化，影响所有前端/全栈项目的构建链路。Go 语言，MIT 协议",
       "reason": "今日 GitHub Trending 新面孔，24,982 stars。Microsoft 官方把 TypeScript 编译器重写为 Go——这不只是工程优化，是整个前端构建工具链将因此受益的底层变化。未来 Vite/Rollup/各类 AI coding agent 的 TypeScript 处理速度将大幅提升",
       "usage": "Go 语言，编译器级别工具；⚠️ 底层编译器基础设施，非直接可用工具，relevant=false；设计师视角：typescript-go「语言原生化」带来的 10x 编译加速，意味着 AI coding agent 构建前端原型的速度将再提升一个数量级——「从想法到可交互原型」的时间窗口继续收窄",
       "tag": "AI",
       "category": "Developer Infrastructure",
-      "relevant": false,
-      "language": "Go",
-      "license": "Apache-2.0",
-      "topics": [],
-      "repo_desc": "Staging repo for development of native port of TypeScript",
-      "homepage": "",
-      "how_to_install": "",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 52,
+      "rank": 60,
       "name": "CodeCanary",
       "owner": "codecanary",
       "source": "producthunt",
@@ -1071,7 +1169,7 @@
       "relevant": false
     },
     {
-      "rank": 53,
+      "rank": 61,
       "name": "Nordcraft-2-0",
       "owner": "nordcraft",
       "source": "producthunt",
@@ -1085,56 +1183,35 @@
       "relevant": false
     },
     {
-      "rank": 55,
+      "rank": 63,
       "name": "skills",
       "owner": "mattpocock",
       "source": "github",
       "installs": "52,423 stars (+4,379 今日 2026-05-02，Shell，持续热榜）",
-      "stars": 127832,
+      "stars": 52423,
       "desc": "Matt Pocock（Total TypeScript 作者）的个人 .claude skills 目录：to-prd（把对话转成 PRD 并提 GitHub issue）、to-issues（PRD 拆分为独立 issues）、grill-me（穷追猛打追问直到方案没盲区）、design-an-interface（多 sub-agent 并行生成多个截然不同的界面设计方案）、write-a-skill（创建新 skill）、obsidian-vault（Obsidian 笔记操作）、edit-article（改文章）等。npx skills@latest add 安装方式。TypeScript 社区大 V 的 skill 配置作为参考范本进入热榜",
       "reason": "今日 GitHub Trending 新面孔。Matt Pocock（30k+ Twitter 粉丝，TypeScript 教育第一人）公开个人 .claude skills 目录——这是 'KOL 公开 AI workflow 配置' 趋势的最新案例，与 andrej-karpathy-skills 同一路线；design-an-interface 技法值得关注：用多个并行 sub-agent 同时生成多个 radically different 界面方案，逼出真正的选择",
       "usage": "npx skills@latest add mattpocock/skills/<skill-name>；⚠️ npx 自动拉取外部代码，符合 AGENTS.md 安全警告模式；且为 Claude Code CLI skill，非 OpenClaw 可安装 skill；relevant=false；设计师视角：design-an-interface 的 '并行多 agent 生成发散方案' 工作模式——不让 AI 给一个答案，而是同时跑多个 sub-agent 产出差异化方案——是 AI 辅助创意发散的高效路径，可手动在 Claude 中复现",
       "tag": "AI",
       "category": "Claude Code Skills Directory",
-      "relevant": false,
-      "language": "Shell",
-      "license": "MIT",
-      "topics": [],
-      "repo_desc": "Skills for Real Engineers. Straight from my .claude directory.",
-      "homepage": "",
-      "how_to_install": "",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 56,
+      "rank": 64,
       "name": "claude-code-templates",
       "owner": "davila7",
       "source": "github",
       "installs": "GitHub Trending 2026-04-25 新面孔，今日入榜，npm weekly downloads 稳定增长",
-      "stars": 28031,
+      "stars": 0,
       "desc": "Claude Code 全套配置 CLI 工具：100+ 预制 AI agents（security-auditor、React performance optimizer、database-architect、frontend-developer 等）、自定义 slash commands（/generate-tests、/optimize-bundle、/check-security）、MCP 集成（GitHub、PostgreSQL、Stripe、AWS、OpenAI）、hooks（pre-commit validation）、settings 和 skills。Web 交互式 dashboard 在 aitmpl.com。npx claude-code-templates@latest 一键安装。MIT 协议",
       "reason": "今日 GitHub Trending 新面孔。Claude Code 生态里规模最大的配置模板库之一——与 arc-kit（rank 2）的企业治理方向不同，davila7/templates 走的是通用开发者提效路线。aitmpl.com dashboard 验证了 '可浏览 + 可搜索的 skill/agent 市场' 正成为 AI coding agent 生态的标准基础设施",
       "usage": "npx claude-code-templates@latest；⚠️ npx 自动拉取外部代码；需要 Claude Code（付费）；relevant=false；设计师视角：claude-code-templates 的 aitmpl.com 交互式 dashboard——可视化浏览/搜索/安装 100+ agents——是 skill 市场 UX 设计的优质参考案例；'组件 + 命令 + MCP + hooks + settings + skills' 六层配置架构图也是 AI agent 产品能力分层设计的教科书",
       "tag": "AI",
       "category": "Claude Code Templates",
-      "relevant": false,
-      "language": "Python",
-      "license": "MIT",
-      "topics": [
-        "anthropic",
-        "anthropic-claude",
-        "claude",
-        "claude-code"
-      ],
-      "repo_desc": "CLI tool for configuring and monitoring Claude Code",
-      "homepage": "https://aitmpl.com",
-      "how_to_install": "",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 57,
+      "rank": 65,
       "name": "awesome-codex-skills",
       "owner": "ComposioHQ",
       "source": "github",
@@ -1148,7 +1225,7 @@
       "relevant": false
     },
     {
-      "rank": 58,
+      "rank": 66,
       "name": "NotchNest-AI",
       "owner": "notchnest",
       "source": "producthunt",
@@ -1162,7 +1239,7 @@
       "relevant": false
     },
     {
-      "rank": 59,
+      "rank": 67,
       "name": "cua",
       "owner": "trycua",
       "source": "github",
@@ -1176,7 +1253,7 @@
       "relevant": false
     },
     {
-      "rank": 60,
+      "rank": 68,
       "name": "beads",
       "owner": "gastownhall",
       "source": "github",
@@ -1190,7 +1267,7 @@
       "relevant": false
     },
     {
-      "rank": 61,
+      "rank": 69,
       "name": "google-stitch",
       "owner": "google-labs",
       "source": "industry-news",
@@ -1204,7 +1281,7 @@
       "relevant": true
     },
     {
-      "rank": 62,
+      "rank": 70,
       "name": "AI-Designer-MCP",
       "owner": "productcool-listing",
       "source": "producthunt",
@@ -1218,7 +1295,7 @@
       "relevant": false
     },
     {
-      "rank": 63,
+      "rank": 71,
       "name": "penpot",
       "owner": "penpot",
       "source": "github",
@@ -1232,7 +1309,7 @@
       "relevant": false
     },
     {
-      "rank": 64,
+      "rank": 72,
       "name": "prompt-optimizer",
       "owner": "linshenkx",
       "source": "github",
@@ -1246,7 +1323,7 @@
       "relevant": false
     },
     {
-      "rank": 65,
+      "rank": 73,
       "name": "CorridorKey",
       "owner": "nikopueringer",
       "source": "github",
@@ -1260,7 +1337,7 @@
       "relevant": false
     },
     {
-      "rank": 66,
+      "rank": 74,
       "name": "ai4animationpy",
       "owner": "facebookresearch",
       "source": "github",
@@ -1274,7 +1351,7 @@
       "relevant": false
     },
     {
-      "rank": 67,
+      "rank": 75,
       "name": "PlayJoob",
       "owner": "playjoob-team",
       "source": "producthunt",
@@ -1288,7 +1365,7 @@
       "relevant": false
     },
     {
-      "rank": 68,
+      "rank": 76,
       "name": "epismo-agent-package",
       "owner": "epismo-team",
       "source": "producthunt",
@@ -1302,7 +1379,7 @@
       "relevant": false
     },
     {
-      "rank": 69,
+      "rank": 77,
       "name": "Odyssey-2-Max",
       "owner": "odyssey-world",
       "source": "producthunt",
@@ -1316,7 +1393,7 @@
       "relevant": false
     },
     {
-      "rank": 70,
+      "rank": 78,
       "name": "OmniRoute",
       "owner": "diegosouzapw",
       "source": "github",
@@ -1330,7 +1407,7 @@
       "relevant": false
     },
     {
-      "rank": 71,
+      "rank": 79,
       "name": "ace-step-ui",
       "owner": "fspecii",
       "source": "github",
@@ -1344,7 +1421,7 @@
       "relevant": false
     },
     {
-      "rank": 72,
+      "rank": 80,
       "name": "quarkdown",
       "owner": "iamgio",
       "source": "github",
@@ -1358,7 +1435,7 @@
       "relevant": false
     },
     {
-      "rank": 73,
+      "rank": 81,
       "name": "warp",
       "owner": "warpdotdev",
       "source": "github",
@@ -1372,7 +1449,7 @@
       "relevant": false
     },
     {
-      "rank": 74,
+      "rank": 82,
       "name": "jcode",
       "owner": "1jehuang",
       "source": "github",
@@ -1386,7 +1463,7 @@
       "relevant": false
     },
     {
-      "rank": 75,
+      "rank": 83,
       "name": "GhostTrack",
       "owner": "HunxByts",
       "source": "github",
@@ -1400,7 +1477,7 @@
       "relevant": false
     },
     {
-      "rank": 76,
+      "rank": 84,
       "name": "daily_stock_analysis",
       "owner": "ZhuLinsen",
       "source": "github",
@@ -1414,7 +1491,7 @@
       "relevant": false
     },
     {
-      "rank": 77,
+      "rank": 85,
       "name": "Snapr",
       "owner": "snapr-app",
       "source": "producthunt",
@@ -1428,7 +1505,7 @@
       "relevant": false
     },
     {
-      "rank": 78,
+      "rank": 86,
       "name": "redesign",
       "owner": "nodewave",
       "source": "producthunt",
@@ -1442,7 +1519,7 @@
       "relevant": false
     },
     {
-      "rank": 79,
+      "rank": 87,
       "name": "picsart-cli",
       "owner": "picsart",
       "source": "producthunt",
@@ -1456,7 +1533,7 @@
       "relevant": false
     },
     {
-      "rank": 80,
+      "rank": 88,
       "name": "noirdoc",
       "owner": "noirdoc-team",
       "source": "producthunt",
@@ -1470,7 +1547,7 @@
       "relevant": false
     },
     {
-      "rank": 81,
+      "rank": 89,
       "name": "openai-figma-codex-partnership",
       "owner": "openai + figma",
       "source": "industry-news",
@@ -1484,7 +1561,7 @@
       "relevant": false
     },
     {
-      "rank": 82,
+      "rank": 90,
       "name": "CodeHealth-MCP",
       "owner": "codescene",
       "source": "producthunt",
@@ -1498,7 +1575,7 @@
       "relevant": false
     },
     {
-      "rank": 83,
+      "rank": 91,
       "name": "superpowers",
       "owner": "obra",
       "source": "github",
@@ -1512,7 +1589,7 @@
       "relevant": false
     },
     {
-      "rank": 84,
+      "rank": 92,
       "name": "TradingAgents",
       "owner": "TauricResearch",
       "source": "github",
@@ -1526,7 +1603,7 @@
       "relevant": false
     },
     {
-      "rank": 85,
+      "rank": 93,
       "name": "maigret",
       "owner": "soxoj",
       "source": "github",
@@ -1540,7 +1617,7 @@
       "relevant": false
     },
     {
-      "rank": 86,
+      "rank": 94,
       "name": "ghostty",
       "owner": "ghostty-org",
       "source": "github",
@@ -1554,7 +1631,7 @@
       "relevant": false
     },
     {
-      "rank": 87,
+      "rank": 95,
       "name": "skills",
       "owner": "browserbase",
       "source": "github",
@@ -1568,7 +1645,7 @@
       "relevant": false
     },
     {
-      "rank": 89,
+      "rank": 97,
       "name": "sim",
       "owner": "simstudioai",
       "source": "github",
@@ -1582,7 +1659,7 @@
       "relevant": false
     },
     {
-      "rank": 90,
+      "rank": 98,
       "name": "zapret-discord-youtube",
       "owner": "Flowseal",
       "source": "github",
@@ -1596,7 +1673,7 @@
       "relevant": false
     },
     {
-      "rank": 91,
+      "rank": 99,
       "name": "postiz",
       "owner": "gitroomhq",
       "source": "producthunt",
@@ -1610,7 +1687,7 @@
       "relevant": false
     },
     {
-      "rank": 92,
+      "rank": 100,
       "name": "bitgrain",
       "owner": "bitgrain-studio",
       "source": "producthunt",
@@ -1624,7 +1701,7 @@
       "relevant": false
     },
     {
-      "rank": 93,
+      "rank": 101,
       "name": "zush",
       "owner": "zush-app",
       "source": "producthunt",
@@ -1638,7 +1715,7 @@
       "relevant": false
     },
     {
-      "rank": 94,
+      "rank": 102,
       "name": "launchcut",
       "owner": "launchcut-dev",
       "source": "producthunt",
@@ -1652,7 +1729,7 @@
       "relevant": false
     },
     {
-      "rank": 95,
+      "rank": 103,
       "name": "screenveil",
       "owner": "screenveil-app",
       "source": "producthunt",
@@ -1666,7 +1743,7 @@
       "relevant": false
     },
     {
-      "rank": 96,
+      "rank": 104,
       "name": "peekfocus",
       "owner": "peekfocus-app",
       "source": "producthunt",
@@ -1680,7 +1757,7 @@
       "relevant": false
     },
     {
-      "rank": 97,
+      "rank": 105,
       "name": "figma-mcp-free",
       "owner": "slashdoodleart",
       "source": "github",
@@ -1694,7 +1771,7 @@
       "relevant": true
     },
     {
-      "rank": 88,
+      "rank": 96,
       "name": "AI-Interviewer-Hyring",
       "owner": "hyring",
       "source": "producthunt",
@@ -1708,7 +1785,7 @@
       "relevant": false
     },
     {
-      "rank": 98,
+      "rank": 106,
       "name": "Filect",
       "owner": "filect-app",
       "source": "producthunt",
@@ -1722,7 +1799,7 @@
       "relevant": false
     },
     {
-      "rank": 99,
+      "rank": 107,
       "name": "Feather",
       "owner": "feather-photo",
       "source": "producthunt",
@@ -1736,7 +1813,7 @@
       "relevant": false
     },
     {
-      "rank": 100,
+      "rank": 108,
       "name": "ruflo",
       "owner": "ruvnet",
       "source": "github",
@@ -1750,7 +1827,7 @@
       "relevant": false
     },
     {
-      "rank": 101,
+      "rank": 109,
       "name": "nexu",
       "owner": "nexu-io",
       "source": "github",
@@ -1764,7 +1841,7 @@
       "relevant": false
     },
     {
-      "rank": 102,
+      "rank": 110,
       "name": "AionUi",
       "owner": "iOfficeAI",
       "source": "github",
@@ -1778,7 +1855,7 @@
       "relevant": false
     },
     {
-      "rank": 103,
+      "rank": 111,
       "name": "n8n-mcp",
       "owner": "czlonkowski",
       "source": "github",
@@ -1792,7 +1869,7 @@
       "relevant": false
     },
     {
-      "rank": 104,
+      "rank": 112,
       "name": "ouroboros",
       "owner": "Q00",
       "source": "github",
@@ -1806,7 +1883,7 @@
       "relevant": false
     },
     {
-      "rank": 105,
+      "rank": 113,
       "name": "Pixelle-Video",
       "owner": "AIDC-AI",
       "source": "github",
@@ -1820,7 +1897,7 @@
       "relevant": false
     },
     {
-      "rank": 106,
+      "rank": 114,
       "name": "cocoindex",
       "owner": "cocoindex-io",
       "source": "github",
@@ -1834,7 +1911,7 @@
       "relevant": false
     },
     {
-      "rank": 107,
+      "rank": 115,
       "name": "local-deep-research",
       "owner": "LearningCircuit",
       "source": "github",
@@ -1848,7 +1925,7 @@
       "relevant": false
     },
     {
-      "rank": 109,
+      "rank": 117,
       "name": "DeepSeek-TUI",
       "owner": "Hmbown",
       "source": "github",
@@ -1862,7 +1939,7 @@
       "relevant": false
     },
     {
-      "rank": 110,
+      "rank": 118,
       "name": "docuseal",
       "owner": "docusealco",
       "source": "github",
@@ -1876,7 +1953,7 @@
       "relevant": false
     },
     {
-      "rank": 111,
+      "rank": 119,
       "name": "rudel-trading-cards",
       "owner": "rudel-dev",
       "source": "producthunt",
@@ -1890,7 +1967,7 @@
       "relevant": false
     },
     {
-      "rank": 112,
+      "rank": 120,
       "name": "Manex",
       "owner": "manex-app",
       "source": "producthunt",
@@ -1904,7 +1981,7 @@
       "relevant": false
     },
     {
-      "rank": 113,
+      "rank": 121,
       "name": "Flowly",
       "owner": "flowly-app",
       "source": "producthunt",
@@ -1918,7 +1995,7 @@
       "relevant": false
     },
     {
-      "rank": 114,
+      "rank": 122,
       "name": "Aaavatar",
       "owner": "aaavatar-app",
       "source": "producthunt",
@@ -1932,7 +2009,7 @@
       "relevant": false
     },
     {
-      "rank": 115,
+      "rank": 123,
       "name": "Sleek-Analytics",
       "owner": "sleek-analytics",
       "source": "producthunt",
@@ -1946,7 +2023,7 @@
       "relevant": false
     },
     {
-      "rank": 116,
+      "rank": 124,
       "name": "Mindra",
       "owner": "mindra-ai",
       "source": "producthunt",
@@ -1960,7 +2037,7 @@
       "relevant": false
     },
     {
-      "rank": 108,
+      "rank": 116,
       "name": "Mockin-2-0",
       "owner": "mockin-app",
       "source": "producthunt",
@@ -1974,7 +2051,7 @@
       "relevant": false
     },
     {
-      "rank": 117,
+      "rank": 125,
       "name": "vscode-dark-islands",
       "owner": "bwya77",
       "source": "github",
@@ -1988,7 +2065,7 @@
       "relevant": false
     },
     {
-      "rank": 118,
+      "rank": 126,
       "name": "awesome-ai-apps",
       "owner": "Arindam200",
       "source": "github",
@@ -2002,7 +2079,7 @@
       "relevant": false
     },
     {
-      "rank": 119,
+      "rank": 127,
       "name": "TabPFN",
       "owner": "PriorLabs",
       "source": "github",
@@ -2016,7 +2093,7 @@
       "relevant": false
     },
     {
-      "rank": 120,
+      "rank": 128,
       "name": "Scrapling",
       "owner": "D4Vinci",
       "source": "github",
@@ -2030,7 +2107,7 @@
       "relevant": false
     },
     {
-      "rank": 121,
+      "rank": 129,
       "name": "Kilo Code v7",
       "owner": "kilo-ai",
       "source": "producthunt",
@@ -2044,7 +2121,7 @@
       "relevant": false
     },
     {
-      "rank": 122,
+      "rank": 130,
       "name": "TalentOS",
       "owner": "talentos-ai",
       "source": "producthunt",
@@ -2058,7 +2135,7 @@
       "relevant": false
     },
     {
-      "rank": 123,
+      "rank": 131,
       "name": "PanicMode",
       "owner": "panicmode-app",
       "source": "producthunt",
@@ -2072,7 +2149,7 @@
       "relevant": false
     },
     {
-      "rank": 124,
+      "rank": 132,
       "name": "Airbyte Agents",
       "owner": "airbytehq",
       "source": "producthunt",
@@ -2086,7 +2163,7 @@
       "relevant": false
     },
     {
-      "rank": 125,
+      "rank": 133,
       "name": "Blaze",
       "owner": "blaze-app",
       "source": "producthunt",
@@ -2100,7 +2177,7 @@
       "relevant": false
     },
     {
-      "rank": 126,
+      "rank": 134,
       "name": "agent-skills",
       "owner": "addyosmani",
       "source": "github",
@@ -2114,7 +2191,7 @@
       "relevant": false
     },
     {
-      "rank": 127,
+      "rank": 135,
       "name": "Rapid-MLX",
       "owner": "raullenchai",
       "source": "github",
@@ -2128,7 +2205,7 @@
       "relevant": false
     },
     {
-      "rank": 128,
+      "rank": 136,
       "name": "pocket-tts",
       "owner": "kyutai-labs",
       "source": "github",
@@ -2142,7 +2219,7 @@
       "relevant": false
     },
     {
-      "rank": 129,
+      "rank": 137,
       "name": "awesome-llm-apps",
       "owner": "Shubhamsaboo",
       "source": "github",
@@ -2156,7 +2233,7 @@
       "relevant": false
     },
     {
-      "rank": 130,
+      "rank": 138,
       "name": "InsForge",
       "owner": "InsForge",
       "source": "github",
@@ -2170,7 +2247,7 @@
       "relevant": false
     },
     {
-      "rank": 131,
+      "rank": 139,
       "name": "financial-services",
       "owner": "anthropics",
       "source": "github",
@@ -2184,7 +2261,7 @@
       "relevant": false
     },
     {
-      "rank": 132,
+      "rank": 140,
       "name": "free-llm-api-resources",
       "owner": "cheahjs",
       "source": "github",
@@ -2198,7 +2275,7 @@
       "relevant": false
     },
     {
-      "rank": 133,
+      "rank": 141,
       "name": "Spotit",
       "owner": "spotit-app",
       "source": "producthunt",
@@ -2212,7 +2289,7 @@
       "relevant": false
     },
     {
-      "rank": 134,
+      "rank": 142,
       "name": "Magic-Studio-by-Once-UI",
       "owner": "once-ui",
       "source": "producthunt",
@@ -2226,7 +2303,7 @@
       "relevant": false
     },
     {
-      "rank": 136,
+      "rank": 144,
       "name": "openreel-video",
       "owner": "Augani",
       "source": "github",
@@ -2240,7 +2317,7 @@
       "relevant": true
     },
     {
-      "rank": 137,
+      "rank": 145,
       "name": "PageIndex",
       "owner": "VectifyAI",
       "source": "github",
@@ -2254,7 +2331,7 @@
       "relevant": false
     },
     {
-      "rank": 138,
+      "rank": 146,
       "name": "open-agents",
       "owner": "vercel-labs",
       "source": "github",
@@ -2268,7 +2345,7 @@
       "relevant": false
     },
     {
-      "rank": 139,
+      "rank": 147,
       "name": "dflash",
       "owner": "z-lab",
       "source": "github",
@@ -2282,7 +2359,7 @@
       "relevant": false
     },
     {
-      "rank": 140,
+      "rank": 148,
       "name": "Forge-React-UI",
       "owner": "forge-dev",
       "source": "producthunt",
@@ -2296,7 +2373,7 @@
       "relevant": false
     },
     {
-      "rank": 141,
+      "rank": 149,
       "name": "Arkiv",
       "owner": "arkiv-app",
       "source": "producthunt",
@@ -2310,7 +2387,7 @@
       "relevant": false
     },
     {
-      "rank": 142,
+      "rank": 150,
       "name": "Hachigo",
       "owner": "hachigo-app",
       "source": "producthunt",
@@ -2324,7 +2401,7 @@
       "relevant": false
     },
     {
-      "rank": 143,
+      "rank": 151,
       "name": "Basedash-MCP",
       "owner": "basedash",
       "source": "producthunt",
@@ -2338,7 +2415,7 @@
       "relevant": false
     },
     {
-      "rank": 144,
+      "rank": 152,
       "name": "LikeTony-ai",
       "owner": "liketony-ai",
       "source": "producthunt",
@@ -2352,7 +2429,7 @@
       "relevant": false
     },
     {
-      "rank": 145,
+      "rank": 153,
       "name": "Lovie-Formation-MCP",
       "owner": "lovie-dev",
       "source": "producthunt",
@@ -2366,7 +2443,7 @@
       "relevant": false
     },
     {
-      "rank": 135,
+      "rank": 143,
       "name": "Knowly-1-0",
       "owner": "knowly-app",
       "source": "producthunt",
@@ -2380,7 +2457,7 @@
       "relevant": false
     },
     {
-      "rank": 146,
+      "rank": 154,
       "name": "CloakBrowser",
       "owner": "CloakHQ",
       "source": "github",
@@ -2394,7 +2471,7 @@
       "relevant": false
     },
     {
-      "rank": 147,
+      "rank": 155,
       "name": "aidlc-workflows",
       "owner": "awslabs",
       "source": "github",
@@ -2408,7 +2485,7 @@
       "relevant": false
     },
     {
-      "rank": 148,
+      "rank": 156,
       "name": "AI-Trader",
       "owner": "HKUDS",
       "source": "github",
@@ -2422,7 +2499,7 @@
       "relevant": false
     },
     {
-      "rank": 149,
+      "rank": 157,
       "name": "lobehub",
       "owner": "lobehub",
       "source": "github",
@@ -2436,7 +2513,7 @@
       "relevant": false
     },
     {
-      "rank": 150,
+      "rank": 158,
       "name": "hello-agents",
       "owner": "datawhalechina",
       "source": "github",
@@ -2450,7 +2527,7 @@
       "relevant": false
     },
     {
-      "rank": 151,
+      "rank": 159,
       "name": "skills-flutter",
       "owner": "flutter",
       "source": "github",
@@ -2464,7 +2541,7 @@
       "relevant": false
     },
     {
-      "rank": 152,
+      "rank": 160,
       "name": "MarkUp",
       "owner": "markup-ai",
       "source": "producthunt",
@@ -2478,7 +2555,7 @@
       "relevant": true
     },
     {
-      "rank": 153,
+      "rank": 161,
       "name": "Toto",
       "owner": "toto-ai",
       "source": "producthunt",
@@ -2492,7 +2569,7 @@
       "relevant": false
     },
     {
-      "rank": 155,
+      "rank": 163,
       "name": "agentmemory",
       "owner": "rohitg00",
       "source": "github",
@@ -2506,7 +2583,7 @@
       "relevant": false
     },
     {
-      "rank": 156,
+      "rank": 164,
       "name": "UI-TARS-desktop",
       "owner": "bytedance",
       "source": "github",
@@ -2520,7 +2597,7 @@
       "relevant": false
     },
     {
-      "rank": 157,
+      "rank": 165,
       "name": "easy-vibe",
       "owner": "datawhalechina",
       "source": "github",
@@ -2534,7 +2611,7 @@
       "relevant": false
     },
     {
-      "rank": 158,
+      "rank": 166,
       "name": "MasterDnsVPN",
       "owner": "masterking32",
       "source": "github",
@@ -2548,7 +2625,7 @@
       "relevant": false
     },
     {
-      "rank": 159,
+      "rank": 167,
       "name": "figma-mcp-go",
       "owner": "vkhanhqui",
       "source": "github",
@@ -2562,7 +2639,7 @@
       "relevant": true
     },
     {
-      "rank": 160,
+      "rank": 168,
       "name": "Omi-A11Y",
       "owner": "omi-a11y",
       "source": "producthunt",
@@ -2576,7 +2653,7 @@
       "relevant": true
     },
     {
-      "rank": 161,
+      "rank": 169,
       "name": "BugDrop",
       "owner": "bugdrop-dev",
       "source": "producthunt",
@@ -2590,7 +2667,7 @@
       "relevant": false
     },
     {
-      "rank": 162,
+      "rank": 170,
       "name": "nocal-4",
       "owner": "nocal-app",
       "source": "producthunt",
@@ -2604,7 +2681,7 @@
       "relevant": false
     },
     {
-      "rank": 163,
+      "rank": 171,
       "name": "Codex-in-Chrome",
       "owner": "openai",
       "source": "producthunt",
@@ -2618,7 +2695,7 @@
       "relevant": false
     },
     {
-      "rank": 154,
+      "rank": 162,
       "name": "Donely-Knowledge-Layer",
       "owner": "donely-ai",
       "source": "producthunt",
@@ -2632,7 +2709,7 @@
       "relevant": false
     },
     {
-      "rank": 164,
+      "rank": 172,
       "name": "omlx",
       "owner": "jundot",
       "source": "github",
@@ -2646,7 +2723,7 @@
       "relevant": false
     },
     {
-      "rank": 165,
+      "rank": 173,
       "name": "supersplat",
       "owner": "playcanvas",
       "source": "github",
@@ -2660,7 +2737,7 @@
       "relevant": false
     },
     {
-      "rank": 166,
+      "rank": 174,
       "name": "LumiChats-Offline",
       "owner": "lumichats",
       "source": "producthunt",
@@ -2674,7 +2751,7 @@
       "relevant": false
     },
     {
-      "rank": 167,
+      "rank": 175,
       "name": "Keel",
       "owner": "keel-labs",
       "source": "producthunt",
@@ -2688,7 +2765,7 @@
       "relevant": false
     },
     {
-      "rank": 168,
+      "rank": 176,
       "name": "AgentPeek",
       "owner": "agentpeek-app",
       "source": "producthunt",
@@ -2702,7 +2779,7 @@
       "relevant": false
     },
     {
-      "rank": 169,
+      "rank": 177,
       "name": "Adject-2-0",
       "owner": "adject-ai",
       "source": "producthunt",
@@ -2716,7 +2793,7 @@
       "relevant": false
     },
     {
-      "rank": 170,
+      "rank": 178,
       "name": "Tailgrids-3-0",
       "owner": "tailgrids",
       "source": "producthunt",
@@ -2730,7 +2807,7 @@
       "relevant": false
     },
     {
-      "rank": 171,
+      "rank": 179,
       "name": "Notion-3-4",
       "owner": "notion",
       "source": "producthunt",
@@ -2744,7 +2821,7 @@
       "relevant": false
     },
     {
-      "rank": 172,
+      "rank": 180,
       "name": "MiroMiro-v2",
       "owner": "miromiro-app",
       "source": "producthunt",
@@ -2758,7 +2835,7 @@
       "relevant": false
     },
     {
-      "rank": 173,
+      "rank": 181,
       "name": "AiToEarn",
       "owner": "yikart",
       "source": "github",
@@ -2772,7 +2849,7 @@
       "relevant": false
     },
     {
-      "rank": 174,
+      "rank": 182,
       "name": "react-doctor",
       "owner": "millionco",
       "source": "github",
@@ -2786,7 +2863,7 @@
       "relevant": false
     },
     {
-      "rank": 175,
+      "rank": 183,
       "name": "openhuman",
       "owner": "tinyhumansai",
       "source": "github",
@@ -2800,7 +2877,7 @@
       "relevant": false
     },
     {
-      "rank": 176,
+      "rank": 184,
       "name": "Genpire",
       "owner": "genpire-app",
       "source": "producthunt",
@@ -2814,7 +2891,7 @@
       "relevant": false
     },
     {
-      "rank": 177,
+      "rank": 185,
       "name": "MiniMax-Hub",
       "owner": "minimax-ai",
       "source": "producthunt",
@@ -2828,7 +2905,7 @@
       "relevant": false
     },
     {
-      "rank": 178,
+      "rank": 186,
       "name": "ElevenCreative-Flows",
       "owner": "elevenlabs",
       "source": "producthunt",
@@ -2842,7 +2919,7 @@
       "relevant": false
     },
     {
-      "rank": 179,
+      "rank": 187,
       "name": "9router",
       "owner": "decolua",
       "source": "github",
@@ -2856,7 +2933,7 @@
       "relevant": false
     },
     {
-      "rank": 180,
+      "rank": 188,
       "name": "Wonder",
       "owner": "wonder-public-alpha",
       "source": "producthunt",
@@ -2870,7 +2947,7 @@
       "relevant": false
     },
     {
-      "rank": 181,
+      "rank": 189,
       "name": "Long-Horizon",
       "owner": "long-horizon",
       "source": "producthunt",
@@ -2884,7 +2961,7 @@
       "relevant": false
     },
     {
-      "rank": 182,
+      "rank": 190,
       "name": "Seer-Platform",
       "owner": "seer-platform",
       "source": "producthunt",
@@ -2898,7 +2975,7 @@
       "relevant": false
     },
     {
-      "rank": 183,
+      "rank": 191,
       "name": "Devkat",
       "owner": "devkat",
       "source": "producthunt",
@@ -2912,7 +2989,7 @@
       "relevant": false
     },
     {
-      "rank": 184,
+      "rank": 192,
       "name": "VKO1",
       "owner": "vko1",
       "source": "producthunt",
@@ -2926,7 +3003,7 @@
       "relevant": false
     },
     {
-      "rank": 185,
+      "rank": 193,
       "name": "Whisper-Island-Coddo",
       "owner": "coddo",
       "source": "producthunt",
@@ -2940,7 +3017,7 @@
       "relevant": false
     },
     {
-      "rank": 186,
+      "rank": 194,
       "name": "MY-AI-Agent",
       "owner": "my-ai-agent",
       "source": "producthunt",
@@ -2954,7 +3031,7 @@
       "relevant": false
     },
     {
-      "rank": 187,
+      "rank": 195,
       "name": "LLMs-from-scratch",
       "owner": "rasbt",
       "source": "github",
@@ -2968,7 +3045,7 @@
       "relevant": false
     },
     {
-      "rank": 188,
+      "rank": 196,
       "name": "FadCam",
       "owner": "anonfaded",
       "source": "github",
@@ -2982,7 +3059,7 @@
       "relevant": false
     },
     {
-      "rank": 189,
+      "rank": 197,
       "name": "hysteria",
       "owner": "apernet",
       "source": "github",
@@ -2996,7 +3073,7 @@
       "relevant": false
     },
     {
-      "rank": 190,
+      "rank": 198,
       "name": "supertonic",
       "owner": "supertone-inc",
       "source": "github",
@@ -3010,7 +3087,7 @@
       "relevant": false
     },
     {
-      "rank": 191,
+      "rank": 199,
       "name": "brush",
       "owner": "ArthurBrussee",
       "source": "github",
@@ -3024,7 +3101,7 @@
       "relevant": false
     },
     {
-      "rank": 192,
+      "rank": 200,
       "name": "spec-kit",
       "owner": "github",
       "source": "github",
@@ -3038,7 +3115,7 @@
       "relevant": false
     },
     {
-      "rank": 193,
+      "rank": 201,
       "name": "Personal_AI_Infrastructure",
       "owner": "danielmiessler",
       "source": "github",
@@ -3052,7 +3129,7 @@
       "relevant": false
     },
     {
-      "rank": 194,
+      "rank": 202,
       "name": "scientific-agent-skills",
       "owner": "K-Dense-AI",
       "source": "github",
@@ -3066,7 +3143,7 @@
       "relevant": false
     },
     {
-      "rank": 195,
+      "rank": 203,
       "name": "Tweaklify",
       "owner": "tweaklify-dev",
       "source": "producthunt",
@@ -3080,7 +3157,7 @@
       "relevant": false
     },
     {
-      "rank": 196,
+      "rank": 204,
       "name": "mi",
       "owner": "mi-dev",
       "source": "producthunt",
@@ -3094,7 +3171,7 @@
       "relevant": false
     },
     {
-      "rank": 197,
+      "rank": 205,
       "name": "ai-meeting-notes-snaply",
       "owner": "snaply-dev",
       "source": "producthunt",
@@ -3108,7 +3185,7 @@
       "relevant": false
     },
     {
-      "rank": 198,
+      "rank": 206,
       "name": "Blurto",
       "owner": "blurto-app",
       "source": "producthunt",
@@ -3122,7 +3199,7 @@
       "relevant": false
     },
     {
-      "rank": 199,
+      "rank": 207,
       "name": "gstack",
       "owner": "garrytan",
       "source": "github",
@@ -3136,7 +3213,7 @@
       "relevant": false
     },
     {
-      "rank": 200,
+      "rank": 208,
       "name": "Online-3D-Editor",
       "owner": "online3deditor",
       "source": "producthunt",
@@ -3150,7 +3227,7 @@
       "relevant": false
     },
     {
-      "rank": 201,
+      "rank": 209,
       "name": "Higgsfield-Supercomputer",
       "owner": "higgsfield-ai",
       "source": "producthunt",
@@ -3164,7 +3241,7 @@
       "relevant": false
     },
     {
-      "rank": 202,
+      "rank": 210,
       "name": "Templates-in-ElevenCreative",
       "owner": "elevenlabs",
       "source": "producthunt",
@@ -3178,7 +3255,7 @@
       "relevant": false
     },
     {
-      "rank": 203,
+      "rank": 211,
       "name": "The-Augmented-AI",
       "owner": "augmented-ai",
       "source": "producthunt",
@@ -3192,7 +3269,7 @@
       "relevant": false
     },
     {
-      "rank": 204,
+      "rank": 212,
       "name": "transfa-sh",
       "owner": "transfa-sh",
       "source": "producthunt",
@@ -3206,7 +3283,7 @@
       "relevant": false
     },
     {
-      "rank": 205,
+      "rank": 213,
       "name": "Stagent",
       "owner": "worldstatelabs",
       "source": "producthunt",
@@ -3220,7 +3297,7 @@
       "relevant": false
     },
     {
-      "rank": 206,
+      "rank": 214,
       "name": "Agent-FM",
       "owner": "agent-fm",
       "source": "producthunt",
@@ -3234,7 +3311,7 @@
       "relevant": false
     },
     {
-      "rank": 207,
+      "rank": 215,
       "name": "anthropics-skills",
       "owner": "anthropics",
       "source": "github",
@@ -3248,7 +3325,7 @@
       "relevant": false
     },
     {
-      "rank": 208,
+      "rank": 216,
       "name": "qiaomu-anything-to-notebooklm",
       "owner": "joeseesun",
       "source": "github",
@@ -3262,7 +3339,7 @@
       "relevant": false
     },
     {
-      "rank": 209,
+      "rank": 217,
       "name": "video-search-and-summarization",
       "owner": "NVIDIA-AI-Blueprints",
       "source": "github",
@@ -3276,7 +3353,7 @@
       "relevant": false
     },
     {
-      "rank": 210,
+      "rank": 218,
       "name": "Planora",
       "owner": "planora-app",
       "source": "producthunt",
@@ -3290,7 +3367,7 @@
       "relevant": false
     },
     {
-      "rank": 211,
+      "rank": 219,
       "name": "Autograph-video-beta",
       "owner": "autograph-video",
       "source": "producthunt",
@@ -3304,7 +3381,7 @@
       "relevant": false
     },
     {
-      "rank": 212,
+      "rank": 220,
       "name": "Glance-markdown",
       "owner": "glance-app",
       "source": "producthunt",
@@ -3318,7 +3395,7 @@
       "relevant": false
     },
     {
-      "rank": 213,
+      "rank": 221,
       "name": "DevRecorder",
       "owner": "devrecorder-app",
       "source": "producthunt",
@@ -3332,7 +3409,7 @@
       "relevant": false
     },
     {
-      "rank": 214,
+      "rank": 222,
       "name": "Whiteout-mac",
       "owner": "whiteout-app",
       "source": "producthunt",
@@ -3346,7 +3423,7 @@
       "relevant": false
     },
     {
-      "rank": 215,
+      "rank": 223,
       "name": "OpenIT",
       "owner": "openit-app",
       "source": "producthunt",
@@ -3360,7 +3437,7 @@
       "relevant": false
     },
     {
-      "rank": 216,
+      "rank": 224,
       "name": "codegraph",
       "owner": "colbymchenry",
       "source": "github",
@@ -3374,7 +3451,7 @@
       "relevant": false
     },
     {
-      "rank": 217,
+      "rank": 225,
       "name": "dograh",
       "owner": "dograh-hq",
       "source": "github",
@@ -3388,7 +3465,7 @@
       "relevant": false
     },
     {
-      "rank": 218,
+      "rank": 226,
       "name": "skills",
       "owner": "adobe",
       "source": "github",
@@ -3402,7 +3479,7 @@
       "relevant": false
     },
     {
-      "rank": 219,
+      "rank": 227,
       "name": "CLI-Anything",
       "owner": "HKUDS",
       "source": "github",
@@ -3416,7 +3493,7 @@
       "relevant": false
     },
     {
-      "rank": 220,
+      "rank": 228,
       "name": "agent-skills",
       "owner": "tech-leads-club",
       "source": "github",
@@ -3430,7 +3507,7 @@
       "relevant": false
     },
     {
-      "rank": 221,
+      "rank": 229,
       "name": "anime",
       "owner": "juliangarnier",
       "source": "github",
@@ -3444,7 +3521,7 @@
       "relevant": false
     },
     {
-      "rank": 222,
+      "rank": 230,
       "name": "reactive-resume",
       "owner": "amruthpillai",
       "source": "github",
@@ -3458,7 +3535,7 @@
       "relevant": false
     },
     {
-      "rank": 223,
+      "rank": 231,
       "name": "MonkeyCode",
       "owner": "chaitin",
       "source": "github",
@@ -3472,7 +3549,7 @@
       "relevant": false
     },
     {
-      "rank": 224,
+      "rank": 232,
       "name": "Wring",
       "owner": "wring-app",
       "source": "producthunt",
@@ -3486,7 +3563,7 @@
       "relevant": false
     },
     {
-      "rank": 225,
+      "rank": 233,
       "name": "cal.diy",
       "owner": "calcom",
       "source": "github",
@@ -3500,7 +3577,7 @@
       "relevant": false
     },
     {
-      "rank": 226,
+      "rank": 234,
       "name": "Shadowbroker",
       "owner": "BigBodyCobain",
       "source": "github",
@@ -3514,7 +3591,7 @@
       "relevant": false
     },
     {
-      "rank": 227,
+      "rank": 235,
       "name": "agents-towards-production",
       "owner": "NirDiamant",
       "source": "github",
@@ -3528,7 +3605,7 @@
       "relevant": false
     },
     {
-      "rank": 228,
+      "rank": 236,
       "name": "DreamServer",
       "owner": "Light-Heart-Labs",
       "source": "github",
@@ -3542,7 +3619,7 @@
       "relevant": false
     },
     {
-      "rank": 229,
+      "rank": 237,
       "name": "skillkit",
       "owner": "rohitg00",
       "source": "github",
@@ -3556,7 +3633,7 @@
       "relevant": false
     },
     {
-      "rank": 230,
+      "rank": 238,
       "name": "hermes-paperclip-adapter",
       "owner": "NousResearch",
       "source": "github",
@@ -3570,7 +3647,7 @@
       "relevant": false
     },
     {
-      "rank": 231,
+      "rank": 239,
       "name": "Kirki",
       "owner": "kirki-wp",
       "source": "producthunt",
@@ -3584,7 +3661,7 @@
       "relevant": false
     },
     {
-      "rank": 232,
+      "rank": 240,
       "name": "Vivago-Video-Agent",
       "owner": "vivago-ai",
       "source": "producthunt",
@@ -3598,7 +3675,7 @@
       "relevant": false
     },
     {
-      "rank": 233,
+      "rank": 241,
       "name": "Raybeam",
       "owner": "raybeam-app",
       "source": "producthunt",
@@ -3612,7 +3689,7 @@
       "relevant": false
     },
     {
-      "rank": 234,
+      "rank": 242,
       "name": "academic-research-skills",
       "owner": "Imbad0202",
       "source": "github",
@@ -3626,7 +3703,7 @@
       "relevant": false
     },
     {
-      "rank": 235,
+      "rank": 243,
       "name": "12-factor-agents",
       "owner": "humanlayer",
       "source": "github",
@@ -3640,7 +3717,7 @@
       "relevant": false
     },
     {
-      "rank": 236,
+      "rank": 244,
       "name": "Sana",
       "owner": "NVlabs",
       "source": "github",
@@ -3654,7 +3731,7 @@
       "relevant": false
     },
     {
-      "rank": 237,
+      "rank": 245,
       "name": "ai-agents-for-beginners",
       "owner": "microsoft",
       "source": "github",
@@ -3668,7 +3745,7 @@
       "relevant": false
     },
     {
-      "rank": 238,
+      "rank": 246,
       "name": "Krea-2",
       "owner": "krea-ai",
       "source": "producthunt",
@@ -3682,7 +3759,7 @@
       "relevant": false
     },
     {
-      "rank": 239,
+      "rank": 247,
       "name": "Draft-AI",
       "owner": "draft-app",
       "source": "producthunt",
@@ -3696,7 +3773,7 @@
       "relevant": false
     },
     {
-      "rank": 240,
+      "rank": 248,
       "name": "MOODy",
       "owner": "moody-app",
       "source": "producthunt",
@@ -3710,7 +3787,7 @@
       "relevant": false
     },
     {
-      "rank": 241,
+      "rank": 249,
       "name": "plausible-analytics",
       "owner": "plausible",
       "source": "github",
@@ -3724,7 +3801,7 @@
       "relevant": false
     },
     {
-      "rank": 242,
+      "rank": 250,
       "name": "PhotoGIMP",
       "owner": "Diolinux",
       "source": "github",
@@ -3738,7 +3815,7 @@
       "relevant": false
     },
     {
-      "rank": 243,
+      "rank": 251,
       "name": "ViMax",
       "owner": "HKUDS",
       "source": "github",
@@ -3752,7 +3829,7 @@
       "relevant": false
     },
     {
-      "rank": 244,
+      "rank": 252,
       "name": "rtk",
       "owner": "rtk-ai",
       "source": "github",
@@ -3766,7 +3843,7 @@
       "relevant": false
     },
     {
-      "rank": 245,
+      "rank": 253,
       "name": "claude-plugins-official",
       "owner": "anthropics",
       "source": "github",
@@ -3780,7 +3857,7 @@
       "relevant": false
     },
     {
-      "rank": 246,
+      "rank": 254,
       "name": "Trainer",
       "owner": "trainer-app",
       "source": "producthunt",
@@ -3794,7 +3871,7 @@
       "relevant": false
     },
     {
-      "rank": 247,
+      "rank": 255,
       "name": "Lyricly",
       "owner": "lyricly-app",
       "source": "producthunt",
@@ -3808,7 +3885,7 @@
       "relevant": false
     },
     {
-      "rank": 248,
+      "rank": 256,
       "name": "CLI-Market",
       "owner": "cli-market",
       "source": "producthunt",
@@ -3822,7 +3899,7 @@
       "relevant": false
     },
     {
-      "rank": 249,
+      "rank": 257,
       "name": "Insights-by-Omnia",
       "owner": "omnia-insights",
       "source": "producthunt",
@@ -3836,7 +3913,7 @@
       "relevant": false
     },
     {
-      "rank": 250,
+      "rank": 258,
       "name": "Claude-Design",
       "owner": "anthropic",
       "source": "industry-news",
@@ -3850,7 +3927,7 @@
       "relevant": false
     },
     {
-      "rank": 251,
+      "rank": 259,
       "name": "oh-my-pi",
       "owner": "can1357",
       "source": "github",
@@ -3864,7 +3941,7 @@
       "relevant": false
     },
     {
-      "rank": 252,
+      "rank": 260,
       "name": "ai-engineering-from-scratch",
       "owner": "rohitg00",
       "source": "github",
@@ -3878,7 +3955,7 @@
       "relevant": false
     },
     {
-      "rank": 253,
+      "rank": 261,
       "name": "OpenWA",
       "owner": "rmyndharis",
       "source": "github",
@@ -3892,7 +3969,7 @@
       "relevant": false
     },
     {
-      "rank": 254,
+      "rank": 262,
       "name": "streambert",
       "owner": "truelockmc",
       "source": "github",
@@ -3906,7 +3983,7 @@
       "relevant": false
     },
     {
-      "rank": 255,
+      "rank": 263,
       "name": "opentoonz",
       "owner": "opentoonz",
       "source": "github",
@@ -3920,7 +3997,7 @@
       "relevant": false
     },
     {
-      "rank": 256,
+      "rank": 264,
       "name": "files.md",
       "owner": "zakirullin",
       "source": "github",
@@ -3934,7 +4011,7 @@
       "relevant": false
     },
     {
-      "rank": 257,
+      "rank": 265,
       "name": "Skilled",
       "owner": "skilled-dev",
       "source": "producthunt",
@@ -3948,7 +4025,7 @@
       "relevant": false
     },
     {
-      "rank": 258,
+      "rank": 266,
       "name": "dotnet-skills",
       "owner": "dotnet",
       "source": "github",
@@ -3962,7 +4039,7 @@
       "relevant": false
     },
     {
-      "rank": 259,
+      "rank": 267,
       "name": "notebooklm-py",
       "owner": "teng-lin",
       "source": "github",
@@ -3976,7 +4053,7 @@
       "relevant": false
     },
     {
-      "rank": 260,
+      "rank": 268,
       "name": "forge",
       "owner": "antoinezambelli",
       "source": "github",
@@ -3990,7 +4067,7 @@
       "relevant": false
     },
     {
-      "rank": 261,
+      "rank": 269,
       "name": "Understand-Anything",
       "owner": "Lum1104",
       "source": "github",
@@ -4004,7 +4081,7 @@
       "relevant": false
     },
     {
-      "rank": 262,
+      "rank": 270,
       "name": "Framed",
       "owner": "framed-app",
       "source": "producthunt",
@@ -4018,7 +4095,7 @@
       "relevant": false
     },
     {
-      "rank": 263,
+      "rank": 271,
       "name": "iPromise",
       "owner": "ipromise-app",
       "source": "producthunt",
@@ -4032,7 +4109,7 @@
       "relevant": false
     },
     {
-      "rank": 264,
+      "rank": 272,
       "name": "Faby",
       "owner": "faby-app",
       "source": "producthunt",
@@ -4046,7 +4123,7 @@
       "relevant": false
     },
     {
-      "rank": 265,
+      "rank": 273,
       "name": "Nota-AI-Notes",
       "owner": "nota-app",
       "source": "producthunt",
@@ -4060,7 +4137,7 @@
       "relevant": false
     },
     {
-      "rank": 266,
+      "rank": 274,
       "name": "DCP",
       "owner": "dcpagent",
       "source": "producthunt",
@@ -4074,7 +4151,7 @@
       "relevant": false
     },
     {
-      "rank": 267,
+      "rank": 275,
       "name": "Nugget-AI",
       "owner": "nggt-ai",
       "source": "producthunt",
@@ -4088,7 +4165,7 @@
       "relevant": false
     },
     {
-      "rank": 268,
+      "rank": 276,
       "name": "buildpipe",
       "owner": "buildpipe-dev",
       "source": "producthunt",
@@ -4102,7 +4179,7 @@
       "relevant": false
     },
     {
-      "rank": 269,
+      "rank": 277,
       "name": "Shuffle-Design-CLI",
       "owner": "shuffle-dev",
       "source": "producthunt",
@@ -4116,7 +4193,7 @@
       "relevant": false
     },
     {
-      "rank": 270,
+      "rank": 278,
       "name": "cfnew",
       "owner": "byJoey",
       "source": "github",
@@ -4130,7 +4207,7 @@
       "relevant": false
     },
     {
-      "rank": 271,
+      "rank": 279,
       "name": "figma-figjam-mcp-skills",
       "owner": "figma",
       "source": "industry-news",
@@ -4144,7 +4221,7 @@
       "relevant": false
     },
     {
-      "rank": 272,
+      "rank": 280,
       "name": "motionvid-ai",
       "owner": "motionvid-ai",
       "source": "producthunt",
@@ -4158,7 +4235,7 @@
       "relevant": false
     },
     {
-      "rank": 273,
+      "rank": 281,
       "name": "presenton",
       "owner": "presenton",
       "source": "github",
@@ -4172,7 +4249,7 @@
       "relevant": false
     },
     {
-      "rank": 274,
+      "rank": 282,
       "name": "Anthropic-Cybersecurity-Skills",
       "owner": "mukul975",
       "source": "github",
@@ -4186,7 +4263,7 @@
       "relevant": false
     },
     {
-      "rank": 275,
+      "rank": 283,
       "name": "LongLive",
       "owner": "NVlabs",
       "source": "github",
@@ -4200,7 +4277,7 @@
       "relevant": false
     },
     {
-      "rank": 276,
+      "rank": 284,
       "name": "Area-Contrast-Checker",
       "owner": "area-contrast",
       "source": "producthunt",
@@ -4214,7 +4291,7 @@
       "relevant": true
     },
     {
-      "rank": 277,
+      "rank": 285,
       "name": "Vibedock",
       "owner": "vibedock-app",
       "source": "producthunt",
@@ -4228,7 +4305,7 @@
       "relevant": false
     },
     {
-      "rank": 278,
+      "rank": 286,
       "name": "Memdex",
       "owner": "memdex-app",
       "source": "producthunt",
@@ -4242,7 +4319,7 @@
       "relevant": false
     },
     {
-      "rank": 279,
+      "rank": 287,
       "name": "Google-Antigravity-CLI",
       "owner": "google",
       "source": "producthunt",
@@ -4256,7 +4333,7 @@
       "relevant": false
     },
     {
-      "rank": 280,
+      "rank": 288,
       "name": "Forsy",
       "owner": "forsy-ai",
       "source": "producthunt",
@@ -4270,7 +4347,7 @@
       "relevant": false
     },
     {
-      "rank": 281,
+      "rank": 289,
       "name": "note-md",
       "owner": "notemd-app",
       "source": "producthunt",
@@ -4284,7 +4361,7 @@
       "relevant": false
     },
     {
-      "rank": 282,
+      "rank": 290,
       "name": "Bulkmark",
       "owner": "bulkmark-app",
       "source": "producthunt",
@@ -4298,7 +4375,7 @@
       "relevant": false
     },
     {
-      "rank": 283,
+      "rank": 291,
       "name": "pi",
       "owner": "earendil-works",
       "source": "github",
@@ -4312,7 +4389,7 @@
       "relevant": false
     },
     {
-      "rank": 284,
+      "rank": 292,
       "name": "knowledge-work-plugins",
       "owner": "anthropics",
       "source": "github",
@@ -4326,7 +4403,7 @@
       "relevant": false
     },
     {
-      "rank": 285,
+      "rank": 293,
       "name": "cmux",
       "owner": "manaflow-ai",
       "source": "github",
@@ -4340,7 +4417,7 @@
       "relevant": false
     },
     {
-      "rank": 286,
+      "rank": 294,
       "name": "MiroFish",
       "owner": "666ghj",
       "source": "github",
@@ -4354,7 +4431,7 @@
       "relevant": false
     },
     {
-      "rank": 287,
+      "rank": 295,
       "name": "DockFlow",
       "owner": "dockflow-app",
       "source": "producthunt",
@@ -4368,7 +4445,7 @@
       "relevant": false
     },
     {
-      "rank": 288,
+      "rank": 296,
       "name": "Runway-Agent",
       "owner": "runwayml",
       "source": "producthunt",
@@ -4382,7 +4459,7 @@
       "relevant": false
     },
     {
-      "rank": 289,
+      "rank": 297,
       "name": "DynamicNotch",
       "owner": "Wokeproductions",
       "source": "producthunt",
@@ -4396,7 +4473,7 @@
       "relevant": false
     },
     {
-      "rank": 290,
+      "rank": 298,
       "name": "ModelHub",
       "owner": "modelhub-app",
       "source": "producthunt",
@@ -4410,7 +4487,7 @@
       "relevant": false
     },
     {
-      "rank": 291,
+      "rank": 299,
       "name": "Stitch-3-0",
       "owner": "google-labs",
       "source": "producthunt",
@@ -4424,7 +4501,7 @@
       "relevant": true
     },
     {
-      "rank": 292,
+      "rank": 300,
       "name": "taste-skill",
       "owner": "Leonxlnx",
       "source": "github",
@@ -4438,7 +4515,7 @@
       "relevant": false
     },
     {
-      "rank": 293,
+      "rank": 301,
       "name": "stop-slop",
       "owner": "hardikpandya",
       "source": "github",
@@ -4452,7 +4529,7 @@
       "relevant": false
     },
     {
-      "rank": 294,
+      "rank": 302,
       "name": "ECC",
       "owner": "affaan-m",
       "source": "github",
@@ -4466,7 +4543,7 @@
       "relevant": false
     },
     {
-      "rank": 295,
+      "rank": 303,
       "name": "awesome-free-apps",
       "owner": "Axorax",
       "source": "github",
@@ -4480,7 +4557,7 @@
       "relevant": false
     },
     {
-      "rank": 296,
+      "rank": 304,
       "name": "Rixx",
       "owner": "rixx-app",
       "source": "producthunt",
@@ -4494,7 +4571,7 @@
       "relevant": false
     },
     {
-      "rank": 297,
+      "rank": 305,
       "name": "Orchestria",
       "owner": "orchestria-ai",
       "source": "producthunt",
@@ -4508,7 +4585,7 @@
       "relevant": false
     },
     {
-      "rank": 298,
+      "rank": 306,
       "name": "Fred",
       "owner": "fred-ux",
       "source": "producthunt",
@@ -4522,7 +4599,7 @@
       "relevant": false
     },
     {
-      "rank": 299,
+      "rank": 307,
       "name": "MashuPack",
       "owner": "mashupack-app",
       "source": "producthunt",
@@ -4536,7 +4613,7 @@
       "relevant": false
     },
     {
-      "rank": 300,
+      "rank": 308,
       "name": "Unabyss",
       "owner": "unabyss-app",
       "source": "producthunt",
@@ -4550,7 +4627,7 @@
       "relevant": false
     },
     {
-      "rank": 301,
+      "rank": 309,
       "name": "Understand-Anything",
       "owner": "Lum1104",
       "source": "github",
@@ -4564,7 +4641,7 @@
       "relevant": false
     },
     {
-      "rank": 302,
+      "rank": 310,
       "name": "FreeDomain",
       "owner": "DigitalPlatDev",
       "source": "github",
@@ -4578,7 +4655,7 @@
       "relevant": false
     },
     {
-      "rank": 303,
+      "rank": 311,
       "name": "OpenStock",
       "owner": "Open-Dev-Society",
       "source": "github",
@@ -4592,7 +4669,7 @@
       "relevant": false
     },
     {
-      "rank": 304,
+      "rank": 312,
       "name": "QuakPit",
       "owner": "quakpit-app",
       "source": "producthunt",
@@ -4606,7 +4683,7 @@
       "relevant": false
     },
     {
-      "rank": 305,
+      "rank": 313,
       "name": "Ajar",
       "owner": "ajar-app",
       "source": "producthunt",
@@ -4620,7 +4697,7 @@
       "relevant": false
     },
     {
-      "rank": 306,
+      "rank": 314,
       "name": "Kept",
       "owner": "kept-ai",
       "source": "producthunt",
@@ -4634,7 +4711,7 @@
       "relevant": false
     },
     {
-      "rank": 307,
+      "rank": 315,
       "name": "NoteCove",
       "owner": "notecove-app",
       "source": "producthunt",
@@ -4648,7 +4725,7 @@
       "relevant": false
     },
     {
-      "rank": 308,
+      "rank": 316,
       "name": "LikePulse",
       "owner": "likepulse-ext",
       "source": "producthunt",
@@ -4662,7 +4739,7 @@
       "relevant": false
     },
     {
-      "rank": 309,
+      "rank": 317,
       "name": "Trace",
       "owner": "trace-meetings",
       "source": "producthunt",
@@ -4676,7 +4753,7 @@
       "relevant": false
     },
     {
-      "rank": 310,
+      "rank": 318,
       "name": "crunr",
       "owner": "crunr-app",
       "source": "producthunt",
@@ -4690,7 +4767,7 @@
       "relevant": false
     },
     {
-      "rank": 311,
+      "rank": 319,
       "name": "MacSIM",
       "owner": "studio-practice",
       "source": "producthunt",
@@ -4704,7 +4781,7 @@
       "relevant": true
     },
     {
-      "rank": 312,
+      "rank": 320,
       "name": "Harbor",
       "owner": "av-guy",
       "source": "producthunt",
@@ -4718,7 +4795,7 @@
       "relevant": false
     },
     {
-      "rank": 313,
+      "rank": 321,
       "name": "GenGo",
       "owner": "gengo-dev",
       "source": "producthunt",
@@ -4732,7 +4809,7 @@
       "relevant": false
     },
     {
-      "rank": 314,
+      "rank": 322,
       "name": "baz-studio",
       "owner": "baz-studio",
       "source": "producthunt",
@@ -4746,7 +4823,7 @@
       "relevant": false
     },
     {
-      "rank": 315,
+      "rank": 323,
       "name": "AgenticCalling-AI",
       "owner": "agenticcalling",
       "source": "producthunt",
@@ -4760,7 +4837,7 @@
       "relevant": false
     },
     {
-      "rank": 316,
+      "rank": 324,
       "name": "iii",
       "owner": "iii-hq",
       "source": "github",
@@ -4774,7 +4851,7 @@
       "relevant": false
     },
     {
-      "rank": 317,
+      "rank": 325,
       "name": "harness",
       "owner": "revfactory",
       "source": "github",
@@ -4788,7 +4865,7 @@
       "relevant": false
     },
     {
-      "rank": 318,
+      "rank": 326,
       "name": "MOSS-TTS",
       "owner": "OpenMOSS",
       "source": "github",
@@ -4802,7 +4879,7 @@
       "relevant": false
     },
     {
-      "rank": 319,
+      "rank": 327,
       "name": "compound-engineering-plugin",
       "owner": "EveryInc",
       "source": "github",
@@ -4816,7 +4893,7 @@
       "relevant": false
     },
     {
-      "rank": 320,
+      "rank": 328,
       "name": "NeuralAgent-2-5",
       "owner": "neuralagent-app",
       "source": "producthunt",
@@ -4830,7 +4907,7 @@
       "relevant": false
     },
     {
-      "rank": 321,
+      "rank": 329,
       "name": "Parastore",
       "owner": "parastore-dev",
       "source": "producthunt",
@@ -4844,7 +4921,7 @@
       "relevant": false
     },
     {
-      "rank": 322,
+      "rank": 330,
       "name": "Crew44",
       "owner": "crew44-dev",
       "source": "producthunt",
@@ -4858,7 +4935,7 @@
       "relevant": false
     },
     {
-      "rank": 323,
+      "rank": 331,
       "name": "Stage",
       "owner": "stage-app",
       "source": "producthunt",
@@ -4872,7 +4949,7 @@
       "relevant": false
     },
     {
-      "rank": 324,
+      "rank": 332,
       "name": "Buffer-API",
       "owner": "buffer",
       "source": "producthunt",
@@ -4886,7 +4963,7 @@
       "relevant": false
     },
     {
-      "rank": 325,
+      "rank": 333,
       "name": "KugelAudio",
       "owner": "kugel-audio",
       "source": "producthunt",
@@ -4900,7 +4977,7 @@
       "relevant": false
     },
     {
-      "rank": 326,
+      "rank": 334,
       "name": "cursor-plugins",
       "owner": "cursor",
       "source": "github",
@@ -4914,7 +4991,7 @@
       "relevant": false
     },
     {
-      "rank": 327,
+      "rank": 335,
       "name": "liteparse",
       "owner": "run-llama",
       "source": "github",
@@ -4928,7 +5005,7 @@
       "relevant": false
     },
     {
-      "rank": 328,
+      "rank": 336,
       "name": "stable-worldmodel",
       "owner": "galilai-group",
       "source": "github",
@@ -4942,7 +5019,7 @@
       "relevant": false
     },
     {
-      "rank": 329,
+      "rank": 337,
       "name": "Drafted",
       "owner": "drafted-ai",
       "source": "producthunt",
@@ -4956,7 +5033,7 @@
       "relevant": false
     },
     {
-      "rank": 330,
+      "rank": 338,
       "name": "Screen-Ruler",
       "owner": "screenruler-ext",
       "source": "producthunt",
@@ -4970,7 +5047,7 @@
       "relevant": false
     },
     {
-      "rank": 331,
+      "rank": 339,
       "name": "TrackNotch",
       "owner": "tracknotch-app",
       "source": "producthunt",
@@ -4984,7 +5061,7 @@
       "relevant": false
     },
     {
-      "rank": 332,
+      "rank": 340,
       "name": "Vibeocus-Lens",
       "owner": "vibeocus",
       "source": "producthunt",
@@ -4998,7 +5075,7 @@
       "relevant": false
     },
     {
-      "rank": 333,
+      "rank": 341,
       "name": "Hyper",
       "owner": "hyper-ai",
       "source": "producthunt",
@@ -5012,7 +5089,7 @@
       "relevant": false
     },
     {
-      "rank": 334,
+      "rank": 342,
       "name": "Wandesk",
       "owner": "wandesk-app",
       "source": "producthunt",
@@ -5026,7 +5103,7 @@
       "relevant": false
     },
     {
-      "rank": 335,
+      "rank": 343,
       "name": "Step-3-7-Flash",
       "owner": "stepfun-ai",
       "source": "producthunt",
@@ -5040,7 +5117,7 @@
       "relevant": false
     },
     {
-      "rank": 336,
+      "rank": 344,
       "name": "Exstats",
       "owner": "exstats-app",
       "source": "producthunt",
@@ -5054,7 +5131,7 @@
       "relevant": false
     },
     {
-      "rank": 337,
+      "rank": 345,
       "name": "Openstatus-MCP-Health-Checker",
       "owner": "openstatus",
       "source": "producthunt",
@@ -5068,7 +5145,7 @@
       "relevant": false
     },
     {
-      "rank": 338,
+      "rank": 346,
       "name": "train-llm-from-scratch",
       "owner": "FareedKhan-dev",
       "source": "github",
@@ -5082,7 +5159,7 @@
       "relevant": false
     },
     {
-      "rank": 339,
+      "rank": 347,
       "name": "social-auto-upload",
       "owner": "dreammis",
       "source": "github",
@@ -5096,7 +5173,7 @@
       "relevant": false
     },
     {
-      "rank": 340,
+      "rank": 348,
       "name": "data-engineering-zoomcamp",
       "owner": "DataTalksClub",
       "source": "github",
@@ -5110,7 +5187,7 @@
       "relevant": false
     },
     {
-      "rank": 341,
+      "rank": 349,
       "name": "Wingbits-AI",
       "owner": "wingbits",
       "source": "producthunt",
@@ -5124,7 +5201,7 @@
       "relevant": false
     },
     {
-      "rank": 342,
+      "rank": 350,
       "name": "hermes-webui",
       "owner": "nesquena",
       "source": "github",
@@ -5138,7 +5215,7 @@
       "relevant": false
     },
     {
-      "rank": 343,
+      "rank": 351,
       "name": "pi-subagents",
       "owner": "nicobailon",
       "source": "github",
@@ -5152,7 +5229,7 @@
       "relevant": false
     },
     {
-      "rank": 344,
+      "rank": 352,
       "name": "Web-Clipper-for-NotebookLM",
       "owner": "notebooklm-clipper",
       "source": "producthunt",
@@ -5166,7 +5243,7 @@
       "relevant": false
     },
     {
-      "rank": 345,
+      "rank": 353,
       "name": "TabTasker",
       "owner": "tabtasker-ext",
       "source": "producthunt",
@@ -5180,7 +5257,7 @@
       "relevant": false
     },
     {
-      "rank": 346,
+      "rank": 354,
       "name": "Second-Brain-for-AI",
       "owner": "second-brain-ai",
       "source": "producthunt",
@@ -5194,7 +5271,7 @@
       "relevant": false
     },
     {
-      "rank": 347,
+      "rank": 355,
       "name": "Clipto",
       "owner": "clipto-app",
       "source": "producthunt",
@@ -5208,7 +5285,7 @@
       "relevant": false
     },
     {
-      "rank": 348,
+      "rank": 356,
       "name": "Marqly-5-0",
       "owner": "marqly-app",
       "source": "producthunt",
@@ -5222,7 +5299,7 @@
       "relevant": false
     },
     {
-      "rank": 349,
+      "rank": 357,
       "name": "Paint-By-JSON",
       "owner": "figma-community",
       "source": "producthunt",
@@ -5236,7 +5313,7 @@
       "relevant": true
     },
     {
-      "rank": 350,
+      "rank": 358,
       "name": "Mina",
       "owner": "mina-ai",
       "source": "producthunt",
@@ -5250,7 +5327,7 @@
       "relevant": false
     },
     {
-      "rank": 351,
+      "rank": 359,
       "name": "Stella",
       "owner": "stella-mac",
       "source": "producthunt",
@@ -5264,7 +5341,7 @@
       "relevant": false
     },
     {
-      "rank": 352,
+      "rank": 360,
       "name": "Open-Caffeine",
       "owner": "opencaffeine-app",
       "source": "producthunt",
@@ -5278,7 +5355,7 @@
       "relevant": false
     },
     {
-      "rank": 353,
+      "rank": 361,
       "name": "NetworkSpy",
       "owner": "networkspy-app",
       "source": "producthunt",
@@ -5292,7 +5369,7 @@
       "relevant": false
     },
     {
-      "rank": 354,
+      "rank": 362,
       "name": "Scrapling",
       "owner": "D4Vinci",
       "source": "github",
@@ -5306,7 +5383,7 @@
       "relevant": false
     },
     {
-      "rank": 355,
+      "rank": 363,
       "name": "impeccable-trending-surge",
       "owner": "pbakaus",
       "source": "github",
@@ -5320,7 +5397,7 @@
       "relevant": false
     },
     {
-      "rank": 356,
+      "rank": 364,
       "name": "supermemory-star-update",
       "owner": "supermemoryai",
       "source": "github",
@@ -5334,7 +5411,7 @@
       "relevant": false
     },
     {
-      "rank": 357,
+      "rank": 365,
       "name": "headroom",
       "owner": "chopratejas",
       "source": "github",
@@ -5348,7 +5425,7 @@
       "relevant": false
     },
     {
-      "rank": 358,
+      "rank": 366,
       "name": "flowsint",
       "owner": "reconurge",
       "source": "github",
@@ -5362,7 +5439,7 @@
       "relevant": false
     },
     {
-      "rank": 359,
+      "rank": 367,
       "name": "Open-LLM-VTuber",
       "owner": "Open-LLM-VTuber",
       "source": "github",
@@ -5376,7 +5453,7 @@
       "relevant": false
     },
     {
-      "rank": 360,
+      "rank": 368,
       "name": "Mirowl",
       "owner": "mirowl-app",
       "source": "producthunt",
@@ -5390,7 +5467,7 @@
       "relevant": false
     },
     {
-      "rank": 361,
+      "rank": 369,
       "name": "Moxie-Docs",
       "owner": "moxie-docs",
       "source": "producthunt",
@@ -5404,7 +5481,7 @@
       "relevant": false
     },
     {
-      "rank": 362,
+      "rank": 370,
       "name": "MartinLoop",
       "owner": "martinloop-app",
       "source": "producthunt",
@@ -5418,7 +5495,7 @@
       "relevant": false
     },
     {
-      "rank": 363,
+      "rank": 371,
       "name": "Kompassify-2-0",
       "owner": "kompassify",
       "source": "producthunt",
@@ -5432,7 +5509,7 @@
       "relevant": false
     },
     {
-      "rank": 364,
+      "rank": 372,
       "name": "Branda",
       "owner": "branda-app",
       "source": "producthunt",
@@ -5446,7 +5523,7 @@
       "relevant": false
     },
     {
-      "rank": 365,
+      "rank": 373,
       "name": "Overline",
       "owner": "overline-ext",
       "source": "producthunt",
@@ -5460,7 +5537,7 @@
       "relevant": false
     },
     {
-      "rank": 366,
+      "rank": 374,
       "name": "HumToBeats",
       "owner": "humtobeats",
       "source": "producthunt",
@@ -5474,7 +5551,7 @@
       "relevant": false
     },
     {
-      "rank": 367,
+      "rank": 375,
       "name": "Sortail",
       "owner": "sortail-app",
       "source": "producthunt",
@@ -5488,7 +5565,7 @@
       "relevant": false
     },
     {
-      "rank": 368,
+      "rank": 376,
       "name": "airllm",
       "owner": "lyogavin",
       "source": "github",
@@ -5502,7 +5579,7 @@
       "relevant": false
     },
     {
-      "rank": 369,
+      "rank": 377,
       "name": "Vibe-Trading",
       "owner": "HKUDS",
       "source": "github",
@@ -5516,7 +5593,7 @@
       "relevant": false
     },
     {
-      "rank": 370,
+      "rank": 378,
       "name": "audien.to",
       "owner": "audiento",
       "source": "producthunt",
@@ -5530,7 +5607,7 @@
       "relevant": true
     },
     {
-      "rank": 371,
+      "rank": 379,
       "name": "Barflare",
       "owner": "barflare-app",
       "source": "producthunt",
@@ -5544,7 +5621,7 @@
       "relevant": false
     },
     {
-      "rank": 372,
+      "rank": 380,
       "name": "Wallie-V2",
       "owner": "wallie-dev",
       "source": "producthunt",
@@ -5558,7 +5635,7 @@
       "relevant": false
     },
     {
-      "rank": 373,
+      "rank": 381,
       "name": "RadianceKit",
       "owner": "radiancekit-app",
       "source": "producthunt",
@@ -5572,7 +5649,7 @@
       "relevant": false
     },
     {
-      "rank": 374,
+      "rank": 382,
       "name": "BeerShot",
       "owner": "beershot-app",
       "source": "producthunt",
@@ -5586,7 +5663,7 @@
       "relevant": false
     },
     {
-      "rank": 375,
+      "rank": 383,
       "name": "Carbone-Skill-for-AI",
       "owner": "carboneio",
       "source": "producthunt",
@@ -5600,7 +5677,7 @@
       "relevant": false
     },
     {
-      "rank": 376,
+      "rank": 384,
       "name": "OpenAI-Codex-ProductDesign-Plugin",
       "owner": "openai",
       "source": "industry-news",
@@ -5614,7 +5691,7 @@
       "relevant": false
     },
     {
-      "rank": 377,
+      "rank": 385,
       "name": "openclaw-windows-node",
       "owner": "openclaw",
       "source": "github",
@@ -5628,7 +5705,7 @@
       "relevant": false
     },
     {
-      "rank": 378,
+      "rank": 386,
       "name": "open-notebook",
       "owner": "lfnovo",
       "source": "github",
@@ -5642,7 +5719,7 @@
       "relevant": false
     },
     {
-      "rank": 379,
+      "rank": 387,
       "name": "cosmos",
       "owner": "NVIDIA",
       "source": "github",
@@ -5656,7 +5733,7 @@
       "relevant": false
     },
     {
-      "rank": 380,
+      "rank": 388,
       "name": "copilot-sdk",
       "owner": "github",
       "source": "github",
@@ -5670,7 +5747,7 @@
       "relevant": false
     },
     {
-      "rank": 381,
+      "rank": 389,
       "name": "Split-Ninja",
       "owner": "splitninja-app",
       "source": "producthunt",
@@ -5684,7 +5761,7 @@
       "relevant": false
     },
     {
-      "rank": 382,
+      "rank": 390,
       "name": "Gather",
       "owner": "gather-design",
       "source": "producthunt",
@@ -5698,7 +5775,7 @@
       "relevant": false
     },
     {
-      "rank": 383,
+      "rank": 391,
       "name": "Walrus-Memory",
       "owner": "walrusmemory-dev",
       "source": "producthunt",
@@ -5712,7 +5789,7 @@
       "relevant": false
     },
     {
-      "rank": 384,
+      "rank": 392,
       "name": "Keen-Code",
       "owner": "keencode-dev",
       "source": "producthunt",
@@ -5726,7 +5803,7 @@
       "relevant": false
     },
     {
-      "rank": 385,
+      "rank": 393,
       "name": "Curata",
       "owner": "curata-dev",
       "source": "producthunt",
@@ -5740,7 +5817,7 @@
       "relevant": false
     },
     {
-      "rank": 386,
+      "rank": 394,
       "name": "Sun",
       "owner": "sun-voice-api",
       "source": "producthunt",
@@ -5754,7 +5831,7 @@
       "relevant": false
     },
     {
-      "rank": 388,
+      "rank": 396,
       "name": "CopilotKit",
       "owner": "CopilotKit",
       "source": "github",
@@ -5768,7 +5845,7 @@
       "relevant": false
     },
     {
-      "rank": 389,
+      "rank": 397,
       "name": "Agent-Reach",
       "owner": "Panniantong",
       "source": "github",
@@ -5782,7 +5859,7 @@
       "relevant": false
     },
     {
-      "rank": 390,
+      "rank": 398,
       "name": "headroom",
       "owner": "chopratejas",
       "source": "github",
@@ -5796,7 +5873,7 @@
       "relevant": false
     },
     {
-      "rank": 391,
+      "rank": 399,
       "name": "Veltrix-AI",
       "owner": "veltrix-ai",
       "source": "producthunt",
@@ -5810,7 +5887,7 @@
       "relevant": false
     },
     {
-      "rank": 392,
+      "rank": 400,
       "name": "Gemma-4-12B",
       "owner": "google",
       "source": "producthunt",
@@ -5824,7 +5901,7 @@
       "relevant": false
     },
     {
-      "rank": 393,
+      "rank": 401,
       "name": "hyperframes",
       "owner": "heygen-com",
       "source": "github",
@@ -5838,7 +5915,7 @@
       "relevant": false
     },
     {
-      "rank": 394,
+      "rank": 402,
       "name": "caveman",
       "owner": "JuliusBrussee",
       "source": "github",
@@ -5852,7 +5929,7 @@
       "relevant": false
     },
     {
-      "rank": 395,
+      "rank": 403,
       "name": "career-ops",
       "owner": "santifer",
       "source": "github",
@@ -5866,7 +5943,7 @@
       "relevant": false
     },
     {
-      "rank": 396,
+      "rank": 404,
       "name": "plugins",
       "owner": "openai",
       "source": "github",
@@ -5880,7 +5957,7 @@
       "relevant": false
     },
     {
-      "rank": 397,
+      "rank": 405,
       "name": "lossless-cut",
       "owner": "mifi",
       "source": "github",
@@ -5894,7 +5971,7 @@
       "relevant": false
     },
     {
-      "rank": 398,
+      "rank": 406,
       "name": "khoj",
       "owner": "khoj-ai",
       "source": "github",
@@ -5908,7 +5985,7 @@
       "relevant": false
     },
     {
-      "rank": 399,
+      "rank": 407,
       "name": "hexstrike-ai",
       "owner": "0x4m4",
       "source": "github",
@@ -5922,7 +5999,7 @@
       "relevant": false
     },
     {
-      "rank": 400,
+      "rank": 408,
       "name": "mcp-context-forge",
       "owner": "IBM",
       "source": "github",
@@ -5936,7 +6013,7 @@
       "relevant": false
     },
     {
-      "rank": 401,
+      "rank": 409,
       "name": "turbovec",
       "owner": "RyanCodrai",
       "source": "github",
@@ -5950,7 +6027,7 @@
       "relevant": false
     },
     {
-      "rank": 402,
+      "rank": 410,
       "name": "tolaria",
       "owner": "refactoringhq",
       "source": "github",
@@ -5964,7 +6041,7 @@
       "relevant": false
     },
     {
-      "rank": 403,
+      "rank": 411,
       "name": "Dreambeans",
       "owner": "google-labs",
       "source": "producthunt",
@@ -5978,7 +6055,7 @@
       "relevant": false
     },
     {
-      "rank": 404,
+      "rank": 412,
       "name": "Wave",
       "owner": "wave-app",
       "source": "producthunt",
@@ -5992,7 +6069,7 @@
       "relevant": false
     },
     {
-      "rank": 405,
+      "rank": 413,
       "name": "Navi-Plus",
       "owner": "navi-plus",
       "source": "producthunt",
@@ -6006,7 +6083,7 @@
       "relevant": false
     },
     {
-      "rank": 406,
+      "rank": 414,
       "name": "google-skills",
       "owner": "google",
       "source": "github",
@@ -6020,7 +6097,7 @@
       "relevant": false
     },
     {
-      "rank": 407,
+      "rank": 415,
       "name": "Agent-Reach",
       "owner": "Panniantong",
       "source": "github",
@@ -6034,7 +6111,7 @@
       "relevant": false
     },
     {
-      "rank": 408,
+      "rank": 416,
       "name": "career-ops",
       "owner": "santifer",
       "source": "github",
@@ -6048,7 +6125,7 @@
       "relevant": false
     },
     {
-      "rank": 409,
+      "rank": 417,
       "name": "pm-skills",
       "owner": "phuryn",
       "source": "github",
@@ -6062,7 +6139,7 @@
       "relevant": false
     },
     {
-      "rank": 410,
+      "rank": 418,
       "name": "plugins",
       "owner": "openai",
       "source": "github",
@@ -6076,7 +6153,7 @@
       "relevant": false
     },
     {
-      "rank": 411,
+      "rank": 419,
       "name": "whichllm",
       "owner": "Andyyyy64",
       "source": "github",
@@ -6090,7 +6167,7 @@
       "relevant": false
     },
     {
-      "rank": 412,
+      "rank": 420,
       "name": "supervision",
       "owner": "roboflow",
       "source": "github",
@@ -6104,7 +6181,7 @@
       "relevant": false
     },
     {
-      "rank": 413,
+      "rank": 421,
       "name": "CopilotKit",
       "owner": "CopilotKit",
       "source": "github",
@@ -6118,7 +6195,7 @@
       "relevant": false
     },
     {
-      "rank": 414,
+      "rank": 422,
       "name": "browse-sh",
       "owner": "browse-sh",
       "source": "producthunt",
@@ -6132,7 +6209,7 @@
       "relevant": false
     },
     {
-      "rank": 415,
+      "rank": 423,
       "name": "Claude-Artifact-Player",
       "owner": "claude-artifact-player",
       "source": "producthunt",
@@ -6146,7 +6223,7 @@
       "relevant": false
     },
     {
-      "rank": 416,
+      "rank": 424,
       "name": "ntsc-rs",
       "owner": "ntsc-rs",
       "source": "producthunt",
@@ -6160,7 +6237,7 @@
       "relevant": false
     },
     {
-      "rank": 417,
+      "rank": 425,
       "name": "Vaani",
       "owner": "vaani-app",
       "source": "producthunt",
@@ -6174,7 +6251,7 @@
       "relevant": false
     },
     {
-      "rank": 418,
+      "rank": 426,
       "name": "Supaste",
       "owner": "supaste-app",
       "source": "producthunt",
@@ -6188,7 +6265,7 @@
       "relevant": false
     },
     {
-      "rank": 419,
+      "rank": 427,
       "name": "openmed",
       "owner": "maziyarpanahi",
       "source": "github",
@@ -6202,7 +6279,7 @@
       "relevant": false
     },
     {
-      "rank": 420,
+      "rank": 428,
       "name": "espectre",
       "owner": "francescopace",
       "source": "github",
@@ -6216,7 +6293,7 @@
       "relevant": false
     },
     {
-      "rank": 421,
+      "rank": 429,
       "name": "system-prompts-and-models-of-ai-tools",
       "owner": "x1xhlol",
       "source": "github",
@@ -6230,7 +6307,7 @@
       "relevant": false
     },
     {
-      "rank": 422,
+      "rank": 430,
       "name": "Cove",
       "owner": "cove-app",
       "source": "producthunt",
@@ -6244,7 +6321,7 @@
       "relevant": false
     },
     {
-      "rank": 423,
+      "rank": 431,
       "name": "tolaria",
       "owner": "refactoringhq",
       "source": "github",
@@ -6258,7 +6335,7 @@
       "relevant": false
     },
     {
-      "rank": 424,
+      "rank": 432,
       "name": "hivemind",
       "owner": "activeloopai",
       "source": "github",
@@ -6286,7 +6363,7 @@
       "relevant": false
     },
     {
-      "rank": 426,
+      "rank": 434,
       "name": "FluidDocs-Deck-Builder",
       "owner": "fluiddocs",
       "source": "producthunt",
@@ -6300,7 +6377,7 @@
       "relevant": true
     },
     {
-      "rank": 427,
+      "rank": 435,
       "name": "pm-skills",
       "owner": "phuryn",
       "source": "github",
@@ -6314,7 +6391,7 @@
       "relevant": false
     },
     {
-      "rank": 428,
+      "rank": 436,
       "name": "WWDC-2026-Foundation-Models",
       "owner": "apple",
       "source": "industry-news",
@@ -6328,7 +6405,7 @@
       "relevant": false
     },
     {
-      "rank": 429,
+      "rank": 437,
       "name": "ScreenCharm",
       "owner": "screencharm-app",
       "source": "producthunt",
@@ -6342,7 +6419,7 @@
       "relevant": false
     },
     {
-      "rank": 431,
+      "rank": 439,
       "name": "NVIDIA-SkillSpector",
       "owner": "NVIDIA",
       "source": "github",
@@ -6356,7 +6433,7 @@
       "relevant": false
     },
     {
-      "rank": 432,
+      "rank": 440,
       "name": "agentsview",
       "owner": "kenn-io",
       "source": "github",
@@ -6370,7 +6447,7 @@
       "relevant": false
     },
     {
-      "rank": 433,
+      "rank": 441,
       "name": "zhangxuefeng-skill",
       "owner": "alchaincyf",
       "source": "github",
@@ -6384,7 +6461,7 @@
       "relevant": false
     },
     {
-      "rank": 434,
+      "rank": 442,
       "name": "Patchrooms",
       "owner": "patchrooms",
       "source": "producthunt",
@@ -6398,7 +6475,7 @@
       "relevant": false
     },
     {
-      "rank": 435,
+      "rank": 443,
       "name": "Bugpilot",
       "owner": "bugpilot",
       "source": "producthunt",
@@ -6412,7 +6489,7 @@
       "relevant": false
     },
     {
-      "rank": 436,
+      "rank": 444,
       "name": "Cloudskill",
       "owner": "cloudskill",
       "source": "producthunt",
@@ -6426,7 +6503,7 @@
       "relevant": false
     },
     {
-      "rank": 437,
+      "rank": 445,
       "name": "heyly-io",
       "owner": "heyly",
       "source": "producthunt",
@@ -6440,7 +6517,7 @@
       "relevant": false
     },
     {
-      "rank": 438,
+      "rank": 446,
       "name": "Proxee",
       "owner": "proxee",
       "source": "producthunt",
@@ -6454,7 +6531,7 @@
       "relevant": true
     },
     {
-      "rank": 439,
+      "rank": 447,
       "name": "Pablooo-club-mcp",
       "owner": "pablooo-club",
       "source": "mcp",
@@ -6468,7 +6545,7 @@
       "relevant": true
     },
     {
-      "rank": 440,
+      "rank": 448,
       "name": "FontofWeb",
       "owner": "fontofweb",
       "source": "mcp",
@@ -6482,7 +6559,7 @@
       "relevant": true
     },
     {
-      "rank": 441,
+      "rank": 449,
       "name": "MDVP",
       "owner": "tixo-digital",
       "source": "mcp",
@@ -6496,7 +6573,7 @@
       "relevant": true
     },
     {
-      "rank": 442,
+      "rank": 450,
       "name": "MeltFlex-AI",
       "owner": "meltflexdevs",
       "source": "mcp",
@@ -6510,7 +6587,7 @@
       "relevant": false
     },
     {
-      "rank": 443,
+      "rank": 451,
       "name": "TypeUI-MCP",
       "owner": "typeui",
       "source": "mcp",
@@ -6524,7 +6601,7 @@
       "relevant": false
     },
     {
-      "rank": 444,
+      "rank": 452,
       "name": "agent-skills",
       "owner": "addyosmani",
       "source": "github",
@@ -6538,7 +6615,7 @@
       "relevant": false
     },
     {
-      "rank": 445,
+      "rank": 453,
       "name": "container",
       "owner": "apple",
       "source": "github",
@@ -6552,7 +6629,7 @@
       "relevant": false
     },
     {
-      "rank": 446,
+      "rank": 454,
       "name": "tolaria",
       "owner": "refactoringhq",
       "source": "github",
@@ -6566,7 +6643,7 @@
       "relevant": false
     },
     {
-      "rank": 447,
+      "rank": 455,
       "name": "openmed",
       "owner": "maziyarpanahi",
       "source": "github",
@@ -6580,7 +6657,7 @@
       "relevant": false
     },
     {
-      "rank": 448,
+      "rank": 456,
       "name": "mattermost",
       "owner": "mattermost",
       "source": "github",
@@ -6594,7 +6671,7 @@
       "relevant": false
     },
     {
-      "rank": 449,
+      "rank": 457,
       "name": "pm-skills",
       "owner": "phuryn",
       "source": "github",
@@ -6608,7 +6685,7 @@
       "relevant": false
     },
     {
-      "rank": 450,
+      "rank": 458,
       "name": "MasterDnsVPN",
       "owner": "masterking32",
       "source": "github",
@@ -6622,7 +6699,7 @@
       "relevant": false
     },
     {
-      "rank": 451,
+      "rank": 459,
       "name": "ai-skills",
       "owner": "Omrigotlieb",
       "source": "github",
@@ -6636,7 +6713,7 @@
       "relevant": false
     },
     {
-      "rank": 452,
+      "rank": 460,
       "name": "awesome-ai-agents-2026",
       "owner": "Zijian-Ni",
       "source": "github",
@@ -6650,7 +6727,7 @@
       "relevant": false
     },
     {
-      "rank": 453,
+      "rank": 461,
       "name": "fusion-mcp",
       "owner": "autodesk",
       "source": "industry-news",
@@ -6664,7 +6741,7 @@
       "relevant": false
     },
     {
-      "rank": 454,
+      "rank": 462,
       "name": "iptv",
       "owner": "iptv-org",
       "source": "github",
@@ -6678,7 +6755,7 @@
       "relevant": false
     },
     {
-      "rank": 455,
+      "rank": 463,
       "name": "lobehub",
       "owner": "lobehub",
       "source": "github",
@@ -6692,7 +6769,7 @@
       "relevant": false
     },
     {
-      "rank": 456,
+      "rank": 464,
       "name": "music-assistant-server",
       "owner": "music-assistant",
       "source": "github",
@@ -6706,7 +6783,7 @@
       "relevant": false
     },
     {
-      "rank": 457,
+      "rank": 465,
       "name": "code-review-graph",
       "owner": "tirth8205",
       "source": "github",
@@ -6720,7 +6797,7 @@
       "relevant": false
     },
     {
-      "rank": 458,
+      "rank": 466,
       "name": "fluxer",
       "owner": "fluxerapp",
       "source": "github",
@@ -6734,7 +6811,7 @@
       "relevant": false
     },
     {
-      "rank": 459,
+      "rank": 467,
       "name": "Wonder",
       "owner": "wonder-design",
       "source": "producthunt",
@@ -6748,7 +6825,7 @@
       "relevant": false
     },
     {
-      "rank": 460,
+      "rank": 468,
       "name": "iArt",
       "owner": "iart-ai",
       "source": "producthunt",
@@ -6762,7 +6839,7 @@
       "relevant": false
     },
     {
-      "rank": 461,
+      "rank": 469,
       "name": "Avatars-in-ElevenCreative",
       "owner": "elevenlabs",
       "source": "producthunt",
