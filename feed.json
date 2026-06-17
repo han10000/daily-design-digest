@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-17",
+    "items": [
+      {
+        "title": "设计 Portfolio 的 Before/After 已经死了——2026 年该展示什么",
+        "summary": "Before/after 截图曾是设计师作品集的标配，用视觉落差证明你有品味、懂改进。但随着 AI 能轻松把任何 90 年代界面变现代，这个格式已经失去含金量。作者（联邦政府 UX 背景）指出：真正有价值的不是你把界面从旧变新，而是在新旧之间你做了哪些决策。哪些功能被砍掉了？信息架构怎么重组的？为什么选这套配色而不是另一套？2026 年的招聘官想看的是设计判断力和推理过程，而不是视觉效果的落差。这对处于大型企业「现代化改造」项目中的设计师尤其警示：你的贡献必须被具体化为决策，而不是结果图的对比。",
+        "url": "https://uxdesign.cc/how-one-of-the-oldest-design-portfolio-formats-needs-to-change-in-2026-b64137494f6a",
+        "source": "UX Collective",
+        "why": "在 AI 可以直接出图的时代，设计师的核心竞争力被迫转向决策可见性——这个视角对正在积累 portfolio 或参与大型产品迭代的设计师都非常直接",
+        "type": "career"
+      },
+      {
+        "title": "AI 驱动的界面是概率系统，但我们把它包成了确定性——这才是最大的设计风险",
+        "summary": "Smashing Magazine 这篇文章从一个真实案例切入：Air Canada 的 AI 聊天机器人给出了一个不存在的退票政策，公司原本拒绝兑现，但法庭判用户胜诉。根本原因是：AI 输出的是概率推断，但界面把它呈现成了事实。文章提出「概率设计（Probabilistic Design）」框架：设计师需要把 AI 的输出当作信号而非结论，在界面层面显式传达不确定性而不是掩盖它。同样一个购买确认页，当转化置信度是 60% 和 90% 时，应该做完全不同的设计——前者需要更多说服信号，后者要尽可能减少摩擦。这个框架要求设计师真正理解 AI 系统的内在逻辑，而不只是「会用 AI 工具」。",
+        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+        "source": "Smashing Magazine",
+        "why": "从 Air Canada 案例出发的这个角度很锋利——它不是在讲如何「用 AI 做设计」，而是在讲 AI 产品设计最容易被忽视的结构性风险。对在大公司做 AI 功能设计的 PM/Designer 来说，这层意识非常必要",
+        "type": "ai-design",
+        "image": "https://files.smashing.media/articles/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/designing-uncertainty-how-ai-supercharges-probabilistic-thinking.jpg"
+      },
+      {
+        "title": "支付 UX 的隐形层：信任不是品牌建出来的，是在微时刻赢得或失去的",
+        "summary": "作者在 PayPal 工作六年、在 Highnote（嵌入式金融平台）担任设计负责人近五年，他坦承：portfolio 里展示的内容几乎从来不是真正决定用户是否信任产品的东西。真正的信任发生在三类「微时刻」：钱转移的加载状态（速度与安全感的设计张力）、确认页面的措辞与视觉设计、以及错误状态的处理方式。Nielsen Norman 的「系统状态可见性」是 1994 年就提出的第一条启发式，但在支付场景里它不是清单上的一项，而是整个情感架构。作者还诚实地承认了哪些问题他们至今没有解决——这种坦诚让文章格外有价值。对于任何涉及金融、电商或高风险操作的产品设计师来说，这是难得的实战视角。",
+        "url": "https://uxdesign.cc/the-hidden-ux-of-payments-22b97440be16",
+        "source": "UX Collective",
+        "why": "支付 UX 是设计师经常要面对但很少有人写清楚的领域，PayPal + 嵌入式金融的双重背景让这篇文章的密度很高。「信任在微时刻」这个框架也完全可以迁移到其他高风险操作的产品设计",
+        "type": "ux-practice"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "items": [
       {
@@ -2727,7 +2757,8 @@
         "summary": "Meta 给 Marketplace 加了 AI 自动回复：卖家勾选开启后，买家问可用性时 AI 自动草拟可编辑回复。同时 AI 根据照片自动填写商品描述和建议定价，生成卖家档案摘要。",
         "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
         "why": "AI 介入高频低价值交互的教科书案例。设计师可以用这个思路审视自己产品中哪些交互是用户不想做但不得不做的，这些就是 AI 自动化的最佳切入点。",
-        "publishedAt": "2026-03-12"
+        "publishedAt": "2026-03-12",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK040_VRG_Illo_N_Barclay_2_facebook.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "UX Collective",
