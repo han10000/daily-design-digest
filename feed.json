@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-18",
+    "items": [
+      {
+        "title": "A2UI 拆解：AI 驱动的「激进自适应 UI」是什么，设计师该怎么提前布局",
+        "summary": "作者 Christine Vallaure 介绍了 A2UI 协议——一种让 AI 根据用户当前意图实时生成界面的新范式。与传统静态设计不同，A2UI 不是给所有人设计同一套流程，而是根据每一次请求动态组装界面（例如：用户说「订纽约三月的酒店」，系统直接呈现日历+价格+人数选择器，而非逐步引导填表单）。关键的设计师机会：A2UI 只能从「预设的组件库」里拼装，这意味着组件的质量、可访问性、边缘情况处理，仍然完全由设计师决定。文章还指出这个范式正在悄悄颠覆「我们研究出来的虚构典型用户」——你不再是为一个假想的平均用户设计，而是为每一个真实当下的需求设计。目前仍处于早期，主要是开发者在推进，Vallaure 的核心呼吁是：设计师现在就该介入，不然这个范式会在没有设计师的地方被决定。",
+        "url": "https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe",
+        "source": "UX Collective",
+        "why": "这是一篇少见的「看得懂原理又对设计师有实际价值」的技术向文章。A2UI/生成式 UI 是接下来 1-2 年 AI 产品界面最重要的方向之一，设计师现在理解它，就是在抢占叙事主权。",
+        "type": "deep-dive"
+      },
+      {
+        "title": "不要被 AI 的「确定感」骗了——概率化设计思维实战指南",
+        "summary": "Smashing Magazine 这篇文章从一个真实案例切入：2024 年 Air Canada 的 chatbot 给出了一个不存在的报销政策，法庭最终判公司负责——根本原因是「概率性系统被套进了确定性界面」。文章的核心观点是：AI 的输出是预测，不是事实，但当前大多数产品界面把它呈现成了结论。Probabilistic Design 是一种设计思维，要求设计师在展示 AI 结果时保留不确定性的空间——比如在推荐结果旁边显示置信度、提供「其它可能」的出口、在高风险决策场景（医疗、金融）里刻意放慢用户的决策节奏。文章还给出了具体的设计策略：60% 置信度 vs 90% 置信度时界面该呈现多少「说服性内容」，以及如何用 AI 的概率输出来指导交互设计优先级。",
+        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+        "source": "Smashing Magazine",
+        "why": "直接对应 AI 产品设计的高频问题：AI 说错了但用户信了，设计师的责任在哪。这篇给了一套有操作性的思维框架，不只是理论。",
+        "type": "framework",
+        "image": "https://files.smashing.media/articles/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/designing-uncertainty-how-ai-supercharges-probabilistic-thinking.jpg"
+      },
+      {
+        "title": "Pew Research：49% 美国人用过 AI chatbot，但 63% 认为 AI 发展太快了",
+        "summary": "Pew Research 最新调查显示，美国 AI chatbot 使用率已从 2024 年的 33% 跃升至 49%，ChatGPT 使用量相比 2023 年翻倍，达到 44%。但同时，63% 的受访者认为 AI 技术发展速度过快——这个比例在两年前还不到一半。这组数据对 Product Designer 的意义在于：用户的实际使用率在快速爬坡，但信任度和舒适感远没有跟上。这意味着「降低认知摩擦、建立可预期感、保持适度透明」仍然是 AI 产品 UX 的核心命题，而不是一味堆砌能力。在设计 AI feature 时，「用户是否感到被尊重和在掌控中」比「这个功能有多厉害」更影响长期留存。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+        "source": "The Verge AI",
+        "why": "真实用户数据，直接影响 AI 产品的设计决策方向。63% 的人觉得 AI 太快了，这是设计师做 trust & transparency 设计的底层依据。",
+        "type": "research",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK_414_AI_J-copy.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "items": [
       {
