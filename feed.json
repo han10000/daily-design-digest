@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-19",
+    "items": [
+      {
+        "title": "2026 年设计师的生死关键：从「执行者」变成「系统思考者」",
+        "summary": "IBM 设计副总裁 Arin Bhowmick 用数据击破了两种极端幻觉——AI 不会消灭设计师，但也不会对那些只会出稿的设计师手软。文章追踪了 Klarna 裁员又回招人才的「回旋镖效应」，以及 Gartner 预测 2027 年半数 AI 裁员公司将被迫重新招人的数据。真正的核心论点是：AI 正在模糊设计师、PM 和工程师之间的界限，那些只能证明「我会做 UI」的人将失去战略地位。WEF 报告显示 UX 设计师排名增长最快职业第八，但前提是你能用 AI 工具协作、理解业务背景、在模糊中做判断。文章给出了具体的进阶路径：成为能构建原型的系统思考者，而不是等待规格书再动手的执行者。",
+        "url": "https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0",
+        "source": "UX Collective",
+        "why": "不是泛泛的焦虑文，而是用真实裁员数据和 WEF 报告给出了清醒判断。叉叉在大厂做设计，这篇文章正好对应「设计影响力如何在 AI 时代重新建立」这个问题。",
+        "type": "career"
+      },
+      {
+        "title": "AI 智能体够用吗？用自己的工具链来测试开源模型",
+        "summary": "HuggingFace 发布的这篇文章提出了一个实用问题：当你要把开源模型嵌入真实 agent 工作流时，通用 benchmark 往往不能代表你的实际场景。文章介绍了一套方法论——用你自己的工具集（API 调用、数据库查询、自定义函数）来评估模型的 agentic 能力，而不是依赖 HumanEval 或 MMLU 这类通用测评。核心洞察：不同模型在不同工具组合下表现差异巨大，有些模型擅长单步工具调用但在多步推理链上崩溃。文章还提供了构建自定义评估 harness 的代码示例，以及如何衡量「工具选择准确率」和「指令遵循一致性」两个关键指标。对于正在设计 AI 产品的设计师来说，理解模型 agentic 能力的边界，是避免「设计了一个 AI 能力之外的用户期望」的前提。",
+        "url": "https://huggingface.co/blog/is-it-agentic-enough",
+        "source": "Hugging Face Blog",
+        "why": "设计 AI 产品的核心挑战之一是准确感知底层模型的能力边界。这篇文章提供了一个务实的视角，帮助叉叉在 spec 阶段就建立对 AI agent 能力的现实预期，避免设计过度承诺。",
+        "type": "ai-tools",
+        "image": "https://huggingface.co/blog/assets/is-it-agentic-enough/thumbnail.png"
+      },
+      {
+        "title": "用概率思维设计 AI 产品：不确定性才是真正的设计材料",
+        "summary": "Smashing Magazine 这篇文章从 Air Canada AI 客服给出不存在政策然后被告上法庭的案例切入，直击 AI 产品设计的核心悖论：概率性系统被包裹在确定性界面里。文章系统介绍了「概率设计」思维框架——设计师应该把 AI 输出读作信号而非结论，读作可能的结果而非真相。具体到产品设计：当分析显示用户完成购买的置信度是 60% vs 90% 时，界面设计逻辑完全不同——前者需要更多说服信号，后者应该消除摩擦让行动直接发生。文章还给出了用结构化提示从神经多样性用户视角评估早期设计的实操模板，以及如何用历史数据模拟结果来降低设计决策风险。在 AI 大量进入产品的今天，这套思维方式是设计师避免「把预测当成真相」的防护盾。",
+        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+        "source": "Smashing Magazine",
+        "why": "这不是抽象理论，是 AI 产品设计最容易踩的真实坑：界面表达的确定性和模型实际的概率性之间的落差。这个框架能直接影响叉叉在做 AI 功能时的信息架构和交互决策。",
+        "type": "design-thinking",
+        "image": "https://files.smashing.media/articles/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/designing-uncertainty-how-ai-supercharges-probabilistic-thinking.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-18",
     "items": [
       {
