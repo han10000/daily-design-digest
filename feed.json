@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-20",
+    "items": [
+      {
+        "title": "「Vibe 架构师」：没学过技术的人在构建复杂 AI Agent 系统",
+        "summary": "NNGroup 最新研究发现了一类新用户画像：「Vibe Architects」——他们不是工程师，却在用 Claude Cowork 等 Agentic AI 工具搭建复杂的自动化系统，甚至替整个团队重构了工作流。研究参与者包括运营专员、金融机构产品设计师、营销创业者等，他们构建了包含多 Agent 协调、主动建议、无头编排的系统，靠的不是技术文档，而是几百小时的 YouTube 视频和 Reddit 跟帖积累出来的「直觉」。这对设计师意味着什么？用户的 mental model 会越来越模糊且充满误解（比如有人以为重置 chat 能省 token 其实反而更耗），但他们依然能让系统运行。这类用户的存在重新定义了「什么是可用性」——不是完全理解，而是能产生结果。NNGroup 认为这是 Vibe Coding 向更广义的系统思维渗透的信号。",
+        "url": "https://www.nngroup.com/articles/vibe-architects/",
+        "source": "Nielsen Norman Group",
+        "why": "直接关系到我们正在设计的 AI 产品的真实用户——不是专家，是靠直觉驱动、用结果倒推理解的「Vibe 架构师」。了解他们怎么建、怎么出错，对任何要设计给非技术用户的 Agentic AI 产品都是核心参考。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
+      },
+      {
+        "title": "企业软件正在「个人化」：三个正在重塑 B 端 UX 的设计趋势",
+        "summary": "长期从事企业级软件设计的设计师 Tiina Golub 观察到，AI 正在以前所未有的速度倒逼这个传统上保守缓慢的领域加速进化。她总结了三个核心趋势：第一，AI 不再是独立功能而是深度嵌入工作流、在上下文中主动提供指引；第二，企业软件的界面正在从「一套供所有人使用」走向可个性化定制的自适应体验，角色权限不再只是数据过滤，而是影响整个 UI 呈现；第三，数据展示方式从报表式转向叙事式，让使用者能更快读懂「发生了什么、为什么重要」。这三个趋势放在一起，实际上是在说：To B 产品的 UX 正在向 To C 的体验标准靠拢，而推动力是 AI 让「理解用户上下文」这件事变得可行了。",
+        "url": "https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3",
+        "source": "UX Collective",
+        "why": "微软的产品恰好处在 B 端软件个人化这个浪潮的中心。这篇文章提供了具体可用的框架来描述和说服内部利益相关方：为什么「更个人化的企业 UX」不是锦上添花，而是竞争必需。",
+        "type": "analysis"
+      },
+      {
+        "title": "NNGroup：日记研究（Diary Study）的激励机制设计",
+        "summary": "Diary Study 是纵向用户研究的经典方法，但参与者中途退出率奇高——这篇文章专门拆解了「激励结构」这个关键杠杆。作者 Maria Rosala 指出，和一次性访谈按「时间」付报酬不同，Diary Study 应该按「努力程度」来设计激励，并和提交质量与频率挂钩。常见失误包括：一次性预付导致前几天积极之后躺平；固定金额无论提交多少都不变，导致低努力应付。推荐的激励设计模式包括分阶段激励、质量 bonus、以及「出现本身就有价值」的心理框架设置。对于做长周期用户研究的设计师，这是非常实操的指南，不是泛泛而谈的原则。",
+        "url": "https://www.nngroup.com/articles/diary-study-incentives/",
+        "source": "Nielsen Norman Group",
+        "why": "Diary Study 是了解用户真实行为（尤其是 AI 功能在日常使用中的实际 adoption）的最佳方法之一，但执行难度高。这篇文章直接解决「怎么让人坚持参与」这个最实际的执行障碍。",
+        "type": "methodology",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Incentive_Structures_for_Diary_Studies-1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-19",
     "items": [
       {
