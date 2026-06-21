@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-21",
+    "items": [
+      {
+        "title": "你的歌被 AI 学去了吗？《大西洋月刊》开放全球可搜索的 AI 音乐训练数据库",
+        "summary": "《大西洋月刊》记者 Alex Reisner 揭露了四个被 AI 公司用于训练音乐生成模型的音频数据集，涵盖 1200 万首和 900 万首曲目的超级庞大集合，以及另外两个各含超 10 万首歌的较小集合。这些数据已被 Google 和 Stability AI 在研究论文中明确引用。更关键的是，其中三个数据集的实际下载方式需要绕过 YouTube 和 Spotify 的登录限制和版权保护机制——这直接违反了平台服务条款。现在《大西洋月刊》将这些数据集全部开放搜索，任何人都可以查询 Lady Gaga、Radiohead、Aphex Twin、Wu-Tang Clan 等艺术家的作品是否被收录。这篇报道揭示的不只是法律灰色地带，更是 AI 公司和设计师都需要直视的一个本质问题：当「开放可用的数据」和「可以用于商业训练的数据」之间的界线持续被模糊，创作者权益保障的 UX 和产品逻辑该怎么重建？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+        "source": "The Verge",
+        "why": "AI 训练数据版权问题终于有了可搜索的公开证据库。作为设计师，这直接影响你在 AI 产品中如何设计「内容来源」透明度、版权声明和用户授权流程——这不只是律师的问题，是产品设计问题。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK467_AI_MUSIC_CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "AI 研究 Agent 会悄悄泄漏你的机密——不是通过答案，而是通过它发出的每一个搜索请求",
+        "summary": "ServiceNow 研究团队提出了一个叫「拼图效应」（Mosaic Effect）的 AI 安全问题：当一个企业 AI 研究 Agent 同时访问私有内部文档和外网工具时，它发出的每一条搜索 query 都可能成为信息泄露通道。攻击者不需要直接看到私有文档，只需要监听 agent 的对外查询日志，就能拼凑出机密信息。研究团队构建了 MosaicLeaks 评估基准，测试结果令人担忧：在主流模型中，agent 频繁泄露私有信息，而且单纯优化任务完成率会让泄露情况更糟。研究者提出了隐私感知的强化学习训练方案 PA-DR，将严格任务成功率从 48.7% 提升到 58.7%，同时将答案泄露率从 34.0% 降低到 9.9%。对产品设计师来说，这提示了一个深层 UX 问题：当你的用户开始使用 agentic AI 处理企业数据时，「隐私」的责任边界在哪里、界面应该怎么提示和控制 agent 的外部行为？",
+        "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+        "source": "Hugging Face Blog",
+        "why": "Agentic AI 产品的隐私 UX 是下一个设计前沿。这篇研究让你看清「agent 查询」作为数据泄漏通道的具体机制，帮助你在设计 AI 工作流产品时提前构建透明度和控制机制，而不是出事后补丁。",
+        "type": "AI 研究",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/680ba1729f7688275d2ce0f4/hGCO4pOyJjijLPCbRT07v.webp"
+      },
+      {
+        "title": "2026 年活下来的设计师，靠的不是工具，是这一种能力",
+        "summary": "前 IBM Design VP Arin Bhowmick 基于 Klarna 大规模裁员后又重新雇人（\"boomerang hiring\"）的案例，以及 Gartner 预测 2027 年 50% 砍掉客服团队的公司将重新招人的数据，分析了 AI 时代设计师的生存路径。他的核心论点是：AI 能执行任务，但不懂业务上下文和战略决策背后的意图。能活下来的设计师，是那些能从「工艺执行者」转变为「系统思考者、构建者和战略伙伴」的人——他们不只做界面，他们理解产品为什么这样设计、谁在用、在什么情境下用。设计师的下一个能力飞跃，不是学更多工具，而是学会用设计语言表达商业价值：为什么某个决策会影响留存、转化、用户信任。文章特别指出，那些在 AI 浪潮中被裁掉的设计师，往往是那些职责描述只剩「制作 Figma 文件」的人——这是一个结构性的角色危机，不只是技能差距。",
+        "url": "https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0",
+        "source": "UX Collective",
+        "why": "不是鸡汤，是真实的行业数据支撑的生存报告。Klarna 案例和 Gartner 数据让这篇文章有重量。对叉叉来说，这也是思考如何在微软内部建立设计影响力的一个框架——从工艺输出到战略对话。",
+        "type": "职业发展"
+      }
+    ]
+  },
+  {
     "date": "2026-06-20",
     "items": [
       {
