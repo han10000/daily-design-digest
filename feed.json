@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-22",
+    "items": [
+      {
+        "title": "流程最好的部分不是终点",
+        "summary": "韩国“多巴胺网站”（도파민 사이트）是一批让用户假装下单、永远不会送达的 app——FoodNeverComes 就是其中代表。用户浏览菜单、加购、填地址、看骑手出发，但什么都不会真的来。这个现象让作者意识到：购物本身的乐趣大部分来自“浏览+构建可能性”的过程，而非拥有结果。这对产品设计有直接启发：我们通常把转化、提交、完成视为终点，把一切体验导向那个终点；但用户在过程中获得的满足感往往更持久。文章建议设计师重新审视流程本身的价值——onboarding 探索、购物车构建、待办规划——这些中间态本身就是产品体验，而不只是通往目标的漏斗节点。作者用 peak-end rule（峦终定律）作为理论背书，但观察的起点更有趣：一款“永远不送货的外卖 app”能在首尔流行，说明我们可能高估了「结果」在用户心智中的权重。",
+        "url": "https://uxdesign.cc/why-the-best-part-of-the-flow-isnt-the-end-e9fef73f6bb3",
+        "source": "UX Collective",
+        "why": "流程设计中被忽视的「过程价值」——从真实反常识的社会现象出发，推导出可操作的设计视角。对做 onboarding、购物、任务流的设计师直接有用。",
+        "type": "design-insight"
+      },
+      {
+        "title": "两种现代主义：当看不见的结构才是正确答案",
+        "summary": "作者参加芝加哥建筑游船，导游讲到 1889 年礼堂大厦因地基软弱下沉 18 英寸，地基解法是打入看不见的混凝土沉筱柱——这让他联想到正在评估的 Radix + shadcn 方案。Radix 组件默认不渲染任何视觉样式，只有行为和结构，团队本能地想加 wrapper 和视觉占位来“证明它在工作”。文章用密斯·凡·德·罗（隐藏钓结构）、Harry Beck（伦敦地铁图去掉地理精度）、Radix（剔离样式层）三个案例，论证一种克制的现代主义：不是做风格声明，而是为了解决具体问题留下最必要的东西。对设计系统工作尤其有共鸣——设计师评估 headless UI 库时常见的不适感，来自我们习惯把「可见」等同于「可信」，而这篇文章提供了一个更成熟的认知框架。",
+        "url": "https://uxdesign.cc/two-modernisms-ba94169b79dd",
+        "source": "UX Collective",
+        "why": "从建筑史切入设计系统的架构哲学，类比精准且有洞察力。对在评估 headless 组件库、设计 token 架构的设计师来说，提供了很好的思维框架。",
+        "type": "design-systems"
+      },
+      {
+        "title": "用概率思维设计：AI 时代最被低估的设计能力",
+        "summary": "2024 年加拿大航空的 AI 客服给出了一个不存在的退款政策，航空公司拒绝兑现，最终被法庭判败诉——AI 给的是预测，界面呈现的是确定性，用户据此行动。这是 AI 产品设计中一个核心矛盾：概率系统套在决定论界面里。文章提出“概率设计”（Probabilistic Design）概念：设计师应该把 AI 输出当作信号而非结论，把模型置信度、数据偏差、用户风险感知都纳入设计决策。作者用 Netflix 推荐（60% vs 90% 置信度对应不同的说服性 UI 工作量）、医疗诊断、金融预测等案例展示如何在界面层承载不确定性。这不只是个交互设计问题，更是一种系统思维：我们在建什么，用户以为我们在建什么，以及这两者的差距在哪里造成伤害。",
+        "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+        "source": "Smashing Magazine",
+        "why": "AI 产品设计中最容易踩的坑之一：把模型的「预测」包装成「答案」。这篇提供了实用的设计框架，而不是泛泛的「AI 要透明」口号。",
+        "type": "ai-product-design",
+        "image": "https://files.smashing.media/articles/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/designing-uncertainty-how-ai-supercharges-probabilistic-thinking.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-21",
     "items": [
       {
