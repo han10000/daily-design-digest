@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-23",
+    "items": [
+      {
+        "title": "低品味的组织代价：taste 不是审美偏好，而是决策系统",
+        "summary": "这篇文章把「审美品味」从感性词汇重新定义为组织的运营基础设施。作者 Aurélie Radom 观察到一个反直觉的现象：小公司的决策瘫痪和大公司一样严重，规模并不是根本原因。真正的缺失是「质量标准的共识」——当组织里没有一个稳定的 taste 标准时，每一次决策都变成漫长的谈判，stakeholder 之间反复对齐，开会越来越多，roadmap 越来越长，但产品本身越来越难以描述。作者引用 Dieter Rams 在博朗的案例：Rams 留下的不是视觉一致性，而是跨部门的判断共识——设计师、工程师和管理层不需要逐案谈判质量，因为大家已经知道「好」长什么样。这种共识压缩了选项空间，让大多数弱决策在上桌前就被过滤掉。文章的核心论点：taste 是决策的操作系统，lack of taste 的代价是效率损耗、人才流失、以及无止尽的对齐成本。对在大公司做设计的人来说，这篇文章提供了一个非常有力的框架去解释为什么「建立设计标准」不只是审美问题，而是组织健康问题。",
+        "url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
+        "source": "UX Collective",
+        "why": "把「taste」从软性词汇变成可量化的组织成本，给了设计师在大公司内部推动设计标准化时一个非常有力的论据框架。",
+        "type": "essay"
+      },
+      {
+        "title": "AI 虚拟装修正在把租房变成一场期望管理危机",
+        "summary": "The Verge 的这篇深度报道揭示了 AI 生成式图像在房地产行业的一个真实黑暗面：AI 虚拟软装（virtual staging）让中介只需点击一个按钮，就能把一个空荡荡或破旧的公寓变成充满阳光的梦想之家。租客看着照片下定决心去看房，到了现场发现——壁炉不存在，灶台缺旋钮，厨房是另一个厨房。这不只是照片失实的问题，而是一个由 AI 工具民主化催生的系统性设计伦理问题。报道中的中介直言：「这里有个诉讼正在孕育。」纽约州已立法要求广告披露 AI 使用，但立法漏洞大，执行难。对设计师而言，这篇文章是一个很好的真实世界案例——当 AI 把「展示潜力」和「欺骗用户」之间的边界变得极其廉价且容易跨越时，设计伦理和界面诚实性的讨论就从抽象变成了真实的用户伤害。AI 能力越强，设计决策的道德重量越大。",
+        "url": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+        "source": "The Verge",
+        "why": "一个 AI 工具被滥用造成真实用户伤害的实证报道，提醒设计师「AI 能力 ≠ 使用正当性」，是设计伦理讨论的好素材。",
+        "type": "report",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/268589_Vitual_staging_AParkin.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "「氛围架构师」：不懂代码的人正在用 AI 搭建复杂的 agent 系统",
+        "summary": "NNGroup 最新研究发现了一种新型用户——他们称之为「vibe architects」（氛围架构师）：非技术背景的普通工作者，通过大量实验、看 YouTube、泡 Reddit，正在用 Claude Cowork 等 agentic AI 工具搭建复杂的自动化系统和 agent 工作流，而他们对底层技术几乎一无所知。研究对象包括：一个运营专员在帮团队搭自动化 pipeline、一个产品设计师在业余时间 vibe coding 个人工具、一个营销创业者跑着多 agent 协调系统。这些人的技术能力已经超过了他们的技术认知——他们能让系统运行，但不一定知道为什么能运行，也不知道为什么会崩。研究发现这些系统往往不稳定、难以维护，mental model 也充满误解（比如一个用户误以为重置 chat 能省 token，但其实把整个 context 复制进新 prompt 反而更费）。对 Product Designer 来说，这项研究直接回答了一个关键问题：我们未来要为谁设计 AI 产品？答案是：那些技术能力超前但技术理解滞后的新型用户，设计挑战在于如何在他们的误解中创造出安全感和可控感。",
+        "url": "https://www.nngroup.com/articles/vibe-architects/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 的实证研究首次命名了一类新用户群体，直接影响 AI 产品的用户画像和体验设计方向，非常值得 PM 和 designer 读。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "items": [
       {
@@ -3166,7 +3197,7 @@
         "url": "https://will-keleher.com/posts/this-css-makes-me-human/",
         "why": "AI 写作工具的 UX 设计必须解决 authorship 问题——用户不只要好内容，还要感觉「这是我写的」，否则会被抵制",
         "publishedAt": "2026-03-06",
-        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_a2d7b00b9482471.webp"
+        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_e6cb19d1a0c7019d.webp"
       },
       {
         "source": "UX Collective",
