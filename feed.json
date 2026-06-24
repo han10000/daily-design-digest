@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-24",
+    "items": [
+      {
+        "title": "AI 时代 DesignOps 的角色正在悄悄变形",
+        "summary": "一位设计负责人向作者吐槽：把设计系统喂给 Claude，输出永远对不上。作者指出这不是提示词问题，而是 DesignOps 的核心危机——AI 在真空中生成设计，每个产品团队各搞一套，整体品牌一致性悄然崩塌。文章认为，随着 AI 让「可视化」这个曾经稀缺的技能变得廉价，DesignOps 的价值正在从「如何生产」转移到「如何判断」。真正稀缺的是设计视觉（Design Vision）：一套让所有 AI 输出都能对齐的共同标准。文章提出 DesignOps 的新优先级：从管理工具和流程，转向维护可被 AI 理解和执行的设计系统语义层。",
+        "url": "https://uxdesign.cc/how-designops-roles-are-changing-with-new-priorities-c8db3a5bc1c3",
+        "source": "UX Collective",
+        "why": "叉叉做的就是 AI 产品设计，这篇直接回答「AI 时代 DesignOps 该往哪转型」。「视觉判断力」vs「生产力」的框架很有用，可以直接带入日常设计系统讨论。",
+        "type": "design-ops"
+      },
+      {
+        "title": "你的银行 App 在对你说谎——AI 开始说实话了",
+        "summary": "传统银行 App 只告诉你当前余额，而行为经济学家 Shefrin 和 Thaler 早就证明，人类的储蓄和消费远非理性——「现在的自己」总是赢过「未来的自己」。文章指出，当前银行 App 的被动式设计是在强化这种认知偏差：余额展示是一个点，而不是一条轨迹。作者设想 AI 如果真正接入个人财务数据，能做什么：预测下月现金流、识别消费模式的情绪触发点、在冲动消费前主动干预。关键设计挑战是：这类「说真话」的功能会让用户感到被监控还是被赋能？如何设计「AI 金融透明度」的信任界面，避免引发焦虑而非帮助决策？",
+        "url": "https://uxdesign.cc/your-banking-app-is-lying-to-you-52959b075823",
+        "source": "UX Collective",
+        "why": "AI 产品如何重新定义「展示什么信息」是个核心设计问题。银行场景是极好的切入点——用户对金融数据的隐私感和控制感极强，这里的 trust UX 设计原则可以迁移到任何 AI 个性化产品。",
+        "type": "ai-ux"
+      },
+      {
+        "title": "好莱坞向 OpenAI 跪下了——资本如何让批评性叙事消失",
+        "summary": "导演 Luca Guadagnino 关于 Sam Altman 被解雇又复职事件的传记电影《Artificial》，在后期制作完成后遭 Amazon MGM 撤回发行，随后 Netflix、A24、Focus Features 和 Warner Bros. 相继拒绝接盘。Amazon 给出的理由语焉不详，但背景是：该公司今年早些时候向 OpenAI 投资了 500 亿美元。The Verge 指出这不是个例——当科技巨头同时控制内容平台和 AI 投资时，批评 AI 行业的作品将系统性地被市场淘汰。这种权力结构对设计师有直接含义：我们构建的产品正处于这个权力游戏的中心，而「谁能讲述 AI 的故事」正在成为一个政治问题。",
+        "url": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
+        "source": "The Verge",
+        "why": "设计师需要理解产品所处的权力结构。AI 资本如何渗透并压制批评声音，是每个在 AI 公司或 AI 赛道工作的人都应该看到的背景。这篇不是「科技新闻」，是在帮你看清游戏规则。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25431704/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&strip=all&crop=4.7487503051758%2C21.869598945592%2C95.251249694824%2C74.804666989327&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "items": [
       {
@@ -3197,7 +3227,7 @@
         "url": "https://will-keleher.com/posts/this-css-makes-me-human/",
         "why": "AI 写作工具的 UX 设计必须解决 authorship 问题——用户不只要好内容，还要感觉「这是我写的」，否则会被抵制",
         "publishedAt": "2026-03-06",
-        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_e6cb19d1a0c7019d.webp"
+        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_a2d7b00b9482471.webp"
       },
       {
         "source": "UX Collective",
