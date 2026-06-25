@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-25",
+    "items": [
+      {
+        "title": "设计系统靠一个人撑着——AI 要把这件事暴露出来了",
+        "summary": "每个活过一年的设计系统，背后都有一个「守门人」：他审每一个 contribution，把控 token 命名、无障碍合规、组件 API 一致性。这个人是系统保持连贯的原因，也是系统停摆的原因。作者用 IBM Carbon 的 76 条积压 PR 做切入，指出业内通常把「让 AI 读懂设计系统」（token machine-readable、agentic design systems）当做 AI 转型的核心，但真正的瓶颈从来不是「库」，而是「审查门」。61% 的团队有贡献流程，只有 44% 有治理模型，只有 16% 在追踪任何指标。设计系统的 bus factor 多数情况是 1。AI 没有创造这个问题，但它会让这个问题无法再被忽视——当 AI 代码生成把 contribution 速度提高 10 倍，单点瓶颈会首先爆掉。",
+        "url": "https://uxdesign.cc/your-design-system-runs-on-one-persons-judgment-ai-is-about-to-prove-it-4e969a862765",
+        "source": "UX Collective",
+        "why": "设计系统治理是 Product Designer 日常痛点，这篇诊断非常准确：问题不是工具，是「审查门」和 bus factor。AI 加速 contribution 之后，这个矛盾会被放大而非消解——对在微软做设计的叉叉高度相关。",
+        "type": "deep-read"
+      },
+      {
+        "title": "美国国会议员的 AI「拼写检查」事故：Claude 痕迹出现在国防法案里",
+        "summary": "美国众议员 Anna Paulina Luna 的工作人员在 2027 年《国家国防授权法案》的修正案摘要里留下了「11:25 AM Claude responded:」的明文痕迹。Luna 起初承认「工作人员用 AI 修改了草稿文本且没有编辑」，随后改口称只用于「摘要拼写纠错，不是法案正文」。这个事件折射出一个更大的信号：AI 工具已渗透到立法、法律、政府等高信任度工作流程，但工作人员的使用习惯和核查意识仍未跟上。近年来法庭中律师用 AI 生成虚假引用、巴西城市议会通过 ChatGPT 起草的法规，都是同类事件。AI 的能力和机构信任之间存在巨大的感知落差，这对任何做 AI 产品的设计师都是重要的上下文。",
+        "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+        "source": "The Verge",
+        "why": "不是技术文章，但是一个非常直接的「AI 在高信任场景中的可信度」信号。设计 AI 产品时，这类「痕迹暴露」事件是用户对 AI 信任度的真实写照。适合作为设计决策的背景上下文。",
+        "type": "industry-signal",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "用 AI + 人工在环，把发布周期从 6 周压到每周 1 次",
+        "summary": "Hugging Face 的 huggingface_hub 团队分享了如何把开源库的发布流程从「每 4-6 周一次、需要半天手工劳动」改造为「每周自动发布、只在最需要判断力的地方保留人工审核」。核心洞察是把工作分成两类：纯机械步骤（版本号更新、打 tag、推送）全部交给 CI，而「写 Release Notes、决定高亮哪些改动、起草公告」这类需要判断力的活，用 AI 出初稿、人工确认。整套方案用开源工具构建（GitHub Actions + OpenCode agent），没有任何付费 API 依赖。这是一个「AI 在流程中的正确位置」的绝佳案例——不是替换人，而是把人从重复劳动中解放出来，专注于真正需要品味和判断的环节。",
+        "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+        "source": "Hugging Face Blog",
+        "why": "这篇文章本质上是一个「AI-human collaboration workflow」的实战案例，思路可以直接迁移到设计团队的发布流程、设计系统维护、甚至设计评审流程中。'只在需要判断力的地方保留人工'这个原则值得叉叉借鉴到自己的 workflow 设计里。",
+        "type": "workflow",
+        "image": "https://huggingface.co/blog/assets/huggingface-hub-release-ci/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-24",
     "items": [
       {
