@@ -1,15 +1,37 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "trending": [
     {
       "rank": 1,
+      "name": "design.md",
+      "owner": "google-labs-code",
+      "source": "github",
+      "installs": "18,807 stars (+1,407 今日，TypeScript/Python，Google Labs 出品，Apache 2.0，今日 GitHub 热榜新面孔，DESIGN.md 设计系统规范 + CLI + linter)",
+      "stars": 19255,
+      "desc": "Google Labs 开源的 DESIGN.md 规范：用 YAML front matter 的机器可读 design tokens + Markdown 散文的人类可读设计理念，让 AI coding agent 持久理解品牌视觉规范。包含 `@google/design.md` CLI + linter，支持 Tailwind CSS v4 导出、CSS Color Module、DTCG tokens 格式。Apache 2.0。",
+      "reason": "今日 GitHub 热榜新面孔 +1,407，18.8k stars。Google Labs 官方把「设计系统传达给 AI」这件事标准化了——DESIGN.md 正在成为 DESIGN.md 之于 AI coding agent 的等同物，就像 README.md 之于人类开发者。0.2.0 版本（2026-05-26）已支持 Tailwind v4 导出，工程成熟度在快速提升。",
+      "usage": "npm install -g @google/design.md；完全免费 Apache 2.0；macOS/Linux 本地运行，Node.js 即可；⭐ relevant=true：CLI 可安装 + 完全免费 + macOS/Linux 本地运行无需 GPU + 直接与 Product Designer 工作相关（把设计系统/brand tokens 写成 AI 可读的 DESIGN.md 规范，让 Claude Code/Cursor 生成 on-brand UI）。",
+      "tag": "design",
+      "category": "Design System Standard",
+      "relevant": true,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "topics": [],
+      "repo_desc": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
+      "how_to_install": "Validate a DESIGN.md against the spec, catch broken token references, check WCAG contrast ratios, and surface structural findings — all as structured JSON that agents can act on.\n\n```bash\nnpx @google/design.md lint DESIGN.md\n```\n\n```json\n{\n  \"findings\": [\n    {\n      \"severity\": \"warning\",\n      \"path\": \"components.button-primary\",\n      \"message\": \"textColor (#ffffff) on backgroundColor (#1A1C1E) has contrast ratio 15.42:1 — passes WCAG AA.\"\n    }\n  ],\n  \"summary\": { \"errors\": 0, \"warnings\":...",
+      "how_to_use": "",
+      "features": ""
+    },
+    {
+      "rank": 2,
       "name": "OpenMontage",
       "owner": "calesthio",
       "source": "github",
-      "installs": "18,808 stars (+3,703 今日，Python，今日 GitHub #1，开源 agentic 视频制作系统)",
-      "stars": 19448,
+      "installs": "21,790 stars (+1,258 今日，Python，连续热榜，开源 agentic 视频制作系统)",
+      "stars": 22105,
       "desc": "世界首个开源 agentic 视频制作系统：12 条制作 pipeline，52 个工具，500+ agent skill，将 AI coding agent（Claude/Codex）转化为完整视频制作工作室——从脚本规划到成片全流程自动化。Python，开源。",
-      "reason": "今日 GitHub #1 +3,703，18.8k stars。连续进入热榜且今日涨幅最高。「把 AI coding agent 变成视频制作工作室」是 2026 年 creative workflow 工具最有想象力的重组——复用 AI coding 基础设施服务视频创作。500+ skills 模块化架构引人关注。",
+      "reason": "连续热榜，21.7k stars。在「AI 把复杂创意工具 pipeline 化」这条路上，OpenMontage 是目前规模最大的开源参照——500+ skill 模块调度体系直接影响 AI 工具设计的架构思考。",
       "usage": "Python 本地运行；⚠️ 需付费 LLM API key（Claude/Codex/Gemini），relevant=false；设计师视角：12 pipeline + 52 工具模块化架构是 AI 辅助视频制作工具设计的参考；「skill 调度 + agent 协作」制作流程对 demo video 工作流有借鉴。",
       "tag": "workflow",
       "category": "AI Video Production",
@@ -30,12 +52,12 @@
       "features": ""
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "poster-studio",
       "owner": "joeseesun",
       "source": "github",
       "installs": "62 stars，TypeScript，今日新面孔，浏览器端社媒海报设计工作台",
-      "stars": 70,
+      "stars": 71,
       "desc": "乔木画布：浏览器端小红书封面、知识卡片和社媒海报设计工作台。TypeScript 构建，无需安装，直接浏览器打开即可设计。支持小红书封面比例、知识卡片模板、图文排版。完全开源免费。",
       "reason": "今日 ai-design topics 新发现，TypeScript 新面孔。设计师日常需大量制作小红书封面/知识卡片/社媒素材，poster-studio 把这个高频设计场景做成浏览器直用工具，无需安装任何 app，完全免费开源。",
       "usage": "浏览器直接打开使用；完全免费开源，TypeScript；⭐ relevant=true：浏览器直接可用 + 完全免费 + macOS/Linux 浏览器无需额外安装 + 直接设计工具（小红书封面/知识卡片/社媒海报，设计师日常高频场景）。",
@@ -58,7 +80,7 @@
       "features": "- Fabric.js canvas editor for text, images, shapes, styles, filters, and layers.\n- Common social aspect ratios including 3:4, 1:1, 16:9, 21:9, and 9:16.\n- Version management and local autosave.\n- AI image generation through HiAPI, Jimeng, Seedream, or custom compatible endpoints.\n- Optional image-to-image, background removal, Qiniu persistence, and Vercel KV sharing."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "ux-skill",
       "owner": "Laith0003",
       "source": "github",
@@ -86,7 +108,7 @@
       "features": ""
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "better-design",
       "owner": "marvkr",
       "source": "github",
@@ -114,7 +136,7 @@
       "features": ""
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "ai-interaction-atlas",
       "owner": "quietloudlab",
       "source": "github",
@@ -142,12 +164,12 @@
       "features": ""
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "hermes-agent",
       "owner": "NousResearch",
       "source": "github",
       "installs": "持续热榜，NousResearch 出品，The agent that grows with you",
-      "stars": 202065,
+      "stars": 203084,
       "desc": "NousResearch 出品：The agent that grows with you。随使用持续成长进化的 AI agent。",
       "reason": "持续热榜。「与用户共同成长」的 agent 设计理念是当前 AI 产品体验设计的重要研究方向，NousResearch 作为顶级 AI 研究机构的开源产品，代表 agent 设计的前沿探索。",
       "usage": "开源使用；⚠️ AI 研究框架，非直接设计工具，relevant=false；设计师视角：「与用户共同成长」的 agent 交互设计哲学值得研究——AI agent 应该保持什么样的一致性/可预期性/自主成长边界。",
@@ -170,12 +192,12 @@
       "features": ""
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "no-mistakes",
       "owner": "kunchenguid",
       "source": "github",
       "installs": "1,909 stars (+182 今日，Go，今日新面孔，git push no-mistakes)",
-      "stars": 2141,
+      "stars": 3037,
       "desc": "git push no-mistakes：Go 工具，让 git push 变成「无失误操作」。CI/预检 + 错误拦截机制，防止错误代码进入仓库。简单直接，解决一个具体工程痛点。",
       "reason": "今日新面孔 +182，1.9k stars。工程工具但值得关注其「命名即愿景」的产品思维——把一个操作的理想状态写入工具名称本身，是产品命名的优秀案例。",
       "usage": "Go 工具，本地安装；⚠️ Git 工程工具，非设计专用，relevant=false；设计师视角：工具名即产品承诺（「git push no-mistakes」）——用否定句建立信任，比任何功能描述都有力，是产品命名与品牌定位的参考案例。",
@@ -192,12 +214,12 @@
       "features": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "orca",
       "owner": "stablyai",
       "source": "github",
       "installs": "6,656 stars (+387 今日，TypeScript，今日新面孔，并行 agentic 开发环境)",
-      "stars": 6808,
+      "stars": 7457,
       "desc": "Stablyai 出品的并行 Agentic Development Environment（ADE）：让多个 AI coding agent 同时工作在同一 codebase，任务协调 + 结果合并。TypeScript，面向 2026 年多 agent 并行工程范式。",
       "reason": "今日新面孔 +387，6.6k stars。「多 agent 并行同一 codebase」是 AI 工程从「单 agent 辅助」向「agent 团队协作」演进的关键技术，代表 AI coding 工作流的下一个阶段。",
       "usage": "TypeScript 本地安装；⚠️ AI coding 开发者工具，非直接设计工具，relevant=false；设计师视角：「多 agent 并行 + 任务协调 + 结果合并」的工程架构是未来 AI 辅助设计系统（多 agent 分别负责 tokenization/component gen/QA）的技术参考。",
@@ -220,7 +242,21 @@
       "features": "<table>\n<tr>\n<td width=\"50%\" valign=\"middle\">"
     },
     {
-      "rank": 9,
+      "rank": 10,
+      "name": "Locofy-design-to-code-agents",
+      "owner": "locofy-ai",
+      "source": "producthunt",
+      "installs": "Product Hunt 本周上线（2026-06-18），91 upvotes，PH 本周 #16，设计→代码 AI agent，Figma + Penpot + Claude Code + Cursor 集成",
+      "stars": 0,
+      "desc": "Figma/Penpot 设计稿与 Cursor/Claude Code 之间的 agentic 前端层：用专有 Large Design Models（LDM）将 Figma 设计精确转换为结构化、响应式、像素级前端代码，让 AI coding agent 获得可靠的设计精准基础。支持 CLI、Cursor、Claude Code、MCP 模式。有限免费计划。",
+      "reason": "Product Hunt 本周新品，91 upvotes PH #16。「设计画布 → AI coding agent」的缺失桥接工具——解决了 Cursor/Claude 看不懂 Figma 结构的核心痛点。LDM（Large Design Model）首次公开亮相，标志着专用于设计系统理解的 AI 模型正在形成独立赛道。",
+      "usage": "SaaS + CLI，有限免费计划（LDM tokens 按量计费）；⚠️ 非完全免费（LDM tokens 用尽需付费），relevant=false；设计师视角：「AI coding agent 无法理解 Figma layout constraint」这个问题第一次有专用 AI 模型攻克，Figma MCP + LDM 的组合代表 design-to-code 工作流的技术演进方向。",
+      "tag": "design",
+      "category": "Design to Code Agent",
+      "relevant": false
+    },
+    {
+      "rank": 11,
       "name": "OpenArt-Director",
       "owner": "openart",
       "source": "producthunt",
@@ -234,7 +270,7 @@
       "relevant": false
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "Crewdle-AI",
       "owner": "crewdle",
       "source": "producthunt",
@@ -248,7 +284,7 @@
       "relevant": false
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Propane",
       "owner": "producthunt",
       "source": "producthunt",
@@ -262,12 +298,12 @@
       "relevant": false
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "penpot",
       "owner": "penpot",
       "source": "github",
       "installs": "52,762 stars (+730 近期，Clojure，持续热榜，Figma 开源替代)",
-      "stars": 53502,
+      "stars": 53686,
       "desc": "开源设计与代码协作工具：Figma 的开源替代，支持矢量编辑、原型制作、设计系统管理、设计+代码协作。官方云端 penpot.app 免费版可直接使用；或 Docker 自托管。MPL 2.0 开源。",
       "reason": "持续热榜，52.7k stars。开源设计工具生态加速成熟，设计师+开发者双群体持续迁移。",
       "usage": "官方云端 penpot.app 完全免费；或 Docker 自托管；浏览器直接使用；⭐ relevant=true：直接可用 + 完全免费 + macOS/Linux 浏览器 + 直接设计工具（矢量/原型/设计系统全覆盖）。",
@@ -290,12 +326,12 @@
       "features": ""
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "hyperframes",
       "owner": "heygen-com",
       "source": "github",
       "installs": "29,852 stars，TypeScript，HeyGen 出品，Apache 2.0，持续热榜",
-      "stars": 31051,
+      "stars": 31338,
       "desc": "HeyGen 出品开源视频渲染框架：写 HTML + CSS + GSAP/Lottie/Three.js 动画 → 渲染成确定性 MP4 视频。agent-first 设计，ships 专用 skills 支持 Claude Code/Cursor/Codex/Gemini CLI。frame.md：把 DESIGN.md 翻译成「为摄像机设计」的视频规范。CLI 本地运行 + AWS Lambda 分布式渲染。Apache 2.0，无 per-render 费用。",
       "reason": "持续热榜，29.8k stars。「写 HTML 渲染视频 + AI agent 直接操作」对设计师做 product demo/feature announcement 视频极具价值：设计师已懂 HTML/CSS，无需学视频工具，agent 可从 design.md 直接出视频。",
       "usage": "npx hyperframes init my-video；需要 Node.js 22+（已有）+ FFmpeg（apt install ffmpeg 免费）；完全免费 Apache 2.0；⭐ relevant=true：npx 可安装 + 完全免费 + macOS/Linux 本地运行 + 设计师直接场景（product demo 视频/feature announcement/社媒视频，HTML/CSS 即设计稿直接出视频）。",
@@ -318,7 +354,7 @@
       "features": ""
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Framer-Agents",
       "owner": "framer",
       "source": "industry-news",

@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-26",
+    "items": [
+      {
+        "title": "AI 时代的 Figma 往哪走：Config 2026 背后的生死抉择",
+        "summary": "Config 2026 上，Figma 正面回应 AI 带来的最大威胁：当 vibe coding 让工程师直接在 IDE 里生成和审查 UI，当产品团队可以跳过设计文件直接交付代码，Figma 的协作画布还有多少存在的理由？作者分析了三个应对动作：Code Layers（把代码拉进画布）、Figma Motion（在文件内处理动画时序）、AI Agent 工作流集成。真正的挑战不是工具竞争，而是 Figma 的盈利模型——依赖尽可能多的人打开文件的 seat 销售逻辑，正在被设计决策发生在 IDE 里的新现实侵蚀。Config 2026 揭示的不是 Figma 的反击，而是它对自身商业模式脆弱性的公开承认。对于每天用 Figma 工作的设计师来说，这是一个让人不安但必须读的警示：你工作的重心正在被重新定义。",
+        "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+        "source": "UX Collective",
+        "why": "Config 2026 刚结束，这是目前最犀利的后续分析——不是介绍新功能，而是剖析 Figma 的生存焦虑。直接关系到 Product Designer 的日常工具和职业路径。",
+        "type": "design-industry"
+      },
+      {
+        "title": "GPT-5.6 被特朗普政府叫停：AI 发布正在变成政治博弈",
+        "summary": "据 The Information 报道，美国政府以安全审查为由要求 OpenAI 延迟 GPT-5.6 发布，只允许少量企业客户进入预览，且每个客户的访问需由联邦政府逐一审批。Sam Altman 在全员会上亲自宣布了这一安排。这是 AI 前沿模型发布首次被政府直接介入管控的明确案例——不是事后监管，而是发布前的预审制。对 AI 产品团队意味着：未来旗舰模型的上线时间表将越来越不可控，能力跃升的节奏会因政治因素产生不确定性。设计师和 PM 在规划 AI 功能 roadmap 时，必须把模型可及性纳入风险变量。这不是孤例，而是一个新常态的开始。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+        "source": "The Verge",
+        "why": "AI 产品的外部变量正在扩大：模型发布不再只取决于技术就绪，还取决于政治时机。这对 AI 产品 roadmap 的不确定性管理有直接影响，PM/设计师必须了解。",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "Hybrid 模型到底在哪些 token 上更厉害？AllenAI 的实验结论",
+        "summary": "Hugging Face 上线了 AllenAI 的研究博客，深入分析 Hybrid 语言模型（结合 Transformer attention 和 state-space 层）在 token 预测上的差异表现。核心发现：hybrid 模型在处理需要跨长距离精确回忆特定信息的 token（如专有名词、代码变量名、罕见词）时显著优于纯 Transformer，而在短程依赖任务上两者相当。这一发现对 AI 产品设计有直接影响——如果你的产品依赖 AI 处理长文档、代码库或包含大量专有名词的企业内容，hybrid 架构的模型可能会带来体验差异。了解模型架构的能力边界，是设计师在和工程师讨论模型选型时能提出有意义问题的前提。",
+        "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+        "source": "Hugging Face Blog",
+        "why": "不是要让设计师变成 ML 工程师，而是理解模型架构差异如何影响产品体验——这是 AI-era designer 和工程团队高质量对话的基础素养。",
+        "type": "ai-research",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F1-AlOdxpdaxe6a5BXuU7.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-25",
     "items": [
       {
