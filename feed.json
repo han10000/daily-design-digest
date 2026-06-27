@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-27",
+    "items": [
+      {
+        "title": "Discovery 不是一个阶段，而是一种能力",
+        "summary": "AI 正在压缩从想法到交付的距离——但速度加快并不意味着判断力在提升。这篇文章提出了一个关键区分：大多数 product discovery 实践关注的是「短期游戏」（产出验证过的 output），却从不审视那些 19 个关键决策时刻里的推理质量——问题怎么被框定、假设怎么被检验、证据意味着什么、该继续还是停下来。作者 Gale Robins 介绍了「发现判断框架」（Discovery Judgment Framework），将 discovery 拆解为四层结构：人的基础、结构化流程、判断层、AI 协作层。其中 AI 只能加速执行，无法触碰判断层。这对 AI 加速开发背景下的 product designer 尤其有启发——当 vibe coding 让原型一秒诞生，真正稀缺的是在对的时刻做出对的判断。",
+        "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
+        "source": "UX Collective",
+        "why": "直接命中当下最大的 design 焦虑：AI 让执行变快，但判断力不会自动提升。提出的框架有操作性，不是纯理论。",
+        "type": "product-thinking"
+      },
+      {
+        "title": "让 UX 数据说话的第一步：在动手前先建 baseline",
+        "summary": "NNGroup 这篇文章聚焦一个极其常见但被忽视的错误：UX 团队因为赶时间跳过了前期基线数据采集，导致改版后无法证明改善了什么。文章定义了 baseline 的含义（项目启动前对产品当前状态的初始基准测量），并给出了建立 baseline 的最佳实践：选择与真实目标对齐的指标（而非虚荣指标）、在研究阶段顺带采集、让 baseline 成为团队习惯而非一次性任务。核心论点是：没有「before」，任何「after」数据都失去意义——67% 的任务完成率是好是坏，完全取决于对比基准是多少。在 AI 工具让迭代速度加倍的今天，这个习惯尤其值得被建立和坚守，否则设计团队永远在「做了很多但说不清价值」的处境里打转。",
+        "url": "https://www.nngroup.com/articles/establishing-baselines/",
+        "source": "Nielsen Norman Group",
+        "why": "实战型文章，解决的是「如何证明设计价值」这个 PM 和 designer 都头疼的问题。方法可直接落地。",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Baseline_Graphic_for_Baseline_Article-1.png"
+      },
+      {
+        "title": "OpenAI 在监管压力下突然发布 GPT-5.6：三个新模型名字叫 Sol、Terra、Luna",
+        "summary": "就在 OpenAI 宣布「应 Trump 政府要求推迟发布」的不到 24 小时后，GPT-5.6 系列就以「有限预览」形式上线了。三个档位：旗舰级 Sol、中量级 Terra（面向高吞吐工作）、轻量级 Luna。与此同时，Anthropic 的 Mythos 5（即 Claude 级别的下一代模型）也在漫长的政府谈判后获得有条件解禁——但面向公众的 Fable 5 仍无时间表。这场 AI 监管拉锯战正在重塑大模型的发布节奏：政府介入、军事授权、分级解禁，逐渐成为顶级 AI 模型商业化的新常态。对 designer 来说，这意味着你正在用的工具背后的能力边界，越来越受政治因素影响。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+        "source": "The Verge AI",
+        "why": "行业大事件。GPT-5.6 发了，AI 监管成为产品发布的新变量。设计师需要了解自己工具的能力边界正在如何被外部因素重塑。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/kTm2Q30DT9sCOWpyFewTes78TWbe7s-fy-w68LlL6V0.jpeg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-26",
     "items": [
       {
@@ -601,8 +632,7 @@
         "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
         "source": "The Verge",
         "why": "WWDC 即将开幕，这篇分析帮你在发布会前建立正确的观察框架：Apple 的 AI 策略不是「落后」，而是一种克制的差异化。对在苹果生态上做设计的人尤其重要。",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/wwdc_2024.jpg?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
+        "type": "行业动态"
       },
       {
         "title": "Meta 自己造了一个 AI 生成点击党内容流",
