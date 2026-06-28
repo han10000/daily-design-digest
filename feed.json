@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-28",
+    "items": [
+      {
+        "title": "Claude Code 的设计配置层：让 AI 编码工具理解你的 design workflow",
+        "summary": "Claude Code 是一个 agent，而 agent 的质量取决于你如何配置它。这篇文章提出了设计栈 design stack 的概念——类比工程师的技术栈，设计师也应该在开始用 Claude Code 之前，提前把 brief、设计知识和工具上下文交给 agent。开箱即用的 Claude Code 默认偏向工程思维，但通过一次性配置设计专属的 context，可以让它理解你的组件命名规范、设计系统、响应式规则，甚至审美偏好，从而在整个 session 内持续产出符合设计语言的代码。作者给出了一套可复用的配置流程：把 design brief 结构化写进 CLAUDE.md 让 agent 知道项目背景；把设计系统的 token、组件列表作为知识注入；再配合 Figma MCP 等工具打通设计稿到代码的链路。这对设计师开始动手写代码这一趋势极具参考价值，是一次性投入、长期受益的 setup 策略。",
+        "url": "https://uxdesign.cc/why-your-claude-code-needs-a-design-stack-46dccbced6e5",
+        "source": "UX Collective",
+        "why": "叉叉本人就在用 Claude Code，这篇直接给出了设计师视角的配置框架，可以今天就用上。把 design stack 概念带入日常 workflow 是实质性的效率升级。",
+        "type": "workflow"
+      },
+      {
+        "title": "调研数据里的僵尸：如何识别并剔除 Bot 污染的问卷回复",
+        "summary": "随着 AI 工具的普及，用自动化程序刷问卷的 bot 越来越难被识别，它们不仅能通过注意力检查题，还能生成貌似真实的开放性文本。NNGroup 这篇文章系统整理了 bot 回复的五类典型特征：极短或极均匀的完成时间（真人会有差异，bot 常聚集在某个区间）；IP 地址异常集中；设备和浏览器指纹高度重复；直题答案呈规律性分布；开放题文本风格机械或与选项答案逻辑脱节。文章还强调：单一信号不足以判定，需要跨维度综合评估，并记录清理决策的依据以保证研究可复现性。在大量用 AI 生成的问卷回复开始进入企业研究样本的今天，这套识别框架对保证用研数据质量至关重要，否则你的 insight 可能建立在机器人的意见上。",
+        "url": "https://www.nngroup.com/articles/survey-bots/",
+        "source": "Nielsen Norman Group",
+        "why": "用研质量直接影响设计决策。AI 时代 bot 污染问卷已成常态，这篇给出了可操作的清洗清单，做用研的设计师必读。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Kick_the_Bots_Out_of_Your_Survey_Data-1_Uu4oGgN.png"
+      },
+      {
+        "title": "AI 军备竞赛正在让你的 MacBook 和手机变贵：RAM 危机背后的结构性问题",
+        "summary": "苹果最新一轮涨价背后，是一场影响所有消费电子的结构性危机。内存芯片厂商（如美光）正把产能大规模迁移到 AI 数据中心使用的 HBM 内存，导致消费级 DDR5 供应紧张、价格飙升。MacBook Pro 涨了 300 美元，iPad Air 涨了 150 美元，Xbox 涨了近 25%。OpenAI、Google、微软等 AI 公司的天价采购把 RAM 价格抬到消费品市场无法承受的水平。这不是短期供应链波动，多位经济学教授指出这种短缺可能持续数年，因为同一块芯片放在 AI 服务器里的利润远大于放在消费设备里。这意味着：硬件成本上升，用户换机周期延长，产品需要在更老的设备上保持良好体验，这对 performance budget 和渐进增强设计策略有直接影响。",
+        "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+        "source": "The Verge",
+        "why": "AI 基础设施的成本正在向终端用户传导。了解这个趋势帮助设计师预判用户的设备现状，在 performance 和兼容性上做更务实的决策。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_ACastro_apple_0003_a30fb2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-27",
     "items": [
       {
@@ -632,7 +663,8 @@
         "url": "https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini",
         "source": "The Verge",
         "why": "WWDC 即将开幕，这篇分析帮你在发布会前建立正确的观察框架：Apple 的 AI 策略不是「落后」，而是一种克制的差异化。对在苹果生态上做设计的人尤其重要。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/wwdc_2024.jpg?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
       },
       {
         "title": "Meta 自己造了一个 AI 生成点击党内容流",
