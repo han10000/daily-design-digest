@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-06-29",
+    "items": [
+      {
+        "title": "Hypertokens：设计系统与 AI Agent 之间那层缺失的语义桥梁",
+        "summary": "Jake Albaugh（Figma）在 Config 2026 上提出了「Hypertoken」概念——填补设计 token（单一决策）和组件（完整组装）之间长期被忽视的空白层。过去这个空白靠设计师「用眼睛抹平」，但当 AI agent 开始直接读取设计文件时，偏差就不再是免费的了：agent 不会平滑处理任何东西，它只会精确按找到的内容构建，猜测其余的部分。Hypertoken 的核心思路是让设计师的「意图」保持人工编写，而不是让机器去猜——一个 heading 的排版决策不应该分散在 CSS、Figma 和 iOS 三个地方各自漂移。文章同时追问：这难道不就是 composite token？我们真的有单一事实来源吗？这是 Figma 官方正在探索的概念，尚未发布，但对任何在用 AI 生成代码或运行设计系统的团队来说，值得提前思考。",
+        "url": "https://uxdesign.cc/what-are-hypertokens-the-layer-between-tokens-and-components-rebuilt-for-agents-962dbe93e0c4",
+        "source": "UX Collective",
+        "why": "设计系统 × AI agent 的交叉点，直接影响 vibe coding 时代下设计决策如何被机器正确理解。Figma Config 2026 新概念，设计师可以早于工程师掌握这个框架。",
+        "type": "design-systems"
+      },
+      {
+        "title": "当职业进化速度超过导师的经验积累速度",
+        "summary": "作者花了整个职业生涯在导师制的两侧——从被指导到指导他人，再到作为教授培养学生。他发现 AI 引入了一个根本性的断裂：传统导师制的基础假设是「职业进化比职业生涯慢」，所以经验可以积累并传递。但现在，一位有 20 年经验的设计师，可能只有 2-3 年的 AI 原生工作经验——和初级设计师差不多。文章引用哲学家 Polanyi 的「默会知识」（tacit knowledge）论证：AI 可以模仿专业输出，却无法获得产生它的生命经验。真正有价值的不是「如何执行」，而是「为什么这个方案更弱」——这个判断力无法外包给 AI。对设计师的启示：寻找导师时，不再是找技术最深的人，而是找「成功穿越过多次技术革命而没有教条化或盲目追新」的人。对导师来说：停止教执行，开始教如何识别 AI 输出的弱点。",
+        "url": "https://uxdesign.cc/when-the-profession-outruns-the-mentor-5f40596e17ca",
+        "source": "UX Collective",
+        "why": "直击 AI 时代设计师成长路径的核心焦虑：经验是否还值钱？判断力从哪里来？对正在思考如何在 AI 协作中保持设计价值的人，这篇文章给出了一个清醒的框架。",
+        "type": "career"
+      },
+      {
+        "title": "ChatGPT 聊天记录首次被用作法庭证据，放火案被告的 AI 对话成关键证物",
+        "summary": "2025 年元旦，Jonathan Rinderknecht 涉嫌引发了洛杉矶史上最惨烈的帕利塞兹山火之一。检察官在庭审中不仅使用了 iPhone 位置数据和监控录像，还提交了他的 ChatGPT 对话记录作为证据：他曾让 ChatGPT 生成火焰图片，询问「我为什么总是这么愤怒」，以及向 AI 倾诉对富人阶层的不满，并问 AI「如果是别人点的火，自己会不会被追责」。这是 AI 聊天记录作为法庭证据出现的早期案例之一，最终以陪审团无法达成一致裁决告终。对产品设计师的启示：用户把 AI 当成「没有记忆的倾诉对象」——但记录一直都在。如何设计 AI 对话的隐私预期和数据透明度，是一个被严重低估的 UX 问题。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+        "source": "The Verge",
+        "why": "AI 隐私设计的极端案例。用户对 AI 对话「私密性」的心理预期 vs 实际数据留存——这个认知差距是产品设计者需要主动解决的伦理问题，不能等法律逼着来。",
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0%2C9.1603455154706%2C100%2C81.679308969059&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-06-28",
     "items": [
       {
