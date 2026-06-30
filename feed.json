@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-30",
+    "items": [
+      {
+        "title": "你在 AI 时代真正的价值不是用工具，而是判断力",
+        "summary": "2025 年大批公司裁员引入 AI，2026 年不少又在悄悄反悔——token 成本加上失控的用量，算下来有时比留住员工更贵。这篇文章用 Thermomix 智能料理机做类比：机器能做所有菜，但无法定义菜单背后的「灵魂」。设计师在 AI 时代的真实护城河，不是会用哪个工具，而是品味、判断力和对业务的策略理解——这些东西模型复制不了。作者指出，当 AI 把执行成本压到接近零，「什么值得做」的判断反而变得稀缺且昂贵。越来越多公司正在把「把人换成 AI 节省的成本」重新花在「找得到能判断 AI 该干什么的人」上。这是个反直觉但日益清晰的现实：AI 普及之后，设计师的软技能比工具技能更值钱。",
+        "url": "https://uxdesign.cc/youre-missing-the-point-this-is-your-real-value-in-tech-companies-f56d6d96b54b",
+        "source": "UX Collective",
+        "why": "当大家都在焦虑「AI 会不会取代设计师」，这篇文章给了一个清晰的反向视角：判断力才是护城河。跟叉叉在微软做设计的处境直接相关。",
+        "type": "思维框架"
+      },
+      {
+        "title": "Tidal 宣布：AI 生成音乐不再分钱，7 月起强制标注",
+        "summary": "Tidal 发布了针对 AI 生成音乐的完整政策：即日起，平台检测到的 100% AI 生成曲目停止发放版税；7 月 15 日起将为这类内容加标注 icon。Tidal 还明确表示不会独自承担识别责任，将对内容分发商的标注义务开始执法。更进一步，平台计划扩展到「大量使用 AI」的曲目，并将下架与欺诈性流量相关的 AI 内容。这是继 Spotify 绿勾验证、Deezer AI 检测工具之后，流媒体平台第一个把「不分钱」和「强制标注」捆绑落地的案例。对产品设计师来说，这场政策博弈背后的核心设计问题是：当 AI 内容和人类内容并存，平台 UI 应该如何做可信度分层？标注图标背后的整套感知设计值得拆解研究。",
+        "url": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+        "source": "The Verge",
+        "why": "AI 内容标注是未来 1-2 年每个平台都要面对的 UX 问题。Tidal 这个案例是目前最具体的落地参考，政策逻辑和设计含义都值得研究。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "调研数据里的幽灵用户：如何识别并清除 survey bot 污染",
+        "summary": "当你通过社交媒体或公开链接发出问卷，有多少回答来自真实用户？NNGroup 这篇文章专门拆解「survey bot」现象——自动化程序或使用工具的人批量填写问卷、混入数据集。问题在于，bot 回答有时看起来和真实答案几乎一样，不经清洗就直接分析会让结论跑偏。文章系统介绍了识别 bot 响应的几类信号：填写速度异常、开放题答案的语言模式、IP 和设备指纹、以及传统的「蜜罐题」等方法。在 AI 工具越来越容易生成逼真文字回答的今天，这个问题比以前更严峻。对于在微软做设计研究的叉叉，大规模用户调研是常见场景，这套清洗方法直接可用。",
+        "url": "https://www.nngroup.com/articles/survey-bots/",
+        "source": "Nielsen Norman Group",
+        "why": "研究方法论里的实操问题，在 AI 生成内容泛滥的今天被严重低估。做大规模问卷调研的设计师都该读，直接可落地。",
+        "type": "研究方法",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Kick_the_Bots_Out_of_Your_Survey_Data-1_Uu4oGgN.png"
+      }
+    ]
+  },
+  {
     "date": "2026-06-29",
     "items": [
       {
