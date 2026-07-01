@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-07-01",
+    "items": [
+      {
+        "title": "39 条设计 AI 交互的原则：适度依赖才是核心问题",
+        "summary": "AI 界面设计最难的不是视觉，是帮用户「恰当地依赖」AI——既不过度信任，也不无谓怀疑。作者 Taras Bakusevych 综合了 Microsoft 18 条人机交互指南、Google PAIR Guidebook、Horvitz 混合主动系统理论，提炼出 9 大维度共 39 条原则：概率性基础（设计要面对不确定性）、预期设定（提前说清楚 AI 能做什么/不能做什么）、校准信任（让用户感知的可靠性与系统实际可靠性吻合）、透明度（让推理过程可查）、控制与代理（接受/拒绝/撤销/覆盖都要顺手）、优雅失败（出错要可恢复）、共同创造（AI 输出是草稿，不是判决）、负责任的自主（按风险限制自动操作的边界）、持续依赖（治理质量漂移和产权归属）。特别值得注意的是「概率性基础」这一章：同样的输入会产生不同输出，这不是 bug 而是 AI 的本质特征，界面设计必须从根本上接受并呈现这种不确定性。",
+        "url": "https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe",
+        "source": "UX Collective",
+        "why": "正在设计 AI 产品的设计师必读框架。不是泛泛的 AI 设计建议，而是有研究来源、有操作层面、能直接用于 design critique 的 39 条原则。尤其是「校准信任」和「负责任的自主」两章，对当前 AI agent 界面设计极有针对性。",
+        "type": "framework"
+      },
+      {
+        "title": "无障碍不是功能点，是工程基础设施——AI 时代的警示",
+        "summary": "Smashing Magazine 这篇文章以一个具体场景开头：一个用 AI 助手半天搭好的结账流程，两周后被客服投诉——盲人用户用屏幕阅读器根本无法完成支付，因为「立即支付」按钮是个没有 role 属性的 div。这不是偶发的疏漏，而是 AI 辅助开发带来的系统性风险。文章的核心论点是：无障碍应该被当作「运营能力」而非功能或合规项，和隐私保护、安全性、可靠性并列对待。数据很有力：2026 年 WebAIM Million 报告显示 95.9% 的页面存在可检测的 WCAG 违规，平均每页 56.1 处错误，页面元素数量一年内激增 20%，部分原因正是 AI 辅助开发和「vibe coding」的爆炸式普及。一次性审计早已跟不上发布节奏，无障碍需要像监控、告警一样持续运行。",
+        "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+        "source": "Smashing Magazine",
+        "why": "Vibe coding 让 UI 生成速度飞起来了，但无障碍问题也在同步累积。这篇文章帮设计师和 PM 建立一个重要认知：在 AI 时代，「能跑起来」和「所有人都能用」之间的差距正在变大，需要在流程层面而非 QA 层面解决。",
+        "type": "perspective",
+        "image": "https://files.smashing.media/articles/why-accessibility-operational-capability-not-feature/why-accessibility-operational-capability-not-feature.jpg"
+      },
+      {
+        "title": "Google NotebookLM 新功能：把你的研究笔记剪成 TikTok 风格短视频",
+        "summary": "Google NotebookLM 上线新功能，可以将用户上传的文档和笔记自动生成 60 秒竖屏 AI 短视频，界面风格类似 TikTok。该功能已向 Google AI Ultra 和 Pro 订阅用户开放。这是继「AI 播客对话」功能之后，NotebookLM 在内容格式输出上的又一次探索——用户不再只是「读」研究资料，而可以「刷」AI 重新叙述过的内容。从产品角度看，这代表了一种信息消费模式的迁移尝试：将结构化知识转化为符合当代注意力习惯的短内容格式。这对设计师来说也是一个值得观察的 UX 信号：当 AI 开始主动重构信息呈现形式，「阅读体验设计」的边界在向哪里移动？",
+        "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+        "source": "The Verge",
+        "why": "NotebookLM 每一次新功能都在试验「AI 改变信息消费形式」的新可能。这次的 TikTok 式短视频是产品形态创新，更是对「用户如何接受 AI 生成内容」的一次实验，值得跟踪观察用户反馈。",
+        "type": "product-move",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/notebooklm-shorts.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
+      }
+    ]
+  },
+  {
     "date": "2026-06-30",
     "items": [
       {
