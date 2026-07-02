@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-02",
+    "items": [
+      {
+        "title": "AI 时代，设计师必须改变什么？一场 Config 前夕的对谈纪要",
+        "summary": "这篇文章来自 Medium 产品设计团队 Head，在 Figma Config 前夕一场设计师圆桌讨论后整理而成。作者和来自不同公司的设计师聊到：AI 工具已经不再是「要不要用」的问题，而是「怎么用」——而对设计这个职能来说，答案仍然模糊。文章重点讨论了几个维度：设计师的角色是否正在被稀释、AI 如何改变团队里的沟通方式、以及设计决策的权威性来自哪里。作者认为，AI 加速了「执行」但无法替代「判断力」——真正有价值的设计师，是那些能在 AI 生成大量方案之后，知道哪个方向值得推进的人。这场 Config 对话也印证了一个共识：没有一场演讲不提到 AI workflow，说明整个行业正在集体摸索中。",
+        "url": "https://uxdesign.cc/how-designers-need-to-change-for-an-ai-powered-world-b51c3c195954",
+        "source": "UX Collective",
+        "why": "Config 是设计行业年度最重要的聚会之一，这篇文章直接来自那个现场的讨论，代表业内 leading designers 对 AI 影响的一手感受，而不是泛泛而谈——对正在思考自己在 AI 时代定位的设计师很有参照价值。",
+        "type": "perspective"
+      },
+      {
+        "title": "产品团队里潜伏的四种「天敌」：为什么好想法总是死在执行前",
+        "summary": "作者用生态捕食关系做隐喻，点出了四种悄悄破坏产品团队协作的模式：「局部优化者」把自己的 OKR 排在产品整体之前；「共识幻觉」让团队误以为对齐了但其实没有；「假性忙碌」用执行量掩盖方向不清；以及「恐惧驱动的决策」在关键节点用规避风险代替了真正的判断。文章不是在批评人，而是在描述结构性陷阱——这些问题在任何规模的团队里都会出现，只是以不同的伪装形式存在。对设计师来说，第一个和第四个最值得关注：设计团队经常在「用户体验」和「业务指标」之间被迫选边，而这两个天敌恰好会让这个矛盾更难化解。",
+        "url": "https://uxdesign.cc/the-4-predators-sabotaging-your-product-team-3dce31215ff4",
+        "source": "UX Collective",
+        "why": "产品团队协作是 designer 日常最真实的摩擦面，这篇文章给出了有具体形状的描述，不是「沟通要好」这类虚话——可以直接拿来对照自己团队现状做诊断。",
+        "type": "strategy"
+      },
+      {
+        "title": "实时语音 AI 的新基准：Gemma 4 + Cerebras 把延迟压到像真人对话",
+        "summary": "Hugging Face 和 Cerebras 联合演示了一个开源语音对话 pipeline，架构是经典的级联式：Nvidia Parakeet 做语音识别 → Gemma 4 31B 做推理（跑在 Cerebras 硬件上）→ Qwen3TTS 做语音合成。关键突破在于端到端延迟：之前语音 AI 的体验瓶颈往往不是平均延迟，而是 P95 偶尔出现的几秒停顿——这次 Cerebras 的推理速度把长尾延迟大幅压缩，让对话流畅到「感觉不像在等 AI」。这个 pipeline 已经跑在超过 9000 台 Reachy Mini 机器人上。整个 stack 完全开源可替换，每层都可以被替换成其他模型。对产品设计师来说，这意味着「语音作为主交互模式」的可行性阈值正在被重写。",
+        "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+        "source": "Hugging Face Blog",
+        "why": "语音交互的 UX 上限一直被延迟卡着——这篇文章标志着这个瓶颈正在被技术突破。对在想「什么时候语音才能成为主流 UI」这个问题的设计师来说，这是一个需要更新判断的信号。",
+        "type": "tech-signal",
+        "image": "https://huggingface.co/blog/assets/cerebras-gemma4-voice-ai/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-01",
     "items": [
       {
