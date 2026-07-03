@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-03",
+    "items": [
+      {
+        "title": "AI 性格不是模型问题，是设计问题",
+        "summary": "两个基于同一底层模型的 AI 助手，行为表现可以截然不同——一个温暖模糊，一个冷静直接；一个做事先问，一个做完再告知。这些差异没有任何人主动设计，它们从训练和强化中自行涌现，却深刻影响着用户对产品的感知。作者 Slava Polonski 指出：性格是 AI 产品里最被忽视的设计维度。没有哪个 design review 会讨论助手该有多常用 'it depends'，或应该多主动地代替用户决策——但这些细节在用户开口说第一句话时就已经塑造了整个体验。文章呼吁设计师把 AI 性格当作和按钮状态、信息架构同等重要的设计决策：我们可以有意识地设计它，也可以继续让它自行生长，但后者的后果是没人负责。这对做 AI 产品的 designer 是一个需要立刻认领的新领地。",
+        "url": "https://uxdesign.cc/ai-personality-is-a-design-problem-58fbc7926a3d",
+        "source": "UX Collective",
+        "why": "AI 产品的性格设计是目前行业盲区，叉叉做 AI 产品设计时这个维度很容易被跳过，这篇文章把它提到了战略高度",
+        "type": "深度观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*PLXV6BS03y2Dw1ZJnVkKww.png"
+      },
+      {
+        "title": "别再把所有 AI 功能塞进聊天框——交互形态要匹配用户意图",
+        "summary": "设计圈正在经历会话隧道视野：因为 LLM 是对话数据训练出来的，所有 AI 能力都被默认塞进聊天气泡。这篇 Smashing Magazine 长文（22 min read）用一个经典场景拆解这个问题：一名赶时间的旅客在嘈杂的机场，单手拖行李单手端咖啡，打开航空 app 想问登机口——系统却要他停下来用小键盘输入订单号，然后返回一大段解释延误原因的文字，登机口号码埋在最底部。智能但失败。文章提出两个实用工具：Task Audit 和 Input/Output Alignment Matrix，帮助团队在设计阶段就判断：当前场景的物理和认知负荷是什么、该用语音还是触控还是视觉输出、信息密度应该高还是低。核心论点：界面应该适配用户，而不是让用户适配界面——这在 AI 时代变得更加关键，因为我们有了更多交互模态可选，却还在偷懒用同一个聊天框搞定所有场景。",
+        "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+        "source": "Smashing Magazine",
+        "why": "直接可用的框架，Task Audit + Input/Output Matrix 可以带进下次 AI 功能设计的早期决策，非常适合叉叉现在做的产品工作",
+        "type": "实战方法论",
+        "image": "https://files.smashing.media/articles/matching-ai-modality-user-intent-designing-right-interface/matching-ai-modality-user-intent-designing-right-interface.jpg"
+      },
+      {
+        "title": "OpenAI 提议给特朗普政府 5% 股权，用政治杠杆换 AI 信任",
+        "summary": "OpenAI 向美国政府浮出一个想法：给联邦政府 5% 股权，换取政治支持和公众对 AI 的信任背书。以 OpenAI 最新一轮 8520 亿美元估值计算，5% 约值 426 亿美元。Sam Altman 的逻辑是：给公众直接的经济利益，是分享 AI 红利最好的方式——也是在舆论对 AI 反弹加剧背景下的主动公关。这一动作折射出一个值得关注的信号：顶级 AI 公司已经开始把政治合法性视为和技术能力同等重要的战略资产。对于在大公司做 AI 产品的设计师，理解 AI 监管走向的宏观势力是必要的背景知识——它会影响产品能做什么、不能做什么、以及公众信任如何传导到产品设计决策里。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+        "source": "The Verge",
+        "why": "AI 行业政治生态正在快速变化，这类宏观动向会影响大公司 AI 产品的边界和节奏，叉叉在微软做 AI 产品需要这层背景",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "items": [
       {
@@ -8,7 +40,8 @@
         "url": "https://uxdesign.cc/how-designers-need-to-change-for-an-ai-powered-world-b51c3c195954",
         "source": "UX Collective",
         "why": "Config 是设计行业年度最重要的聚会之一，这篇文章直接来自那个现场的讨论，代表业内 leading designers 对 AI 影响的一手感受，而不是泛泛而谈——对正在思考自己在 AI 时代定位的设计师很有参照价值。",
-        "type": "perspective"
+        "type": "perspective",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*_sMC-F4IUk7PSB9V.png"
       },
       {
         "title": "产品团队里潜伏的四种「天敌」：为什么好想法总是死在执行前",
@@ -16,7 +49,8 @@
         "url": "https://uxdesign.cc/the-4-predators-sabotaging-your-product-team-3dce31215ff4",
         "source": "UX Collective",
         "why": "产品团队协作是 designer 日常最真实的摩擦面，这篇文章给出了有具体形状的描述，不是「沟通要好」这类虚话——可以直接拿来对照自己团队现状做诊断。",
-        "type": "strategy"
+        "type": "strategy",
+        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.05/0*pEXq4CfDZv6eyM6N.png"
       },
       {
         "title": "实时语音 AI 的新基准：Gemma 4 + Cerebras 把延迟压到像真人对话",
@@ -38,7 +72,8 @@
         "url": "https://uxdesign.cc/39-principles-for-designing-human-ai-interaction-87be5fabdbbe",
         "source": "UX Collective",
         "why": "正在设计 AI 产品的设计师必读框架。不是泛泛的 AI 设计建议，而是有研究来源、有操作层面、能直接用于 design critique 的 39 条原则。尤其是「校准信任」和「负责任的自主」两章，对当前 AI agent 界面设计极有针对性。",
-        "type": "framework"
+        "type": "framework",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*6jUrPee0GGzXeHfEs3feCg.jpeg"
       },
       {
         "title": "无障碍不是功能点，是工程基础设施——AI 时代的警示",
@@ -69,7 +104,8 @@
         "url": "https://uxdesign.cc/youre-missing-the-point-this-is-your-real-value-in-tech-companies-f56d6d96b54b",
         "source": "UX Collective",
         "why": "当大家都在焦虑「AI 会不会取代设计师」，这篇文章给了一个清晰的反向视角：判断力才是护城河。跟叉叉在微软做设计的处境直接相关。",
-        "type": "思维框架"
+        "type": "思维框架",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*B72QBUDA4a-riSi_D9O0ng.jpeg"
       },
       {
         "title": "Tidal 宣布：AI 生成音乐不再分钱，7 月起强制标注",
@@ -100,7 +136,8 @@
         "url": "https://uxdesign.cc/what-are-hypertokens-the-layer-between-tokens-and-components-rebuilt-for-agents-962dbe93e0c4",
         "source": "UX Collective",
         "why": "设计系统 × AI agent 的交叉点，直接影响 vibe coding 时代下设计决策如何被机器正确理解。Figma Config 2026 新概念，设计师可以早于工程师掌握这个框架。",
-        "type": "design-systems"
+        "type": "design-systems",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*qXTB1d3Y-uv95AmNaJ6kpg.jpeg"
       },
       {
         "title": "当职业进化速度超过导师的经验积累速度",
@@ -108,7 +145,8 @@
         "url": "https://uxdesign.cc/when-the-profession-outruns-the-mentor-5f40596e17ca",
         "source": "UX Collective",
         "why": "直击 AI 时代设计师成长路径的核心焦虑：经验是否还值钱？判断力从哪里来？对正在思考如何在 AI 协作中保持设计价值的人，这篇文章给出了一个清醒的框架。",
-        "type": "career"
+        "type": "career",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*y8IadfEBQxK4i4XJ41Pn9w.jpeg"
       },
       {
         "title": "ChatGPT 聊天记录首次被用作法庭证据，放火案被告的 AI 对话成关键证物",
@@ -130,7 +168,8 @@
         "url": "https://uxdesign.cc/why-your-claude-code-needs-a-design-stack-46dccbced6e5",
         "source": "UX Collective",
         "why": "叉叉本人就在用 Claude Code，这篇直接给出了设计师视角的配置框架，可以今天就用上。把 design stack 概念带入日常 workflow 是实质性的效率升级。",
-        "type": "workflow"
+        "type": "workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*I3JwBcH7Gs0eKwT1nw2ptQ.png"
       },
       {
         "title": "调研数据里的僵尸：如何识别并剔除 Bot 污染的问卷回复",
@@ -161,7 +200,8 @@
         "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
         "source": "UX Collective",
         "why": "直接命中当下最大的 design 焦虑：AI 让执行变快，但判断力不会自动提升。提出的框架有操作性，不是纯理论。",
-        "type": "product-thinking"
+        "type": "product-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*cUjm15w9qZX_am_phu25yg.png"
       },
       {
         "title": "让 UX 数据说话的第一步：在动手前先建 baseline",
@@ -192,7 +232,8 @@
         "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
         "source": "UX Collective",
         "why": "Config 2026 刚结束，这是目前最犀利的后续分析——不是介绍新功能，而是剖析 Figma 的生存焦虑。直接关系到 Product Designer 的日常工具和职业路径。",
-        "type": "design-industry"
+        "type": "design-industry",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*P5DMv8hqBc_q6h_yCcrefw.png"
       },
       {
         "title": "GPT-5.6 被特朗普政府叫停：AI 发布正在变成政治博弈",
@@ -223,7 +264,8 @@
         "url": "https://uxdesign.cc/your-design-system-runs-on-one-persons-judgment-ai-is-about-to-prove-it-4e969a862765",
         "source": "UX Collective",
         "why": "设计系统治理是 Product Designer 日常痛点，这篇诊断非常准确：问题不是工具，是「审查门」和 bus factor。AI 加速 contribution 之后，这个矛盾会被放大而非消解——对在微软做设计的叉叉高度相关。",
-        "type": "deep-read"
+        "type": "deep-read",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*NEaGiMgXP8IaSlGYLMhsXg.png"
       },
       {
         "title": "美国国会议员的 AI「拼写检查」事故：Claude 痕迹出现在国防法案里",
@@ -254,7 +296,8 @@
         "url": "https://uxdesign.cc/how-designops-roles-are-changing-with-new-priorities-c8db3a5bc1c3",
         "source": "UX Collective",
         "why": "叉叉做的就是 AI 产品设计，这篇直接回答「AI 时代 DesignOps 该往哪转型」。「视觉判断力」vs「生产力」的框架很有用，可以直接带入日常设计系统讨论。",
-        "type": "design-ops"
+        "type": "design-ops",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Nr_aQE4ARJdxXac0y7K1sQ.jpeg"
       },
       {
         "title": "你的银行 App 在对你说谎——AI 开始说实话了",
@@ -262,7 +305,8 @@
         "url": "https://uxdesign.cc/your-banking-app-is-lying-to-you-52959b075823",
         "source": "UX Collective",
         "why": "AI 产品如何重新定义「展示什么信息」是个核心设计问题。银行场景是极好的切入点——用户对金融数据的隐私感和控制感极强，这里的 trust UX 设计原则可以迁移到任何 AI 个性化产品。",
-        "type": "ai-ux"
+        "type": "ai-ux",
+        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.28/1*uLu56arUUlJ1NMazdD9hkA.png"
       },
       {
         "title": "好莱坞向 OpenAI 跪下了——资本如何让批评性叙事消失",
@@ -284,7 +328,8 @@
         "url": "https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34",
         "source": "UX Collective",
         "why": "把「taste」从软性词汇变成可量化的组织成本，给了设计师在大公司内部推动设计标准化时一个非常有力的论据框架。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*u6YHI9pCm0AKyb0Ehrypuw.png"
       },
       {
         "title": "AI 虚拟装修正在把租房变成一场期望管理危机",
@@ -315,7 +360,8 @@
         "url": "https://uxdesign.cc/why-the-best-part-of-the-flow-isnt-the-end-e9fef73f6bb3",
         "source": "UX Collective",
         "why": "流程设计中被忽视的「过程价值」——从真实反常识的社会现象出发，推导出可操作的设计视角。对做 onboarding、购物、任务流的设计师直接有用。",
-        "type": "design-insight"
+        "type": "design-insight",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*f8eb2lWrLpYKa8eai0vglg.png"
       },
       {
         "title": "两种现代主义：当看不见的结构才是正确答案",
@@ -323,7 +369,8 @@
         "url": "https://uxdesign.cc/two-modernisms-ba94169b79dd",
         "source": "UX Collective",
         "why": "从建筑史切入设计系统的架构哲学，类比精准且有洞察力。对在评估 headless 组件库、设计 token 架构的设计师来说，提供了很好的思维框架。",
-        "type": "design-systems"
+        "type": "design-systems",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:780/0*lknyAUhyq1O1NkPf"
       },
       {
         "title": "用概率思维设计：AI 时代最被低估的设计能力",
@@ -363,7 +410,8 @@
         "url": "https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0",
         "source": "UX Collective",
         "why": "不是鸡汤，是真实的行业数据支撑的生存报告。Klarna 案例和 Gartner 数据让这篇文章有重量。对叉叉来说，这也是思考如何在微软内部建立设计影响力的一个框架——从工艺输出到战略对话。",
-        "type": "职业发展"
+        "type": "职业发展",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*F55K9uIW_m1emIx1Y4iQaw.png"
       }
     ]
   },
@@ -385,7 +433,8 @@
         "url": "https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3",
         "source": "UX Collective",
         "why": "微软的产品恰好处在 B 端软件个人化这个浪潮的中心。这篇文章提供了具体可用的框架来描述和说服内部利益相关方：为什么「更个人化的企业 UX」不是锦上添花，而是竞争必需。",
-        "type": "analysis"
+        "type": "analysis",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*0ibSOnEO8BXE2VqfysWaQg.png"
       },
       {
         "title": "NNGroup：日记研究（Diary Study）的激励机制设计",
@@ -407,7 +456,8 @@
         "url": "https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0",
         "source": "UX Collective",
         "why": "不是泛泛的焦虑文，而是用真实裁员数据和 WEF 报告给出了清醒判断。叉叉在大厂做设计，这篇文章正好对应「设计影响力如何在 AI 时代重新建立」这个问题。",
-        "type": "career"
+        "type": "career",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*F55K9uIW_m1emIx1Y4iQaw.png"
       },
       {
         "title": "AI 智能体够用吗？用自己的工具链来测试开源模型",
@@ -438,7 +488,8 @@
         "url": "https://uxdesign.cc/a2ui-under-the-hood-designing-for-the-new-era-of-radically-adaptive-ui-cebbf5f32fbe",
         "source": "UX Collective",
         "why": "这是一篇少见的「看得懂原理又对设计师有实际价值」的技术向文章。A2UI/生成式 UI 是接下来 1-2 年 AI 产品界面最重要的方向之一，设计师现在理解它，就是在抢占叙事主权。",
-        "type": "deep-dive"
+        "type": "deep-dive",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*QMlFF7T7Jm_BYAqEDSMvyA.jpeg"
       },
       {
         "title": "不要被 AI 的「确定感」骗了——概率化设计思维实战指南",
@@ -469,7 +520,8 @@
         "url": "https://uxdesign.cc/how-one-of-the-oldest-design-portfolio-formats-needs-to-change-in-2026-b64137494f6a",
         "source": "UX Collective",
         "why": "在 AI 可以直接出图的时代，设计师的核心竞争力被迫转向决策可见性——这个视角对正在积累 portfolio 或参与大型产品迭代的设计师都非常直接",
-        "type": "career"
+        "type": "career",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*HxzNxXDf5fvFf4QSfLu7OA.jpeg"
       },
       {
         "title": "AI 驱动的界面是概率系统，但我们把它包成了确定性——这才是最大的设计风险",
@@ -486,7 +538,8 @@
         "url": "https://uxdesign.cc/the-hidden-ux-of-payments-22b97440be16",
         "source": "UX Collective",
         "why": "支付 UX 是设计师经常要面对但很少有人写清楚的领域，PayPal + 嵌入式金融的双重背景让这篇文章的密度很高。「信任在微时刻」这个框架也完全可以迁移到其他高风险操作的产品设计",
-        "type": "ux-practice"
+        "type": "ux-practice",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*W6Nme4_jxSMcQFfH0Hkx8Q.jpeg"
       }
     ]
   },
@@ -500,7 +553,8 @@
         "url": "https://uxdesign.cc/the-autonomy-dial-a-pattern-toolkit-for-designing-human-control-over-ai-12bfbe23ca70",
         "source": "UX Collective",
         "why": "agentic 产品设计正在成为主战场，控制权设计是最难做对的部分，这篇给出了可落地的六个 pattern，比泛泛而谈「透明度」有用得多",
-        "type": "🧩 Design Pattern"
+        "type": "🧩 Design Pattern",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*fTfJgr1VPFDB9Y9zWfoBYw.png"
       },
       {
         "date": "2026-06-16",
@@ -519,7 +573,8 @@
         "url": "https://uxdesign.cc/the-board-is-not-the-game-fad30735adfe",
         "source": "UX Collective",
         "why": "帮你跳出「组件设计者」的身份，进入「系统设计者」视角——AI 时代这个视角跃迁越来越重要",
-        "type": "💡 Perspective"
+        "type": "💡 Perspective",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*X_LejmSbc1Me66P1UGetjw.png"
       }
     ]
   },
@@ -532,7 +587,8 @@
         "url": "https://uxdesign.cc/access-is-not-mastery-bd59e0610828",
         "source": "UX Collective",
         "why": "AI 工具普及化对设计师自我定位的直接冲击，角度清醒，不煽情不焦虑，有实质洞察",
-        "type": "insight"
+        "type": "insight",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:750/0*klP6oWlnGLvl-3iA"
       },
       {
         "title": "设计一个聊天机器人有多难？比你想的更难，赌注也更高",
@@ -540,7 +596,8 @@
         "url": "https://uxdesign.cc/how-difficult-could-it-be-to-design-a-chatbot-5967e39563cc",
         "source": "UX Collective",
         "why": "AI 对话产品设计的深度研究支撑，有真实数据，有可操作的设计启示，特别适合在做 chatbot 或 AI feature 的设计师",
-        "type": "research"
+        "type": "research",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*PjMIbrcV6gmrBv1bg8qH2A.png"
       },
       {
         "title": "AI 时代设计师的核心技能：学会「批评」AI 的输出",
@@ -562,7 +619,8 @@
         "url": "https://uxdesign.cc/a-shortlist-of-one-how-ai-became-our-shopping-adviser-d55f43c411db",
         "source": "UX Collective",
         "why": "AI 把「搜索给你选项」变成「替你做决定」，设计师需要理解这个权力转移对用户认知的影响，以及如何在设计推荐系统时保留用户的判断感和主体性。",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*ng7a7sD1zB6wu2dAIL0ZVQ.png"
       },
       {
         "title": "亚马逊安全研究触发了白宫对 Anthropic Fable 5 的封禁",
@@ -579,7 +637,8 @@
         "url": "https://uxdesign.cc/what-it-really-feels-like-to-be-a-digital-accessibility-advocate-07afc7e1d16f",
         "source": "UX Collective",
         "why": "无障碍不只是合规，是组织文化和设计流程的镜子。这篇文章道出了很多 designer 心里有但不知如何开口的困境，读完会让你重新审视自己团队对无障碍的真实态度。",
-        "type": "ux-practice"
+        "type": "ux-practice",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*dHs_YI01_J4FQm4U"
       }
     ]
   },
@@ -624,7 +683,8 @@
         "url": "https://uxdesign.cc/we-stopped-clicking-and-ai-became-the-internet-df61a0c79d91",
         "source": "UX Collective",
         "why": "触到了 AI 时代 UX 设计的根本性矛盾：当 AI 代理替代用户行为，设计师的「用户」到底是谁？叉叉在微软做 AI 产品，这个问题非常切身。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1110/1*1mqovzJYq__JaQv88RaD-w.png"
       },
       {
         "title": "Anthropic 为 Claude Fable 的隐形护栏公开道歉",
@@ -655,7 +715,8 @@
         "url": "https://uxdesign.cc/liquid-glass-who-gets-to-decide-how-an-interface-looks-a0abe75ae21e",
         "source": "UX Collective",
         "why": "WWDC 热点 + 永恒设计命题的新案例。正好叉叉在微软做设计，这个「控制权边界」问题在 AI 产品里比 iOS 还尖锐，值得深想一层。",
-        "type": "设计思考"
+        "type": "设计思考",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*pJm4WsYuQuCzawpE5BCxCQ.png"
       },
       {
         "title": "Claude Fable 5 生物问题不回答：Anthropic 用「能力限制」重新定义 AI 产品边界",
@@ -686,7 +747,8 @@
         "url": "https://uxdesign.cc/dieter-rams-avoids-computers-his-ten-rules-still-fit-designing-for-ai-499229fd049e",
         "source": "UX Collective",
         "why": "Rams 的原则是减法哲学的源头，把它套到 AI 设计上是个非常扎实的思维锚——帮你判断「这个 AI 功能应不应该做」比「这个功能怎么做」更有价值。",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:932/1*WX7coGB_jrtuTwqrAbLNeQ.png"
       },
       {
         "title": "我试了新版 Siri AI，它这次居然真的能用了",
@@ -703,7 +765,8 @@
         "url": "https://uxdesign.cc/should-you-really-give-ai-your-whole-digital-life-9b0c55df46e2",
         "source": "UX Collective",
         "why": "权限设计是 AI 产品最容易糊弄过去的地方，这篇文章帮你想清楚「我是在帮用户做决定，还是在帮产品绕过用户决策」。",
-        "type": "ux-ethics"
+        "type": "ux-ethics",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*2Pih7DcMUONGE9DPwhTuiw.png"
       }
     ]
   },
@@ -716,7 +779,8 @@
         "url": "https://uxdesign.cc/ai-design-isnt-ugly-it-s-fluent-and-that-s-the-problem-131b2f4eb78c",
         "source": "UX Collective",
         "why": "直击 AI 设计工具的核心矛盾：越来越好用，生成的东西却越来越相似。对任何在用 AI 辅助设计的人来说，这是最值得警惕的趋势。",
-        "type": "design-analysis"
+        "type": "design-analysis",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*WsY4Q3KrpGZyCZkNpPERGA.png"
       },
       {
         "title": "AI 成了客户会议里的「第三者」——设计师该怎么应对",
@@ -724,7 +788,8 @@
         "url": "https://uxdesign.cc/ai-has-become-the-third-wheel-ee8e53e06b85",
         "source": "UX Collective",
         "why": "这是 2026 年 Product Designer 的新日常：不只要做好设计，还要学会在客户已经用 AI「预审」过你作品的情况下，捍卫和解释自己的决策。",
-        "type": "design-practice"
+        "type": "design-practice",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*CBufeo9Z8zkqmh54B7PFTA.jpeg"
       },
       {
         "title": "Apple 用 AI 解决了 Safari 最大的短板：现在你可以用自然语言「描述」出自己的扩展",
@@ -746,7 +811,8 @@
         "url": "https://uxdesign.cc/youre-still-archiving-your-files-have-already-become-substrate-ce65f088b75a",
         "source": "UX Collective",
         "why": "AI agent 时代，你的 Figma 备注、PRD、research notes 不只是给自己看的——它们是 AI 协作的 context 层。这个认知转变直接影响你怎么组织知识库、写设计说明、甚至怎么命名文件。",
-        "type": "思维转变"
+        "type": "思维转变",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*_5iklIu_u3aYxA5wHr875g.png"
       },
       {
         "title": "AI 创作者越来越难被识别：当假人开始真的像真人",
@@ -777,7 +843,8 @@
         "url": "https://uxdesign.cc/the-psychological-cost-of-moving-too-fast-867fb3830722",
         "source": "UX Collective",
         "why": "直接击中 AI 时代设计师的盲区：工具越快，越容易在错的事情上投入太多。Vibe design 盛行，这篇是反向思考的必读。",
-        "type": "深度观点"
+        "type": "深度观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1024/1*ydyT3iGEx2xP_WOys-yNqQ.png"
       },
       {
         "title": "Siri 再次「新生」：Apple WWDC 2026 的 AI 豪赌",
@@ -817,7 +884,8 @@
         "url": "https://uxdesign.cc/designs-alive-and-kicking-it-just-got-some-flashy-new-names-779b4503c869",
         "source": "UX Collective",
         "why": "和 NNGroup 那篇形成互读——一篇分析岗位类型，一篇讲设计师心态；两篇加在一起是一个完整的「AI 时代设计师定位」框架",
-        "type": "career-design"
+        "type": "career-design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*1YEZWt9mMk1hqFdz.jpg"
       },
       {
         "title": "行为经济学如何帮你找到用户体验里的隐形摩擦",
@@ -839,7 +907,8 @@
         "url": "https://uxdesign.cc/the-rhetorical-mask-of-innovation-12f3abcd6120",
         "source": "UX Collective",
         "why": "设计师每天都在用「创新」这个词说服自己和他人，但这篇文章提醒我们：新颖不等于改善。在 AI 功能大爆发的当下，这种批判性思维尤为珍贵——多少「AI 赋能」的功能只是换了个界面？",
-        "type": "观点"
+        "type": "观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1024/1*VGVtLAWs9YbnyOgBYWOGIA.jpeg"
       },
       {
         "title": "为人类和 AI Agent 同时设计 CLI：HuggingFace 的双受众产品实践",
@@ -902,7 +971,8 @@
         "url": "https://uxdesign.cc/ai-created-document-fatigue-how-i-designed-my-way-out-of-it-1fcd4a565669",
         "source": "UX Collective",
         "why": "AI 正在加速信息生产，但消费端的体验设计几乎没人在做。这篇文章触碰了一个鲜少被讨论的问题：当 AI 成为内容生产加速器，大量 AI 生成内容的「可消化性」本身就是一个设计课题。而作者给出的答案——把文档审阅从「视觉任务」变成「听觉任务」——是一个很有启发性的模态重构思路。",
-        "type": "case-study"
+        "type": "case-study",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*cnlRh44rvr3QxFiMOPs0Nw.jpeg"
       },
       {
         "title": "Microsoft Build 2026 七大亮点：always-on AI 助手、自研推理模型全线登场",
@@ -933,7 +1003,8 @@
         "url": "https://uxdesign.cc/the-register-shift-cf72fed592ed",
         "source": "UX Collective",
         "why": "设计师每天都在和 AI 协作，但很少意识到「聊天模式」和「委托模式」之间存在根本性的认知断层。这篇基于真实观察的分析，提供了一个可以立刻改变工作方式的框架。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*suN4TMD01Tvdoyze9MlEPA.png"
       },
       {
         "title": "Gemini Spark 实测：Google 的 24/7 AI Agent 真的好用吗？",
@@ -950,7 +1021,8 @@
         "url": "https://uxdesign.cc/ai-meets-sturgeons-law-21d17488fc48",
         "source": "UX Collective",
         "why": "这是一个在 AI 产品设计中几乎被忽视的问题：用 AI 辅助创作，到底是在提高质量还是制造噪音？对任何在工作流中深度使用 AI 的设计师来说，这是值得花 10 分钟认真想清楚的事。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*UXZuLeKNNH4XliAHVkKz7A.png"
       }
     ]
   },
@@ -963,7 +1035,8 @@
         "url": "https://uxdesign.cc/ai-token-scarcity-and-arcade-economics-5d6c0f2df3b5",
         "source": "UX Collective",
         "why": "直接影响你日常设计决策。AI 功能不是免费无限的，token 成本是下一个要纳入 UX 考量的约束条件。这个框架现在想，比等产品上线后踩坑要值得多。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*8_AZNZ5PxzNVQ52qWPF8rw.png"
       },
       {
         "title": "你的内容到底是写给谁的？——当 AI 成了最终读者",
@@ -971,7 +1044,8 @@
         "url": "https://uxdesign.cc/who-is-your-content-actually-for-c9e40cca3d75",
         "source": "UX Collective",
         "why": "直接冲击信息架构和内容策略的底层假设。你在设计内容展示时，「首要读者」可能不再是人类，而是 AI aggregator。这个框架位移值得任何做产品的人认真想一遍。",
-        "type": "analysis"
+        "type": "analysis",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*8o_qCpQSoxaEAWTmL-yt3w.png"
       }
     ]
   },
@@ -1025,7 +1099,8 @@
         "url": "https://uxdesign.cc/how-to-help-people-who-dont-read-discover-new-features-310f88fd76cb",
         "source": "UX Collective",
         "why": "feature onboarding 没人读是几乎所有产品设计师的老难题。这篇把认知科学和实际写法连起来，有理有据，直接可用。",
-        "type": "UX 写作"
+        "type": "UX 写作",
+        "image": "https://miro.medium.com/v2/resize:fit:750/0*zR_bbRlGr7iuHXBj.jpg"
       },
       {
         "title": "Jony Ive 的跑车大考：Ferrari Luce 是设计勇气还是失控？",
@@ -1047,7 +1122,8 @@
         "url": "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644",
         "source": "UX Collective",
         "why": "叉叉在微软做 AI 产品设计，这篇提供了一个绝佳的时代坐标感——不是「AI 来了怎么办」的焦虑，而是「历史上这种时刻的人做了什么」的底气。适合收藏反复看。",
-        "type": "think"
+        "type": "think",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*wTJUdSXYX6HyCmOIIVtZzA.png"
       },
       {
         "title": "Microsoft 365 Copilot 大改版：速度翻倍，渐进式披露代替功能堆砌",
@@ -1086,7 +1162,8 @@
         "url": "https://uxdesign.cc/we-havent-lost-the-battle-for-empathy-have-we-af31d1226da2",
         "source": "UX Collective",
         "why": "超越了工具讨论，触碰到「设计师身份」这个更根本的问题。在 AI 加速的当下，是一篇值得慢读、不追热点的文章。",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*4HZl5z1vYmSjuNR1yj371w.png"
       },
       {
         "title": "Robinhood 允许 AI agent 自主炒股——agentic UX 的控制设计长什么样",
@@ -1108,7 +1185,8 @@
         "url": "https://uxdesign.cc/the-book-cover-as-a-relational-object-288fb15deff1",
         "source": "UX Collective",
         "why": "用书封面设计打开了「设计的时间维度」这个话题——产品中有哪些设计是活的、会随用户成长而变化的？这是叉叉做 AI 产品时值得追问的问题。",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*HyE5waE5AVymJJOcyTCgOA.avif"
       },
       {
         "title": "Sundar Pichai：搜索正在消失，AI agent 是下一个搜索框",
@@ -1139,7 +1217,8 @@
         "url": "https://uxdesign.cc/should-i-design-for-humans-or-machines-3b8d3addd006",
         "source": "UX Collective",
         "why": "设计系统正在被 AI 工具消费，不只是人类。这道裂缝会越来越大，早想清楚的设计师会更从容。",
-        "type": "设计思维"
+        "type": "设计思维",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*cR__IBtwYlvk8ahSLq2xeg.png"
       },
       {
         "title": "教皇发布 42000 字通谕：AI 时代，做一个「深刻的人类」",
@@ -1170,7 +1249,8 @@
         "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
         "source": "UX Collective",
         "why": "直接命中当下 AI 产品设计的核心困惑——当 agent 替用户行动，设计师的工作对象是谁？这篇文章给了最清晰的概念框架。在微软做设计，这个问题每天都在发生。",
-        "type": "deep-read"
+        "type": "deep-read",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*6CAHfE7qh1NFKzjXKjU4YQ.png"
       },
       {
         "title": "黑客开始攻击聊天机器人的「人格」——Persona 设计不只是 UX 问题",
@@ -1201,7 +1281,8 @@
         "url": "https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945",
         "source": "UX Collective",
         "why": "叉叉在微软做设计，身处和这篇文章一样的处境——组织在推 AI 工具，但没有人告诉你「掌握」到底意味着什么。这个真实案例提供的不是工具列表，而是一种思维框架：mastery is divergent and personal。",
-        "type": "ux-strategy"
+        "type": "ux-strategy",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*DzdctGe8Goex0C5ndooHeA.png"
       },
       {
         "title": "搜索「disregard」，Google AI 回你：「好的，有什么我能帮你的？」",
@@ -1264,7 +1345,8 @@
         "url": "https://uxdesign.cc/designing-the-human-ai-system-d7f6fc8bf772",
         "source": "UX Collective",
         "why": "直接回答「设计师在 Agent 时代的角色转变」这个核心问题，不是焦虑文也不是鸡汤，是有职业纵深的结构性分析。",
-        "type": "思维框架"
+        "type": "思维框架",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*QCPBZxPCAe4X3bDXB2euzw.png"
       },
       {
         "title": "AI UX 债务：vibe coding 造出来的「幽灵产品」正在成为下一个技术债",
@@ -1272,7 +1354,8 @@
         "url": "https://uxdesign.cc/ai-ux-debt-a-new-bottleneck-ed91c256b86b",
         "source": "UX Collective",
         "why": "精准命名了一个所有人都感受到但还没有标准词汇描述的现象。对设计师和 PM 都有直接的决策参考价值。",
-        "type": "行业洞察"
+        "type": "行业洞察",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*aCb6X7_ZTeBV8K2n"
       },
       {
         "title": "CSS 新属性 sibling-index() 和 sibling-count()：告别 nth-child 地狱，一行搞定交错动画",
@@ -1344,7 +1427,8 @@
         "url": "https://uxdesign.cc/the-case-for-catholic-philosophy-in-ethical-interface-design-c5a30b729e4b",
         "source": "UX Collective",
         "why": "挑战设计师最熟悉的伦理框架，追问它们的哲学根基——在 AI 时代，设计决策的道德基础值得被认真审视",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*523jDKfMOonaCaMd"
       }
     ]
   },
@@ -1357,7 +1441,8 @@
         "url": "https://uxdesign.cc/the-waiting-problem-in-ai-products-e7c11fd5a825",
         "source": "UX Collective",
         "why": "做 AI 产品的设计师几乎每天都在处理「loading state」，但大多数人没有理论框架。这篇文章把 Doherty 阈值这个四十年前就被证明的 HCI 结论直接套到 AI 产品上，论证清晰、数据扎实。看完之后审视自己手上的任何 AI 产品，loading 设计马上会有新的切入点。",
-        "type": "design-practice"
+        "type": "design-practice",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*mGN7TfKCW3LdO38C5Oie_Q.jpeg"
       },
       {
         "title": "首个开放 AI Agent 排行榜上线：谁是当前最强 agent？",
@@ -1397,7 +1482,8 @@
         "url": "https://uxdesign.cc/how-mobile-apps-are-reshaping-screening-for-cognitive-decline-a26391fe3ae1",
         "source": "UX Collective",
         "why": "健康 UX 是被严重低估的设计领域。这篇文章的跨文化设计框架和降焦虑思路可以直接迁移到很多 B2C 产品设计中。",
-        "type": "🎨 设计深度"
+        "type": "🎨 设计深度",
+        "image": "https://miro.medium.com/v2/resize:fit:696/1*gteZTk7BN0lYQVuT-Iw2rw.jpeg"
       },
       {
         "title": "毕业典礼现场嘘声：年轻一代对 AI 乐观主义的明确拒绝",
@@ -1419,7 +1505,8 @@
         "url": "https://uxdesign.cc/should-we-be-kind-to-machines-for-our-own-sake-really-26acf222af29",
         "source": "UX Collective",
         "why": "AI 产品的 tone of voice 设计通常被当作品牌工作，但这篇文章提醒设计师：AI persona 有心理学层面的长期影响，值得从更深的层面去设计和考量",
-        "type": "深度分析"
+        "type": "深度分析",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*E1cjITdSdZLaJlQQgUIuDw.png"
       },
       {
         "title": "Sony AI 拍照助手翻车：当 AI 建议全都看起来很糟",
@@ -1482,7 +1569,8 @@
         "url": "https://uxdesign.cc/ai-made-everyone-a-creator-not-a-designer-e28deb6e603b",
         "source": "UX Collective",
         "why": "直接命中叉叉的工作场景：AI 时代设计师的价值在哪里，界面趋同怎么破。",
-        "type": "think-piece"
+        "type": "think-piece",
+        "image": "https://miro.medium.com/v2/resize:fit:1199/1*pKgR1MxGsJ11IeSCydxVHg.png"
       },
       {
         "title": "两个高维心智之间，只有一根一维管道",
@@ -1490,7 +1578,8 @@
         "url": "https://uxdesign.cc/the-one-dimensional-pipe-between-two-high-dimensional-minds-7bc81c49627e",
         "source": "UX Collective",
         "why": "为想深入理解 AI 产品交互逻辑的设计师提供了哲学框架，角度新鲜。",
-        "type": "think-piece"
+        "type": "think-piece",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*BaYlAoeVq4OIucPC9spiWQ.jpeg"
       },
       {
         "title": "OpenAI Codex 进手机了：AI 写代码正在脱离桌面约束",
@@ -1544,7 +1633,8 @@
         "url": "https://uxdesign.cc/the-death-of-the-empty-state-in-ai-products-2026-e11439fbb688",
         "source": "UX Collective",
         "why": "直接戳到 AI 产品设计的一个死角：大家在卷对话能力、模型能力，却忘了第一印象。这篇有数据、有框架、有对比，适合任何在做 AI 产品的设计师拿来 review 自己的 onboarding 流程。",
-        "type": "design"
+        "type": "design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*NruF7ACCBrxxjinjgfGJ6A.jpeg"
       },
       {
         "title": "Meta 在 Threads 上放了一个你无法屏蔽的 AI 账号",
@@ -1561,7 +1651,8 @@
         "url": "https://uxdesign.cc/what-do-you-do-if-your-best-design-work-is-a-small-project-6d57e619d866",
         "source": "UX Collective",
         "why": "设计师的日常困惑：好工作没法讲好故事。这篇给了一套简单好用的叙事框架，对准备 portfolio 更新、晋升答辩、或者做内部设计 review 的人都有直接帮助。",
-        "type": "career"
+        "type": "career",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*LSDuhhubPkxyC5SizquZSA.jpeg"
       }
     ]
   },
@@ -1574,7 +1665,8 @@
         "url": "https://uxdesign.cc/rethinking-design-with-your-hands-in-the-ai-world-b8d4adf3322c",
         "source": "UX Collective",
         "why": "直接回答「AI 时代设计师核心价值在哪」——不是技能，是判断力。手工美学的回潮对品牌调性、视觉风格、交互质感都有直接影响，叉叉做 AI 产品正好需要这个视角。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*OAGxk657a0vDlfcA.jpg"
       },
       {
         "title": "Mira Murati 的新公司在做什么：「交互模型」要打破 AI 对话框逻辑",
@@ -1637,7 +1729,8 @@
         "url": "https://uxdesign.cc/the-left-handed-rope-1875c30ad62e",
         "source": "UX Collective",
         "why": "做 AI 产品很容易跟着「大家都这么做」走，但这篇文章提醒：有意义的边界往往来自主动的反向。什么样的设计选择值得刻意「拧错方向」？",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*SpjPFOg1_zo2XIGkVIvFyA.jpeg"
       },
       {
         "title": "不做产品目录，做建筑感——Fluid Glass 网站改版全程复盘",
@@ -1677,7 +1770,8 @@
         "url": "https://uxdesign.cc/everything-i-know-about-ai-i-learned-from-a-genie-e5745d22c722",
         "source": "UX Collective",
         "why": "用一个所有人都懂的童话把 LLM 的底层逻辑讲清楚了——AI 的字面理解、奉承倾向、边界问题，全部对应到精灵规则，很好记，也很好用。",
-        "type": "AI / Content Design"
+        "type": "AI / Content Design",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*kTOlEcQpTQ4BTvgr"
       },
       {
         "title": "UX Writing 实战 FAQ：从业者最常踩的坑，NNGroup 一次答完",
@@ -1699,7 +1793,8 @@
         "url": "https://uxdesign.cc/how-to-make-claude-code-follow-your-design-system-in-figma-559618cffaa9",
         "source": "UX Collective",
         "why": "用 AI 写界面但设计系统一团糟的问题太普遍了，这篇直接给出了可复用的工作流方案，不是理论，是能装进 Claude Code 的 Skills。",
-        "type": "workflow"
+        "type": "workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*TVUM36VQ51vWEChC.png"
       },
       {
         "title": "Apple AirPods 要加摄像头了：环境感知 AI 时代的设计挑战",
@@ -1721,7 +1816,8 @@
         "url": "https://uxdesign.cc/we-built-this-now-we-own-it-1f8f1ba7c768",
         "source": "UX Collective",
         "why": "每天做 AI 产品的 PD 都应该读一次。不是为了变得焦虑，是为了在下一个设计决策前多问一句「然后呢」。",
-        "type": "design-ethics"
+        "type": "design-ethics",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*97EOKZAD7h1icCbR3pb_Og.png"
       },
       {
         "title": "Google 关停 Project Mariner：web agent 第一次大型实验落幕",
@@ -1752,7 +1848,8 @@
         "url": "https://uxdesign.cc/the-psychological-fine-print-of-ai-fe419edcff73",
         "source": "UX Collective",
         "why": "如果你在做 AI 产品，这篇给了你「为什么要设计反奉承机制」的数据支撑。不是在讲 AI 危险论，是在讲具体的设计责任。",
-        "type": "research-insight"
+        "type": "research-insight",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*KuT-w5mVH0AyxKhHkJaGUQ.png"
       },
       {
         "title": "效用软件的下一个 UX 机会：从 Dyson 吸尘器说起",
@@ -1783,7 +1880,8 @@
         "url": "https://uxdesign.cc/st-augustine-and-ais-false-promise-4f67c75b3275",
         "source": "UX Collective",
         "why": "做 AI 产品的设计师必读。当你在 Figma 里做交互决策时，你同时在决定系统强化什么价值、忽视什么。这篇文章帮你把这件事从无意识变成有意识。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*6ATO_qIgaNE1gokNgz7KGg.jpeg"
       },
       {
         "title": "Roomba 发明者回来了，这次他要造一个你会「爱上」的机器人",
@@ -1805,7 +1903,8 @@
         "url": "https://uxdesign.cc/dont-simply-bolt-on-ai-rethink-from-the-ground-up-ae73a9093cd2",
         "source": "UX Collective",
         "why": "从「概念层 vs 交互层」切入 AI 产品设计的本质，帮助设计师和 PM 判断哪些用户负担是真实的，哪些是产品自己造成的——然后让 AI 去扛后者",
-        "type": "思维框架"
+        "type": "思维框架",
+        "image": "https://miro.medium.com/v2/resize:fit:763/1*xGmJyAusfy29ZOd5UsYbIA.png"
       },
       {
         "title": "AI 音乐正在淹没流媒体，但没人在找它",
@@ -1822,7 +1921,8 @@
         "url": "https://uxdesign.cc/the-basketball-playbook-for-ai-builder-teams-5ab76a91780e",
         "source": "UX Collective",
         "why": "把 AI 时代团队运作的变化讲得生动且有洞察，「taste 成为基础设施」这个判断值得细品，对设计 lead 和想理解 AI 工作流的人都适用",
-        "type": "产品思考"
+        "type": "产品思考",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Y3NvZ7e6riE_k35u1F0YSA.png"
       }
     ]
   },
@@ -1835,7 +1935,8 @@
         "url": "https://uxdesign.cc/can-ai-make-your-dating-life-better-aae6e3d26be2",
         "source": "UX Collective",
         "why": "Dating app 是检验 AI 产品设计最尖锐的边缘案例。信任/真实性的张力、用户对「有没有 AI 介入」的感知，对所有做 AI 功能的产品设计师都有高度参考价值——尤其是在考虑把 AI 引入高情感密度的交互场景时。",
-        "type": "product-design"
+        "type": "product-design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*5Yz4976MYlFIytOu2kel_g.png"
       },
       {
         "title": "你真的会选对研究参与者吗？NNG 的用户招募筛选指南",
@@ -1884,7 +1985,8 @@
         "url": "https://uxdesign.cc/usability-accessibility-and-the-human-ai-paradigm-6ffda2806b56",
         "source": "UX Collective",
         "why": "AI 辅助设计正在重演一个老问题——可用性和无障碍被当成同一件事。这篇在 vibe coding 时代尤其值得重新审视，设计师不能把这道防线拱手让给工具。",
-        "type": "设计观点"
+        "type": "设计观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1024/0*MomesNz_Wt78lJUe.png"
       }
     ]
   },
@@ -1897,7 +1999,8 @@
         "url": "https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10",
         "source": "UX Collective",
         "why": "配色是设计师日常最高频的任务之一，但 AI 工具的色彩能力差异巨大、鲜少被横向比较。这篇用同一专业任务测试了 7 款 AI，属于实证研究，对做无障碍设计的 designer 特别有参考价值。",
-        "type": "tool × color × accessibility"
+        "type": "tool × color × accessibility",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*AtXaI85VlaJttF6KBveZnw.png"
       },
       {
         "title": "马斯克 vs Altman 庭审第一手文件全解：OpenAI 创始内幕是这样的",
@@ -1919,7 +2022,8 @@
         "url": "https://uxdesign.cc/10-ui-patterns-that-wont-survive-the-ai-shift-002cb9b853ae",
         "source": "UX Collective",
         "why": "直接击中在 AI 时代还在设计「老式」UI 的产品团队。每一个模式都给出了替代方向，不是空谈，而是可以带进下次设计评审的框架。",
-        "type": "design"
+        "type": "design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*lPMAjOQsVPmNsI8Q.jpeg"
       },
       {
         "title": "AI 没有杀死搜索，反而把它推上历史新高",
@@ -1950,7 +2054,8 @@
         "url": "https://uxdesign.cc/what-is-ai-really-costing-the-planet-ec14be648d65",
         "source": "UX Collective",
         "why": "设计师每天在做「要不要加 AI 功能」的决策，这篇提供了最被忽视的成本维度——环境代价。数据具体、角度独特，是做 AI 产品设计时的思维校准器。",
-        "type": "深度观点"
+        "type": "深度观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*nu_VUDOBRzesX7m4PksGqQ.png"
       },
       {
         "title": "AI 盈利公式的缺失一步：从炒作到落地，中间的问号在哪里",
@@ -1981,7 +2086,8 @@
         "url": "https://uxdesign.cc/the-art-of-subtraction-in-a-world-of-infinite-features-722a9f02ed73",
         "source": "UX Collective",
         "why": "直击 SOUL.md 核心：减法比加法难。AI 辅助设计泛滥的当下，这篇是难得的「删除力」思考框架，配合《宫娥》案例，记忆点强。",
-        "type": "设计哲学"
+        "type": "设计哲学",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*TwCsRRsIgtt1Dx3qizngIg.png"
       },
       {
         "title": "大模型学会了我们最坏的设计习惯——现在得靠设计师来纠正",
@@ -1989,7 +2095,8 @@
         "url": "https://uxdesign.cc/the-web-trained-ai-to-deceive-now-designers-have-to-untrain-it-420f9d3fe78e",
         "source": "UX Collective",
         "why": "有数据支撑的重要警告。用 Cursor 或 Claude 生成 UI 时，模型的默认倾向是操纵性设计，这不是抽象风险，是已有研究证实的现象，设计师必须知道。",
-        "type": "AI × 设计伦理"
+        "type": "AI × 设计伦理",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*tiDAT2m9p8AhIiERIAMQ2Q.png"
       },
       {
         "title": "AI 替你省掉了找同事「麻烦」——但那些「麻烦」正是团队凝聚的来源",
@@ -2011,7 +2118,8 @@
         "url": "https://uxdesign.cc/becoming-an-ai-native-designer-828365b71109",
         "source": "UX Collective",
         "why": "第一视角的 AI 原生设计工作流实录，涉及 Claude Code、Figma Make 的真实使用方式，3C 框架直接可以拿来用。叉叉在做 AI 产品设计，这篇非常对口。",
-        "type": "design-workflow"
+        "type": "design-workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*By2n_OAWsg5a3W_k4cCScw.png"
       },
       {
         "title": "Musk 对 Altman 的诉讼今天开庭：OpenAI 这场戏要乱了",
@@ -2074,7 +2182,8 @@
         "url": "https://uxdesign.cc/the-rulebook-for-designing-ai-experiences-a22a50bb063c",
         "source": "UX Collective",
         "why": "叉叉在微软做设计，这篇文章直接横评了微软自家的 HAX Toolkit 和竞品框架，是极其稀有的 principle-to-practice 拆解。AI 产品体验设计是当前最核心的方向，而「适当信任」这个概念值得在下次 design review 里用上。",
-        "type": "design_insight"
+        "type": "design_insight",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*cA5iLCuIYz_4-NJ1"
       },
       {
         "title": "NNGroup 实测：10 条让 AI 聊天机器人真正有用的设计准则",
@@ -2105,7 +2214,8 @@
         "url": "https://uxdesign.cc/designing-with-ai-without-losing-your-mind-0cfba48f6309",
         "source": "UX Collective",
         "why": "直接戳中当前最热的设计焦虑——AI 加速与批判性思维退化之间的张力。作者不只是焦虑，还建了工具来对抗这种趋势，视角罕见且有实操价值。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*joB_uXhHUkWS5LNqYLaf2w.png"
       },
       {
         "title": "Claude 开始直接接管你的个人 App：Spotify、Uber、TurboTax 全来了",
@@ -2154,7 +2264,8 @@
         "url": "https://uxdesign.cc/what-improv-taught-me-about-why-innovation-falls-out-of-sync-1e3961fa2083",
         "source": "UX Collective",
         "why": "用即兴喜剧类比团队协调失败，视角新鲜且直指真实痛点：多团队并行时用户旅程「错位」的根源不是个人问题，是系统性失同步。",
-        "type": "insight"
+        "type": "insight",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*fCnWasttdW8XNqYQcLPFrg.jpeg"
       }
     ]
   },
@@ -2167,7 +2278,8 @@
         "url": "https://uxdesign.cc/how-design-leaders-influence-decisions-without-being-in-the-room-4f52fbffabba",
         "source": "UX Collective",
         "why": "在微软这样的大公司，设计师经常面对「你不在的会议里方案被改了」的困境。这个三段式 Annotation 框架轻量、即插即用，尤其适合 Figma 文档里的设计说明场景。",
-        "type": "设计职业发展"
+        "type": "设计职业发展",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*H2dvi1bGTFhqYq3zHNFwbg.jpeg"
       },
       {
         "title": "SpaceX 想用 600 亿美元买下 Cursor，AI 编码工具大战全面升级",
@@ -2184,7 +2296,8 @@
         "url": "https://uxdesign.cc/how-to-mitigate-the-risk-of-ai-implementation-in-enterprise-environments-74d3bd7f9e65",
         "source": "UX Collective",
         "why": "微软大量产品在整合 Copilot 和 AI 功能，这篇文章提供的「信任预算」框架和早期介入策略直接可以用在项目里，帮助设计师从执行者变成 AI 实施的质量守门员。",
-        "type": "AI × 产品设计"
+        "type": "AI × 产品设计",
+        "image": "https://miro.medium.com/v2/resize:fit:700/1*_SrLdFiij_L8efw4huzi-Q.png"
       }
     ]
   },
@@ -2197,7 +2310,8 @@
         "url": "https://uxdesign.cc/product-design-in-2026-the-beginning-of-a-fantastic-voyage-fb6866c907ac",
         "source": "UX Collective",
         "why": "直接回应「AI 时代设计师影响力」这个核心议题，观点有立场、有历史感，不是泛泛而谈",
-        "type": "Article"
+        "type": "Article",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*MVUGnVklRmr7-Jd7OToytQ.png"
       },
       {
         "title": "Session 超时：被设计师长期忽视的无障碍隐患",
@@ -2228,7 +2342,8 @@
         "url": "https://uxdesign.cc/rethinking-the-shape-of-design-teams-in-an-ai-world-82f986bf9a27",
         "source": "UX Collective",
         "why": "直接击中「AI 时代设计师的职业发展」核心焦虑，且从组织设计角度切入，视角比个人层面的讨论更深。在微软这样的大公司里，团队结构问题比个人技能问题更难解决，值得提前思考。",
-        "type": "深度观点"
+        "type": "深度观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*ir0cDqBqOD5ya4W4P8ODWQ.png"
       },
       {
         "title": "当 AI Agent 涌入开源社区，维护者们在经历什么",
@@ -2259,7 +2374,8 @@
         "url": "https://uxdesign.cc/are-we-makers-by-nature-or-consumers-by-design-0a63abb301f0",
         "source": "UX Collective",
         "why": "直击设计师身份焦虑的核心。AI 时代每天面对 AI 生成稿、做评估和调整，这篇文章为「我还在真正创作吗？」这个隐忧提供了神经科学框架，值得认真读。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1100/1*SvldUAybuRKtuPRLcigwqw.png"
       },
       {
         "title": "AI 内存战争：全球 RAM 短缺可能持续到 2030 年",
@@ -2290,7 +2406,8 @@
         "url": "https://uxdesign.cc/your-ai-agent-can-read-your-codebase-it-doesnt-know-your-product-b5ea0cd77989",
         "source": "UX Collective",
         "why": "直接点中 AI 辅助工作流的核心漏洞——Agent 缺设计上下文，不是缺代码。七种知识形态的分类框架实战价值高，做产品的设计师现在就能拿去用。",
-        "type": "article"
+        "type": "article",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*6lNukzpJn_nxPXQynBy5IQ.png"
       },
       {
         "title": "设计师如何在大公司真正影响产品方向：信息管道框架",
@@ -2321,7 +2438,8 @@
         "url": "https://uxdesign.cc/i-watched-the-manosphere-documentary-here-is-how-design-is-making-things-worse-771de2bad594",
         "source": "UX Collective",
         "why": "设计师最容易忽视的盲区：我们优化的每一个交互指标背后，可能都在放大某种我们没想清楚的行为。今天最有立场的一篇。",
-        "type": "design-ethics"
+        "type": "design-ethics",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*MX_aOyNP_5bje_L7.jpg"
       },
       {
         "title": "OpenAI Codex 大更新：能操控 Mac 桌面、并行多 Agent、记住偏好——正面迎战 Claude Code",
@@ -2384,7 +2502,8 @@
         "url": "https://uxdesign.cc/how-to-turn-your-competitors-worst-reviews-into-your-strongest-design-argument-6d216680693d",
         "source": "UX Collective",
         "why": "做设计决策最难的不是想到好方案，而是说服别人。竞品差评是现成的、真实的、有说服力的证据——这个视角很实用，直接可以用在下次 design review 里。",
-        "type": "design-research"
+        "type": "design-research",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*LT7qfsbWg9imeoq8kROUNg.jpeg"
       },
       {
         "title": "Chrome 推出 AI Skills：把常用 Prompt 存成一键复用的工作流",
@@ -2401,7 +2520,8 @@
         "url": "https://uxdesign.cc/the-trust-latency-gap-why-the-future-of-ux-is-intentionally-slower-3433c1787d5e",
         "source": "UX Collective",
         "why": "在 AI agent 功能越来越普遍的今天，「什么时候该让用户感受到 AI 在工作」是个真实的设计问题。这篇文章给了一个清晰的框架：不是所有场景都追求速度，高风险场景需要可见的过程感。设计 AI 产品必读。",
-        "type": "ux-principles"
+        "type": "ux-principles",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*BHVMhh66sVPsdJJFLSNvAg.jpeg"
       }
     ]
   },
@@ -2414,7 +2534,8 @@
         "url": "https://uxdesign.cc/vibe-coding-is-accelerating-the-erosion-of-design-authority-4dc21b233606",
         "source": "UX Collective",
         "why": "直接命中现在每个设计团队都在经历的困境：AI 工具越来越快地生成界面，但「可见即完成」的幻觉也在同步侵蚀设计师的专业话语权。值得每个 Product Designer 认真读。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*LMUuNfJ--Mju8pLe2BEqvQ.jpeg"
       },
       {
         "title": "我们无意间造了这个——「不惜代价的 engagement」如何吞噬设计伦理",
@@ -2422,7 +2543,8 @@
         "url": "https://uxdesign.cc/we-didnt-mean-to-build-this-engagement-at-any-cost-f0d80c24e14f",
         "source": "UX Collective",
         "why": "在 AI 工具加速设计输出的今天，设计伦理从来没有像现在这么重要，也从来没有这么容易被忽视。这篇文章是一个必要的打断。",
-        "type": "essay"
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*es7ttfjlm6EiaU-FcyAH7A.png"
       },
       {
         "title": "AI 虚拟网红「涌入」Coachella：你看到的那张脸，可能根本不存在",
@@ -2444,7 +2566,8 @@
         "url": "https://uxdesign.cc/most-products-dont-need-tone-of-voice-they-need-a-point-cf37f7c752ac",
         "source": "UX Collective",
         "why": "直接挑战了设计师常见的执念。「品牌语气」VS「能不能完成任务」——这个区分在 AI 产品时代尤其重要，很多团队还在花时间写 tone guide 而不是改掉让用户卡住的文案。",
-        "type": "opinion"
+        "type": "opinion",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*MgIqV6oO-Ii_x8XlDw3OVg.jpeg"
       },
       {
         "title": "AI 编程大战白热化：OpenAI、Google、Anthropic 的三方争夺",
@@ -2461,7 +2584,8 @@
         "url": "https://uxdesign.cc/designing-adaptive-teams-cee73e55013d",
         "source": "UX Collective",
         "why": "在 AI 把个人生产力拉平的趋势下，团队的系统性学习能力会成为真正的护城河。这篇文章提供了一个实用的思维框架——不是那种「建立心理安全感」的泛泛之词，而是有结构的五步拆解。",
-        "type": "leadership"
+        "type": "leadership",
+        "image": "https://miro.medium.com/v2/resize:fit:963/1*4owVh9f_j8qGgw37rHlkNA.png"
       }
     ]
   },
@@ -2474,7 +2598,8 @@
         "url": "https://uxdesign.cc/notes-from-the-people-building-your-future-2a1c7a9dfbcd",
         "source": "UX Collective",
         "why": "AI 产品设计师需要理解自己所在行业的权力结构和叙事框架，而不只是会用工具。这篇文章帮你看清楚谁在设定游戏规则、以及为什么这份「以人为本」的文件恰恰值得审慎对待。",
-        "type": "opinion"
+        "type": "opinion",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*m4oMGnKflAnHuMYoGodgQA.png"
       },
       {
         "title": "《纽约客》用 AI 插画配 AI 报道——这个选择到底对不对？",
@@ -2491,7 +2616,8 @@
         "url": "https://uxdesign.cc/rethinking-design-critique-3d358a859304",
         "source": "UX Collective",
         "why": "设计师成长最快的方式之一就是高质量的评审文化，但大多数团队的 critique 都在低效运转。这篇文章给了一个可落地的框架，值得拿去改造自己团队的评审流程。",
-        "type": "practice"
+        "type": "practice",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*r2yVP5Smz-HJc58Fv-5GZw.png"
       }
     ]
   },
@@ -2536,7 +2662,8 @@
         "url": "https://uxdesign.cc/taste-md-e4fb75d9096f",
         "source": "UX Collective",
         "why": "直击设计师在 AI 时代的身份焦虑，同时给出了有力反击：taste 不是新概念，是设计师一直在做的事，只是终于被看见了。",
-        "type": "opinion"
+        "type": "opinion",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*VVhJBoOK4jFGmVa0vcq9kA.png"
       },
       {
         "title": "Gemini 新功能：问问题，它直接给你一个可以转的 3D 模型",
@@ -2567,7 +2694,8 @@
         "url": "https://uxdesign.cc/social-media-on-trial-32be44a6434e",
         "source": "UX Collective",
         "why": "设计的法律责任时代正式到来。这篇文章用具体判决结果说明：成瘾设计、针对儿童的 dark pattern，已经从不道德升级为法律罪行。对任何做消费者产品的设计师来说，这个案例值得深读、值得存档。",
-        "type": "design-ethics"
+        "type": "design-ethics",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*3g_rANzM6n-e5CcvZmrI_g.png"
       },
       {
         "title": "三天 workshop 死了：2026 年设计工作坊怎么才能真正有用？",
@@ -2575,7 +2703,8 @@
         "url": "https://uxdesign.cc/the-old-design-workshop-is-dead-long-live-design-workshops-98f4ee58d9a7",
         "source": "UX Collective",
         "why": "大公司最容易陷入 workshop 剧场——大家都出席了，Post-it 贴满了，实际决策没发生。这篇文章直接给了解法：更短、更聚焦、有明确输出物的工作坊设计方式，拿来就能用。",
-        "type": "design-process"
+        "type": "design-process",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*EX4OMf4D_5yWw4uF8Bhv2A.jpeg"
       },
       {
         "title": "AI Agent 终于学会「总结经验」了：解决永久实习生问题的记忆框架",
@@ -2606,7 +2735,8 @@
         "url": "https://uxdesign.cc/careful-liable-ux-is-a-thing-now-ff088a766de8",
         "source": "UX Collective",
         "why": "设计决策有法律后果这件事迟早会改变产品流程。叉叉在大公司做设计，这种外部压力会从法务、合规方向传导进来，早知道早准备。",
-        "type": "设计伦理 / 行业动态"
+        "type": "设计伦理 / 行业动态",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*KNqPT56IAfnDLcIrCesRZg.png"
       },
       {
         "title": "Don Norman 亲自批判了自己发明的「以人为中心设计」",
@@ -2614,7 +2744,8 @@
         "url": "https://uxdesign.cc/beyond-the-user-why-design-needs-to-widen-its-circle-5d6d6bca783e",
         "source": "UX Collective",
         "why": "Don Norman 自我批判是罕见的。这篇文章有助于建立设计视角的层次感——不只看用户，也看系统。对叉叉的 product thinking 有长期价值。",
-        "type": "设计思维 / 大视角"
+        "type": "设计思维 / 大视角",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*t6eSkX1n6ToCdWyzUwRylw.png"
       }
     ]
   },
@@ -2627,7 +2758,8 @@
         "url": "https://uxdesign.cc/designers-finally-have-a-say-in-the-product-they-design-396c999e1227",
         "source": "UX Collective",
         "why": "叉叉在微软做设计，handoff 摩擦是日常痛点。这篇不是鸡汤，是在描述一个结构性转变正在发生——设计师和产品之间的那层翻译损耗，正在被 AI 工具直接绕过。",
-        "type": "design-workflow"
+        "type": "design-workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*FHU_M4kv9dnvnf7dJOdE_A.png"
       },
       {
         "title": "地基在晃：设计师为何必须反转与 AI 的关系",
@@ -2635,7 +2767,8 @@
         "url": "https://uxdesign.cc/the-ground-is-shaking-why-designers-must-flip-the-script-on-ai-9211053bbadd",
         "source": "UX Collective",
         "why": "这篇有立场、有论据。它说的不是「AI 会取代设计师吗」，而是「设计师一直在守护什么，AI 又恰好看不见什么」。是能帮叉叉建立清晰叙事的那种文章。",
-        "type": "design-thinking"
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*SSTKV-rZ5RU2tixXqZ9-yA.jpeg"
       },
       {
         "title": "Figma 向 AI agent 开放画布后，团队里每个设计师的产出质量都变得差不多了",
@@ -2643,7 +2776,8 @@
         "url": "https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec",
         "source": "UX Collective",
         "why": "Figma MCP 是这周的实际新动向，这篇把它的产品影响描述得很具体。叉叉在带设计团队，这个「output 无差别化」的问题迟早要面对。",
-        "type": "ai-tools"
+        "type": "ai-tools",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*YEV767ysEPABTeV62uMreg.png"
       }
     ]
   },
@@ -2656,7 +2790,8 @@
         "url": "https://uxdesign.cc/the-invisible-layer-of-ux-most-designers-ignore-69272cda4468",
         "source": "UX Collective",
         "why": "很多设计师「知道」无障碍重要，但没有直觉感受过自己的界面被读出来是什么样。这篇文章给了一个具体的心智模型——把 UI 拍平成线性，逼你重新审视组件结构，而不是颜色对比度。",
-        "type": "design-craft"
+        "type": "design-craft",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*kmT7QnHT5fCWK6-IsZWsLg.png"
       },
       {
         "title": "我让 Gemini 给我规划了一整天，效果出乎意料地好",
@@ -2687,7 +2822,8 @@
         "url": "https://uxdesign.cc/designers-we-are-perpetuating-our-own-burnout-problem-6caaa3662f2e",
         "source": "UX Collective",
         "why": "不是在讲如何避免倦怠，而是在追问倦怠的结构性根源。对在大厂做设计的叉叉来说，这种视角比任何 work-life balance tips 都更有价值。",
-        "type": "career"
+        "type": "career",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*47qojH54DmjLfOj_.jpeg"
       },
       {
         "title": "你说是你做的？证明给我看",
@@ -2727,7 +2863,8 @@
         "url": "https://uxdesign.cc/context-matters-a-lot-7799188344dc",
         "source": "UX Collective",
         "why": "Prompt 设计已经不够用了，下一步是 context 设计。这篇文章把行业趋势提炼成三个具体 pattern，叉叉在做 AI 产品设计时可以直接对照。",
-        "type": "design"
+        "type": "design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*BlLblqy3cr0YfXryczSv1A.png"
       },
       {
         "title": "重要提醒：Anthropic 明日起停止 OpenClaw 使用 Claude 订阅额度",
@@ -2750,7 +2887,8 @@
         "summary": "Max Planck Institute 分析近 28 万条学术 YouTube 视频，发现 ChatGPT 发布后 18 个月内，「delve」使用频率增加 48%，「realm」增加 35%，「adept」增加 51%——而且这些词出现在即兴发言中，不是照稿朗读。这说明 AI 语言已经悄悄渗入人类的日常表达方式，形成了一个「人类写作喂给 AI，AI 输出再反喂给人类」的闭环。文章进一步分析了 em dash 被误认为「AI 标志」的案例，指出这其实是几百年的文学传统，用它来判断 AI 生成并不可靠。真正值得警惕的不是某个词或标点，而是：当 AI 不断用统计优化后的表达方式反哺我们，我们是否在慢慢失去个人表达的独特性？对产品设计师而言，这是 AI copywriting 工具和语音界面设计的核心矛盾——用户是否真的想要「更好的 AI 文字」，还是想要「听起来像自己的文字」？",
         "url": "https://uxdesign.cc/ai-is-rewriting-the-rules-language-is-following-b811a1a91ced",
         "why": "这篇有数据支撑、视角独特。AI 改写语言习惯这件事正在悄悄发生，而设计师日常用 AI 写文案/microcopy 时，正在参与这个过程。理解这个趋势，有助于在设计 AI 写作工具时做更有立场的判断。",
-        "publishedAt": "2026-04-01"
+        "publishedAt": "2026-04-01",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*rnOVp5OqUU_heBvjUmTPnQ.png"
       },
       {
         "source": "Smashing Magazine",
@@ -2784,7 +2922,8 @@
         "summary": "Figma 通过 MCP server 向 AI agent 开放了画布，Claude Code、Cursor、Codex 等 coding agent 现在能直接在 Figma 文件里读取设计系统、创建和修改组件。作者看了 demo：Claude Code 在几分钟内生成了一套 72 个变体的完整组件，token 引用正确，命名规范匹配，间距符合系统。然后他回头看了自己团队同周的产出，发现令他不安的事：他很难区分哪个是 AI 生成的。核心问题不是「AI 能不能做设计」，而是「当 AI 和人类使用同一套设计系统时，产出看起来一样的情况下，真正的价值在哪里」。文章最后指向一个残酷结论：你曾经轻视的那些技能——深度研究、系统性思考、解读模糊需求——现在才是团队最贵的能力，因为 AI 正在快速抹平执行层面的差距。",
         "url": "https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec",
         "why": "Figma MCP 是今天设计界最大的新闻，这篇文章是第一批认真反思其影响的第一手报告。不是「AI 来了好可怕」，而是「当组件生成被自动化，设计师的差异化价值到底在哪里」。直接和叉叉的工作相关。",
-        "publishedAt": "2026-04-01"
+        "publishedAt": "2026-04-01",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*YEV767ysEPABTeV62uMreg.png"
       },
       {
         "source": "Smashing Magazine",
@@ -2818,7 +2957,8 @@
         "summary": "作者 Christine Vallaure 是一名非工程师，她在 Claude Cowork 里仅用 markdown 文本文件，一天之内组建了五个各有角色的 AI Agent：主编 Elke 负责把控全局方向、销售 Joan 关注变现逻辑、文字助手 Caitlin 保持作者语气、产品设计师 Miranda 负责网站改版、读者倡导者 Rachel 只关心「读者是否真的得到了帮助」。这五个角色彼此之间可以争论、可以推翻作者的决定，每次新建对话时会自动读入共享的 markdown 文件恢复记忆。文章最核心的洞察是：区分一个普通聊天机器人和一个真正会 push back 的 AI 协作者，只需要「七行描述 + 一条指令」。对设计师而言，这篇文章展示了「Context Engineering」的实际落地方式——用结构化文本定义角色、权限、记忆，而不是靠复杂代码。它证明了 AI 工作流设计本身就是一种 design 能力。",
         "url": "https://uxdesign.cc/a-human-approach-to-agentic-ai-one-person-one-text-file-five-agents-9e049fc0a612",
         "why": "这是一篇「非工程师角度」的 AI 工作流第一手报告，直接证明了：了解如何设计 AI 的工作结构（prompt、角色、记忆）比会不会写代码更关键。作为 Product Designer，这正是你的竞争优势所在。",
-        "publishedAt": "2026-03-30"
+        "publishedAt": "2026-03-30",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*PJbOFo2pH7IyWzFXtYm8vw.png"
       },
       {
         "source": "Hugging Face Blog",
@@ -2851,7 +2991,8 @@
         "summary": "作者 Dora Czerna 用三个跨越几个世纪的颠覆时刻——古腾堡印刷机、包豪斯被迫关闭、桌面出版崛起——拼出了一条清晰的历史弧线：民主化带来质量崩塌，然后新标准重新确立。印刷机让知识从垄断走向泛滥，50年内欧洲流通了2000万册书，但同时也催生了巫术审判的耸人听闻小册子。包豪斯被纳粹强制关闭，结果反而把其师资分散到哈佛、IIT、耶鲁，全球放大了现代主义设计教育。1985年桌面出版出现，联排工人失业，大量垃圾设计涌现，但专业知识并没有消亡，只是重新定位了门槛。核心洞察：这条弧线不会因为 AI 而改变。当前设计师对「学什么工具、职业阶梯还在吗」的焦虑，和每次技术颠覆期完全一致，但历史表明职业总会找到新的栖身之所——只是在哪里往往出乎所有人预料。",
         "url": "https://uxdesign.cc/disruption-has-a-shape-design-history-shows-us-what-it-is-47c0aaa6bbbf",
         "why": "这是那种「读完安心很多，但不是鸡汤」的文章。历史案例都有数据支撑，论证扎实。对于正在焦虑「AI 是不是要取代我」的设计师，这篇提供了真正有依据的历史视角，而不是空洞安慰。",
-        "publishedAt": "2026-03-28"
+        "publishedAt": "2026-03-28",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*ZfI22oQmzCWMQXP4ucTHUQ.png"
       },
       {
         "source": "Nielsen Norman Group",
@@ -2885,7 +3026,8 @@
         "summary": "文章从哲学出发，援引 Hume 的《品味标准》和 Bourdieu 的《区隔》，论证「品味」不是天赋，而是一种通过大量接触、比较和诚实自省培养出来的情境判断能力。核心论点是：AI 压缩了创作的时间线，让你可以从 brief 到产出只需要几秒——但它跳过了 Graham Wallas 提出的「孵化期」，那个让输入转化为真正判断力的慢速消化过程。当你绕过孵化期，你不是消除了对品味的需求，而是更快地暴露了它的缺失。文章还提到 Suno CEO 关于「大多数人并不享受创作过程」的争议言论，用它来说明：AI 工具正在把「拥有想象力」和「真正拥有创造力」这两件事混淆。对设计师的警示：越用 AI 生成，越需要精准的判断力来筛选和评估产出——而这种能力只能通过大量主动的审美积累获得，没有捷径。",
         "url": "https://uxdesign.cc/taste-is-not-a-feature-720ca15366c7",
         "why": "这篇直接命中了一个设计师正在经历的困惑：AI 能帮我生成，但我怎么知道哪个更好？答案不是「多用 AI」，而是「建立更深的品味体系」。哲学依据扎实，有具体的创作过程模型，不是空洞的鸡汤。",
-        "publishedAt": "2026-03-27"
+        "publishedAt": "2026-03-27",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*7O4MenPkZyqtWJe4TzjvaQ.png"
       },
       {
         "source": "Nielsen Norman Group",
@@ -2919,7 +3061,8 @@
         "summary": "这篇文章用历史学家的视角切入，把当下的 AI 浪潮和 150 年前的工业革命对齐比较。作者从 Eli Whitney 的可互换零件到福特的流水线切入，核心论点是：工业革命真正的革命不是机器，而是劳动关系的重新签约——福特把工人工资翻倍、把工时从 9 小时缩到 8 小时，本质是让工人「接受新工作方式」的激励机制。AI 革命也在做同样的事：不是某一天突然颠覆，而是通过渐进渗透重写「谁做什么工作、怎么做」的底层协议。最有价值的观察：Ford 成功的关键不是技术，而是「他理解并控制了整个生产流程，所以能重新设计它」。对设计师的启示——当你能看清完整的用户旅程，你才有资格重新设计它。AI 替代执行，设计师的价值在于看见全局。",
         "url": "https://uxdesign.cc/the-intelligence-revolution-wont-be-televised-it-will-be-automated-over-a-longer-arc-47a60a45323e",
         "why": "这不是「AI 会替代你吗」的焦虑文，而是有历史纵深的思考框架。工业革命类比准确，且点出了 designer 真正应该担心的不是工具，而是「如果你对自己的领域没有全局理解，你就没有重新设计它的资格」。",
-        "publishedAt": "2026-03-23"
+        "publishedAt": "2026-03-23",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*KJ8K9YAMpanZcgAjcA1yjg.png"
       },
       {
         "source": "The Verge",
@@ -2953,7 +3096,8 @@
         "summary": "一篇让人不舒服但很诚实的文章。作者论述：设计师从未真正主导过自己行业的演进，桌面出版、响应式框架、CMS——没有一个是设计师「投票通过」进入专业实践的，都是机构/市场决定后设计师跟上。AI 也一样，机构采用 AI 不是因为设计师欢迎它，而是因为更快更便宜更可规模化。WEF 2025 年报告数据：图形设计是五年内下降最快的职业之一，与收银员、行政助理并列。但文章没有悲观收场：AI 无法替代的是解读模糊需求、协调利益冲突、评估伦理影响这类高判断力工作。结论：执行能力的价值在下降，诠释能力变得更核心——「design as interpretation」而非「design as production」。数据和论据都相当扎实。",
         "url": "https://uxdesign.cc/sorry-designers-we-dont-decide-the-future-of-design-1510374e8807",
         "why": "不是那种「AI 时代设计师要进化」的鸡汤，而是有据可查的行业判断。WEF 数据、BU 劳动力市场研究都有引用。读完可能不舒服，但舒不舒服不是判断好文章的标准。",
-        "publishedAt": "2026-03-22"
+        "publishedAt": "2026-03-22",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*vQRtaegyXpofzegd"
       },
       {
         "source": "The Verge",
@@ -3085,7 +3229,8 @@
         "title": "别再追求「lovable 产品」了，真正的杠杆点始终是学习",
         "summary": "资深产品人反思：团队总想做出「令人喜爱的产品」，但真正的竞争优势不是产品本身有多可爱，而是团队学习和适应的速度。早期快速学习、快速迭代，比精心打磨一个「完美版本」有效得多。lovable 不是目标，learning velocity 才是。",
         "url": "https://uxdesign.cc/forget-your-lovable-products-the-real-leverage-point-was-always-learning-406a28751aae",
-        "why": "对产品设计师的思维模式挑战：别纠结于做出「完美设计」，而是建立快速学习-验证-迭代的能力。"
+        "why": "对产品设计师的思维模式挑战：别纠结于做出「完美设计」，而是建立快速学习-验证-迭代的能力。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*yklQNOlres228FLvpfQ_jA.jpeg"
       },
       {
         "source": "David Bushell",
@@ -3102,7 +3247,8 @@
         "title": "Kahneman 的「第二个问题」：被追问时的不适感才是设计洞察的入口",
         "summary": "作者从 Daniel Kahneman 的研究方法中提炼出设计研究的关键：当用户对第一个回答感到自信时，追问第二个更深层的问题。那个让人不舒服的沉默和犹豫，往往暴露出真正的认知模型和决策逻辑。",
         "url": "https://uxdesign.cc/no-further-questions-please-3cc7e7e6ff0c",
-        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。"
+        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Lrfykm7WntgRbiASvgUI3g.png"
       }
     ]
   },
@@ -3147,7 +3293,8 @@
         "title": "Context Engineering：给产品设计师的可复用 AI 工作流",
         "summary": "文章指出给 AI 加更多细节不一定更好，准确率反而可能下降。核心观点：Context Engineering 不是 prompt 写得长，而是给 AI 恰好需要的上下文——结构化、分层、按需提供。设计师可以用这个思路优化自己和 AI 协作的 workflow。",
         "url": "https://uxdesign.cc/context-engineering-a-repeatable-ai-workflow-for-product-designers-8d7b55b83b2b",
-        "why": "直接关联我们自己的 Context Engineering 实践：MEMORY.md 只存改变决策的信息，不存流水账。"
+        "why": "直接关联我们自己的 Context Engineering 实践：MEMORY.md 只存改变决策的信息，不存流水账。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*KFgjggFYYT9rjbxCN-TiyQ.png"
       },
       {
         "source": "The Verge",
@@ -3164,7 +3311,8 @@
         "title": "AI World Model 的图标盲区：设计师的实地报告",
         "summary": "设计师实测发现 AI 世界模型（如 Sora、视觉生成类 AI）对图标符号的理解存在系统性盲区。AI 能理解照片级真实场景，但对抽象符号（如交通标志、UI 图标）的语义理解非常弱，经常误读或忽略。",
         "url": "https://uxdesign.cc/a-designers-field-report-on-the-iconic-blind-spot-in-ai-world-models-fccc7b8610bb",
-        "why": "AI 视觉理解的局限性直接影响 AI 辅助设计工具的可靠性，设计师需要知道哪些元素 AI 搞不定。"
+        "why": "AI 视觉理解的局限性直接影响 AI 辅助设计工具的可靠性，设计师需要知道哪些元素 AI 搞不定。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*_D3OTUl5m2aLKQKpkwlcDg.jpeg"
       }
     ]
   },
@@ -3177,7 +3325,8 @@
         "title": "你的手机没在偷听——真相比窃听更诡异",
         "summary": "手机并没有通过麦克风偷听你的对话，但广告精准度让人毛骨悚然的原因更可怕：行为预测算法通过位置、搜索历史、社交图谱、购买记录等数据，比你自己更早知道你要买什么。隐私问题的真正核心不是「有没有在听」，而是「不听也能猜到」。",
         "url": "https://uxdesign.cc/your-phone-isnt-eavesdropping-the-reality-is-stranger-489b20c4ffcc",
-        "why": "设计隐私相关的 AI 产品时，用户的心理模型（被监听）和实际机制（行为预测）的差距是核心 UX 挑战。"
+        "why": "设计隐私相关的 AI 产品时，用户的心理模型（被监听）和实际机制（行为预测）的差距是核心 UX 挑战。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Gp61h9hg6OCvfeIzE161qA.png"
       },
       {
         "source": "The Verge",
@@ -3194,7 +3343,8 @@
         "title": "游戏真的在「弱智化」吗？从上古卷轴看设计简化的逻辑",
         "summary": "从 Morrowind 到 Skyrim，Elder Scrolls 系列的游戏机制越来越简单。但作者认为这不是「弱智化」，而是有意识的设计简化——降低操作复杂度，让玩家把注意力放在叙事和探索上。好的简化是去掉不创造价值的复杂度，而不是去掉深度。",
         "url": "https://uxdesign.cc/are-games-really-dumbing-down-a61df9dff743",
-        "why": "和产品设计直接相关：简化不等于弱智化，关键是去掉不创造价值的复杂度。"
+        "why": "和产品设计直接相关：简化不等于弱智化，关键是去掉不创造价值的复杂度。",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1080/0*VmvgRSLPwSYkPYk9"
       }
     ]
   },
@@ -3228,7 +3378,8 @@
         "summary": "20 年资历设计师的职业观察：AI 降低产出门槛后，技术能力信号价值下降。70%工作通过人脉获得，决定推荐的核心是 reliability——按时交付、压力下稳定、让合作者放心。",
         "url": "https://uxdesign.cc/reliability-is-the-currency-of-opportunity-in-the-age-of-ai-28faf901bb1b",
         "why": "对职业发展的实用提醒：当 AI 让所有人的作品集都差不多好时，区分你的不是技术而是合作体验。可以反思自己在团队中的 reliability 信号。",
-        "publishedAt": "2026-03-14"
+        "publishedAt": "2026-03-14",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Gkh1flw735G2WrrXH0lvxg.jpeg"
       }
     ]
   },
@@ -3252,7 +3403,8 @@
         "summary": "资深产品设计师复盘项目贡献分布，发现 AI 接手最多的是 Design 环节，而设计师不可替代的价值在 thoughtful craft 阶段。当第一步从「核心问题是什么」变成「什么 prompt 出最好看的结果」，战略意图就被外包了。引用 Deep Work 理论，认为 AI 工具在侵蚀设计师深度思考能力。",
         "url": "https://uxdesign.cc/the-hidden-cost-of-ai-design-tools-what-were-outsourcing-without-noticing-9057db75aaf9",
         "why": "做 AI 产品设计时容易掉进「prompt-first」陷阱。这篇提醒：先想清楚用户问题再动手，AI 是加速器不是方向盘。可以用来反思自己日常 workflow 中哪些环节在「外包思考」。",
-        "publishedAt": "2026-03-13"
+        "publishedAt": "2026-03-13",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*PHJ1tr52FfFko7eom192LA.jpeg"
       },
       {
         "source": "NNGroup",
@@ -3331,7 +3483,8 @@
         "summary": "回顾 2004 年 Volvo YCC 概念车，全女性团队设计。女性购买美国62%新车、影响85%购车决策，但汽车工程师中女性仅5%。YCC 的很多设计（更好视野、易清洁内饰）实际对所有用户更好。",
         "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
         "why": "经典的「为边缘用户设计，所有人受益」案例。做 AI 产品时同样适用：为非技术用户设计的简化流程，技术用户同样会选择使用。",
-        "publishedAt": "2026-03-11"
+        "publishedAt": "2026-03-11",
+        "image": "https://miro.medium.com/v2/resize:fit:800/0*bfBdtYkbaNlvq5eg.jpg"
       }
     ]
   },
@@ -3345,7 +3498,8 @@
         "summary": "2004 年 Volvo 组建全女性团队设计 YCC 概念车，针对女性用车场景做了大量创新（自修复漆面、免开引擎盖维护）。女性购买了美国 62% 的新车，但汽车工程师仅 5% 是女性。更严重的是碰撞测试假人以男性体型为标准，女性重伤概率高 73%。YCC 的创新被量产车吸收，但全女性团队实验未延续。核心教训：任何产品只用「默认用户」做设计，就会系统性伤害被排除群体。",
         "url": "https://uxdesign.cc/what-happened-to-the-car-designed-for-women-by-women-1fdcde8a0bc4",
         "why": "提醒设计师检视自己的「默认用户假设」。做 AI 产品时同理——训练数据和测试场景如果只覆盖主流用户，边缘群体的体验就会被系统性忽略。",
-        "publishedAt": "2026-03-11"
+        "publishedAt": "2026-03-11",
+        "image": "https://miro.medium.com/v2/resize:fit:800/0*bfBdtYkbaNlvq5eg.jpg"
       },
       {
         "source": "HuggingFace",
@@ -3389,7 +3543,8 @@
         "summary": "拆解 cosy games（Animal Crossing、Stardew Valley、Pokopia）为什么在焦虑时代卖出数千万份。核心设计框架是「safety + abundance + softness」三要素——无危险、资源充足、低压力但有意义。作者指出这是临床意义上的「恢复性环境」设计，帮助神经系统降温，而不是逃避主义。",
         "url": "https://uxdesign.cc/the-calm-and-charm-of-cosy-games-in-a-chaotic-world-7f29dbd8f4d9",
         "why": "当用户处于高压状态时（比如健康、财务类 app），减少选择、降低节奏、提供掌控感比增加功能更有价值。safety-abundance-softness 可以直接作为设计审查维度。",
-        "publishedAt": "2026-03-09"
+        "publishedAt": "2026-03-09",
+        "image": "https://miro.medium.com/v2/resize:fit:1171/1*wIYrmcUNkRMcH5Imgshhew.png"
       },
       {
         "source": "Hugging Face",
@@ -3413,7 +3568,8 @@
         "summary": "Citrini Research 报告预测 2028 年 AI 让 SaaS 自我蚕食。这篇从 UX 角度切入：真正被颠覆的不是商业模式而是「用户界面」本身。当 AI agent 直接操作数据和流程，SaaS 的复杂 UI（feature creep、UX debt、过度 progressive disclosure）就成了脆弱性来源。作者认为界面膨胀是 SaaS 的结构性弱点，AI agent 会首先攻击这个弱点。",
         "url": "https://uxdesign.cc/the-last-interface-6f488a54fc4e",
         "why": "直接关系到 AI 产品设计的未来方向——如果 agent 能绕过 UI 直接完成任务，设计师的价值就不在画界面，而在定义 agent 的行为边界和用户信任机制。",
-        "publishedAt": "2026-03-08"
+        "publishedAt": "2026-03-08",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*5riPaKeoGNNxylFP"
       },
       {
         "source": "Smashing Magazine",
@@ -3451,7 +3607,8 @@
         "title": "你还在为一个已经不存在的架构设计界面",
         "url": "https://uxdesign.cc/youre-still-designing-for-an-architecture-that-no-longer-exists-28b0b10900dd",
         "source": "UX Collective",
-        "summary": "WIMP 界面范式 40 年后正被「意图驱动」的 AI 工作环境替代，product designer 需要重新思考设计的对象。"
+        "summary": "WIMP 界面范式 40 年后正被「意图驱动」的 AI 工作环境替代，product designer 需要重新思考设计的对象。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*9mKblmc_jAcMNVRSctePYw.png"
       },
       {
         "title": "HuggingFace 推出模块化 Diffusion Pipeline 构建方式",
@@ -3482,7 +3639,8 @@
         "summary": "文章论述在 AI 时代产品伦理的紧迫性：当产品能自主做决策时，设计师需要从一开始就把伦理嵌入设计过程，而不是事后补救。给出了伦理设计检查清单和组织层面的落地建议。",
         "url": "https://uxdesign.cc/product-ethics-have-never-mattered-more-9529887d975d",
         "why": "设计 AI 产品时伦理不是 nice-to-have，是核心设计约束——这篇给了可操作的框架",
-        "publishedAt": "2026-03-06"
+        "publishedAt": "2026-03-06",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*rPxWSiz8uVPqprANF6YaJA.png"
       },
       {
         "source": "Anthropic",
@@ -3530,7 +3688,8 @@
         "summary": "文章指出自动化扫描工具只能发现约30%的无障碍问题，真正的无障碍测试需要手动测试+屏幕阅读器+真实残障用户参与。作者给出了一套分层测试策略：自动扫描作为基线，键盘导航测试，屏幕阅读器测试，最后是用户测试。",
         "url": "https://uxdesign.cc/accessibility-testing-takes-more-than-a-scan-9984faf40985",
         "why": "设计师做无障碍不能只依赖 Lighthouse 分数，需要理解自动化的盲区在哪里，手动测试覆盖什么",
-        "publishedAt": "2026-03-04"
+        "publishedAt": "2026-03-04",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*knBKLBEBd2Sa99qLQMNzbg.png"
       },
       {
         "source": "GitHub",
@@ -3572,7 +3731,8 @@
         "title": "设计师如何通过「战略顾问」角色扩大影响力",
         "summary": "作者认为设计师容易陷入「只做执行」的角色，提升影响力的关键是转型为团队的战略顾问——主动参与商业决策、用数据支撑设计判断、在产品方向讨论中发声。文章给出了具体的转型路径：从理解业务指标开始，到用设计语言翻译商业目标。",
         "url": "https://uxdesign.cc/how-being-a-strategic-advisor-helps-grow-design-influence-396f9982af2c",
-        "why": "这篇直接关系到 product designer 的职业发展路径。核心问题是：你是一个「被调用的设计资源」还是一个「主动推动产品方向的人」？从执行者到顾问的关键转变不是技能，而是姿态——主动发起对话、用业务指标说话、在没人问你的时候也给出设计建议。"
+        "why": "这篇直接关系到 product designer 的职业发展路径。核心问题是：你是一个「被调用的设计资源」还是一个「主动推动产品方向的人」？从执行者到顾问的关键转变不是技能，而是姿态——主动发起对话、用业务指标说话、在没人问你的时候也给出设计建议。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*_pkArjG5y58wR8ZbImPsSw.jpeg"
       },
       {
         "source": "HuggingFace",
@@ -3617,7 +3777,8 @@
         "title": "企业「AI 采用」的表演性：为什么很多公司只是在做样子",
         "summary": "许多公司大张旗鼓宣布 AI 战略，实际落地却停留在表面——买了工具没人用，试点项目没有后续。作者分析了组织层面的阻力：中层管理者害怕被替代、缺乏真实的使用场景规划、以及 KPI 导向下的形式主义。对设计师的启示是：推动 AI 在团队中落地，需要先解决人的问题，而不是工具的问题。",
         "url": "https://uxdesign.cc/the-ai-adoption-theatre-when-innovation-becomes-performance-fd03bb16b0ce",
-        "why": "对 designer 的直接价值：当甲方说「我们要做一个 AI 功能」时，你要能判断这是真需求还是表演性需求。真需求指向具体用户痛点和可衡量的改善；表演性需求的特征是「我们需要 AI」但说不清解决什么问题。识别这个区别，能帮你避免花几个月设计一个最终没人用的功能。"
+        "why": "对 designer 的直接价值：当甲方说「我们要做一个 AI 功能」时，你要能判断这是真需求还是表演性需求。真需求指向具体用户痛点和可衡量的改善；表演性需求的特征是「我们需要 AI」但说不清解决什么问题。识别这个区别，能帮你避免花几个月设计一个最终没人用的功能。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Pyyh-t5_OXUV8jJkMXJeyA.png"
       },
       {
         "source": "NNGroup",
