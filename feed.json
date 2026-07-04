@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-04",
+    "items": [
+      {
+        "title": "设计完之后呢？Figma 到代码的 AI 管道全解析",
+        "summary": "作者 Christine Vallaure 用「四层栈」模型拆解了 Figma → AI → 代码这条链路为什么在 demo 里看起来很顺、在真实项目里却总是翻车。第一层是 MCP（Model Context Protocol）——类似 USB-C，让 Claude 等 AI 真正「读」到 Figma 文件的结构和样式，而不是靠截图猜。第二层是 Markdown 文件，也就是把设计决策、规则、例外情况写成 AI 能读的「记忆」。第三层是 design tokens，把颜色、间距、字体等变量与代码组件对接。第四层才是真正的代码生成。文章最重要的洞察：MCP 能读到你的颜色和圆角，但它不知道你的 codebase 里是否已经有现成的 Button 组件——所以它默默地每次都造一个新的。这四层是相互独立的，demo 只展示了其中一层，你的困惑不是因为你做错了什么，而是没人告诉你完整的栈长什么样。",
+        "url": "https://uxdesign.cc/you-design-it-then-what-a-clear-map-of-the-figma-to-code-ai-mess-954a4084175f",
+        "source": "UX Collective",
+        "why": "AI 辅助设计的工作流正在快速演进，这篇文章把 MCP、markdown 文件、design tokens 到代码生成的完整链路讲清楚了，是目前最实用的 Figma+AI 工作流全景图。设计师在实际使用 Claude/Cursor 时踩的坑基本都在这里有解释。",
+        "type": "workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*o-Oilskerz46L2jpF9kvxQ.png"
+      },
+      {
+        "title": "用户不需要更多工具——他们需要「无感集成」",
+        "summary": "Smashing Magazine 这篇由 Vitaly 撰写的长文提出了一个反直觉的核心论点：AI 产品的最大误区是把「功能」当成卖点，而用户真正需要的是高度契合现有心智模型的「无缝集成」。文章引入了「Quiet AI」的概念——那些在后台默默完成烦人重复任务、用户甚至意识不到 AI 在工作的工具，才是最好的 AI 体验。比如 Claude 集成进 Excel/Word/PowerPoint 的方式，或者「文件夹指令」（给文件夹设定意图，让 AI 在这个范围内自动处理文件）。文章还区分了「AI-first」和「Quiet AI」两种产品策略：前者炫技但忽视了多年积累的心智模型，后者把 AI 藏进已有的工作流里，做到不打扰、高频、低摩擦。对于正在做 AI 产品的设计师，这是一个很好的决策框架——你的 AI 功能是不是在抢用户注意力，还是真的在帮他们？",
+        "url": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+        "source": "Smashing Magazine",
+        "why": "「Quiet AI」是个值得内化的设计哲学，直接对应叉叉做的 AI 产品方向。文章从用户心智模型出发论证「藏起来的 AI」为什么比「显眼的 AI」更有价值，有理有据，可以直接影响产品决策。",
+        "type": "design-thinking",
+        "image": "https://files.smashing.media/articles/ux-impact-seamless-integrations/users-dont-need-more-tools-need-seamless-integrations.jpg"
+      },
+      {
+        "title": "停止汇报 UX 活动，开始汇报业务结果",
+        "summary": "Nielsen Norman Group 这篇文章直指一个设计团队最常见的生存危机：明明做了大量有价值的研究和设计工作，却在资源争夺中总是落败，最终被归类为「成本中心」而遭到削减。原因不是工作没价值，是汇报语言错了。文章识别了两种让 UX 看起来像成本中心的常见汇报模式：一是汇报活动数量（做了多少次研究、跑了多少轮测试），二是汇报 UX 专属指标（任务完成率、SUS 分数）。这些数据对 UX 人自己有意义，但对高管来说是黑盒。真正能打动预算决策者的，是把 UX 工作连接到收入、成本、风险、留存、速度这些业务语言上。文章提供了具体的转换框架：识别你的工作影响了哪个业务指标，量化或估算影响幅度，用高管熟悉的语言讲这个故事。在 AI 工具压缩设计岗位的当下，能用业务结果证明 UX 价值的设计师，比只会做好设计的设计师更不可替代。",
+        "url": "https://www.nngroup.com/articles/reporting-ux-business-outcomes/",
+        "source": "Nielsen Norman Group",
+        "why": "设计师的影响力和职业安全感在很大程度上取决于能不能用「公司语言」说清楚设计的价值。这篇 NNg 文章给出了清晰的方法论，在 AI 改变岗位结构的大背景下尤其值得读。",
+        "type": "career",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Stop_Reporting_UX_Activity_and_Report_Business_Outcomes-1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "items": [
       {
