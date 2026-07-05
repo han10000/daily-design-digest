@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-05",
+    "items": [
+      {
+        "title": "AI 没让我们变快——但这恰恰是它起作用的原因",
+        "summary": "一个设计工作室花了一年时间将整个流程重构为 AI 优先，结果 sprint 时长从 5 天还是 5 天，一秒都没少。但产出变了：更完整、更成熟，同时也带来了全新的「失控方式」。作者 Dan Maccarone 诚实地记录了这段经历：AI 并不加速——它改变的是工作的密度和质量。文章核心洞察是，团队里最有价值的不是工具，而是那个说「这不会更快」的怀疑者。他通常是对的。这对 Product Designer 极具参考价值：在 AI 工具满天飞的 2026 年，「我们变快了吗」是个错误的问题，「我们做出了什么不一样的东西」才是值得追问的。文章也顺带提出了一个还没人认真讨论的概念：AI 设计债务——引入 AI 协作带来的隐性负担。",
+        "url": "https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f",
+        "source": "UX Collective",
+        "why": "反直觉的第一手经验，破解「AI 让设计更快」的神话。对正在思考如何在团队里落地 AI 工具的 designer 来说，这比任何 how-to 文章都有说服力。",
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*X2hy8ttpHSixu9HsPJke1w.jpeg"
+      },
+      {
+        "title": "脸从来都不是重点——动态才是让机器「活」起来的关键",
+        "summary": "1973 年心理学家 Gunnar Johansson 做了一个实验：把反光点贴在人体关节上，在黑暗中录像——没有身体，没有脸，只有 12 个光点在移动。观看者立刻感知到「这是一个走路的人」，甚至能判断性别和情绪状态。作者 Takuma Kakehi 在 Automate 2026 机器人展上看到一个现象：所有公司都在疯狂做机器人的「脸」——LED 表情、精心设计的人形比例——但用户依然觉得它们「怪异」。原因是：大脑感知生命力的方式不从脸开始，而从运动开始。这个认知科学洞察对 UX 设计有直接意义：一个 loading 动画、一个微交互、一个过渡效果，可能比任何拟人化外观都更能让产品「感觉活着」。在 AI 产品的 personality design 浪潮中，这是一个很容易被忽视的底层原理。",
+        "url": "https://uxdesign.cc/the-face-was-never-the-point-7f186f266e56",
+        "source": "UX Collective",
+        "why": "把认知科学和 motion design 连起来，给「如何让 AI 产品有生命力」提供了一个反常识但有理有据的答案。做 AI 产品 personality 的 designer 必读。",
+        "type": "essay",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:800/1*3O4iUjX1YDuraJYe879i1w.gif"
+      },
+      {
+        "title": "NNg：为企业里不同角色量身定制 AI 解释——不是一刀切",
+        "summary": "企业 AI 产品的采用率为什么迟迟起不来？NN/g 这篇研究给出了一个被忽视的答案：AI explainability（可解释性）在企业场景里不能一套话说给所有人听。开发者需要了解系统行为逻辑，domain expert 需要知道 AI 在专业判断上的边界，系统管理员关注的是权限和风险边界。文章通过「配置一个 AI 帮助台 agent」的共同场景，拆解了三类企业用户对 AI 解释的不同需求，并给出了设计可解释性的实操框架。对在微软这类大型企业做 AI 产品的设计师来说，这篇文章直接对应真实的设计挑战：怎么给不同的 stakeholder 设计「让他们信任 AI」的界面和文案。B2B AI 产品设计的核心挑战之一就是解决这个多角色信任问题。",
+        "url": "https://www.nngroup.com/articles/crafting-ai-explanations/",
+        "source": "Nielsen Norman Group",
+        "why": "NN/g 的研究级深度 + 企业 AI 落地的实际痛点。在做 AI 功能 onboarding 或权限设计时，这套框架能直接用上。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Crafting_AI_6.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "items": [
       {
@@ -81,8 +113,7 @@
         "url": "https://uxdesign.cc/the-4-predators-sabotaging-your-product-team-3dce31215ff4",
         "source": "UX Collective",
         "why": "产品团队协作是 designer 日常最真实的摩擦面，这篇文章给出了有具体形状的描述，不是「沟通要好」这类虚话——可以直接拿来对照自己团队现状做诊断。",
-        "type": "strategy",
-        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.05/0*pEXq4CfDZv6eyM6N.png"
+        "type": "strategy"
       },
       {
         "title": "实时语音 AI 的新基准：Gemma 4 + Cerebras 把延迟压到像真人对话",
@@ -1523,8 +1554,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
         "source": "The Verge AI",
         "why": "了解真实用户对 AI 的情感态度，是做出有共情的 AI 产品的前提。这个故事是当前年轻用户情绪的一个缩影。",
-        "type": "📡 趋势信号",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23350482/1328571726.jpg?quality=90&strip=all&crop=0%2C10.675926728958%2C100%2C78.648146542083&w=1200"
+        "type": "📡 趋势信号"
       }
     ]
   },
