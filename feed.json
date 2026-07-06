@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-06",
+    "items": [
+      {
+        "title": "用 AI 重建设计流程一年：没变快，但变对了",
+        "summary": "设计工作室 Charming Robot 的创始人花了整整一年，把工作室的设计流程彻底重组进 AI——跨越 4 个真实产品、真实客户、真实 deadline。结论反直觉：Sprint 依然是 5 天，没变快。但他们得到的是更完整的产出、更深的设计思考，以及一种全新的 AI 债务（AI Debt）——那些被 AI 生成的决策、被自动补全的判断，背后没有人真正理解为什么这样做。作者认为，「快」只是 AI 给你的幻觉，真正的价值在于让设计师的思维过程变得更清晰，而不是被工具替代。团队中最大声的怀疑者，往往是最先看到问题的人。文章还谈到了采用 AI 工具时的组织信任挑战——员工对 AI 工具的信任随工具能力提升而下降，不是上升。",
+        "url": "https://uxdesign.cc/never-mind-the-prompts-heres-the-thinking-f4af4b92155f",
+        "source": "UX Collective",
+        "why": "叉叉在用 AI 改造工作流，这篇是少见的「一年后回头看」真实反馈，反直觉结论（没变快但变对）比「AI 让我快 10 倍」的鸡血文更有参考价值",
+        "type": "workflow",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*X2hy8ttpHSixu9HsPJke1w.jpeg"
+      },
+      {
+        "title": "给企业 AI 设计「解释层」：不同角色需要不同的透明度",
+        "summary": "NNGroup 这篇聚焦企业 AI 产品中一个被大多数设计师忽略的问题：AI 的「可解释性」（Explainability）不是一个统一的设计元素，而是要针对不同角色做差异化设计。配置 AI 系统的工程师、负责安全审批的管理者、审核 AI 输出的领域专家——他们面对同一个 AI 工具，需要的「理解方式」完全不同。文章用一个 AI 客服助手的部署场景，演示了如何用 JTBD（用户任务）框架来拆解每种角色的可解释性需求，并给出了三类用户的设计导则。对于做 B 端 AI 产品的设计师来说，这套框架直接可用。",
+        "url": "https://www.nngroup.com/articles/crafting-ai-explanations/",
+        "source": "Nielsen Norman Group",
+        "why": "企业 AI 产品的「解释层」设计往往是被忽略的盲区，这篇用角色差异化拆解，框架清晰、落地性强，做 B 端设计的叉叉值得收",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Crafting_AI_6.png"
+      },
+      {
+        "title": "用户不需要更多工具，他们需要无缝集成——「安静 AI」的设计哲学",
+        "summary": "Smashing Magazine 这篇由 Vitaly Friedman 撰写，提出了「Quiet AI」的设计理念——真正好用的 AI 功能应该是无感的，坐在后台安静处理重复性任务，而不是打断用户、争抢注意力。文章以 Claude 在 Microsoft Office 套件中的集成为例，说明「AI-first」产品往往忽略了用户多年积累的心智模型；而「Folder Instructions」（给文件夹设定意图的 AI 指令层）是作者最喜欢的例子：用户只需定义一次文件夹的用途，AI 就能持续按意图运行，权限本地化、不外泄。这种「意图驱动」的设计模式，比「对话式 AI」更自然，也更符合用户实际使用场景。",
+        "url": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
+        "source": "Smashing Magazine",
+        "why": "「Quiet AI」和「Folder Instructions」是两个值得叉叉拿来直接用的设计概念，Vitaly 的案例分析有具体到可以拿来做设计决策参考",
+        "type": "design-pattern",
+        "image": "https://files.smashing.media/articles/ux-impact-seamless-integrations/users-dont-need-more-tools-need-seamless-integrations.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-07-05",
     "items": [
       {
@@ -263,8 +295,7 @@
         "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
         "source": "UX Collective",
         "why": "直接命中当下最大的 design 焦虑：AI 让执行变快，但判断力不会自动提升。提出的框架有操作性，不是纯理论。",
-        "type": "product-thinking",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*cUjm15w9qZX_am_phu25yg.png"
+        "type": "product-thinking"
       },
       {
         "title": "让 UX 数据说话的第一步：在动手前先建 baseline",
@@ -1554,7 +1585,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
         "source": "The Verge AI",
         "why": "了解真实用户对 AI 的情感态度，是做出有共情的 AI 产品的前提。这个故事是当前年轻用户情绪的一个缩影。",
-        "type": "📡 趋势信号"
+        "type": "📡 趋势信号",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23350482/1328571726.jpg?quality=90&strip=all&crop=0%2C10.675926728958%2C100%2C78.648146542083&w=1200"
       }
     ]
   },
