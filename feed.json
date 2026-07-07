@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-07",
+    "items": [
+      {
+        "title": "《精益创业》给 GenAI 项目的四条忠告：95% 失败不是模型的锅",
+        "summary": "MIT NANDA 研究发现 95% 的企业 GenAI 试点项目没有可衡量的成果——不是模型不够好，是团队还在用「大赌注一次押上」的老方法。这篇文章用《精益创业》的四个原则来拆解问题：①先去工作现场亲眼观察（Genchi genbutsu），别在会议室设想用户需求；②用最简版本快速验证假设，而不是花三个月做 Empathy Map；③「能撑过周二的工具」才是真产品，而不是「能打动董事会的 Demo」；④AI 让执行成本骤降，这恰恰让「快速学习」比「快速发货」更重要。对正在给大企业做 AI 产品或内部工具的设计师来说，这篇文章的诊断非常准：前期流程剧场太多，假设验证太少。",
+        "url": "https://uxdesign.cc/what-the-lean-startup-still-teaches-us-about-generative-ai-2d1505fe1db1",
+        "source": "UX Collective",
+        "why": "直接对准 AI 产品失败根因，从设计视角拆解「建了没人用」的老问题，对做企业 AI 产品的设计师极具参考价值",
+        "type": "analysis",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*lHvW87-6XQuoJ0VfOuQTKA.png"
+      },
+      {
+        "title": "穿着「间谍眼镜」工作两周后，我开始理解智能眼镜的真正设计难题",
+        "summary": "The Verge 资深可穿戴评测编辑 Victoria Song 戴着 Meta 智能眼镜工作了数周，由此产生了一个核心问题：当你持续录像、拍照、AI 识别周围人物，那个「隐私指示灯」到底有没有用？文章借 Netflix 剧集《A Man on the Inside》中 Ted Danson 扮演的老年私家侦探来切入——他用智能眼镜监视整个养老院，大多数观众觉得这只是情节道具，而不是真实的隐私侵犯。作者指出这正是问题所在：社会规范还没跟上技术。Meta 刚发布了更便宜的无 Ray-Ban 品牌智能眼镜，并找 Kylie Jenner 代言，市场教育在加速，但「被拍摄者的同意」这个设计问题还没有答案。这对未来做可穿戴 UX 或 AI 摄像头产品的设计师是必读背景。",
+        "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+        "source": "The Verge",
+        "why": "智能眼镜隐私设计是下一代可穿戴 UX 的核心命题，这篇来自第一手体验者的视角比技术评测更有设计启发性",
+        "type": "perspective",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257980_Meta_Ray-Ban_Display_AKrales_0111.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "LeRobot v0.6：机器人开始「想象未来」再行动——世界模型进入实战阶段",
+        "summary": "HuggingFace 开源机器人框架 LeRobot 发布 v0.6.0，核心突破是引入「世界模型策略」：机器人在执行动作前先在潜空间预测未来会发生什么，训练时获得世界模型监督，推理时这个模块消失不增加计算开销（VLA-JEPA 方案）。另一个亮点是 Reward Model API，机器人终于有了自动评估「任务是否成功」的能力，不再依赖人工标注。此外新增 6 个统一的 Simulation Benchmark、深度摄像头支持、VLM 自动语言标注数据集、以及 2 倍更快的数据加载。这次发布标志着机器人 AI 的研究范式从「模仿学习」向「想象-验证-改进」闭环演化，是今年机器人领域最值得关注的开源进展之一。",
+        "url": "https://huggingface.co/blog/lerobot-release-v060",
+        "source": "Hugging Face Blog",
+        "why": "世界模型从 LLM 扩展到物理机器人是重要范式转变，设计师了解这个方向有助于提前思考人机协作和具身 AI 产品的交互设计问题",
+        "type": "release",
+        "image": "https://huggingface.co/blog/assets/lerobot-release-v060/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "items": [
       {
@@ -295,7 +327,8 @@
         "url": "https://uxdesign.cc/discovery-is-a-capability-not-a-phase-0fd6c1dab2f5",
         "source": "UX Collective",
         "why": "直接命中当下最大的 design 焦虑：AI 让执行变快，但判断力不会自动提升。提出的框架有操作性，不是纯理论。",
-        "type": "product-thinking"
+        "type": "product-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*cUjm15w9qZX_am_phu25yg.png"
       },
       {
         "title": "让 UX 数据说话的第一步：在动手前先建 baseline",
