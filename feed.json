@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-08",
+    "items": [
+      {
+        "title": "「What」的危机：AI 开始抢的不只是执行，而是决策本身",
+        "summary": "一位没有技术背景的 Product Designer 发现自己把一个 AI agent 推送到了 GitHub——不是靠自己写的代码，而是 Claude 全程帮他判断架构、做决策、推进任务。这让作者意识到一个关键转折点：我们过去以为 AI 只抢「how」（怎么做），但现在它已经悄悄渗入「what」（做什么）。以前「what」是资深者的特权，是靠踩坑积累的判断力。但 AI 现在在日常工作中就已经开始代替你权衡、排优先级、提建议——不是未来，是现在。作者的结论不是恐慌，而是清醒：从「有疤痕的直觉」（intuition with scars）中建立的判断力，才是真正不可被替代的东西。这篇文章的价值不在论点新颖，而在它是从一个设计师的亲身实践中长出来的，有具体场景，有思维轨迹，读来真实。",
+        "url": "https://uxdesign.cc/the-crisis-of-the-what-d29135a8be59",
+        "source": "UX Collective",
+        "why": "正在讨论「AI 时代 designer 的价值是什么」的核心问题，有一手实践视角，不是泛泛而谈的焦虑文，是从做中看见的东西",
+        "type": "思维框架",
+        "image": "https://miro.medium.com/v2/resize:fill:1024:539/g:fp:0.5:0.53/1*zfuWweayeuqebNzT7mbawQ.png"
+      },
+      {
+        "title": "Claude Cowork 登陆手机和网页：AI agent 工作流开始跨设备持续运行",
+        "summary": "Anthropic 宣布 Claude Cowork 正式扩展到 iOS、Android 和网页端，此前只在 macOS/Windows 桌面客户端可用。最关键的变化是：Cowork session 现在默认在云端运行，意味着你可以在任意设备上接续任务、关掉电脑后任务继续跑、Claude 完成后直接给手机发通知请你审批。Claude 还可以在设备全部离线的情况下执行计划任务。桌面端仍保留「完整体验」，包括本地文件访问，用户可在云端和本地处理之间切换。Max 订阅用户率先获得访问权限，其他套餐将在「数周内」陆续开放。同时，双倍使用额度延长至 8 月 5 日。这是 AI agent 工作流走向「持续后台执行 + 移动端审批」范式的关键一步。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+        "source": "The Verge",
+        "why": "Cowork 代表 AI agent 在产品交互模式上的重要演进——用户不再盯着屏幕等结果，而是「派出去、等通知、回来审批」，这是 designer 需要理解的新 UX 范式",
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Cowork-Web-Mobile-Press-No-Logo-1920x1080-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "Smashing Magazine：无限画布来了——WordPress 第一个自由布局可视化建站工具 Kirki",
+        "summary": "Kirki 是 WordPress 生态里第一个基于「无限画布」（infinite canvas）的可视化建站工具，打破了传统 page builder 行列格式的限制，走向更自由的空间排布逻辑。它内置 CMS，不依赖第三方插件，代码产出更干净，免费版功能就已经相当完整。对 designer 而言，这个方向有参考价值：它把「自由画布」这个已经在设计工具（Figma、FigJam）里普及的交互逻辑，移植到了最终产品的编辑层。空间自由度 vs 结构一致性的权衡，在 CMS 领域会怎么走，这篇文章是一个很好的观察切口。对做 web 产品的 designer 尤其值得快速了解趋势方向。",
+        "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
+        "source": "Smashing Magazine",
+        "why": "无限画布从设计工具向生产工具延伸，代表一种新的编辑范式正在跨越边界；对关注「编辑器 UX」和「设计系统落地」的 designer 有信号价值",
+        "type": "工具趋势",
+        "image": "https://files.smashing.media/articles/kirki-freeform-visual-website-builder-wordpress/kirki-wordpress-visual-builder-infinite-canvas.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-07-07",
     "items": [
       {
@@ -391,8 +423,7 @@
         "url": "https://uxdesign.cc/your-design-system-runs-on-one-persons-judgment-ai-is-about-to-prove-it-4e969a862765",
         "source": "UX Collective",
         "why": "设计系统治理是 Product Designer 日常痛点，这篇诊断非常准确：问题不是工具，是「审查门」和 bus factor。AI 加速 contribution 之后，这个矛盾会被放大而非消解——对在微软做设计的叉叉高度相关。",
-        "type": "deep-read",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*NEaGiMgXP8IaSlGYLMhsXg.png"
+        "type": "deep-read"
       },
       {
         "title": "美国国会议员的 AI「拼写检查」事故：Claude 痕迹出现在国防法案里",
