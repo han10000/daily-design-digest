@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-09",
+    "items": [
+      {
+        "title": "AI 革命很简单，之后的建设才是真正的工作",
+        "summary": "作者用美国独立日的隐喻切入：7 月 4 日庆祝的是「宣告」，真正的国家建设在那之后才艰难展开——乱哄哄、打补丁、改了又改。AI 也一样，现在到处是发布会烟火，Google Gemini 的 demo 造假、创始人手持聊天机器人像凿出了大理石雕像、launch post 写满「一切将不同」却没有一件真实落地的东西。产品最难的部分不是发布那一晚，而是发布后的每个清晨——那些无人鼓掌的迭代、那些举手说「这里还不对」的工程师和设计师。对 Product Designer 来说，这篇文章是一剂清醒剂：你的工作不是站在烟火旁边，而是第二天早上就位、开始那段没有掌声的进化。",
+        "url": "https://uxdesign.cc/the-revolution-was-the-easy-part-c753340e3e22",
+        "source": "UX Collective",
+        "why": "切中设计师在 AI 时代的真实处境——不是站台，是建设。用历史类比让论点非常有说服力，适合在对 AI 感到疲惫或兴奋时重读。",
+        "type": "观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*O7oIWt9VnRVTvUV5aztH8g.jpeg"
+      },
+      {
+        "title": "ChatGPT 语音模式升级：终于学会「闭嘴」了",
+        "summary": "OpenAI 发布 GPT-Live-1，重新设计了 ChatGPT 语音模式的对话节奏。新模型的核心改进是「减少打断」：它能真正等你说完、在你停顿时不抢话，并用「mhmm」「got it」等语气词保持在线感而不占用对话流。它还引入了全双工架构（边说边听），支持实时翻译（不再等你停顿才翻），并在你问天气、股价、球分时叠加可视化信息卡片。此外用户现在可以主动让它「保持沉默直到被呼叫」。OpenAI 还针对高风险对话场景加入了内置护栏，并特别为青少年用户配置了年龄适配回应策略。GPT-Live-1 向 Plus/Pro 用户推出，免费用户将使用更轻量的 mini 版本。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+        "source": "The Verge",
+        "why": "这不只是一次模型更新——是 AI 对话 UX 的范式调整。「何时说、何时听、何时等」是语音产品最难设计的部分，OpenAI 用工程手段直接解了这个交互难题，值得做 AI 产品的设计师细读。",
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/chatgpt-voice-upgrade.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      },
+      {
+        "title": "给 AI Agent 喂什么数据？NVIDIA 开放训练数据集背后的逻辑",
+        "summary": "NVIDIA Nemotron 团队发布了这篇深度文章，解释了为什么 Agent AI 比 LLM 更需要开放数据。核心论点：一个遇到 broken API 就卡死的模型不是真正的 Agent，它只是「带工具的自动补全」。要让 Agent 真正鲁棒，需要软件工程 trace、工具调用失败案例、多步推理、检索、安全场景和用户仿真等多维度训练数据——而这类数据大多藏在各公司内部，无法公开。合成数据（Synthetic Data）是破局的关键：可以保留有用信号而不暴露底层业务数据。NVIDIA 此次开放了超过 10 万亿预训练 token 和数百万后训练样本，并配套了一个交互式「Prompt Atlas」可视化地图，帮助开发者探索数据分布。对 AI 产品设计师来说，这篇文章有助于理解 Agent 能力边界为何是数据问题，而不只是模型参数问题。",
+        "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+        "source": "Hugging Face Blog",
+        "why": "做 AI 产品的设计师需要理解 Agent 的能力天花板从哪里来。这篇文章从数据角度解释了「为什么 Agent 经常在真实场景翻车」，帮助设计师在规划 agentic 产品时设置更现实的期望和更好的降级 UX。",
+        "type": "技术洞察",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/P3b9bOHrdkEJeAcWX6FoW.gif"
+      }
+    ]
+  },
+  {
     "date": "2026-07-08",
     "items": [
       {
@@ -423,7 +455,8 @@
         "url": "https://uxdesign.cc/your-design-system-runs-on-one-persons-judgment-ai-is-about-to-prove-it-4e969a862765",
         "source": "UX Collective",
         "why": "设计系统治理是 Product Designer 日常痛点，这篇诊断非常准确：问题不是工具，是「审查门」和 bus factor。AI 加速 contribution 之后，这个矛盾会被放大而非消解——对在微软做设计的叉叉高度相关。",
-        "type": "deep-read"
+        "type": "deep-read",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*NEaGiMgXP8IaSlGYLMhsXg.png"
       },
       {
         "title": "美国国会议员的 AI「拼写检查」事故：Claude 痕迹出现在国防法案里",
@@ -1983,8 +2016,7 @@
         "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
         "source": "The Verge",
         "why": "Agentic web 的 UX 设计模式还在成形阶段，谁在主导、谁在退出，直接影响设计师接下来两年的工作方向。Mariner 的「整合」而非「死亡」值得细品。",
-        "type": "industry-news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200"
+        "type": "industry-news"
       },
       {
         "title": "Local-First 不是 Offline-First：搞清楚这个区别，你的产品决策会不一样",
@@ -3823,7 +3855,7 @@
         "url": "https://www.anthropic.com/research/labor-market-impacts",
         "why": "设计师关心的「AI 会替代我吗」有了数据回答：短期不会，但初级岗位缩水是真实趋势，设计师需要往上走",
         "publishedAt": "2026-03-05",
-        "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20NodeLine&backgroundColor=cactus"
+        "image": "https://cdn.sanity.io/images/4zrzovbb/website/db62de82e8396bec6edf60ee2134b36957cc7700-1200x630.jpg"
       },
       {
         "source": "社区",
