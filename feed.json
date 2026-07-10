@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-10",
+    "items": [
+      {
+        "title": "AI 时代的 DesignOps：当「治理」变成「编排」",
+        "summary": "随着 AI 工具渗透设计团队，DesignOps 的职能正在发生根本性转变——从管理人类主导的流程，转向协调人与 AI 系统共同走向道德、有意义的产出。文章指出，传统 DesignOps 关注的是规范、工具栈和流程一致性，但在 AI 加速的环境下，最大的挑战变成了：如何确保 AI 生成的内容仍然符合品牌价值和用户利益？作者 Luis Hermosilla 认为，DesignOps 需要新增「AI 编排层」，包括 prompt 治理、输出审核机制、以及在自动化与人工判断之间划定清晰边界。对于在大公司里做设计的人来说，这篇文章提供了一个重要的视角：不是「AI 会取代设计师」，而是「谁来管理 AI 在设计流程中的行为」——而这个角色，正在落到 DesignOps 肩上。",
+        "url": "https://uxdesign.cc/designops-in-the-age-of-ai-when-governance-becomes-orchestration-7b946ceea70f",
+        "source": "UX Collective",
+        "why": "AI 正在重塑设计团队的组织结构，DesignOps 的「编排」转型对任何在大厂做设计的人都是直接相关的现实问题",
+        "type": "design-ops",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*dgJQWU6y8TofAMQ7c__eRw.png"
+      },
+      {
+        "title": "为崩溃中的用户设计：心理健康 App 不该盲目追 UI 潮流",
+        "summary": "心理健康类 App 面临一个残酷的数据：约 95% 的用户在第 30 天前流失，中位数 30 天留存率仅 3.3%。这篇 Smashing Magazine 文章提出了一个关键洞察：很多 UI 潮流的设计目标是「抓注意力、彰显创新」，而心理健康 App 的真正目标是「提供庇护、减少认知负担、建立信任」——这两者根本就是矛盾的。作者 Kat Homan 提出了一个评估框架：对每个 UI 趋势都要问一个问题——「当用户状态最差、认知资源最少时，这个设计会不会增加他们使用的成本？」文章详细分析了液态玻璃动效、非常规手势、高对比色彩等流行元素在心理健康场景下的失效原因，并提供了具体的替代方案。对于做任何 sensitive use case 产品的设计师来说，这套思维框架都有很强的迁移价值。",
+        "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+        "source": "Smashing Magazine",
+        "why": "用极端场景（心理健康）推导出的 UI 设计原则，能让你重新审视自己产品的「花哨」是否在错误的时机给用户增加了负担",
+        "type": "ux-principles",
+        "image": "https://files.smashing.media/articles/designing-distressed-users-mental-health-apps-ui/designing-distressed-users-mental-health-apps-ui.jpg"
+      },
+      {
+        "title": "微软碳排放去年增长 25%，AI 基础设施是主因",
+        "summary": "根据微软刚发布的 2026 年可持续发展报告，2025 年微软的碳排放总量在未干预情况下达到 3400 万公吨，同比增长 25%。主要驱动因素是数据中心基础设施的大规模扩张——而背后的推手正是 AI 算力需求的爆炸式增长。微软此前设定了 2030 年实现碳负排放的目标，但当前轨迹与这一承诺背道而驰。这则新闻对产品设计师的意义在于：AI 功能的「环境成本」正在变得有据可查，未来用户和监管机构都可能开始追问「这个 AI 功能值得这些碳排放吗」。可持续性将成为 AI 产品设计的隐性约束条件，提前建立这个思维维度，比被动响应压力更有价值。",
+        "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+        "source": "The Verge",
+        "why": "AI 的环境代价开始有硬数据，帮你理解「AI 功能的代价」这个维度——未来这会影响产品决策",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-09",
     "items": [
       {
@@ -2016,7 +2048,8 @@
         "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
         "source": "The Verge",
         "why": "Agentic web 的 UX 设计模式还在成形阶段，谁在主导、谁在退出，直接影响设计师接下来两年的工作方向。Mariner 的「整合」而非「死亡」值得细品。",
-        "type": "industry-news"
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/project-mariner-logo.png?quality=90&strip=all&crop=0%2C12.533882885894%2C100%2C74.932234228213&w=1200"
       },
       {
         "title": "Local-First 不是 Offline-First：搞清楚这个区别，你的产品决策会不一样",
