@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-11",
+    "items": [
+      {
+        "title": "设计系统成熟度：别用直线衡量它，用这 6 个维度",
+        "summary": "NNGroup 最新研究提出，设计系统的成熟度不是一条从「初级」到「高级」的直线，而是由 6 个相互独立的维度构成的多维评估：组件覆盖度、采纳率、治理机制、工具集成、文档质量、以及组织认同感。真实的设计系统会在某些维度超前、其他维度滞后——这是正常现象，而非「做得不好」。文章指出，线性模型的最大问题在于它假设「成熟 = 向前进」，但现实中合并、重组、预算削减都会导致系统「退步」，而线性框架完全无法容纳这种情况。对于正在维护或规划设计系统的 Product Designer 来说，这个框架比「我们在第几阶段」更有实际诊断价值——它让你知道该把力气用在哪里，而不是焦虑「为什么还没到下一级」。",
+        "url": "https://www.nngroup.com/articles/design-system-maturity/",
+        "source": "Nielsen Norman Group",
+        "why": "做设计系统不可避免。NNGroup 这次用研究数据否定了「线性成熟度」的惯性思维，给了一个更诚实的多维评估框架，直接可以用来做团队内部对齐。",
+        "type": "design-systems",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/6_Dimensions_of_Design-System_Maturity-1_V9cQFpV.png"
+      },
+      {
+        "title": "设计网站专属 AI 聊天机器人，这 5 个质量维度是核心",
+        "summary": "NNGroup 最新文章总结了设计网站专属 AI chatbot 时必须平衡的 5 个关键质量维度：一、转接意愿——用户想转人工时应该无摩擦，而不是被无限循环的 bot 困住；二、灵活性——在安全边界内跟着用户走，而不是强迫用户适应 bot 的流程；三、主动性——预判用户下一步需求并主动提示；四、情绪响应——识别并承认用户的情绪状态；五、透明度——诚实交代自己的身份、能力边界和判断逻辑。文章特别强调：用户对 AI chatbot 的心智模型仍在形成期，它们既不被当作真人客服，也不被当作 ChatGPT 级别的 AI——多数 chatbot 两边都没满足，结果被迅速放弃。这 5 个维度可以作为设计前的决策清单，也可以用来审查已有产品的 chatbot 体验。",
+        "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 对话界面是 2026 年每个产品团队都要面对的设计命题。NNGroup 这篇不是泛泛的「AI UX 原则」，而是基于用户研究提炼出的具体可操作维度，直接可以带进设计评审。",
+        "type": "ai-ux",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_5_Dimensions_of_Site-Specific_AI_Chatbots-1_mvZaTdB.png"
+      },
+      {
+        "title": "品牌策略怎么变成视觉方向？真正的工作在第一张稿之前",
+        "summary": "Smashing Magazine 这篇文章讲的是品牌设计中最容易被跳过的阶段——从 kickoff 到第一个视觉概念之间的「预概念期」。作者指出，「现代感」「可信赖」「颠覆性」这些词出现在 brief 里时，设计师通常直接开始画，但这些词对不同人意味着完全不同的东西。文章提出了一套具体方法：与利益相关者对齐关键词的真实含义、挖掘隐藏假设、明确品牌在品类里的定位边界——以一个医疗科技公司为例，他们说想要「颠覆性」，但细聊后发现他们的客户是政府医疗机构，太叛逆反而破坏信任，他们的「颠覆」其实比这个词本身要保守得多。这个前期工作的价值在于：不是让创意受限，而是让创意有了更准的靶子。",
+        "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+        "source": "Smashing Magazine",
+        "why": "品牌设计痛点的精准切入。「词语太宽泛」是大多数设计方案跑偏的根源，这篇文章给了一套可落地的前期对齐方法，不只适用于品牌项目，也适用于任何需要把抽象方向转化为视觉决策的场景。",
+        "type": "brand-design",
+        "image": "https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/how-turn-brand-strategy-into-visual-direction.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "items": [
       {
