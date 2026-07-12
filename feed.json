@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-12",
+    "items": [
+      {
+        "title": "设计系统成熟度：六维框架，告别线性迷思",
+        "summary": "NNGroup 发布新研究，提出设计系统成熟度不是一条线，而是六个维度同时演进的立体过程。传统线性模型（搭建→推广→治理）无法解释现实：系统会因组织重组、预算削减、并购而退化；初创公司和万人企业的成熟含义完全不同；Adoption 也不是某个阶段完成就结束的事，而是贯穿全生命周期的持续挑战。六个维度涵盖设计、开发、策略、运营、治理和组织政治，真正评估一个系统健不健康，要六维同时看，而非用进度条衡量。对于任何在维护或重建设计系统的 Product Designer 来说，这套框架能帮你快速定位：你们系统真正的瓶颈在哪一维。",
+        "url": "https://www.nngroup.com/articles/design-system-maturity/",
+        "source": "Nielsen Norman Group",
+        "why": "设计系统是 Product Designer 日常绕不开的话题，但大多数团队用的还是线性思维。NNGroup 这次提供了更贴近现实的评估框架，实战价值很高。",
+        "type": "深度研究",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/6_Dimensions_of_Design-System_Maturity-1_V9cQFpV.png"
+      },
+      {
+        "title": "品牌策略到视觉方向：最强概念从问对问题开始",
+        "summary": "Smashing Magazine 深度文章探讨品牌项目失败的根源——不是在 logo 阶段，而是在策略阶段那些模糊形容词没被追问清楚。现代感、可信赖、颠覆性这些词，在不同客户、不同行业语境下含义完全不同。文章提出 pre-concept phase 概念：在 Figma 打开之前，设计师需要与 stakeholder 一起把这些宽泛词汇具体化——什么样的现代感？对谁可信？颠覆的参照物是谁？通过一个医疗科技公司案例展示：他们说的颠覆性，实际上需要比这个词本身更保守的视觉语言。这不是语义游戏，而是防止后期大量返工的必要投资。对于经常需要对齐品牌方向和利益相关方的设计师，文章提供的追问框架直接可以用在 kickoff 阶段。",
+        "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+        "source": "Smashing Magazine",
+        "why": "设计工作经常需要对齐品牌方向和利益相关方，这篇文章提供的追问框架直接可以拿来用，特别是在 kickoff 阶段。",
+        "type": "实战方法",
+        "image": "https://files.smashing.media/articles/how-turn-brand-strategy-into-visual-direction/how-turn-brand-strategy-into-visual-direction.jpg"
+      },
+      {
+        "title": "Meta 紧急下线 Instagram AI 深度伪造功能：设计决策的边界在哪里",
+        "summary": "Meta 本周推出了一项功能：允许用户 @mention 任何公开 Instagram 账号来生成 AI 图像，即创作者无需授权。遭到大规模抗议后，Meta 在数日内紧急下线。这个事件是一个关于 AI 产品设计决策的典型案例：功能从技术上可行，从参与度指标上可能也有价值，但忽视了内容创作者对自己形象的控制权。从 UX 视角看，这是 opt-out by default 设计模式在 AI 时代的危险放大——当 AI 生成内容与真实人物挂钩时，默认公开的逻辑已经失效。对于在做 AI 产品功能设计的 Designer，这是一个值得深入复盘的反面教材，technically possible 不等于 ethically designed。",
+        "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+        "source": "The Verge",
+        "why": "AI 产品的边界问题是 2026 年 Product Designer 必须面对的核心议题，这个真实案例展示了 technically possible 不等于 ethically designed 的代价。",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/meta-muse-image-instagram-tag.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
+      }
+    ]
+  },
+  {
     "date": "2026-07-11",
     "items": [
       {
