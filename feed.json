@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-13",
+    "items": [
+      {
+        "title": "审美不能外包：AI 时代设计判断力是唯一护城河",
+        "summary": "UX Collective 这篇文章直击当下最核心的设计焦虑：当 AI 能生成任何界面、任何视觉方案，设计师的价值在哪里？作者 Aurélie Radom 的论点清晰有力——AI 可以学习「偏好」（preference），但无法拥有「判断力」（judgment）。偏好描述人们选择什么，判断力解释为什么某个选择是正确的。AI 能从海量数据中学到「干净的界面通常更受欢迎」，但它无法理解意图：删掉一个元素是创造了留白，还是失去了个性？打破某个规则是增加了新鲜感，还是制造了摩擦？文章还指出，现代组织和 AI 系统犯的是同一个错误——都很擅长识别「被偏好的」方案，都很难决定「什么值得存在」。这对于在大公司做设计的人来说尤其值得警醒：委员会评审、多层对齐、层层 approval，恰恰是在把设计判断力稀释掉。AI 时代真正稀缺的，是能够对「这个应该存在」负责任地做出判断的人。",
+        "url": "https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b",
+        "source": "UX Collective",
+        "why": "直接回应了「AI 会不会取代设计师」这个问题，但视角比泛泛而谈的焦虑文章更精准——不是在说「设计师有价值」，而是在解释价值的具体形态是什么。叉叉在大公司做设计，这篇对组织里判断力如何被稀释的分析，非常具体有用。",
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*IE9hoyTwzWtd3hUTEOI9Ow.png"
+      },
+      {
+        "title": "NNGroup：好的 AI 聊天机器人应该具备哪五种特质",
+        "summary": "Nielsen Norman Group 这篇研究文章给出了评估和设计站点专属 AI 聊天机器人的五维框架：1）移交意愿（Handoff Willingness）——用户想和真人说话时，bot 要以最小阻力让他们接入人工客服；2）灵活性（Flexibility）——能处理预期之外的问题，而不是死板地拒绝；3）主动性（Proactivity）——在用户没有明确要求的情况下，提供真正有用的信息；4）情绪响应（Emotional Responsiveness）——能识别用户的挫败感、焦虑，并做出适当回应；5）透明度（Transparency）——诚实说明自己的能力边界。文章特别指出，用户对 AI 聊天机器人还没有稳定的心智模型——他们不确定应该把它当成有限能力的客服机器人，还是当成全能的 LLM。大多数 bot 两种期望都满足不了，然后就被放弃了。这个框架对于需要在产品里集成 AI 功能的设计师来说，既是评估工具，也是设计 checklist。",
+        "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+        "source": "Nielsen Norman Group",
+        "why": "聊天机器人设计是产品团队现在绕不开的课题。NNGroup 的研究框架不是泛泛的「要有同理心」，而是五个具体维度，每个都有设计含义。对于叉叉这种需要给团队做 AI 产品决策的人，这种结构化框架比案例分析更好用。",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_5_Dimensions_of_Site-Specific_AI_Chatbots-1_mvZaTdB.png"
+      },
+      {
+        "title": "Apple 自动驾驶失败了，但留下了业界最强的 AI 芯片",
+        "summary": "The Verge 这篇报道揭示了一段有趣的设计史：Apple 那个最终没能落地的自动驾驶汽车项目，反而成了 Apple Silicon 成为 AI 算力标杆的根本原因。为了应对自动驾驶的实时推理需求，Apple 工程团队早期就意识到必须在设备端有强大的 AI 处理能力——这个需求倒逼了芯片架构的根本性投资。自动驾驶项目取消后，这些芯片能力被直接继承到了 Mac、iPhone 的产品线里，成为今天 on-device AI 的技术底座。这个故事对设计师的启示是：技术能力的积累路径往往是非线性的，一个「失败」的产品方向可能是下一个成功的基础设施。另外也说明，当你在做一个方向不确定的东西时，把核心能力做扎实，比押注在某个特定形态上更有韧性。",
+        "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+        "source": "The Verge",
+        "why": "这不是一篇纯技术文章——它讲的是「失败的产品投资如何成为下一代能力的地基」这个战略逻辑。对于在大公司做设计的人来说，理解技术能力的积累路径，能帮助你更好地判断什么时候该冒险投入一个不确定方向。",
+        "type": "product-strategy",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/apple_chips.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-12",
     "items": [
       {
