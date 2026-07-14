@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-14",
+    "items": [
+      {
+        "title": "终端变成了我的画布——设计师两年 AI-native 工作反思",
+        "summary": "Pablo Stanley（Sketch/Humaaans 作者）分享了一个真实的转变：过去两年，他的创作画布从 Figma 变成了终端。他每天在黑屏里和 Agent 对话、审查代码、同时跑十个想法并行探索。效率前所未有地高，却也带来了陌生的不适——当工具消失在命令行里，「设计感」去哪了？这篇文章没有给出答案，而是诚实地描述了一个 designer 在 AI-native 工作流里的真实困惑：更快不等于更好，更多产出不等于更深创作。对任何正在用 AI 工具重新定义自己工作方式的设计师来说，这种困惑是非常值得被正视的。",
+        "url": "https://uxdesign.cc/the-terminal-became-my-canvas-18af0740f650",
+        "source": "UX Collective",
+        "why": "设计师 Pablo Stanley 亲身叙述 AI-native 工作流的得与失，没有布道，只有真实的两面性——读完会让你想清楚自己的工作流变化意味着什么",
+        "type": "reflection",
+        "image": "https://miro.medium.com/v2/resize:fit:947/1*DWyRC6NyUUgkB5GW1mkmyQ.png"
+      },
+      {
+        "title": "AX 只是编排层——Agent 时代的设计工作到底落在哪里",
+        "summary": "作者从 John Maeda 的「UX → AX（Agentic Experience）」框架出发，挑出了一个关键分歧：Maeda 用「orchestrating」描述设计师的新角色，是把它当作一种趋势方向；但作者认为「编排层」是一个真实存在的系统位置，有边界、有结构。当五个手动步骤折叠成一个 Agent 委托时，协调它们的那一层不会消失——它只是沉到了界面之下，变成了没人被训练去绘制的地方。这篇文章最有价值的地方在于：它指出了 AX 讨论里最容易被忽视的盲区——界面消失不等于设计问题消失，真正的设计工作转移到了结构层，而大多数设计师还没有语言和方法去描述它。",
+        "url": "https://uxdesign.cc/ax-is-just-the-orchestration-layer-cacb4ed4fe45",
+        "source": "UX Collective",
+        "why": "对「AX/Agent 时代设计师要做什么」这个问题给出了比 buzzword 更有深度的回答，是目前少见的把抽象趋势落地成具体设计问题的文章",
+        "type": "analysis",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*oClaxaWA_8gphYwyopqP7g.png"
+      },
+      {
+        "title": "设计网站专属 AI 客服的五个关键维度",
+        "summary": "NNGroup 基于用户研究，提出评估和设计网站专属 AI 聊天机器人的五个质量维度：移交意愿（允许用户轻松转接人工）、灵活性（在合理边界内跟随用户意图）、主动性（预测需求并主动建议下一步）、情感响应（识别并承认用户情绪）、透明度（清楚传达自身身份、能力和局限）。文章强调，用户对网站 AI 助手的心智模型还在形成中，许多 chatbot 因为做不到「及时放手」而迅速被用户放弃——这和老式电话树系统的失败原因如出一辙。对任何在产品里加入 AI 对话入口的设计师来说，这五个维度提供了一个可以直接用于设计评审的检查清单。",
+        "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 研究背书，五个维度有完整用户研究支撑，对正在设计 AI 对话体验的产品团队来说直接可用，不是泛泛而谈",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_5_Dimensions_of_Site-Specific_AI_Chatbots-1_mvZaTdB.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-13",
     "items": [
       {
@@ -1938,8 +1970,7 @@
         "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
         "source": "The Verge",
         "why": "浏览器层面的跨 tab 上下文 AI 正在成形——这对信息产品和知识工具的设计范式有直接影响。",
-        "type": "AI 产品动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24385267/STK148_Microsoft_Edge_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "AI 产品动态"
       }
     ]
   },
