@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-15",
+    "items": [
+      {
+        "title": "32位设计 Leader 被催速时，真正在做什么",
+        "summary": "AI 让「生成设计」这件事快了10倍——草图、研究洞察、方案迭代都加速了。但公司也看到了这一点，于是把时间线压缩，要求更快交付。作者访谈了32位设计 leader，他们的答案出奇一致：不是更快生成，而是把节省出来的时间投入到「思考」——那些 AI 还无法替代的部分。希腊人2300年前就知道这个道理：速度有两种，一种是操作速度，一种是判断速度。AI 能压缩前者，但后者需要更多空间，不是更少。文章给出了设计 leader 们用来「反推快速化压力」的具体策略，包括如何重新定义交付物、用数据说明思考时间的价值，以及如何和 PM 建立关于质量的共识。对于现在每天都在被 AI 加速浪潮推着走的设计师来说，这篇文章是一记清醒剂。",
+        "url": "https://uxdesign.cc/what-32-design-leaders-do-when-told-to-move-faster-9c8d46c90319",
+        "source": "UX Collective",
+        "why": "叉叉在微软工作节奏快，AI 工具普及后设计师被要求更快交付这个压力很真实。这篇直接给出 leader 级别的应对策略，不是鸡汤而是实战经验汇总。",
+        "type": "strategy",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*gkRv4ROxY5MhgxY9URVs_w.jpeg"
+      },
+      {
+        "title": "AX 只是编排层：Agent 时代真正的设计工作在哪里",
+        "summary": "John Maeda 在 Design in Tech Report 里用了一个词：Orchestrating（编排）。作者 Adrian Levy 读到这里停下来了——因为他用这个词描述的是一个「位置」，不是一个「趋势」。当 AI agent 接管了操作层，五个手动步骤折叠成一次授权，原本协调这些步骤的工作并没有消失，它掉到了下面一层——一个叫做「编排层」的地方。没有人被训练去画这一层。AX（Agentic Experience）不是 UX 的替代品，它是一个新的设计空间：在这里，设计师要定义的不是界面，而是 agent 的决策边界、信任机制、和人类干预的触发条件。文章用大量类比说明了这个层在系统中的位置，以及为什么懂得画这一层的设计师会变得极其稀缺。这是目前关于 AX 设计思维最有深度的一篇文章之一。",
+        "url": "https://uxdesign.cc/ax-is-just-the-orchestration-layer-cacb4ed4fe45",
+        "source": "UX Collective",
+        "why": "Agent 是现在最热的方向，但大多数讨论停留在「AI 做了什么」。这篇在追问「谁来设计 AI 的边界」，直接指向设计师的下一个核心竞争力。",
+        "type": "ai-ux",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*oClaxaWA_8gphYwyopqP7g.png"
+      },
+      {
+        "title": "Design System 成熟度：别再用线性模型骗自己了",
+        "summary": "大多数设计系统成熟度模型都是线性的：从搭组件，到推广采用，到扩大规模，到治理稳定。但 NNGroup 这篇文章提出，现实根本不是这样的。设计系统不会线性成熟，它可能因为一次公司合并、预算缩减、或团队重组而「退化」。作者提出了一个六维度评估框架，把成熟度从单一进度条变成雷达图：组件覆盖率、文档质量、采用深度、治理机制、工具集成、以及文化认同。每个维度独立评分，组合起来才是真实现状。文章还强调，一个10人创业公司和一个万人企业可以都有「成熟的」设计系统，但成熟的定义完全不同——上下文才是判断标准。对于正在建设或评估设计系统的团队，这个框架非常实用，能帮你找到真正卡脖子的地方。",
+        "url": "https://www.nngroup.com/articles/design-system-maturity/",
+        "source": "Nielsen Norman Group",
+        "why": "设计系统是大公司设计师的日常工作。NNGroup 给出的六维度框架比常见的「我们到哪一阶段了」单轨模型实用得多，直接可以拿去做内部评审。",
+        "type": "design-systems",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/6_Dimensions_of_Design-System_Maturity-1_V9cQFpV.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "items": [
       {
@@ -1970,7 +2002,8 @@
         "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
         "source": "The Verge",
         "why": "浏览器层面的跨 tab 上下文 AI 正在成形——这对信息产品和知识工具的设计范式有直接影响。",
-        "type": "AI 产品动态"
+        "type": "AI 产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24385267/STK148_Microsoft_Edge_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
