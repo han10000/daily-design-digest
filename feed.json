@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-16",
+    "items": [
+      {
+        "title": "AI 正在颠覆交互范式——设计师准备好了吗？",
+        "summary": "几十年来，软件交互语法没有变过：打开应用、点击菜单、填写表单。这套「桌面隐喻」是所有数字产品的底层语言。但 AI 正在瓦解它。文章以 Mira Murati 新公司 Thinking Machines Lab 发布的「Interaction Models」为切入点，指出我们正从「任务驱动界面」（每一步都要用户操作）转向「意图驱动界面」（你说完意图，系统自己去跑）。当 AI 可以同时处理音频、视频、文字，并在用户还没说完时就开始行动，「轮流发言」的对话模型就失效了。对设计师的挑战是：用户的心智模型需要重建——他们看不见 AI 在背后干什么，设计要让这种「隐形思考」变得可感知。导航结构也会变形：用户可能从聊天界面开始，落到一个生成式 UI，再进入永久性 dashboard。这篇文章是目前少数真正从设计角度切入「后对话时代」的文章，值得仔细读。",
+        "url": "https://uxdesign.cc/ai-systems-are-demanding-new-interaction-models-are-designers-ready-d8a95f5e55a9",
+        "source": "UX Collective",
+        "why": "交互范式正在发生自移动互联网以来最大的一次迁移，这篇文章把设计师在这个迁移中的具体挑战说清楚了——不是喊口号，是提问题",
+        "type": "深度分析",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*xueXM438PdvFdB4J8p3z_A.png"
+      },
+      {
+        "title": "用户根本不想要更多 AI——一篇给 PM 和设计师的清醒剂",
+        "summary": "Smashing Magazine 的这篇文章直接挑战硅谷的集体假设：「每个人都渴望 AI 功能」。现实数据显示，大量 AI 功能采用率极低，同时交付成本极高、声誉风险极大。文章指出核心问题：AI 功能往往是「缝合」进现有产品的，反而把用户从原有工作流里拉出来，制造摩擦而非消除摩擦。更重要的是，AI 放大了组织的既有问题——数据质量差、流程混乱——这些矛盾被直接递给了用户，让用户自己去消化。文章还提到，用户早就知道 AI 幻觉的成本：核实、校对、修正，这些工作往往比自己写还累。结论不是「别做 AI」，而是「AI 属于 Key Activities，不属于 Value Proposition」——这个框架对产品决策非常有用，设计师拿去说服 PM/老板也够用。",
+        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+        "source": "Smashing Magazine",
+        "why": "在所有人都在堆 AI 功能的时候，这篇文章用数据和框架说清楚了「为什么用户不买账」，是难得有立场、有证据的逆势文章",
+        "type": "观点/批评",
+        "image": "https://files.smashing.media/articles/people-dont-want-more-ai/people-dont-want-more-ai.jpg"
+      },
+      {
+        "title": "设计好的 AI Chatbot 需要哪 5 个关键维度？NNGroup 给出框架",
+        "summary": "Nielsen Norman Group 的这篇研究文章给站点内嵌 AI Chatbot 设计提出了五个评估维度：①移交意愿（Handoff Willingness）——用户想找真人时不能设置障碍；②灵活性（Flexibility）——能处理超出脚本的问题；③主动性（Proactivity）——在用户没问的情况下主动提供有用信息；④情感响应性（Emotional Responsiveness）——能识别并回应用户的情绪状态；⑤透明度（Transparency）——诚实说明自己的能力边界。文章特别强调，用户还在形成对 AI Chatbot 的心智模型，他们既不确定该把它当人工客服，也不确定该把它当 GPT 级别的 LLM——很多 Chatbot 两边都没达到用户预期，很快就被放弃。这五个维度是早期设计决策的脚手架，也可用于现有 Chatbot 的质量审查。",
+        "url": "https://www.nngroup.com/articles/dimensions-of-ai-chatbots/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 出品，框架清晰可操作，直接可以用来 review 产品里的 AI 对话模块，或者写设计原则时引用",
+        "type": "研究/框架",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_5_Dimensions_of_Site-Specific_AI_Chatbots-1_mvZaTdB.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-15",
     "items": [
       {
