@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-17",
+    "items": [
+      {
+        "title": "用户不想要更多 AI——设计师必须正视这个不舒服的真相",
+        "summary": "Smashing Magazine 的这篇文章直接戳破了 AI 产品热潮下的集体幻觉：大多数用户从未渴望过更多 AI 功能。研究数据显示，AI 功能普遍面临低采用率和高流失，原因并非执行不力，而是根本的产品定位错误——AI 被当成价值主张本身，而不是实现价值的工具。文章指出：AI 无法修复破碎的组织文化、脏乱的数据或矛盾的优先级，反而会把这些问题以更放大的方式暴露给用户。更关键的是，验证 AI 输出本身就是一项昂贵的认知负担（扫描→定位关键点→逐一核查→纠错→重新生成→再次确认），这套成本往往比直接手写更高。文章给设计师的核心建议是：在商业模型画布中，AI 属于「关键资源」和「关键活动」，而不是「价值主张」。这个区别决定了产品是真正有用，还是只是在表演 AI。",
+        "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
+        "source": "Smashing Magazine",
+        "why": "直接命中「AI 功能为什么没人用」这个设计师现在天天面对的实战困境，有数据、有框架、有立场，是跟 PM 讲预算和方向时的硬通货",
+        "type": "观点 / AI产品策略",
+        "image": "https://files.smashing.media/articles/people-dont-want-more-ai/people-dont-want-more-ai.jpg"
+      },
+      {
+        "title": "SAID 框架：从 Vibe 到 Spec，重建 AI 时代的设计流程",
+        "summary": "Anthropic 设计团队的实战反思——当「设计流程已死」的论断出现五个月后，更精确的版本来了：不是设计死了，是那条 Miro→Figma→Confluence→Jira→GitHub 的线性传送带死了。文章提出了 SAID 框架，核心洞察是：AI 原生团队里，人不再按职能分工，而是按「原型者/构建者/清扫者/增长者/维护者」五种行动模式流动。更关键的是 Git 正在成为团队的共享工作空间——specs 取代 screens 成为真相来源。设计师未来需要掌握的不是学会写代码，而是能把设计意图表达成「人类和 AI agent 都能读懂的规格」，即 Agentic SDD（规格驱动开发）。这重新定义了设计师的核心交付物：从屏幕到语义清晰的意图描述。",
+        "url": "https://uxdesign.cc/from-vibe-to-specs-reclaiming-the-design-process-with-said-framework-477a5d0d8932",
+        "source": "UX Collective",
+        "why": "直接回应「叉叉如何在 AI 时代保持设计师身份的不可替代性」——不是学 coding，是学会写对 agent 和工程师都透明的 spec。非常具体可操作",
+        "type": "方法论 / AI工作流",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*1RklWXLSQOBIIMkGOcZ9TA.png"
+      },
+      {
+        "title": "Design System 成熟度不是一条线——NNGroup 的六维评估框架",
+        "summary": "NNGroup 这篇打破了设计系统「从初级到成熟」的线性叙事。现实是：设计系统成熟度从来不是直线前进的——组织重组、预算削减、团队合并都会让一个成熟系统瞬间退回起点。文章提出六个独立维度的成熟度评估：组件完整性、设计与开发对齐程度、文档质量、治理机制、采用率持续维护、与组织规模的适配性。核心结论是：一个 10 人创业公司和一个万人企业可以都拥有「成熟的设计系统」，但成熟的定义完全不同。采用率也不是终点，而是需要持续运营的过程。这个框架对正在建设或评估设计系统的团队来说，提供了一个比「我们做到哪个阶段了」更诚实的自测工具。",
+        "url": "https://www.nngroup.com/articles/design-system-maturity/",
+        "source": "Nielsen Norman Group",
+        "why": "Design system 是叉叉日常工作的核心上下文，这个框架帮助更准确地诊断「卡在哪里」而非陷入「还没到下一阶段」的误判",
+        "type": "设计系统 / 方法论",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/6_Dimensions_of_Design-System_Maturity-1_V9cQFpV.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-16",
     "items": [
       {
@@ -1340,8 +1372,7 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "行业动态"
       }
     ]
   },
@@ -3662,8 +3693,7 @@
         "title": "Kahneman 的「第二个问题」：被追问时的不适感才是设计洞察的入口",
         "summary": "作者从 Daniel Kahneman 的研究方法中提炼出设计研究的关键：当用户对第一个回答感到自信时，追问第二个更深层的问题。那个让人不舒服的沉默和犹豫，往往暴露出真正的认知模型和决策逻辑。",
         "url": "https://uxdesign.cc/no-further-questions-please-3cc7e7e6ff0c",
-        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Lrfykm7WntgRbiASvgUI3g.png"
+        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。"
       }
     ]
   },
