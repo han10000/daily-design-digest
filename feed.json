@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-18",
+    "items": [
+      {
+        "title": "别把「学习」外包给 AI：用户研究的不可替代价值",
+        "summary": "NNGroup 这篇文章提出了一个反直觉的论点：即便 AI 有朝一日能生成和资深研究员无异的报告，人工主导的研究依然不可缺席。原因不在于输出质量，而在于「学习过程」本身。做研究会产生两种东西：一是可交付的发现报告，二是团队在观察用户时发生的真实理解——那种被用户故事打动、改变认知框架的过程。AI 能生成第一种，但无法替代第二种。文章引用作者亲身采访一位成年文盲的故事，说明用户访谈所传递的人类经验，有时比任何数据汇总更能撬动设计决策。结论是：AI 适合承担研究的效率层（整理、转录、主题归纳），但观察、疑惑、共同讨论「这意味着什么」的那个过程，才是研究真正让团队涌现洞察的时刻，这是一种体验，不是可外包的工件。对于在 AI 浪潮下思考如何定义设计师价值的人，这是今天最值得读的一篇。",
+        "url": "https://www.nngroup.com/articles/human-led-research-still-matters/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 时代设计师/研究员的角色焦虑是热话题，这篇给出了最清晰的论据——不是情绪抵抗，是认知科学层面的分析。叉叉做用研、做设计决策，这个视角直接有用。",
+        "type": "深度观点",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Dont_Outsource_the_Learning-1.png"
+      },
+      {
+        "title": "首例 AI Agent 全自动入侵事件：HuggingFace 安全事故披露",
+        "summary": "HuggingFace 本周披露了一起重大安全事件，引人注目之处在于：这是业界有据可查的首批「AI Agent 全自动发动的攻击」之一。攻击者利用 HuggingFace 数据集处理管道中的两个漏洞（远程代码加载器 + 模板注入），以恶意数据集触发代码执行，随后在集群内横向移动、窃取凭证。整个攻击流程由自主 Agent 框架驱动，在数千个短命沙盒中执行数万个动作，且 C2 指令托管在公开服务上以规避检测。HuggingFace 的反应同样借助 AI：用基于 LLM 的异常检测在遥测数据中发现了这次入侵。公司已修复漏洞、轮换凭证、重建受损节点，并建议所有用户轮换 access token。这个事件标志着「AI 攻击者」从预测变成了现实，对任何依赖开源 AI 基础设施的产品团队来说都是必须了解的背景信息。",
+        "url": "https://huggingface.co/blog/security-incident-july-2026",
+        "source": "Hugging Face Blog",
+        "why": "AI Agent 被用于真实攻击的首个公开案例，对所有在产品中接入 AI 服务的设计师和 PM 都是重要的认知更新——「你的 AI 工具链本身也是攻击面」。",
+        "type": "行业动态",
+        "image": "https://huggingface.co/blog/assets/security-incident-july-2026/thumbnail.png"
+      },
+      {
+        "title": "「被嘲了再爱上」：AirPods 效应还会重演吗？",
+        "summary": "这篇 UX Collective 文章以 AirPods 为切入点，探讨了一类反复出现的产品模式：发布时因外观怪异遭到嘲讽，用过之后却被大规模采纳，最终变成文化符号。AirPods 2016 年发布时被 The Guardian 比作「没线的卫生棉条」，被 Popular Mechanics 斥为「糟糕设计」，但十年后它成了最普及的无线耳机之一。Apple Watch 同样经历了「这玩意儿有什么用」→「瑞士表业被超越」的弧线。作者追问：相机 AirPods 会是下一个 AirPods 时刻，还是这次逻辑已经不同？文章提炼了这类产品成功的几个共同要素：使用场景真实、功能迭代精准、社会符号效应放大。对做硬件或新交互形态的设计师来说，这篇提供了一个分析「反直觉设计能否破防」的实用框架。",
+        "url": "https://uxdesign.cc/the-mocked-then-loved-airpods-effect-65ec25feeb3a",
+        "source": "UX Collective",
+        "why": "用具体产品案例解剖「逆反直觉的设计为何能赢」，视角清晰，结论可迁移。Apple Vision Pro、AI 眼镜这类新形态正在走同样的路，读完会有实感。",
+        "type": "设计案例",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*6YzlJEkLQpGM1uvf"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "items": [
       {
@@ -1372,7 +1404,8 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3693,7 +3726,8 @@
         "title": "Kahneman 的「第二个问题」：被追问时的不适感才是设计洞察的入口",
         "summary": "作者从 Daniel Kahneman 的研究方法中提炼出设计研究的关键：当用户对第一个回答感到自信时，追问第二个更深层的问题。那个让人不舒服的沉默和犹豫，往往暴露出真正的认知模型和决策逻辑。",
         "url": "https://uxdesign.cc/no-further-questions-please-3cc7e7e6ff0c",
-        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。"
+        "why": "用户研究的实用技巧：别在用户给出流畅回答时就停下来，第二个问题才是金矿。",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*Lrfykm7WntgRbiASvgUI3g.png"
       }
     ]
   },
