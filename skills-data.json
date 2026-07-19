@@ -1,13 +1,66 @@
 {
-  "updated": "2026-07-17",
+  "updated": "2026-07-18",
   "trending": [
     {
       "rank": 1,
+      "name": "ui-skills",
+      "owner": "ibelick",
+      "source": "github",
+      "installs": "4,885 stars (+242 今日，TypeScript，Design Engineers 专用 skill 集，今日全榜新面孔)",
+      "stars": 5031,
+      "desc": "ui-skills — Skills for Design Engineers。npx ui-skills start 一键路由 AI agent 进入正确的 UI skill 集（motion/layout/color/typography 等分类），TypeScript，MIT，ui-skills.com。今日全榜新面孔 +242。",
+      "reason": "今日全榜新面孔 +242。✅ 可安装 skill（npx ui-skills）；✅ 完全免费开源（MIT）；✅ macOS/Linux Node.js；✅ Design Engineer 的 AI UI 生成质量把关直接相关。relevant=true。",
+      "usage": "npx ui-skills start，TypeScript MIT，完全免费；ui-skills.com 查文档",
+      "tag": "design",
+      "category": "Design Engineer Skill Set",
+      "relevant": true,
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "skills",
+        "ui-skills"
+      ],
+      "repo_desc": "Skills for Design Engineers",
+      "homepage": "https://www.ui-skills.com/",
+      "how_to_install": "",
+      "how_to_use": "```bash\nnpx ui-skills\nnpx ui-skills start\nnpx ui-skills categories\nnpx ui-skills list --category motion\nnpx ui-skills get baseline-ui\n```",
+      "features": ""
+    },
+    {
+      "rank": 2,
+      "name": "wigolo",
+      "owner": "KnockOutEZ",
+      "source": "github",
+      "installs": "1,125 stars (+192 今日，TypeScript，local-first AI agent 全量 web 工具（搜索/抓取/爬取/研究），零 API key，今日新面孔)",
+      "stars": 1247,
+      "desc": "wigolo — The go-to web for your AI coding agent。local-first 搜索/fetch/crawl/extract/research，18 直连搜索引擎，ML 本地重排，$0/query，无云依赖。MCP server 接入 Claude Code / Cursor / Codex。",
+      "reason": "今日新面孔 +192。需 Node.js 初始化下载本地模型（~1.5GB），synthesis 需免费 Gemini key。条件 b：核心功能完全免费但完整 synthesis 需 API key → 核心功能 relevant=true，synthesis 为可选；条件 d：AI agent 研究工具，设计师日常内容研究/竞品调研直接可用。relevant=true。",
+      "usage": "npx wigolo init --agents=claude-code，Node ≥ 20，~1.5GB 磁盘；核心工具完全免费 keyless，synthesis 可选免费 Gemini key",
+      "tag": "workflow",
+      "category": "Local-First AI Web Research",
+      "relevant": true,
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "claude",
+        "cli"
+      ],
+      "repo_desc": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "homepage": "https://knockoutez.github.io/wigolo/",
+      "how_to_install": "Requires **Node ≥ 20** and ~1.5 GB of free disk. macOS, Linux, and Windows.\n\nOne command wires the local engine into your agent. `init` is **unattended by default** — no prompts, safe in scripts and CI — and does the **complete setup**: it downloads the browser engine and on-device models, runs a health check, and prints a per-component summary, so any setup problem surfaces right here, not silently on your agent's first call:\n\n```bash\nnpx wigolo init --agents=<your-agent>\n```\n\n- **`<your-age...",
+      "how_to_use": "",
+      "features": ""
+    },
+    {
+      "rank": 3,
       "name": "hallmark",
       "owner": "Nutlope",
       "source": "github",
       "installs": "11,840 stars (+1,486 今日，CSS，Anti-AI-slop design skill，连续热榜持续加速)",
-      "stars": 12041,
+      "stars": 12852,
       "desc": "hallmark — Anti-AI-slop design skill for Claude Code, Cursor, and Codex。57 slop-test gates + pre-emit self-critique，专为 AI coding agent 设计。CSS，MIT，11.8k stars，今日 +1,486，连续热榜加速中。",
       "reason": "今日 +1,486 连续热榜加速，从 10.6k 涨至 11.8k。✅ 可安装 skill；✅ 完全免费开源（MIT）；✅ 设计师 AI 生成 UI 质量把关直接相关。relevant=true。",
       "usage": "CSS skill；agentskills install Nutlope/hallmark，完全免费 MIT",
@@ -24,12 +77,12 @@
       "features": ""
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "OpenCut",
       "owner": "OpenCut-app",
       "source": "github",
       "installs": "74,690 stars (+1,077 今日，TypeScript，开源 CapCut 替代，持续强势热榜)",
-      "stars": 74884,
+      "stars": 75433,
       "desc": "OpenCut — The open-source CapCut alternative。浏览器端视频编辑器，timeline 剪辑 + 字幕 + 滤镜 + 导出，完全免费无水印，TypeScript，MIT，74.7k stars，今日 +1,077。",
       "reason": "持续热榜，今日 +1,077 保持稳健增长。✅ Web 应用；✅ 完全免费开源（MIT）；✅ macOS/Linux；✅ 设计师 demo 视频制作直接相关。relevant=true。",
       "usage": "TypeScript Web；git clone + npm run dev 或直接访问在线版，完全免费开源",
@@ -50,12 +103,12 @@
       "features": ""
     },
     {
-      "rank": 3,
+      "rank": 5,
       "name": "maths-cs-ai-compendium",
       "owner": "HenryNdubuaku",
       "source": "github",
       "installs": "6,525 stars (+248 今日，TypeScript，AI/ML 学习路线图，持续热榜)",
-      "stars": 6627,
+      "stars": 6877,
       "desc": "maths-cs-ai-compendium — Become a cracked AI/ML Research Engineer。AI/ML 工程师完整成长路线图，6.5k stars，今日 +248。",
       "reason": "持续热榜 +248。学习路线图/文档 repo，条件 a 不满足（非可安装工具）。relevant=false。",
       "usage": "⚠️ 学习资料 repo，非可安装工具",
@@ -78,12 +131,12 @@
       "features": ""
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "copilot-sdk",
       "owner": "github",
       "source": "github",
       "installs": "9,769 stars (+234 今日，Java，GitHub Copilot Agent 多平台集成 SDK，持续热榜)",
-      "stars": 9797,
+      "stars": 9875,
       "desc": "GitHub Copilot SDK — Multi-platform SDK for integrating GitHub Copilot Agent into apps and services。GitHub 官方出品，Java，9.8k stars，今日 +234。",
       "reason": "持续热榜。SDK/开发框架，条件 a 不满足；面向开发者，条件 d 不满足。relevant=false。",
       "usage": "⚠️ 开发者 SDK，非设计专用直接工具",
@@ -100,12 +153,12 @@
       "features": ""
     },
     {
-      "rank": 5,
+      "rank": 7,
       "name": "cwc-workshops",
       "owner": "anthropics",
       "source": "github",
       "installs": "1,541 stars (+37 今日，TypeScript，Anthropic 官方 Claude Workshops 课程 repo，今日新面孔)",
-      "stars": 1589,
+      "stars": 1705,
       "desc": "cwc-workshops — Anthropic 官方 Claude Workshops 课程 repo。结构化 Claude 使用教程，TypeScript，Anthropic 官方出品，1.5k stars，今日新面孔入 Trending。",
       "reason": "今日新面孔 +37。教程/课程 repo，条件 a 不满足（非可安装工具）。relevant=false。Anthropic 官方学习资料，参考价值高。",
       "usage": "⚠️ 教程课程 repo，非可安装工具；Anthropic 官方学习资料",
@@ -122,12 +175,12 @@
       "features": ""
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "Bonsai-demo",
       "owner": "PrismML-Eng",
       "source": "github",
       "installs": "1,686 stars (+279 今日，Shell，PrismML Bonsai AI 演示 repo，持续热榜)",
-      "stars": 1713,
+      "stars": 1806,
       "desc": "Bonsai Demo — PrismML 出品 AI 系统演示 repo。Shell，持续热榜 +279。",
       "reason": "持续热榜 +279。Demo/演示 repo，条件 a 不满足（非可安装的独立工具）。relevant=false。",
       "usage": "⚠️ Demo repo，非独立可安装工具",
@@ -150,12 +203,12 @@
       "features": ""
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "code-review-graph",
       "owner": "tirth8205",
       "source": "github",
       "installs": "今日新面孔，本地代码智能图谱，MCP + CLI，上下文精准裁剪",
-      "stars": 19759,
+      "stars": 20179,
       "desc": "code-review-graph — Local-first code intelligence graph for MCP and CLI。构建代码库持久化地图，让 AI coding 工具只读取相关上下文，支持大型 repo 工作流，今日新面孔入 Trending。",
       "reason": "今日新面孔。面向开发者 code review 和 AI coding 工具，条件 d 不满足——非 Product Designer 日常设计工作流直接相关。relevant=false。",
       "usage": "⚠️ 开发者代码分析工具，非设计专用",
@@ -178,12 +231,12 @@
       "features": "| Feature | Details |\n|---------|---------|\n| **Incremental updates** | Re-parses only changed files. Subsequent updates complete in under 2 seconds. |\n| **Broad language + notebook support** | Python, JavaScript/TypeScript/TSX, Go, Rust, Java, C/C++, C#, VB.NET, Ruby, Kotlin, Swift, PHP, Scala, Solidity, Dart, R, Perl, Lua/Luau, Objective-C, shell scripts, Elixir, Zig, PowerShell, Julia, ReScript, GDScript, Nix, Verilog/SystemVerilog, SQL, Terraform/OpenTofu structure (`.tf`; generic `.hcl` ..."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "docuseal",
       "owner": "docusealco",
       "source": "github",
       "installs": "今日新面孔，开源 DocuSign 替代，数字文档创建/填写/签署",
-      "stars": 17847,
+      "stars": 17996,
       "desc": "DocuSeal — Open source DocuSign alternative。创建、填写、签署数字文档，开源自托管，macOS/Linux 均可部署，今日新面孔入 Trending。",
       "reason": "今日新面孔。✅ 可安装工具；✅ 完全免费开源；✅ macOS/Linux；⚠️ 与 Product Designer 核心设计创作工作流关联较弱（偏合同/文件管理），条件 d 不满足。relevant=false。",
       "usage": "Docker 自托管，完全免费；⚠️ 合同签署工具，非设计创作专用",
@@ -206,12 +259,12 @@
       "features": "- PDF form fields builder (WYSIWYG)\n- 12 field types available (Signature, Date, File, Checkbox etc.)\n- Multiple submitters per document\n- Automated emails via SMTP\n- Files storage on disk or AWS S3, Google Storage, Azure Cloud\n- Automatic PDF eSignature\n- PDF signature verification\n- Users management\n- Mobile-optimized\n- 7 UI languages with signing available in 14 languages\n- API and Webhooks for integrations\n- Easy to deploy in minutes"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "PostHog",
       "owner": "PostHog",
       "source": "github",
       "installs": "持续热榜，TypeScript，产品分析 + AI 可观测性全家桶，self-hostable",
-      "stars": 36195,
+      "stars": 36600,
       "desc": "PostHog — The leading platform for building self-driving products。AI 可观测性 + analytics + session replay + flags + experiments + error tracking + MCP。可 self-host，持续热榜。",
       "reason": "持续热榜。产品分析/监控平台，条件 d 不满足——非 Product Designer 设计创作工作直接相关。relevant=false。",
       "usage": "⚠️ 产品分析工具，偏开发者 analytics，非设计创作专用",
@@ -234,12 +287,12 @@
       "features": ""
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "openinterpreter",
       "owner": "openinterpreter",
       "source": "github",
       "installs": "持续热榜，Python，Kimi K3 等低成本开源模型 coding agent",
-      "stars": 66376,
+      "stars": 66675,
       "desc": "Open Interpreter — A coding agent for open models like Kimi K3。本地运行开源 LLM 可执行代码、控制浏览器、操作文件系统。Python，持续热榜。",
       "reason": "持续热榜。开发者 coding agent 工具，条件 d 不满足。relevant=false。",
       "usage": "⚠️ coding agent，开发者工具，非设计专用",
@@ -262,7 +315,7 @@
       "features": "- Runs commands inside native sandboxing on macOS, Linux, and Windows.\n- Switches providers and models from the TUI with `/model`.\n- Inspects or switches Rust-native model harnesses with `/harness`.\n- Tests web and native apps through the built-in QA skill.\n- Runs as an [Agent Client Protocol](https://agentclientprotocol.com/) agent for editors with `interpreter acp`.\n- Keeps config and session state local under `~/.openinterpreter`.\n- Supports `exec`, MCP, skills, hooks, permissions, and `AG..."
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Animos",
       "owner": "animos-app",
       "source": "producthunt",
@@ -276,7 +329,7 @@
       "relevant": true
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Mojave-Paint",
       "owner": "mojave-paint",
       "source": "producthunt",
@@ -290,12 +343,12 @@
       "relevant": true
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "penpot",
       "owner": "penpot",
       "source": "github",
       "installs": "56,059 stars，Clojure，开源设计协作平台，v2.17 MCP 集成，持续热榜",
-      "stars": 56739,
+      "stars": 56816,
       "desc": "Penpot 2.17 The Universal — 开源设计协作平台，Figma 免费开源替代。v2.17：背景模糊 + WebGL 渲染引擎 + MCP server 集成（设计文件对 AI agent 可读可写）。56k stars。",
       "reason": "持续热榜，v2.17 含 MCP server 集成。✅ 可安装工具；✅ 完全免费开源（MPL-2.0）；✅ macOS/Linux；✅ Product Designer 核心工具。relevant=true。",
       "usage": "penpot.app 免费注册使用，或 docker-compose 自托管",
@@ -318,12 +371,12 @@
       "features": ""
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Clypra",
       "owner": "AIEraDev",
       "source": "github",
       "installs": "2,556 stars，TypeScript，免费开源视频编辑器，持续热榜",
-      "stars": 2869,
+      "stars": 2880,
       "desc": "Clypra — 现代免费视频编辑器，Tauri + React + TypeScript，专注实现 CapCut 高级功能的开源替代。",
       "reason": "持续热榜。✅ 可安装工具；✅ 完全免费开源（MIT）；✅ macOS + Linux（Tauri 跨平台）；✅ 设计师视频编辑直接相关。relevant=true。",
       "usage": "GitHub releases 下载 macOS/Linux 安装包，完全免费",
@@ -343,12 +396,12 @@
       "features": "### Core Editing\n\n- **Multi-format media import**: MP4, MOV, WebM, MKV, M4V, AVI (video); MP3, WAV, AAC (audio); JPG, PNG, WebP (image)\n- **Frame-accurate trimming**: Precise timeline control with millisecond accuracy\n- **Multi-track timeline**: Professional timeline interface with ruler and visual feedback\n- **Undo/redo system**: 100-level history stack with command pattern architecture"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "pocket-tts",
       "owner": "kyutai-labs",
       "source": "github",
       "installs": "6,885 stars，Python，CPU TTS，100M 参数，支持声音克隆，持续热榜",
-      "stars": 7708,
+      "stars": 7731,
       "desc": "A TTS that fits in your CPU (and pocket). Kyutai 出品，100M 参数，CPU 运行无需 GPU，6x 实时，声音克隆，6 语言，streaming 输出。",
       "reason": "持续热榜。✅ 免费本地 TTS；✅ CPU 无 GPU；✅ macOS/Linux；✅ demo 视频配音直接相关。relevant=true。",
       "usage": "pip install pocket-tts 或 uvx pocket-tts，完全本地免费，CPU 运行",
@@ -365,12 +418,12 @@
       "features": ""
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "PhotoGIMP",
       "owner": "Diolinux",
       "source": "github",
       "installs": "14,919 stars，CSS，GIMP 3+ Photoshop 键位布局补丁，持续热榜",
-      "stars": 16332,
+      "stars": 16403,
       "desc": "PhotoGIMP — 把 GIMP 3+ 改造成 Photoshop 布局的免费开源补丁。工具位置、键盘快捷键、工作区布局全部按 Adobe 对齐，macOS/Linux/Windows，GPL-3.0。",
       "reason": "持续热榜。✅ 可安装工具；✅ 完全免费开源（GPL-3.0）；✅ macOS + Linux；✅ 设计师直接相关。relevant=true。",
       "usage": "GitHub releases 下载 zip 解压到 home 目录，完全免费，需先安装 GIMP 3.0+",
@@ -387,12 +440,12 @@
       "features": ""
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "next-ai-draw-io",
       "owner": "DayuanJiang",
       "source": "github",
       "installs": "33,250 stars，TypeScript，AI 自然语言驱动 draw.io 图表编辑，持续热榜",
-      "stars": 33601,
+      "stars": 33646,
       "desc": "next-ai-draw-io — 把 AI 接入 draw.io 的 Next.js 应用。用自然语言创建、修改 flow diagram/架构图，TypeScript，MIT，33.2k stars。",
       "reason": "持续热榜。✅ Web 应用；✅ 免费开源；✅ macOS/Linux；✅ 设计师 flow diagram 直接相关。relevant=true。",
       "usage": "git clone + npm run dev，完全免费开源",
@@ -413,12 +466,12 @@
       "features": "-   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands\n-   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically\n-   **PDF & Text File Upload**: Upload PDF documents and text files to extract content and generate diagrams from existing documents\n-   **AI Reasoning Display**: View the AI's thinking process for supported mo..."
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "meetily",
       "owner": "Zackriya-Solutions",
       "source": "github",
       "installs": "持续 Trending，Rust，100% 本地 AI 会议笔记，macOS & Windows",
-      "stars": 25294,
+      "stars": 25455,
       "desc": "Meetily — 本地 AI 会议助手，4x 实时 Parakeet/Whisper 转录 + 说话人识别 + Ollama 摘要。100% 本地处理，无云依赖。",
       "reason": "持续热榜。✅ 可安装工具；✅ 完全本地免费；✅ macOS；✅ 用研访谈/设计评审记录直接相关。relevant=true。",
       "usage": "Rust macOS；需安装 Ollama，CPU 模式可运行，完全本地免费",
@@ -441,7 +494,7 @@
       "features": "- **Local First:** All processing is done on your machine. No data ever leaves your computer.\n- **Real-time Transcription:** Get a live transcript of your meeting as it happens.\n- **AI-Powered Summaries:** Generate summaries of your meetings using powerful language models.\n- **Multi-Platform:** Works on macOS, Windows, and Linux.\n- **Open Source:** Meetily is open source and free to use.\n- **Flexible AI Provider Support:** Choose from Ollama (local), Claude, Groq, OpenRouter, or use your own ..."
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "Glideo",
       "owner": "glideo-app",
       "source": "producthunt",
@@ -455,12 +508,12 @@
       "relevant": true
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "OfficeCLI",
       "owner": "iOfficeAI",
       "source": "github",
       "installs": "14,304 stars，C#，AI agent Office 套件 Word/Excel/PPT，持续热榜",
-      "stars": 18832,
+      "stars": 19308,
       "desc": "OfficeCLI — 首个专为 AI agent 设计的 Office 套件。单二进制文件，无需安装 Office，读写自动化 Word/Excel/PPT，内置 HTML 渲染引擎可输出截图。macOS/Linux/Windows，MIT。",
       "reason": "持续热榜。✅ 可安装工具；✅ 完全免费开源（MIT）；✅ macOS + Linux；✅ 设计师交付文档、PPT 提案自动化。relevant=true。",
       "usage": "brew install officecli 或 npm install -g @officecli/officecli，完全免费无依赖",
@@ -483,12 +536,12 @@
       "features": "### Built-in Engines & Generation Primitives\n\nOfficeCLI is self-contained. The capabilities below ship inside the binary — **no Office required**.\n\n#### Rendering engine — high-fidelity, built-in\n\nOfficeCLI's keystone: a from-scratch, high-fidelity HTML rendering engine that lets an AI agent *see* the rendered document instead of guessing from the DOM. It covers shapes, charts (trendlines, error bars, waterfall, candlestick, sparklines), equations (OMML → LaTeX, rendered with KaTeX), 3D `.glb..."
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "awesome-design-md",
       "owner": "VoltAgent",
       "source": "github",
       "installs": "13,808 stars，HTML MIT，DESIGN.md 品牌设计系统文件策划集",
-      "stars": 102646,
+      "stars": 102948,
       "desc": "Awesome DESIGN.md — 精选 66+ 品牌 DESIGN.md 文件集合（Claude、Cursor、Vercel、Raycast 等）。把 DESIGN.md 放入项目根目录，AI coding agent 即可生成风格匹配的 UI。",
       "reason": "文档/参考资料 repo，条件 a 不满足（非可安装工具）。relevant=false。⚠️ 极高参考价值——给 AI 看设计系统文档生成风格匹配 UI 的思路值得关注。",
       "usage": "⚠️ 文档/参考资料 repo，非可安装工具",

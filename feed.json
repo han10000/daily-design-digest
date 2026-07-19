@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-07-19",
+    "items": [
+      {
+        "title": "Dave Eggers 当面告诉 OpenAI 员工：ChatGPT 正在「让整整一代人失声」",
+        "summary": "作家 Dave Eggers 受 Sam Altman 之邀，向约 200 名 OpenAI 员工发表演讲。他没有给出任何创作建议，而是直接抨击公司——他说 ChatGPT 对教育者的冲击是「灾难性的」，让每位教师的工作变得无比艰难。更让他忧虑的是：如果学生用 AI 代写，他们将永远学不会写作，永远找不到自己的声音，「这是对整整一代甚至两代人声音的剥夺」。Eggers 的小说《圆圈》正是对科技行业的辛辣批评，他曾公开称 AI 生成的写作是「杂烩废话」。这篇报道的价值不在于立场对错，而在于它把一个真实的外部声音带进了 OpenAI 内部——作为产品设计师，这是一个不可绕过的视角：我们做的产品，在它的用户之外，正在对谁造成什么影响？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+        "source": "The Verge AI",
+        "why": "AI 产品的外部代价视角。做 AI 产品的人往往只盯着用户指标，但这个故事提醒设计师：产品在「目标用户」之外还在发生什么？这是系统性思维的练习，也是做负责任设计必须面对的问题。",
+        "type": "perspective",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2157758001.jpg?quality=90&strip=all&crop=0%2C2.5961195218394%2C100%2C43.073649479563&w=1200"
+      },
+      {
+        "title": "你表单里的下拉菜单，真的需要吗？NNGroup 重新审视被滥用的经典组件",
+        "summary": "Nielsen Norman Group 的这篇研究文章系统性地拆解了下拉菜单（dropdown list）的使用误区。下拉菜单受欢迎，是因为它节省空间、约束输入、用户熟悉——但这些优势背后藏着隐性代价：每次选择都需要额外一次点击，选项隐藏导致认知负担加重，尤其当选项少于 5 个时，单选按钮（radio buttons）或分段控件通常更高效。文章给出了清晰的判断框架：超过 15 个选项、需要约束输入格式、移动端空间有限，这些才是 dropdown 真正适合的场景。对于常用的国家/地区、时区、语言选择，combobox 配合搜索往往比纯下拉更好用。这篇文章是表单设计决策的实用参考，尤其适合在下次做设计评审时拿出来对照。",
+        "url": "https://www.nngroup.com/articles/dropdown-list/",
+        "source": "Nielsen Norman Group",
+        "why": "表单设计是日常高频场景，dropdown 又是最容易「默认选用」的组件。NNGroup 这种基于研究的判断框架，比设计直觉更可靠，值得存进组件决策备忘录。",
+        "type": "craft",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Does_Your_Form_Really_Need_a_Dropdown_List_-1_YvXTirT.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-18",
     "items": [
       {
