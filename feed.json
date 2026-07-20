@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-20",
+    "items": [
+      {
+        "title": "别把学习外包给 AI：为什么人亲自做用研仍然不可替代",
+        "summary": "NNGroup 的这篇文章提出了一个反直觉的论点：即使 AI 的研究产出有一天和专家一样好，人亲自做用研依然是不可替代的。原因不是 AI 做不出报告，而是做研究这件事本身会改变做研究的人——亲眼看到用户挣扎、被故事打动、带着共情去做设计决策，这些经验是无法被外包的。文章用一个真实案例说明：一个研究者在访谈中听到用户讲述识字困难的故事，被深深打动，最终直接向相关慈善机构捐款。这种情感共鸣和动力传递，AI 给你出一份报告是完全无法复制的。对设计团队来说，这意味着：用 AI 做定量分析和报告整理可以，但不要让团队的人彻底退出用研现场，否则你失去的不是效率，是对用户的感知能力本身。",
+        "url": "https://www.nngroup.com/articles/human-led-research-still-matters/",
+        "source": "Nielsen Norman Group",
+        "why": "直击「AI 替代用研」这个 2026 年最热的设计话题，但角度比通常的「AI 不够好」论述深得多——不是能力问题，是学习和共情的传递问题。对叉叉这种要在团队里捍卫用研价值的 designer 很有用。",
+        "type": "深度观点",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Dont_Outsource_the_Learning-1.png"
+      },
+      {
+        "title": "最弱的那根信道：通用设计不是被设计出来的，而是在约束中被筛选出来的",
+        "summary": "这篇文章以 1970 年世界杯那颗黑白足球作为切入点，展开了一个关于「通用性」从何而来的思考。那个球的设计之所以活过了之后半个世纪所有的赛事视觉识别系统，不是因为它最美，也不是因为它最受欢迎，而是因为它被设计成能在最糟糕的呈现条件下——黑白电视、压缩信号、模糊画质——仍然被识别出来。作者借用信息论中「最弱信道」的概念：真正通用的设计，是对限制条件的暴力适应，而不是对最优条件的优化。这对 UI 设计有直接的启发：我们常常在 Retina 屏、完美网速、理想光线下做设计，但用户在哪里用？老手机、地铁信号、强光下斜视——设计应该首先扛住最差的那根信道，而不是讨好最好的那根。",
+        "url": "https://uxdesign.cc/the-weakest-channel-1e6d68d8d562",
+        "source": "UX Collective",
+        "why": "用足球球皮这个具体案例把「约束驱动的通用设计」这个抽象概念讲得极其清晰，而且恰逢世界杯赛季，时机刚好。对叉叉做产品设计时的跨设备/跨场景适配有直接参考价值。",
+        "type": "设计观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*iVMS7zk9Pl2M1ulmHwWmow.jpeg"
+      },
+      {
+        "title": "你的表单真的需要下拉菜单吗？NNGroup 出手整理了下拉的正确用法",
+        "summary": "下拉菜单（Dropdown list）是表单设计里最常被滥用的控件之一。NNGroup 这篇文章系统梳理了它适用的狭窄场景，以及更多情况下应该换成什么。核心问题是：下拉菜单把所有选项藏在一次点击背后，强迫用户做决策前先承受额外摩擦。文章区分了「下拉列表」（收集数据的输入控件）和「下拉菜单」（导航或命令触发）这两种常被混淆的模式，并给出了清晰的判断框架：选项少（3 个以下）用 radio button；选项超过 15 个且用户熟悉的考虑 combobox；只有中间某个区间的选项数量，才是 dropdown 的真正舞台。对做 B 端产品、需要频繁处理复杂表单的设计师来说，这篇是值得存档的参考文档。",
+        "url": "https://www.nngroup.com/articles/dropdown-list/",
+        "source": "Nielsen Norman Group",
+        "why": "表单设计是 B 端 designer 最高频触碰的场景，dropdown 滥用问题极其普遍。NNGroup 出品，研究支撑扎实，可以直接用于 design review 或向 PM/开发解释设计决策。",
+        "type": "实战指南",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Does_Your_Form_Really_Need_a_Dropdown_List_-1_YvXTirT.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-19",
     "items": [
       {
@@ -711,8 +743,7 @@
         "url": "https://www.nngroup.com/articles/establishing-baselines/",
         "source": "Nielsen Norman Group",
         "why": "实战型文章，解决的是「如何证明设计价值」这个 PM 和 designer 都头疼的问题。方法可直接落地。",
-        "type": "ux-research",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Baseline_Graphic_for_Baseline_Article-1.png"
+        "type": "ux-research"
       },
       {
         "title": "OpenAI 在监管压力下突然发布 GPT-5.6：三个新模型名字叫 Sol、Terra、Luna",
