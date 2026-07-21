@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-21",
+    "items": [
+      {
+        "title": "别再乱用 Hook Model 了——把它用在 AI 产品上的正确姿势",
+        "summary": "Nir Eyal 的 Hook Model（触发→行动→可变奖励→投入）原本是为移动 App 设计的习惯养成框架，但作者 Patrick Neeman 发现它和 AI 助手的交互逻辑吻合得出奇：内部触发是用户卡住的那一刻，行动是一句指令，可变奖励是每次回答质量的微小差异，投入是用户积累的偏好、风格文件、自定义 prompt。这套循环让 AI 产品极易成瘾——但作者也给出了「负责任地使用」的思路：用 Hook 提升真实价值而非制造虚假急迫感，设计退出点，让用户的投入增强自主能力而非依赖性。对正在设计 AI 产品的 designer 来说，这是一份兼具理论框架和实操视角的参考。",
+        "url": "https://uxdesign.cc/how-to-apply-nir-eyals-hook-model-to-ai-products-safely-f6a986305a2d",
+        "source": "UX Collective",
+        "why": "直接可用的 AI 产品设计框架，兼顾商业逻辑与伦理边界，适合做 AI 功能设计时参考",
+        "type": "Product Design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*H2988nKKxQtsXnJ92R1Mog.png"
+      },
+      {
+        "title": "Sony 起诉 AI 音乐生成器 Udio，清单长达 3 万首歌",
+        "summary": "Sony Music Entertainment 向纽约法院提起新诉讼，指控 AI 音乐生成平台 Udio 侵犯了超过 3 万首歌曲的版权，范围从 Elvis Presley 的 Hound Dog 到 Beyoncé 的 Say My Name 再到 Harry Styles 的 As It Was。Sony 表示这份清单只是「侵权作品的一小部分」。这是继 2024 年 Sony、环球、华纳联合起诉 Udio 和 Suno 之后的进一步行动——Sony 通过诉讼发现程序获取了 Udio 的训练数据，从而掌握了更具体的证据。这场官司的走向将直接影响 AI 生成内容的版权边界，对任何在产品中使用 AI 生成媒体的设计师和 PM 都是需要关注的行业背景。",
+        "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+        "source": "The Verge",
+        "why": "AI 生成内容的版权案正在积累，设计和产品团队使用 AI 媒体生成工具前需了解边界",
+        "type": "AI Industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK467_AI_MUSIC_CVirginia_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "NVIDIA Cosmos 3 Edge：4B 参数，给机器人和边缘设备的「世界模型」",
+        "summary": "NVIDIA 发布 Cosmos 3 Edge，一个 40 亿参数的开源世界模型，专为边缘设备（工厂、仓库、医院中的机器人和视觉 AI）设计。它采用双塔 Transformer 架构：自回归塔负责视觉和文本理解，扩散塔负责预测和生成动作，两个塔通过共享的多模态注意力层对齐信息。在同等参数量的模型里，Cosmos 3 Edge 在 VANTAGE-Bench 上排名第一，并在 NVIDIA Jetson Thor 上实现 15Hz 的实时机器人控制。这标志着「世界模型」从研究走向产品：机器不只识别当前状态，还能预测动作后果、生成下一步行为。对关注 physical AI 和下一代产品形态的设计师，这是值得追踪的技术方向。",
+        "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+        "source": "Hugging Face Blog",
+        "why": "Physical AI 正在走向实用化，世界模型是未来产品形态的底层逻辑，设计师需要了解这层技术",
+        "type": "AI Research",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/6a45813c717ace23b8c3b562/9_7TYr_qt6fVauHKiFGh5.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-20",
     "items": [
       {
@@ -720,8 +752,7 @@
         "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
         "source": "The Verge",
         "why": "AI 基础设施的成本正在向终端用户传导。了解这个趋势帮助设计师预判用户的设备现状，在 performance 和兼容性上做更务实的决策。",
-        "type": "industry",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK071_ACastro_apple_0003_a30fb2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "industry"
       }
     ]
   },
@@ -743,7 +774,8 @@
         "url": "https://www.nngroup.com/articles/establishing-baselines/",
         "source": "Nielsen Norman Group",
         "why": "实战型文章，解决的是「如何证明设计价值」这个 PM 和 designer 都头疼的问题。方法可直接落地。",
-        "type": "ux-research"
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Baseline_Graphic_for_Baseline_Article-1.png"
       },
       {
         "title": "OpenAI 在监管压力下突然发布 GPT-5.6：三个新模型名字叫 Sol、Terra、Luna",
