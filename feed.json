@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-23",
+    "items": [
+      {
+        "title": "屏幕正在被降级：AI 时代哪些界面还有存在的必要？",
+        "summary": "来自 Meta AI 设计师的第一线观察：大部分工作时间都在做屏幕——配置页、引导流程、仪表盘，这些界面存在的本质原因是系统不够聪明，只能让用户自己来。作者指出，AI 正在关闭用户想要的和系统强迫你手动操作的之间那道缝。比如发一张照片给朋友，原来要六步，现在一句话搞定。这不只是交互效率的问题——它改变的是设计师的核心问题：从这个界面设计得好不好，变成这个界面还有必要存在吗。Golden Krishna 十年前写过《最好的界面是没有界面》，当时技术没跟上，现在技术到了。对 Product Designer 来说，这是一个必须正视的身份转型时刻。",
+        "url": "https://uxdesign.cc/the-screens-are-getting-demoted-6b40120fcf04",
+        "source": "UX Collective",
+        "why": "直接冲击设计师日常工作定义，来自 Meta 一线实战视角，不是泛泛而谈，论点清晰有力。",
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*MYZNJTIK1o6qlF7KDs9T5Q.png"
+      },
+      {
+        "title": "别把学习外包给 AI：为什么用研必须有人亲自在场",
+        "summary": "NNGroup 最新研究提出一个反直觉论点：即使 AI 用研输出质量媲美资深研究员，人主导的研究依然不可替代——因为研究产出的不只是报告，还有做研究的人本身的改变。作者用真实案例说明：研究者采访了一位成年后才学会阅读的参与者，被那个故事深深触动，事后捐款给了那家慈善机构。这种被用户故事改变的体验，是 AI 无法代劳的。当团队把用研外包给 AI，他们拿到的是报告，但没有影响设计决策的内在理解。文章还指出，用研是团队运动——当设计、产品、工程师一起坐在观察室，他们建立的共同认知，是任何报告都替代不了的。",
+        "url": "https://www.nngroup.com/articles/human-led-research-still-matters/",
+        "source": "Nielsen Norman Group",
+        "why": "在 AI 做用研的讨论越来越热的时候，NNGroup 给出了结构清晰、有说服力的反驳，对需要为用研价值辩护的设计师很有用。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Dont_Outsource_the_Learning-1.png"
+      },
+      {
+        "title": "三星 AI 眼镜实机亮相：续航 9 小时、两款镜框、今秋上市",
+        "summary": "三星联合 Google 推出的 AI 智能眼镜正式亮相，合作品牌为 Gentle Monster（方框黑色款）和 Warby Parker（棕红圆框款），计划今年秋季上市。硬件规格首次披露，续航达 9 小时，每副眼镜均内置摄像头。The Verge 获得上手体验机会，并提到和 Meta Ray-Ban 一样面临隐私问题——戴着摄像头走在街上，被拍到的路人没有知情权。这次亮相是三星/Google 眼镜从概念走向实体产品的关键节点，AI 可穿戴和下一代计算形态的走向，值得设计师提前关注。",
+        "url": "https://www.theverge.com/tech/969382/samsung-google-smart-glasses-gentle-monster-warby-parker",
+        "source": "The Verge",
+        "why": "AI 眼镜是继手机之后最重要的新交互形态候选，三星/Google 正式亮相意味着这个赛道开始竞争，产品设计师需要开始想这类产品的 UX 范式。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/samsung-google-gentle-monster-warby-parker-ai-glasses-08.jpg?quality=90&strip=all&crop=0%2C10.741906587151%2C100%2C78.516186825698&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-22",
     "items": [
       {
