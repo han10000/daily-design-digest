@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-24",
+    "items": [
+      {
+        "title": "从迪拜最奢华酒店偷来的 UX 框架",
+        "summary": "一位 Google UX 研究员在棕榈岛亚特兰蒂斯度假时，意外发现了一套隐藏在酒店运营背后的 UX 设计思维：所有「需要用户自律」的环节都被提前设计成「不可能出错」的结构。文章以巧克力喷泉周边始终保持干净的大理石台面为切入点，揭示了酒店如何通过环境设计、流程引导、隐性约束来让每个客人无需思考就做出「正确」行为——这正是数字产品最缺失的东西。作者把这套思维提炼成可直接复用的 UX 框架，核心观点是：好的体验设计不是让用户「记得」做对的事，而是让做错变得几乎不可能。对于正在处理引导流程、空状态、表单设计的设计师尤其值得一读。",
+        "url": "https://uxdesign.cc/steal-this-ux-framework-from-dubais-most-over-the-top-hotel-0b14f71e46e5",
+        "source": "UX Collective",
+        "why": "把物理世界的服务设计智慧迁移到数字产品，角度新鲜，框架实用，正是叉叉喜欢的「从意想不到的地方找设计灵感」类内容。",
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.75/1*yVor0bJNmDfk55Wr9yygcg.png"
+      },
+      {
+        "title": "Figma 被起诉背后：每个工具都该回答的 AI 数据使用四问",
+        "summary": "2025 年 11 月，一位创始人以「未经同意默认开启 AI 训练」为由起诉 Figma。作者从法律之外的设计视角切入：这件事的核心不是版权，是 default（默认值）——而默认值是设计决策。文章梳理了 Zoom、Slack、Adobe、Figma 几乎同一剧本的「悄悄开启 AI 训练 → 被曝光 → 紧急道歉」连环戏，并提炼出四个每个产品团队在发布 AI 功能前都应自问的问题：用户的数据是否被用于训练？默认是 opt-in 还是 opt-out？不同付费层级的规则是否一致？用户能否真正找到并修改这个设置？作者直接把矛头对准设计师自身：「我们最清楚 dark pattern 是什么感觉，因为我们也在做它。」文章附有实际可操作的自查清单，20 分钟就能完成一轮审计。",
+        "url": "https://uxdesign.cc/the-trust-test-four-questions-every-tool-should-answer-even-figma-about-ai-training-model-usage-4f1150f91a30",
+        "source": "UX Collective",
+        "why": "直接相关：叉叉在微软做产品设计，AI 功能的默认设置、数据使用透明度是高频议题。这篇有立场、有框架、还有自查工具，不是泛泛而谈。",
+        "type": "ai-product",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*v-ZMSxT2f8iivdbfPNtyQQ.png"
+      },
+      {
+        "title": "Claude Voice 升级：Opus 和 Sonnet 现在也能说话了，还进了 Gmail 和 Slack",
+        "summary": "Anthropic 宣布将语音模式从此前仅限 Haiku 模型扩展到 Opus 和 Sonnet，这意味着用户终于可以用上更强推理能力的语音 AI 了。更值得关注的是渠道扩张：Claude 语音现在可以嵌入 Gmail、Slack、Canva 等第三方应用。这是 Anthropic 在 OpenAI GPT-4o 实时语音之后的正面追击——但 Opus/Sonnet 的语音模式在复杂任务（代码解释、深度分析）上理论上会比竞品更有优势。对产品设计师来说，这条新闻的真正意义是：语音交互正在从「独立 app 功能」变成「嵌入式工作流组件」，未来设计工具里的 AI 语音助手可能比你想象的更快到来。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+        "source": "The Verge",
+        "why": "语音 AI 嵌入工作流是近期最值得关注的交互范式变化之一，对设计工具生态的影响直接，且今天刚发布，时效性强。",
+        "type": "ai-tools",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Claude-Voice-2-3-up.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-23",
     "items": [
       {
@@ -72,8 +104,7 @@
         "url": "https://uxdesign.cc/how-to-apply-nir-eyals-hook-model-to-ai-products-safely-f6a986305a2d",
         "source": "UX Collective",
         "why": "直接可用的 AI 产品设计框架，兼顾商业逻辑与伦理边界，适合做 AI 功能设计时参考",
-        "type": "Product Design",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*H2988nKKxQtsXnJ92R1Mog.png"
+        "type": "Product Design"
       },
       {
         "title": "Sony 起诉 AI 音乐生成器 Udio，清单长达 3 万首歌",
@@ -1961,8 +1992,7 @@
         "url": "https://www.nngroup.com/articles/after-design-critique/",
         "source": "Nielsen Norman Group",
         "why": "大公司里设计评审文化很容易流于形式——叉叉在微软这种大型跨部门环境里工作，这篇文章提供的两个具体动作可以直接用，成本极低但影响力很高。",
-        "type": "design-culture",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png"
+        "type": "design-culture"
       }
     ]
   },
