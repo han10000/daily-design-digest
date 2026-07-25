@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-25",
+    "items": [
+      {
+        "title": "Context 才是新的设计交付物：UX 知识如何驾驭 AI 生成界面",
+        "summary": "NNGroup 最新文章提出一个核心观点：当越来越多的界面由 AI 生成时，设计师的产出物正在从「写给人看的文档」转变为「喂给 AI 的上下文」。AI 模型只能基于它能看到的内容工作——它知道一个「平均水平的搜索框」长什么样，但它不知道你的用户、你的领域、你的设计规范，也不知道团队从研究中学到了什么。除非这些知识被显式放进上下文里，否则模型只会生成平庸的结果。这对 Product Designer 的角色意味着什么？研究洞察、设计原则、组件规范这些东西，现在需要被「结构化地写给 AI 读」，而不只是写进 Notion 给同事看。Deliverable 的形态变了，但设计判断力的价值反而更高了。",
+        "url": "https://www.nngroup.com/articles/ux-context-design/",
+        "source": "Nielsen Norman Group",
+        "why": "直接回答设计师最焦虑的问题：AI 时代我的价值在哪？这篇给出了具体答案和行动方向，不是泛泛而谈。",
+        "type": "深度文章",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Context_Design_1.png"
+      },
+      {
+        "title": "产品直觉到底是什么？NNGroup 给出了有史以来最清晰的定义",
+        "summary": "随着 AI 能处理越来越多的「执行」工作，设计师和工程师被推到了一个更难的位置：决定「做什么」而不只是「怎么做」。「Product Sense」这个词到处都是，但定义模糊。NNGroup 的 Tanner Kohler 这篇文章试图给出一个可操作的定义：产品直觉是「基于从实验中学到的规律，预测哪些产品决策会成功的能力——以及知道这些规律什么时候适用」。关键在「从实验中学到」——这不是天生的，是积累的。文章同时指出，现有大多数「如何培养产品直觉」的建议都失败了，因为它们把结论当成了能力本身。对正在思考自身定位的 Product Designer 来说，这篇文章提供了一个更诚实的自我评估框架。",
+        "url": "https://www.nngroup.com/articles/product-sense-definition/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 时代 Designer 的核心竞争力话题，这篇给了具体定义和培养路径，比大多数焦虑文章有建设性得多。",
+        "type": "深度文章",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Product_Sense1.png"
+      },
+      {
+        "title": "别老盯着 App 学 UX——从迪拜顶级酒店偷一套框架",
+        "summary": "一位 Google UX 研究员在迪拜最奢华的酒店住了一晚，回来写了一篇现场笔记：实体酒店是怎么设计「服务体验」的？他发现了几个值得偷进数字产品的模式：第一，好的服务会「预判你还没说出口的需求」；第二，奢华体验的核心不是堆砌功能，而是消除摩擦和决策负担；第三，每个接触点都被精心设计成一致的情感基调。这些原则直接映射到 AI 产品设计——你的 onboarding 流程、空状态、错误提示，是否也有那种「我们已经想到了」的质感？作者认为，最好的 UX 灵感往往不在竞品分析里，而在日常生活的服务体验里。",
+        "url": "https://uxdesign.cc/steal-this-ux-framework-from-dubais-most-over-the-top-hotel-0b14f71e46e5",
+        "source": "UX Collective",
+        "why": "角度新鲜——从实体服务设计反向迁移到数字 UX，打破竞品分析的局限，Google 研究员的实地观察有说服力。",
+        "type": "视角文章",
+        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.75/1*yVor0bJNmDfk55Wr9yygcg.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "items": [
       {
@@ -104,7 +136,8 @@
         "url": "https://uxdesign.cc/how-to-apply-nir-eyals-hook-model-to-ai-products-safely-f6a986305a2d",
         "source": "UX Collective",
         "why": "直接可用的 AI 产品设计框架，兼顾商业逻辑与伦理边界，适合做 AI 功能设计时参考",
-        "type": "Product Design"
+        "type": "Product Design",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*H2988nKKxQtsXnJ92R1Mog.png"
       },
       {
         "title": "Sony 起诉 AI 音乐生成器 Udio，清单长达 3 万首歌",
@@ -1992,7 +2025,8 @@
         "url": "https://www.nngroup.com/articles/after-design-critique/",
         "source": "Nielsen Norman Group",
         "why": "大公司里设计评审文化很容易流于形式——叉叉在微软这种大型跨部门环境里工作，这篇文章提供的两个具体动作可以直接用，成本极低但影响力很高。",
-        "type": "design-culture"
+        "type": "design-culture",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png"
       }
     ]
   },
@@ -3962,8 +3996,7 @@
         "title": "DLSS 5：Nvidia 用生成式 AI 重绘游戏画面，争议巨大",
         "summary": "Nvidia 在 GTC 上发布 DLSS 5，本质上是实时生成式 AI 滤镜，对游戏画面进行风格化重绘。部分开发者担心这会覆盖原本的 artistic intent——开发者精心设计的视觉风格被 AI 改掉了。",
         "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
-        "why": "AI 介入创意产出时的 artistic intent 保护问题。设计师应该关注：当 AI 能改你的设计时，如何确保设计意图不被稀释。",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/grokashcroft.jpg?quality=90&strip=all&crop=0%2C10.752036702561%2C100%2C78.495926594877&w=1200"
+        "why": "AI 介入创意产出时的 artistic intent 保护问题。设计师应该关注：当 AI 能改你的设计时，如何确保设计意图不被稀释。"
       },
       {
         "source": "UX Collective",

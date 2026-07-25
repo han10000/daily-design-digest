@@ -1,13 +1,69 @@
 {
-  "updated": "2026-07-23",
+  "updated": "2026-07-24-19:00",
   "trending": [
     {
       "rank": 1,
+      "name": "Instatic",
+      "owner": "CoreBunch",
+      "source": "github",
+      "installs": "4,178 stars (+250 today, TypeScript, open-source Webflow/Framer/WordPress alternative, agentic visual CMS)",
+      "stars": 4293,
+      "desc": "Instatic — Open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. TypeScript, MIT.",
+      "reason": "New today +250. Installable, free open source, macOS/Linux, directly relevant for designers building/managing web presence without coding. relevant=true.",
+      "usage": "git clone + npm install, self-hosted, completely free open source",
+      "tag": "design",
+      "category": "Open-Source Visual CMS",
+      "relevant": true,
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [
+        "cms",
+        "css",
+        "css-framework",
+        "page-builder",
+        "static"
+      ],
+      "repo_desc": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. ",
+      "homepage": "https://instatic.com",
+      "how_to_install": "You need [Bun](https://bun.sh). Nothing else. The default dev setup runs on SQLite, so there are no extra services to stand up.\n\n```sh\ngit clone https://github.com/corebunch/instatic.git\ncd instatic\nbun install\nbun run dev\n```\n\nOpen `http://localhost:5173`. The first visit walks you through creating your site and your owner account.\n\nWant to see it the way it actually ships? `bun run start` builds the admin and serves it from the Bun server at `http://localhost:3001/admin`.\n\n> **Backups, in o...",
+      "how_to_use": "",
+      "features": ""
+    },
+    {
+      "rank": 2,
+      "name": "superfile",
+      "owner": "yorukot",
+      "source": "github",
+      "installs": "19,408 stars (+312 today, Go, pretty fancy modern terminal file manager)",
+      "stars": 19586,
+      "desc": "superfile — Pretty fancy and modern terminal file manager. Go.",
+      "reason": "Trending +312. Terminal file manager, not design workflow. relevant=false.",
+      "usage": "Terminal power tool, developer-focused",
+      "tag": "workflow",
+      "category": "Terminal File Manager",
+      "relevant": false,
+      "language": "Go",
+      "license": "MIT",
+      "topics": [
+        "bubbletea",
+        "cli",
+        "file-manager",
+        "filemanager",
+        "filesystem"
+      ],
+      "repo_desc": "Pretty fancy and modern terminal file manager",
+      "homepage": "https://superfile.dev",
+      "how_to_install": "### macOS and Linux\n\n```bash\nbash -c \"$(curl -sLo- https://superfile.dev/install.sh)\"\n```\n\nIf you want to inspect the script, see : [install.sh](./website/public/install.sh)",
+      "how_to_use": "",
+      "features": ""
+    },
+    {
+      "rank": 3,
       "name": "buzz",
       "owner": "block",
       "source": "github",
       "installs": "6,274 stars (+2,460 today, Rust, Block/Square hive communication, #1 today)",
-      "stars": 6971,
+      "stars": 10019,
       "desc": "buzz by Block/Square. Hive mind communication platform. Rust, MIT.",
       "reason": "#1 today +2460. Communication platform, not design workflow. relevant=false.",
       "usage": "Team chat platform, not design-specific",
@@ -24,12 +80,12 @@
       "features": ""
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "worldmonitor",
       "owner": "koala73",
       "source": "github",
       "installs": "71,226 stars (+3,196 today, TypeScript, global intelligence dashboard)",
-      "stars": 71645,
+      "stars": 73290,
       "desc": "worldmonitor — Real-time global intelligence dashboard. TypeScript.",
       "reason": "Trending +3196. News aggregation dashboard, not design workflow. relevant=false.",
       "usage": "Intelligence monitoring tool, not design-specific",
@@ -52,12 +108,12 @@
       "features": "- **500+ curated news feeds** across 15 categories, AI-synthesized into briefs\n- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56 map layer types\n- **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence\n- **Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries\n- **Finance radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite\n- **Local AI** — run eve..."
     },
     {
-      "rank": 3,
+      "rank": 5,
       "name": "OmniRoute",
       "owner": "diegosouzapw",
       "source": "github",
       "installs": "26,851 stars (+1,925 today, TypeScript, free AI gateway 290+ providers)",
-      "stars": 27225,
+      "stars": 28857,
       "desc": "OmniRoute — Free MIT AI gateway: 290+ providers, 500+ models.",
       "reason": "Trending +1925. AI dev gateway, not design workflow. relevant=false.",
       "usage": "AI developer gateway, not design-specific",
@@ -80,12 +136,12 @@
       "features": ""
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "Apollo-11",
       "owner": "chrislgarry",
       "source": "github",
       "installs": "71,004 stars (+599 today, Assembly, Apollo 11 AGC source code)",
-      "stars": 71113,
+      "stars": 71409,
       "desc": "Apollo-11 — Original Apollo 11 Guidance Computer source code. Assembly.",
       "reason": "Trending +599. Historical archive, not installable tool. relevant=false.",
       "usage": "Historical archive, not a tool",
@@ -107,12 +163,12 @@
       "features": ""
     },
     {
-      "rank": 5,
+      "rank": 7,
       "name": "likec4",
       "owner": "likec4",
       "source": "github",
       "installs": "4,631 stars (+475 today, TypeScript, code-as-architecture diagrams)",
-      "stars": 4704,
+      "stars": 5025,
       "desc": "LikeC4 — Visualize software architecture with live diagrams from code. TypeScript, MIT.",
       "reason": "Trending +475. Installable CLI+VSCode plugin, free MIT, macOS/Linux, architecture visualization directly relevant for designer-engineer collaboration. relevant=true.",
       "usage": "npm install -g @likec4/cli or VS Code plugin, completely free open source",
@@ -134,12 +190,12 @@
       "features": ""
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "harper",
       "owner": "Automattic",
       "source": "github",
       "installs": "12,105 stars (+590 today, Rust, offline privacy-first grammar checker, new today)",
-      "stars": 12327,
+      "stars": 13047,
       "desc": "harper — Offline privacy-first grammar checker, Rust-powered. Automattic. MIT. New today +590.",
       "reason": "New today +590. Installable CLI+editor plugin, free MIT, macOS/Linux, directly relevant for designers writing copy/PRD/UX text. relevant=true.",
       "usage": "cargo install harper-ls or editor plugin, fully local offline, no API key",
@@ -162,12 +218,12 @@
       "features": ""
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "open-code-review",
       "owner": "alibaba",
       "source": "github",
       "installs": "11,336 stars (+265 today, Go, Alibaba open-source AI code review, new today)",
-      "stars": 11548,
+      "stars": 12392,
       "desc": "open-code-review — Open-source free AI code review battle-tested at Alibaba scale.",
       "reason": "New today +265. AI code review for developers, not design workflow. relevant=false.",
       "usage": "AI code review tool, developer-focused",
@@ -190,12 +246,12 @@
       "features": ""
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "ego-lite",
       "owner": "citrolabs",
       "source": "github",
       "installs": "1,494 stars (+219 today, JavaScript, AI agent parallel browser, new today)",
-      "stars": 1671,
+      "stars": 2588,
       "desc": "ego-lite — Browser for parallel human+AI agent work. JavaScript.",
       "reason": "New today +219. AI browser, indirect design workflow connection. relevant=false.",
       "usage": "AI agent browser, indirect design relevance",
@@ -211,19 +267,19 @@
         "skills",
         "skills-sh"
       ],
-      "repo_desc": "The best browser for both you and your AI agents work in parallel.",
+      "repo_desc": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "homepage": "https://lite.ego.app",
       "how_to_install": "ego lite runs on macOS today. Windows and Linux are on the [roadmap](https://lite.ego.app/roadmap).",
       "how_to_use": "",
       "features": ""
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "pi-web",
       "owner": "agegr",
       "source": "github",
       "installs": "2,315 stars (+315 today, TypeScript, pi coding agent Web UI)",
-      "stars": 2371,
+      "stars": 2619,
       "desc": "pi-web — Web UI for the pi coding agent. TypeScript.",
       "reason": "Trending +315. Coding agent management UI, not design workflow. relevant=false.",
       "usage": "Coding agent management tool, not design-specific",
@@ -240,12 +296,12 @@
       "features": "- **Pick work back up**: browse previous pi conversations by project without digging through terminal history or session paths.\n- **Try different directions safely**: continue from an earlier message or fork a session into a separate route.\n- **Work across branches**: switch Git worktrees from the sidebar so new sessions and the Explorer follow the checkout you choose.\n- **Chat beside the project**: browse files on the left and preview source, docs, images, audio, and PDFs on the right while ..."
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "text-to-cad",
       "owner": "earthtojake",
       "source": "github",
       "installs": "9,874 stars (+293 today, JavaScript, CAD/robotics agent skills)",
-      "stars": 9993,
+      "stars": 10321,
       "desc": "text-to-cad — Agent skills for CAD, robotics and hardware design.",
       "reason": "Trending +293. CAD/robotics hardware tools, not product design workflow. relevant=false.",
       "usage": "CAD/hardware tool, not product design",
@@ -268,12 +324,12 @@
       "features": ""
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "Pumpkin",
       "owner": "Pumpkin-MC",
       "source": "github",
       "installs": "8,814 stars (+563 today, Rust, fast Minecraft server, new today)",
-      "stars": 8934,
+      "stars": 9341,
       "desc": "Pumpkin — Fast and efficient Minecraft servers. Rust.",
       "reason": "New today +563. Game server, not design workflow. relevant=false.",
       "usage": "Minecraft game server, not design-specific",
@@ -296,12 +352,12 @@
       "features": "- [x] Configuration (toml)\n- [Tracking: Protocol](https://github.com/Pumpkin-MC/Pumpkin/issues/1401)\n  - [x] Server Status/Ping\n  - [x] Encryption\n  - [x] Packet Compression\n  - [x] Java Edition\n  - [x] Bedrock Edition (W.I.P)\n  - ...\n- [Tracking: World](https://github.com/Pumpkin-MC/Pumpkin/issues/1403)\n  - [x] Player Tab-list\n  - [x] Scoreboard\n  - [x] World Loading\n  - [x] World Time\n  - [x] World Borders\n  - [x] World Saving\n  - [x] Lighting\n  - [x] Entity Spawning\n  - [x] Bossbar\n  - [x]..."
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "awesome-claude-skills",
       "owner": "ComposioHQ",
       "source": "github",
       "installs": "Trending, curated Claude Skills list, by Composio",
-      "stars": 69440,
+      "stars": 70069,
       "desc": "awesome-claude-skills — Curated list of awesome Claude Skills, resources, and tools.",
       "reason": "Trending. Documentation/resource list, not installable tool. relevant=false.",
       "usage": "Resource list repo, not a tool",
@@ -324,7 +380,7 @@
       "features": ""
     },
     {
-      "rank": 13,
+      "rank": 15,
       "name": "Buzzy",
       "owner": "buzzy-app",
       "source": "producthunt",
@@ -338,7 +394,7 @@
       "relevant": false
     },
     {
-      "rank": 14,
+      "rank": 16,
       "name": "Tidy",
       "owner": "tidy-app",
       "source": "producthunt",
@@ -352,7 +408,7 @@
       "relevant": false
     },
     {
-      "rank": 15,
+      "rank": 17,
       "name": "Topolines",
       "owner": "topolines-app",
       "source": "producthunt",
@@ -366,7 +422,7 @@
       "relevant": false
     },
     {
-      "rank": 16,
+      "rank": 18,
       "name": "Diffsmith",
       "owner": "diffsmith-app",
       "source": "producthunt",
@@ -380,7 +436,7 @@
       "relevant": false
     },
     {
-      "rank": 17,
+      "rank": 19,
       "name": "Lattics",
       "owner": "lattics-app",
       "source": "producthunt",
@@ -394,12 +450,12 @@
       "relevant": false
     },
     {
-      "rank": 18,
+      "rank": 20,
       "name": "hallmark",
       "owner": "Nutlope",
       "source": "github",
       "installs": "11,840 stars, CSS, Anti-AI-slop design skill, trending",
-      "stars": 16264,
+      "stars": 17087,
       "desc": "hallmark — Anti-AI-slop design skill for Claude Code, Cursor, Codex. 57 slop-test gates. CSS, MIT.",
       "reason": "Trending. Installable skill, free MIT, directly relevant for designer AI-generated UI quality control. relevant=true.",
       "usage": "agentskills install Nutlope/hallmark, completely free MIT",
@@ -416,12 +472,12 @@
       "features": ""
     },
     {
-      "rank": 19,
+      "rank": 21,
       "name": "voicebox",
       "owner": "jamiepine",
       "source": "github",
       "installs": "45,611 stars, TypeScript, open-source AI voice studio, trending",
-      "stars": 46283,
+      "stars": 46500,
       "desc": "Voicebox — The open-source AI voice studio. Multi-engine TTS + voice cloning + multi-track audio editing. macOS/Linux/Docker. MIT.",
       "reason": "Trending. Installable, free MIT, macOS/Linux, directly relevant for designer demo video voiceover. relevant=true.",
       "usage": "GitHub releases macOS App, or Docker self-hosted, completely free",
@@ -444,12 +500,12 @@
       "features": "### Multi-Engine Voice Cloning\n\nSeven TTS engines with different strengths, switchable per-generation:\n\n| Engine                      | Languages | Strengths                                                                                                                                |\n| --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |\n| **Qwen3-TTS** (0.6B / 1.7..."
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "OpenCut",
       "owner": "OpenCut-app",
       "source": "github",
       "installs": "74,690 stars, TypeScript, open-source CapCut alternative, trending strong",
-      "stars": 78120,
+      "stars": 78417,
       "desc": "OpenCut — Open-source CapCut alternative. Browser-based video editor, timeline + subtitles + filters. Free, no watermark. MIT.",
       "reason": "Trending. Web app, free MIT, directly relevant for designer demo video production. relevant=true.",
       "usage": "git clone + npm run dev or use online version, completely free",
@@ -470,12 +526,12 @@
       "features": ""
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "penpot",
       "owner": "penpot",
       "source": "github",
       "installs": "56,059 stars, Clojure, open-source design platform, v2.17 MCP integration, trending",
-      "stars": 57254,
+      "stars": 57306,
       "desc": "Penpot 2.17 — Open-source design platform, free Figma alternative. v2.17: background blur + WebGL + MCP server.",
       "reason": "Trending, v2.17 MCP integration. Installable, free MPL-2.0, macOS/Linux, core tool for Product Designer. relevant=true.",
       "usage": "penpot.app free account, or docker-compose self-hosted",
@@ -498,12 +554,12 @@
       "features": ""
     },
     {
-      "rank": 22,
+      "rank": 24,
       "name": "pocket-tts",
       "owner": "kyutai-labs",
       "source": "github",
       "installs": "6,885 stars, Python, CPU TTS 100M params, trending",
-      "stars": 7857,
+      "stars": 7875,
       "desc": "pocket-tts — TTS that fits in your CPU. 100M params, CPU no GPU needed, 6x realtime, voice cloning, 6 languages.",
       "reason": "Trending. Free local TTS, CPU no GPU, macOS/Linux, demo video voiceover. relevant=true.",
       "usage": "pip install pocket-tts, fully local free, CPU",
@@ -520,12 +576,12 @@
       "features": ""
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "wigolo",
       "owner": "KnockOutEZ",
       "source": "github",
       "installs": "2,414 stars, TypeScript, local-first AI web research, trending",
-      "stars": 3520,
+      "stars": 3570,
       "desc": "wigolo — Local-first web search/fetch/crawl for AI agents, $0/query, MCP server for Claude Code/Cursor/Codex.",
       "reason": "Trending. Completely free keyless, useful for designer competitive research. relevant=true.",
       "usage": "npx wigolo init --agents=claude-code, Node >= 20, completely free keyless",
@@ -548,12 +604,12 @@
       "features": ""
     },
     {
-      "rank": 24,
+      "rank": 26,
       "name": "next-ai-draw-io",
       "owner": "DayuanJiang",
       "source": "github",
       "installs": "33,250 stars, TypeScript, AI natural language draw.io editor, trending",
-      "stars": 33782,
+      "stars": 33816,
       "desc": "next-ai-draw-io — Natural language create/modify flow diagrams in draw.io. Next.js. MIT.",
       "reason": "Trending. Web app, free open source, macOS/Linux, designer flow diagrams relevant. relevant=true.",
       "usage": "git clone + npm run dev, completely free open source",
@@ -574,12 +630,12 @@
       "features": "-   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands\n-   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically\n-   **PDF & Text File Upload**: Upload PDF documents and text files to extract content and generate diagrams from existing documents\n-   **AI Reasoning Display**: View the AI's thinking process for supported mo..."
     },
     {
-      "rank": 25,
+      "rank": 27,
       "name": "transcribe.cpp",
       "owner": "handy-computer",
       "source": "github",
       "installs": "1,163 stars, C++, offline STT 16+ model families, trending",
-      "stars": 1542,
+      "stars": 1564,
       "desc": "transcribe.cpp — ggml speech-to-text for 16+ model families. C++, fully offline, CPU no GPU.",
       "reason": "Trending. CLI tool, free, CPU macOS/Linux, designer user research interview transcription. relevant=true.",
       "usage": "C++ compile and install, fully local CPU, no GPU, free",
@@ -601,7 +657,7 @@
       "features": ""
     },
     {
-      "rank": 26,
+      "rank": 28,
       "name": "Glideo",
       "owner": "glideo-app",
       "source": "producthunt",
@@ -615,7 +671,7 @@
       "relevant": true
     },
     {
-      "rank": 27,
+      "rank": 29,
       "name": "Animos",
       "owner": "animos-app",
       "source": "producthunt",
@@ -629,7 +685,7 @@
       "relevant": true
     },
     {
-      "rank": 28,
+      "rank": 30,
       "name": "LiveDemo",
       "owner": "livedemo-app",
       "source": "producthunt",
@@ -643,12 +699,12 @@
       "relevant": true
     },
     {
-      "rank": 29,
+      "rank": 31,
       "name": "PhotoGIMP",
       "owner": "Diolinux",
       "source": "github",
       "installs": "14,919 stars, CSS, GIMP 3+ Photoshop layout patch, trending",
-      "stars": 16699,
+      "stars": 16746,
       "desc": "PhotoGIMP — Transforms GIMP 3+ to Photoshop layout. Tool positions, keyboard shortcuts aligned to Adobe. GPL-3.0.",
       "reason": "Trending. Installable tool, free GPL-3.0, macOS+Linux, directly relevant for designers. relevant=true.",
       "usage": "Download zip from GitHub releases, free, requires GIMP 3.0+",
@@ -665,12 +721,12 @@
       "features": ""
     },
     {
-      "rank": 30,
+      "rank": 32,
       "name": "Clypra",
       "owner": "AIEraDev",
       "source": "github",
       "installs": "2,556 stars, TypeScript, free open-source video editor, trending",
-      "stars": 2920,
+      "stars": 2923,
       "desc": "Clypra — Modern free video editor, Tauri+React+TypeScript, open-source CapCut alternative.",
       "reason": "Trending. Installable, free MIT, macOS+Linux via Tauri, designer video editing directly relevant. relevant=true.",
       "usage": "GitHub releases macOS/Linux installer, completely free",
