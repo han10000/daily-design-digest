@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-26",
+    "items": [
+      {
+        "title": "UX 交付物已死？不，它只是变成了 AI 的上下文",
+        "summary": "NNGroup 的这篇文章直接切中 AI 时代设计师角色转变的核心：当越来越多的界面由 AI 生成，设计师的产出不再是供人类读的文档，而是供 AI 模型用的「上下文」。作者 Tony Alicea 指出，AI 模型在没有上下文的情况下只能生成「平均水准」的界面——因为它训练于海量普通设计，却不知道你的用户、你的领域、你的设计规范。真正的设计师价值，在于把研究洞察、设计决策、领域知识压缩成精准的上下文，让 AI 朝正确方向倾斜。这不是 AI 取代设计师，而是设计师的工作从「做」变成了「告诉 AI 怎么做」——而能写好这份上下文的人，就是未来最值钱的设计师。",
+        "url": "https://www.nngroup.com/articles/ux-context-design/",
+        "source": "Nielsen Norman Group",
+        "why": "直接改变设计师日常工作方式的思维框架，越早理解越有先发优势。",
+        "type": "深度分析",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Context_Design_1.png"
+      },
+      {
+        "title": "对抗 AI 的平庸化：这场战役我们能赢吗？",
+        "summary": "UX Collective 的 Chris R Becker 提出了一个让人坐直身体的问题：AI 正在把所有创意输出拉向「平均水准」——不是最差，但绝不是最好。大量使用 AI 生成内容正在制造一种「积极的平庸」，表面上没有缺陷，但没有灵魂，没有立场，无法被记住。作者不是在批评 AI，而是在问设计师：如果你的工作是「让 AI 的输出更好一点」，那你的不可替代性在哪里？文章探讨了平庸化的机制，以及设计师可以用什么方式对抗这种均值回归——包括保持强烈的品味主张、做出有风险的选择、以及拒绝「够用就行」的心理惰性。",
+        "url": "https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4",
+        "source": "UX Collective",
+        "why": "AI 工具越用越顺手，但这篇文章是一个提醒：顺手不等于做得好，平庸也可以很流畅。",
+        "type": "观点",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*AmFyXhpWu-1nF8VVDvrZdQ.png"
+      },
+      {
+        "title": "停止研究 App，去研究酒店吧：从迪拜最奢华酒店偷来的 UX 框架",
+        "summary": "Google UX 研究员 Slava Polonski 分享了一个反直觉的设计学习策略：真正的 UX 洞察不在 Dribbble，在物理世界的服务设计里。他以迪拜最顶级酒店为案例，拆解了酒店业如何通过预期管理、主动解决未被说出的需求、以及在对的时机消失（不打扰）来创造极致体验。这些原则直接可以迁移到数字产品：什么时候该 proactive，什么时候该 invisible；如何设计「记住用户」的体验而不显得监控；为什么顶级服务总是在你开口之前就完成了。这是一篇给设计师的「离开屏幕去观察世界」的行动号召。",
+        "url": "https://uxdesign.cc/steal-this-ux-framework-from-dubais-most-over-the-top-hotel-0b14f71e46e5",
+        "source": "UX Collective",
+        "why": "类比思维是设计师稀缺的能力，从物理世界迁移的框架往往比 app 参考更有原创性。",
+        "type": "实战工具",
+        "image": "https://miro.medium.com/v2/resize:fill:1200:632/g:fp:0.5:0.75/1*yVor0bJNmDfk55Wr9yygcg.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "items": [
       {
@@ -3996,7 +4028,8 @@
         "title": "DLSS 5：Nvidia 用生成式 AI 重绘游戏画面，争议巨大",
         "summary": "Nvidia 在 GTC 上发布 DLSS 5，本质上是实时生成式 AI 滤镜，对游戏画面进行风格化重绘。部分开发者担心这会覆盖原本的 artistic intent——开发者精心设计的视觉风格被 AI 改掉了。",
         "url": "https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics",
-        "why": "AI 介入创意产出时的 artistic intent 保护问题。设计师应该关注：当 AI 能改你的设计时，如何确保设计意图不被稀释。"
+        "why": "AI 介入创意产出时的 artistic intent 保护问题。设计师应该关注：当 AI 能改你的设计时，如何确保设计意图不被稀释。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/grokashcroft.jpg?quality=90&strip=all&crop=0%2C10.752036702561%2C100%2C78.495926594877&w=1200"
       },
       {
         "source": "UX Collective",
