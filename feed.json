@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-27",
+    "items": [
+      {
+        "title": "AI 产品的幻觉问题，根源在信息架构欠账",
+        "summary": "二十年来，信息架构（IA）一直是没人愿意投资的基础设施——岗位消失、工作不可见、每个季度都输给「发功能」。AI 来了，这笔欠账突然出现在账单上：RAG 检索系统的好坏，完全取决于它抓取的那堆内容有多结构化。内容库是一堆无标签、互相矛盾的文档？模型就会找到「声音最大」的那个，不管它是否准确、是否过时。文章指出，metadata、taxonomy、内容分类才是让模型区分「权威」和「猜测」的方式——没有这些，你换更好的模型、调更精的 prompt，仍然在错误的基础上建楼。对产品设计师来说，这是一个重要提醒：AI feature 的质量上限，往往不在模型层，而在内容组织层。",
+        "url": "https://uxdesign.cc/information-architecture-is-the-foundation-artificial-intelligence-is-starving-for-1d91fb5bf59f",
+        "source": "UX Collective",
+        "why": "把 IA 这个「老话题」和 AI 产品质量直接挂钩，逻辑清晰、论点新鲜。做 AI 产品的设计师，很容易只盯着 prompt 和界面，忽视内容结构这层地基。",
+        "type": "deep-read",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*sOO1nTcikPZamJIeflkLig.png"
+      },
+      {
+        "title": "「产品直觉」到底是什么，能怎么练",
+        "summary": "NNGroup 这篇文章给了「product sense」一个具体定义：通过反复实验积累的模式识别能力——知道哪些产品决策会成功，以及这些模式在什么语境下适用。文章指出，随着 AI 能接手越来越多执行层的工作，设计师和工程师被迫转向「决定做什么」而非「决定怎么做」，产品直觉的重要性随之上升。但现有对这个概念的定义往往太模糊，反而制造混乱多于指导。文章从「能预测哪个决策会成功」这个核心出发，拆解产品直觉的构成要素，并给出可操作的培养路径。对于想在 AI 时代提升自身影响力的设计师，这是一篇值得精读的框架文章。",
+        "url": "https://www.nngroup.com/articles/product-sense-definition/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 工具正在把设计师从执行者推向决策者，但「产品直觉」这个概念长期缺乏清晰定义。NNGroup 这次给了个可操作的锚点，时机很准。",
+        "type": "framework",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Product_Sense1.png"
+      },
+      {
+        "title": "Midjourney 收购星座 app Co-Star，AI 公司开始抢占「个人化」入口",
+        "summary": "Midjourney 宣布收购个性化星座 app Co-Star，这是该公司的首次收购。这个组合乍看奇怪——一个做图像生成的 AI 公司，买了一个结合 NASA 数据和人类洞察提供每日星盘的社交 app。但背后的逻辑很清晰：Co-Star 拥有大量关于用户个人信息、关系、情绪和决策偏好的数据，这正是构建个性化 AI 体验的原材料。Midjourney 创始人 David Holz 此前已宣布公司方向转向「full-stack AI products」，不再只做工具。这次收购暗示 AI 公司的下一个竞争维度——谁能更深地嵌入用户的个人生活数据，谁就能提供更个性化的产品体验。对产品设计师来说，这是一个值得追踪的产品策略信号。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
+        "source": "The Verge",
+        "why": "这笔收购本身不大，但它折射出 AI 公司的下一步野心：从工具跨向个人化入口。这个产品策略转向值得设计师关注。",
+        "type": "industry-signal",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK414_AI_CHATBOT_E-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-26",
     "items": [
       {
