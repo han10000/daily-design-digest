@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-28",
+    "items": [
+      {
+        "title": "从「无摩擦」到「有意义」：设计该不该去掉所有阻力？",
+        "summary": "UX Collective 这篇文章挑战了设计界长期奉行的「无摩擦即好设计」信条。作者 Ida Persson 在爬山途中被朋友一句话点醒——「我们花那么多时间去掉摩擦，但正因为如此，那些体验变得可忘记」。文章梳理了摩擦的八种价值：它让体验变得难忘（IKEA 效应）、它邀请用户反思（电商的「一键购买」反而助长冲动消费）、它促进责任感、它帮助人们消费更少。作者指出《Don't Make Me Think》这本书虽经典，但也制造了一个错误叙事：少摩擦总是好的。对做 AI 产品的设计师来说，这个命题尤其值得深思——当 AI 把一切都自动化、顺滑掉，我们是在帮用户，还是在帮他们回避思考？",
+        "url": "https://uxdesign.cc/from-frictionless-to-meaningful-2dc785d6cc4e",
+        "source": "UX Collective",
+        "why": "直接挑战设计行业最根深蒂固的假设。在 AI 把一切流程自动化的背景下，「什么时候应该保留摩擦」是每个产品设计师都需要重新回答的问题。",
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/0*9hBLouW0xkc74_qt.jpeg"
+      },
+      {
+        "title": "中国为什么要免费开放最强 AI 模型？开源背后的战略逻辑",
+        "summary": "The Verge 这篇深度报道解释了 Kimi K3 等中国开放权重模型的战略意图。硅谷正在消化一个令人不安的现实：中国 AI 公司不仅在性能上接近美国顶级模型，还选择免费开放模型权重，直接瞄准美国用户。文章澄清了「开放权重」和「开源」的区别——前者开放了训练好的参数，但保留训练数据、架构细节和配置方法，附带限制性许可协议。开放权重让开发者能在本地运行、定制和基于其构建产品，成本远低于调用商业 API。这对美国封闭模型是真实威胁：当免费且能力相近的开放替代品出现，付费壁垒就会瓦解。对产品设计师来说，这意味着 AI 基础设施的选择会迅速扩大，值得关注。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+        "source": "The Verge",
+        "why": "理解 AI 竞争格局是产品设计师的背景课。这轮开源浪潮会加速 AI 工具的普及和成本下降，直接影响产品团队的技术选型和竞争环境。",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2286280160.jpg?quality=90&strip=all&crop=0%2C10.83178126478%2C100%2C78.336437470441&w=1200"
+      },
+      {
+        "title": "NVIDIA 把生成式 AI 引入手术机器人实时仿真：Cosmos-H-Dreams",
+        "summary": "Hugging Face 博客介绍了 NVIDIA 最新发布的 Cosmos-H-Dreams 模型——一个专为手术机器人设计的实时生成式仿真系统。该模型能够基于手术室传感器数据，实时生成高保真的手术场景模拟，供机器人系统进行训练和验证。这标志着生成式 AI 从「内容生成」走向「实时物理仿真」的重要一步。虽然是垂直领域（医疗机器人），但背后的模式极具启发性：用生成模型替代昂贵的真实数据采集，为高风险场景提供训练素材。这一技术路径正在多个行业被复制，从自动驾驶到工业制造。",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+        "source": "Hugging Face Blog",
+        "why": "生成式仿真是 AI 最被低估的应用方向之一。理解这个范式转变——用 AI 生成训练数据而非依赖真实采集——对思考 AI 产品边界和可能性有重要参考价值。",
+        "type": "ai-research",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/68c1279544f671330c604f4c/Cj0RZwvOSUhFGFEFKgyDw.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "items": [
       {
