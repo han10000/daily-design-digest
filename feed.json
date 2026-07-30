@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-30",
+    "items": [
+      {
+        "title": "你的团队已经懂 AI 了，别挡路",
+        "summary": "MIT 数据显示，95% 的企业 AI 项目无疾而终——问题不是工具，是组织。作者通过两个对比案例说明：一家百年制造商的 UX 负责人被 IT 审批流卡住，无法使用团队已在用的 AI 工具；另一家小公司工程 Lead 主动为创始人过滤掉琐碎决策，让真正的判断者集中注意力。差距不在公司规模，在于上层是否真的信任做事的人。对在微软这样大组织里推 AI workflow 的设计师来说，这篇的观察相当扎心：层级越多，越容易让信任缺位成为创新的天花板。",
+        "url": "https://uxdesign.cc/your-people-get-ai-get-out-of-their-way-131370c157f8",
+        "source": "UX Collective",
+        "why": "直接触及设计师在大公司推 AI 的核心障碍——不是工具问题，是信任和授权问题。叉叉在微软做设计，这个视角很实用。",
+        "type": "opinion",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*_tbqWSUDWwlbodgdCxT7bQ.jpeg"
+      },
+      {
+        "title": "AI 时代设计的多头多空辩证法",
+        "summary": "Andy Budd 在 Smashing Magazine 上发表了一篇罕见的双面论文：AI 可能让设计师终于获得足够的执行力，不再被产品和工程的流程卡住——这是多头 bull case；但 AI 也会暴露设计师长期以资源不足为挡箭牌掩盖的判断力缺口，一旦借口消失，真实水平会摊在阳光下——这是空头 bear case。多年来设计师说如果组织能让开我会做得更好，现在真的可能让开了。你真的准备好了吗？这篇不给答案，只给镜子。",
+        "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+        "source": "Smashing Magazine",
+        "why": "用投资逻辑框架拆解设计师在 AI 时代的处境，角度新颖，逼着人诚实地审视自己。和叉叉一直在聊的减法、有立场话题高度共鸣。",
+        "type": "analysis",
+        "image": "https://files.smashing.media/articles/bull-and-bear-case-digital-design-age-ai/bull-and-bear-case-digital-design-age-ai.jpg"
+      },
+      {
+        "title": "Zuckerberg 要做个人 AI 助理，Meta 押注下一个平台战",
+        "summary": "Meta Q2 财报电话会上，Zuckerberg 明确表示将大力推进个人 AI 代理，目标是让每个人拥有一个了解自己的 AI 助手，覆盖 WhatsApp、Instagram、Facebook。这不只是产品功能更新，而是 Meta 在押注下一个平台级入口——从社交 feed 转向 agentic 关系。对产品设计师来说，这意味着大量新的交互范式问题：agent 怎么建立信任？个人数据边界怎么设计？当 AI 代替用户完成任务时，用户操作的设计单位是什么？",
+        "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
+        "source": "The Verge",
+        "why": "Meta 的 personal agent 战略直接定义了未来 1-2 年内产品设计师需要面对的新交互命题。早于行业讨论这些问题，是设计师建立话语权的机会。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546252/STK169_Mark_Zuckerburg_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "items": [
       {
@@ -1287,7 +1319,8 @@
         "url": "https://huggingface.co/blog/is-it-agentic-enough",
         "source": "Hugging Face Blog",
         "why": "设计 AI 产品的核心挑战之一是准确感知底层模型的能力边界。这篇文章提供了一个务实的视角，帮助叉叉在 spec 阶段就建立对 AI agent 能力的现实预期，避免设计过度承诺。",
-        "type": "ai-tools"
+        "type": "ai-tools",
+        "image": "https://huggingface.co/blog/assets/is-it-agentic-enough/thumbnail.png"
       },
       {
         "title": "用概率思维设计 AI 产品：不确定性才是真正的设计材料",
@@ -4520,7 +4553,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260729%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260729T012359Z&X-Amz-Expires=300&X-Amz-Signature=7e684f71a466301293807809269d07359b4a67549382429b5ac86f533af9aef7&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTI4ODUzOSwibmJmIjoxNzg1Mjg4MjM5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.rqlFYZeXHt_Icul8aaTYs4XO8_L7yoCzjngDmlBMU8U"
+        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260730T012335Z&X-Amz-Expires=300&X-Amz-Signature=ea3256f9c4fd6646edad9ebec66d386fe483034f4e83a65a07ede0b29df5b479&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTM3NDkxNSwibmJmIjoxNzg1Mzc0NjE1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.pjaUGg8mN6HRDHdqPqYuDMJ1Rsp36NiJ4UwtWa1sBWM"
       },
       {
         "source": "Hugging Face",
