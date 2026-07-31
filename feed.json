@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-07-31",
+    "items": [
+      {
+        "title": "Jakob 定律在 AI 时代的新解法：当所有入口汇聚成一个对话框",
+        "summary": "Jakob Nielsen 在 2000 年提出的「用户最常在其他网站上花时间」定律，在 AI 助手时代迎来了一次反转。文章作者 Patrick Neeman 指出，随着 Claude、ChatGPT、Copilot 等 AI 助手吸收越来越多原本分散在不同 app 和网站上的任务，用户触碰的「界面数量」正在急剧下降。这看似颠覆了 Jakob 定律——但实则是它的延伸：所有助手界面的高度相似性（一个输入框、一个回复、来回对话）正是因为用户「熟悉一个就熟悉全部」，降低了学习门槛，加速了采用。对设计师的启示是：为 AI 时代设计，不只是让你的产品在浏览器里好用，而是要给 agent 足够的语义上下文，让它能在单一对话界面里正确地代表你的产品。Design system 的语义层（semantic layer）因此比以往更重要。",
+        "url": "https://uxdesign.cc/jakobs-law-how-to-apply-it-as-ai-collapses-surfaces-into-one-chat-box-d8ebc9a727db",
+        "source": "UX Collective",
+        "why": "正面回答「AI 让设计师的工作变了什么」——不是做更多界面，而是为 agent 做语义基础设施。视角新颖，有历史脉络，有行动落点。",
+        "type": "design-thinking",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*SpJMK3a6F5z94Lj-6uKzRQ.png"
+      },
+      {
+        "title": "AI 时代的设计师权力变迁：牛市和熊市，你站哪边？",
+        "summary": "Smashing Magazine 发布了 Andy Budd 的深度文章，以「牛市/熊市」框架分析 AI 对设计行业的双面影响。牛市论点：AI 让设计师终于不再依赖「说服」来推进工作——他们可以直接从「我们应该修这个」跳到「我修好了，已上线」。设计一直受困于生产权限的缺失，AI 正在打破这道墙。熊市论点：同样的自主权也会暴露设计师的弱点——如果没有组织流程作为挡箭牌，设计决策的质量就无处隐藏了。那些依赖流程保护自己的人，会在新环境里最先暴露。文章没有给出简单答案，而是诚实地说：这取决于你是哪种设计师。对于真正有判断力的人，这是最好的时代；对于靠流程存在的人，这是威胁。",
+        "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+        "source": "Smashing Magazine",
+        "why": "Andy Budd 是业内老兵，这篇不是焦虑贩卖，是真正有立场的分析。「设计师现在需要更少许可」这个核心论点值得每个 designer 认真想一想自己在哪一边。",
+        "type": "industry-analysis",
+        "image": "https://files.smashing.media/articles/bull-and-bear-case-digital-design-age-ai/bull-and-bear-case-digital-design-age-ai.jpg"
+      },
+      {
+        "title": "UX 交付物正在变形：研究和设计的产出从「给人读的文档」变成「给 AI 喂的上下文」",
+        "summary": "NNGroup 的 Tony Alicea 提出了一个让人警觉的框架：当界面越来越多由 AI 生成时，UX 研究员和设计师的核心交付物也在悄悄变质。以前你输出的是给人看的规格文档、用研报告、设计原则——现在这些东西首先需要被 AI 模型「读懂」。模型不认识你的用户、你的领域、你的设计规范，除非你把这些知识打包进上下文。「没有上下文的 AI，只会生成一个平均值界面。」文章引入了「UX-context design」的概念——设计师的新工作是精心策划那些能让 AI 输出向正确方向倾斜的上下文。这不是边缘话题，而是 AI 设计工作流的底层逻辑变化。",
+        "url": "https://www.nngroup.com/articles/ux-context-design/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 难得发出一篇前瞻性的「设计师角色转变」文章，而不是基础 UX 教程。「Context is the new deliverable」是一句值得记住的判断，有助于重新思考现在的设计工作流。",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Context_Design_1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "items": [
       {
@@ -1779,8 +1811,7 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "行业动态"
       }
     ]
   },
@@ -4553,7 +4584,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260730T012335Z&X-Amz-Expires=300&X-Amz-Signature=ea3256f9c4fd6646edad9ebec66d386fe483034f4e83a65a07ede0b29df5b479&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTM3NDkxNSwibmJmIjoxNzg1Mzc0NjE1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.pjaUGg8mN6HRDHdqPqYuDMJ1Rsp36NiJ4UwtWa1sBWM"
+        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260731T012336Z&X-Amz-Expires=300&X-Amz-Signature=55b625c73b126af78eceb8dfbc2bec26bb7670841da357f7d94e219565e6c7d4&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ2MTMxNiwibmJmIjoxNzg1NDYxMDE2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.MviWQKacOn9xJHgfsMwnmtCcJHdC99QXHaPYgd1Kt4Y"
       },
       {
         "source": "Hugging Face",
