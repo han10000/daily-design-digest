@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-08-03",
+    "items": [
+      {
+        "title": "当 AI 成为你作品的第一个读者：为「代理」而设计的陷阱",
+        "summary": "这篇文章提出了一个让人警觉的新问题：在 AI 时代，设计师的受众已经悄然多了一层——在人类用户看到你的产品之前，LLM 已经先解读、摘要并评估过它了。作者用 McLuhan 的媒介理论类比：搜索引擎时代我们优化可发现性，社交媒体时代我们优化参与度，LLM 时代我们开始优化「可被 AI 理解性」。危险在于——当优化对象从人变成代理机器时，我们可能在不知不觉中把 human-centered design 架空。一篇医疗文章可以被 AI 完美引用，但病人读不懂；简历可以骗过 ATS，却失去了真实的叙事。作者不是要我们抵制 AI，而是提醒设计师保持清醒：机器可读性是手段，不是目的——别让信号本身取代了它原本代表的东西。",
+        "url": "https://uxdesign.cc/designing-for-the-proxy-2606ffac2335",
+        "source": "UX Collective",
+        "why": "直击 AI 时代 human-centered design 最核心的悖论，叉叉做 AI 产品天天面对这个张力，这篇给了一个清晰的分析框架",
+        "type": "思维框架",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*p9ZSUqRu3IsE9au13EPvLg.png"
+      },
+      {
+        "title": "604 人调研：没有新名字能取代「UX」",
+        "summary": "NNGroup 调研了 604 名科技和设计从业者，发现尽管行业在讨论「UX 是否还够用」，但「UX」仍然是这个领域最被广泛使用的称呼，替代名称（产品设计、体验设计、人本设计等）各自占据细分语境，却没有一个能单独成为共识。文章梳理了术语演化史：从 usability → user-centered design → UX → CX → Experience Design，每一次更名都夹杂着视野扩展和话语通胀。研究还发现，随着 AI 工具让非设计师也能做原型、分析反馈，UX 的边界正在模糊——但这反而让「UX」这个标签更难被替换，因为它承载的是一种思维方式，不只是一套工具。结论是：暂时保留 UX 作为umbrella term，但要主动为它重新定义价值。",
+        "url": "https://www.nngroup.com/articles/no-new-name-ux/",
+        "source": "Nielsen Norman Group",
+        "why": "职业身份问题——在 AI 重塑设计边界的当下，「我们是谁」比「我们用什么工具」更紧迫，这篇数据扎实",
+        "type": "行业洞察",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Needs_clarity_1.png"
+      },
+      {
+        "title": "付版权费就能让艺术家接受 AI 吗？一个平台正在做实验",
+        "summary": "The Verge 报道了一个试图用版权分成来化解创作者与 AI 公司矛盾的新模式：平台 Pippa/Seedance 让插画师授权自己的作品用于 AI 训练，每次使用支付版税。文章采访了多位参与的艺术家，结论复杂——有人认为这是务实的妥协，至少比白嫖强；有人认为金钱无法补偿「风格被抽象化」的本质伤害；还有人担心这会让更多艺术家误以为授权后就能维权，实际上法律保障仍然模糊。这场实验触及一个更大的问题：当 AI 的商业模式建立在创意劳动之上，consent + compensation 是否足够？还是说我们需要的是 AI 训练数据来源的根本性透明？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+        "source": "The Verge",
+        "why": "设计师也是创作者，这个议题直接影响叉叉和同行的作品归属权问题，而且这种「版权分成」模式正在成为行业新范式",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-31-at-4.11.25-PM.png?quality=90&strip=all&crop=2.6881256103516%2C4.7093735253803%2C97.311874389648%2C90.581252949239&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "items": [
       {
@@ -640,7 +672,7 @@
         "source": "UX Collective",
         "why": "直接回应了「AI 会不会取代设计师」这个问题，但视角比泛泛而谈的焦虑文章更精准——不是在说「设计师有价值」，而是在解释价值的具体形态是什么。叉叉在大公司做设计，这篇对组织里判断力如何被稀释的分析，非常具体有用。",
         "type": "design-thinking",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*IE9hoyTwzWtd3hUTEOI9Ow.png"
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*dORttrQp9MKpcx1sgHQKWw.png"
       },
       {
         "title": "NNGroup：好的 AI 聊天机器人应该具备哪五种特质",
@@ -1279,7 +1311,7 @@
         "source": "UX Collective",
         "why": "把「taste」从软性词汇变成可量化的组织成本，给了设计师在大公司内部推动设计标准化时一个非常有力的论据框架。",
         "type": "essay",
-        "image": "https://miro.medium.com/v2/resize:fit:1200/1*u6YHI9pCm0AKyb0Ehrypuw.png"
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*8DhtHRFstW1BULkjcv1g2A.png"
       },
       {
         "title": "AI 虚拟装修正在把租房变成一场期望管理危机",
@@ -1770,7 +1802,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
         "source": "The Verge",
         "why": "平台设计师必读。AI 内容泛滥正在重写用户对「真人」的感知预期，这直接影响 content labeling UX、AI disclosure 设计、以及社交产品的 trust signal 体系如何重建。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/GAUYdq3a4AAAlsX.jpg?quality=90&strip=all&crop=0%2C0.6699364330709%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "GQ × 爱彼表：用实时渲染重新定义豪华品牌叙事的边界",
@@ -1778,8 +1811,7 @@
         "url": "https://www.awwwards.com/gq-audemars-piguet-the-extraordinary-lab.html",
         "source": "Awwwards",
         "why": "Web 视觉叙事的天花板案例。了解顶级品牌如何用实时渲染重新定义数字体验的质感，对做高端产品的设计师有直接的审美参照价值。",
-        "type": "设计案例",
-        "image": "https://assets.awwwards.com/awards/images/2026/06/gq-cs-thumb.jpg"
+        "type": "设计案例"
       }
     ]
   },
@@ -2519,7 +2551,7 @@
         "source": "UX Collective",
         "why": "直接命中叉叉的工作场景：AI 时代设计师的价值在哪里，界面趋同怎么破。",
         "type": "think-piece",
-        "image": "https://miro.medium.com/v2/resize:fit:1199/1*pKgR1MxGsJ11IeSCydxVHg.png"
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*FfiRLe6xaOwfBCl8FBFS8Q.png"
       },
       {
         "title": "两个高维心智之间，只有一根一维管道",
@@ -2664,8 +2696,7 @@
         "url": "https://www.awwwards.com/mapping-the-uncharted-the-san-rita-project.html",
         "source": "Awwwards",
         "why": "设计师通常被训练展示功能，这个 case study 展示了把氛围和视角置于功能之上的设计决策路径，对任何在做品牌感知或 enterprise 产品 identity 的人都有参考价值。",
-        "type": "design-case-study",
-        "image": "https://assets.awwwards.com/awards/images/2026/04/thumbnail.jpg"
+        "type": "design-case-study"
       }
     ]
   },
@@ -2687,8 +2718,7 @@
         "url": "https://www.awwwards.com/fluid-glass-case-study.html",
         "source": "Awwwards Blog",
         "why": "克制美学不是「少放东西」，是每一处都有理由存在。这个案例把减法做到了实际执行层，尤其是动效原型方法论——先做变体感受，再提炼规则，这个流程值得直接借用。",
-        "type": "case-study",
-        "image": "https://assets.awwwards.com/awards/images/2026/05/699c319db1537012218587.jpg"
+        "type": "case-study"
       },
       {
         "title": "不预设边界，让 AI 模块自然生长——EMO 架构的设计启示",
@@ -4100,8 +4130,7 @@
         "summary": "这是 Awwwards 最新发布的一个完整产品设计案例——为艺术家初创平台同时做了宣传官网和 SaaS 平台两个产品。核心挑战：艺术家这类用户对「美」有极高标准，产品本身的视觉质量就是最强的信任信号。案例记录了团队如何在资源有限的初创环境下，把视觉精度、动效节奏、信息架构整合成一个有说服力的整体。关键设计决策：官网和产品平台的设计语言必须统一，因为很多用户是从官网进来然后决定要不要注册的——这个从营销到产品的体验连贯性，是大部分 B 端 SaaS 忽略的盲点。平台上线后帮助客户成功进入三个加速器项目，完整案例包含设计决策过程和视觉展示。",
         "url": "https://www.awwwards.com/the-art-of-getting-noticed-product-design-and-development-for-an-artist-social-network-startup.html",
         "why": "初创产品设计的真实案例，覆盖了一个 designer 最常被要求做的事：用有限资源做出感觉「足够专业」的产品。官网到 SaaS 平台的视觉一致性这个点，是很多设计评审里容易被忽视但用户感知很强的细节。",
-        "publishedAt": "2026-03-18",
-        "image": "https://assets.awwwards.com/awards/images/2026/03/fa-cs-thumb.jpg"
+        "publishedAt": "2026-03-18"
       }
     ]
   },
@@ -4467,8 +4496,7 @@
         "summary": "Fiddle.Digital 团队在做品牌网站时发现 GSAP 等主流动效库优化深度不够，自建了 StringTune——轻量 JS 动效库，核心是「复杂效果用简单方法，尽量纯 CSS」。网站本身是产品压力测试，加载大量高要求设计方案确保高负荷下流畅。",
         "url": "https://www.awwwards.com/stringtune-for-core-web-animations.html",
         "why": "动效性能是前端设计师经常忽略的维度。StringTune 的思路——先问能不能用 CSS 实现，再考虑 JS——是一个值得内化的设计决策框架。",
-        "publishedAt": "2026-03-04",
-        "image": "https://assets.awwwards.com/awards/images/2026/03/st-cs-thumbnail.jpg"
+        "publishedAt": "2026-03-04"
       }
     ]
   },
@@ -4648,7 +4676,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T012348Z&X-Amz-Expires=300&X-Amz-Signature=48f21138d22027e6a0e37d53835c09955d1d486dd70603ff56afaf84064757d8&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTYzNDEyOCwibmJmIjoxNzg1NjMzODI4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.M_GIsObsWy_FF-oJ41lAjAiUXpQNe6aKuixazZ4wAfA"
+        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T012314Z&X-Amz-Expires=300&X-Amz-Signature=09b6a66a2a9b1ebe49c85317461115e42e7b87c1c1bb8b1f5e7c234a5323c2f7&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMDQ5NCwibmJmIjoxNzg1NzIwMTk0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.7s2VZJM4TucbjHbL62z6_0_Ib2_zcDAIwZoV9qcrft8"
       },
       {
         "source": "Hugging Face",
