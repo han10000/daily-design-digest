@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-08-04",
+    "items": [
+      {
+        "title": "AI 饥渴的根基：信息架构才是 RAG 失败的真正原因",
+        "summary": "文章核心论点是：所有你追着打的 AI 问题——幻觉、错误答案、检索失败——本质上都是你多年来没有认真做信息架构留下的债。作者曾是 IA 专家，亲历了这个职位在组织中消失的过程。RAG（检索增强生成）的机制决定了它只能从你给它的「堆」里找东西。如果这个堆是一摊没有结构、没有标签、充满矛盾版本的文件，检索到的就是「声音最响」的那个，而不是「最对」的那个。真正的修复不是换更好的模型或调 prompt，而是先把内容仓库的命名规则、组织层级、信息类型统一起来——这是设计师其实早就知道怎么做、但组织长期不肯为之买单的事。现在，烂 IA 的代价可以直接换算成 token 成本了，这件事终于上了财务的雷达。",
+        "url": "https://uxdesign.cc/information-architecture-is-the-foundation-artificial-intelligence-is-starving-for-1d91fb5bf59f",
+        "source": "UX Collective",
+        "why": "Product Designer 经常在讨论「AI 产品怎么做 RAG」，但少有人从 IA 角度切入。这篇把设计师已有的技能和当下最热的 AI 工程问题直接连线，立场鲜明且论据充分，读完可以直接拿去和工程师讨论。",
+        "type": "deep-read",
+        "image": "https://miro.medium.com/v2/resize:fit:1200/1*sOO1nTcikPZamJIeflkLig.png"
+      },
+      {
+        "title": "AI 世界里该重新想想「摩擦」这件事了",
+        "summary": "作者从新加坡樟宜机场无护照过关的案例切入——「最好的体验是让人完全忘记它」。这个设计哲学在 AI 时代遭遇了真正的挑战：当 ChatGPT/Claude 把所有交互都变得无比顺滑，是不是所有摩擦都应该消除？作者把摩擦分为三类：交互摩擦（步骤太多）、认知摩擦（界面混乱）、情感摩擦（焦虑与不信任）。这三种确实该去掉。但文章的核心翻转是：当 AI 帮你学数学、写代码、做决策时，把摩擦完全磨平反而危险——用户跳过了思考，形成了依赖，失去了对自己能力的感知。好的 UX 不是把所有路都铺平，而是知道哪里该留一点阻力，让人在其中生长。",
+        "url": "https://uxdesign.cc/rethinking-friction-in-an-ai-world-8f361d62ab5e",
+        "source": "UX Collective",
+        "why": "「去除摩擦」是设计师的本能，但这篇提出了一个更精细的框架：什么时候摩擦是噪音，什么时候它是必要的信号。做 AI 产品的设计师读完会有直接可用的判断框架。",
+        "type": "perspective",
+        "image": "https://miro.medium.com/v2/da:true/resize:fit:862/0*awQhwQtyDfSv3nDp"
+      },
+      {
+        "title": "欧盟 AI 透明度新规生效：聊天机器人必须亮明身份，AI 生成内容必须标注",
+        "summary": "2026 年 8 月 2 日，欧盟 AI 法案下的透明度条款正式生效。新规要求：AI 系统提供商必须让用户知道自己在和 AI 交互（除非显而易见）；生成的音频、图像、视频、文字内容必须嵌入机器可读的标记，表明其为 AI 生成或修改。平台方需要为 deepfake 内容加标注。欧盟还专门设计了一套 AI 标注图标，供平台自愿采用（但标注本身不是可选项）。现有系统有四个月过渡期，至 12 月 2 日前必须合规。违规最高罚款 1500 万欧元或全球营收的 3%。这是设计师在做 AI 产品时需要纳入合规设计考量的直接外部约束，影响到 chatbot 流程、内容标注 UI、以及 deepfake 检测的产品设计方向。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+        "source": "The Verge",
+        "why": "做 AI 产品的设计师必须了解这个监管动向。欧盟规则往往会成为全球设计标准的参考，chatbot 身份披露、AI 内容标注的 UI 模式即将成为标配，这篇是最清晰的一手报道。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/EU-AI-label-icons-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "items": [
       {
@@ -4676,7 +4708,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260803T012314Z&X-Amz-Expires=300&X-Amz-Signature=09b6a66a2a9b1ebe49c85317461115e42e7b87c1c1bb8b1f5e7c234a5323c2f7&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTcyMDQ5NCwibmJmIjoxNzg1NzIwMTk0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.7s2VZJM4TucbjHbL62z6_0_Ib2_zcDAIwZoV9qcrft8"
+        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012314Z&X-Amz-Expires=300&X-Amz-Signature=0ebb2ca8ab4d851611793b7cf8f808e128fdbaf303c16189f3208c6d2c911c13&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNjg5NCwibmJmIjoxNzg1ODA2NTk0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ji6xVt_78ZntphaAskYyMfHNOoS-9kjkJ9N-CNIKPvM"
       },
       {
         "source": "Hugging Face",
