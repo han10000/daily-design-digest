@@ -27,7 +27,7 @@
         "source": "The Verge",
         "why": "做 AI 产品的设计师必须了解这个监管动向。欧盟规则往往会成为全球设计标准的参考，chatbot 身份披露、AI 内容标注的 UI 模式即将成为标配，这篇是最清晰的一手报道。",
         "type": "industry-news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/EU-AI-label-icons-hero.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -4708,7 +4708,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260804T012314Z&X-Amz-Expires=300&X-Amz-Signature=0ebb2ca8ab4d851611793b7cf8f808e128fdbaf303c16189f3208c6d2c911c13&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTgwNjg5NCwibmJmIjoxNzg1ODA2NTk0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.ji6xVt_78ZntphaAskYyMfHNOoS-9kjkJ9N-CNIKPvM"
+        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260805%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260805T012308Z&X-Amz-Expires=300&X-Amz-Signature=a1670734b2d6e627de86d4b4f1274213e82c0203a908e0a86ecb32412102a334&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTg5MzI4OCwibmJmIjoxNzg1ODkyOTg4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.986Yk066dY8GfT4pewZMOuDqK8ogHfwyNduQqwhYmM0"
       },
       {
         "source": "Hugging Face",
