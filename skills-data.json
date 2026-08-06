@@ -1,13 +1,105 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "trending": [
     {
       "rank": 1,
+      "name": "computer",
+      "owner": "cloudflare",
+      "source": "github",
+      "installs": "2,464 stars (+796 today, TypeScript, programmable workspace for AI agents)",
+      "stars": 2999,
+      "desc": "computer — Cloudflare's programmable workspace for AI agents. Execute code, run commands, interact with local or remote systems in a sandboxed environment. Designed for developers building AI-powered workflows.",
+      "reason": "Today +796 new face. Developer-focused agent sandbox/SDK infrastructure, not an installable design tool or workflow tool for designers. relevant=false.",
+      "usage": "TypeScript SDK, developer infrastructure",
+      "tag": "AI",
+      "category": "AI Agent Computer/Sandbox SDK",
+      "relevant": false,
+      "language": "TypeScript",
+      "license": "MIT",
+      "topics": [],
+      "repo_desc": "Give your agent a computer 👾",
+      "homepage": "",
+      "how_to_install": "",
+      "how_to_use": "The [`examples/`](examples) directory holds runnable consumers of the\npublic surface. Each is a Worker workspace with its own README.\n\n- [`examples/container`](examples/container) — runs `computerd` inside a\n  container, mounts a workspace, and talks to a Durable Object over\n  capnweb. A `write` / `read` / `exec` HTTP surface.\n- [`examples/worker-shell`](examples/worker-shell) — same HTTP surface as the\n  container example, but the shell runs [just-bash](https://github.com/vercel-labs/just-ba...",
+      "features": ""
+    },
+    {
+      "rank": 2,
+      "name": "loopx",
+      "owner": "huangruiteng",
+      "source": "github",
+      "installs": "1,979 stars (+327 today, Python, loop state kernel for AI agent teams)",
+      "stars": 2135,
+      "desc": "loopx — Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents. Durable goals, quota-aware auto-wake, executable todos, evidence logs, verifiable handoffs.",
+      "reason": "Today +327 new face. Developer infra for managing AI coding agent teams. Not a design tool or workflow tool for Product Designers. relevant=false.",
+      "usage": "Python library, developer-focused agent orchestration",
+      "tag": "AI",
+      "category": "AI Agent Loop State Kernel",
+      "relevant": false,
+      "language": "Python",
+      "license": "MIT",
+      "topics": [
+        "agent-control-plane",
+        "agent-ops",
+        "ai-agents",
+        "codex",
+        "long-running-agents"
+      ],
+      "repo_desc": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "homepage": "https://my.feishu.cn/wiki/CaL5wMk9ui17ngkWzeUcMlAYnZg",
+      "how_to_install": "",
+      "how_to_use": "",
+      "features": "LoopX folds its control-plane mechanics into five questions:\n\n| Question | What LoopX keeps visible |\n| --- | --- |\n| What is the objective? | The active goal, explicit scope, and current authority. |\n| What happens next? | Ordered user and agent todos, ownership, claims, and leases. |\n| What needs human judgment? | Concrete user gates instead of a vague \"waiting for owner.\" |\n| What evidence changed? | Compact run history, validation, blockers, and accepted writeback. |\n| May the loop contin..."
+    },
+    {
+      "rank": 3,
+      "name": "pdf-inspector",
+      "owner": "firecrawl",
+      "source": "github",
+      "installs": "11,231 stars (+1,583 today, Rust, PDF inspection and classification library)",
+      "stars": 11476,
+      "desc": "pdf-inspector — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions for AI pipelines.",
+      "reason": "Today +1,583 new face. Rust library/SDK for PDF processing infrastructure. Not an installable end-user tool or designer workflow tool. relevant=false.",
+      "usage": "Rust library, developer/pipeline infrastructure",
+      "tag": "workflow",
+      "category": "PDF Inspection Library",
+      "relevant": false,
+      "language": "Rust",
+      "license": "MIT",
+      "topics": [
+        "markdown",
+        "nodejs",
+        "ocr-routing",
+        "pdf",
+        "pdf-classification"
+      ],
+      "repo_desc": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "homepage": "https://firecrawl.github.io/pdf-inspector/",
+      "how_to_install": "### Python\n\n```bash\npip install maturin\nmaturin develop --release\n```\n\n```python\nimport pdf_inspector\n\nresult = pdf_inspector.process_pdf(\"document.pdf\")\nprint(result.pdf_type)   # \"text_based\", \"scanned\", \"image_based\", \"mixed\"\nprint(result.markdown)   # Markdown string or None\n```\n\n> Full API reference: [docs/python.md](docs/python.md)",
+      "how_to_use": "```bash",
+      "features": "- **Smart classification** — Detect TextBased, Scanned, ImageBased, or Mixed PDFs in ~10-50ms by sampling content streams. Returns a confidence score (0.0-1.0) and per-page OCR routing.\n- **Text extraction** — Position-aware extraction with font info, X/Y coordinates, and automatic multi-column reading order.\n- **Markdown conversion** — Headings (H1-H4 via font size ratios), bullet/numbered/letter lists, code blocks (monospace font detection), tables (rectangle-based and heuristic), bold/ital..."
+    },
+    {
+      "rank": 4,
+      "name": "StepGrab",
+      "owner": "stepgrab-app",
+      "source": "producthunt",
+      "installs": "productcool.com 2026-08-05 new, macOS menu bar workflow documentation tool",
+      "stars": 0,
+      "desc": "StepGrab — Turn any Mac task into a step-by-step guide. Hit record, do the task once, and every click comes back as an annotated screenshot with the step already written. Export as GIF, PDF, MP4, clickable HTML, Markdown, or vertical video. Native Mac menu bar app, on-device, no account, nothing uploaded. Free tier is real; Pro $2.99/mo.",
+      "reason": "productcool 2026-08-05 new. Installable macOS app, free tier is real (confirmed free tier), fully on-device no account needed, directly relevant for designers documenting design workflows, creating handoff guides, onboarding flows, and how-to documentation for design systems. relevant=true.",
+      "usage": "macOS menu bar app, free tier + $2.99/mo Pro, fully on-device",
+      "tag": "workflow",
+      "category": "macOS Workflow Documentation Tool",
+      "relevant": true
+    },
+    {
+      "rank": 5,
       "name": "speech-to-speech",
       "owner": "huggingface",
       "source": "github",
       "installs": "8,565 stars (+627 today, Python, local voice agent open-source models)",
-      "stars": 10953,
+      "stars": 11213,
       "desc": "speech-to-speech — Build local, private voice agents with open-source models. Full STT→LLM→TTS pipeline offline, CPU-capable lightweight models. MIT.",
       "reason": "Today +627 trending strong. Installable, free MIT, macOS/Linux CPU-capable, directly relevant for designer demo narration / user research voice agents. relevant=true.",
       "usage": "pip install + python run, fully local free, CPU lightweight models available, no API key needed",
@@ -30,12 +122,12 @@
       "features": ""
     },
     {
-      "rank": 2,
+      "rank": 6,
       "name": "book-to-skill",
       "owner": "virgiliojr94",
       "source": "github",
       "installs": "12,517 stars (+1,428 today, Python, PDF→Claude Code skill converter)",
-      "stars": 16414,
+      "stars": 17003,
       "desc": "book-to-skill — Convert any technical book PDF into a Claude Code skill. Study, reference, and use knowledge while you work. Python, MIT.",
       "reason": "Today +1,428 massive surge. Free MIT macOS/Linux but requires paid Claude API key for generation — not fully free. relevant=false.",
       "usage": "pip install + python cli, requires Claude API key",
@@ -52,7 +144,7 @@
       "features": ""
     },
     {
-      "rank": 3,
+      "rank": 7,
       "name": "pascalorg-editor",
       "owner": "pascalorg",
       "source": "github",
@@ -66,12 +158,12 @@
       "relevant": true
     },
     {
-      "rank": 4,
+      "rank": 8,
       "name": "GeoLibre",
       "owner": "opengeos",
       "source": "github",
       "installs": "3,934 stars (+667 today, TypeScript, cloud-native GIS browser platform)",
-      "stars": 5388,
+      "stars": 5459,
       "desc": "GeoLibre — Lightweight cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. Runs in web browser, desktop, mobile, Jupyter notebooks. TypeScript, MIT.",
       "reason": "Today +667 new face. Web-based free MIT, runs in browser/desktop. Directly relevant for designers working on location-based products, maps, spatial UX research. relevant=true.",
       "usage": "Browser-based or Jupyter, completely free MIT, no API key",
@@ -94,12 +186,12 @@
       "features": ""
     },
     {
-      "rank": 5,
+      "rank": 9,
       "name": "airi",
       "owner": "moeru-ai",
       "source": "github",
       "installs": "46,166 stars (+372 today, TypeScript, self-hosted AI companion)",
-      "stars": 46872,
+      "stars": 47027,
       "desc": "airi — Self-hosted you-owned AI companion. Realtime voice chat, Web/macOS/Windows. TypeScript, MIT.",
       "reason": "Today +676. AI companion infrastructure, not directly design workflow. relevant=false.",
       "usage": "Self-hosted, developer-focused setup",
@@ -122,12 +214,12 @@
       "features": ""
     },
     {
-      "rank": 6,
+      "rank": 10,
       "name": "openwork",
       "owner": "different-ai",
       "source": "github",
       "installs": "19,347 stars (+796 today, TypeScript, open-source Claude Cowork alternative)",
-      "stars": 20923,
+      "stars": 21108,
       "desc": "openwork — Open-source alternative to Claude Cowork, powered by opencode. TypeScript.",
       "reason": "Today on trending. Developer coding workspace, not design workflow. relevant=false.",
       "usage": "Developer coding agent workspace",
@@ -144,12 +236,12 @@
       "features": ""
     },
     {
-      "rank": 7,
+      "rank": 11,
       "name": "AI-For-Beginners",
       "owner": "microsoft",
       "source": "github",
       "installs": "55,175 stars (+1,592 today, Jupyter Notebook, 12-week AI curriculum)",
-      "stars": 61679,
+      "stars": 62119,
       "desc": "AI For Beginners — Microsoft's 12-week, 24-lesson AI curriculum for all skill levels. Jupyter Notebook, MIT.",
       "reason": "Educational tutorial repo, not an installable tool or skill. relevant=false.",
       "usage": "Learning material, not a runnable tool",
@@ -172,12 +264,12 @@
       "features": ""
     },
     {
-      "rank": 8,
+      "rank": 12,
       "name": "tuicr",
       "owner": "agavra",
       "source": "github",
       "installs": "1,793 stars (+232 today, Rust, code review TUI with vim keybindings)",
-      "stars": 2379,
+      "stars": 2420,
       "desc": "tuicr — A code review TUI with vim keybindings. Rust, MIT.",
       "reason": "Developer-focused code review CLI tool, not design workflow. relevant=false.",
       "usage": "Rust CLI, developer code review tool",
@@ -196,10 +288,10 @@
       "homepage": "https://tuicr.dev/",
       "how_to_install": "```bash\ncurl -fsSL tuicr.dev/install.sh | sh",
       "how_to_use": "",
-      "features": "- GitHub-style continuous diff in the terminal. Scroll through every changed file in one stream.\n- PR-style comments at the line, range, file, and review level. \n- Review tracking at file or hunk granularity, persisted across sessions.\n- Three export targets: push a real review to GitHub or GitLab, copy structured markdown to your\n  clipboard, or pipe to stdout.\n- Works with git, jj, and mercurial. Reviews uncommitted changes, commit ranges, or any GitHub PR\n  or GitLab MR."
+      "features": "- GitHub-style continuous diff in the terminal. Scroll through every changed file in one stream.\n- PR-style comments at the line, range, file, and review level. \n- Review tracking at file or hunk granularity, persisted across sessions.\n- Three export targets: push a real review to GitHub, GitLab, or Bitbucket, copy structured\n  markdown to your clipboard, or pipe to stdout.\n- Works with git, jj, and mercurial. Reviews uncommitted changes, commit ranges, or any GitHub PR,\n  GitLab MR, or Bitbu..."
     },
     {
-      "rank": 9,
+      "rank": 13,
       "name": "Sorinai",
       "owner": "sorinai-app",
       "source": "producthunt",
@@ -213,7 +305,7 @@
       "relevant": true
     },
     {
-      "rank": 10,
+      "rank": 14,
       "name": "tablo",
       "owner": "tablo-app",
       "source": "producthunt",
@@ -227,7 +319,7 @@
       "relevant": true
     },
     {
-      "rank": 11,
+      "rank": 15,
       "name": "Premation",
       "owner": "premation-app",
       "source": "producthunt",
@@ -241,7 +333,7 @@
       "relevant": true
     },
     {
-      "rank": 12,
+      "rank": 16,
       "name": "BlackFlare",
       "owner": "blackflare-app",
       "source": "producthunt",
@@ -255,7 +347,7 @@
       "relevant": true
     },
     {
-      "rank": 13,
+      "rank": 17,
       "name": "SceneNote",
       "owner": "scenenote-app",
       "source": "producthunt",
@@ -269,7 +361,7 @@
       "relevant": true
     },
     {
-      "rank": 14,
+      "rank": 18,
       "name": "Epilude",
       "owner": "epilude-app",
       "source": "producthunt",
@@ -283,12 +375,12 @@
       "relevant": false
     },
     {
-      "rank": 15,
+      "rank": 19,
       "name": "bitchat",
       "owner": "permissionlesstech",
       "source": "github",
       "installs": "29,948 stars (Swift, Bluetooth mesh chat)",
-      "stars": 34439,
+      "stars": 34566,
       "desc": "bitchat — Bluetooth mesh chat, IRC vibes. No server, no internet, peer-to-peer encrypted. Swift, MIT.",
       "reason": "Offline BT mesh chat, not design workflow. relevant=false.",
       "usage": "iOS/macOS app, P2P communication tool",
@@ -311,12 +403,12 @@
       "features": "- **Dual Transport Architecture**: Bluetooth mesh for offline + Nostr protocol for internet-based messaging\n- **Location-Based Channels**: Geographic chat rooms using geohash coordinates over global Nostr relays\n- **Intelligent Message Routing**: Automatically chooses best transport (Bluetooth → Nostr fallback)\n- **Decentralized Mesh Network**: Automatic peer discovery and multi-hop message relay over Bluetooth LE\n- **Privacy First**: No accounts, no phone numbers, no servers. Note that the m..."
     },
     {
-      "rank": 16,
+      "rank": 20,
       "name": "Instatic",
       "owner": "CoreBunch",
       "source": "github",
       "installs": "5,530 stars (TypeScript, open-source Webflow/Framer/WordPress alternative)",
-      "stars": 7540,
+      "stars": 7615,
       "desc": "Instatic — Open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Built-in design token engine. TypeScript, MIT.",
       "reason": "Installable, free MIT, macOS/Linux via Bun, directly relevant for designers building web presence without coding. Canvas editor + design tokens. relevant=true.",
       "usage": "git clone + bun install + bun run dev, or Railway deploy, completely free MIT",
@@ -339,12 +431,12 @@
       "features": ""
     },
     {
-      "rank": 17,
+      "rank": 21,
       "name": "impeccable",
       "owner": "pbakaus",
       "source": "github",
       "installs": "51,392 stars (JavaScript, design language for AI coding agents)",
-      "stars": 55238,
+      "stars": 55824,
       "desc": "impeccable — Design language that makes your AI harness better at design. 23 commands, 60 anti-AI-slop rules. Apache 2.0.",
       "reason": "Crossed 50k milestone. Free Apache 2.0, core tool for designer AI-assisted UI quality. Already installed. relevant=true.",
       "usage": "npx impeccable install, completely free, no API key",
@@ -361,12 +453,12 @@
       "features": ""
     },
     {
-      "rank": 18,
+      "rank": 22,
       "name": "VibeVoice",
       "owner": "microsoft",
       "source": "github",
       "installs": "44,500+ stars (Python, Open-Source Frontier Voice AI)",
-      "stars": 51933,
+      "stars": 51949,
       "desc": "VibeVoice — Open-source frontier voice AI. Multi-speaker transcription (Who+When+What), 60-min single transcription, open-source models.",
       "reason": "Free MIT, macOS/Linux CPU-capable, directly relevant for designer user research interview transcription. relevant=true.",
       "usage": "pip install + python run, fully local, CPU-capable models, no API key",
@@ -383,12 +475,12 @@
       "features": ""
     },
     {
-      "rank": 19,
+      "rank": 23,
       "name": "open-code-review",
       "owner": "alibaba",
       "source": "github",
       "installs": "13,653 stars (Go, AI code review)",
-      "stars": 18797,
+      "stars": 19158,
       "desc": "open-code-review — Open-source free AI code review battle-tested at Alibaba scale.",
       "reason": "AI code review for developers, not design workflow. relevant=false.",
       "usage": "Developer-focused tool",
@@ -411,12 +503,12 @@
       "features": ""
     },
     {
-      "rank": 20,
+      "rank": 24,
       "name": "penpot",
       "owner": "penpot",
       "source": "github",
       "installs": "56,059 stars (Clojure, open-source design platform, v2.17 MCP)",
-      "stars": 58119,
+      "stars": 58156,
       "desc": "Penpot 2.17 — Open-source design platform, free Figma alternative. v2.17: background blur + WebGL + MCP server.",
       "reason": "v2.17 MCP integration. Free MPL-2.0, core tool for Product Designer. relevant=true.",
       "usage": "penpot.app free account, or docker-compose self-hosted",
@@ -439,12 +531,12 @@
       "features": ""
     },
     {
-      "rank": 21,
+      "rank": 25,
       "name": "OpenCut",
       "owner": "OpenCut-app",
       "source": "github",
       "installs": "74,690 stars (TypeScript, open-source CapCut alternative)",
-      "stars": 80943,
+      "stars": 81156,
       "desc": "OpenCut — Open-source CapCut alternative. Browser-based video editor, timeline + subtitles + filters. Free, no watermark. MIT.",
       "reason": "Web app, free MIT, directly relevant for designer demo video production. relevant=true.",
       "usage": "git clone + npm run dev or use online, completely free",
@@ -465,12 +557,12 @@
       "features": ""
     },
     {
-      "rank": 22,
+      "rank": 26,
       "name": "hallmark",
       "owner": "Nutlope",
       "source": "github",
       "installs": "11,840 stars (CSS, Anti-AI-slop design skill)",
-      "stars": 21693,
+      "stars": 22043,
       "desc": "hallmark — Anti-AI-slop design skill for Claude Code, Cursor, Codex. 57 slop-test gates. CSS, MIT.",
       "reason": "Installable skill, free MIT, directly relevant for designer AI-generated UI quality. relevant=true.",
       "usage": "agentskills install Nutlope/hallmark, completely free MIT",
@@ -487,12 +579,12 @@
       "features": ""
     },
     {
-      "rank": 23,
+      "rank": 27,
       "name": "voicebox",
       "owner": "jamiepine",
       "source": "github",
       "installs": "49,105 stars (+653 today, TypeScript, open-source AI voice studio)",
-      "stars": 49167,
+      "stars": 49416,
       "desc": "Voicebox — The open-source AI voice studio. Multi-engine TTS + voice cloning + multi-track audio editing. macOS/Linux/Docker. MIT.",
       "reason": "Installable, free MIT, macOS/Linux, directly relevant for designer demo video voiceover. relevant=true.",
       "usage": "GitHub releases macOS App, or Docker self-hosted, completely free",
@@ -515,12 +607,12 @@
       "features": "### Multi-Engine Voice Cloning\n\nSeven TTS engines with different strengths, switchable per-generation:\n\n| Engine                      | Languages | Strengths                                                                                                                                |\n| --------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |\n| **Qwen3-TTS** (0.6B / 1.7..."
     },
     {
-      "rank": 24,
+      "rank": 28,
       "name": "pocket-tts",
       "owner": "kyutai-labs",
       "source": "github",
       "installs": "6,885 stars (Python, CPU TTS 100M params)",
-      "stars": 8023,
+      "stars": 8032,
       "desc": "pocket-tts — TTS that fits in your CPU. 100M params, no GPU needed, 6x realtime, voice cloning, 6 languages.",
       "reason": "Free local TTS, CPU no GPU, macOS/Linux, demo video voiceover. relevant=true.",
       "usage": "pip install pocket-tts, fully local free, CPU",
@@ -537,12 +629,12 @@
       "features": ""
     },
     {
-      "rank": 25,
+      "rank": 29,
       "name": "harper",
       "owner": "Automattic",
       "source": "github",
       "installs": "13,332 stars (Rust, offline privacy-first grammar checker)",
-      "stars": 14181,
+      "stars": 14205,
       "desc": "harper — Offline privacy-first grammar checker, Rust-powered. Automattic. MIT.",
       "reason": "Free MIT, macOS/Linux, relevant for designers writing copy/PRD/UX text. relevant=true.",
       "usage": "cargo install harper-ls or editor plugin, fully local offline, no API key",
@@ -565,12 +657,12 @@
       "features": ""
     },
     {
-      "rank": 26,
+      "rank": 30,
       "name": "next-ai-draw-io",
       "owner": "DayuanJiang",
       "source": "github",
       "installs": "33,250 stars (TypeScript, AI natural language draw.io editor)",
-      "stars": 34060,
+      "stars": 34094,
       "desc": "next-ai-draw-io — Natural language create/modify flow diagrams in draw.io. Next.js. MIT.",
       "reason": "Web app, free open source, designer flow diagrams. relevant=true.",
       "usage": "git clone + npm run dev, completely free",
@@ -591,12 +683,12 @@
       "features": "-   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands\n-   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically\n-   **PDF & Text File Upload**: Upload PDF documents and text files to extract content and generate diagrams from existing documents\n-   **AI Reasoning Display**: View the AI's thinking process for supported mo..."
     },
     {
-      "rank": 27,
+      "rank": 31,
       "name": "PhotoGIMP",
       "owner": "Diolinux",
       "source": "github",
       "installs": "14,919 stars (CSS, GIMP 3+ Photoshop layout patch)",
-      "stars": 17268,
+      "stars": 17286,
       "desc": "PhotoGIMP — Transforms GIMP 3+ to Photoshop layout. Tool positions, keyboard shortcuts aligned to Adobe. GPL-3.0.",
       "reason": "Free GPL-3.0, macOS+Linux, directly relevant for designers. relevant=true.",
       "usage": "Download from GitHub releases, free, requires GIMP 3.0+",
@@ -613,7 +705,7 @@
       "features": ""
     },
     {
-      "rank": 28,
+      "rank": 32,
       "name": "Tag Your Photos",
       "owner": "tag-your-photos-app",
       "source": "producthunt",
@@ -627,7 +719,7 @@
       "relevant": true
     },
     {
-      "rank": 29,
+      "rank": 33,
       "name": "LiveDemo",
       "owner": "livedemo-app",
       "source": "producthunt",
@@ -641,7 +733,7 @@
       "relevant": true
     },
     {
-      "rank": 30,
+      "rank": 34,
       "name": "Animos",
       "owner": "animos-app",
       "source": "producthunt",
@@ -655,7 +747,7 @@
       "relevant": true
     },
     {
-      "rank": 31,
+      "rank": 35,
       "name": "Glideo",
       "owner": "glideo-app",
       "source": "producthunt",
@@ -669,12 +761,12 @@
       "relevant": true
     },
     {
-      "rank": 32,
+      "rank": 36,
       "name": "wigolo",
       "owner": "KnockOutEZ",
       "source": "github",
       "installs": "2,414 stars (TypeScript, local-first AI web research)",
-      "stars": 4158,
+      "stars": 4309,
       "desc": "wigolo — Local-first web search/fetch/crawl for AI agents, $0/query, MCP server for Claude Code/Cursor/Codex.",
       "reason": "Completely free keyless, useful for designer competitive research. relevant=true.",
       "usage": "npx wigolo init --agents=claude-code, Node >= 20, completely free keyless",
@@ -697,12 +789,12 @@
       "features": ""
     },
     {
-      "rank": 33,
+      "rank": 37,
       "name": "Clypra",
       "owner": "AIEraDev",
       "source": "github",
       "installs": "2,556 stars (TypeScript, free video editor)",
-      "stars": 2959,
+      "stars": 2961,
       "desc": "Clypra — Modern free video editor, Tauri+React+TypeScript, open-source CapCut alternative.",
       "reason": "Installable, free MIT, macOS+Linux via Tauri, designer video editing. relevant=true.",
       "usage": "GitHub releases macOS/Linux installer, completely free",
@@ -725,12 +817,12 @@
       "features": "### Core Editing\n\n- **Multi-format media import**: MP4, MOV, WebM, MKV, M4V, AVI (video); MP3, WAV, AAC (audio); JPG, PNG, WebP (image)\n- **Frame-accurate trimming**: Precise timeline control with millisecond accuracy\n- **Multi-track timeline**: Professional timeline interface with ruler and visual feedback\n- **Undo/redo system**: 100-level history stack with command pattern architecture"
     },
     {
-      "rank": 34,
+      "rank": 38,
       "name": "superfile",
       "owner": "yorukot",
       "source": "github",
       "installs": "20,104 stars (Go, terminal file manager)",
-      "stars": 22231,
+      "stars": 22282,
       "desc": "superfile — Pretty fancy and modern terminal file manager. Go, MIT.",
       "reason": "Terminal file manager, not design workflow. relevant=false.",
       "usage": "CLI tool, general terminal utility",
@@ -753,12 +845,12 @@
       "features": ""
     },
     {
-      "rank": 35,
+      "rank": 39,
       "name": "palmier-pro",
       "owner": "palmier-io",
       "source": "github",
       "installs": "12,138 stars (Swift, macOS AI video editor)",
-      "stars": 13066,
+      "stars": 13109,
       "desc": "palmier-pro — macOS video editor built for AI workflows. Swift, MIT.",
       "reason": "macOS AI video editor, free MIT open source, relevant for designer demo video. relevant=true.",
       "usage": "GitHub releases macOS app, completely free open source",
@@ -781,12 +873,12 @@
       "features": ""
     },
     {
-      "rank": 36,
+      "rank": 40,
       "name": "transcribe.cpp",
       "owner": "handy-computer",
       "source": "github",
       "installs": "1,163 stars (C++, offline STT)",
-      "stars": 1693,
+      "stars": 1702,
       "desc": "transcribe.cpp — ggml speech-to-text for 16+ model families. C++, fully offline, CPU no GPU.",
       "reason": "CLI tool, free, CPU macOS/Linux, user research interview transcription. relevant=true.",
       "usage": "C++ compile and install, fully local CPU, no GPU, free",
@@ -808,12 +900,12 @@
       "features": ""
     },
     {
-      "rank": 37,
+      "rank": 41,
       "name": "amnezia-client",
       "owner": "amnezia-vpn",
       "source": "github",
       "installs": "6,200 stars (C++/Qt, self-deployed VPN)",
-      "stars": 14306,
+      "stars": 14328,
       "desc": "Amnezia VPN — Open-source self-hosted VPN client. Deploy to your own server via SSH. Windows/macOS/Linux.",
       "reason": "VPN privacy tool, not design workflow. relevant=false.",
       "usage": "App download, requires own VPS server",
@@ -836,51 +928,35 @@
       "features": "- Very easy to use - enter your IP address, SSH login, password and Amnezia will automatically install VPN docker containers to your server and connect to the VPN.\n- Classic VPN-protocols: OpenVPN, WireGuard and IKEv2 protocols.\n- Protocols with traffic Masking (Obfuscation): OpenVPN over [Cloak](https://github.com/cbeuw/Cloak) plugin, Shadowsocks (OpenVPN over Shadowsocks), [AmneziaWG](https://docs.amnezia.org/documentation/amnezia-wg/) and XRay.\n- Split tunneling support - add any sites to ..."
     },
     {
-      "rank": 38,
+      "rank": 42,
       "name": "t3code",
       "owner": "pingdotgg",
       "source": "github",
       "installs": "14,994 stars (TypeScript, AI coding agent GUI)",
-      "stars": 16653,
+      "stars": 14994,
       "desc": "t3code — pingdotgg/t3code by Theo, AI coding agent GUI with Electron. TypeScript.",
       "reason": "Developer coding agent GUI, not design workflow. relevant=false.",
       "usage": "AI coding agent, developer-focused",
       "tag": "AI",
       "category": "AI Coding Agent GUI",
-      "relevant": false,
-      "language": "TypeScript",
-      "license": "MIT",
-      "topics": [],
-      "repo_desc": null,
-      "homepage": "https://t3.codes",
-      "how_to_install": "> [!WARNING]\n> T3 Code currently supports Codex, Claude, Cursor, Grok Build and OpenCode. Install and authenticate at least one provider before use:\n>\n> - Codex: install [Codex CLI](https://developers.openai.com/codex/cli) and run `codex login`\n> - Claude: install [Claude Code](https://claude.com/product/claude-code) and run `claude auth login`\n> - Cursor: install [Cursor CLI](https://cursor.com/cli) and run `agent login`\n> - Grok Build: install [Grok Build CLI](https://x.ai/cli) and run `gro...",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 39,
+      "rank": 43,
       "name": "ag-kit",
       "owner": "vudovn",
       "source": "github",
       "installs": "7,919 stars (TypeScript, AI agent engineering kit)",
-      "stars": 8093,
+      "stars": 7919,
       "desc": "ag-kit — Antigravity-first agent engineering kit. 47 domain-specific skills, 20 AI personas, 13 automated workflows. TypeScript, MIT.",
       "reason": "Requires Google Antigravity runtime, developer-focused. Not directly designer workflow. relevant=false.",
       "usage": "npm install + ag init, requires Antigravity/Node.js 22+",
       "tag": "AI",
       "category": "AI Agent Engineering Kit",
-      "relevant": false,
-      "language": "TypeScript",
-      "license": "MIT",
-      "topics": [],
-      "repo_desc": null,
-      "homepage": "https://ag-kit.unikorn.vn",
-      "how_to_install": "### Install into a project\n\n```bash\nnpx @vudovn/ag-kit init\n```\n\nOr install the CLI globally:\n\n```bash\nnpm install -g @vudovn/ag-kit\nag-kit init\n```\n\nDo not add `.agents/` to the project `.gitignore` when Antigravity needs to index rules, skills, or workflows. To keep it local without disabling discovery, add `.agents/` to `.git/info/exclude` instead.",
-      "how_to_use": "",
-      "features": ""
+      "relevant": false
     },
     {
-      "rank": 40,
+      "rank": 44,
       "name": "Robynn AI",
       "owner": "robynn-ai",
       "source": "producthunt",
@@ -894,7 +970,7 @@
       "relevant": false
     },
     {
-      "rank": 41,
+      "rank": 45,
       "name": "Speech-To-Markdown",
       "owner": "productcool-2026-07-25",
       "source": "producthunt",
@@ -908,29 +984,21 @@
       "relevant": true
     },
     {
-      "rank": 42,
+      "rank": 46,
       "name": "design.md",
       "owner": "google-labs-code",
       "source": "github",
       "installs": "26,806 stars (+166 today, TypeScript, DESIGN.md visual identity format for AI agents)",
-      "stars": 26954,
+      "stars": 26806,
       "desc": "design.md — Official Google Labs format spec for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system: colors, typography, spacing, brand voice. TypeScript, Apache 2.0.",
       "reason": "2026-07-31 today trending. Installable spec (add DESIGN.md to any project), completely free Apache 2.0, macOS/Linux, directly relevant for Product Designers using AI coding agents — standardizes how AI understands your design system. relevant=true.",
       "usage": "Create DESIGN.md in your project root following the spec, completely free no API key",
       "tag": "design",
       "category": "Design System Format for AI Agents",
-      "relevant": true,
-      "language": "TypeScript",
-      "license": "Apache-2.0",
-      "topics": [],
-      "repo_desc": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "homepage": "https://stitch.withgoogle.com/docs/design-md/specification",
-      "how_to_install": "Validate a DESIGN.md against the spec, catch broken token references, check WCAG contrast ratios, and surface structural findings — all as structured JSON that agents can act on.\n\n```bash\nnpx @google/design.md lint DESIGN.md\n```\n\n```json\n{\n  \"findings\": [\n    {\n      \"severity\": \"warning\",\n      \"path\": \"components.button-primary\",\n      \"message\": \"textColor (#ffffff) on backgroundColor (#1A1C1E) has contrast ratio 15.42:1 — passes WCAG AA.\"\n    }\n  ],\n  \"summary\": { \"errors\": 0, \"warnings\":...",
-      "how_to_use": "",
-      "features": ""
+      "relevant": true
     },
     {
-      "rank": 43,
+      "rank": 47,
       "name": "memi",
       "owner": "sarveshsea",
       "source": "producthunt",
@@ -944,7 +1012,7 @@
       "relevant": true
     },
     {
-      "rank": 44,
+      "rank": 48,
       "name": "reverse-skill",
       "owner": "zhaoxuya520",
       "source": "github",
@@ -958,7 +1026,7 @@
       "relevant": false
     },
     {
-      "rank": 45,
+      "rank": 49,
       "name": "kaneo",
       "owner": "usekaneo",
       "source": "github",
@@ -972,7 +1040,7 @@
       "relevant": false
     },
     {
-      "rank": 46,
+      "rank": 50,
       "name": "modelcontextprotocol-ext-apps",
       "owner": "modelcontextprotocol",
       "source": "github",
@@ -986,7 +1054,7 @@
       "relevant": false
     },
     {
-      "rank": 47,
+      "rank": 51,
       "name": "generative-ai-for-beginners",
       "owner": "microsoft",
       "source": "github",
@@ -1000,7 +1068,7 @@
       "relevant": false
     },
     {
-      "rank": 48,
+      "rank": 52,
       "name": "voice-pro",
       "owner": "abus-aikorea",
       "source": "github",
@@ -1014,7 +1082,7 @@
       "relevant": false
     },
     {
-      "rank": 49,
+      "rank": 53,
       "name": "TRELLIS.2",
       "owner": "microsoft",
       "source": "github",
@@ -1028,7 +1096,7 @@
       "relevant": false
     },
     {
-      "rank": 50,
+      "rank": 54,
       "name": "k-skill",
       "owner": "NomaDamas",
       "source": "github",
@@ -1042,7 +1110,7 @@
       "relevant": false
     },
     {
-      "rank": 51,
+      "rank": 55,
       "name": "copilot-sdk",
       "owner": "github",
       "source": "github",
@@ -1056,7 +1124,7 @@
       "relevant": false
     },
     {
-      "rank": 52,
+      "rank": 56,
       "name": "AgentMicro",
       "owner": "agentmicro-app",
       "source": "producthunt",
@@ -1070,7 +1138,7 @@
       "relevant": true
     },
     {
-      "rank": 53,
+      "rank": 57,
       "name": "Capptivo",
       "owner": "capptivo-app",
       "source": "producthunt",
@@ -1084,7 +1152,7 @@
       "relevant": true
     },
     {
-      "rank": 54,
+      "rank": 58,
       "name": "Zen-Whisper",
       "owner": "zen-whisper-app",
       "source": "producthunt",
@@ -1098,7 +1166,7 @@
       "relevant": true
     },
     {
-      "rank": 55,
+      "rank": 59,
       "name": "invidious",
       "owner": "iv-org",
       "source": "github",
@@ -1112,7 +1180,7 @@
       "relevant": false
     },
     {
-      "rank": 56,
+      "rank": 60,
       "name": "Agent-Reach",
       "owner": "Panniantong",
       "source": "github",
@@ -1126,7 +1194,7 @@
       "relevant": false
     },
     {
-      "rank": 57,
+      "rank": 61,
       "name": "ds4",
       "owner": "antirez",
       "source": "github",
@@ -1140,7 +1208,7 @@
       "relevant": false
     },
     {
-      "rank": 58,
+      "rank": 62,
       "name": "DeepSeek-Reasonix",
       "owner": "esengine",
       "source": "producthunt",
@@ -1154,7 +1222,7 @@
       "relevant": false
     },
     {
-      "rank": 59,
+      "rank": 63,
       "name": "Lighthouse-game-engine",
       "owner": "HarbourMasters",
       "source": "github",
@@ -1168,7 +1236,7 @@
       "relevant": false
     },
     {
-      "rank": 60,
+      "rank": 64,
       "name": "build-your-own-x",
       "owner": "codecrafters-io",
       "source": "producthunt",
@@ -1196,7 +1264,7 @@
       "relevant": false
     },
     {
-      "rank": 62,
+      "rank": 65,
       "name": "reverse-skill-surge",
       "owner": "zhaoxuya520",
       "source": "github",
@@ -1210,7 +1278,7 @@
       "relevant": false
     },
     {
-      "rank": 63,
+      "rank": 66,
       "name": "livekit-agents",
       "owner": "livekit",
       "source": "github",
@@ -1224,7 +1292,7 @@
       "relevant": false
     },
     {
-      "rank": 64,
+      "rank": 67,
       "name": "yapyap",
       "owner": "yapyap-app",
       "source": "producthunt",
@@ -1238,7 +1306,7 @@
       "relevant": true
     },
     {
-      "rank": 65,
+      "rank": 68,
       "name": "Snapdown",
       "owner": "snapdown-app",
       "source": "producthunt",
@@ -1252,7 +1320,7 @@
       "relevant": true
     },
     {
-      "rank": 66,
+      "rank": 69,
       "name": "Open-Minis",
       "owner": "open-minis-app",
       "source": "producthunt",
@@ -1266,7 +1334,7 @@
       "relevant": false
     },
     {
-      "rank": 67,
+      "rank": 70,
       "name": "video-use",
       "owner": "browser-use",
       "source": "github",
@@ -1294,7 +1362,7 @@
       "relevant": false
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "ADR",
       "owner": "uber",
       "source": "github",
@@ -1308,7 +1376,7 @@
       "relevant": false
     },
     {
-      "rank": 71,
+      "rank": 72,
       "name": "compound-engineering-plugin",
       "owner": "EveryInc",
       "source": "github",
