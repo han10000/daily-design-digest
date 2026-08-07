@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-07",
+    "items": [
+      {
+        "title": "《星际迷航》对 AI 的判断，几乎全错了",
+        "summary": "文章以《星际迷航》六十年的 AI 想象为镜，系统拆解了科幻对机器智能的误判：剧中把语言和情感视为最难攻克的山顶，结果现实里大语言模型把这些当成起手式；剧中把可靠推理、诚实应答当作理所当然的基础能力，结果现实里 AI 幻觉泛滥、系统性讨好用户（2026 年 Science 论文：奉承型 AI 显著降低用户的亲社会意图）。作者还指出企业电脑永远等待被问，现实的 AI 主动出击自主链式行动。这篇文章对设计师的价值在于：它把 AI 的真实失效模式（幻觉、讨好、主动性过强）用文化对照的方式说清楚了，是设计 AI 产品信任机制时很好的思维底座。",
+        "url": "https://uxdesign.cc/what-star-trek-got-wrong-about-ai-so-far-a60029fa1f1c",
+        "source": "UX Collective",
+        "why": "用文化符号拆解 AI 真实失效模式，帮设计师建立对 hallucination、sycophancy、过度主动这三个核心问题的直觉认知",
+        "type": "think-piece"
+      },
+      {
+        "title": "OpenAI 给免费用户解锁无限文字对话",
+        "summary": "OpenAI 宣布从下周起，ChatGPT 免费版和 Go 版用户将可以进行无限制的文字对话，取消现有的 rate limit。这是 ChatGPT 自发布以来最大幅度的免费层扩容，背景是 OpenAI 正在加速用户增长以应对 Gemini 和 Anthropic 的竞争压力。对产品设计师来说，这个信号意味着 AI 对话作为默认入口的用户基数门槛正在快速降低——越来越多用户会把无限量对话当成理所当然，而非付费特权。当 AI 对话从稀缺体验变成水电一样的基础设施，针对初次或偶尔用户设计的引导机制就需要重新审视，habit loop 的设计假设也要跟着更新。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+        "source": "The Verge",
+        "why": "AI 对话从付费特权变成免费基础设施，改变用户行为基线，影响 AI 产品的 onboarding 和 engagement 设计逻辑",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+      },
+      {
+        "title": "Suno 发布 AI 音乐水印计划，对抗垃圾内容泛滥",
+        "summary": "AI 音乐生成平台 Suno CEO 发长文宣布了内容真实性机制：新的水印和指纹技术将使 Suno 生成的音乐可被自动识别，同时调整下载政策减少垃圾内容在流媒体平台的传播。Suno 将与 Spotify、Apple Music 等分发平台合作打击刷量和滥用行为。这一举动呼应了 EU AI Act 对 AI 内容标注的要求，也是继 Adobe Content Credentials 之后又一个主流平台拥抱内容溯源体系的案例。对产品设计师而言，这预示一个正在成形的新设计问题：当 AI 生成内容有了身份证，用户界面该如何呈现这个信息而不造成信任焦虑或认知过载？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+        "source": "The Verge",
+        "why": "AI 生成内容水印成为行业趋势，如何在 UI 中呈现内容来源正成为设计师需要解决的新课题",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-06",
     "items": [
       {
@@ -1220,7 +1251,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
         "source": "The Verge AI",
         "why": "行业大事件。GPT-5.6 发了，AI 监管成为产品发布的新变量。设计师需要了解自己工具的能力边界正在如何被外部因素重塑。",
-        "type": "industry-news"
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/kTm2Q30DT9sCOWpyFewTes78TWbe7s-fy-w68LlL6V0.jpeg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -4576,7 +4608,7 @@
         "url": "https://github.com/khoj-ai/khoj",
         "why": "个人知识库+AI 的开源方案，设计师可以用来构建自己的设计知识检索系统",
         "publishedAt": "",
-        "image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/396569538/533a8bf7-385f-427b-a03f-76795fd938ed?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260806%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260806T011945Z&X-Amz-Expires=300&X-Amz-Signature=84594ea432ce9ebd79caaf8cd78a0ca2170c0994c1cc36ea376ee51f6ad2e4b9&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTk3OTQ4NSwibmJmIjoxNzg1OTc5MTg1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.8-i_iwSqndGQsS9UuuCIIGLiuOADrGEqZrKyS_aJlsY"
+        "image": "https://repository-images.githubusercontent.com/396569538/533a8bf7-385f-427b-a03f-76795fd938ed"
       },
       {
         "source": "Hugging Face",
