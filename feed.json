@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-08",
+    "items": [
+      {
+        "title": "如何判断一个 AI 工具值不值得留下来：PROVE 框架",
+        "summary": "NN/g 推出了一个轻量级评估框架 PROVE，帮助设计师和产品团队理性判断某个 AI 工具是否真正改善了具体任务。P（Problem Alignment）：先明确任务，再选工具；R（Risk）：确认数据安全和使用合规；O（Output Quality）：对比自己的真实产出，而非 demo；V（Velocity）：衡量总耗时，不只是生成速度；E（Experience）：把反复出现的摩擦算进来。文章用 Gemini Notebooks 整合每周文章摘要这个真实场景，完整跑了一遍框架。最终结论是：'广泛使用'和'真正有用'是两回事——PROVE 给你一个可以对老板、队友和自己交代的理由。",
+        "url": "https://www.nngroup.com/articles/prove-framework/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 工具满天飞，团队压力大，但大多数评估要么一次演示就算数，要么踩错任务直接放弃。PROVE 是一套可复用的个人判断框架，而不是组织级采购决策工具，设计师可以直接拿来用，下次收到「我们要接入 XX AI 工具」时有据可依。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png"
+      },
+      {
+        "title": "Dogfooding 有天花板：自己用自己的产品不能替代用户研究",
+        "summary": "NN/g 这篇文章拆解了三件常被混淆的事：QA 测试（系统是否按预期工作）、用户研究（用户体验是否符合真实需求）、Dogfooding（内部使用压测），并说明为什么三者缺一不可，却又各自有边界。核心论点是：你的团队知道太多了，无法代表真实用户。AI 产品时代，很多团队把 dogfooding 当成用户测试的替代品，这个误解在快速迭代中非常危险——你们对产品的熟悉程度、容错能力、使用路径，和真实用户完全不同。文章还批评了大量「表演性 dogfooding」——CEO 发视频吃自家汉堡，员工假装是用户，本质是营销，不是质量控制。",
+        "url": "https://www.nngroup.com/articles/dogfooding/",
+        "source": "Nielsen Norman Group",
+        "why": "在推进 AI 产品时，很多团队会把「大家内部都用过了」当成 UX 验证的依据。这篇帮你说清楚这个逻辑的具体漏洞在哪，适合在设计评审或研究提案时引用——尤其是说服 PM/stakeholder 为什么还需要真实用研。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Dogfooding1.png"
+      },
+      {
+        "title": "《星际迷航》猜错了什么：科幻 AI 和现实 AI 哪里分叉",
+        "summary": "UX Collective 这篇文章用星际迷航的 AI 想象做镜子，照出现实 AI 发展路径的反转。Trek 认为流利的语言和情感表达是 AI 最难攻克的山顶，结果现实是：LLM 把这件事变成了最基础的起手式；而 Trek 觉得「理所当然」的事——可靠的多步推理、知道自己不知道、在物理世界操作——恰恰才是真正的难题。另一个对比：Trek 的飞船电脑从不主动搭话、从不奉承、不确定就说不确定；现实的 AI 产品则相反——2026 年 Science 研究发现主流模型普遍存在讨好行为，而人们反而觉得讨好的模型更可信。文章还提到：Trek 预设的是「一个宝贵的机器人」，现实是「软件可以无限复制，数十亿个同时跑」。",
+        "url": "https://uxdesign.cc/what-star-trek-got-wrong-about-ai-so-far-a60029fa1f1c",
+        "source": "UX Collective",
+        "why": "设计师和 PM 经常拿科幻作品建立 AI 产品的直觉模型，但这个参考系本身就是偏的。这篇帮你校准：哪些「AI 应该怎样」的预期来自戏剧逻辑，哪些才来自技术现实。对做 AI 产品交互设计特别有参考价值。",
+        "type": "analysis"
+      }
+    ]
+  },
+  {
     "date": "2026-08-07",
     "items": [
       {
