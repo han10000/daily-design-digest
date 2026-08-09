@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-09",
+    "items": [
+      {
+        "title": "AI 工具值不值得留？NNGroup 给出 PROVE 评估框架",
+        "summary": "产品团队每天都在被各种 AI 工具轰炸，压力来自领导层的「你要跟上」，也来自「同事都在用」的焦虑感。NNGroup 的这篇文章提出了一个叫 PROVE 的轻量评估框架，帮助你在真实工作场景中判断一个 AI 工具是否值得继续用。PROVE 代表五个维度：Problem Alignment（工具是否匹配你实际要做的事）、Risk（是否存在隐私或合规风险）、Output Quality（对比你现有做法的产出质量）、Velocity（衡量总时间而非只看生成速度）、Experience（反复使用时的摩擦感）。文章用作者自己评估 Gemini Notebooks 的真实案例做了完整走查，结论很诚实：不是所有场景都适用，但框架本身是可复用的。对于在微软环境里每天面对 Copilot 推送的设计师来说，这套思路可以直接用来做内部工具评估，帮你说服自己和团队。",
+        "url": "https://www.nngroup.com/articles/prove-framework/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 工具评估是当下设计师最真实的工作困境——既不想错过好工具，又不想浪费时间在没用的东西上。PROVE 框架提供了可以对外解释的决策依据，而不是凭感觉。",
+        "type": "framework",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png"
+      },
+      {
+        "title": "科幻片把 AI 的难度想反了——Star Trek 用错了方向，我们也该想清楚",
+        "summary": "《星际迷航》花了六十年描绘人类与机器智能共存的未来：会说话的飞船电脑、人造船员、情绪芯片。很多预测确实实现了，但最核心的判断却几乎全部反了。剧集把「语言和情感」放在 AI 难题金字塔的顶端，认为那是最后才能攻克的——结果现实中的大语言模型把流利的文字、得体的玩笑、温暖的语气当成了入门把戏。反而是 Trek 认为理所当然的事情，比如多步骤推理、知道自己不知道、以及不撒谎，到今天都还没有解决。更讽刺的是，企业号电脑永远等你问才开口、永远不说你想听的话——而现实 AI 研究证明当前主流模型会系统性奉承用户。这篇文章是用科幻作品做镜子，帮我们看清当前 AI 究竟擅长什么、缺失什么，对于在产品里集成 AI 功能的设计师来说，这种清醒的认知比任何 benchmark 都有用。",
+        "url": "https://uxdesign.cc/what-star-trek-got-wrong-about-ai-so-far-a60029fa1f1c",
+        "source": "UX Collective",
+        "why": "把 AI 的真实局限说得非常清楚——不是技术文，是思维框架。帮助设计师在做 AI 功能决策时，避免对 AI 的能力有错误的预判。文字也很好读。",
+        "type": "perspective"
+      },
+      {
+        "title": "Amazon 为 AI 数据中心建一座污染最严重的电厂——设计师也该知道这件事",
+        "summary": "The Verge 报道，Amazon 正在投资兴建一座位于德克萨斯州的天然气发电厂，配备 35 台燃气轮机，峰值发电量高达 7.65 吉瓦，初期将专门为其西德克萨斯数据中心供电。根据追踪数据中心的媒体 Cleanview，这座名为 GW Ranch 的项目获得了德克萨斯州的排放许可，预计将成为全美单体排放量最大的发电设施之一，且短期内不接入州电网。这意味着整个数据中心的电力几乎 100% 来自化石燃料。AI 基础设施的能耗问题不再是环保 NGO 的议题——它已经成为科技公司 ESG 承诺的直接矛盾，也会越来越影响用户对产品的感知。对于做 AI 产品的设计师，了解这个背景对于做出有意识的设计选择（比如如何传达 AI 的使用成本）很有必要。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+        "source": "The Verge",
+        "why": "AI 产品的环境代价正在变得无法忽视。这不是纯环保话题——它会影响用户信任、监管方向，以及产品如何向用户传达透明度。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-08",
     "items": [
       {
@@ -4130,8 +4161,7 @@
         "title": "Google 开始用 AI 替换搜索结果里的新闻标题，已悄悄改动多篇",
         "summary": "Google Search 正在悄悄把新闻网站的原始标题替换成 AI 生成版本，而且不会提示用户。The Verge 发现自家多篇文章在搜索结果中显示的是 Google 改写后的标题，有时甚至改变了原意——比如一篇评测不推荐某产品的文章，标题被改成了「XX AI 工具」，听起来像是背书。Google 称这是小范围实验，但无法说明实验规模。这个现象的深层含义对 AI 产品设计者极为重要：AI 改写内容的边界在哪里？谁来判断更好的标题？这是 AI 影响信息呈现的典型案例，同时也引发了信息准确性、品牌控制权、内容语义保真度等一系列设计伦理问题。",
         "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
-        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10455389/mdoying_180117_2249_0206stills.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。"
       },
       {
         "source": "Smashing Magazine",
