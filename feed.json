@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-11",
+    "items": [
+      {
+        "title": "聊天框不是 AI 的正确界面",
+        "summary": "设计师兼语言学研究者 Maxim Kich 在这篇文章里提出了一个核心观点：我们把越来越聪明的 AI 锁进了一个 2015 年风格的聊天气泡里，这是一个严重的界面错配问题。AI 可以跨话题追踪逻辑、挑战假设、帮你表达模糊的想法，但这些能力全部被对话框的线性滚动所压垮——你最重要的想法淹没在 tool call 和各种 \"太棒了！\" 的回应之间。作者认为，chat 作为界面是对「语言」这一媒介的过度简化，AI agent 需要全新的交互范式，而不是更长的滚动条。对于正在设计 AI 产品的 designer 而言，这篇文章提供了一个反省框架：我们是在套用旧 UI，还是在真正设计新的信息结构？",
+        "url": "https://uxdesign.cc/chat-is-the-wrong-interface-for-ai-de14d352de1b",
+        "source": "UX Collective",
+        "why": "直击 AI 产品设计的核心痛点——界面范式滞后于能力进化。对任何在做 AI-first 产品的设计师来说，这个问题比大多数 UI 优化更值得优先思考。",
+        "type": "essay"
+      },
+      {
+        "title": "NNGroup PROVE 框架：怎么判断一个 AI 工具值不值得留",
+        "summary": "NN/G 研究员 Caleb Sponheim 发布了一套叫「PROVE」的轻量级 AI 工具评估框架，专门解决团队在「被迫上 AI 工具」压力下的决策困境。框架五个维度：P（Problem Alignment，先确认任务匹配度）、R（Risk，确认数据安全合规可用）、O（Output Quality，用真实工作做基准对比，不用 demo 用例）、V（Velocity，测量总耗时而非生成速度）、E（Experience，量化会反复出现的摩擦点）。最终输出一个可以对外解释的「provisional decision」，而不是凭感觉上线工具。这个框架对需要向团队或管理层汇报 AI 工具采购决策的 designer 非常实用，提供了清晰的结构和话语逻辑。",
+        "url": "https://www.nngroup.com/articles/prove-framework/",
+        "source": "Nielsen Norman Group",
+        "why": "AI 工具泛滥时代，「如何理性决策用什么工具」比「用什么工具更好」更紧迫。PROVE 框架提供了可落地、可向上汇报的评估结构。",
+        "type": "framework",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png"
+      },
+      {
+        "title": "Meta 发布 Muse Glimmer：本地运行的多模态 Agent 模型",
+        "summary": "Meta 开源了 Muse Glimmer，一个从 Muse 蒸馏到 30B 参数、专门为本地 agentic 场景优化的多模态模型，Apache 2.0 许可。它在通用 agent 任务（GAIA、SWE-Bench 等）上的表现超越了同量级的 Gemma4-31B，并在 ScreenSpot Pro（截图 UI 定位）等多模态 benchmark 上保持竞争力。发布当日即获 Hugging Face 全生态支持（transformers、llama.cpp、vLLM 等）。它的定位是「privacy-aware personal assistant / coding agent」——在本地跑完整的 agent 流，不走云端。对于在意数据隐私、想把 AI 集成进本地工具链的设计团队而言，这是目前最强的本地可选项之一。",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "source": "Hugging Face Blog",
+        "why": "本地多模态 agent 模型的能力拐点——30B 参数能跑 UI 感知任务，意味着设计工具的本地 AI 集成路径变得更可行。值得关注趋势走向。",
+        "type": "release",
+        "image": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-10",
     "items": [
       {
@@ -1282,8 +1313,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
         "source": "The Verge",
         "why": "AI 隐私设计的极端案例。用户对 AI 对话「私密性」的心理预期 vs 实际数据留存——这个认知差距是产品设计者需要主动解决的伦理问题，不能等法律逼着来。",
-        "type": "ai-ethics",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0%2C9.1603455154706%2C100%2C81.679308969059&w=1200"
+        "type": "ai-ethics"
       }
     ]
   },
