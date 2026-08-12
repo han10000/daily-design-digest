@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-12",
+    "items": [
+      {
+        "title": "星战比星际迷航更早预言了 AI 的真实形态",
+        "summary": "文章通过对比《星球大战》和《星际迷航》中 AI 的呈现方式，提出了一个反直觉的洞察：星战中随处可见、廉价专用、被当家电对待的机器人（droids），才是更接近 AI 今天真实形态的预言。文章援引麦肯锡数据（88% 的组织已在至少一个业务场景中使用 AI）和 HuggingFace 上 186 万个专用小模型的研究，论证「AI 扩散」而非「AI 集中」正在发生。对设计师的启示：用户已经不再觉得 AI 神奇，它正在成为基础设施。设计的方向应该是让 AI 消失在背景里，而不是炫技于前台。这篇文章用文化隐喻解构了技术趋势，读起来轻松但思考密度很高。",
+        "url": "https://uxdesign.cc/what-star-wars-got-right-about-ai-6404ae7c2e62",
+        "source": "UX Collective",
+        "why": "用 Star Wars vs Star Trek 的框架解析 AI 扩散趋势，视角新颖，对「设计该如何回应 AI 变成基础设施」这个问题有实质启发。适合在 AI 讨论陷入「通用 AGI」叙事时拉回现实。",
+        "type": "perspective"
+      },
+      {
+        "title": "ChatGPT 和 Gemini 同时突破 10 亿月活：AI 从工具变成了基础设施",
+        "summary": "OpenAI CEO Sam Altman 和 Google CEO Sundar Pichai 同日宣布：ChatGPT 和 Gemini 月活跃用户均突破 10 亿。Gemini 是 Google 史上增速最快的产品，ChatGPT 在此之前已先行达成这一里程碑。10 亿这个数字的意义不只是规模，而是意味着这两个产品已经从「特定人群在用的 AI 工具」变成了接近「互联网基础设施」量级的存在。对 Product Designer 来说，这意味着用户对 AI 交互范式的熟悉程度正在快速提升，「AI 功能的新鲜感溢价」窗口期正在关闭，下一阶段的竞争将更多回归到产品本质：你比默认答案好在哪里？",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+        "source": "The Verge",
+        "why": "行业里程碑事件，直接改变设计假设——用户的 AI 使用心智模型已经在快速成熟，「教用户用 AI」的时代结束了，「如何在 AI 普及后脱颖而出」的设计课题才刚开始。",
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/gemini-live-ai-ad.png?quality=90&strip=all&crop=0%2C2.0352385861162%2C100%2C95.929522827768&w=1200"
+      },
+      {
+        "title": "不用物理引擎也能做出真实触感交互：Lottie 精确帧控的实战拆解",
+        "summary": "Isadora Agency 在构建一款「数字解压玩具」网页时，最初考虑了 Matter.js 等物理引擎，但最终选择完全放弃，改用 Lottie 的精确帧控 API + DOM 事件 + 距离数学来实现触感反馈。核心洞察：物理引擎产生「合理的随机运动」，但设计师做的动画是「有意图的精确运动」，两者不兼容。通过 programmatic Lottie state control，开发者可以做到点击后的 181 帧精确构建-释放序列。文章详细拆解了架构选型、Lottie 状态机设计、以及如何用距离计算做 hit detection。对于做过 interaction design 的设计师来说，这篇文章让技术实现层的「为什么」变得透明，有助于在与开发协作时做出更有根据的设计决策。",
+        "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+        "source": "Smashing Magazine",
+        "why": "把「intentional motion vs physics simulation」这个设计-开发协作的核心矛盾讲清楚了。做过精细 interaction design 的设计师会有强烈共鸣，对理解 motion design 的技术边界有直接帮助。",
+        "type": "technical-craft",
+        "image": "https://files.smashing.media/articles/building-tactile-ux-honoring-intentional-design-lottie/building-tactile-ux-honoring-intentional-design-lottie.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-11",
     "items": [
       {
@@ -1313,7 +1344,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
         "source": "The Verge",
         "why": "AI 隐私设计的极端案例。用户对 AI 对话「私密性」的心理预期 vs 实际数据留存——这个认知差距是产品设计者需要主动解决的伦理问题，不能等法律逼着来。",
-        "type": "ai-ethics"
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0%2C9.1603455154706%2C100%2C81.679308969059&w=1200"
       }
     ]
   },
