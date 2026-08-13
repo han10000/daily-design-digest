@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-13",
+    "items": [
+      {
+        "title": "别再被 AI 工具压着跑——NNGroup 的 PROVE 框架帮你拿回评估主权",
+        "summary": "NNGroup 提出了一个轻量评估框架 PROVE（Problem Alignment、Risk、Output Quality、Velocity、Experience），专门解决「被迫用 AI 工具、但不知道它到底有没有用」的困境。框架的核心逻辑是：先定义一个真实、反复出现的具体任务，再用这把尺子量工具——而不是反过来被工具演示驱动。文章用 Google Gemini Notebooks 评估一个每周 Slack 摘要任务做了全程示范：从「这个任务和工具能力匹配吗」到「比我原来的方式产出更好吗」到「总耗时（包括校对修改）是否真的更快」，每一维度都给出了可操作的判断方法。特别有价值的是 Velocity 那章——很多人只算生成时间，忽略了验证和修改的成本，导致高估了 AI 带来的效率。对于在微软每天要决定「这个 AI 功能要不要用」的设计师来说，这个框架可以直接变成团队 decision log 的模板。",
+        "url": "https://www.nngroup.com/articles/prove-framework/",
+        "source": "Nielsen Norman Group",
+        "why": "在 AI 工具泛滥的当下，最缺的不是「哪个工具好用」的推荐，而是一套自己能跑通的评估流程。PROVE 框架可以直接用，也可以用来和团队对齐 AI 工具引入的标准——这是设计师现在最需要的生产力判断力。",
+        "type": "框架 / 方法论",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png"
+      },
+      {
+        "title": "「人人都能设计」这句话回来了——这次设计师手里有主动权",
+        "summary": "UX Collective 的 Kai Wong 重新拾起这句设计师曾经最头疼的话——「Everyone can design」——指出 AI 时代它的含义已经反转。过去这句话意味着设计师被边缘化：产品经理、工程师都能绕过设计直接输出界面。现在，AI 让设计师自己可以不等排队、不靠工程师，直接把想法变成可交互的原型或落地的代码。文章论证的核心是：当生产成本趋近于零，设计师的判断力和品味反而成为了唯一的稀缺资源。那些懂得用 AI 工具扩大自己决策半径的设计师，正在打破「设计只负责出图」的旧边界——他们在写 spec 的同时能跑出三个方向的 prototype，在做竞品分析的同时能生成可以 user test 的版本。这不是工具技巧，是设计师重新定义自己工作边界的机会窗口。",
+        "url": "https://uxdesign.cc/designs-dreaded-phrase-is-coming-back-this-time-we-re-in-control-ab0c6996dc1e",
+        "source": "UX Collective",
+        "why": "叉叉在微软做设计，每天都在跟「设计权威被稀释」的感受作斗争。这篇文章给了一个更有力的框架：不是防守，而是反攻——用 AI 把自己的影响半径扩大到设计之外。",
+        "type": "观点 / 职业视角"
+      },
+      {
+        "title": "Meta 发布 Muse Glimmer：30B 本地多模态 Agent 模型，Apache 2.0 开源",
+        "summary": "Meta 推出了 Muse Glimmer，一个从旗舰 Muse 模型蒸馏而来的 30B 参数多模态 Agent 模型，采用 Apache 2.0 协议完全开源。这个模型的定位非常清晰：专为本地部署的隐私敏感场景设计，覆盖 coding、文档分析、个人 AI 助手等任务。架构上由 2B 参数的视觉编码器加 28B 参数的文字解码器组成，并内置了投机解码加速模块，结构化生成（比如代码）速度尤其快。Benchmark 上 Muse Glimmer 在通用 Agent 任务（MCP Atlas、DeepSearch QA）和 coding（SWE-Bench Verified 76%）方面显著领先同尺寸模型，且在安全性测试中表现相对可控。对设计师而言，最大的意义在于：本地跑一个能看图、能写代码、能理解文档的 30B 模型，已经是现实——这意味着构建不依赖云端 API 的私有设计 workflow 的门槛大幅降低。",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "source": "Hugging Face Blog",
+        "why": "AI 工具的下一个战场是本地化和隐私。Muse Glimmer 意味着一个能看懂截图、分析设计稿、跑 agent 任务的模型可以跑在你自己的机器上——不需要把设计文件发给任何云端。这对在大公司做设计、有数据合规顾虑的叉叉来说，是一个值得提前了解的方向。",
+        "type": "AI 模型 / 工具动态",
+        "image": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-12",
     "items": [
       {
@@ -4696,7 +4727,7 @@
         "url": "https://will-keleher.com/posts/this-css-makes-me-human/",
         "why": "AI 写作工具的 UX 设计必须解决 authorship 问题——用户不只要好内容，还要感觉「这是我写的」，否则会被抵制",
         "publishedAt": "2026-03-06",
-        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_a2d7b00b9482471.webp"
+        "image": "https://will-keleher.com/posts/this-css-makes-me-human/preview_hu_e6cb19d1a0c7019d.webp"
       },
       {
         "source": "UX Collective",
