@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-08-14",
+    "items": [
+      {
+        "title": "NNGroup PROVE 框架：用五步判断一个 AI 工具值不值得留",
+        "summary": "NNGroup 推出轻量级评估框架 PROVE，解决团队被迫快速采购 AI 工具却没有判断标准的困境。五个维度分别是 Problem Alignment（任务匹配度）、Risk（合规与数据风险）、Output Quality（对比自己原有产出质量）、Velocity（真实总耗时，不只是生成速度）、Experience（长期摩擦感）。文章用作者整理 Slack 内容摘要的真实场景演示如何用 Gemini Notebooks 过一遍这五步，给出可向领导解释的决定。对设计师最实用的一点是：不是好不好用，而是跟自己现在的工作流相比，这个工具的输出是否更好——这个标准才是真正有用的基线。",
+        "url": "https://www.nngroup.com/articles/prove-framework/",
+        "source": "Nielsen Norman Group",
+        "why": "设计师每周都面对新 AI 工具压力，这个框架把要不要用变成可操作的五步决策，直接可以复用到日常工作流评估里。",
+        "type": "framework",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/How_to_Decide_When_an_AI_Tool_Is_Worth_Keeping_1.png"
+      },
+      {
+        "title": "EU AI 标注新规：哪些内容必须贴 AI 标签，设计师需要知道的一切",
+        "summary": "从 2026 年 8 月 2 日起，任何面向欧盟用户的产品都需要遵守 AI 标注规定。Smashing Magazine 把 AI Act 第 50 条拆解清楚：必须标注的是深度伪造、聊天机器人（用户必须知道自己在和 AI 说话）、未经人工审阅的 AI 全文且涉及公共利益议题，以及情绪识别系统。绝大多数 AI 辅助内容只要有人工审阅和署名是不需要标注的。文章还指出 sparkle 图标不算合规标注。对做 AI 产品的设计师来说这是一篇必读的合规普及文，能直接影响产品里的 UI copy、披露设计和 onboarding 流程怎么写。",
+        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+        "source": "Smashing Magazine",
+        "why": "直接影响 AI 产品设计决策，哪里必须告知用户是 AI，哪里不需要，是做任何 AI 功能都绕不开的合规背景知识。",
+        "type": "regulation",
+        "image": "https://files.smashing.media/articles/eu-guidelines-ai-labelling/eu-guidelines-ai-labelling.jpg"
+      },
+      {
+        "title": "Meta 开源 Muse Glimmer：本地运行、原生 Agent、30B 多模态大模型",
+        "summary": "Meta 发布专为本地 Agent 场景设计的 30B 多模态模型 Muse Glimmer，Apache 2.0 授权，从更大的 Muse 模型蒸馏而来，包含 2B 视觉编码器加 28B 文本解码器，支持 transformers、llama.cpp、vLLM 等主流推理框架，当天就能部署。在 MCP Atlas、OSWorld、SWE-Bench Verified 等 Agent 基准上均超过 Gemma4-31B，SWE-Bench Verified 达到 76.0。官方定位是隐私敏感场景的本地 AI，包括代码助手、文档分析、个人助理等工作流。对设计师来说这意味着可以在本地跑一个真正懂图片能操作界面的 AI Agent，不用把设计资产上传到第三方云端。",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "source": "Hugging Face Blog",
+        "why": "本地多模态 Agent 能力开始平权，不依赖云端就能做到截图理解、界面操作、文档分析，对在意数据隐私的设计师工作流有直接影响。",
+        "type": "model-release",
+        "image": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-13",
     "items": [
       {
