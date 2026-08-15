@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-15",
+    "items": [
+      {
+        "title": "AI 帮你开头，但「做对」这件事还得你来",
+        "summary": "作者在 AI 产品领域深耕三年，总结出一个刺眼的规律：AI 最擅长的是「开始」——消灭空白页焦虑、快速生成草稿——但「从草稿到正确」这一段，验证负担并没有减轻，甚至变重了。文章举了一个具体案例：把四张预算截图交给 AI 分析，结果模型凭空编造了两个数字，给出偏差 30-40% 的建议，被追问时还继续辩解而不认错。斯坦福 2026 AI 指数显示，26 个顶级模型的幻觉率在 22%-94% 之间。作者认为，随着期望「AI 加持=更快交付」的压力越来越大，实际检查 AI 输出的人却越来越少，「slop」正在悄悄积累。对 Product Designer 的启示：设计 AI 产品时，验证流程和 trust calibration 比「开始有多快」更重要。",
+        "url": "https://uxdesign.cc/getting-started-is-not-getting-it-right-e76270614d14",
+        "source": "UX Collective",
+        "why": "直接戳穿「AI 越来越好」叙事的内部视角，有具体数据和真实案例，对在 AI 产品里设计信任与验证体验的设计师极有参考价值",
+        "type": "essay"
+      },
+      {
+        "title": "一次 AI 输出只是一个样本，不是评估结论",
+        "summary": "NNGroup 的 Raluca Budiu 从方法论层面指出一个被广泛忽视的盲点：AI 系统是非确定性的，同样的输入可能产生截然不同的输出。可很多团队还在沿用「跑一次、看结果、下结论」的确定性软件思维评估 AI。一个 AI 客服系统被问同一个问题可能一次答对、一次漏掉例外、一次给出错误承诺——哪一次才代表这个系统？文章指出正确做法是：用多组代表性输入、多次重复运行、加置信区间来评估。这对做 AI 功能设计的设计师尤其重要——你所看到的那次 demo 效果，可能是最好的一次，也可能是最差的一次。",
+        "url": "https://www.nngroup.com/articles/eval-ai-output/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 从用户研究方法论切入 AI 评估盲区，把软件测试思维与 AI 概率性本质的冲突说清楚了，是设计师在规划 AI 功能验收标准时绕不过去的认知基础",
+        "type": "article",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/One_AI_Output1_2JVhrNe.png"
+      },
+      {
+        "title": "开源模型夏季盘点：2026 年谁在领跑，格局如何变",
+        "summary": "Hugging Face 发布「State of Open Models: Summer 2026」，系统梳理了过去半年开源大模型领域的关键趋势。涵盖：多模态模型的快速成熟（视觉+语言+语音融合加速）、小模型在边缘设备上的性能突破（LFM2.5-VL-3B 等）、机器人学习数据飞轮（LeRobot + 数据存储桶的一体化）、以及 ICML 2026 论文复现结果揭示的「可重现性危机」。对产品设计师的价值在于：了解 AI 能力边界的最新移动，有助于判断哪些交互模式在今天可行、哪些还需要等待模型能力跟上。",
+        "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "source": "Hugging Face Blog",
+        "why": "半年一次的开源模型全景总结，了解 AI 能力现状的必读，帮助设计师校准「什么能做、什么不能做」的认知基线",
+        "type": "roundup",
+        "image": "https://huggingface.co/blog/assets/state-of-open-models-summer-2026/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "items": [
       {
