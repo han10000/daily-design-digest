@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-17",
+    "items": [
+      {
+        "title": "无障碍设计其实你已经会了——只是叫法不同",
+        "summary": "WebAIM 2026 年报告扫描了全球前 100 万网站首页，发现 95.9% 存在无障碍问题，平均每页 56 个可检测障碍，且数字比去年还上升了——逆转了连续六年的缓慢改善趋势。作者 Hope Turner 的核心论点是：无障碍标准并不是「额外加上去的合规任务」，它们本质上是设计基本功的法律化语言。对比度不足、缺少 alt text、表单无标签、按钮没有描述……这些 WCAG 里最常见的失败项，恰恰就是设计课第一学期就会讲的内容。文章给出了一张清晰的映射表：视觉层级 = WCAG 1.3.1，对比度 = WCAG 1.4.3，有意义的标签 = WCAG 3.3.2……让设计师直觉性理解「自己其实一直都在做无障碍设计，只是没有意识到」。对于在大公司做产品设计的人来说，这篇是极好的「说服团队重视可及性」的工具。",
+        "url": "https://uxdesign.cc/you-already-know-how-to-make-it-accessible-b29513a9b217",
+        "source": "UX Collective",
+        "why": "把无障碍设计去神秘化、去合规化，用设计师自己的语言重新阐述——这种视角转换是推动团队文化变革的最有力方式。",
+        "type": "design"
+      },
+      {
+        "title": "心理所有权：你在守护的东西，真的值得守护吗？",
+        "summary": "NNGroup 的这篇文章探讨了一个设计师普遍经历但很少被明确命名的现象：心理所有权（Psychological Ownership）。当设计师对某个原型、某份研究、某个方案投入大量时间和精力后，会产生强烈的「这是我的」感——这种感觉本身没有问题，它驱动主动性和满足感。但作者 Evan Sunwall 指出，当这种所有权依附在「自己无法控制的事情」上时，它就会变成阻碍：不愿接受反馈、不想协作、把执行偏差当作侵犯、在交接时无法放手。文章把所有权的来源拆解为三个维度——控制感、深度了解、时间投入——并建议设计师把所有权从「产出物」迁移到「过程和判断力」上：你拥有的不是那个原型，而是做出那个判断的能力。这对刚被否定过方案的设计师，以及在大团队里需要频繁交接的设计师，都是很有价值的心理工具。",
+        "url": "https://www.nngroup.com/articles/psychological-ownership/",
+        "source": "Nielsen Norman Group",
+        "why": "设计师的职业痛点，NNG 用研究语言精确命名了它。「拥有判断力，而不是拥有产出」是一句值得内化的工作哲学。",
+        "type": "career",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Psychological_Ownership1.png"
+      },
+      {
+        "title": "OpenAI 解散了安全准备团队——就在 IPO 前夕",
+        "summary": "据《金融时报》报道，OpenAI 在今年七月底悄悄解散了其内部的「Preparedness Team」（安全准备团队）。这个团队的核心职责是评估模型的潜在风险，并制定缓解方案——包括评估模型是否可能被用于生化武器、是否可能产生自主攻击行为等高风险场景。解散后，相关职责被拆分到网络安全、生物安全等垂直领域的现有团队中。时间节点颇为微妙：OpenAI 正处于史上规模最大的 IPO 前夕，同时公司内部结构正在从非营利主导向商业化全面转型。这不是孤立事件——它是 OpenAI 近两年来一系列「重商业、轻安全」动作的最新一笔，包括此前安全负责人和多名研究员相继离职。对设计师和产品人来说，这提示了一个现实：当你在用 AI 工具构建产品时，你所依赖的「安全护栏」的厚度，正在被上游悄悄调薄。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+        "source": "The Verge",
+        "why": "AI 工具日益嵌入设计和产品流程，但上游的安全结构正在松动。这是产品设计师应该知道的行业背景，不是可以忽略的科技新闻。",
+        "type": "ai",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-16",
     "items": [
       {
@@ -2571,7 +2602,8 @@
         "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
         "source": "The Verge",
         "why": "多模态 AI 正在快速进入设计工具链。这篇 hands-on 不是 hype，是务实的能力评估——帮你在「可以用 AI 生成这个」和「这个 AI 还不够稳定」之间划一条现实的线。",
-        "type": "ai-tools"
+        "type": "ai-tools",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/ai-label-19.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3495,7 +3527,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
         "source": "The Verge",
         "why": "Agentic UX 正在从概念变成产品现实。理解企业级 agent 的能力边界和工作模式，是设计 AI 产品的必要前提。",
-        "type": "tool"
+        "type": "tool",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_B.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
       },
       {
         "title": "即兴喜剧告诉我们：为什么创新总会「跑偏」",
