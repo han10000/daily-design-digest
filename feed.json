@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-08-18",
+    "items": [
+      {
+        "title": "EU AI 标注新规落地：哪些内容必须打标，哪些不必？",
+        "summary": "从 2026 年 8 月 2 日起，AI 标注正式成为欧盟法律要求——不仅针对欧盟公司，任何向欧盟用户提供服务的全球产品都须遵守。Smashing Magazine 这篇文章把 AI Act 第 50 条的义务拆解得非常清晰：必须标注的场景包括：deepfake 内容（逼真到足以被误认为真实）、聊天机器人和 AI agent（用户必须知道自己不是在和人说话）、完全由 AI 生成且未经人工审核的涉及「公共利益」的文字（健康、金融、政治等领域）。关键是「不必标注」的部分被很多人误解了——经过人工审核和编辑的 AI 内容不在强制披露范围内，闪光效果（sparkles）也不足以作为合规标注。文章还提醒，供应商和部署方都有独立法律责任，即便是外包给第三方 AI 工具也无法免责，和 GDPR 逻辑相同。对于在做 AI 产品的设计师来说，这篇是必读的合规入门。",
+        "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
+        "source": "Smashing Magazine",
+        "why": "做 AI 产品功能的设计师需要第一时间理解哪些 AI 交互必须明确告知用户，这直接影响 UX 写作、disclosure 设计和产品合规策略",
+        "type": "regulatory",
+        "image": "https://files.smashing.media/articles/eu-guidelines-ai-labelling/eu-guidelines-ai-labelling.jpg"
+      },
+      {
+        "title": "AI 输出一次成功 ≠ 系统靠谱：NNG 谈如何真正评估 AI 功能",
+        "summary": "NNGroup 这篇文章戳穿了一个普遍误区：很多团队测试 AI 功能时只跑一次看结果，就得出「可以用」或「不行」的结论。但 AI 系统是非确定性的——同一个问题问三次，可能得到三个质量迥异的回答。作者 Raluca Budiu 用 UX benchmarking 的类比讲得很透：你不会让一个用户做一次任务就评判整个产品的可用性，AI 评估同理。文章建议评估应像定量 UX 研究：用多组代表性输入、多次重复运行、计算置信区间，才能得到可信的结论。同时提醒：同样的整体分数背后可能掩盖完全不同的失败模式。对于要向团队解释「为什么 AI 功能上线前需要系统性测试」的设计师，这篇文章提供了有说服力的框架。",
+        "url": "https://www.nngroup.com/articles/eval-ai-output/",
+        "source": "Nielsen Norman Group",
+        "why": "设计师在验证 AI 功能时常犯「一次成功即合格」的错误，这篇提供了可直接向工程和 PM 解释的评估方法论",
+        "type": "methodology",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/One_AI_Output1_2JVhrNe.png"
+      },
+      {
+        "title": "Anthropic 解释 Claude 如何给文字打隐形水印",
+        "summary": "Anthropic 宣布 Claude 将采用基于 Google DeepMind SynthID-Text 方案的文字水印系统，以满足欧盟 AI Act 的透明度要求。水印原理是：在语义等价的词选择上（比如「阴天」还是「灰蒙蒙」，两者意思差不多）用加密密钥替换随机数生成器来做决策，由此在文字里留下人眼无法察觉但机器可检测的模式。Anthropic 称这不会影响 Claude 的输出质量或使用成本。值得关注的背景是：Gemini 已在 2024 年支持 SynthID-Text，OpenAI 尚未公布文字水印计划。这标志着 AI 生成内容的可溯源基础设施正在成为行业标配——未来用户可能看不见水印，但监管机构和检测工具看得见。这对 AI 产品的透明度 UX 设计有深远影响：visible disclosure 和 machine-readable provenance 可以互补而非替代。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+        "source": "The Verge",
+        "why": "AI 内容溯源即将成为设计约束——理解水印如何工作，有助于设计师在 transparency UX 上做出有依据的决策",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-17",
     "items": [
       {
@@ -2240,8 +2272,7 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "行业动态"
       }
     ]
   },
@@ -3864,8 +3895,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai",
         "source": "The Verge",
         "why": "正在用 AI 做视觉工作的设计师不能绕开这个问题：AI 在什么场合下用是合适的，在什么场合下即便技术可行也是在「偷懒」？《纽约客》的案例是一个难得的、真实的讨论样本。",
-        "type": "analysis",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268452_New_Yorker_AI_art_CVirginia3.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "analysis"
       },
       {
         "title": "设计评审正在浪费所有人的时间——除非你换一种做法",
