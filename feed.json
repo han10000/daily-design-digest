@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-20",
+    "items": [
+      {
+        "title": "AI 一直在对我们撒谎，而我们好像并不在乎",
+        "summary": "作者 Dan Maccarone 的团队正在争论一个问题：AI 产品到底该对用户展示多少「内部运作」？他们在做的产品有一个侧边面板，实时呈现 AI 的推理过程——它听到了什么、正在拉哪条线索、要往哪里走。反对者觉得太多了，用户不想看这些。作者的立场正相反：我们把 AI 设计成「永远自信」的样子，本质上是在掩盖它的猜测过程。用户没法知道哪些答案是靠谱的、哪些是瞎编的，也没法在它偏轨时及时叫停。研究者 Sunnie S. Y. Kim 的「信任校准」理论证明，让用户看到推理过程、并标注不确定性，才能让他们真正校准对 AI 的信任度——而不是盲目顺从。但 Maccarone 也承认，把整个机器头脑都倒给用户也没用，关键在于展示「用户做决策时真正需要的那部分」。这篇文章对正在做 AI 产品的设计师来说，是一个重要的设计立场提醒：黑盒 + 高置信度的 UI 风格，可能是最不诚实的设计决策。",
+        "url": "https://uxdesign.cc/ai-is-lying-to-us-and-nobody-seems-to-care-f035cd6f502f",
+        "source": "UX Collective",
+        "why": "直接击中 AI 产品设计的核心矛盾：流畅 vs 可信。作者有实际产品决策背景，论点有研究支撑，对叉叉在微软做 AI 相关设计有很强的参考价值。",
+        "type": "opinion"
+      },
+      {
+        "title": "Agent 到底需要多少记忆？IBM 的研究给出了答案",
+        "summary": "IBM Research 发布了 ALTK-Evolve 的新评测结果，横跨 8 个不同规模的模型（从 30B 到 745B MoE），专门研究「给 agent 注入自己过去经验总结（guidelines）」的效果。核心发现是：记忆不是功能开关，而是需要针对模型能力精准「剂量」的参数。强模型（如 DeepSeek-V3.2 671B）能消化完整 guideline 集，任务完成率提升 +9.5pp；中等模型（如 gpt-oss-120b 117B）用精选核心 + 每次任务检索的方式，效果更好（+16.1pp），全量反而会被淹没；而已经饱和的模型（如 GLM-5 745B）则毫无增益。这套方案不需要修改模型权重，只是把 agent 从自身历史轨迹中提炼的「可复用策略」注入 inference 上下文，成本低、可移植。对于设计 AI 产品的团队来说，这意味着「memory」不是越多越好，产品决策需要考虑底层模型的能力上限和当前任务的匹配程度。",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+        "source": "Hugging Face Blog",
+        "why": "Agent 记忆设计是 2026 年 AI 产品的高频话题，这篇从实验数据角度拆解了「多少才够」的问题，对做 AI 产品功能决策的设计师有直接参考价值。",
+        "type": "research",
+        "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/j-n1Au9SJ2-RGkT9i98u4.jpeg"
+      },
+      {
+        "title": "OpenAI 踩了刹车，接下来呢？",
+        "summary": "面对即将到来的 IPO、Anthropic 的激烈竞争、以及来自中国和开源模型的压力，OpenAI 做了一个反直觉的决定：放慢部分 AI 开发节奏。公司宣布暂停某些系统的推进两周，同时收紧安全流程和内部保障机制。这一举动背后是监管压力、公众信任危机与商业利益之间的多方角力。对于做 AI 产品的设计师来说，这是一个值得关注的信号：头部玩家正在从「速度优先」转向「可信赖性优先」，这个转变会对产品设计的取向产生影响——用户越来越需要能感知 AI「知道自己边界在哪里」的产品体验，而不只是「永远能回答」的系统。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+        "source": "The Verge",
+        "why": "行业风向标。OpenAI 减速这件事背后的逻辑与第一条「AI 诚实性」形成呼应——市场正在从性能竞赛转向可信度竞赛，叉叉做的产品设计方向与此高度相关。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK201_SAM_ALTMAN_CVIRGINIA2C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "items": [
       {
