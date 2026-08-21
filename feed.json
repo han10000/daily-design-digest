@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-21",
+    "items": [
+      {
+        "title": "《黑客帝国》对 AI 的五个误判",
+        "summary": "文章从 2026 年的视角重新审视《黑客帝国》对 AI 的想象，发现现实与科幻大相径庭。电影预设 AI 会以「入侵」方式夺取控制权，而真实发生的是一场邀请式的渐进接管——一个 copilot、一个 summarizer，用户一次次主动点了「yes」。McKinsey 数据显示 88% 的组织已在使用 AI，ChatGPT 周活跃用户超 9 亿，这种规模的渗透靠的是便利性而非强制。文章还指出另一个电影误判：Matrix 的恐惧在于「隐藏的世界」，而今天的 AI 界面反而极度透明，甚至过度解释自己。真正的风险不是机器太不透明，而是助手太顺滑、用户停止质疑。对于 Product Designer 来说，这篇文章提醒我们：设计 AI 产品时，「你把什么决策权交出去了」远比「系统能不能做到」更值得追问。",
+        "url": "https://uxdesign.cc/what-the-matrix-got-wrong-about-ai-so-far-c35f8e7f091c",
+        "source": "UX Collective",
+        "why": "从文化批评切入 AI 产品设计哲学，视角新鲜。帮助设计师跳出「AI 功能清单」思维，问自己在交出什么控制权——这是 agent 时代最核心的设计伦理问题。",
+        "type": "观点"
+      },
+      {
+        "title": "AI 一次输出正确不等于系统可靠——如何真正评估 AI 功能",
+        "summary": "NNGroup 这篇文章击中了很多团队的盲区：用确定性软件的思维去评估 AI 系统。传统软件「测一次能跑就一直能跑」，但 AI 是非确定性系统，同一问题可能产生截然不同的答案——有时准确，有时遗漏关键异常，有时自信地给出错误承诺。作者 Raluca Budiu 指出，正确的评估方式需要多样代表性输入、多次重复运行、以及置信区间，而不是抽一次样就下结论。这对 designer 和 PM 意义重大：当你在做 AI 功能的用研测试、汇报给老板「AI 帮用户完成了任务」时，你看到的只是一个例子，不是评估。这篇文章给了一个清晰的方法论框架，帮助团队建立更诚实的 AI 产品质量标准。",
+        "url": "https://www.nngroup.com/articles/eval-ai-output/",
+        "source": "Nielsen Norman Group",
+        "why": "直接影响设计决策质量。很多团队在用错误的方式验证 AI 功能是否「有效」，NNGroup 用严谨但可执行的框架纠正这个认知偏差。",
+        "type": "研究",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/One_AI_Output1_2JVhrNe.png"
+      },
+      {
+        "title": "用 Timing Chart 驯服 SMIL 动画的混乱",
+        "summary": "SMIL（SVG 内置动画语言）长期被忽视，但它有一个 CSS/JS 做不到的独特优势：可以在 img 标签内运行，不需要 JavaScript。Smashing Magazine 这篇文章介绍了一种叫「timing chart」的规划工具——本质上是一张时间轴表格，把每个 SVG 元素、每个需要动画的属性、以及对应的时间段列出来，再为每个 SMIL 标签生成描述性 ID。这解决了 SMIL 最大的工程问题：每个属性需要单独一个标签，复杂动画会迅速变成无法维护的 XML 堆。对于做过 Lottie 或 Rive 的 designer 来说，这是一个轻量替代方案，特别适合需要嵌入 Markdown 或受限环境的 SVG 动画场景（比如 GitHub README、邮件客户端）。",
+        "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
+        "source": "Smashing Magazine",
+        "why": "实战工具向。设计师做 SVG 动画原型时常遇到「JS 被禁」的环境限制，SMIL + timing chart 是一个被低估的解法。看完可以直接用。",
+        "type": "技术",
+        "image": "https:null"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "items": [
       {
@@ -3906,8 +3937,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/911267/ai-influencers-coachella",
         "source": "The Verge",
         "why": "不只是新闻，是「在充斥 AI 生成内容的平台上设计真实感和信任感」这个 UX 命题的一批真实案例——Coachella 只是入口，背后是每个内容平台都要面对的设计挑战。",
-        "type": "report",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ai-label-10.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
+        "type": "report"
       }
     ]
   },
