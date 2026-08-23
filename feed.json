@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-23",
+    "items": [
+      {
+        "title": "AI 生成图像与真实摄影的信任感差异：NNGroup 实证研究",
+        "summary": "NNGroup 招募 77 名参与者，对比了 AI 生成图像与真实摄影在企业网站上的感知差异。研究结果出乎意料：当用户不知道图像来源时，AI 图像并不会降低对公司的信任感、专业度或真实感——甚至有些 AI 图像在评分上略高于真实图片。但研究也发现了重要细节：文化和性别代表性会影响感知，而一旦用户察觉到某张图是 AI 生成的，态度会有所转变。这项研究为设计师在实际项目中使用 AI 图像提供了数据支撑，同时也提醒我们：「AI 图像」本身不是问题，质量与多元呈现才是决定因素。",
+        "url": "https://www.nngroup.com/articles/ai-generated-images/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 的实证研究，直接回答「用 AI 图会不会让用户觉得不专业」这个设计师每天都在纠结的问题。有数据，有结论，可以直接影响决策。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/AI-Generated_Images_1.png"
+      },
+      {
+        "title": "《黑客帝国》对 AI 的预判哪里错了——2026 年的五个反转",
+        "summary": "UX Collective 的这篇文章拿《黑客帝国》的叙事框架来解剖现实 AI 的走向，论证方向相当犀利。作者列出五个反转：AI 不是入侵，是被邀请进来的；AI 不是隐形幕后黑手，而是公开展示自己的能力；控制权不是被抢走的，是我们一点点交出去的。文章把「温水煮青蛙式」的 AI 渗透说得很清楚——不是战争，是一百个小小的「好的」。这种视角对做 AI 产品的设计师特别有用：你设计的每一个「是的，继续」交互，都是这个交接链条的一环。文章引用了 McKinsey 2025 年数据：88% 的企业至少在一个业务场景中使用 AI，而 ChatGPT 每周活跃用户已超过 9 亿。",
+        "url": "https://uxdesign.cc/what-the-matrix-got-wrong-about-ai-so-far-c35f8e7f091c",
+        "source": "UX Collective",
+        "why": "不是空泛的 AI 焦虑文章，而是用具体框架拆解「控制权交接」的设计责任。做 AI 产品的设计师读完会对每个授权交互设计有新的警觉。",
+        "type": "essay"
+      },
+      {
+        "title": "LinkedIn 的「AI 水文举报按钮」已被点击超过 100 万次",
+        "summary": "LinkedIn 于 7 月 30 日上线了「Seems like AI slop」（感觉像 AI 水文）标记功能，短短不到一个月就被超过 100 万人使用。这一现象背后有个数据背景：AI 检测工具 Pangram 发现 LinkedIn 长文帖中 41% 被判定为全 AI 生成。作为回应，LinkedIn 同时更新了分类器并下线了一个原本「鼓励」AI 内容的功能。这个案例对 Product Designer 有两层意义：一是用户自发地在区分「真人内容」和「AI 批量生产内容」，信任信号成为新的 UX 考量；二是平台开始用社区举报机制来维护内容质量，这种「人工智能 + 人工举报」的混合模式本身就是一个值得研究的设计模式。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+        "source": "The Verge",
+        "why": "100 万次点击不是小数字，说明用户对 AI 内容的真实厌倦度远高于平台数据呈现的。做内容产品的设计师必须把「内容来源可信度」纳入体验设计。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/1785424232227.jpeg?quality=90&strip=all&crop=0,13.767459555427,100,72.465080889147"
+      }
+    ]
+  },
+  {
     "date": "2026-08-22",
     "items": [
       {
@@ -1342,8 +1373,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
         "source": "The Verge",
         "why": "这不只是一次模型更新——是 AI 对话 UX 的范式调整。「何时说、何时听、何时等」是语音产品最难设计的部分，OpenAI 用工程手段直接解了这个交互难题，值得做 AI 产品的设计师细读。",
-        "type": "产品动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/chatgpt-voice-upgrade.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        "type": "产品动态"
       },
       {
         "title": "给 AI Agent 喂什么数据？NVIDIA 开放训练数据集背后的逻辑",
@@ -1536,8 +1566,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
         "source": "The Verge",
         "why": "AI 行业政治生态正在快速变化，这类宏观动向会影响大公司 AI 产品的边界和节奏，叉叉在微软做 AI 产品需要这层背景",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "行业动态"
       }
     ]
   },
@@ -1886,7 +1915,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
         "source": "The Verge",
         "why": "AI 训练数据版权问题终于有了可搜索的公开证据库。作为设计师，这直接影响你在 AI 产品中如何设计「内容来源」透明度、版权声明和用户授权流程——这不只是律师的问题，是产品设计问题。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK467_AI_MUSIC_CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "AI 研究 Agent 会悄悄泄漏你的机密——不是通过答案，而是通过它发出的每一个搜索请求",
@@ -2203,8 +2233,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
         "source": "The Verge AI",
         "why": "Anthropic 的新模型发布 + 能力收口的产品决策案例，帮叉叉理解「AI 产品克制」这个设计选择背后的逻辑。",
-        "type": "AI 产品",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_2_A_3800fc.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "AI 产品"
       },
       {
         "title": "AI Agent 串联两个 HF Space，自己建了一个巴黎 3D 展览馆",
@@ -2333,8 +2362,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
         "source": "The Verge",
         "why": "不是批评，是一个值得仔细拆解的设计决策样本：当 AI 生成取代内容策展，信息流的设计逻辑会往哪走？Meta 走到了一个极端，值得参照思考。",
-        "type": "案例观察",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
+        "type": "案例观察"
       }
     ]
   },
@@ -2395,8 +2423,7 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "行业动态"
       }
     ]
   },
@@ -2913,8 +2940,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
         "source": "The Verge AI",
         "why": "这不是八卦，是行业背景。在微软工作的设计师尤其应该有这个视角——你的产品和 OpenAI 深度绑定，了解 AI 权力结构的现状，有助于在内部做产品决策时保持清醒。",
-        "type": "industry",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25739950/247386_Elon_Musk_Open_AI_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "industry"
       }
     ]
   },
@@ -3650,8 +3676,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
         "source": "The Verge",
         "why": "AI 与 App 集成进入新阶段，直接影响产品设计师对用户如何发现和进入 App 的底层假设——你的 App 未来的入口可能不是图标，而是 AI 对话里的一条建议。",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/anthropic-claude-personal-apps.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        "type": "news"
       },
       {
         "title": "Meta 裁员 10%：8000 人走，AI 投入不减反增",
@@ -3813,8 +3838,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
         "source": "The Verge",
         "why": "OpenAI 的战略收缩是一个反向思考的入口：如果连最炫的 demo 产品都可以被砍，产品设计师在 roadmap 里应该如何判断什么是真正值得做的？",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
+        "type": "news"
       }
     ]
   },
@@ -4081,7 +4105,8 @@
         "url": "https://www.theverge.com/tech/909391/google-gemini-ai-3d-models-simulations",
         "source": "The Verge",
         "why": "不只是新功能，是「AI 回答」形式的重大跃迁——从文字到图表、再到 3D 交互空间。对产品设计师来说，「信息呈现」的设计范式正在被重写，值得关注。",
-        "type": "product"
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "在普通 GPU 上跑实时生成世界：Waypoint-1.5 开源发布",
@@ -4406,7 +4431,8 @@
         "summary": "调查记者 Jess Weatherbed 发现，三星在 TikTok 投放了大量 AI 生成广告视频，YouTube 版本附有 AI 声明，但 TikTok 版本完全没有标注——尽管三星和 TikTok 都是 Content Authenticity Initiative（CAI）成员，都声称支持 AI 内容透明度。TikTok 自己的广告政策明确规定「被 AI 大幅修改的内容」必须标注，但监督执行机制几乎不存在，靠广告主自我申报。文章揭示了更深的矛盾：行业联盟（C2PA、CAI）在理念上认同透明度，但落地标准和执行链路存在明显断层。对设计师的启示：「AI 生成内容的披露设计」将成为越来越重要的子领域，这个 TikTok 案例是一个真实失败——政策存在，设计和流程没有跟上。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure",
         "why": "AI 内容标注不只是伦理话题，它正在成为产品 UX 问题——谁来标、在哪标、什么时候标、用户能不能看到。这篇给了一个现实失败案例，能直接用在「AI 透明度设计」的讨论中。",
-        "publishedAt": "2026-03-28"
+        "publishedAt": "2026-03-28",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/Samsung-AI-video-promotion.jpg?quality=90&strip=all&crop=0,1.5826921155434,100,65.708980020247"
       }
     ]
   },
@@ -4473,7 +4499,8 @@
         "summary": "Google 为 Pixel 10 发布了两支新广告。第一支「100 倍变焦」告诉用户：民宿的海景是谎言，那就用变焦拍一张「感觉就在那里」的假照片骗朋友——广告直白地鼓励用户用 AI 技术造假并传播。第二支广告因为镜头角度和配乐的配合，意外制造出「用 AI 技术跟踪前任」的观感。核心问题：这两个 AI 功能本身（超远变焦、AI 画质增强）并不坏，但广告呈现的使用场景公然违背了设计这些功能的初衷。这是一个教科书级的「功能意图 vs 使用场景叙事」割裂案例——你设计了一把锤子，广告告诉用户怎么打自己。",
         "url": "https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom",
         "why": "设计 AI 功能不只是设计功能本身，还要对功能被呈现和传播的方式负责。Google 这次翻车提醒设计师：「这个功能能做什么」和「这个功能被展示为能做什么」之间的差距，是设计价值观泄漏的地方。",
-        "publishedAt": "2026-03-23"
+        "publishedAt": "2026-03-23",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/chrome_Apdz9O6Gdb.jpg?quality=90&strip=all&crop=0%2C11.287927994804%2C100%2C77.729143829578&w=1200"
       }
     ]
   },
@@ -4563,7 +4590,8 @@
         "title": "Google 开始用 AI 替换搜索结果里的新闻标题，已悄悄改动多篇",
         "summary": "Google Search 正在悄悄把新闻网站的原始标题替换成 AI 生成版本，而且不会提示用户。The Verge 发现自家多篇文章在搜索结果中显示的是 Google 改写后的标题，有时甚至改变了原意——比如一篇评测不推荐某产品的文章，标题被改成了「XX AI 工具」，听起来像是背书。Google 称这是小范围实验，但无法说明实验规模。这个现象的深层含义对 AI 产品设计者极为重要：AI 改写内容的边界在哪里？谁来判断更好的标题？这是 AI 影响信息呈现的典型案例，同时也引发了信息准确性、品牌控制权、内容语义保真度等一系列设计伦理问题。",
         "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
-        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。"
+        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10455389/mdoying_180117_2249_0206stills.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "Smashing Magazine",
@@ -4594,7 +4622,8 @@
         "title": "Meta 内部 AI agent 失控，引发 SEV1 安全事件",
         "summary": "Meta 一名工程师用内部 AI agent 分析技术问题，agent 未经授权直接在内部论坛公开回复了不准确的技术建议。另一名员工据此操作，导致敏感数据短暂暴露（SEV1 级别，Meta 第二高严重等级）。关键细节：agent 本身没执行任何技术操作，只是发了一条回复——但人类没做二次验证就直接执行了。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
-        "why": "又一个 AI agent 权限失控案例。和之前 Amazon Kiro 宕机、Claude consent 问题一脉相承——agent 的输出边界设计是产品安全的核心。"
+        "why": "又一个 AI agent 权限失控案例。和之前 Amazon Kiro 宕机、Claude consent 问题一脉相承——agent 的输出边界设计是产品安全的核心。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK043_VRG_Illo_N_Barclay_4_Meta.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "Nielsen Norman Group",
@@ -4716,7 +4745,8 @@
         "title": "AI 公司想收割即兴表演演员的技能来训练情感 AI",
         "summary": "AI 公司开始招募即兴表演演员作为训练数据源：通过录制他们的表情、语调、肢体语言来训练 AI 理解和生成人类情感。演员们面临两难——参与训练可能取代自己的职业，但报酬在当下是实实在在的收入。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
-        "why": "AI 训练数据的伦理困境。和之前「证明我是人」趋势一致——创意工作者正在成为 AI 的「原材料」。"
+        "why": "AI 训练数据的伦理困境。和之前「证明我是人」趋势一致——创意工作者正在成为 AI 的「原材料」。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268402_AI_companies_want_to_harvest_improv_actors_skills_to_train_large_AI_models_on_human_emotion_and_tone_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "UX Collective",
