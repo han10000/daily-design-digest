@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-24",
+    "items": [
+      {
+        "title": "别再用 OKLCH 明度值做色阶了",
+        "summary": "OKLCH 颜色空间近年来席卷设计界——Tailwind 用它重建了默认调色板，CSS Color Level 5 规范将其纳入标准，浏览器全面支持。但这篇文章指出了一个被大多数设计师忽略的陷阱：OKLCH 的 L（明度）通道虽然在生成视觉上均匀的渐变和调色板方面表现优异，却无法可靠预测对比度。原因在于明度（lightness）和感知亮度（luminance）是两个不同概念——前者是 OKLCH 内部计算值，后者才是 WCAG 对比度算法真正依赖的 relative luminance。作者建议在色阶权重上应该用另一个数字（感知亮度/luminance）来驱动，而非直接用 OKLCH L 值。对于正在构建设计系统 token、需要保证无障碍对比度的设计师来说，这是一个实际影响产品合规性的关键细节。",
+        "url": "https://uxdesign.cc/stop-using-oklch-lightness-for-your-color-scale-02025deca49d",
+        "source": "UX Collective",
+        "why": "OKLCH 是当前设计系统领域的热门话题，但大多数设计师只知道「它更好」，不知道它的具体局限。这篇文章把颜色空间的技术细节翻译成了设计决策，直接影响无障碍合规和 token 设计。",
+        "type": "技术洞察"
+      },
+      {
+        "title": "空白页没人想动，完美稿没人敢碰——设计师的「起手态」心理学",
+        "summary": "这篇文章从 1994 年的认知心理学研究切入：让人想象外星生物，结果几乎所有人都画出了有眼睛、对称结构、站在某物上的生物——地球生命的模板被自动套用了。作者用这个实验引出一个产品设计的核心洞察：真正的空白页从未存在，用户永远在套用某个已有的模板；而另一个极端——完全完善的作品——也会让人不敢介入。人能真正使用的状态是「可见的未完成」：看起来有能力、但明显留有空间。这对 AI 产品设计有直接启发：当 AI 生成了一个「完美」的初稿，用户反而失去了编辑的冲动；如果 AI 留一些明显的空位，用户会更愿意接手。这也解释了为什么「模板」比「白板」更能激发创作。",
+        "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae",
+        "source": "UX Collective",
+        "why": "把认知科学直接映射到 AI 产品设计决策，解释了「AI 生成完整内容为何反而降低参与度」这个反直觉现象，对设计生成式 AI 的交互起点非常有参考价值。",
+        "type": "设计心理"
+      },
+      {
+        "title": "NN/g 推出 AI 术语词汇表：设计师能用得上的版本",
+        "summary": "Nielsen Norman Group 发布了一份专为产品和设计工作者设计的 AI 词汇手册，覆盖从 token、context window 到 agent、eval、prompt injection 等几十个核心术语。与面向工程师的技术文档不同，这份词汇表的定义方式以「在 AI 产品和 UX 工作中如何使用」为基准，而非学术或厂商定义——这两者往往有出入。每个词条还链接到 NN/g 已有的深度文章，可以按需展开。对于正在参与 AI 产品设计、需要和工程师或 PM 对齐语言的设计师来说，这是一份可以收藏反复查阅的参考资料。特别有用的条目包括：Generative UI（GenUI）、Tool Use/Function Calling、Sycophancy（模型谄媚问题）、Agentic AI——这些都是当前产品讨论里频繁出现但定义模糊的词。",
+        "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/",
+        "source": "Nielsen Norman Group",
+        "why": "设计师在 AI 产品团队里的话语权，很大程度取决于能不能用准确的语言参与技术讨论。这份词汇表是补齐这个盲区最直接的工具。",
+        "type": "参考资源",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Artificial__Intelligence__Glossary_1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-23",
     "items": [
       {
@@ -1373,7 +1403,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
         "source": "The Verge",
         "why": "这不只是一次模型更新——是 AI 对话 UX 的范式调整。「何时说、何时听、何时等」是语音产品最难设计的部分，OpenAI 用工程手段直接解了这个交互难题，值得做 AI 产品的设计师细读。",
-        "type": "产品动态"
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/chatgpt-voice-upgrade.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
       },
       {
         "title": "给 AI Agent 喂什么数据？NVIDIA 开放训练数据集背后的逻辑",
@@ -1566,7 +1597,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
         "source": "The Verge",
         "why": "AI 行业政治生态正在快速变化，这类宏观动向会影响大公司 AI 产品的边界和节奏，叉叉在微软做 AI 产品需要这层背景",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -1626,7 +1658,8 @@
         "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
         "source": "The Verge",
         "why": "NotebookLM 每一次新功能都在试验「AI 改变信息消费形式」的新可能。这次的 TikTok 式短视频是产品形态创新，更是对「用户如何接受 AI 生成内容」的一次实验，值得跟踪观察用户反馈。",
-        "type": "product-move"
+        "type": "product-move",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/notebooklm-shorts.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
       }
     ]
   },
@@ -2233,7 +2266,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
         "source": "The Verge AI",
         "why": "Anthropic 的新模型发布 + 能力收口的产品决策案例，帮叉叉理解「AI 产品克制」这个设计选择背后的逻辑。",
-        "type": "AI 产品"
+        "type": "AI 产品",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_2_A_3800fc.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "AI Agent 串联两个 HF Space，自己建了一个巴黎 3D 展览馆",
@@ -2362,7 +2396,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
         "source": "The Verge",
         "why": "不是批评，是一个值得仔细拆解的设计决策样本：当 AI 生成取代内容策展，信息流的设计逻辑会往哪走？Meta 走到了一个极端，值得参照思考。",
-        "type": "案例观察"
+        "type": "案例观察",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -2423,7 +2458,8 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -2940,7 +2976,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
         "source": "The Verge AI",
         "why": "这不是八卦，是行业背景。在微软工作的设计师尤其应该有这个视角——你的产品和 OpenAI 深度绑定，了解 AI 权力结构的现状，有助于在内部做产品决策时保持清醒。",
-        "type": "industry"
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25739950/247386_Elon_Musk_Open_AI_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3676,7 +3713,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
         "source": "The Verge",
         "why": "AI 与 App 集成进入新阶段，直接影响产品设计师对用户如何发现和进入 App 的底层假设——你的 App 未来的入口可能不是图标，而是 AI 对话里的一条建议。",
-        "type": "news"
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/anthropic-claude-personal-apps.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
       },
       {
         "title": "Meta 裁员 10%：8000 人走，AI 投入不减反增",
@@ -3838,7 +3876,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
         "source": "The Verge",
         "why": "OpenAI 的战略收缩是一个反向思考的入口：如果连最炫的 demo 产品都可以被砍，产品设计师在 roadmap 里应该如何判断什么是真正值得做的？",
-        "type": "news"
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200"
       }
     ]
   },
