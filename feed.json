@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08-25",
+    "items": [
+      {
+        "title": "AI 时代设计理想主义的慢速消亡",
+        "summary": "这篇文章探讨了一个反直觉的现象：在 AI 工具采用方面，资深设计师（15年以上经验）往往比年轻设计师更积极拥抱 AI，而非相反。作者认为，这与年龄或技术素养无关，而是与「职业理想主义被现实磨蚀的程度」高度相关。多年的客户截止日期、修改循环、利益相关者意见，让资深设计师从「这美吗？」转向「能在周四上线吗？」——AI 恰好成了那个能帮助他们在压力下保持质量的工具。相反，设计理想主义完好无损的学生、学者和职业早期设计师，反而对 AI 抱持更强的抵触情绪，因为 AI 威胁的正是那个理想化的设计自我。这是一篇难得的「内省式」设计文章，不谈工具，谈的是设计师和 AI 的心理关系——对于正在思考「我要不要用 AI」的叉叉来说，这个框架很有参照价值。",
+        "url": "https://uxdesign.cc/ai-adoption-and-the-slow-erosion-of-design-idealism-fab75761ebd6",
+        "source": "UX Collective",
+        "why": "不谈工具谈人，挑战「年轻人更爱 AI」的刻板印象，给出了一个更有洞察力的解释框架",
+        "type": "design-thinking"
+      },
+      {
+        "title": "AI 无处不在之后，软件的未来还确定吗？",
+        "summary": "2025年8月企业软件在资本市场遭遇历史性崩盘，外界称之为「SaaSocalypse」。这篇来自前 IBM Design 副总裁 Arin Bhowmick 的文章，用「灭绝 vs 进化」的框架重新解读这场变局。核心论点：AI 不会杀死软件，但会让软件的主界面从「应用」变成「对话」——AI 成为统一的交互入口，原有的 SaaS 应用则退居幕后变成专用 agent。这对设计师意味着：我们过去以像素和屏幕为核心的工作方式正在被挑战，因为越来越多的界面在用户输入之前根本不存在。作者引用 Deloitte 2026 全球软件行业报告和 PwC 案例，指出真正昂贵的不是 AI 模型本身，而是企业多年积累的业务知识——这才是 AI agent 需要「喂养」的核心资产。对于做企业产品的设计师，这篇文章提供了很好的宏观叙事框架。",
+        "url": "https://uxdesign.cc/is-the-future-of-software-certain-once-ai-is-everywhere-f93e1bc5697f",
+        "source": "UX Collective",
+        "why": "用数据支撑的宏观视角，帮助设计师理解 AI 时代的界面范式转移，不是焦虑文而是思考框架",
+        "type": "product-strategy"
+      },
+      {
+        "title": "NNG 实验证明：AI 生成图片和正版图库照片一样可信",
+        "summary": "Nielsen Norman Group 做了一项有意思的盲测研究：招募 77 名参与者，在不告知图片来源的情况下，评估同一虚构咨询公司网页上的 AI 生成图片 vs 真实摄影图片——结果发现，AI 生成图片在「可信度、专业感、真实感」三个维度上均未表现出劣势，AI 图片版本的评分甚至略高。不过研究也发现两个细节值得注意：一是当参与者「主动察觉到」图片是 AI 生成的，其评分会下降；二是图片的文化多样性和性别代表性对感知有显著影响。这项研究对 AI 工具实际应用的设计师有直接参考价值——在没有预算购买高质量摄影的场景下，精心筛选的 AI 图片是可以放心用的；但仍需避免「AI 感」过强或文化代表性失衡的图片。来自 NNGroup，方法论扎实，数据可信。",
+        "url": "https://www.nngroup.com/articles/ai-generated-images/",
+        "source": "Nielsen Norman Group",
+        "why": "用实验数据直接回答「AI 图片能不能用」这个设计决策问题，NNG 出品方法论可信",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/AI-Generated_Images_1.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-24",
     "items": [
       {
