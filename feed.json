@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-26",
+    "items": [
+      {
+        "title": "自主网站不是终点：AI agent 接管维护后，真正的设计问题才开始",
+        "summary": "Smashing Magazine 这篇来自 Fimo 创始人的实战总结，讲的是他们做「自主网站平台」时踩的一个反直觉的坑——技术问题比想象中容易解决，真正难的是人：没有人真正想要一个完全自主改动自己的网站。他们发现网站维护任务可以分三类：规则明确可完全交给 agent 的（无聊的 80%，alt 属性、图片压缩、无障碍合规）；需要判断但有边界的（文案微调、A/B 测试）；绝对需要人拍板的（品牌方向、关键叙事）。这个分层思路对设计师极有价值——做任何 AI agent 产品时，「把这个功能给 AI」之前都要先问：这个动作属于哪一层？谁的判断在里面？多少自主权才是用户真正愿意接受的？文章还提到，网站没有单一 owner，不同模块的 stakeholder 对自主度的容忍程度完全不同，这直接决定了产品的权限和审批流程该怎么设计。",
+        "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
+        "source": "Smashing Magazine",
+        "why": "Agentic 产品的控制权分层问题——agent 接管多少才合适？这个问题现在每个在做 AI 产品的设计师都在面对，文章提供了一个经过实战验证的分层框架，比大多数概念文章更可操作",
+        "type": "design-thinking",
+        "image": "https://files.smashing.media/articles/why-website-should-never-stop-changing/why-website-should-never-stop-changing.jpg"
+      },
+      {
+        "title": "《银翼杀手》早就设计出了我们现在还在争论的 AI 问题",
+        "summary": "UX Collective 这篇文章重新拆解《银翼杀手》（1982）和《2049》，用设计师的眼光指出：这两部电影其实是一份关于 AI 产品的设计文档，它预见了五个我们今天仍没解决的核心问题——合成记忆与系统对用户的持续「记忆」（ChatGPT 的 memory 功能）、图灵测试和 AI 身份辨别的接口设计、被嫁接在错误场景上的工具、以及把智能作为服务打包贩卖的商业逻辑。作者认为 Rachael 的植入记忆不是 SciFi 幻想，而是对「系统在没有告知用户的情况下建立用户模型」这件事的早期预言。最有价值的洞察：这些不是预言，而是「一系列刻意的设计决策」——Scott 选择去呈现这些张力，因为它们本来就是人类与工具关系里永远的摩擦点。对做 AI 产品的设计师来说，这种从文化符号里提炼设计张力的思维方式本身就值得学。",
+        "url": "https://uxdesign.cc/what-blade-runner-got-right-about-ai-99cc75c0f761",
+        "source": "UX Collective",
+        "why": "用文化批评的方式解构 AI 设计问题，帮助设计师建立更深的历史感和系统性视角，而不只是跟着产品迭代跑。银翼杀手的框架让你看到「合成记忆」「自主度」「身份辨别」这些问题背后的人性根源",
+        "type": "design-thinking"
+      },
+      {
+        "title": "OpenAI 自研芯片 Jalapeño 首次公布性能数据：更低延迟 + 更高吞吐量同时达成",
+        "summary": "OpenAI 发布了其自研 ASIC 芯片 Jalapeño 的首批 benchmark 数据，这块芯片与 Broadcom 合作制造，专门针对 AI 推理（inference）优化——即跑已训练模型、执行任务、部署 agent 的过程。OpenAI 硬件副总裁 Richard Ho 表示 Jalapeño 实现了「两全其美」：传统上延迟和吞吐量是一对矛盾，通常优化一个会牺牲另一个，而 Jalapeño 在两个维度上都超过了竞争对手。从产品设计角度看，这直接关系到 AI 产品的体验上限——更低的 token 生成延迟意味着对话流畅度更高、agent 执行速度更快，「等待感」这个目前 AI 产品最大的 UX 痛点可能会在基础设施层被部分解决。对设计师来说，关注 AI infra 进展不是炫技，是了解未来 2-3 年产品体验边界在哪里。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+        "source": "The Verge",
+        "why": "AI 推理速度直接影响产品 UX 的「等待感」——Jalapeño 代表的不只是技术进步，而是「loading state 该怎么设计」这个问题可能在基础设施层被重新定义",
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Jalapeno-chip-final.jpeg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "items": [
       {
@@ -2882,8 +2913,7 @@
         "url": "https://www.nngroup.com/articles/after-design-critique/",
         "source": "Nielsen Norman Group",
         "why": "大公司里设计评审文化很容易流于形式——叉叉在微软这种大型跨部门环境里工作，这篇文章提供的两个具体动作可以直接用，成本极低但影响力很高。",
-        "type": "design-culture",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png"
+        "type": "design-culture"
       }
     ]
   },
