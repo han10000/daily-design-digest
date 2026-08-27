@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-27",
+    "items": [
+      {
+        "title": "AI 的款待困境：七千亿美元买不来的那一层",
+        "summary": "当 ChatGPT、Claude、Gemini 的底层能力越来越同质化，AI 产品真正的差异化在哪里？本文作者从自己经营酒吧的经历切入：一杯苹果马提尼，外行人自以为凭颜色就能判断好坏，但端回来的结果是「太甜难以下咽」。这正是今天 AI 的通病——「我就是知道」式的过度自信，与真实服务质量脱节。文章提出，酒店和零售业花了一个世纪磨出来的「让人感到被理解」，才是 AI 产品下一步要补的课：不是更聪明，而是更懂得读懂这个人此刻真正需要什么。微软已经告诉客户「不要对哪个模型产生依恋」——这意味着智能本身正在变成商品，围绕智能的体验设计才是护城河。对产品设计师来说，这个视角值得深思：AI 界面的竞争，最终可能回归到极其古老的服务设计原则。",
+        "url": "https://uxdesign.cc/ai-has-a-hospitality-problem-money-cant-fix-e8fa34e91d62",
+        "source": "UX Collective",
+        "why": "AI 产品同质化趋势下，体验设计师的价值主张重新锚定——不是「让 AI 更聪明」，而是「让 AI 更懂人」。这篇文章用款待业的百年经验给 AI UX 做了一次精准复盘。",
+        "type": "think-piece"
+      },
+      {
+        "title": "让数据可视化真正驱动决策：把 UX 思维带进 Dashboard 设计",
+        "summary": "大量 dashboard 技术上正确，但会议结束时没有任何决策产生——不是因为数据不够，而是因为没有人把它当作「设计给特定受众、为了触发特定行动」的东西来做。文章以 Anscombe 四重奏为切入点：四个统计特征完全相同的数据集，画出来却截然不同。可视化揭示的是数字掩盖的运营真相。作者随后系统梳理了 UX 思维如何迁移进数据设计：从「我有哪些数据」变成「受众需要做什么决定」；从「图表正确」变成「读完能带走一个故事」。对 Product Designer 来说，这不只是数据岗的事——现代产品设计师越来越多需要设计 analytics 界面、增长看板、AI 反馈环，这套框架直接可用。文章深度约 16 分钟，案例丰富，是少有的把 data viz 和 UX 真正打通的实战文章。",
+        "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+        "source": "Smashing Magazine",
+        "why": "数据可视化通常被视为「数据团队的事」，这篇文章用 UX 语言把它拉回到设计师的主场，框架清晰可操作，适合任何需要设计数据界面或增长看板的设计师。",
+        "type": "tutorial",
+        "image": "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/rethinking-data-visualisation-ux-approach-dashboards.jpg"
+      },
+      {
+        "title": "把 AI Pipeline 变成界面：Gradio Workflow 实战指南",
+        "summary": "大多数有趣的 AI 应用本质上都是流水线：生成图片、去除背景、配音、改写文案——这些步骤通常靠 Python 脚本拼起来，调试痛苦。Gradio 新推出的 gr.Workflow 把 pipeline 本身变成了可视化界面：用拖拽式 canvas 描述节点图，每个中间结果实时可见，同时自动生成 REST API，一键部署到 Hugging Face Spaces。文章通过三个真实 demo 演示了核心模式：单节点图像编辑、三条并行 pipeline 的媒体工作室（图片→贴纸、文字→配音、主题→标题）、以及 fan-out 并行图像生成。对 Product Designer 而言，这个工具的意义在于：它把「AI workflow 原型」的门槛大幅降低——不需要写完整后端，就能快速验证一个多步骤 AI 产品的交互逻辑，跑通再交给工程师实现。是设计师自己动手做 AI 产品 spike 的利器。",
+        "url": "https://huggingface.co/blog/gradio-workflow-guide",
+        "source": "Hugging Face Blog",
+        "why": "对想动手搭 AI workflow 原型的设计师非常实用——低代码、可视化、即时可分享，正好填补了「想验证多步骤 AI 交互」和「不想写完整后端」之间的空白。",
+        "type": "tool",
+        "image": "https://huggingface.co/blog/assets/gradio-workflow-guide/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-26",
     "items": [
       {
@@ -2913,7 +2944,8 @@
         "url": "https://www.nngroup.com/articles/after-design-critique/",
         "source": "Nielsen Norman Group",
         "why": "大公司里设计评审文化很容易流于形式——叉叉在微软这种大型跨部门环境里工作，这篇文章提供的两个具体动作可以直接用，成本极低但影响力很高。",
-        "type": "design-culture"
+        "type": "design-culture",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/A-CC.png"
       }
     ]
   },
