@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-08-29",
+    "items": [
+      {
+        "title": "UX 进入「清洁工时代」：当 AI 的生产速度超过设计能审的速度",
+        "summary": "Nielsen Norman Group 最新文章提出了一个精准的新概念：UX 正在进入「Custodial Era（守护者时代）」。AI 让团队以前所未有的速度生成原型、写代码、加功能，但这个速度也在制造 UX 债务——很多功能还没经过真正的用户验证就已经上线。设计师的工作正在从「空白页设计」变成「AI 产出结果的守门和修补」。文章认为，UX 需要主动建立共识判断标准（shared judgment），加速评估流程，并在 AI 生成的设计进入产品前主动介入引导。这不是 UX 的终结，而是 UX 工作形态的转变——从创造者变成守护者，从上游变成质检关卡，同时还要向上游推 AI 用设计原则做内建审查，而不是事后救火。对于任何在 AI 编码团队工作的设计师来说，这篇文章直接命中现实。",
+        "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 用「Custodial Era」精准命名了 2026 年设计师正在经历的现实转变，框架清晰，适合用来和团队对齐 UX 在 AI 时代的角色定位",
+        "type": "deep-read",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Custodial_Era_of_UX-1_eRbQrXo.png"
+      },
+      {
+        "title": "AI 无法替代共情地图里的真实研究——它只能重排你已有的数据",
+        "summary": "NNGroup 的这篇文章直击一个 AI 时代设计师容易踩的陷阱：当工作坊临近、用研数据还没收集完，用 AI 生成一页「用户想法」的诱惑非常大。但文章指出，共情地图的核心价值不是那些便利贴本身，而是它们背后来自真实用户研究的证据。AI 生成的内容反映的是模型对「典型用户」的统计印象，不是你产品真实用户群体的特定行为和情感。文章区分了 AI 合法辅助的场景（整理已有研究材料）和它会造成误导的场景（替代真实用研）。对于需要向 PM 或 stakeholder 解释「为什么还需要用研」的设计师，这篇文章提供了清晰的论据框架，可以直接引用。",
+        "url": "https://www.nngroup.com/articles/ai-empathy-mapping/",
+        "source": "Nielsen Norman Group",
+        "why": "实战型论据，帮助设计师在 AI 压缩流程的压力下守住用研的底线，论点清晰可直接用于团队内部讨论",
+        "type": "practical",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/AI_Cant_Replace_Real_Research_in_Empathy_Mapping-1_ZfBI0Xv.png"
+      },
+      {
+        "title": "数据可视化不是图表问题，是 UX 问题——把 Dashboard 当产品来设计",
+        "summary": "Smashing Magazine 这篇文章的核心论点是：数据可视化和 UX 在解决同一个问题——把正确的信息以改变行动的方式送达正确的人。文章从 Anscombe 四重奏讲起（四组统计参数完全相同但形态完全不同的数据集），论证了「可视化」本身具有叙事功能，而不仅是展示数字。作者提出了一套结构化流程：先理解受众是谁、他们需要做什么决策、什么信息会影响这个决策，再选择可视化形式。文章特别强调「图表选择」本质上是 IA 决策，不是美学决策——柱状图、折线图、散点图各自对应不同的认知任务。这对于在公司内部要做 data dashboard、指标 review、或产品数据报告的设计师非常实用，提供了一个可直接应用的思考框架。",
+        "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+        "source": "Smashing Magazine",
+        "why": "把数据可视化纳入 UX 框架来思考，打破了「设计归设计、数据归数据」的割裂，对做产品指标、报表或内部工具的设计师特别实用",
+        "type": "practical",
+        "image": "https://files.smashing.media/articles/rethinking-data-visualisation-ux-approach-dashboards/rethinking-data-visualisation-ux-approach-dashboards.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-08-28",
     "items": [
       {
