@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-30",
+    "items": [
+      {
+        "title": "科幻片预言全错了——AI 真正的样子设计师该怎么应对",
+        "summary": "作者重新审视《银翼杀手》对 AI 的四大预判：有实体、罕见、有自主欲望、由一人之手造就。现实是，最重要的 AI 以一个文字输入框的形式抵达，没有身体，无处不在，没有个人目的，由数百万人的数据堆积而成。文章用 Don Norman 的「affordance」理论指出，一个空白聊天框彻底关闭了用户对「这个工具能做什么」的直觉感知。对设计师的实践意义在于：我们继承了对 AI 的错误想象，正在用这个想象设计产品——而现实的 AI 需要的是展示能力边界，而不是等待用户发问。这是一篇用文化批评视角拆解 AI 设计困境的好文章，适合在思考 AI 产品交互范式时读。",
+        "url": "https://uxdesign.cc/what-blade-runner-got-wrong-about-ai-so-far-d01b579288c1",
+        "source": "UX Collective",
+        "why": "用电影来解构 AI 界面设计的认知误区，视角独特，直接命中「chat box 为什么让用户困惑」这个核心问题",
+        "type": "design-thinking"
+      },
+      {
+        "title": "音乐人变侦探：他们在追杀 AI 造假者",
+        "summary": "年轻 EDM 制作人 H4RRIS 开始公开点名他认为用 AI 冒充人类原创的同行，并深入解释了为什么这对他而言是一种艺术价值观的问题，而不只是技术竞争。他的工作流涉及数百个微小的创意决策——每一个都在把想法变成情感。他认为 AI 生成内容剥离了这些决策，只留下了「听起来像」的壳。这场争论正在创意领域全面蔓延：从音乐到插画，平台和消费者越来越难分辨什么是「真的」。对 Product Designer 的意义：当我们设计内容平台或创作工具时，「真实感」和「透明度」将成为核心体验价值，而不是可选项。",
+        "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+        "source": "The Verge",
+        "why": "创作者视角的 AI 真实性之战，直接预示内容平台和创作工具的下一个设计挑战：如何建立信任信号",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&strip=all&crop=0%2C11.150136769481%2C85.33125%2C67.014037093516&w=1200"
+      },
+      {
+        "title": "索尼、华纳向 Anthropic 开炮：版权战升级，设计师用 AI 工具的底线在哪",
+        "summary": "索尼音乐和华纳查普尔向 Anthropic 提起诉讼，要求就「数万首」受版权保护的作品赔偿，金额可能高达数十亿美元。这是 Anthropic 继去年与出版业达成 15 亿美元和解之后的又一轮大型诉讼。此案的关键问题不只是 AI 训练数据的边界，更是当模型输出与原作品「实质性相似」时的责任归属。对使用 AI 设计工具的设计师而言，这个走向意味着：未来的 AI 工具将被迫更保守——更多过滤、更多限制、更高的使用门槛。了解这个行业动向，有助于预判工具生态两年后的形态。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+        "source": "The Verge",
+        "why": "版权诉讼将直接影响 AI 创作工具的能力边界和使用规则，设计师不能不知道这个大背景",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "items": [
       {
