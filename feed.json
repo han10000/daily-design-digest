@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-31",
+    "items": [
+      {
+        "title": "UX 进入「看护时代」：在 AI 造成的混乱后面收拾残局",
+        "summary": "NNGroup 的这篇文章提出了一个令人警醒的新框架：我们正在进入「看护时代」（Custodial Era）。AI 让团队可以以前所未有的速度生成内容、原型和可运行功能，但这种速度也在累积 UX 债务——因为没有人停下来真正评估 AI 的输出质量。设计师发现自己在流程的更后期介入：原型已经做好了，功能已经上线了，工作流程已经在生产环境跑了。真正的工作不再是「从空白页开始设计」，而是「判断 AI 生成的东西里什么该留、什么该改」。文章给出了实际策略：建立团队共享判断标准、加速 UX 评估效率、主动引导 AI 设计方向。对于正在和 AI 协作构建产品的 PM 和设计师，这个「看护者」定位既现实又有力。",
+        "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+        "source": "Nielsen Norman Group",
+        "why": "直接回答「AI 时代设计师的角色是什么」这个核心问题，给出的不是焦虑，而是可操作的重新定位",
+        "type": "深度分析",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Custodial_Era_of_UX-1_eRbQrXo.png"
+      },
+      {
+        "title": "AI 生成的同理心地图，为什么没有灵魂？",
+        "summary": "当你的用研研讨会已经排上日历但数据还没收集好，拿 AI 来临时生成「用户痛点」的便签听起来像个合理解法——但 NNGroup 的这篇文章指出，便签是怎么来的，比便签来得多快更重要。同理心地图（Empathy Map）的核心是真实研究：用户说了什么、想了什么、做了什么、感受如何，都必须来自对真实人类的真实观察。AI 可以帮你整理已经收集到的研究数据，但它没法凭空制造关于「你的特定用户、在你的特定场景下」那些混乱、具体、出乎意料的真实体验。用 AI 填充同理心地图，等于用统计平均值替代了真实用户——表面上快，实际上是在误导整个团队的判断。文章从方法论层面重申了用研的不可替代价值，适合在团队里用来建立共识。",
+        "url": "https://www.nngroup.com/articles/ai-empathy-mapping/",
+        "source": "Nielsen Norman Group",
+        "why": "在大家都在讨论「AI 辅助用研」的时候，这篇文章划出了一条清晰的边界，让设计师知道什么可以交给 AI、什么不能",
+        "type": "方法论",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/AI_Cant_Replace_Real_Research_in_Empathy_Mapping-1_ZfBI0Xv.png"
+      },
+      {
+        "title": "神经酷儿视角下的设计实践：打破「正常」的暴政",
+        "summary": "这篇来自 UX Collective 的文章从一个少见的视角重新审视设计本身的本质。作者 Kristina Gushcheva-Keippilä 是一位自闭症、酷儿身份的设计负责人，她借用「神经酷儿化」（neuroqueering）这一概念——一种颠覆神经规范和异性恋规范结构的实践——来反思设计职业。「神经酷儿化」的核心是将颠覆视为一种行动：拒绝设计必须符合主流权力体系所认为「正确的设计方式」这一前提。作者认为，设计本质上是人、技术与未来之间的转化和中介力量，而真正好的设计往往发生在你敢于拒绝本质主义、拒绝既定形式、拒绝决定论的时候。对于正在思考设计价值和职业意义的设计师来说，这是一篇有哲学密度的 provocation，值得慢读。",
+        "url": "https://uxdesign.cc/neuroqueering-design-practice-9e2aaf4dd2e5",
+        "source": "UX Collective",
+        "why": "在大量「AI 取代设计师」焦虑叙事中，这篇文章从截然不同的角度重新定义设计的力量来自哪里——不是工具，是视角",
+        "type": "设计哲学"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "items": [
       {
