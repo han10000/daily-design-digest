@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-01",
+    "items": [
+      {
+        "title": "AI 代理时代的 UI 标准之争：我们不能再为同一个表单写四套渲染逻辑了",
+        "summary": "当 AI agent 需要在屏幕上展示一个日期选择器，谁来决定它长什么样？这篇文章系统梳理了当前 AI 客户端处理 UI 渲染的四种方式——从 Google A2UI 的声明式 JSON 标准，到 ChatGPT / Claude 的沙盒 HTML iframe，再到 Teams 的 Adaptive Cards 和 Slack 的 Block Kit。作者 Patrick Neeman 的核心论点是：MCP 协议已经解决了「连接」问题，但各家客户端在 UI 渲染上各自为政，导致同一个组件在不同平台呈现完全不同的样式，而买单的人永远是维护 design system 的团队。A2UI 是目前唯一没有单一厂商控股的开放提案，但采用率依然惨淡。这对 Product Designer 的启示是：你今天设计的组件，在 agentic 场景里可能根本不受你控制——现在是时候开始思考「设计 agent-ready 的组件规范」了。",
+        "url": "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370",
+        "source": "UX Collective",
+        "why": "A2UI 标准之争直接影响 design system 的未来形态，designer 现在就应该了解这个战场的格局，否则六个月后会措手不及。",
+        "type": "deep-read"
+      },
+      {
+        "title": "Debian 投票允许 AI 辅助代码贡献：「负责任使用」等于正常标准，无特殊豁免",
+        "summary": "Linux 发行版 Debian 完成了一次重要的社区投票：正式允许开发者在代码贡献、维护和文档撰写中使用 AI 工具。新政策承认「负责任地使用 AI 可以提升生产力」，但同时明确表示 AI 生成内容既不豁免也不适用特殊规则，与对所有 Debian 贡献者的既有标准完全一致。这意味着 AI 工具的使用者需要像对待自己手写代码一样，对 AI 的输出负责。部分社区成员对此表示不满，认为这降低了开源贡献的质量门槛。这个决定的意义超出了开源社区本身——它代表了一种「工具中立」的监管逻辑：不因为工具是 AI 而特殊对待，责任始终在使用者。对设计师而言，这种逻辑同样适用于 AI 辅助设计决策的归责方式，以及未来公司如何追究「AI 生成设计」的质量责任。",
+        "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+        "source": "The Verge",
+        "why": "开源社区对 AI 工具的治理框架，往往比企业政策更早形成共识。这个「AI 工具中立」判例预示着 AI 辅助设计的责任归属将如何被行业定义。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0009_7.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "Open ASR 排行榜新增首个「全球南方」语言：AI 语音识别的边缘场景开始被认真对待",
+        "summary": "Hugging Face 的开放语音识别（ASR）排行榜新增了第一个来自全球南方（Global South）地区的语言评测。这个事件看似技术细节，却指向一个更深的设计议题：AI 语音交互的用户群体假设一直严重偏向英语和少数欧洲语言，而全球超过 80% 的人口说的是其他语言。随着 AI 语音助手和 agent 的普及，「谁被语音 UI 覆盖、谁被排除」将成为 product designer 必须面对的包容性设计问题。更具体的挑战是：当你的产品使用 AI 语音能力时，你是否知道它在哪些语言/口音上的识别准确率会骤降？这个排行榜的扩展，是一个让这个问题变得可量化的开始。",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+        "source": "Hugging Face Blog",
+        "why": "语音 UI 的语言覆盖盲区是一个典型的「不知道自己不知道」的设计陷阱。了解 AI 能力的边界，是负责任的 AI 产品设计的基础。",
+        "type": "signal",
+        "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-global-south/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "items": [
       {
