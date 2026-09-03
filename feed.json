@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-09-03",
+    "items": [
+      {
+        "title": "画布开始自己行动——谁还在掌控？",
+        "summary": "当 Miro、Figma 等工具引入 AI agent 能力后，画布不再只是我们操作的对象，它开始读取上下文、跨工具聚合信息、并在没有逐步指令的情况下自主行动。本文从交互设计视角探讨这一转变带来的核心挑战：系统状态可见性、可中断性、错误预防，以及 Nielsen 启发式原则在界面会自己动这个新范式下的重新适配。作者指出，第一代生成式 AI 的空白输入框问题本质上是一种可见性失败——用户不知道系统能做什么，就无法正确提问。而 agentic canvas 让这个问题升维：设计师需要重新思考控制感本身的设计语言，哪些动作需要用户确认，哪些可以静默执行，如何让 agent 的意图对人类保持透明。对于正在思考 AI 产品交互模式的 Product Designer，这篇文章提供了一套扎实的思考框架。",
+        "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
+        "source": "UX Collective",
+        "why": "直接触及 AI 产品设计的核心命题：agent 自主行动时设计师如何重新定义控制感和可见性，有具体的 heuristics 对应，不是泛泛而谈",
+        "type": "design-thinking"
+      },
+      {
+        "title": "UX 的「管理员时代」：AI 造完烂摊子，谁来收拾？",
+        "summary": "NNGroup 提出了一个新概念：我们正在进入 UX 的管理员时代（Custodial Era）。AI 让团队可以以前所未有的速度生成内容、原型和功能，但这种速度也在制造大量 UX 债务——那些技术上能跑但体验糟糕的东西。UX 设计师越来越多地是在事后介入：feature 已经上线，prototype 已经存在，workflow 已经在生产环境跑了。文章提出，UX 工作的重心正在从从零设计转向评估 AI 产出并决定保留什么、改什么。这不是贬低，而是一种需要主动适应的新角色定位：建立共享判断标准、加速评估节奏、在 AI 生成物里守住用户需求的底线。对于在 AI 加速开发节奏下工作的设计师，这篇文章给出了清醒的角色重定义。",
+        "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+        "source": "Nielsen Norman Group",
+        "why": "精准描述了当下很多设计师正在经历的处境——不是理论焦虑，是实操层面的角色转变，NNGroup 给出了可执行的应对思路",
+        "type": "ux-research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Custodial_Era_of_UX-1_eRbQrXo.png"
+      },
+      {
+        "title": "浏览器里跑 AI？HuggingFace 发布 200+ WebGPU 内核库",
+        "summary": "Hugging Face 发布了 @huggingface/kernels，一个包含 207 个 WebGPU 运算内核的开源库，目标是让 AI 推理在浏览器里跑得尽可能快。这个库的意义不只是技术上的：它预示着本地浏览器推理距离真正可用越来越近。每个 kernel 都作为独立的版本化包发布，附带接口定义、测试用例和 benchmark；同时配套上线了 Fleet 工具，可以在你自己的设备上直接跑 benchmark，并将结果匿名回传帮助优化。对 Product Designer 来说，这意味着一个重要的产品设计信号：无需后端、无需 API key、完全离线的 AI 功能这条路正在变得更可行，隐私优先的 AI 产品设计会越来越有现实基础。",
+        "url": "https://huggingface.co/blog/webgpu-kernels",
+        "source": "Hugging Face Blog",
+        "why": "技术信号转化为设计机会：browser-native AI 离实用越来越近，Product Designer 需要提前理解这对产品架构和隐私设计意味着什么",
+        "type": "ai-tech",
+        "image": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "items": [
+      {
+        "title": "《少数派报告》真正预见了什么：AI 幻觉的剧本早就写好了",
+        "summary": "设计师们总在引用《少数派报告》里汤姆·克鲁斯挥手操作浮空界面的镜头，却忽略了这部电影更精准的预言——预认知者（Precogs）才是生成式 AI 最早的画像。它们不是查数据库，而是生成一个流畅、自信的「未来叙事」，系统将其当作事实执行。这和大语言模型的机制一模一样，包括那个把整个故事推向悲剧的失败模式：幻觉。文章指出，设计师们拼命模仿的手势界面其实是电影的「烟雾弹」——为镜头而生，不为使用而生。而真正值得学习的是影片对「流畅输出不等于真实可信」这一问题的深刻警示，以及在 AI 产品设计中如何处理信任、责任与系统失误。一篇用科幻镜头重新审视 AI 产品设计本质的好文章。",
+        "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431",
+        "source": "UX Collective",
+        "why": "用经典科幻片解剖 AI 幻觉问题，角度新鲜，对正在设计 AI 产品的 designer 有直接启发——如何在 UI 层面处理「自信但可能错误」的输出。",
+        "type": "essay"
+      },
+      {
+        "title": "AI 让团队建得比 UX 审得快：设计师进入「看门人时代」",
+        "summary": "NNGroup 提出了 UX 债务的新语境：AI 让产品团队可以在没有 UX 参与的情况下快速生成原型、上线功能——vibe coding、AI 辅助原型越来越普遍。结果是 UX 设计师越来越多地在事后被拉进来：原型已经存在，feature 已经上线，流程已经在跑。文章将这个阶段命名为「看门人时代（Custodial Era of UX）」，设计师的工作从从空白页设计变成了决定 AI 产出里什么该留、什么该改。这不是退步，而是角色的重构——UX 的核心技能在这个时代反而更关键。文章给出了三条应对策略：建立共享判断力、加速评估流程、在上游引导 AI 生成设计。",
+        "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+        "source": "Nielsen Norman Group",
+        "why": "直接对应当下设计团队的处境——AI 加速产出导致 UX 被边缘化的问题，NNGroup 给出的框架既务实又有说服力，适合在内部讨论角色定位时引用。",
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Custodial_Era_of_UX-1_eRbQrXo.png"
+      },
+      {
+        "title": "200 个 WebGPU 内核开源：浏览器里跑 AI 的基础设施信号",
+        "summary": "Hugging Face 发布了 @huggingface/kernels，一个包含 207 个 WebGPU 内核的开源库，目标是让浏览器端 AI 推理和原生 App 一样快。每个内核都是独立的版本化包，附带接口定义、shader 模板、正确性测试和基准测试用例。同时发布了 Fleet——一个在浏览器里直接运行 GPU 基准测试的工具，用户可以贡献自己设备的性能数据。这对 Product Designer 来说意味着：浏览器端 AI 的性能天花板正在被系统性地打破，不久的将来复杂的 AI 功能可以直接在网页里跑，不依赖服务端，隐私更好，延迟更低。这是「本地 AI 体验」成为设计默认选项的基础设施信号。",
+        "url": "https://huggingface.co/blog/webgpu-kernels",
+        "source": "Hugging Face Blog",
+        "why": "浏览器端 AI 推理的基础设施突破，是判断未来 2 年 Web 产品 AI 能力边界的关键信号。Designer 不需要懂 WebGPU，但需要知道这扇门正在打开。",
+        "type": "tech",
+        "image": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-09-01",
     "items": [
       {

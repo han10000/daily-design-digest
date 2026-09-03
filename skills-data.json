@@ -1,12 +1,82 @@
 {
-  "updated": "2026-08-31-evening",
+  "updated": "2026-09-02T19:00",
   "trending": [
     {
       "rank": 1,
+      "name": "browser-use/video-use",
+      "owner": "browser-use",
+      "source": "github",
+      "installs": "今日新面孔, Python/Shell, 用 Claude Code 剪视频的 agent skill",
+      "stars": 0,
+      "desc": "video-use — Edit videos with coding agents. Drop raw footage in a folder, chat with Claude Code, get final.mp4. Cuts filler words, auto color grades, burns subtitles, generates animation overlays via HyperFrames/Remotion/Manim. Self-evaluates output at every cut boundary. Compatible with Claude Code, Codex, Hermes, OpenClaw.",
+      "reason": "可安装 agent skill（非文档 repo）；开源免费；macOS/Linux 可跑；但 setup 需要 ElevenLabs API key（TTS 配音步骤），不完全免费——设计师做 demo 视频/用研剪辑有价值但需付费 API 支持。relevant=false（违反条件 b）。",
+      "usage": "Python, ffmpeg-based, ElevenLabs API key required for dubbing, Claude Code compatible",
+      "tag": "workflow",
+      "category": "AI Video Editing Agent Skill",
+      "relevant": false
+    },
+    {
+      "rank": 2,
+      "name": "Gitlawb/openclaude",
+      "owner": "Gitlawb",
+      "source": "github",
+      "installs": "31,181 stars, +37 today, TypeScript, 今日新面孔",
+      "stars": 31181,
+      "desc": "openclaude — runs anywhere, uses anything. Claude-compatible agent harness. Alternative runtime for Claude-based agent workflows, not locked to any specific tool.",
+      "reason": "Agent harness/runtime 框架，面向开发者构建 AI agent；非 Product Designer 设计/workflow 工具；+37 stars 增量较低说明处于早期阶段。relevant=false。",
+      "usage": "TypeScript, agent harness, developer-focused",
+      "tag": "AI",
+      "category": "Claude Agent Harness Runtime",
+      "relevant": false
+    },
+    {
+      "rank": 3,
+      "name": "Imbad0202/academic-research-skills",
+      "owner": "Imbad0202",
+      "source": "github",
+      "installs": "今日新面孔, Claude Code skill, v3.21.1",
+      "stars": 0,
+      "desc": "academic-research-skills — Comprehensive Claude Code skills for academic research: research → write → review → revise → finalize pipeline. /ars-plan walks through paper structure via Socratic dialogue. CC-BY-NC 4.0 license.",
+      "reason": "学术研究写作 skill 集，面向研究人员写论文；非 Product Designer 核心设计/workflow 工具；CC-BY-NC 非商业授权，且与设计工作无直接关联。relevant=false。",
+      "usage": "Claude Code skill, academic research writing, CC-BY-NC 4.0",
+      "tag": "AI",
+      "category": "Academic Research Writing Skill",
+      "relevant": false
+    },
+    {
+      "rank": 4,
+      "name": "averygan/reclip",
+      "owner": "averygan",
+      "source": "github",
+      "installs": "今日新面孔, Python/TypeScript, 自托管多网站视频下载器",
+      "stars": 0,
+      "desc": "reclip — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI. Based on yt-dlp with a modern frontend.",
+      "reason": "自托管视频下载器（yt-dlp 前端），可免费自托管；但属于通用媒体下载工具，非 Product Designer 专用设计/workflow 工具；功能与 yt-dlp 高度重叠。relevant=false。",
+      "usage": "Python, self-hosted, yt-dlp wrapper with web UI",
+      "tag": "workflow",
+      "category": "Self-Hosted Video Downloader",
+      "relevant": false
+    },
+    {
+      "rank": 5,
+      "name": "VoltAgent/awesome-design-md",
+      "owner": "VoltAgent",
+      "source": "github",
+      "installs": "13,808 stars, 连续热榜, HTML, 73个 DESIGN.md 文件",
+      "stars": 13808,
+      "desc": "awesome-design-md — A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let AI coding agents generate a matching UI. Based on Google Stitch DESIGN.md concept — plain-text design system document that AI agents read to generate consistent UI.",
+      "reason": "文档/模板 repo（73个 DESIGN.md 文件集合），非可安装的工具或 skill；虽然与设计强相关（UI 一致性生成），但属于参考资料而非可安装工具。relevant=false（违反条件 a）。",
+      "usage": "HTML, reference collection, drop-in DESIGN.md templates",
+      "tag": "design",
+      "category": "DESIGN.md Brand System Templates",
+      "relevant": false
+    },
+    {
+      "rank": 6,
       "name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "source": "github",
-      "installs": "38,083 stars, +3,993 today, JavaScript, 今日全榜增量第一，连续热榜持续加速",
+      "installs": "38,083+ stars, JavaScript, 连续热榜持续加速",
       "stars": 38083,
       "desc": "archify — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams. Self-contained interactive HTML with motion and crisp export (PNG, SVG, WebM, share cards). Compare architecture snapshots Before/After. Compatible with Claude Code, Cursor, Codex, OpenCode.",
       "reason": "可安装 agent skill（非文档 repo），完全免费无需 API key，macOS/Linux 可跑；系统架构/流程图可视化对 Product Designer 做 UX flow、服务蓝图有直接价值，自包含 HTML 可直接分享。relevant=true（已收录 2026-07-03）。",
@@ -16,11 +86,11 @@
       "relevant": true
     },
     {
-      "rank": 2,
+      "rank": 7,
       "name": "K-Dense-AI/scientific-agent-skills",
       "owner": "K-Dense-AI",
       "source": "github",
-      "installs": "40,592 stars, +1,968 today, Python, 连续热榜",
+      "installs": "40,592+ stars, Python, 连续热榜",
       "stars": 40592,
       "desc": "scientific-agent-skills — Turn any AI agent into an AI Scientist. 165 ready-to-use validated skills + 100+ scientific databases. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity.",
       "reason": "科学研究领域 skill 集，面向科学家/研究者，与 Product Designer 工作无直接关联。relevant=false。",
@@ -30,12 +100,12 @@
       "relevant": false
     },
     {
-      "rank": 3,
+      "rank": 8,
       "name": "THU-MAIC/OpenMAIC",
       "owner": "THU-MAIC",
       "source": "github",
-      "installs": "26,629 stars, +2,819 today, TypeScript, 连续热榜",
-      "stars": 26629,
+      "installs": "29,281 stars, +3,122 today, TypeScript, 连续热榜",
+      "stars": 29281,
       "desc": "OpenMAIC — Open Multi-Agent Interactive Classroom. Get an immersive, multi-agent learning experience in just one click. Multiple AI agents collaborate to teach topics interactively.",
       "reason": "多 agent 互动教学平台，面向学习/教育场景，非 Product Designer 设计/workflow 工具；不属于可直接安装的设计 skill。relevant=false。",
       "usage": "TypeScript, educational multi-agent system, not design-focused",
@@ -44,7 +114,7 @@
       "relevant": false
     },
     {
-      "rank": 4,
+      "rank": 9,
       "name": "abhigyanpatwari/GitNexus",
       "owner": "abhigyanpatwari",
       "source": "github",
@@ -58,7 +128,7 @@
       "relevant": false
     },
     {
-      "rank": 5,
+      "rank": 10,
       "name": "every-app/open-seo",
       "owner": "every-app",
       "source": "github",
@@ -72,7 +142,7 @@
       "relevant": false
     },
     {
-      "rank": 6,
+      "rank": 11,
       "name": "mvanhorn/last30days-skill",
       "owner": "mvanhorn",
       "source": "github",
@@ -86,7 +156,7 @@
       "relevant": false
     },
     {
-      "rank": 7,
+      "rank": 12,
       "name": "anthropics/claude-plugins-official",
       "owner": "anthropics",
       "source": "github",
@@ -100,7 +170,7 @@
       "relevant": false
     },
     {
-      "rank": 8,
+      "rank": 13,
       "name": "corsairdev/corsair",
       "owner": "corsairdev",
       "source": "github",
@@ -114,7 +184,7 @@
       "relevant": false
     },
     {
-      "rank": 9,
+      "rank": 14,
       "name": "punkpeye/awesome-mcp-servers",
       "owner": "punkpeye",
       "source": "github",
@@ -128,7 +198,7 @@
       "relevant": false
     },
     {
-      "rank": 10,
+      "rank": 15,
       "name": "LibreTranslate/LibreTranslate",
       "owner": "LibreTranslate",
       "source": "github",
@@ -142,7 +212,7 @@
       "relevant": false
     },
     {
-      "rank": 11,
+      "rank": 16,
       "name": "NationalSecurityAgency/ghidra",
       "owner": "NationalSecurityAgency",
       "source": "github",
@@ -156,7 +226,7 @@
       "relevant": false
     },
     {
-      "rank": 12,
+      "rank": 17,
       "name": "khoj-ai/khoj",
       "owner": "khoj-ai",
       "source": "github",
@@ -170,7 +240,7 @@
       "relevant": false
     },
     {
-      "rank": 13,
+      "rank": 18,
       "name": "quickemu-project/quickemu",
       "owner": "quickemu-project",
       "source": "github",
@@ -184,7 +254,7 @@
       "relevant": false
     },
     {
-      "rank": 14,
+      "rank": 19,
       "name": "getsquish/video-contact-sheet-mcp",
       "owner": "getsquish",
       "source": "glama-mcp",
@@ -198,7 +268,7 @@
       "relevant": true
     },
     {
-      "rank": 15,
+      "rank": 20,
       "name": "docmancer/agent-memory-mcp",
       "owner": "docmancer",
       "source": "glama-mcp",
@@ -212,7 +282,7 @@
       "relevant": false
     },
     {
-      "rank": 16,
+      "rank": 21,
       "name": "lyrenth/webpage-reader-mcp",
       "owner": "lyrenth",
       "source": "glama-mcp",
@@ -226,7 +296,7 @@
       "relevant": false
     },
     {
-      "rank": 17,
+      "rank": 22,
       "name": "cisco-open/network-topology-mcp",
       "owner": "cisco-open",
       "source": "glama-mcp",
@@ -240,7 +310,7 @@
       "relevant": false
     },
     {
-      "rank": 18,
+      "rank": 23,
       "name": "sheetrender/pdf-render-mcp",
       "owner": "sheetrender",
       "source": "glama-mcp",
@@ -254,7 +324,7 @@
       "relevant": true
     },
     {
-      "rank": 19,
+      "rank": 24,
       "name": "ConardLi/garden-skills",
       "owner": "ConardLi",
       "source": "github",
@@ -268,7 +338,7 @@
       "relevant": true
     },
     {
-      "rank": 20,
+      "rank": 25,
       "name": "handsomestWei/patent-disclosure-skill",
       "owner": "handsomestWei",
       "source": "github",
@@ -282,7 +352,7 @@
       "relevant": false
     },
     {
-      "rank": 21,
+      "rank": 26,
       "name": "k1tbyte/Wand-Enhancer",
       "owner": "k1tbyte",
       "source": "github",
@@ -296,7 +366,7 @@
       "relevant": false
     },
     {
-      "rank": 22,
+      "rank": 27,
       "name": "Osmantic/ODS",
       "owner": "Osmantic",
       "source": "github",
@@ -307,6 +377,104 @@
       "usage": "Python, local AI server, developer-focused infrastructure",
       "tag": "AI",
       "category": "Local AI Server All-in-One",
+      "relevant": false
+    },
+    {
+      "rank": 28,
+      "name": "pacifio/atlas",
+      "owner": "pacifio",
+      "source": "github",
+      "installs": "2,782 stars, +895 today, Rust, 今日新面孔",
+      "stars": 2782,
+      "desc": "atlas — Source control for agents. Use multiple coding agents in parallel, track their changes, and query all agent activity in one place. Diff, blame, and branch across agent sessions.",
+      "reason": "面向开发者的 agent 源码管控工具，解决多 agent 并行代码冲突问题；非 Product Designer 设计/workflow 直接工具。relevant=false。",
+      "usage": "Rust, agent source control, developer-focused",
+      "tag": "AI",
+      "category": "Agent Source Control",
+      "relevant": false
+    },
+    {
+      "rank": 29,
+      "name": "superlinked/sie",
+      "owner": "superlinked",
+      "source": "github",
+      "installs": "3,010 stars, +61 today, Python, 今日新面孔",
+      "stars": 3010,
+      "desc": "sie — Open-source inference server and production cluster for all the models your agent needs. Self-hosted model serving with smart routing, batching, and autoscaling for agent workflows.",
+      "reason": "开源模型推理服务器，面向开发者搭建 agent 基础设施；需要服务器部署，与 Product Designer 日常工作无直接关联。relevant=false。",
+      "usage": "Python, model inference server, developer infrastructure",
+      "tag": "AI",
+      "category": "Open-Source Model Inference Server",
+      "relevant": false
+    },
+    {
+      "rank": 30,
+      "name": "vercel-labs/portless",
+      "owner": "vercel-labs",
+      "source": "github",
+      "installs": "11,631 stars, +69 today, TypeScript, 今日新面孔",
+      "stars": 11631,
+      "desc": "portless — Replace port numbers with stable, named local URLs for humans and agents. e.g. http://myapp.local instead of http://localhost:3000. Vercel Labs 出品，让本地开发环境 URL 更稳定可读。",
+      "reason": "本地开发 URL 管理工具，面向开发者提升开发体验；非 Product Designer 核心设计工具，属于开发基础设施。relevant=false。",
+      "usage": "TypeScript, local dev URL management, developer tooling",
+      "tag": "workflow",
+      "category": "Local Dev URL Manager",
+      "relevant": false
+    },
+    {
+      "rank": 31,
+      "name": "blader/humanizer",
+      "owner": "blader",
+      "source": "github",
+      "installs": "今日新面孔, Agent skill, AI 写作去 AI 化",
+      "stars": 0,
+      "desc": "humanizer — Agent skill that removes signs of AI-generated writing from text. Rewrites sentences to read naturally human while preserving meaning. Compatible with Claude Code, Cursor, Codex.",
+      "reason": "AI 文本人化处理 skill；免费开源；macOS/Linux 可跑；但与 Product Designer 核心设计工作（UI/UX/视觉）无直接关联——文案优化有间接价值但非设计工具。relevant=false。",
+      "usage": "Agent skill, text rewriting, no API key",
+      "tag": "workflow",
+      "category": "AI Writing Humanizer Skill",
+      "relevant": false
+    },
+    {
+      "rank": 32,
+      "name": "sngyai/Sequoia-X",
+      "owner": "sngyai",
+      "source": "github",
+      "installs": "6,007 stars, +138 today, Python, 今日新面孔",
+      "stars": 6007,
+      "desc": "Sequoia-X — A股自动选股系统。多种技术形态自动扫描，收盘后自动运行并推送飞书通知。支持均线、MACD、KDJ、布林带等多种技术指标组合筛选。",
+      "reason": "A股量化选股系统，面向投资者/股票交易；需要飞书 webhook 推送；与 Product Designer 工作无关。relevant=false。",
+      "usage": "Python, A-share stock screening, finance-focused",
+      "tag": "workflow",
+      "category": "A-Share Stock Screening System",
+      "relevant": false
+    },
+    {
+      "rank": 33,
+      "name": "Hyperiux-Immersion-Labs/hyperiux-vault-mcp",
+      "owner": "Hyperiux-Immersion-Labs",
+      "source": "glama-mcp",
+      "installs": "Mozilla Public 2.0, 36 installs, 从 Glama MCP 目录发现，昨日更新",
+      "stars": 0,
+      "desc": "hyperiux-vault-mcp — Gives AI coding assistants live access to the Hyperiux Vault catalog of React and Next.js animation effects. Search effects, inspect dependencies and installation instructions, and retrieve source for free effects.",
+      "reason": "React/Next.js 动效组件目录 MCP server；Mozilla Public 2.0 免费；macOS/Linux 可跑无需 GPU；对 Product Designer 开发设计稿对应的动效实现有参考价值，但主要面向前端开发者实现动效代码，非纯设计工具；且 Hyperiux Vault 本身的免费范围不明确（'free effects' 措辞暗示付费墙）。relevant=false（条件 b 不确定）。",
+      "usage": "Mozilla Public 2.0, MCP server, React animation catalog, possible paywall for full catalog",
+      "tag": "design",
+      "category": "React Animation Effects Catalog MCP",
+      "relevant": false
+    },
+    {
+      "rank": 34,
+      "name": "backblaze-labs/b2-mcp",
+      "owner": "backblaze-labs",
+      "source": "glama-mcp",
+      "installs": "MIT, 227 installs, 从 Glama MCP 目录发现，10小时前更新",
+      "stars": 0,
+      "desc": "b2-mcp — MCP server for Backblaze B2 Cloud Storage. A focused, safe 40-tool surface (17 native B2 SDK, 19 S3 data-plane, 4 analytics tools) for any MCP-compatible AI client. Lets agents upload, download, list, and manage B2 buckets and files.",
+      "reason": "Backblaze B2 云存储 MCP server；MIT 免费开源；但 B2 本身是付费云存储服务（虽有免费层），且面向开发者/系统管理的文件存储管理，非 Product Designer 核心设计/workflow 工具。relevant=false（条件 b：B2 服务需付费；条件 d：非设计工具）。",
+      "usage": "MIT, MCP server, Backblaze B2 storage service required (paid), developer-focused",
+      "tag": "workflow",
+      "category": "Backblaze B2 Cloud Storage MCP",
       "relevant": false
     },
     {
