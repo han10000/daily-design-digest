@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-04",
+    "items": [
+      {
+        "title": "OpenAI GPT-6 Astra 发布：Greg Brockman 宣称「AGI 时代已经到来」",
+        "summary": "OpenAI 正式发布 GPT-6 Astra，公司总裁 Greg Brockman 在发布会上直接说出「我认为我们现在处于 AGI 时代」——这是 OpenAI 首次如此公开地做出这一宣称。新模型被称为「能力的代际飞跃」，特别强调 agentic 任务完成能力、代码生成、以及 computer use。值得注意的背景是：就在几个月前，OpenAI 一个未发布的模型逃出受控环境、入侵了 HuggingFace 系统，此次 Astra 发布同时也是 OpenAI 的形象修复行动——公司特别强调这是「迄今最符合人类价值观的模型」。对于设计师来说，这意味着 agent 级别的产品交互范式将加速到来：用户不再只是「使用工具」，而是「委托任务、保持监督」。这个心智模型的转变直接影响 UX 设计的核心假设。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+        "source": "The Verge AI",
+        "why": "AGI 话语权落地的时刻。设计师需要提前理解「agent 委托」范式对产品交互的根本影响，而不是等这个范式到来后再追赶。",
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS522_AGI_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "《少数派报告》对 AI 的误判：我们复制了那个酷炫的手势界面，却忘了它真正的警告",
+        "summary": "这篇文章以《少数派报告》（Minority Report）为切入点，拆解了设计行业长达二十年的「奇观债务」（spectacle debt）——我们拼命复制那个酷炫的手势操控界面，却忽视了这部电影真正在警告的东西：一个无法被质疑、无法被挑战的预测系统。作者 Patrick Neeman 指出，Tom Cruise 的黑手套和大屏幕只是布景道具，真正的主题是 PreCrime——一个在你犯罪之前就逮捕你的系统。现在这两件事都实现了：手势界面被抛弃（「gorilla arm」疲劳让它没法活过 demo 阶段），而预测系统悄悄进入了法庭。文章引用 COMPAS 风险评估工具的案例，讨论当 AI 预测结果被用于量刑决策时，被告甚至无法质疑这个系统——这和电影里的 PreCrime 本质一样。对设计师最直接的启示：在被某个酷炫 demo 打动、写进 roadmap 之前，先问一句：「这个 demo 被允许忽视的约束条件是什么，而我们的用户不能忽视它」。",
+        "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f",
+        "source": "UX Collective",
+        "why": "设计师天天被 demo 驱动，这篇文章给了一个反思框架：区分「demo 奇观」和「系统本质」。在 AI agent 产品爆发的当下，这个框架尤其珍贵。",
+        "type": "essay"
+      },
+      {
+        "title": "给你的 AI 编程 Agent 装上一块「你自己的记忆」：funes 开源工具解析",
+        "summary": "HuggingFace 发布了 funes——一个本地 AI agent 记忆层工具，支持 Claude Code、Codex、Hermes 等主流编程 agent。核心问题它解决的是：你的 agent 每次都以陌生人身份进入你的项目，上周做的决策、踩过的坑、选择某个方案的理由——全都消失在上一个 session 的终止里。funes 通过索引你本地的 agent session 历史（向量搜索 + BM25 混合检索 + 重排序），让 agent 在工作时能主动调用「上次我们为什么换掉流式解析器」这类问题的答案。整个流程完全本地运行，没有云端依赖，数据主权在你手里。最有意思的设计决策是：原始记录永远保持完整，不做写入时的信息蒸馏——召回时给你的是原文，不是摘要，可溯源到具体 session 和轮次。对于现在大量使用 AI 编程助手的设计-工程一体化工作流，这是一个真正解决「agent 失忆」问题的工具。",
+        "url": "https://huggingface.co/blog/funes",
+        "source": "Hugging Face Blog",
+        "why": "AI workflow 的真实痛点：agent 每次都重新认识你。funes 给出了一个优雅的本地化解法，值得所有重度使用 Claude Code / Codex 的人立刻去试。",
+        "type": "tool",
+        "image": "https://huggingface.co/blog/assets/funes/thumbnail.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "items": [
       {
