@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-05",
+    "items": [
+      {
+        "title": "阅读和写作本质上是界面——AI 可以降低它们的摩擦",
+        "summary": "这篇文章提出一个引人入胜的视角：读写不只是技能，它们本质上是「界面」——人类用来与语言这个系统交互的接口。作者区分了「有价值的摩擦」和「无谓的摩擦」：前者构成认知能力本身（比如深度阅读一段难懂的论证），后者只是历史遗留的障碍（比如手动格式化引用）。AI 的真正价值不在于替代思考，而在于消除那些阻挡思考到达的噪音。对产品设计师来说，这个框架极具启发性——设计 AI 产品时，关键问题不是「AI 能帮用户做多少」，而是「哪些摩擦值得保留，哪些应该消除」。这和 friction design 的核心逻辑完全吻合，是重新理解 AI 辅助写作与阅读工具设计的底层框架。",
+        "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0",
+        "source": "UX Collective",
+        "why": "用「界面摩擦」框架重新理解 AI 辅助认知，对设计 AI 产品中的「有意义摩擦」决策很有参考价值",
+        "type": "思维框架"
+      },
+      {
+        "title": "NNGroup 出品：UX 从业者用 AI 的完整学习路线图",
+        "summary": "Nielsen Norman Group 发布了一份专为 UX 人设计的 AI 使用指南合集，系统整理了从「如何起步」到「在设计/研究/写作/服务设计各环节落地 AI」的全套资源。核心观点鲜明：AI 不会取代 UX 工作，但能大幅放大个人产出——前提是你把自己定位成「策略师」而不是执行者。文章还给出了 CARE 提示词框架（Context、Ask、Rules、Examples），以及「AI 作为 UX 实习生」的有趣心智模型——强调监督的必要性。对于正在摸索如何把 AI 融入日常设计流程的设计师来说，这份指南是一个质量过硬的起点，而非又一篇泛泛而谈的「AI 改变设计」文章。",
+        "url": "https://www.nngroup.com/articles/ai-work-study-guide/",
+        "source": "Nielsen Norman Group",
+        "why": "NNGroup 出品质量保证，系统性 > 碎片化，适合想构建 AI workflow 但不知从哪入手的设计师",
+        "type": "实战指南",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_-Study-Guide-1.png"
+      },
+      {
+        "title": "浏览器端 AI 加速：HuggingFace 发布 200+ WebGPU 算子库",
+        "summary": "HuggingFace WebAI 团队发布了 @huggingface/kernels，包含 207 个经过优化的 WebGPU 算子，覆盖矩阵乘法、注意力机制、量化操作等主流 ML 架构所需的底层 GPU 操作。更重要的是，每个算子都以完整可复现的形式发布在 Hub 上，附带接口说明、着色器模板、正确性测试和 benchmark 用例。同步发布的 Fleet 工具让开发者直接在浏览器里跑 GPU 性能测试并贡献真实设备数据。对产品设计师而言，这个发布的意义在于：浏览器端本地 AI 推理正在从「理论可行」走向「工程可靠」——意味着不依赖云端、零延迟、完全私密的 AI 体验即将成为可设计的现实选项，这将打开一类全新的产品设计空间。",
+        "url": "https://huggingface.co/blog/webgpu-kernels",
+        "source": "Hugging Face Blog",
+        "why": "浏览器端本地 AI 的基础设施正在成熟，设计师需要提前理解这意味着什么样的新产品形态",
+        "type": "技术前沿",
+        "image": "https://huggingface.co/blog/assets/webgpu-kernels/thumbnail.png"
+      }
+    ]
+  },
+  {
     "date": "2026-09-04",
     "items": [
       {
