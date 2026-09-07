@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-07",
+    "items": [
+      {
+        "title": "当画布开始自主行动，谁还在掌控？",
+        "summary": "AI coding agent 正在把终端命令行式的交互模型带回界面设计中——你描述结果，agent 自己决定执行哪些命令、修改哪些文件。这让「界面」从被动操作对象变成了主动行为者。作者 Aurélie Radom 用尼尔森十大可用性原则重新审视了这一转变：系统状态可见性意味着用户要能看到 agent 在理解什么、正在做什么；用户控制与自由意味着随时可以打断、重定向或撤销 agent 的操作；错误预防则需要提前定义哪些操作 agent 可以自主执行，哪些必须人工确认。文章的核心判断是：好的 AI 界面不能把探索负担全部压在用户身上，它需要通过上下文、材料和可视化线索来揭示自身的能力边界。这对正在设计 AI 产品的设计师来说是一份很实用的思维框架。",
+        "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
+        "source": "UX Collective",
+        "why": "agentic UI 正在成为产品设计的新战场，这篇文章把经典 UX 原则迁移到 agent 语境，给出了可操作的设计框架，非常适合在 Microsoft 做 AI 产品的设计师",
+        "type": "设计思考"
+      },
+      {
+        "title": "AI 拿走了工程师说「不」的权力",
+        "summary": "这篇文章讲的是一个权力结构的历史性转移。过去，「这个功能能不能做」的决定权完全在工程师手里，因为只有他们能把 idea 变成可交付的产品——这种技术壁垒让工程师在产品决策中拥有接近绝对的否决权。AI coding 工具的出现打破了这道屏障：当写代码的成本从「多年积累的专业知识」降到「每月一百刀的 API」，工程师不再是唯一能把想法变现实的人。作者 Dan Maccarone 认为，这不仅改变了开发效率，更从根本上重塑了产品团队的权力关系——设计师、产品经理甚至业务方，都获得了过去从未有过的「可行性话语权」。这对设计师意味着双重机会：既能更快验证想法，也必须承担更多产品决策的责任。文章对在大公司里推动设计影响力的人来说特别有共鸣。",
+        "url": "https://uxdesign.cc/ai-took-away-engineerings-right-to-say-no-839b9b6256f2",
+        "source": "UX Collective",
+        "why": "直接涉及设计师在 AI 时代的角色转变与影响力提升，在微软这种工程文化浓厚的公司环境里格外有现实感",
+        "type": "行业观察"
+      },
+      {
+        "title": "《西雅图时报》等起诉 OpenAI，媒体版权战持续升级",
+        "summary": "《西雅图时报》和 Newsday 成为最新起诉 OpenAI 与 Microsoft 版权侵权的媒体，指控两家公司未经授权将其新闻内容用作 AI 训练数据，且 AI 生成内容会逐字重现其报道段落。这已是继纽约时报、Ziff Davis、Merriam-Webster 之后又一起同类诉讼，加上此前近 400 家地方报纸的集体诉讼，围绕 AI 训练数据的法律战线正在全面铺开。对产品设计师来说，这场版权战的走向将直接影响 AI 产品的内容来源策略、生成结果的引用方式设计，以及未来 AI 工具的功能边界——当「引用原文」变成法律风险，摘要 vs 转述 vs 链接跳转的界面决策就有了全新的合规维度。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+        "source": "The Verge AI",
+        "why": "AI 版权诉讼浪潮将影响所有 AI 产品的内容展示策略和设计决策，设计师需要了解这个法律背景",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292926705.jpg?quality=90&strip=all&crop=0%2C10.654918655606%2C100%2C78.690162688789&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-09-06",
     "items": [
       {
@@ -2308,8 +2338,7 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 的实证研究首次命名了一类新用户群体，直接影响 AI 产品的用户画像和体验设计方向，非常值得 PM 和 designer 读。",
-        "type": "research",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
+        "type": "research"
       }
     ]
   },
