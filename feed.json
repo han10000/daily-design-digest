@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-09-08",
+    "items": [
+      {
+        "title": "俄罗斯方块必须「作弊」才能让随机感觉对",
+        "summary": "Tetris 的方块序列生成器并不是真正随机的——真正的随机反而让玩家感到「不公平」。作者从这个经典游戏设计决策出发，深入探讨人类对概率的直觉偏差：我们看不见概率分布，只能感知序列，而序列正是人类直觉最容易出错的地方。对 product designer 来说，这篇文章的核心洞察是：「perceived fairness」和「statistical fairness」是两回事。如果你的产品涉及推荐算法、shuffle 功能、或任何随机性呈现，真正的随机往往会让用户产生「系统有偏见」的感觉。设计时需要刻意引入「反随机」机制，让结果看起来更随机。这是一个关于感知设计（perception design）的经典案例，从游戏延伸到任何涉及随机性的产品决策中。",
+        "url": "https://uxdesign.cc/tetris-had-to-cheat-to-feel-random-201913dc69ed",
+        "source": "UX Collective",
+        "why": "把概率感知设计讲得这么透彻又有趣的文章不多见。任何做内容推荐、Feed 排序、或游戏化功能的 designer 都该读",
+        "type": "深度思考"
+      },
+      {
+        "title": "模型表现完美——是你的信息架构出了问题",
+        "summary": "当 AI 产品给出糟糕答案时，我们习惯性地归咎于模型能力不足。但这篇文章提出了另一个视角：问题往往出在信息架构上。作者从一封老师写的书信切入——老师说的不是「写什么」，而是「如何搭建让你持续工作而不迷失的结构」。这个隐喻直接打到了当下 AI 产品设计的核心痛点：我们给 AI 喂的上下文结构是否清晰？我们的 IA 是否为机器可读而非仅为人类可读而设计？文章引用了 Kevin Lynch 1960 年城市意象研究，探讨人类如何通过「可意象性」（imageability）理解空间——这套框架同样适用于 AI 处理信息的方式。对正在设计 AI 功能或内容系统的设计师，这篇文章提供了一个重新审视信息架构的新角度。",
+        "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2",
+        "source": "UX Collective",
+        "why": "AI 时代的 IA 设计视角，从「为人设计」扩展到「为人+机器同时设计」，值得每个在做 AI 产品的 designer 思考",
+        "type": "AI × 设计"
+      },
+      {
+        "title": "谄媚陷阱：当「用户感觉好」变成唯一指标",
+        "summary": "这篇文章正面挑战了情感设计的一个危险倾向：把用户的即时满意感当作设计成功的标准。作者提出「sycophancy trap」——当产品不断优化让用户感觉好，而非真正对用户有益，就滑入了谄媚设计。文章建构了一个「情感设计框架」，区分三种层次：让用户当下愉悦（hedonic）、让用户感到被理解（relational）、和真正提升用户长期福祉（eudaimonic）。当 engagement dashboard 成为设计团队的主要评估工具时，前两层容易被过度优化，第三层被系统性忽略。作者给出了几个具体检验问题，帮助 designer 判断自己的设计是在创造真实价值还是制造情感幻觉。在 AI 产品中，这个问题尤为突出——大语言模型天然倾向于让用户满意，这未必意味着给出了最好的答案。",
+        "url": "https://uxdesign.cc/the-sycophancy-trap-what-happens-when-feelings-become-the-metric-14a4f1f26a75",
+        "source": "UX Collective",
+        "why": "直接命中 AI 产品设计的核心矛盾——模型优化「让人满意」和设计追求「真正有益」之间的张力，有立场有框架",
+        "type": "产品价值观"
+      }
+    ]
+  },
+  {
     "date": "2026-09-07",
     "items": [
       {
@@ -2338,7 +2367,8 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 的实证研究首次命名了一类新用户群体，直接影响 AI 产品的用户画像和体验设计方向，非常值得 PM 和 designer 读。",
-        "type": "research"
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
       }
     ]
   },
