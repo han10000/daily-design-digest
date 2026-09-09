@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-09",
+    "items": [
+      {
+        "title": "AI 项目失败的真正原因：不是模型，是人",
+        "summary": "UX Collective 的一篇深度文章，作者 Patrick Neeman 有 11 年 AI 从业经验，观点犀利：95% 的生成式 AI 项目交付不出可量化的业务价值，但失败根源不在模型。他拆解了 8 个核心人为问题：用户意图没有被真正理解、没人负责、上下文信息稀薄、需求语言模糊、期望没有提前对齐、没有评估标准、结果定义不清、工具选错了。Anthropic 最近反而在大量招 PM，原因是 Claude Code 把每个工程师的产能放大到 3 倍，但瓶颈迅速转移到「该做什么」而非「怎么做」。文章的核心论断放在今天语境里尤其有力：AI 加速的不是问题，而是暴露了组织内部早就存在的对齐缺失。对于在微软做设计的叉叉来说，这篇是难得见到有立场的行业反思，不是鸡汤，是诊断报告。",
+        "url": "https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e",
+        "source": "UX Collective",
+        "why": "直接命中「为什么」比「怎么做」更重要的判断框架。AI 加速时代 designer 的价值正在这里——不是写代码，是把问题想清楚。和叉叉在做的事高度相关。",
+        "type": "深度分析"
+      },
+      {
+        "title": "ChatGPT Sketch：草图变效果图，设计师的 prompt 方式要变了？",
+        "summary": "OpenAI 发布 ChatGPT Images 2.5，同时推出「Sketch」功能：用户可以直接在 ChatGPT 对话框里画草图，再用文字说明想要什么效果，AI 就会根据草图生成对应图像。此外新版本还支持在图片特定区域留评论来精准指定修改（比如「把眼睛改成绿色」），图像生成延迟也比 2.0 降低了 50%。这个交互模式对 designer 的意义不小：输入形态从「纯文字 prompt」扩展到「草图 + 文字」，更接近设计师的真实工作方式——先有个粗想法，再迭代细化。虽然功能目前还比较初级，但它暗示的方向是：AI 图像工具的 UX 正在朝着「更接近人类思考过程」演进，而不是逼用户学会一门新语言。值得关注后续 Figma 等工具怎么跟进。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+        "source": "The Verge",
+        "why": "设计师的工作流正在被这类工具重塑。草图作为输入源，比文字 prompt 对设计师更直觉。了解工具边界才能判断什么时候用、什么时候不用。",
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/ai-label-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      },
+      {
+        "title": "OpenAI 宣称解决了 90 年未解数学难题，但背后有道德争议",
+        "summary": "OpenAI 声称用一个内部 AI 模型（比 GPT-6 Astra 更强）配合 10,000 个并发 agent，解决了流体力学领域的 Navier-Stokes 问题，这是七个「千禧年大奖难题」之一，奖金 100 万美元。然而这则新闻一经发布就伴随着争议：纽约大学数学教授 Tristan Buckmaster 发表声明称，他和 Anthropic 的研究员一起在用 Codex 做同一个问题的研究，草稿全部保存在 Codex 里。他怀疑 OpenAI 在未告知的情况下用这些数据训练了模型，向 OpenAI 询问两次都没得到正面回应。这个事件对 designer 的意义在于：AI 系统正在接触越来越多用户的原始创意输入，这对设计数据隐私、用户信任、工具透明度的设计决策都会产生深远影响。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+        "source": "The Verge",
+        "why": "不只是科技新闻。它暗示 AI 工具侵蚀用户创意所有权的风险正在变得真实。设计师该怎么思考「把我的草图/原型/灵感放进 AI 工具」这件事？",
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25844039/STK155_OPEN_AI_CVirginia__A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "items": [
       {
