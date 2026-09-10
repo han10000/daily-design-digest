@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-09-10",
+    "items": [
+      {
+        "title": "按钮之死：最好的界面是没有界面",
+        "summary": "Smashing Magazine 这篇文章正面回答了一个设计师不得不想清楚的问题：当 AI 可以理解用户意图并在后台自动执行时，我们还需要设计「点击流」吗？文章从 Xerox Star 到苹果 Mac 梳理了 GUI 的诞生，然后指出这套「10步操作」范式正在被 Intent-Driven Design 替代——用户只需说出目标，AI 负责执行。作者引用 Golden Krishna 的「最好的界面是没有界面」和 Don Norman 的以人为中心设计，认为设计师的角色正在从「设计可见界面」转向「引导透明的意图驱动体验」。这对 Product Designer 的职业定位是一个直接挑战：你的价值不再是排布按钮，而是定义 AI 该做什么、何时该打扰用户、何时该静默执行。",
+        "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+        "source": "Smashing Magazine",
+        "why": "直接影响 Product Designer 的角色定义。Intent-Driven Design 是当前最重要的设计范式转变，这篇文章写得清晰、有框架、有实操意义。",
+        "type": "deep-read",
+        "image": "https://files.smashing.media/articles/death-button-why-best-interface-is-no-interface/death-button-why-best-interface-is-no-interface.jpg"
+      },
+      {
+        "title": "莎士比亚早就把 AI 写透了——关于预言、模糊与信任",
+        "summary": "UX Collective 的这篇文章用莎士比亚的魔法体系类比 AI 输出的本质：它不说谎，但它说的每一句话都是陷阱。作者借《麦克白》里女巫的预言（「没有从母亲肚子里生出来的人伤不了你」）来解释 AI 的核心问题——技术上正确但语义上误导。用户听到的是他们希望听到的那个版本。文章引用哲学家对「bullshit」的定义（不在乎真假、只在乎可信），认为这正是 LLM 输出的本质。对设计师而言，启示在于：我们需要设计让用户不被「技术上正确的回答」欺骗的界面——明确传达置信度、范围和局限性，而不是让 AI 听起来像女巫一样自信。",
+        "url": "https://uxdesign.cc/what-shakespeare-got-right-about-ai-4369fc16ab2b",
+        "source": "UX Collective",
+        "why": "用文学框架解释 AI 信任设计问题，角度新鲜，读完会改变你对 AI 界面 confidence 表达的看法。不是技术文章，是思维框架。",
+        "type": "perspective"
+      },
+      {
+        "title": "OpenAI 用 AI 破解了数学千禧难题，但引发了学术界的强烈不满",
+        "summary": "OpenAI 宣布其未发布模型在 88 小时内解决了 Navier-Stokes 问题——这是数学界悬而未决近 90 年、悬赏 100 万美元的千禧大奖问题之一。模型调度了约 1 万个 AI Agent 协同攻关。这本应是一个里程碑时刻，但事件本身引发了更大的争议：就在 OpenAI 宣布的前一天，纽约大学教授 Tristan Buckmaster 和 Anthropic 研究员 Levent Alpöge 发表了相关问题的研究成果。学术界指控 OpenAI 在得知其他人接近突破后，投入大量资源抢先发布，违反了学术规范。对 Product Designer 而言，这个事件揭示了 AI Agent 协作解决复杂问题的真实能力上限，也展示了 AI 如何改变「谁先完成」的竞争规则。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+        "source": "The Verge",
+        "why": "AI Agent 协作解决真实世界最难问题的案例，直接展示了 agentic AI 的能力边界。附带的学术伦理争议揭示了 AI 时代的新竞争规则，对理解 AI 产品的影响力格局有参考价值。",
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292626872.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      }
+    ]
+  },
+  {
     "date": "2026-09-09",
     "items": [
       {

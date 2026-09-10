@@ -1,8 +1,64 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09T19:00Z",
   "trending": [
     {
       "rank": 1,
+      "name": "ayghri/i-have-adhd",
+      "owner": "ayghri",
+      "source": "github",
+      "installs": "33,967 stars, +4,624 today, Python, 今日热榜第一暴涨",
+      "stars": 33967,
+      "desc": "i-have-adhd — A skill to stop your coding agent from burying the answer. 10条 ADHD-friendly 规则：先说 action、步骤编号、suppress tangents、matter-of-fact 错误处理、无废话开场/结尾。MIT，兼容 Claude Code/Codex/Cursor。",
+      "reason": "可安装 agent skill，MIT 免费，macOS/Linux 可跑；但专注于 coding agent 输出格式优化，非 Product Designer 核心设计工作流工具。relevant=false（条件 d）。",
+      "usage": "Python MIT, agent skill, no API key, Claude Code/Codex plugin",
+      "tag": "AI",
+      "category": "ADHD-Friendly Agent Output Formatting Skill",
+      "relevant": false
+    },
+    {
+      "rank": 2,
+      "name": "Tencent/teamai-cli",
+      "owner": "Tencent",
+      "source": "github",
+      "installs": "2,868 stars, +563 today, TypeScript, 今日新面孔",
+      "stars": 2868,
+      "desc": "teamai-cli — Tencent 官方出品，统一管理团队 skills/rules/MCP/knowledge，跨 Claude Code / Codex / Cursor / CodeBuddy / OpenClaw 等 11 个 AI agent 平台同步。`npm install -g teamai-cli`，支持 role/tag 订阅，admin 推送一次全员自动同步。含 Team Execution / Team Context / Team Improvement 三层能力。",
+      "reason": "可安装 CLI 工具，npm 免费无需付费 API key，macOS/Linux 可跑；面向团队 AI agent 基础设施管理（skill 同步/版本控制），非 Product Designer 设计工具。relevant=false（条件 d）。",
+      "usage": "TypeScript MIT, npm global CLI, no API key, cross-platform",
+      "tag": "workflow",
+      "category": "Team AI Skills & Rules Manager CLI",
+      "relevant": false
+    },
+    {
+      "rank": 3,
+      "name": "vastsa/PI-Desktop",
+      "owner": "vastsa",
+      "source": "github",
+      "installs": "1,583 stars, +393 today, TypeScript, 今日新面孔",
+      "stars": 1583,
+      "desc": "PI-Desktop — Local-first AI coding agent desktop，Electron + Rust 架构，BYOM（Bring Your Own Model），支持 OpenAI / Anthropic / 本地模型 / OpenAI-compatible API。projects/sessions/files/previews/review 面板一体化，含权限层，用户可安装 Skills/MCP servers/Subagents/Plugins。macOS + Windows + Linux，MIT。",
+      "reason": "本地 AI coding agent 桌面客户端，面向开发者编码工作流（project/code/diff review），非 Product Designer 设计工具。relevant=false（条件 d）。",
+      "usage": "TypeScript MIT, Electron+Rust desktop app, no mandatory account/relay, BYOM",
+      "tag": "AI",
+      "category": "Local-First AI Coding Agent Desktop",
+      "relevant": false
+    },
+    {
+      "rank": 4,
+      "name": "armory3d/armorpaint",
+      "owner": "armory3d",
+      "source": "github",
+      "installs": "4,198 stars, +73 today, C, 今日新面孔",
+      "stars": 4198,
+      "desc": "ArmorPaint — 开源 3D PBR 纹理绘制软件，支持 macOS/Linux/Windows/iOS/Android，GPU 加速。代码开放但预编译二进制付费（帮助项目维护）。可自行编译使用。",
+      "reason": "3D PBR 纹理绘制工具，代码开源但官方分发二进制付费（条件 b 不满足）；且自编译门槛高，面向3D美术师非 Product Designer 核心工作流。relevant=false（条件 b、d）。",
+      "usage": "C, open source code, paid binaries, self-compile required, GPU-accelerated",
+      "tag": "design",
+      "category": "3D PBR Texture Painting Software",
+      "relevant": false
+    },
+    {
+      "rank": 5,
       "name": "heygen-com/hyperframes",
       "owner": "heygen-com",
       "source": "github",
@@ -16,7 +72,7 @@
       "relevant": false
     },
     {
-      "rank": 2,
+      "rank": 6,
       "name": "coreyhaines31/marketingskills",
       "owner": "coreyhaines31",
       "source": "github",
@@ -30,7 +86,7 @@
       "relevant": false
     },
     {
-      "rank": 3,
+      "rank": 7,
       "name": "jo-inc/camofox-browser",
       "owner": "jo-inc",
       "source": "github",
@@ -44,7 +100,7 @@
       "relevant": false
     },
     {
-      "rank": 4,
+      "rank": 8,
       "name": "mksglu/context-mode",
       "owner": "mksglu",
       "source": "github",
@@ -58,7 +114,7 @@
       "relevant": false
     },
     {
-      "rank": 5,
+      "rank": 9,
       "name": "cathrynlavery/diagram-design",
       "owner": "cathrynlavery",
       "source": "github",
@@ -72,7 +128,7 @@
       "relevant": true
     },
     {
-      "rank": 6,
+      "rank": 10,
       "name": "obra/superpowers",
       "owner": "obra",
       "source": "github",
@@ -86,21 +142,7 @@
       "relevant": false
     },
     {
-      "rank": 7,
-      "name": "ayghri/i-have-adhd",
-      "owner": "ayghri",
-      "source": "github",
-      "installs": "今日新面孔, MIT, 多语言 ADHD-friendly agent output skill",
-      "stars": 0,
-      "desc": "i-have-adhd — A skill to stop your coding agent from burying the answer. 10条规则：先说 action、步骤编号、suppress tangents、错误 matter-of-fact、无废话开场/结尾。ADHD-friendly output for any coding agent. MIT。",
-      "reason": "可安装 agent skill，MIT 免费，无需 API key，macOS/Linux 可跑；但专注于 coding agent 输出格式优化，非 Product Designer 核心设计工作流工具。relevant=false（条件 d）。",
-      "usage": "MIT, agent skill, no API key, Claude Code/Codex plugin",
-      "tag": "AI",
-      "category": "ADHD-Friendly Agent Output Formatting Skill",
-      "relevant": false
-    },
-    {
-      "rank": 8,
+      "rank": 11,
       "name": "multica-ai/andrej-karpathy-skills",
       "owner": "multica-ai",
       "source": "github",
@@ -114,7 +156,7 @@
       "relevant": false
     },
     {
-      "rank": 9,
+      "rank": 12,
       "name": "microsoft/markitdown",
       "owner": "microsoft",
       "source": "github",
@@ -128,12 +170,12 @@
       "relevant": false
     },
     {
-      "rank": 10,
+      "rank": 13,
       "name": "openai/plugins",
       "owner": "openai",
       "source": "github",
-      "installs": "5,697 stars, +176 today, JavaScript, 今日新面孔",
-      "stars": 5697,
+      "installs": "6,131 stars, +505 today, JavaScript, 连续热榜",
+      "stars": 6131,
       "desc": "openai/plugins — OpenAI Codex official plugin catalog. 含 Figma（Code to Canvas, Code Connect, design system rules）、Notion、Remotion、Google Slides、Netlify 等插件示例。Codex plugin 规范参考实现。",
       "reason": "plugin 目录/示例 repo，非可安装工具 skill；条件 a 不满足（文档/catalog repo）。Figma plugin 有参考价值但本 repo 本身不可安装。relevant=false。",
       "usage": "JavaScript, Codex plugin catalog, documentation repo",
@@ -142,7 +184,21 @@
       "relevant": false
     },
     {
-      "rank": 11,
+      "rank": 14,
+      "name": "freestylefly/awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "source": "github",
+      "installs": "29,937 stars, +612 today, JavaScript, 连续热榜",
+      "stars": 29937,
+      "desc": "awesome-gpt-image-2 — Prompt as Code | GPT-Image-2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，提炼为可复用 Skills，持续更新。覆盖电商、品牌、UI 截图、人物写实等场景。",
+      "reason": "提示词工程文档/template 合集 repo，非可安装工具；条件 a 不满足。GPT-Image-2 API 本身也需付费。relevant=false。",
+      "usage": "JavaScript, prompt template collection, GPT-Image-2 API required (paid)",
+      "tag": "design",
+      "category": "GPT-Image-2 Prompt Engineering Templates",
+      "relevant": false
+    },
+    {
+      "rank": 15,
       "name": "MoonTechLab/LunaTV",
       "owner": "MoonTechLab",
       "source": "github",
@@ -156,7 +212,7 @@
       "relevant": false
     },
     {
-      "rank": 12,
+      "rank": 16,
       "name": "The-Swarm-Corporation/AutoHedge",
       "owner": "The-Swarm-Corporation",
       "source": "github",
@@ -170,21 +226,7 @@
       "relevant": false
     },
     {
-      "rank": 13,
-      "name": "viarotel-org/escrcpy",
-      "owner": "viarotel-org",
-      "source": "github",
-      "installs": "11,314 stars, +173 today, JavaScript, 今日新面孔",
-      "stars": 11314,
-      "desc": "escrcpy — Display and control your Android device graphically with scrcpy. 图形界面 Android 设备控制工具，基于 scrcpy。",
-      "reason": "Android 设备控制工具，非 Product Designer 核心设计工具；条件 d 不满足。relevant=false。",
-      "usage": "JavaScript, Android device control, scrcpy GUI",
-      "tag": "workflow",
-      "category": "Android Device Controller (scrcpy GUI)",
-      "relevant": false
-    },
-    {
-      "rank": 14,
+      "rank": 17,
       "name": "debpalash/VoiceStudio",
       "owner": "debpalash",
       "source": "github",
@@ -198,7 +240,7 @@
       "relevant": true
     },
     {
-      "rank": 15,
+      "rank": 18,
       "name": "OpenWhispr/openwhispr",
       "owner": "OpenWhispr",
       "source": "github",
@@ -212,7 +254,7 @@
       "relevant": true
     },
     {
-      "rank": 16,
+      "rank": 19,
       "name": "getopenscreen/openscreen",
       "owner": "getopenscreen",
       "source": "github",
@@ -226,7 +268,7 @@
       "relevant": true
     },
     {
-      "rank": 17,
+      "rank": 20,
       "name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "source": "github",
@@ -240,7 +282,7 @@
       "relevant": true
     },
     {
-      "rank": 18,
+      "rank": 21,
       "name": "DietrichGebert/ponytail",
       "owner": "DietrichGebert",
       "source": "github",
@@ -254,7 +296,7 @@
       "relevant": false
     },
     {
-      "rank": 19,
+      "rank": 22,
       "name": "ruvnet/ruflo",
       "owner": "ruvnet",
       "source": "github",
@@ -268,7 +310,7 @@
       "relevant": false
     },
     {
-      "rank": 20,
+      "rank": 23,
       "name": "blader/humanizer",
       "owner": "blader",
       "source": "github",
