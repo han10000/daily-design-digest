@@ -5217,7 +5217,8 @@
         "title": "Scroll Fade 该死了：一个被滥用的前端反模式",
         "summary": "前端开发者 David Bushell 用一篇故意让人不适的「全页 scroll fade」文章讽刺这个流行趋势。元素随滚动渐入渐出看似高级，实际上破坏可读性、浪费 GPU、干扰辅助技术。好的动效应该有功能意义，而不是纯装饰。",
         "url": "https://dbushell.com/2026/01/09/death-to-scroll-fade/",
-        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。"
+        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。",
+        "image": "https://dbushell.com/images/articles/2026-01-09-death-to-scroll-fade.png"
       },
       {
         "source": "UX Collective",
