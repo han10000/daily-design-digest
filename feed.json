@@ -4144,7 +4144,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
         "source": "The Verge",
         "why": "诉讼今天开庭，时效性极强。OpenAI 的走向影响所有在用 GPT 系产品的设计师，了解这场纠纷的来龙去脉有必要。",
-        "type": "ai-industry"
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268474_musk_vs_altman_CVirginia2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "DeepSeek V4 为什么重要：MIT 技术评论的三个理由",
@@ -4184,7 +4185,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
         "source": "The Verge",
         "why": "你在企业内部推 AI 功能时遭遇的组织阻力，和 Maven 早期面对的阻力在结构上高度相似。这个极端版本的案例给了一个清晰的「AI 产品被采用」路径模板，以及一个关于 AI 透明度设计的极端压力测试场景。",
-        "type": "ai-ethics"
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268484_How_the_US_embraced_AI_warfare_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -4553,7 +4555,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/911267/ai-influencers-coachella",
         "source": "The Verge",
         "why": "不只是新闻，是「在充斥 AI 生成内容的平台上设计真实感和信任感」这个 UX 命题的一批真实案例——Coachella 只是入口，背后是每个内容平台都要面对的设计挑战。",
-        "type": "report"
+        "type": "report",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/ai-label-10.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -4857,8 +4860,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
         "source": "The Verge",
         "why": "今天起生效的政策变化，直接影响叉叉使用 OpenClaw + Claude 的工作流，需要立即知道。",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKB382_OPEN_CLAW_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "news"
       }
     ]
   },
@@ -5214,8 +5216,7 @@
         "title": "Scroll Fade 该死了：一个被滥用的前端反模式",
         "summary": "前端开发者 David Bushell 用一篇故意让人不适的「全页 scroll fade」文章讽刺这个流行趋势。元素随滚动渐入渐出看似高级，实际上破坏可读性、浪费 GPU、干扰辅助技术。好的动效应该有功能意义，而不是纯装饰。",
         "url": "https://dbushell.com/2026/01/09/death-to-scroll-fade/",
-        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。",
-        "image": "https://dbushell.com/images/articles/2026-01-09-death-to-scroll-fade.png"
+        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。"
       },
       {
         "source": "UX Collective",
@@ -5432,8 +5433,7 @@
         "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
         "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
-        "publishedAt": "2026-03-11",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-1244428289.jpg?quality=90&strip=all&crop=0%2C10.491678610079%2C100%2C79.016642779841&w=1200"
+        "publishedAt": "2026-03-11"
       },
       {
         "source": "MIT Technology Review",
