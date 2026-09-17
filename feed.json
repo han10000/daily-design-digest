@@ -4860,7 +4860,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
         "source": "The Verge",
         "why": "今天起生效的政策变化，直接影响叉叉使用 OpenClaw + Claude 的工作流，需要立即知道。",
-        "type": "news"
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKB382_OPEN_CLAW_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -5216,7 +5217,8 @@
         "title": "Scroll Fade 该死了：一个被滥用的前端反模式",
         "summary": "前端开发者 David Bushell 用一篇故意让人不适的「全页 scroll fade」文章讽刺这个流行趋势。元素随滚动渐入渐出看似高级，实际上破坏可读性、浪费 GPU、干扰辅助技术。好的动效应该有功能意义，而不是纯装饰。",
         "url": "https://dbushell.com/2026/01/09/death-to-scroll-fade/",
-        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。"
+        "why": "直接关联设计原则：动效要有逻辑意义，不是装饰。下次做页面时自查有没有无意义的 scroll fade。",
+        "image": "https://dbushell.com/images/articles/2026-01-09-death-to-scroll-fade.png"
       },
       {
         "source": "UX Collective",
@@ -5433,7 +5435,8 @@
         "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
         "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
-        "publishedAt": "2026-03-11"
+        "publishedAt": "2026-03-11",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-1244428289.jpg?quality=90&strip=all&crop=0%2C10.491678610079%2C100%2C79.016642779841&w=1200"
       },
       {
         "source": "MIT Technology Review",
