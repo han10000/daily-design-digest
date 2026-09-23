@@ -4829,7 +4829,8 @@
         "url": "https://www.nngroup.com/articles/ai-survey-writing/",
         "source": "Nielsen Norman Group",
         "why": "非常实用。叉叉在做产品设计时会用到用户调研，了解 AI 辅助的真实边界（而不是营销话术），能避免因为信任 AI 初稿而引入研究偏差。",
-        "type": "research"
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_1.png"
       }
     ]
   },
@@ -5629,7 +5630,7 @@
         "url": "https://www.anthropic.com/research/labor-market-impacts",
         "why": "设计师关心的「AI 会替代我吗」有了数据回答：短期不会，但初级岗位缩水是真实趋势，设计师需要往上走",
         "publishedAt": "2026-03-05",
-        "image": "https://cdn.sanity.io/images/4zrzovbb/website/db62de82e8396bec6edf60ee2134b36957cc7700-1200x630.jpg"
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/db62de82e8396bec6edf60ee2134b36957cc7700-1200x630.jpg"
       },
       {
         "source": "社区",
