@@ -3793,8 +3793,7 @@
         "url": "https://www.nngroup.com/articles/designing-ai-agents/",
         "source": "Nielsen Norman Group",
         "why": "目前 AI agent 设计还停留在拍脑袋阶段，这是少数基于真实用研的设计原则总结，而且来自中国市场——双重稀缺。",
-        "type": "UX Research",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/4_Lessons_from_China-cc.png"
+        "type": "UX Research"
       },
       {
         "title": "关于 AI，我从精灵童话里学到的一切",
