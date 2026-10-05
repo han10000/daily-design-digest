@@ -1380,8 +1380,7 @@
         "url": "https://www.nngroup.com/articles/product-sense-definition/",
         "source": "Nielsen Norman Group",
         "why": "AI 工具正在把设计师从执行者推向决策者，但「产品直觉」这个概念长期缺乏清晰定义。NNGroup 这次给了个可操作的锚点，时机很准。",
-        "type": "framework",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Product_Sense1.png"
+        "type": "framework"
       },
       {
         "title": "Midjourney 收购星座 app Co-Star，AI 公司开始抢占「个人化」入口",
@@ -2244,7 +2243,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
         "source": "The Verge",
         "why": "AI 隐私设计的极端案例。用户对 AI 对话「私密性」的心理预期 vs 实际数据留存——这个认知差距是产品设计者需要主动解决的伦理问题，不能等法律逼着来。",
-        "type": "ai-ethics"
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0%2C9.1603455154706%2C100%2C81.679308969059&w=1200"
       }
     ]
   },
@@ -3220,7 +3220,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
         "source": "The Verge",
         "why": "第一个真实落地的消费级 agentic finance 产品案例。agent 权限边界 + 控制 UI 的设计思路对任何在做 AI agent 产品的设计师都有直接参考价值。",
-        "type": "product-case"
+        "type": "product-case",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/acastro_STK049_03.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
