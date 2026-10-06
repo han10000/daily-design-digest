@@ -1380,7 +1380,8 @@
         "url": "https://www.nngroup.com/articles/product-sense-definition/",
         "source": "Nielsen Norman Group",
         "why": "AI 工具正在把设计师从执行者推向决策者，但「产品直觉」这个概念长期缺乏清晰定义。NNGroup 这次给了个可操作的锚点，时机很准。",
-        "type": "framework"
+        "type": "framework",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Product_Sense1.png"
       },
       {
         "title": "Midjourney 收购星座 app Co-Star，AI 公司开始抢占「个人化」入口",
