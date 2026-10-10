@@ -47,8 +47,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
         "source": "The Verge",
         "why": "设计师的工作流正在被这类工具重塑。草图作为输入源，比文字 prompt 对设计师更直觉。了解工具边界才能判断什么时候用、什么时候不用。",
-        "type": "产品动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/ai-label-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "产品动态"
       },
       {
         "title": "OpenAI 宣称解决了 90 年未解数学难题，但背后有道德争议",
@@ -293,8 +292,7 @@
         "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
         "source": "The Verge",
         "why": "开源社区对 AI 工具的治理框架，往往比企业政策更早形成共识。这个「AI 工具中立」判例预示着 AI 辅助设计的责任归属将如何被行业定义。",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0009_7.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "news"
       },
       {
         "title": "Open ASR 排行榜新增首个「全球南方」语言：AI 语音识别的边缘场景开始被认真对待",
@@ -355,8 +353,7 @@
         "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
         "source": "The Verge",
         "why": "创作者视角的 AI 真实性之战，直接预示内容平台和创作工具的下一个设计挑战：如何建立信任信号",
-        "type": "industry",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268714_finding_and_shaming_AI_grifters_CVirginia.jpg?quality=90&strip=all&crop=0%2C11.150136769481%2C85.33125%2C67.014037093516&w=1200"
+        "type": "industry"
       },
       {
         "title": "索尼、华纳向 Anthropic 开炮：版权战升级，设计师用 AI 工具的底线在哪",
@@ -1018,8 +1015,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
         "source": "The Verge",
         "why": "AI 产品的环境代价正在变得无法忽视。这不是纯环保话题——它会影响用户信任、监管方向，以及产品如何向用户传达透明度。",
-        "type": "industry",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "industry"
       }
     ]
   },
@@ -1928,8 +1924,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
         "source": "The Verge",
         "why": "这不只是一次模型更新——是 AI 对话 UX 的范式调整。「何时说、何时听、何时等」是语音产品最难设计的部分，OpenAI 用工程手段直接解了这个交互难题，值得做 AI 产品的设计师细读。",
-        "type": "产品动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/chatgpt-voice-upgrade.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        "type": "产品动态"
       },
       {
         "title": "给 AI Agent 喂什么数据？NVIDIA 开放训练数据集背后的逻辑",
@@ -2359,8 +2354,7 @@
         "url": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
         "source": "The Verge",
         "why": "不是技术文章，但是一个非常直接的「AI 在高信任场景中的可信度」信号。设计 AI 产品时，这类「痕迹暴露」事件是用户对 AI 信任度的真实写照。适合作为设计决策的背景上下文。",
-        "type": "industry-signal",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "industry-signal"
       },
       {
         "title": "用 AI + 人工在环，把发布周期从 6 周压到每周 1 次",
@@ -3243,8 +3237,7 @@
         "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
         "source": "The Verge",
         "why": "Google 搜索的变化直接影响所有信息产品的入口逻辑。Sundar 首次清晰描述了「搜索触发任务」的产品图景，是做 AI 产品 designer 的必读背景。",
-        "type": "industry-insight",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/DCD_2026.05.26_Sundar_Google.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "industry-insight"
       },
       {
         "title": "你的原型在对用户撒谎——以及如何修掉这个 bug",
@@ -3421,8 +3414,7 @@
         "url": "https://www.theverge.com/tech/934628/google-io-2026-android-ai-studio-widgets-shortcuts",
         "source": "The Verge",
         "why": "「生成式 UI」概念首次被主流厂商认真提出——手机根据用户需要动态生成界面和应用。这是 Product Designer 需要提前预判的范式转移：设计的终态可能不是 pixel-perfect 的稿，而是能被 AI 理解和执行的设计意图。",
-        "type": "industry-trend",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258002_Google_Pixel_10_Pro_Fold_AJohnson_0010.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+        "type": "industry-trend"
       },
       {
         "title": "Google 正式下场 AI 设计工具，发布「Pics」直接对战 Canva 和 Claude Design",
@@ -4300,8 +4292,7 @@
         "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
         "source": "The Verge",
         "why": "AI 编码工具的整合方向决定未来 design-to-dev 工作流的形态。了解这场格局变化，才能更好地做工具选型判断和团队协作规划——尤其是现在很多团队都在重度使用 Cursor。",
-        "type": "AI × 工具生态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_C.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200"
+        "type": "AI × 工具生态"
       },
       {
         "title": "企业 AI 落地为什么总翻车？一个实战派的深度复盘",
@@ -4392,8 +4383,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
         "source": "The Verge",
         "why": "AI 能力边界不仅是算法问题，也是硬件问题。内存短缺直接决定 on-device AI、实时推理功能的产品可行性时间线，做 AI 产品设计必须了解这层约束。",
-        "type": "news",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STKS523_RAM_SHORTAGE_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+        "type": "news"
       },
       {
         "title": "OpenAI 砍掉 Sora，团队负责人离职——什么才算 side quest？",
@@ -5332,8 +5322,7 @@
         "summary": "The Verge 记者实测 Gemini 在三星 S26 上的 task automation。AI 在虚拟窗口里自动操作 Uber、星巴克等 app，滚动菜单选商品，最后一步暂停让用户确认。用户可随时接管或中断。这是 AI agent 从对话式走向操作式的标志性落地，关键 UX 设计是：自动执行 + 人工确认兜底 + 随时可接管。",
         "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
         "why": "AI agent 操作真实 app 的 UX 模式值得深入研究：虚拟窗口可视化执行过程、最后一步人工确认、随时可接管——这三个设计决策会成为 AI 自动化产品的标配模式。",
-        "publishedAt": "2026-03-12",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/dsc03087_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
+        "publishedAt": "2026-03-12"
       },
       {
         "source": "The Verge",
