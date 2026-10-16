@@ -1959,8 +1959,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
         "source": "The Verge",
         "why": "Cowork 代表 AI agent 在产品交互模式上的重要演进——用户不再盯着屏幕等结果，而是「派出去、等通知、回来审批」，这是 designer 需要理解的新 UX 范式",
-        "type": "产品动态",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Cowork-Web-Mobile-Press-No-Logo-1920x1080-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
+        "type": "产品动态"
       },
       {
         "title": "Smashing Magazine：无限画布来了——WordPress 第一个自由布局可视化建站工具 Kirki",
@@ -2921,8 +2920,7 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
         "source": "The Verge",
         "why": "不是批评，是一个值得仔细拆解的设计决策样本：当 AI 生成取代内容策展，信息流的设计逻辑会往哪走？Meta 走到了一个极端，值得参照思考。",
-        "type": "案例观察",
-        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
+        "type": "案例观察"
       }
     ]
   },
