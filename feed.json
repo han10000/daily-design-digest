@@ -1959,7 +1959,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
         "source": "The Verge",
         "why": "Cowork 代表 AI agent 在产品交互模式上的重要演进——用户不再盯着屏幕等结果，而是「派出去、等通知、回来审批」，这是 designer 需要理解的新 UX 范式",
-        "type": "产品动态"
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Cowork-Web-Mobile-Press-No-Logo-1920x1080-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
       },
       {
         "title": "Smashing Magazine：无限画布来了——WordPress 第一个自由布局可视化建站工具 Kirki",
@@ -2920,7 +2921,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
         "source": "The Verge",
         "why": "不是批评，是一个值得仔细拆解的设计决策样本：当 AI 生成取代内容策展，信息流的设计逻辑会往哪走？Meta 走到了一个极端，值得参照思考。",
-        "type": "案例观察"
+        "type": "案例观察",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ai-label-14.png?quality=90&strip=all&crop=0%2C0%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -5408,8 +5410,7 @@
         "summary": "CSS 新属性 corner-shape 配合 border-radius 使用，支持 squircle（Apple 风超椭圆）、bevel（切角）、scoop（内凹）、notch（直角切口）、square 五种形状，还有 superellipse() 函数做精细控制。告别 clip-path 和 SVG mask 的 hack 时代。目前仅 Chrome 139+ 支持，但作为渐进增强可以开始用了。",
         "url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
         "why": "squircle 一直是 Apple 设计语言的标志性元素，现在原生 CSS 就能做了。做 web UI 时不再需要 SVG hack 来实现 iOS 风格的圆角，设计稿到代码的距离又近了一步。",
-        "publishedAt": "2026-03-12",
-        "image": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg"
+        "publishedAt": "2026-03-12"
       },
       {
         "source": "HuggingFace / NVIDIA",
