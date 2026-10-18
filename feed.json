@@ -5410,7 +5410,8 @@
         "summary": "CSS 新属性 corner-shape 配合 border-radius 使用，支持 squircle（Apple 风超椭圆）、bevel（切角）、scoop（内凹）、notch（直角切口）、square 五种形状，还有 superellipse() 函数做精细控制。告别 clip-path 和 SVG mask 的 hack 时代。目前仅 Chrome 139+ 支持，但作为渐进增强可以开始用了。",
         "url": "https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/",
         "why": "squircle 一直是 Apple 设计语言的标志性元素，现在原生 CSS 就能做了。做 web UI 时不再需要 SVG hack 来实现 iOS 风格的圆角，设计稿到代码的距离又近了一步。",
-        "publishedAt": "2026-03-12"
+        "publishedAt": "2026-03-12",
+        "image": "https://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg"
       },
       {
         "source": "HuggingFace / NVIDIA",
