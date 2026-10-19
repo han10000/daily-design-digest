@@ -5195,8 +5195,7 @@
         "title": "让 AI 成为更好的编辑：3 个提示词技巧",
         "summary": "NNGroup 的 UX 写作专家 Taylor Dykes 分享 3 个让 AI 编辑效果更好的方法：在 prompt 中包含多个语气词或示例、要求生成多个备选方案、避免依赖默认输出。核心洞察：AI 的编辑能力通常不错，但好的 prompting 实践不应被忽视——「能用」和「用好」之间差的是 prompt 质量。",
         "url": "https://www.nngroup.com/videos/better-AI-editor/",
-        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。",
-        "image": "https://media.nngroup.com/media/videos/thumbnails/Taylor_3_Tips_to_Make_AI_a_Better_Editor.jpg"
+        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。"
       }
     ]
   },
@@ -5248,8 +5247,7 @@
         "title": "AI 研究工具的方法论盲点",
         "summary": "NNGroup 指出当前 AI 辅助用户研究工具的核心问题：AI 能快速处理数据，但容易忽略方法论的严谨性。量化效率不等于研究质量，工具设计需要内置方法论护栏。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
-        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
+        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。"
       },
       {
         "source": "HuggingFace",
@@ -5366,8 +5364,7 @@
         "summary": "NNGroup 回应 Anthropic 设计负责人 Jenny Wen「丢掉设计流程」的观点。资深设计师看起来跳过流程其实是把 discover-ideate-evaluate 内化后快速压缩执行。Double Diamond 是风险管理工具不是 checklist，Solution-first 只在成熟问题空间有效。提出 Process Literacy 概念：根据不确定性程度匹配流程深度。",
         "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
         "why": "直接回应了 AI 时代「设计师还需不需要流程」的争论。Process Literacy 概念很实用——下次面对新项目时，先评估问题空间的成熟度，再决定流程深浅，而不是默认走全套或全跳过。",
-        "publishedAt": "2026-03-13",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_A.png"
+        "publishedAt": "2026-03-13"
       },
       {
         "source": "UX Collective",
