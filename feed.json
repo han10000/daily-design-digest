@@ -169,8 +169,7 @@
         "url": "https://www.nngroup.com/articles/ai-work-study-guide/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 出品质量保证，系统性 > 碎片化，适合想构建 AI workflow 但不知从哪入手的设计师",
-        "type": "实战指南",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_-Study-Guide-1_1.png"
+        "type": "实战指南"
       },
       {
         "title": "浏览器端 AI 加速：HuggingFace 发布 200+ WebGPU 算子库",
@@ -2429,8 +2428,7 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 的实证研究首次命名了一类新用户群体，直接影响 AI 产品的用户画像和体验设计方向，非常值得 PM 和 designer 读。",
-        "type": "research",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
+        "type": "research"
       }
     ]
   },
@@ -2504,8 +2502,7 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "直接关系到我们正在设计的 AI 产品的真实用户——不是专家，是靠直觉驱动、用结果倒推理解的「Vibe 架构师」。了解他们怎么建、怎么出错，对任何要设计给非技术用户的 Agentic AI 产品都是核心参考。",
-        "type": "research",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
+        "type": "research"
       },
       {
         "title": "企业软件正在「个人化」：三个正在重塑 B 端 UX 的设计趋势",
@@ -2676,8 +2673,7 @@
         "url": "https://www.nngroup.com/articles/ai-era-critique/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 对 AI 产品设计范式转变的清晰阐述，有具体方法论，帮设计师找到在 AI 时代的新立足点",
-        "type": "methodology",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Core_Skill_of_Design_in_the_AI_Era__Critique-1.png"
+        "type": "methodology"
       }
     ]
   },
@@ -2729,8 +2725,7 @@
         "url": "https://www.nngroup.com/articles/context-architecture/",
         "source": "Nielsen Norman Group",
         "why": "「Context Architecture」这个框架把 IA 的经典方法迁移到 AI agent 设计，对设计师非常友好。叉叉在做 AI 产品时正好需要这类连接传统设计知识和 AI 新范式的思维框架。",
-        "type": "新概念 / 框架",
-        "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Architecture_-_1.png"
+        "type": "新概念 / 框架"
       },
       {
         "title": "人形机器人正在改变人类社会——设计师该想什么",
@@ -5195,7 +5190,8 @@
         "title": "让 AI 成为更好的编辑：3 个提示词技巧",
         "summary": "NNGroup 的 UX 写作专家 Taylor Dykes 分享 3 个让 AI 编辑效果更好的方法：在 prompt 中包含多个语气词或示例、要求生成多个备选方案、避免依赖默认输出。核心洞察：AI 的编辑能力通常不错，但好的 prompting 实践不应被忽视——「能用」和「用好」之间差的是 prompt 质量。",
         "url": "https://www.nngroup.com/videos/better-AI-editor/",
-        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。"
+        "why": "实用的 AI 写作技巧，直接可用于日常工作中让 AI 帮忙改文案。",
+        "image": "https://media.nngroup.com/media/videos/thumbnails/Taylor_3_Tips_to_Make_AI_a_Better_Editor.jpg"
       }
     ]
   },
@@ -5247,7 +5243,8 @@
         "title": "AI 研究工具的方法论盲点",
         "summary": "NNGroup 指出当前 AI 辅助用户研究工具的核心问题：AI 能快速处理数据，但容易忽略方法论的严谨性。量化效率不等于研究质量，工具设计需要内置方法论护栏。",
         "url": "https://www.nngroup.com/articles/research-tool-problems/",
-        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。"
+        "why": "设计 AI 工具时，不只要考虑效率提升，还要考虑如何防止用户因为效率高而跳过关键步骤。",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_B.png"
       },
       {
         "source": "HuggingFace",
@@ -5364,7 +5361,8 @@
         "summary": "NNGroup 回应 Anthropic 设计负责人 Jenny Wen「丢掉设计流程」的观点。资深设计师看起来跳过流程其实是把 discover-ideate-evaluate 内化后快速压缩执行。Double Diamond 是风险管理工具不是 checklist，Solution-first 只在成熟问题空间有效。提出 Process Literacy 概念：根据不确定性程度匹配流程深度。",
         "url": "https://www.nngroup.com/articles/design-process-isnt-dead/",
         "why": "直接回应了 AI 时代「设计师还需不需要流程」的争论。Process Literacy 概念很实用——下次面对新项目时，先评估问题空间的成熟度，再决定流程深浅，而不是默认走全套或全跳过。",
-        "publishedAt": "2026-03-13"
+        "publishedAt": "2026-03-13",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Card_A.png"
       },
       {
         "source": "UX Collective",
