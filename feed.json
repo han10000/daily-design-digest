@@ -169,7 +169,8 @@
         "url": "https://www.nngroup.com/articles/ai-work-study-guide/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 出品质量保证，系统性 > 碎片化，适合想构建 AI workflow 但不知从哪入手的设计师",
-        "type": "实战指南"
+        "type": "实战指南",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_-Study-Guide-1_1.png"
       },
       {
         "title": "浏览器端 AI 加速：HuggingFace 发布 200+ WebGPU 算子库",
@@ -2428,7 +2429,8 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 的实证研究首次命名了一类新用户群体，直接影响 AI 产品的用户画像和体验设计方向，非常值得 PM 和 designer 读。",
-        "type": "research"
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
       }
     ]
   },
@@ -2502,7 +2504,8 @@
         "url": "https://www.nngroup.com/articles/vibe-architects/",
         "source": "Nielsen Norman Group",
         "why": "直接关系到我们正在设计的 AI 产品的真实用户——不是专家，是靠直觉驱动、用结果倒推理解的「Vibe 架构师」。了解他们怎么建、怎么出错，对任何要设计给非技术用户的 Agentic AI 产品都是核心参考。",
-        "type": "research"
+        "type": "research",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Vibe_Architects__Agentic_Vibe_Coders-1.png"
       },
       {
         "title": "企业软件正在「个人化」：三个正在重塑 B 端 UX 的设计趋势",
@@ -2673,7 +2676,8 @@
         "url": "https://www.nngroup.com/articles/ai-era-critique/",
         "source": "Nielsen Norman Group",
         "why": "NNGroup 对 AI 产品设计范式转变的清晰阐述，有具体方法论，帮设计师找到在 AI 时代的新立足点",
-        "type": "methodology"
+        "type": "methodology",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Core_Skill_of_Design_in_the_AI_Era__Critique-1.png"
       }
     ]
   },
@@ -2725,7 +2729,8 @@
         "url": "https://www.nngroup.com/articles/context-architecture/",
         "source": "Nielsen Norman Group",
         "why": "「Context Architecture」这个框架把 IA 的经典方法迁移到 AI agent 设计，对设计师非常友好。叉叉在做 AI 产品时正好需要这类连接传统设计知识和 AI 新范式的思维框架。",
-        "type": "新概念 / 框架"
+        "type": "新概念 / 框架",
+        "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Architecture_-_1.png"
       },
       {
         "title": "人形机器人正在改变人类社会——设计师该想什么",
@@ -5610,7 +5615,7 @@
         "url": "https://www.anthropic.com/news/mozilla-firefox-security",
         "why": "AI 能力边界在扩张到高专业度领域（安全/法律/医疗），这些领域的 AI UX 设计会成为新赛道",
         "publishedAt": "2026-03-06",
-        "image": "https://www.anthropic.com/api/opengraph-illustration?name=Object%20Desktop&backgroundColor=coral"
+        "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
       }
     ]
   },
