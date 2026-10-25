@@ -47,7 +47,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
         "source": "The Verge",
         "why": "设计师的工作流正在被这类工具重塑。草图作为输入源，比文字 prompt 对设计师更直觉。了解工具边界才能判断什么时候用、什么时候不用。",
-        "type": "产品动态"
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/ai-label-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "OpenAI 宣称解决了 90 年未解数学难题，但背后有道德争议",
@@ -55,7 +56,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
         "source": "The Verge",
         "why": "不只是科技新闻。它暗示 AI 工具侵蚀用户创意所有权的风险正在变得真实。设计师该怎么思考「把我的草图/原型/灵感放进 AI 工具」这件事？",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25844039/STK155_OPEN_AI_CVirginia__A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -291,7 +293,8 @@
         "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
         "source": "The Verge",
         "why": "开源社区对 AI 工具的治理框架，往往比企业政策更早形成共识。这个「AI 工具中立」判例预示着 AI 辅助设计的责任归属将如何被行业定义。",
-        "type": "news"
+        "type": "news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK414_AI_CVIRGINIA_I__0009_7.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "Open ASR 排行榜新增首个「全球南方」语言：AI 语音识别的边缘场景开始被认真对待",
@@ -486,7 +489,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
         "source": "The Verge",
         "why": "AI 推理速度直接影响产品 UX 的「等待感」——Jalapeño 代表的不只是技术进步，而是「loading state 该怎么设计」这个问题可能在基础设施层被重新定义",
-        "type": "ai-industry"
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Jalapeno-chip-final.jpeg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200"
       }
     ]
   },
@@ -733,7 +737,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
         "source": "The Verge",
         "why": "AI 内容溯源即将成为设计约束——理解水印如何工作，有助于设计师在 transparency UX 上做出有依据的决策",
-        "type": "industry"
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STKB364_CLAUDE_2_C_96d15c.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -911,7 +916,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
         "source": "The Verge",
         "why": "行业里程碑事件，直接改变设计假设——用户的 AI 使用心智模型已经在快速成熟，「教用户用 AI」的时代结束了，「如何在 AI 普及后脱颖而出」的设计课题才刚开始。",
-        "type": "industry-news"
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/gemini-live-ai-ad.png?quality=90&strip=all&crop=0%2C2.0352385861162%2C100%2C95.929522827768&w=1200"
       },
       {
         "title": "不用物理引擎也能做出真实触感交互：Lottie 精确帧控的实战拆解",
@@ -1074,7 +1080,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
         "source": "The Verge",
         "why": "AI 生成内容水印成为行业趋势，如何在 UI 中呈现内容来源正成为设计师需要解决的新课题",
-        "type": "industry-news"
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -1134,7 +1141,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
         "source": "The Verge",
         "why": "做 AI 产品的设计师必须了解这个监管动向。欧盟规则往往会成为全球设计标准的参考，chatbot 身份披露、AI 内容标注的 UI 模式即将成为标配，这篇是最清晰的一手报道。",
-        "type": "industry-news"
+        "type": "industry-news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268679_Europes_AI_labeling_and_transparency_rules_are_now_in_effect_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -1610,7 +1618,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
         "source": "The Verge AI",
         "why": "AI 产品的外部代价视角。做 AI 产品的人往往只盯着用户指标，但这个故事提醒设计师：产品在「目标用户」之外还在发生什么？这是系统性思维的练习，也是做负责任设计必须面对的问题。",
-        "type": "perspective"
+        "type": "perspective",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2157758001.jpg?quality=90&strip=all&crop=0%2C2.5961195218394%2C100%2C43.073649479563&w=1200"
       },
       {
         "title": "你表单里的下拉菜单，真的需要吗？NNGroup 重新审视被滥用的经典组件",
@@ -1897,7 +1906,8 @@
         "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
         "source": "The Verge",
         "why": "AI 的环境代价开始有硬数据，帮你理解「AI 功能的代价」这个维度——未来这会影响产品决策",
-        "type": "ai-industry"
+        "type": "ai-industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -1949,7 +1959,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
         "source": "The Verge",
         "why": "Cowork 代表 AI agent 在产品交互模式上的重要演进——用户不再盯着屏幕等结果，而是「派出去、等通知、回来审批」，这是 designer 需要理解的新 UX 范式",
-        "type": "产品动态"
+        "type": "产品动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Cowork-Web-Mobile-Press-No-Logo-1920x1080-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
       },
       {
         "title": "Smashing Magazine：无限画布来了——WordPress 第一个自由布局可视化建站工具 Kirki",
@@ -2172,7 +2183,8 @@
         "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
         "source": "The Verge",
         "why": "NotebookLM 每一次新功能都在试验「AI 改变信息消费形式」的新可能。这次的 TikTok 式短视频是产品形态创新，更是对「用户如何接受 AI 生成内容」的一次实验，值得跟踪观察用户反馈。",
-        "type": "product-move"
+        "type": "product-move",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/notebooklm-shorts.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811"
       }
     ]
   },
@@ -2232,7 +2244,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
         "source": "The Verge",
         "why": "AI 隐私设计的极端案例。用户对 AI 对话「私密性」的心理预期 vs 实际数据留存——这个认知差距是产品设计者需要主动解决的伦理问题，不能等法律逼着来。",
-        "type": "ai-ethics"
+        "type": "ai-ethics",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22530766/1232927726.jpg?quality=90&strip=all&crop=0%2C9.1603455154706%2C100%2C81.679308969059&w=1200"
       }
     ]
   },
@@ -2809,7 +2822,8 @@
         "url": "https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc",
         "source": "The Verge",
         "why": "新 Siri 是目前最受关注的 AI 助手产品之一，手测报告比发布稿更值得读——你能从「哪里能用、哪里不能用」里看出苹果对 AI UX 边界的真实判断。",
-        "type": "product-ai"
+        "type": "product-ai",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/DSC03775_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
       },
       {
         "title": "你真的要把整个数字生活都交给 AI 吗？",
@@ -2969,7 +2983,8 @@
         "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
         "source": "The Verge",
         "why": "「AI 无处不在」的设计默认正在遇到物理极限。当芯片供应商都说供不应求，产品团队就该重新审视 AI 功能的 ROI：每次 AI 调用值得花这个算力吗？这是 2026 年产品决策里一个很少被讨论但越来越重要的约束维度。",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/acastro_210430_1777_semiCon_0001.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3053,7 +3068,8 @@
         "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
         "source": "The Verge",
         "why": "当下每个 AI 产品团队都在讨论「agent 能做到多少」，但理性的实测比 Demo 更有参考价值。这篇文章呈现了 Gemini Spark 真实的能力边界和信任设计问题，直接影响你对自己产品中 agent 功能的设计判断。",
-        "type": "hands-on-review"
+        "type": "hands-on-review",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/lcimg-0ebbe911-9fbb-4f68-97b0-b7361d7cb53c.jpeg?quality=90&strip=all&crop=0%2C10.604950381935%2C100%2C78.79009923613&w=1200"
       },
       {
         "title": "AI 遭遇斯特金定律：内容变多，质量未必变好",
@@ -3104,7 +3120,8 @@
         "url": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
         "source": "The Verge",
         "why": "当所有人都在讨论「AI first」的时候，这个故事提供了一个反例：真正的产品力来自对用户需求的深度专注，而不是跟风。Past Maps 的增长路径——从 Reddit 上分享、到 SEO 自然增长、到订阅变现——是一个非常「设计师式」的产品思维：从真实问题出发，减法胜加法。",
-        "type": "product-thinking"
+        "type": "product-thinking",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Screenshot-2026-05-27-at-11.17.27AM.png?quality=90&strip=all&crop=0%2C9.2187253673634%2C100%2C81.562549265273&w=1200"
       },
       {
         "title": "顶尖 AI 模型在企业 IT Agent 任务上得分不到 50%——第一个权威基准出炉",
@@ -3226,7 +3243,8 @@
         "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
         "source": "The Verge",
         "why": "Google 搜索的变化直接影响所有信息产品的入口逻辑。Sundar 首次清晰描述了「搜索触发任务」的产品图景，是做 AI 产品 designer 的必读背景。",
-        "type": "industry-insight"
+        "type": "industry-insight",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/DCD_2026.05.26_Sundar_Google.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "你的原型在对用户撒谎——以及如何修掉这个 bug",
@@ -3256,7 +3274,8 @@
         "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
         "source": "The Verge",
         "why": "覆盖十几亿人的机构正式发声，「人的尊严」将越来越成为产品评判标准。Anthropic 出席发布仪式，AI 公司的社会角色博弈已进入新阶段。",
-        "type": "AI + 伦理"
+        "type": "AI + 伦理",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2278126608.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.487862082976&w=1200"
       },
       {
         "title": "AI Agent 术语大扫盲：Harness、Scaffold、Context Engineering 到底是什么？",
@@ -3434,7 +3453,8 @@
         "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
         "source": "The Verge",
         "why": "Google I/O 2026 核心趋势总结，一篇文章看清搜索+AI Agent 的范式转移，对做 AI 产品的设计师极有参考价值",
-        "type": "industry-trend"
+        "type": "industry-trend",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/lcimg-036c9a25-7169-4853-846e-94fd035c259f.jpeg?quality=90&strip=all&crop=0%2C10.597538331207%2C100%2C78.804923337586&w=1200"
       },
       {
         "title": "Google 的 AI 未来，靠你先交出所有数据",
@@ -3442,7 +3462,8 @@
         "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
         "source": "The Verge",
         "why": "AI 产品的信任设计难题，Google 是最真实的案例——数据深度整合带来的 UX 挑战，设计师必须提前想清楚",
-        "type": "product-design"
+        "type": "product-design",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gemini-spark-tasks.png?quality=90&strip=all&crop=0.50140845070423%2C0%2C98.997183098592%2C100&w=1200"
       },
       {
         "title": "设计伦理框架的地基在松动，我们需要比五大原则更深的东西",
@@ -3480,7 +3501,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932464/musk-v-altman-proved-that-ai-is-led-by-the-wrong-people",
         "source": "The Verge AI",
         "why": "这不是八卦，是行业背景。在微软工作的设计师尤其应该有这个视角——你的产品和 OpenAI 深度绑定，了解 AI 权力结构的现状，有助于在内部做产品决策时保持清醒。",
-        "type": "industry"
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25739950/247386_Elon_Musk_Open_AI_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3510,7 +3532,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
         "source": "The Verge AI",
         "why": "了解真实用户对 AI 的情感态度，是做出有共情的 AI 产品的前提。这个故事是当前年轻用户情绪的一个缩影。",
-        "type": "📡 趋势信号"
+        "type": "📡 趋势信号",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23350482/1328571726.jpg?quality=90&strip=all&crop=0%2C10.675926728958%2C100%2C78.648146542083&w=1200"
       }
     ]
   },
@@ -3531,7 +3554,8 @@
         "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
         "source": "The Verge",
         "why": "一个具体的 AI UX 失败案例：AI 给出的建议没有可解释性，用户无法建立信任。任何在产品里加 AI 建议功能的设计师都应该看",
-        "type": "行业动态"
+        "type": "行业动态",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/HIW4oV0XgAEmtI2.jpeg?quality=90&strip=all&crop=0,29.168083278796,100,52.356020942408"
       },
       {
         "title": "YouTube 把 AI 深度伪造检测开放给所有成年用户",
@@ -3655,7 +3679,8 @@
         "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
         "source": "The Verge",
         "why": "不是技术新闻，是产品决策案例：当平台把 AI 包装成账号而非功能，用户控制权应该如何设计？这个问题在未来两年会越来越尖锐，适合提前建立框架。",
-        "type": "product"
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24774110/STK156_Instagram_threads_1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "你最好的设计作品是个小项目，怎么办？",
@@ -3807,7 +3832,8 @@
         "url": "https://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
         "source": "The Verge",
         "why": "AirPods 是最高普及率的个人设备之一，加入环境摄像头意味着「AI 看见你的世界」这件事会以前所未有的规模发生，UX 设计的边界和隐私设计的考量都要跟着变。",
-        "type": "product news"
+        "type": "product news",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/257943_Airpods_Pro3_AKrales_0145.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       }
     ]
   },
@@ -3890,7 +3916,8 @@
         "url": "https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch",
         "source": "The Verge",
         "why": "「完成任务」到「建立连接」的产品设计转变。当核心 KPI 从 task completion 变成 emotional bond，整套设计语言都要重写。这个方向值得提前感受。",
-        "type": "product"
+        "type": "product",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/Golden.png?quality=90&strip=all&crop=0%2C1.8117057886209%2C100%2C96.376588422758&w=1200"
       }
     ]
   },
@@ -4550,7 +4577,8 @@
         "url": "https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic",
         "source": "The Verge",
         "why": "设计师越来越多地在用 AI coding 工具（vibe coding、前端快速原型）。了解这个战场的格局，能帮你更理性地选工具，也能帮你在团队里更好地与工程师讨论 AI workflow 的整合方向。",
-        "type": "industry"
+        "type": "industry",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268441_AI_CODING_RACE_CVIRGINIA.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "title": "设计「会学习的团队」：把 Senge 第五项修炼用在产品设计上",
@@ -5025,7 +5053,8 @@
         "summary": "Nvidia CEO 黄仁勋在 Lex Fridman 播客上宣称「我认为我们已经实现了 AGI」。他给的定义不是「超越人类」，而是「能做你的工作——启动、发展并运营一家价值超十亿美元的科技公司」。但随后他自己也开始收缩这个说法，承认大多数个人 AI agent 用几个月就废弃了。他提到 OpenClaw 的病毒式传播作为证据，并对「某个 AI 驱动的社交产品突然爆红」充满期待。这个故事最有意思的不是 AGI 本身，而是行业领袖如何在公开场合定义 AGI——每个定义背后都有商业利益，每一次宣称都在推高行业期望，同时也在降低技术的神圣性。对产品设计师来说，这是一个关于「如何用定义掌控叙事」的生动案例。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi",
         "why": "AGI 这个词正在被业界领袖系统性地软化和重新定义。作为 AI 产品设计师，你需要辨别：客户说「我要做 AGI 级别的产品」是真的技术雄心，还是叙事策略。这篇帮你校准这个判断。",
-        "publishedAt": "2026-03-23"
+        "publishedAt": "2026-03-23",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "The Verge",
@@ -5125,7 +5154,8 @@
         "title": "Google 开始用 AI 替换搜索结果里的新闻标题，已悄悄改动多篇",
         "summary": "Google Search 正在悄悄把新闻网站的原始标题替换成 AI 生成版本，而且不会提示用户。The Verge 发现自家多篇文章在搜索结果中显示的是 Google 改写后的标题，有时甚至改变了原意——比如一篇评测不推荐某产品的文章，标题被改成了「XX AI 工具」，听起来像是背书。Google 称这是小范围实验，但无法说明实验规模。这个现象的深层含义对 AI 产品设计者极为重要：AI 改写内容的边界在哪里？谁来判断更好的标题？这是 AI 影响信息呈现的典型案例，同时也引发了信息准确性、品牌控制权、内容语义保真度等一系列设计伦理问题。",
         "url": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
-        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。"
+        "why": "作为 AI 产品设计师，你需要思考：当 AI 有权力修改用户的内容来呈现时，边界在哪里？这个案例是一个正在发生的真实争论，未来这类决策会越来越多地出现在你的设计里。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/10455389/mdoying_180117_2249_0206stills.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "Smashing Magazine",
@@ -5279,7 +5309,8 @@
         "title": "AI 公司想收割即兴表演演员的技能来训练情感 AI",
         "summary": "AI 公司开始招募即兴表演演员作为训练数据源：通过录制他们的表情、语调、肢体语言来训练 AI 理解和生成人类情感。演员们面临两难——参与训练可能取代自己的职业，但报酬在当下是实实在在的收入。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/893931/ai-companies-handshake-improv-actors-training-data",
-        "why": "AI 训练数据的伦理困境。和之前「证明我是人」趋势一致——创意工作者正在成为 AI 的「原材料」。"
+        "why": "AI 训练数据的伦理困境。和之前「证明我是人」趋势一致——创意工作者正在成为 AI 的「原材料」。",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268402_AI_companies_want_to_harvest_improv_actors_skills_to_train_large_AI_models_on_human_emotion_and_tone_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "UX Collective",
@@ -5301,7 +5332,8 @@
         "summary": "The Verge 记者实测 Gemini 在三星 S26 上的 task automation。AI 在虚拟窗口里自动操作 Uber、星巴克等 app，滚动菜单选商品，最后一步暂停让用户确认。用户可随时接管或中断。这是 AI agent 从对话式走向操作式的标志性落地，关键 UX 设计是：自动执行 + 人工确认兜底 + 随时可接管。",
         "url": "https://www.theverge.com/tech/893820/gemini-task-automation-samsung-s26-google-pixel-10",
         "why": "AI agent 操作真实 app 的 UX 模式值得深入研究：虚拟窗口可视化执行过程、最后一步人工确认、随时可接管——这三个设计决策会成为 AI 自动化产品的标配模式。",
-        "publishedAt": "2026-03-12"
+        "publishedAt": "2026-03-12",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/dsc03087_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200"
       },
       {
         "source": "The Verge",
@@ -5310,7 +5342,8 @@
         "summary": "Meta 给 Marketplace 加了 AI 自动回复：卖家勾选开启后，买家问可用性时 AI 自动草拟可编辑回复。同时 AI 根据照片自动填写商品描述和建议定价，生成卖家档案摘要。",
         "url": "https://www.theverge.com/tech/893907/facebook-marketplace-ai-auto-reply-listings",
         "why": "AI 介入高频低价值交互的教科书案例。设计师可以用这个思路审视自己产品中哪些交互是用户不想做但不得不做的，这些就是 AI 自动化的最佳切入点。",
-        "publishedAt": "2026-03-12"
+        "publishedAt": "2026-03-12",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK040_VRG_Illo_N_Barclay_2_facebook.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
       },
       {
         "source": "UX Collective",
@@ -5402,7 +5435,8 @@
         "summary": "Grammarly 的 Expert Review 功能用了真实记者和学者的名字包装 AI 建议，完全没通知本人。记者 Julia Angwin 发现后发起集体诉讼，指控侵犯隐私权和肖像权。Superhuman 已紧急下线该功能。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/893451/grammarly-ai-lawsuit-julia-angwin",
         "why": "AI 产品用「真人背书」增加信任感是常见设计手法，但 Grammarly 案例证明未经授权的信任设计会直接引发法律风险。设计师在做 AI 推荐、专家引用类功能时，必须考虑 identity 授权流程。",
-        "publishedAt": "2026-03-11"
+        "publishedAt": "2026-03-11",
+        "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/gettyimages-1244428289.jpg?quality=90&strip=all&crop=0%2C10.491678610079%2C100%2C79.016642779841&w=1200"
       },
       {
         "source": "MIT Technology Review",
