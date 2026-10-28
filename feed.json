@@ -4083,7 +4083,8 @@
         "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
         "source": "MIT Technology Review",
         "why": "当前每个做 AI 产品的人都在经历「技术承诺 vs 现实落地」的撕裂感，这篇文章把这个撕裂感说清楚了，而且给出了有效的思维框架——不是反 AI，是帮你看清 Phase 2 的真实难度。",
-        "type": "产品思考"
+        "type": "产品思考",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/gnome-steps2a.jpg?resize=1200,600"
       },
       {
         "title": "NVIDIA Nemotron 3 Nano Omni：能读文档、听声音、看视频的多模态 AI Agent 来了",
@@ -4152,7 +4153,8 @@
         "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
         "source": "MIT Technology Review",
         "why": "比 HuggingFace 的技术博客更有决策视角，分析了 DeepSeek V4 对整个 AI 生态的影响，包括成本结构和 agent 支持——影响到做 AI 产品的设计判断。",
-        "type": "ai-tools"
+        "type": "ai-tools",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/04/260424_deepseek.jpg?resize=1200,600"
       }
     ]
   },
@@ -5443,7 +5445,8 @@
         "summary": "一个北京工程师在闲鱼卖 OpenClaw 安装服务，248元一单做了7000单，从副业变成100人团队。中国用户给 OpenClaw 起了昵称「龙虾」，线下聚会和直播教学遍地开花，反映非技术用户对 AI agent 的强烈需求。",
         "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
         "why": "AI agent 工具的用户增长瓶颈不是功能而是安装门槛——这催生了「安装即服务」的商业模式。对产品设计的启示：降低 onboarding 摩擦比增加功能更能扩大用户群。",
-        "publishedAt": "2026-03-11"
+        "publishedAt": "2026-03-11",
+        "image": "https://wp.technologyreview.com/wp-content/uploads/2026/03/lobster-pets2a.jpg?resize=1200,600"
       },
       {
         "source": "UX Collective",
